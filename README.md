@@ -13,11 +13,6 @@ El repositorio está preparado para Hostinger Premium Web Hosting sin proceso de
 
 Los cambios enviados a `main` se publican mediante la función de autodespliegue de Git de Hostinger.
 
-## Enlaces pendientes
+## Conversión
 
-Antes del lanzamiento deben sustituirse los marcadores:
-
-- `#configurar-whatsapp`
-- `#configurar-stripe-starter`
-- `#configurar-stripe-growth`
-- `#configurar-stripe-scale`
+Todos los botones comerciales dirigen al WhatsApp de Dania 360. La landing no utiliza enlaces de pago directo.
