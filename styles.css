@@ -248,15 +248,17 @@ blockquote footer b { font-size: 13px; } blockquote footer span { color: #7f8188
   .step-cta { align-items: flex-start; flex-direction: column; }
   .faq-heading { position: static; }
   .final-cta { width: calc(100% - 28px); padding: 75px 20px; margin-bottom: 80px; }
-  .footer { grid-template-columns: 1fr; padding-bottom: 130px; }
-  .footer-legal { align-items: flex-start; flex-direction: row; flex-wrap: wrap; gap: 12px 18px; }
+  .footer { grid-template-columns: 1fr; gap: 24px; padding-bottom: 150px; }
+  .footer-contact { gap: 10px; }
+  .footer-legal, .legal-links { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .footer-legal::before, .legal-links::before { content: "Información legal"; grid-column: 1 / -1; margin-bottom: 4px; color: #85878f; font-size: 10px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+  .footer-legal a, .legal-links a { min-height: 46px; padding: 10px 8px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); border-radius: 10px; background: rgba(255,255,255,.035); color: #d7d8dc; font-size: 12px; font-weight: 750; text-align: center; }
   .legal-document { width: calc(100% - 28px); padding: 50px 0 80px; }
   .legal-back { margin-bottom: 36px; }
   .legal-heading { padding-bottom: 38px; }
   .legal-content section { padding: 34px 0; }
   .legal-data > div { grid-template-columns: 1fr; gap: 7px; }
   .legal-footer { width: calc(100% - 28px); align-items: flex-start; flex-direction: column; }
-  .legal-links { flex-wrap: wrap; }
   .whatsapp-float { display: none; }
   .mobile-bar { position: fixed; display: flex; left: 10px; right: 10px; bottom: 10px; z-index: 30; justify-content: space-between; align-items: center; padding: 9px 9px 9px 15px; border: 1px solid rgba(255,255,255,.13); border-radius: 16px; background: rgba(18,20,26,.94); backdrop-filter: blur(16px); box-shadow: 0 18px 50px rgba(0,0,0,.45); }
   .mobile-bar > div { display: flex; flex-direction: column; gap: 2px; }
