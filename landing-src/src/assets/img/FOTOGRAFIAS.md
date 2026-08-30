@@ -1,15 +1,15 @@
-# Recursos visuales pendientes
+# Recursos visuales de la landing
 
-Nueve fotografías y una imagen social. Ninguna está colocada todavía.
+Nueve fotografías y una imagen social, ya colocadas en la landing.
 
-**No se ha descargado ni enlazado ninguna imagen de terceros.** Usar una
-fotografía sin licencia clara expone al negocio a una reclamación, y enlazar a
-un servidor ajeno añade una dependencia que puede romperse cualquier día.
+**Los recursos actuales se generaron con IA para esta landing el 30 de agosto de 2026.**
+El salón, las profesionales y las clientas son ficticios; no reproducen un negocio,
+un perfil social ni una web de terceros. Si se sustituyen por fotografías reales,
+deben conservarse la licencia y las cesiones de imagen correspondientes.
 
-Mientras falten, la landing **no se ve rota**: `config/fotos.json` las marca como
-no disponibles, así que la página no pide ningún archivo inexistente —la consola
-queda limpia— y cada hueco muestra una composición cálida con un motivo de arco
-que forma parte del diseño.
+Los nueve huecos están activos en `config/fotos.json`. El generador conserva el
+mecanismo de reserva: si en el futuro se desactiva una imagen, no emitirá una URL
+inexistente y mostrará la composición cálida de respaldo.
 
 ## Cómo colocarlas
 

@@ -11,11 +11,10 @@
     "og": {
       "title": "Haz que más personas descubran tu salón y quieran reservar",
       "description": "Gestionamos tu web, tus redes sociales y Google para que tu centro de estética esté siempre visible y transmita confianza.",
-      "_imagenTODO": "TEMPORAL: se usa la imagen social genérica del sitio para que compartir el enlace no devuelva un 404. Sustituir por /salones-estetica/assets/img/og-salones-estetica.jpg (1200x630) en cuanto exista la pieza del sector.",
-      "imagen": "/og.png",
-      "imagenAncho": 1731,
-      "imagenAlto": 909,
-      "imagenAlt": "Dania 360, visibilidad en web, redes sociales y Google"
+      "imagen": "/salones-estetica/assets/img/og-salones-estetica.jpg",
+      "imagenAncho": 1200,
+      "imagenAlto": 630,
+      "imagenAlt": "Marketing para centros de estética, un servicio de Dania360"
     }
   },
   "legales": {
