@@ -1,50 +1,228 @@
-# Fotografías pendientes
+# Recursos visuales pendientes
 
-Ninguna de estas imágenes está incluida todavía. **No se ha descargado ni
-enlazado ninguna fotografía de terceros**: hacerlo sin licencia expone al
-negocio a una reclamación, y enlazar a un servidor ajeno (hotlink) añade
-además una dependencia que puede romperse cualquier día.
+Nueve fotografías y una imagen social. Ninguna está colocada todavía.
 
-Mientras falten, la landing **no se ve rota**. Cada hueco es un contenedor con
-la imagen declarada en la variable CSS `--foto`; si el archivo no existe, esa
-capa no pinta y queda debajo un degradado cálido con una trama fina, que forma
-parte del diseño. No aparece ningún icono de imagen rota ni ningún hueco vacío.
+**No se ha descargado ni enlazado ninguna imagen de terceros.** Usar una
+fotografía sin licencia clara expone al negocio a una reclamación, y enlazar a
+un servidor ajeno añade una dependencia que puede romperse cualquier día.
 
-## Cómo sustituirlas
+Mientras falten, la landing **no se ve rota**: `config/fotos.json` las marca como
+no disponibles, así que la página no pide ningún archivo inexistente —la consola
+queda limpia— y cada hueco muestra una composición cálida con un motivo de arco
+que forma parte del diseño.
+
+## Cómo colocarlas
 
 1. Guarda el archivo en esta carpeta con **exactamente** el nombre indicado.
-2. Formato **WebP** (o AVIF, cambiando la extensión también en el HTML).
-3. Vuelve a generar el sitio: `npm run build`.
+2. Formato **WebP** (calidad 78–80). Máximo 250 KB por imagen.
+3. Pon `disponible: true` en `config/fotos.json`.
+4. `cd landing-src && npm run build:web`.
 
-No hay que tocar el HTML si se respeta el nombre y la extensión.
+No hay que tocar el HTML.
 
-## Listado
+## Las nueve fotografías
 
-| Archivo | Dónde aparece | Proporción | Ancho recomendado | Qué debe mostrar |
-| --- | --- | --- | --- | --- |
-| `hero-salon.webp` | Hero, marco en arco | 4:5 | 1200 px | Interior luminoso del centro con una profesional atendiendo a una clienta. Es la primera imagen: la más cuidada. |
-| `tratamiento-facial.webp` | Resultados, marco alto | 3:4 | 900 px | Tratamiento facial o de belleza en curso. Manos, producto, calma. Sin nada invasivo ni clínico. |
-| `detalle-espacio.webp` | Resultados, marco cuadrado superpuesto | 1:1 | 600 px | Detalle del espacio: recepción, producto, flores, textura. |
-| `redes-sociales-movil.webp` | Servicios 01 | 16:10 | 1100 px | Un teléfono mostrando un perfil de redes profesional y activo de un centro de estética. |
-| `recepcion-salon.webp` | Servicios 02 | 16:10 | 1100 px | Recepción del salón, elegante y ordenada. |
-| `web-salon.webp` | Servicios 03 | 16:10 | 1100 px | La web del centro vista en un portátil, en un entorno cálido. |
-| `contenido-visual.webp` | Servicios 04 | 16:10 | 1100 px | Piezas de contenido: carruseles, fotografías de tratamientos, composición sobre superficie clara. |
-| `profesional-clienta.webp` | Servicios 05 | 16:10 | 1100 px | Profesional conversando con una clienta. Trato cercano. |
-| `salon-cierre.webp` | Cierre, marco en arco | 3:4 | 1000 px | Salón cálido y cuidado, listo para recibir. Debe funcionar sobre fondo terracota. |
-| `og-salones-estetica.jpg` | Open Graph y Twitter Card | 1200 × 630 | 1200 px | Imagen de presentación al compartir el enlace. JPG por compatibilidad con las plataformas sociales. |
+Los tamaños recomendados son el doble del ancho real de renderizado —medido en
+la página, no estimado— para que se vean nítidas en pantallas de alta densidad.
+Las nueve aparecen **en móvil y en escritorio**; ninguna se oculta.
 
-## Criterios
+### 1. `hero-salon.webp`
 
-- Luz natural, tonos cálidos, mucho aire. Deben convivir con el marfil de la
-  página.
+| | |
+| --- | --- |
+| Sección | Hero, marco en arco, junto al titular |
+| Proporción | 4:5 vertical |
+| Tamaño | 1200 × 1500 px |
+| Render real | 526 × 658 px en escritorio · 350 × 438 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Interior luminoso de un centro de estética con una profesional atendiendo a una clienta |
+
+Es la primera imagen que se ve y la más importante. Interior real del centro,
+luz natural, una profesional atendiendo a una clienta. Debe transmitir calma y
+cuidado, no actividad frenética. Encima se superponen cuatro etiquetas blancas
+en las esquinas: **deja las esquinas despejadas**, sin caras ni detalles
+importantes ahí.
+
+### 2. `tratamiento-facial.webp`
+
+| | |
+| --- | --- |
+| Sección | Resultados, marco grande a la derecha de la lista de beneficios |
+| Proporción | 3:4 vertical |
+| Tamaño | 1200 × 1600 px |
+| Render real | 586 × 781 px en escritorio · 350 × 467 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Detalle de un tratamiento facial en un centro de estética |
+
+Un tratamiento facial o corporal en curso. Manos, producto, textura, piel.
+Nada invasivo ni clínico: sin agujas, sin aparatología agresiva, sin guantes de
+quirófano. La sensación debe ser de bienestar, no de consulta médica.
+
+### 3. `detalle-espacio.webp`
+
+| | |
+| --- | --- |
+| Sección | Resultados, marco cuadrado superpuesto sobre la anterior |
+| Proporción | 1:1 |
+| Tamaño | 600 × 600 px |
+| Render real | 270 × 270 px en escritorio · 140 × 140 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Detalle del espacio del salón: recepción cuidada con productos y flores |
+
+Un plano corto: producto sobre una superficie, flores, una toalla doblada, un
+rincón de la recepción. Se ve pequeña y con un borde marfil de 6 px, así que
+**tiene que funcionar como textura**: un elemento claro y grande, nada de
+escenas con muchos detalles.
+
+### 4. `redes-sociales-movil.webp`
+
+| | |
+| --- | --- |
+| Sección | Qué gestionamos · 01 Redes sociales |
+| Proporción | 16:10 apaisada |
+| Tamaño | 1240 × 775 px |
+| Render real | 502 × 314 px en escritorio · 350 × 219 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Teléfono mostrando el perfil de redes sociales profesional de un centro de estética |
+
+Un teléfono en la mano mostrando un perfil de Instagram de un centro de estética
+con una cuadrícula cuidada y coherente. El contenido de la pantalla debe ser
+real o una maqueta propia: **no fotografíes el perfil de otro negocio.**
+
+### 5. `recepcion-salon.webp`
+
+| | |
+| --- | --- |
+| Sección | Qué gestionamos · 02 Google y Maps |
+| Proporción | 16:10 apaisada |
+| Tamaño | 1240 × 775 px |
+| Render real | 614 × 384 px en escritorio · 350 × 219 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Recepción de un salón de belleza elegante y ordenado |
+
+La entrada o el mostrador del salón, ordenado y con carácter. Es la imagen que
+acompaña al bloque de Google y Maps, así que debe parecer «la foto de portada de
+una ficha de empresa»: reconocible, bien iluminada, sin gente de espaldas.
+
+### 6. `web-salon.webp`
+
+| | |
+| --- | --- |
+| Sección | Qué gestionamos · 03 Página web |
+| Proporción | 16:10 apaisada |
+| Tamaño | 1240 × 775 px |
+| Render real | 502 × 314 px en escritorio · 350 × 219 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Página web de un centro de estética vista en un ordenador portátil |
+
+Un portátil sobre una mesa cálida mostrando la web de un centro. Igual que
+antes: la web de la pantalla debe ser nuestra o una maqueta propia.
+
+### 7. `contenido-visual.webp`
+
+| | |
+| --- | --- |
+| Sección | Qué gestionamos · 04 Contenido visual |
+| Proporción | 16:10 apaisada |
+| Tamaño | 1240 × 775 px |
+| Render real | 614 × 384 px en escritorio · 350 × 219 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Piezas de contenido visual de un centro de estética: carruseles e imágenes de tratamientos |
+
+Un bodegón cenital: varias piezas gráficas impresas o en pantalla sobre una
+superficie clara, con producto alrededor. Debe leerse como «así se presenta tu
+trabajo», no como un collage de plantillas.
+
+### 8. `profesional-clienta.webp`
+
+| | |
+| --- | --- |
+| Sección | Qué gestionamos · 05 Mensajes y reseñas |
+| Proporción | 16:10 apaisada |
+| Tamaño | 1240 × 775 px |
+| Render real | 502 × 314 px en escritorio · 350 × 219 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Profesional de estética conversando con una clienta en el salón |
+
+Trato cercano: la profesional escuchando a la clienta, ambas de frente o de
+tres cuartos. Es la imagen más humana de la página. Hacen falta **cesiones de
+imagen firmadas** de las dos personas.
+
+### 9. `salon-cierre.webp`
+
+| | |
+| --- | --- |
+| Sección | Cierre, marco en arco junto al CTA final |
+| Proporción | 3:4 vertical en escritorio · **4:3 apaisada en móvil** |
+| Tamaño | 1200 × 1600 px |
+| Render real | 530 × 707 px en escritorio · 350 × 263 px en móvil |
+| Dispositivos | Ambos |
+| Texto alternativo | Salón de belleza cálido y cuidado, listo para recibir a una clienta |
+
+**Atención: es la única que cambia de proporción.** En móvil se recorta a 4:3
+desde el centro, así que el motivo principal debe estar **centrado
+verticalmente**, con aire arriba y abajo que se pueda perder sin que la imagen
+pierda sentido.
+
+Además va sobre un fondo terracota degradado, así que conviene una toma con
+tonos cálidos que no choque: evita azules y verdes dominantes.
+
+## Imagen Open Graph
+
+| | |
+| --- | --- |
+| Nombre | `og-salones-estetica.jpg` |
+| Ubicación | `src/assets/img/` (se publica en `/salones-estetica/assets/img/`) |
+| Dimensiones | **1200 × 630 px** (relación 1.91:1) |
+| Formato | JPG calidad 82. **Máximo 300 KB.** |
+| Dónde se usa | Vista previa al compartir el enlace en WhatsApp, Facebook, LinkedIn y X |
+| Texto alternativo | Marketing para centros de estética, un servicio de Dania360 |
+
+JPG y no WebP porque algunas plataformas sociales todavía no generan la vista
+previa con WebP.
+
+### Texto que debe aparecer
+
+Solo dos líneas. En WhatsApp esta imagen se ve a unos 250 px de ancho: cualquier
+texto por debajo de 30 px de altura (sobre el lienzo de 1200) es ilegible.
+
+1. Titular, en la serif editorial de la landing, unos 78–86 px:
+   **Marketing para centros de estética**
+2. Línea de apoyo, en sans, unos 34 px, en gris cálido:
+   **Web · Redes sociales · Google · Gestionado por Dania360**
+
+Nada más. Sin precio, sin teléfono, sin URL: el precio cambia y el resto ya lo
+muestra la propia vista previa.
+
+### Composición recomendada
+
+- Lienzo dividido: **55 % izquierda** en marfil `#FBF7F3` con el texto,
+  **45 % derecha** con una fotografía del salón a sangre (sirve un recorte de
+  `hero-salon`).
+- Separación entre ambas mitades con una curva suave, no una línea recta, en
+  coherencia con los marcos en arco de la página.
+- Titular en `#2B2521`; la palabra **estética** en cursiva y en terracota
+  `#94513A`, igual que los titulares de la landing.
+- Logotipo de Dania360 abajo a la izquierda, unos 40 px de alto. Discreto.
+- Filete champán `#C7A87C` de 4 px en el borde inferior.
+- **Margen de seguridad de 60 px** por todos los lados: algunas plataformas
+  recortan a 1.91:1 desde el centro y otras a cuadrado.
+- Sin marcas de agua, sin bordes redondeados (se recortan), sin texto sobre la
+  fotografía.
+
+Mientras no exista, `config/sitio.json` apunta a `/og.png`, la imagen social
+genérica del sitio, para que compartir el enlace no devuelva un 404.
+
+## Criterios comunes a todas
+
+- Luz natural, tonos cálidos, mucho aire. Deben convivir con el marfil `#FBF7F3`.
 - Sin imágenes médicas ni invasivas.
 - **Sin antes y después.** No se pueden mostrar resultados que no sean reales y
   verificables, y un montaje de ese tipo es además una práctica sancionable en
-  publicidad sanitaria y estética.
-- Preferible fotografía real de centros con permiso por escrito. Si se usa banco
-  de imágenes, guardar la licencia junto al proyecto.
-- Optimizar antes de subir: WebP con calidad 75–80 y el ancho de la tabla es
-  suficiente. Ninguna imagen debería superar los 250 KB.
+  publicidad de servicios estéticos.
+- Preferible fotografía real de centros con **permiso por escrito**. Si se usa
+  banco de imágenes, guarda la licencia junto al proyecto.
+- Cesión de imagen firmada de cualquier persona reconocible.
 
 ## Optimización
 
@@ -56,7 +234,6 @@ cwebp -q 78 -resize 1200 0 original.jpg -o hero-salon.webp
 
 ## Carga
 
-El hero se carga de inmediato porque entra en la primera pantalla. El resto de
-huecos son fondos CSS: el navegador solo los descarga cuando el elemento se
-aproxima al viewport, de modo que el aplazamiento de la carga ya está resuelto
-sin `loading="lazy"` ni JavaScript adicional.
+El hero entra en la primera pantalla. El resto son fondos CSS: el navegador solo
+los descarga cuando el elemento se acerca al viewport, así que el aplazamiento
+de la carga ya está resuelto sin `loading="lazy"` ni JavaScript adicional.
