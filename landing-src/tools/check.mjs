@@ -298,6 +298,13 @@ comprobar(
   ),
 );
 comprobar(
+  'La trama decorativa no se superpone a ninguna fotografía',
+  [...html.matchAll(/<div\s+class="marco[^"]*"\s+data-foto="([a-z-]+)"([^>]*)>/g)].every(
+    ([, id, resto]) =>
+      fotos.huecos[id]?.disponible === (resto.includes('data-con-foto')),
+  ),
+);
+comprobar(
   'Los huecos sin fotografía no emiten ninguna URL',
   Object.entries(fotos.huecos)
     .filter(([, hueco]) => !hueco.disponible)

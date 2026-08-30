@@ -21,6 +21,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { dirname, join, resolve } from 'node:path';
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -244,6 +245,33 @@ mkdirSync(rutaLanding, { recursive: true });
  * de 404 y ensuciaría cualquier auditoría de rendimiento. Mientras tanto el
  * hueco muestra su composición cálida, que ya forma parte del diseño.
  */
+/*
+ * El .htaccess del sitio cachea el CSS siete días. Sin una marca de version en
+ * la URL, un cambio de estilos no llegaria a quien ya haya visitado la pagina
+ * hasta que expire esa caché. Se añade un sello derivado del contenido del
+ * propio archivo: cambia solo cuando el archivo cambia, y entonces el navegador
+ * lo vuelve a pedir. Es la misma solucion que ya usa la home con
+ * styles.css?v=..., pero calculada sola en lugar de a mano.
+ */
+function sello(rutaRelativa) {
+  return createHash('sha1')
+    .update(readFileSync(join(raiz, rutaRelativa)))
+    .digest('hex')
+    .slice(0, 8);
+}
+
+function versionarAssets(documento) {
+  return documento
+    .replace(
+      'href="assets/css/salones-estetica.css"',
+      `href="assets/css/salones-estetica.css?v=${sello('src/assets/css/salones-estetica.css')}"`,
+    )
+    .replace(
+      'src="assets/js/salones-estetica.js"',
+      `src="assets/js/salones-estetica.js?v=${sello('src/assets/js/salones-estetica.js')}"`,
+    );
+}
+
 const fotosPendientes = [];
 
 function aplicarFotos(documento) {
@@ -254,11 +282,13 @@ function aplicarFotos(documento) {
       fotosPendientes.push(`${id}.${fotos.extension}`);
       return coincidencia;
     }
-    return `${coincidencia} style="--foto: url('${fotos.carpeta}${id}.${fotos.extension}')"`;
+    /* data-con-foto retira la trama decorativa del hueco: solo tiene sentido
+       mientras no hay imagen. Ver .marco[data-con-foto]::after en el CSS. */
+    return `${coincidencia} data-con-foto style="--foto: url('${fotos.carpeta}${id}.${fotos.extension}')"`;
   });
 }
 
-const landing = aplicarFotos(rellenar(leerTexto('src/templates/salones-estetica.html'), {
+const landing = versionarAssets(aplicarFotos(rellenar(leerTexto('src/templates/salones-estetica.html'), {
   TITLE: esc(sitio.landing.title),
   DESCRIPTION: esc(sitio.landing.description),
   CANONICAL: esc(sitio.landing.canonical),
@@ -281,7 +311,7 @@ const landing = aplicarFotos(rellenar(leerTexto('src/templates/salones-estetica.
   RUTA_PRIVACIDAD: esc(sitio.legales.privacidad),
   RUTA_COOKIES: esc(sitio.legales.cookies),
   ANIO: String(anio),
-}));
+})));
 
 writeFileSync(join(rutaLanding, 'index.html'), landing, 'utf8');
 /* La documentación de las fotografías vive junto a los archivos para que quien

@@ -368,6 +368,15 @@ ul {
   pointer-events: none;
 }
 
+/*
+ * La trama solo existe para dar textura al hueco mientras no hay fotografía.
+ * Sobre una imagen real se leería como una marca de agua, así que en cuanto el
+ * generador marca el hueco con data-con-foto, desaparece.
+ */
+.marco[data-con-foto]::after {
+  content: none;
+}
+
 .marco--arco {
   border-radius: 190px 190px var(--radio-m) var(--radio-m);
 }
