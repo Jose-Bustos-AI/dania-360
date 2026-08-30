@@ -1,0 +1,69 @@
+{
+  "moneda": "USD",
+  "periodo": "mes",
+  "microcopy": "Precios en USD · Servicio mensual · Sin permanencia. Las condiciones e impuestos aplicables se comunicarán antes de contratar.",
+  "planes": [
+    {
+      "id": "starter",
+      "nombre": "Starter",
+      "precio": 99,
+      "destacado": false,
+      "etiqueta": null,
+      "descripcion": "Para que tu salón empiece a mostrar una imagen profesional y constante.",
+      "canales": "Instagram · Facebook",
+      "incluye": [
+        "Página web profesional incluida o gestión de la web actual.",
+        "5 publicaciones por semana: 20 al mes.",
+        "3 posts de imagen y 2 carruseles por semana.",
+        "Creación del contenido y los textos.",
+        "Programación y calendario mensual.",
+        "1 actualización mensual de la web.",
+        "Informe mensual.",
+        "Dominio .com, hosting e imágenes con IA incluidos."
+      ],
+      "boton": "Quiero información del Starter"
+    },
+    {
+      "id": "growth",
+      "nombre": "Growth",
+      "precio": 297,
+      "destacado": true,
+      "etiqueta": "Recomendado para crecer",
+      "descripcion": "Para salones que quieren ganar visibilidad local y generar más oportunidades.",
+      "canales": "Instagram · Facebook · TikTok · Pinterest · Google",
+      "incluye": [
+        "Influencer clon digital.",
+        "1 publicación diaria: 30 al mes.",
+        "2 vídeos, 2 carruseles y 3 posts de imagen por semana.",
+        "1 publicación semanal en Google Business Profile.",
+        "Respuesta a comentarios y mensajes privados.",
+        "Gestión de reseñas en Google.",
+        "Republicación en Stories.",
+        "Derivación de oportunidades al teléfono o WhatsApp.",
+        "Informe de actividad y visibilidad local."
+      ],
+      "boton": "Quiero información del Growth"
+    },
+    {
+      "id": "scale",
+      "nombre": "Scale",
+      "precio": 497,
+      "destacado": false,
+      "etiqueta": null,
+      "descripcion": "Para centros que quieren una presencia integral y destacar también en buscadores.",
+      "canales": "Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google",
+      "incluye": [
+        "Optimización para buscadores con IA como ChatGPT.",
+        "Posicionamiento SEO continuo.",
+        "2 publicaciones diarias: 60 al mes.",
+        "12 vídeos, 12 carruseles y 36 posts de imagen al mes.",
+        "2 publicaciones semanales en Google Business Profile.",
+        "Contenido adaptado para LinkedIn, X y YouTube.",
+        "1 contenido y 1 página optimizados para SEO al mes.",
+        "Gestión prioritaria de comentarios, mensajes y reseñas.",
+        "Informe de posicionamiento y visibilidad."
+      ],
+      "boton": "Quiero información del Scale"
+    }
+  ]
+}

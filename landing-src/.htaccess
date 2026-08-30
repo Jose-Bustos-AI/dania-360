@@ -1,0 +1,27 @@
+# Deniega por completo el acceso HTTP a esta carpeta y a todo su contenido.
+#
+# landing-src/ es el codigo fuente de la landing publicada en
+# /salones-estetica/. Se versiona en el repositorio para que la pagina siga
+# siendo mantenible, pero Hostinger despliega el repositorio entero en
+# public_html, asi que sin esta regla la carpeta quedaria navegable.
+#
+# robots.txt se mantiene, pero no basta: solo pide a los buscadores que no
+# indexen, no impide que nadie abra la URL directamente.
+#
+# Se cubren las dos sintaxis de autorizacion porque no controlamos que version
+# sirve el hosting. Los dos bloques son excluyentes: se aplica exactamente uno.
+
+# Apache 2.4 y LiteSpeed, que es lo que usa Hostinger.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+
+# Apache 2.2 y anteriores.
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>
+
+# Deliberadamente NO se anade "Options -Indexes". Require all denied ya impide
+# el listado, y si el hosting no permitiese la clase Options en .htaccess esa
+# linea convertiria un 403 limpio en un error 500. Comprobado con Apache 2.4.

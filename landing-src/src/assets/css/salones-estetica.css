@@ -1,0 +1,1499 @@
+/* ==========================================================================
+   Dania360 · Landing para salones y centros de estética
+   Identidad visual propia. No comparte tokens, componentes ni estructura con
+   dania360.com: aquí la base es marfil, la jerarquía es editorial (serif de
+   sistema) y el color de acción es cálido, con el verde de WhatsApp reservado
+   en exclusiva para los botones de contacto.
+
+   Sin dependencias externas: ni framework CSS ni fuentes remotas. Las fuentes
+   remotas añadirían una petición bloqueante a un tercero y una dependencia de
+   red que en móvil se paga en tiempo de primera pintura; la pila de sistema
+   con serif de lectura da el mismo carácter editorial a coste cero.
+
+   Índice
+   1. Tokens
+   2. Base y utilidades
+   3. Botones y CTA
+   4. Marcos fotográficos
+   5. Cabecera y menú
+   6. Hero
+   7. Problema
+   8. Transformación
+   9. Beneficios
+  10. Servicios
+  11. Cómo funciona
+  12. Planes
+  13. Confianza
+  14. Preguntas
+  15. Cierre
+  16. Pie y barra móvil
+  17. Movimiento y responsive
+   ========================================================================== */
+
+/* --- 1. Tokens ---------------------------------------------------------- */
+
+:root {
+  /* Superficies cálidas. El marfil es el fondo dominante de toda la página. */
+  --marfil: #fbf7f3;
+  --crema: #f4ece3;
+  --nude: #eddfd3;
+  --blanco: #ffffff;
+
+  /* Tinta. Nunca negro puro: el negro absoluto sobre marfil resulta duro. */
+  --carbon: #2b2521;
+  --carbon-suave: #4a423c;
+  --gris-calido: #6f655d;
+
+  /* Acentos. Decorativos y de titular; nunca sustituyen al CTA. */
+  --champan: #c7a87c;
+  --champan-claro: #e7d7c0;
+  --terracota: #b96a4e;
+  --terracota-tinta: #94513a; /* variante con contraste suficiente en texto */
+  --burdeos: #6d2c3e;
+
+  /* Verde WhatsApp: uso exclusivo en botones y enlaces de contacto.
+     Se usa el verde oscuro de la marca porque el claro sobre blanco no
+     alcanza el contraste mínimo para texto. */
+  --wa: #128c7e;
+  --wa-oscuro: #0d6f64;
+  --wa-brillo: #25d366;
+
+  --linea: #e6dbd0;
+  --linea-fuerte: #d6c6b7;
+
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua',
+    Georgia, 'Times New Roman', serif;
+  --sans: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+
+  --radio-s: 10px;
+  --radio-m: 18px;
+  --radio-l: 28px;
+  --radio-xl: 40px;
+
+  --sombra-suave: 0 1px 2px rgba(69, 50, 38, 0.05),
+    0 18px 40px -28px rgba(69, 50, 38, 0.35);
+  --sombra-alta: 0 2px 4px rgba(69, 50, 38, 0.06),
+    0 40px 70px -40px rgba(69, 50, 38, 0.45);
+
+  --ancho: 1180px;
+  --hueco: clamp(2.5rem, 6vw, 5.5rem);
+}
+
+/* --- 2. Base y utilidades ----------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  /* Compensa la cabecera fija al saltar a un ancla desde el menú. */
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--marfil);
+  color: var(--carbon);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  /* Ninguna composición puede ensanchar el documento en móvil. */
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.35rem, 5.2vw, 3.9rem);
+}
+
+h2 {
+  font-size: clamp(1.95rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--terracota);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--champan-claro);
+  color: var(--carbon);
+}
+
+.contenedor {
+  width: min(var(--ancho), 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+.seccion {
+  padding-block: var(--hueco);
+  position: relative;
+}
+
+.seccion--blanca {
+  background: var(--blanco);
+}
+
+.seccion--crema {
+  background: var(--crema);
+}
+
+/* Bloque cálido con esquinas orgánicas: sustituye a la banda recta habitual. */
+.seccion--nude {
+  background: var(--nude);
+  border-radius: var(--radio-xl) var(--radio-xl) 0 0;
+}
+
+.enlace-salto {
+  position: absolute;
+  left: -9999px;
+}
+
+.enlace-salto:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 60;
+  position: fixed;
+  background: var(--carbon);
+  color: var(--marfil);
+  padding: 0.7rem 1.1rem;
+  border-radius: var(--radio-s);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.solo-lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Antetítulo en versalitas con filete: marca de sección de la landing. */
+.antetitulo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--terracota-tinta);
+  margin-bottom: 1.1rem;
+}
+
+.antetitulo::before {
+  content: '';
+  width: 2.2rem;
+  height: 1px;
+  background: var(--champan);
+}
+
+.entradilla {
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  color: var(--carbon-suave);
+  max-width: 56ch;
+}
+
+.destacado-serif {
+  font-style: italic;
+  color: var(--terracota-tinta);
+}
+
+.microcopy {
+  font-size: 0.875rem;
+  color: var(--gris-calido);
+}
+
+/* --- 3. Botones y CTA --------------------------------------------------- */
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  /* Área de pulsación cómoda en móvil sin recurrir a media queries. */
+  min-height: 52px;
+  padding: 0.9rem 1.6rem;
+  cursor: pointer;
+  transition: background-color 180ms ease, border-color 180ms ease,
+    color 180ms ease, transform 180ms ease;
+}
+
+.boton:hover {
+  transform: translateY(-1px);
+}
+
+/* Verde WhatsApp: reservado a los botones que abren la conversación. */
+.boton--wa {
+  background: var(--wa);
+  color: #fff;
+  box-shadow: 0 12px 26px -16px rgba(18, 140, 126, 0.9);
+}
+
+.boton--wa:hover {
+  background: var(--wa-oscuro);
+}
+
+.boton--wa .icono-wa {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  fill: currentColor;
+}
+
+.boton--contorno {
+  background: transparent;
+  color: var(--carbon);
+  border-color: var(--linea-fuerte);
+}
+
+.boton--contorno:hover {
+  border-color: var(--carbon);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.boton--tinta {
+  background: var(--carbon);
+  color: var(--marfil);
+}
+
+.boton--tinta:hover {
+  background: #1c1815;
+}
+
+.boton--ancho {
+  width: 100%;
+}
+
+.cta-bloque {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+/* --- 4. Marcos fotográficos --------------------------------------------- */
+
+/*
+ * Cada hueco de fotografía es un contenedor con la imagen final declarada en
+ * la variable --foto. Si el archivo todavía no existe, esa capa simplemente no
+ * pinta y queda el degradado cálido de debajo: la composición no se rompe ni
+ * aparece el icono de imagen rota. Sustituir la fotografía es cambiar la ruta.
+ */
+.marco {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--nude);
+  /*
+   * Tres capas. La primera es la fotografía definitiva; si el archivo no
+   * existe, no pinta. La segunda es un motivo de arco, un guiño al espejo del
+   * salón, que da intención al hueco vacío. La tercera, el degradado cálido.
+   * Al añadir la fotografía, las dos capas inferiores quedan tapadas.
+   */
+  background-image: var(--foto, none),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 250'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.5' stroke-width='1.1'%3E%3Cpath d='M60 210V120a40 40 0 0 1 80 0v90'/%3E%3Cpath d='M74 210v-90a26 26 0 0 1 52 0v90'/%3E%3Ccircle cx='100' cy='62' r='16'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(120% 90% at 20% 10%, #f7ece1 0%, transparent 60%),
+    linear-gradient(150deg, #ecd9c8 0%, #e3c8b4 45%, #d8b8a2 100%);
+  background-size: cover, 46% auto, cover, cover;
+  background-position: center, center 58%, center, center;
+  background-repeat: no-repeat;
+  box-shadow: var(--sombra-suave);
+}
+
+/* Trama fina que da textura a los huecos sin fotografía definitiva. */
+.marco::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.22) 0 1px,
+    transparent 1px 9px
+  );
+  pointer-events: none;
+}
+
+/*
+ * La trama solo existe para dar textura al hueco mientras no hay fotografía.
+ * Sobre una imagen real se leería como una marca de agua, así que en cuanto el
+ * generador marca el hueco con data-con-foto, desaparece.
+ */
+.marco[data-con-foto]::after {
+  content: none;
+}
+
+.marco--arco {
+  border-radius: 190px 190px var(--radio-m) var(--radio-m);
+}
+
+.marco--suave {
+  border-radius: var(--radio-l);
+}
+
+.marco--pildora {
+  border-radius: 999px;
+}
+
+.marco--hero {
+  aspect-ratio: 4 / 5;
+}
+
+.marco--alto {
+  aspect-ratio: 3 / 4;
+}
+
+.marco--ancho {
+  aspect-ratio: 16 / 10;
+}
+
+.marco--cuadro {
+  aspect-ratio: 1 / 1;
+}
+
+/* --- 5. Cabecera y menú -------------------------------------------------- */
+
+.cabecera {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(251, 247, 243, 0.92);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--linea);
+}
+
+.cabecera__fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 74px;
+}
+
+/* Logotipo discreto: tamaño contenido y sin condicionar la paleta. */
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  flex: none;
+}
+
+.marca__simbolo {
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+
+.marca__texto {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: -0.01em;
+  color: var(--carbon);
+}
+
+.marca__texto span {
+  color: var(--terracota);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: var(--carbon-suave);
+  padding-block: 0.4rem;
+  border-bottom: 1px solid transparent;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+
+.nav a:hover {
+  color: var(--carbon);
+  border-bottom-color: var(--champan);
+}
+
+.cabecera__acciones {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cabecera .boton--wa {
+  padding: 0.7rem 1.25rem;
+  min-height: 46px;
+  font-size: 0.94rem;
+}
+
+.menu-boton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--linea-fuerte);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu-boton__barras,
+.menu-boton__barras::before,
+.menu-boton__barras::after {
+  display: block;
+  width: 18px;
+  height: 1.5px;
+  background: var(--carbon);
+  content: '';
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.menu-boton__barras::before {
+  transform: translateY(-6px);
+}
+
+.menu-boton__barras::after {
+  transform: translateY(4.5px);
+}
+
+.menu-boton[aria-expanded='true'] .menu-boton__barras {
+  background: transparent;
+}
+
+.menu-boton[aria-expanded='true'] .menu-boton__barras::before {
+  transform: rotate(45deg);
+}
+
+.menu-boton[aria-expanded='true'] .menu-boton__barras::after {
+  transform: translateY(-1.5px) rotate(-45deg);
+}
+
+.menu-movil {
+  display: none;
+  border-top: 1px solid var(--linea);
+  background: var(--marfil);
+  padding: 1.1rem 0 1.5rem;
+}
+
+.menu-movil[data-abierto='true'] {
+  display: block;
+}
+
+.menu-movil a.menu-movil__enlace {
+  display: block;
+  padding: 0.85rem 0.25rem;
+  font-size: 1.05rem;
+  text-decoration: none;
+  color: var(--carbon);
+  border-bottom: 1px solid var(--linea);
+}
+
+.menu-movil .boton {
+  margin-top: 1.2rem;
+}
+
+/* --- 6. Hero ------------------------------------------------------------- */
+
+.hero {
+  padding-block: clamp(2.5rem, 5vw, 4.5rem) var(--hueco);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Mancha cálida orgánica de fondo, muy tenue. */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -22%;
+  right: -14%;
+  width: 46rem;
+  height: 46rem;
+  background: radial-gradient(
+    circle,
+    rgba(233, 210, 186, 0.55) 0%,
+    rgba(251, 247, 243, 0) 68%
+  );
+  pointer-events: none;
+}
+
+.hero__rejilla {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.hero__texto h1 {
+  margin-block: 0.4rem 1.3rem;
+}
+
+.hero__parrafo {
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  color: var(--carbon-suave);
+  max-width: 46ch;
+}
+
+.hero .cta-bloque {
+  margin-top: 2rem;
+}
+
+.hero__microcopy {
+  margin-top: 1.1rem;
+}
+
+/* Línea de canales bajo el hero, separada por un filete champán. */
+.hero__canales {
+  margin-top: 2.2rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--linea);
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  color: var(--gris-calido);
+}
+
+.hero__canales strong {
+  color: var(--carbon);
+  font-weight: 600;
+}
+
+.hero__media {
+  position: relative;
+}
+
+/* Etiquetas de resultado superpuestas a la fotografía. */
+.etiqueta {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--carbon);
+  box-shadow: var(--sombra-suave);
+  white-space: nowrap;
+}
+
+.etiqueta::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--terracota);
+  flex: none;
+}
+
+.etiqueta--1 {
+  top: 8%;
+  left: -8%;
+}
+
+.etiqueta--2 {
+  top: 34%;
+  right: -6%;
+}
+
+.etiqueta--3 {
+  bottom: 20%;
+  left: -10%;
+}
+
+.etiqueta--4 {
+  bottom: 4%;
+  right: -3%;
+}
+
+/* --- 7. Problema --------------------------------------------------------- */
+
+.problema__cabecera {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: end;
+}
+
+.problema__cabecera h2 {
+  max-width: 20ch;
+}
+
+.problema__lista {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--linea-fuerte);
+}
+
+/*
+ * Rejilla editorial con filetes en lugar de tarjetas: el listado se lee como
+ * una página impresa y evita el patrón de "cajas" de la web principal.
+ */
+.problema__item {
+  padding: clamp(1.6rem, 3vw, 2.4rem) clamp(1rem, 3vw, 2.6rem)
+    clamp(1.6rem, 3vw, 2.4rem) 0;
+  border-bottom: 1px solid var(--linea-fuerte);
+}
+
+.problema__item:nth-child(even) {
+  padding-left: clamp(1rem, 3vw, 2.6rem);
+  padding-right: 0;
+  border-left: 1px solid var(--linea-fuerte);
+}
+
+.problema__item h3 {
+  font-family: var(--sans);
+  font-size: 1.06rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  margin-bottom: 0.6rem;
+}
+
+.problema__item p {
+  color: var(--carbon-suave);
+  font-size: 0.985rem;
+}
+
+.problema__cierre {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+/* --- 8. Transformación --------------------------------------------------- */
+
+.transformacion__rejilla {
+  margin-top: clamp(2.2rem, 4vw, 3.4rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.2rem, 3vw, 2rem);
+  align-items: start;
+}
+
+.panel {
+  border-radius: var(--radio-l);
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+}
+
+/* El "antes" se presenta apagado y sin relieve; el "después", cálido y elevado. */
+.panel--antes {
+  background: #f0ece7;
+  border: 1px solid var(--linea);
+  color: var(--gris-calido);
+}
+
+.panel--despues {
+  background: linear-gradient(165deg, #ffffff 0%, #fdf6ef 100%);
+  border: 1px solid var(--champan-claro);
+  box-shadow: var(--sombra-alta);
+}
+
+.panel__titulo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+
+.panel--antes .panel__titulo {
+  color: var(--gris-calido);
+}
+
+.panel--despues .panel__titulo {
+  color: var(--terracota-tinta);
+}
+
+.panel__lista li {
+  display: flex;
+  gap: 0.8rem;
+  padding-block: 0.7rem;
+  font-size: 1rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.07);
+}
+
+.panel__lista li:last-child {
+  border-bottom: 0;
+}
+
+.panel--despues .panel__lista li {
+  color: var(--carbon);
+}
+
+.marca-lista {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 0.22rem;
+}
+
+.panel__nota {
+  margin-top: 1.4rem;
+  font-size: 0.85rem;
+  color: var(--gris-calido);
+}
+
+/* --- 9. Beneficios ------------------------------------------------------- */
+
+.beneficios__rejilla {
+  margin-top: clamp(2.2rem, 4vw, 3.4rem);
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+/*
+ * Lista emocional con numeración fina y filetes: nada de cuadrícula de iconos.
+ */
+.beneficios__lista li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.1rem;
+  padding-block: clamp(0.85rem, 1.6vw, 1.15rem);
+  border-bottom: 1px solid var(--linea);
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  line-height: 1.3;
+}
+
+.beneficios__lista li:first-child {
+  border-top: 1px solid var(--linea);
+}
+
+.beneficios__lista .indice {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--champan);
+  flex: none;
+  width: 1.6rem;
+}
+
+.beneficios__media {
+  position: relative;
+}
+
+.beneficios__media .marco + .marco {
+  position: absolute;
+  right: -6%;
+  bottom: -12%;
+  width: 46%;
+  border: 6px solid var(--marfil);
+}
+
+/* --- 10. Servicios ------------------------------------------------------- */
+
+/*
+ * Composición asimétrica: filas alternas de fotografía y texto con numeración
+ * grande en serif. Deliberadamente lejos de una parrilla de tarjetas iguales.
+ */
+.servicio {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(1.6rem, 5vw, 4rem);
+  align-items: center;
+  padding-block: clamp(2rem, 4vw, 3.2rem);
+  border-bottom: 1px solid var(--linea);
+}
+
+.servicio:last-of-type {
+  border-bottom: 0;
+}
+
+.servicio:nth-child(even) .servicio__media {
+  order: 2;
+}
+
+.servicio__numero {
+  font-family: var(--serif);
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--champan);
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.servicio__texto h3 {
+  margin-bottom: 0.7rem;
+}
+
+.servicio__texto p {
+  color: var(--carbon-suave);
+  max-width: 52ch;
+}
+
+.servicio__nota {
+  margin-top: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--gris-calido);
+  border-left: 2px solid var(--champan-claro);
+  padding-left: 0.8rem;
+}
+
+/* --- 11. Cómo funciona --------------------------------------------------- */
+
+.pasos {
+  margin-top: clamp(2.2rem, 4vw, 3.4rem);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.2rem, 3vw, 2.2rem);
+}
+
+.paso {
+  position: relative;
+  padding-top: 2.6rem;
+}
+
+/* Filete superior con punto: hilo conductor entre los cuatro pasos. */
+.paso::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--linea-fuerte);
+}
+
+.paso::after {
+  content: '';
+  position: absolute;
+  top: -4.5px;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--terracota);
+}
+
+.paso__numero {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  color: var(--terracota-tinta);
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+
+.paso h3 {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.55rem;
+}
+
+.paso p {
+  font-size: 0.95rem;
+  color: var(--carbon-suave);
+}
+
+/* --- 12. Planes ---------------------------------------------------------- */
+
+.planes {
+  margin-top: clamp(2.4rem, 4vw, 3.6rem);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.2rem, 2.5vw, 1.8rem);
+  align-items: start;
+}
+
+.plan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio-l);
+  padding: clamp(1.6rem, 2.6vw, 2.2rem);
+  height: 100%;
+}
+
+/* El plan recomendado se distingue por color, elevación y tamaño, no por un
+   borde de color plano. */
+.plan--destacado {
+  background: linear-gradient(170deg, #ffffff 0%, #fdf5ee 100%);
+  border-color: var(--champan);
+  box-shadow: var(--sombra-alta);
+  transform: translateY(-14px);
+  padding-block: clamp(2rem, 3.2vw, 2.8rem);
+}
+
+.plan__cinta {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--burdeos);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.plan__nombre {
+  font-family: var(--serif);
+  font-size: 1.85rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.plan__descripcion {
+  color: var(--carbon-suave);
+  font-size: 0.97rem;
+  min-height: 3.2em;
+}
+
+.plan__precio {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-block: 1.3rem 0.2rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--linea);
+}
+
+.plan__importe {
+  font-family: var(--serif);
+  font-size: 2.9rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.plan__periodo {
+  font-size: 0.92rem;
+  color: var(--gris-calido);
+}
+
+.plan__canales {
+  font-size: 0.83rem;
+  color: var(--terracota-tinta);
+  letter-spacing: 0.02em;
+  margin-bottom: 1.4rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--linea);
+}
+
+.plan__incluye {
+  flex: 1;
+  margin-bottom: 1.6rem;
+}
+
+.plan__incluye li {
+  display: flex;
+  gap: 0.7rem;
+  padding-block: 0.42rem;
+  font-size: 0.945rem;
+  color: var(--carbon-suave);
+}
+
+.plan__incluye .marca-lista {
+  margin-top: 0.28rem;
+}
+
+.planes__microcopy {
+  margin-top: clamp(1.8rem, 3vw, 2.6rem);
+  text-align: center;
+  max-width: 62ch;
+  margin-inline: auto;
+}
+
+/* --- 13. Confianza ------------------------------------------------------- */
+
+.confianza__rejilla {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.2rem, 3vw, 2.2rem);
+}
+
+.confianza__item {
+  padding-top: 1.2rem;
+  border-top: 2px solid var(--champan-claro);
+}
+
+.confianza__item h3 {
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.confianza__item p {
+  font-size: 0.94rem;
+  color: var(--carbon-suave);
+}
+
+/*
+ * Hueco reservado para los casos reales de salones. Se publica cuando existan
+ * clientes con permiso por escrito; hasta entonces no se muestra nada.
+ * Para activarlo: quitar el atributo hidden y rellenar los artículos.
+ */
+.casos-reales {
+  margin-top: clamp(2.4rem, 4vw, 3.4rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+}
+
+.caso {
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio-m);
+  padding: 1.5rem;
+}
+
+.caso__cita {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1.45;
+}
+
+.caso__firma {
+  margin-top: 1rem;
+  font-size: 0.86rem;
+  color: var(--gris-calido);
+}
+
+/* --- 14. Preguntas ------------------------------------------------------- */
+
+.faq {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  max-width: 62rem;
+  margin-inline: auto;
+  border-top: 1px solid var(--linea-fuerte);
+}
+
+.faq__item {
+  border-bottom: 1px solid var(--linea-fuerte);
+}
+
+.faq__pregunta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 1.35rem 0;
+  text-align: left;
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 1.8vw, 1.32rem);
+  line-height: 1.35;
+  color: var(--carbon);
+  cursor: pointer;
+}
+
+.faq__signo {
+  flex: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.faq__signo::before,
+.faq__signo::after {
+  content: '';
+  position: absolute;
+  background: var(--terracota);
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
+.faq__signo::before {
+  top: 9.5px;
+  left: 0;
+  width: 20px;
+  height: 1.5px;
+}
+
+.faq__signo::after {
+  top: 0;
+  left: 9.5px;
+  width: 1.5px;
+  height: 20px;
+}
+
+.faq__pregunta[aria-expanded='true'] .faq__signo::after {
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+.faq__respuesta {
+  display: none;
+  padding-bottom: 1.5rem;
+  max-width: 78ch;
+  color: var(--carbon-suave);
+}
+
+.faq__respuesta[data-abierta='true'] {
+  display: block;
+}
+
+.faq__cierre {
+  margin-top: clamp(2rem, 4vw, 2.8rem);
+  text-align: center;
+}
+
+/* --- 15. Cierre ---------------------------------------------------------- */
+
+.cierre {
+  position: relative;
+  background: linear-gradient(150deg, #f6e6d8 0%, #eed6c4 55%, #e6c6b0 100%);
+  border-radius: var(--radio-xl) var(--radio-xl) 0 0;
+  overflow: hidden;
+}
+
+.cierre__rejilla {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.cierre h2 {
+  margin-block: 0.4rem 1.2rem;
+}
+
+.cierre .entradilla {
+  color: var(--carbon-suave);
+}
+
+.cierre .cta-bloque {
+  margin-top: 1.9rem;
+}
+
+.cierre__microcopy {
+  margin-top: 1rem;
+  color: var(--carbon-suave);
+}
+
+/* --- 16. Pie y barra móvil ----------------------------------------------- */
+
+.pie {
+  background: var(--marfil);
+  border-top: 1px solid var(--linea);
+  padding-block: clamp(2.4rem, 4vw, 3.4rem) 2rem;
+  font-size: 0.92rem;
+  color: var(--carbon-suave);
+}
+
+.pie__superior {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: clamp(1.6rem, 4vw, 3rem);
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--linea);
+}
+
+.pie__descripcion {
+  margin-top: 1rem;
+  max-width: 42ch;
+}
+
+.pie h2 {
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--carbon);
+  margin-bottom: 0.9rem;
+}
+
+.pie__lista li {
+  padding-block: 0.34rem;
+}
+
+.pie__lista a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.pie__lista a:hover {
+  border-bottom-color: var(--champan);
+}
+
+.pie__inferior {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--gris-calido);
+}
+
+/* Deja sitio a la barra fija para que no tape el final del pie. */
+.pie {
+  padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+}
+
+.barra-movil {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 45;
+  background: rgba(251, 247, 243, 0.96);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--linea);
+  padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
+}
+
+/* --- 17. Movimiento y responsive ----------------------------------------- */
+
+/*
+ * Única animación de la página: una aparición muy corta al entrar en pantalla.
+ * Sin deslizadores automáticos, sin ventanas emergentes y sin paralaje.
+ */
+.revelar {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 620ms ease, transform 620ms ease;
+  will-change: opacity, transform;
+}
+
+.revelar[data-visible='true'] {
+  opacity: 1;
+  transform: none;
+}
+
+/* Si no hay JavaScript, el contenido debe verse igualmente. */
+.sin-js .revelar {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 1080px) {
+  .hero__rejilla,
+  .beneficios__rejilla,
+  .cierre__rejilla,
+  .problema__cabecera {
+    grid-template-columns: 1fr;
+  }
+
+  .problema__cabecera {
+    align-items: start;
+  }
+
+  /*
+   * En una sola columna la fotografía va DESPUÉS del texto. Colocarla arriba
+   * empuja el titular y el botón principal fuera de la primera pantalla, que
+   * es justo lo que no puede pasar en el móvil de una persona que acaba de
+   * pulsar un anuncio.
+   */
+  .hero__media {
+    max-width: 30rem;
+    margin-inline: auto;
+    margin-top: 2.5rem;
+    width: 100%;
+  }
+
+  .etiqueta--1 {
+    left: 2%;
+  }
+
+  .etiqueta--3 {
+    left: 0;
+  }
+
+  .etiqueta--2 {
+    right: 2%;
+  }
+
+  .etiqueta--4 {
+    right: 4%;
+  }
+
+  /* En una columna, un marco 3:4 a ancho completo ocupa una pantalla entera. */
+  .cierre .marco {
+    aspect-ratio: 4 / 3;
+    max-width: 30rem;
+    margin-inline: auto;
+  }
+
+  .pasos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .planes {
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+    margin-inline: auto;
+  }
+
+  .plan--destacado {
+    transform: none;
+  }
+
+  .confianza__rejilla {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pie__superior {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .nav,
+  .cabecera__acciones .boton--wa {
+    display: none;
+  }
+
+  .menu-boton {
+    display: inline-flex;
+  }
+
+  .servicio,
+  .servicio:nth-child(even) .servicio__media {
+    grid-template-columns: 1fr;
+    order: 0;
+  }
+
+  .beneficios__media .marco + .marco {
+    right: 0;
+    bottom: -8%;
+    width: 40%;
+  }
+
+  .barra-movil {
+    display: block;
+  }
+
+  /* Espacio para que la barra fija no oculte el último contenido. */
+  body {
+    padding-bottom: 5.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .problema__lista {
+    grid-template-columns: 1fr;
+  }
+
+  .problema__item,
+  .problema__item:nth-child(even) {
+    padding-inline: 0;
+    border-left: 0;
+  }
+
+  .transformacion__rejilla,
+  .pasos,
+  .confianza__rejilla,
+  .pie__superior {
+    grid-template-columns: 1fr;
+  }
+
+  .marco--arco {
+    border-radius: 140px 140px var(--radio-m) var(--radio-m);
+  }
+
+  .cta-bloque .boton {
+    width: 100%;
+  }
+
+  .etiqueta {
+    font-size: 0.78rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .etiqueta--3 {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .revelar {
+    opacity: 1;
+    transform: none;
+  }
+
+  .boton:hover {
+    transform: none;
+  }
+}

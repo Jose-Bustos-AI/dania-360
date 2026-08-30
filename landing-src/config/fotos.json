@@ -1,0 +1,79 @@
+{
+  "_aviso": "Un hueco solo pinta su fotografía cuando disponible es true. Mientras sea false no se emite ninguna URL, de modo que el navegador no pide un archivo inexistente y la consola queda limpia. Para activar una fotografía: guarda el archivo en src/assets/img/ con el nombre indicado, pon disponible en true y ejecuta npm run build. Especificacion completa de las nueve fotografias y de la imagen Open Graph en src/assets/img/FOTOGRAFIAS.md.",
+  "carpeta": "/salones-estetica/assets/img/",
+  "extension": "webp",
+  "huecos": {
+    "hero-salon": {
+      "disponible": true,
+      "proporcion": "4:5",
+      "anchoRecomendado": 1200,
+      "descripcion": "Hero. Interior luminoso del centro con una profesional atendiendo a una clienta.",
+      "altoRecomendado": 1500,
+      "dispositivos": "movil y escritorio"
+    },
+    "tratamiento-facial": {
+      "disponible": true,
+      "proporcion": "3:4",
+      "anchoRecomendado": 1200,
+      "descripcion": "Resultados. Tratamiento facial o de belleza en curso, sin nada invasivo ni clínico.",
+      "altoRecomendado": 1600,
+      "dispositivos": "movil y escritorio"
+    },
+    "detalle-espacio": {
+      "disponible": true,
+      "proporcion": "1:1",
+      "anchoRecomendado": 600,
+      "descripcion": "Resultados. Detalle del espacio: recepción, producto, flores, textura.",
+      "altoRecomendado": 600,
+      "dispositivos": "movil y escritorio"
+    },
+    "redes-sociales-movil": {
+      "disponible": true,
+      "proporcion": "16:10",
+      "anchoRecomendado": 1240,
+      "descripcion": "Servicios 01. Teléfono mostrando un perfil de redes profesional y activo.",
+      "altoRecomendado": 775,
+      "dispositivos": "movil y escritorio"
+    },
+    "recepcion-salon": {
+      "disponible": true,
+      "proporcion": "16:10",
+      "anchoRecomendado": 1240,
+      "descripcion": "Servicios 02. Recepción del salón, elegante y ordenada.",
+      "altoRecomendado": 775,
+      "dispositivos": "movil y escritorio"
+    },
+    "web-salon": {
+      "disponible": true,
+      "proporcion": "16:10",
+      "anchoRecomendado": 1240,
+      "descripcion": "Servicios 03. La web del centro vista en un portátil, en un entorno cálido.",
+      "altoRecomendado": 775,
+      "dispositivos": "movil y escritorio"
+    },
+    "contenido-visual": {
+      "disponible": true,
+      "proporcion": "16:10",
+      "anchoRecomendado": 1240,
+      "descripcion": "Servicios 04. Piezas de contenido sobre superficie clara: carruseles e imágenes.",
+      "altoRecomendado": 775,
+      "dispositivos": "movil y escritorio"
+    },
+    "profesional-clienta": {
+      "disponible": true,
+      "proporcion": "16:10",
+      "anchoRecomendado": 1240,
+      "descripcion": "Servicios 05. Profesional conversando con una clienta. Trato cercano.",
+      "altoRecomendado": 775,
+      "dispositivos": "movil y escritorio"
+    },
+    "salon-cierre": {
+      "disponible": true,
+      "proporcion": "3:4 en escritorio, 4:3 recortada en movil",
+      "anchoRecomendado": 1200,
+      "descripcion": "Cierre. Salón cálido y cuidado. Debe funcionar sobre fondo terracota.",
+      "altoRecomendado": 1600,
+      "dispositivos": "movil y escritorio"
+    }
+  }
+}
