@@ -173,13 +173,18 @@ blockquote footer b { font-size: 13px; } blockquote footer span { color: #7f8188
 .final-cta > p { max-width: 620px; margin-inline: auto; }
 .final-cta .hero-actions { justify-content: center; }
 .final-note { position: relative; z-index: 1; display: block; margin-top: 15px; color: #777982; font-size: 10px; }
-.footer { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 35px 0 110px; display: grid; grid-template-columns: auto 1fr auto auto; gap: 30px; align-items: center; border-top: 1px solid var(--line); color: #73757c; font-size: 11px; }
+.footer { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 35px 0 110px; display: grid; grid-template-columns: auto 1fr auto auto auto; gap: 30px; align-items: center; border-top: 1px solid var(--line); color: #73757c; font-size: 11px; }
 .footer p { margin: 0; max-width: 480px; line-height: 1.5; }
 .footer-contact, .footer-legal { display: flex; flex-direction: column; gap: 8px; }
 .footer-contact a { color: #a3dcbc; }
 .footer-legal { align-items: flex-end; }
 .footer-legal a { color: #aeb0b7; }
 .footer-legal a:hover { color: white; }
+/* Soluciones por sectores: enlaces a las landings verticales. */
+.footer-sectores { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; text-align: right; }
+.footer-sectores b { color: #85878f; font-size: 10px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.footer-sectores a { max-width: 22ch; color: #aeb0b7; }
+.footer-sectores a:hover { color: white; }
 
 /* Legal pages */
 .legal-page { min-height: 100vh; }
@@ -250,6 +255,8 @@ blockquote footer b { font-size: 13px; } blockquote footer span { color: #7f8188
   .final-cta { width: calc(100% - 28px); padding: 75px 20px; margin-bottom: 80px; }
   .footer { grid-template-columns: 1fr; gap: 24px; padding-bottom: 150px; }
   .footer-contact { gap: 10px; }
+  .footer-sectores { align-items: flex-start; text-align: left; gap: 6px; }
+  .footer-sectores a { max-width: none; }
   .footer-legal, .legal-links { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-top: 20px; border-top: 1px solid var(--line); }
   .footer-legal::before, .legal-links::before { content: "Información legal"; grid-column: 1 / -1; margin-bottom: 4px; color: #85878f; font-size: 10px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
   .footer-legal a, .legal-links a { min-height: 46px; padding: 10px 8px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); border-radius: 10px; background: rgba(255,255,255,.035); color: #d7d8dc; font-size: 12px; font-weight: 750; text-align: center; }

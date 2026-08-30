@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Código fuente de la landing de estética: se versiona en el repositorio,
+# pero no es contenido para buscadores.
+Disallow: /landing-src/
+
 Sitemap: https://dania360.com/sitemap.xml

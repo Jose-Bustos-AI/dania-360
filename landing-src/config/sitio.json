@@ -1,0 +1,26 @@
+{
+  "marca": "Dania360",
+  "origen": "https://dania360.com",
+  "landing": {
+    "ruta": "/salones-estetica/",
+    "title": "Marketing para centros de estética | Dania 360",
+    "description": "Hacemos visible tu centro de estética para ayudarte a atraer nuevos clientes. Web, redes sociales y Google gestionados desde 99 USD/mes.",
+    "canonical": "https://dania360.com/salones-estetica/",
+    "idioma": "es",
+    "indexable": true,
+    "og": {
+      "title": "Haz que más personas descubran tu salón y quieran reservar",
+      "description": "Gestionamos tu web, tus redes sociales y Google para que tu centro de estética esté siempre visible y transmita confianza.",
+      "_imagenTODO": "TEMPORAL: se usa la imagen social genérica del sitio para que compartir el enlace no devuelva un 404. Sustituir por /salones-estetica/assets/img/og-salones-estetica.jpg (1200x630) en cuanto exista la pieza del sector.",
+      "imagen": "/og.png",
+      "imagenAncho": 1731,
+      "imagenAlto": 909,
+      "imagenAlt": "Dania 360, visibilidad en web, redes sociales y Google"
+    }
+  },
+  "legales": {
+    "avisoLegal": "/aviso-legal/",
+    "privacidad": "/privacidad/",
+    "cookies": "/cookies/"
+  }
+}

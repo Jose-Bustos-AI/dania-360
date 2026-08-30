@@ -1,0 +1,7 @@
+<!-- Pegar dentro del <urlset> del sitemap actual de dania360.com -->
+  <url>
+    <loc>https://dania360.com/salones-estetica/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>

@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="es" class="sin-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <link rel="canonical" href="{{CANONICAL}}" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#fbf7f3" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dania360" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="{{CANONICAL}}" />
+    <meta property="og:title" content="{{OG_TITLE}}" />
+    <meta property="og:description" content="{{OG_DESCRIPTION}}" />
+    <meta property="og:image" content="{{OG_IMAGE}}" />
+    <meta property="og:image:width" content="{{OG_IMAGE_W}}" />
+    <meta property="og:image:height" content="{{OG_IMAGE_H}}" />
+    <meta property="og:image:alt" content="{{OG_IMAGE_ALT}}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{OG_TITLE}}" />
+    <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />
+    <meta name="twitter:image" content="{{OG_IMAGE}}" />
+    <meta name="twitter:image:alt" content="{{OG_IMAGE_ALT}}" />
+
+    <link rel="stylesheet" href="assets/css/salones-estetica.css" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+{{JSONLD_SERVICE}}
+    </script>
+    <script type="application/ld+json">
+{{JSONLD_FAQ}}
+    </script>
+  </head>
+
+  <body>
+    <a class="enlace-salto" href="#contenido">Saltar al contenido</a>
+
+    <!-- Iconos en linea: evitan una peticion extra y heredan el color. -->
+    <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute">
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.23 8.23 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.65-1.23-1.46-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.09-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.48-.4-.42-.55-.43h-.47c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.17 1.72 2.62 4.16 3.68.58.25 1.03.4 1.39.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 20 20">
+        <path d="M4 10.4 8.1 14.5 16 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-punto" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5" />
+      </symbol>
+    </svg>
+
+    <!-- ===================== Cabecera ===================== -->
+    <header class="cabecera">
+      <div class="contenedor cabecera__fila">
+        <a class="marca" href="{{CANONICAL}}" aria-label="Dania360, inicio de la pagina para centros de estetica">
+          <svg class="marca__simbolo" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <rect width="32" height="32" rx="9" fill="#f4ece3" />
+            <circle cx="16" cy="16" r="8.5" fill="none" stroke="#2b2521" stroke-width="2.2" />
+            <path d="M16 7.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="#ff6a1a" stroke-width="2.4" stroke-linecap="round" />
+            <circle cx="16" cy="16" r="2.6" fill="#ff6a1a" />
+          </svg>
+          <span class="marca__texto">Dania<span>360</span></span>
+        </a>
+
+        <nav class="nav" aria-label="Secciones de la pagina">
+          <a href="#resultados">Resultados</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#planes">Planes</a>
+          <a href="#preguntas">Preguntas</a>
+        </nav>
+
+        <div class="cabecera__acciones">
+          <a
+            class="boton boton--wa"
+            href="{{WA_GENERAL}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cta-location="cabecera"
+            aria-label="Escribir por WhatsApp a Dania360 para atraer más clientes a mi centro de estética"
+          >
+            <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+            Quiero atraer más clientes
+          </a>
+          <button
+            class="menu-boton"
+            type="button"
+            data-menu-boton
+            aria-expanded="false"
+            aria-controls="menu-movil"
+            aria-label="Abrir el menú de navegación"
+          >
+            <span class="menu-boton__barras" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-movil" id="menu-movil" data-menu data-abierto="false">
+        <div class="contenedor">
+          <nav aria-label="Secciones de la página, versión móvil">
+            <a class="menu-movil__enlace" href="#resultados">Resultados</a>
+            <a class="menu-movil__enlace" href="#como-funciona">Cómo funciona</a>
+            <a class="menu-movil__enlace" href="#planes">Planes</a>
+            <a class="menu-movil__enlace" href="#preguntas">Preguntas</a>
+          </nav>
+          <a
+            class="boton boton--wa boton--ancho"
+            href="{{WA_GENERAL}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cta-location="menu_movil"
+            aria-label="Escribir por WhatsApp a Dania360 desde el menú de navegación"
+          >
+            <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+            Quiero atraer más clientes
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- ===================== Hero ===================== -->
+      <section class="hero">
+        <div class="contenedor hero__rejilla">
+          <div class="hero__texto">
+            <p class="antetitulo">Para salones y centros de estética</p>
+            <h1>
+              Haz que más personas descubran tu salón y
+              <span class="destacado-serif">quieran reservar</span>.
+            </h1>
+            <p class="hero__parrafo">
+              Gestionamos tu web, tus redes sociales y Google para que tu salón
+              esté siempre visible, transmita confianza y genere más
+              oportunidades de contacto.
+            </p>
+
+            <div class="cta-bloque">
+              <a
+                class="boton boton--wa"
+                href="{{WA_GENERAL}}"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta-location="hero"
+                aria-label="Escribir por WhatsApp a Dania360 para atraer más clientes a mi centro de estética"
+              >
+                <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+                Quiero atraer más clientes
+              </a>
+              <a class="boton boton--contorno" href="#planes">Ver los planes</a>
+            </div>
+
+            <p class="microcopy hero__microcopy">
+              Te orientamos por WhatsApp · Sin compromiso · Sin permanencia
+            </p>
+
+            <p class="hero__canales">
+              <strong>Web · Redes sociales · Google</strong> · Todo gestionado
+              para tu salón
+            </p>
+          </div>
+
+          <div class="hero__media">
+            <div
+              class="marco marco--arco marco--hero"
+              data-foto="hero-salon"
+              role="img"
+              aria-label="Interior luminoso de un centro de estética con una profesional atendiendo a una clienta"
+            ></div>
+            <span class="etiqueta etiqueta--1">Más visibilidad</span>
+            <span class="etiqueta etiqueta--2">Imagen profesional</span>
+            <span class="etiqueta etiqueta--3">Google, web y redes</span>
+            <span class="etiqueta etiqueta--4">Contacto directo</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Problema ===================== -->
+      <section class="seccion seccion--blanca">
+        <div class="contenedor">
+          <div class="problema__cabecera revelar">
+            <div>
+              <p class="antetitulo">Lo que ocurre antes de entrar por la puerta</p>
+              <h2>
+                Haces un trabajo excelente. El problema es que muchas personas
+                <span class="destacado-serif">todavía no lo ven</span>.
+              </h2>
+            </div>
+            <p class="entradilla">
+              Antes de elegir un centro, tus futuras clientas buscan en Google,
+              miran las redes, comparan tratamientos y revisan opiniones. Si tu
+              salón no aparece o no transmite confianza, terminan eligiendo
+              otro.
+            </p>
+          </div>
+
+          <div class="problema__lista revelar">
+            <article class="problema__item">
+              <h3>Publicas solamente cuando puedes</h3>
+              <p>
+                Tus redes pasan demasiado tiempo sin mostrar tus tratamientos,
+                resultados y novedades.
+              </p>
+            </article>
+            <article class="problema__item">
+              <h3>Otros centros aparecen antes</h3>
+              <p>
+                Cuando alguien busca estética en tu zona, puede encontrar
+                primero a la competencia.
+              </p>
+            </article>
+            <article class="problema__item">
+              <h3>Tu imagen online no refleja la calidad real</h3>
+              <p>
+                Un perfil descuidado puede transmitir menos profesionalidad de
+                la que existe dentro de tu salón.
+              </p>
+            </article>
+            <article class="problema__item">
+              <h3>Contactar resulta demasiado complicado</h3>
+              <p>
+                Si no encuentran rápidamente tus servicios, ubicación o
+                WhatsApp, buscan otra opción.
+              </p>
+            </article>
+          </div>
+
+          <div class="problema__cierre">
+            <a
+              class="boton boton--wa"
+              href="{{WA_GENERAL}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta-location="problema"
+              aria-label="Escribir por WhatsApp a Dania360 para que más personas conozcan mi salón"
+            >
+              <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+              Quiero que más personas conozcan mi salón
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Transformación ===================== -->
+      <section class="seccion">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">El cambio</p>
+            <h2>
+              Una presencia digital que esté
+              <span class="destacado-serif">a la altura de tu salón</span>.
+            </h2>
+          </div>
+
+          <div class="transformacion__rejilla revelar">
+            <div class="panel panel--antes">
+              <p class="panel__titulo">Antes</p>
+              <ul class="panel__lista">
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Redes descuidadas.
+                </li>
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Publicaciones improvisadas.
+                </li>
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Web antigua o inexistente.
+                </li>
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Poca presencia en Google.
+                </li>
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Imagen diferente en cada plataforma.
+                </li>
+                <li>
+                  <svg class="marca-lista" aria-hidden="true" focusable="false"><use href="#i-punto" /></svg>
+                  Personas interesadas que no contactan.
+                </li>
+              </ul>
+            </div>
+
+            <div class="panel panel--despues">
+              <p class="panel__titulo">Con Dania360</p>
+              <ul class="panel__lista">
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Contenido profesional y constante.
+                </li>
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Tratamientos presentados de forma atractiva.
+                </li>
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Web preparada para generar confianza.
+                </li>
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Perfil de Google trabajado.
+                </li>
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Imagen coherente en todos los canales.
+                </li>
+                <li>
+                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>
+                  Acceso directo para contactar con el salón.
+                </li>
+              </ul>
+              <p class="panel__nota">
+                Trabajamos la visibilidad y la confianza. No podemos prometer
+                que todas las visitas terminen reservando, y no vamos a
+                hacerlo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Resultados ===================== -->
+      <section class="seccion seccion--blanca" id="resultados">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">Resultados que busca tu centro</p>
+            <h2>
+              No necesitas más publicaciones. Necesitas que más personas te
+              <span class="destacado-serif">vean, confíen y contacten</span>.
+            </h2>
+          </div>
+
+          <div class="beneficios__rejilla">
+            <ul class="beneficios__lista revelar">
+              <li><span class="indice">01</span> Más visibilidad en tu zona</li>
+              <li><span class="indice">02</span> Una imagen que transmite calidad</li>
+              <li><span class="indice">03</span> Tratamientos mejor presentados</li>
+              <li><span class="indice">04</span> Redes siempre activas</li>
+              <li><span class="indice">05</span> Mayor presencia en Google</li>
+              <li><span class="indice">06</span> Un camino directo hacia tu WhatsApp</li>
+              <li><span class="indice">07</span> Menos tiempo pendiente del marketing</li>
+            </ul>
+
+            <div class="beneficios__media revelar">
+              <div
+                class="marco marco--suave marco--alto"
+                data-foto="tratamiento-facial"
+                role="img"
+                aria-label="Detalle de un tratamiento facial en un centro de estética"
+              ></div>
+              <div
+                class="marco marco--suave marco--cuadro"
+                data-foto="detalle-espacio"
+                role="img"
+                aria-label="Detalle del espacio del salón: recepción cuidada con productos y flores"
+              ></div>
+            </div>
+          </div>
+
+          <div class="problema__cierre">
+            <a
+              class="boton boton--wa"
+              href="{{WA_GENERAL}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta-location="beneficios"
+              aria-label="Escribir por WhatsApp a Dania360 para hablar de la visibilidad de mi centro"
+            >
+              <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+              Quiero atraer más clientes
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Qué gestionamos ===================== -->
+      <section class="seccion">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">Qué gestionamos</p>
+            <h2>
+              Nos ocupamos de tu presencia digital para que tú te ocupes de
+              <span class="destacado-serif">tus clientas</span>.
+            </h2>
+          </div>
+
+          <div class="servicios">
+            <article class="servicio revelar">
+              <div class="servicio__media">
+                <div
+                  class="marco marco--suave marco--ancho"
+                  data-foto="redes-sociales-movil"
+                  role="img"
+                  aria-label="Teléfono mostrando el perfil de redes sociales profesional de un centro de estética"
+                ></div>
+              </div>
+              <div class="servicio__texto">
+                <span class="servicio__numero">01</span>
+                <h3>Redes sociales</h3>
+                <p>
+                  Creamos, editamos, programamos y publicamos contenido para
+                  mostrar tus tratamientos, promociones, resultados y la
+                  personalidad del salón.
+                </p>
+              </div>
+            </article>
+
+            <article class="servicio revelar">
+              <div class="servicio__media">
+                <div
+                  class="marco marco--suave marco--ancho"
+                  data-foto="recepcion-salon"
+                  role="img"
+                  aria-label="Recepción de un salón de belleza elegante y ordenado"
+                ></div>
+              </div>
+              <div class="servicio__texto">
+                <span class="servicio__numero">02</span>
+                <h3>Google y Maps</h3>
+                <p>
+                  Trabajamos tu Perfil de Empresa, publicaciones y reseñas para
+                  reforzar tu presencia cuando buscan servicios de estética
+                  cerca de ti.
+                </p>
+                <p class="servicio__nota">Incluido desde el plan Growth.</p>
+              </div>
+            </article>
+
+            <article class="servicio revelar">
+              <div class="servicio__media">
+                <div
+                  class="marco marco--suave marco--ancho"
+                  data-foto="web-salon"
+                  role="img"
+                  aria-label="Página web de un centro de estética vista en un ordenador portátil"
+                ></div>
+              </div>
+              <div class="servicio__texto">
+                <span class="servicio__numero">03</span>
+                <h3>Página web</h3>
+                <p>
+                  Creamos una web profesional o gestionamos la que ya tienes
+                  para presentar tus servicios y facilitar el contacto.
+                </p>
+                <p class="servicio__nota">
+                  Incluida en todos los planes, con dominio .com y hosting en
+                  Starter.
+                </p>
+              </div>
+            </article>
+
+            <article class="servicio revelar">
+              <div class="servicio__media">
+                <div
+                  class="marco marco--suave marco--ancho"
+                  data-foto="contenido-visual"
+                  role="img"
+                  aria-label="Piezas de contenido visual de un centro de estética: carruseles e imágenes de tratamientos"
+                ></div>
+              </div>
+              <div class="servicio__texto">
+                <span class="servicio__numero">04</span>
+                <h3>Contenido visual</h3>
+                <p>
+                  Diseñamos imágenes, carruseles y vídeos que ayudan a mostrar
+                  el valor de tus tratamientos.
+                </p>
+              </div>
+            </article>
+
+            <article class="servicio revelar">
+              <div class="servicio__media">
+                <div
+                  class="marco marco--suave marco--ancho"
+                  data-foto="profesional-clienta"
+                  role="img"
+                  aria-label="Profesional de estética conversando con una clienta en el salón"
+                ></div>
+              </div>
+              <div class="servicio__texto">
+                <span class="servicio__numero">05</span>
+                <h3>Mensajes y reseñas</h3>
+                <p>
+                  Según el plan, gestionamos comentarios, mensajes privados y
+                  reseñas para que ninguna oportunidad quede desatendida.
+                </p>
+                <p class="servicio__nota">
+                  Desde el plan Growth; con atención prioritaria en Scale.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Cómo funciona ===================== -->
+      <section class="seccion seccion--crema" id="como-funciona">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">Cómo funciona</p>
+            <h2>
+              Tú cuidas de tus clientas. Nosotros
+              <span class="destacado-serif">hacemos visible tu salón</span>.
+            </h2>
+          </div>
+
+          <div class="pasos revelar">
+            <article class="paso">
+              <span class="paso__numero">01</span>
+              <h3>Conocemos tu salón</h3>
+              <p>
+                Nos cuentas tus tratamientos, promociones, cliente ideal, zona
+                y objetivos.
+              </p>
+            </article>
+            <article class="paso">
+              <span class="paso__numero">02</span>
+              <h3>Preparamos tu presencia digital</h3>
+              <p>
+                Conectamos las cuentas y recogemos tu logo, fotografías e
+                información.
+              </p>
+            </article>
+            <article class="paso">
+              <span class="paso__numero">03</span>
+              <h3>Creamos y publicamos</h3>
+              <p>
+                Diseñamos el contenido, actualizamos tus canales y mantenemos
+                todo en marcha.
+              </p>
+            </article>
+            <article class="paso">
+              <span class="paso__numero">04</span>
+              <h3>Recibes nuevas oportunidades</h3>
+              <p>
+                Las personas interesadas encuentran un camino claro para
+                contactar con tu salón.
+              </p>
+            </article>
+          </div>
+
+          <div class="problema__cierre">
+            <a
+              class="boton boton--wa"
+              href="{{WA_GENERAL}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta-location="como_funciona"
+              aria-label="Escribir por WhatsApp a Dania360 para saber cómo funcionaría en mi salón"
+            >
+              <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+              Quiero saber cómo funcionaría en mi salón
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Planes ===================== -->
+      <section class="seccion" id="planes">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">Planes</p>
+            <h2>
+              Elige el ritmo al que quieres
+              <span class="destacado-serif">hacer crecer tu centro</span>.
+            </h2>
+            <p class="entradilla" style="margin-top: 1rem">
+              No se contrata desde esta página. Nos escribes por WhatsApp,
+              hablamos de tu salón y te decimos con claridad qué plan encaja
+              mejor contigo.
+            </p>
+          </div>
+
+          <div class="planes revelar">
+{{PLANES}}
+          </div>
+
+          <p class="microcopy planes__microcopy">{{PLANES_MICROCOPY}}</p>
+        </div>
+      </section>
+
+      <!-- ===================== Confianza ===================== -->
+      <section class="seccion seccion--blanca">
+        <div class="contenedor">
+          <div class="revelar">
+            <p class="antetitulo">Con quién trabajas</p>
+            <h2>Lo que sí podemos decirte <span class="destacado-serif">con certeza</span>.</h2>
+          </div>
+
+          <div class="confianza__rejilla revelar">
+            <div class="confianza__item">
+              <h3>Servicio ofrecido por Dania360</h3>
+              <p>
+                Detrás de la landing hay una empresa con nombre, teléfono y
+                atención directa, no un formulario anónimo.
+              </p>
+            </div>
+            <div class="confianza__item">
+              <h3>Franquicia oficial de Dania.ai</h3>
+              <p>
+                Dania360 opera como franquicia oficial de Dania.ai dentro de la
+                red Dania.
+              </p>
+            </div>
+            <div class="confianza__item">
+              <h3>Contenido revisado por personas</h3>
+              <p>
+                Nada se publica en tus canales sin que una persona lo revise
+                antes.
+              </p>
+            </div>
+            <div class="confianza__item">
+              <h3>Atención directa por WhatsApp</h3>
+              <p>
+                Hablas con nosotros por el mismo canal por el que te escriben
+                tus clientas.
+              </p>
+            </div>
+            <div class="confianza__item">
+              <h3>Servicio mensual sin permanencia</h3>
+              <p>
+                No firmas una atadura. Si el servicio no te aporta, lo dejas
+                cuando quieras.
+              </p>
+            </div>
+            <div class="confianza__item">
+              <h3>Web incluida según el plan</h3>
+              <p>
+                La página web forma parte del servicio, no es un extra que se
+                factura aparte.
+              </p>
+            </div>
+          </div>
+
+          <!--
+            Casos reales de salones.
+            Componente preparado y vacío a propósito: se publicará cuando haya
+            centros con permiso por escrito para usar su nombre y su imagen.
+            Para activarlo: quitar el atributo hidden y rellenar los artículos
+            con datos verificables. No inventar citas ni resultados.
+          -->
+          <div class="casos-reales" data-casos-reales hidden>
+            <article class="caso">
+              <p class="caso__cita"><!-- Cita literal del salón --></p>
+              <p class="caso__firma"><!-- Nombre del centro · Ciudad --></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Preguntas ===================== -->
+      <section class="seccion" id="preguntas">
+        <div class="contenedor">
+          <div class="revelar" style="text-align: center">
+            <p class="antetitulo" style="justify-content: center">Preguntas frecuentes</p>
+            <h2>Las dudas que nos plantean <span class="destacado-serif">otros centros</span>.</h2>
+          </div>
+
+          <div class="faq revelar">
+{{FAQ}}
+          </div>
+
+          <div class="faq__cierre">
+            <a
+              class="boton boton--wa"
+              href="{{WA_GENERAL}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta-location="faq"
+              aria-label="Escribir por WhatsApp a Dania360 para resolver una duda sobre el servicio"
+            >
+              <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+              Tengo otra pregunta
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== Cierre ===================== -->
+      <section class="seccion cierre">
+        <div class="contenedor cierre__rejilla">
+          <div class="revelar">
+            <p class="antetitulo">Tu próxima clienta ya está buscando</p>
+            <h2>Haz que <span class="destacado-serif">encuentre tu salón</span>.</h2>
+            <p class="entradilla">
+              Cuéntanos qué tratamientos ofreces y dónde está tu centro. Te
+              explicaremos cómo mejorar tu visibilidad y qué plan encaja mejor
+              contigo.
+            </p>
+
+            <div class="cta-bloque">
+              <a
+                class="boton boton--wa"
+                href="{{WA_GENERAL}}"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta-location="cierre"
+                aria-label="Escribir por WhatsApp a Dania360 para agendar una llamada"
+              >
+                <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+                Quiero agendar una llamada
+              </a>
+              <a class="boton boton--contorno" href="{{TEL_HREF}}">Llamar al {{TELEFONO}}</a>
+            </div>
+
+            <p class="microcopy cierre__microcopy">
+              Una conversación · Una recomendación clara · Sin compromiso
+            </p>
+          </div>
+
+          <div class="revelar">
+            <div
+              class="marco marco--arco marco--alto"
+              data-foto="salon-cierre"
+              role="img"
+              aria-label="Salón de belleza cálido y cuidado, listo para recibir a una clienta"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== Pie ===================== -->
+    <footer class="pie">
+      <div class="contenedor">
+        <div class="pie__superior">
+          <div>
+            <a class="marca" href="{{ORIGEN}}/" aria-label="Dania360">
+              <svg class="marca__simbolo" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                <rect width="32" height="32" rx="9" fill="#f4ece3" />
+                <circle cx="16" cy="16" r="8.5" fill="none" stroke="#2b2521" stroke-width="2.2" />
+                <path d="M16 7.5a8.5 8.5 0 0 1 8.5 8.5" fill="none" stroke="#ff6a1a" stroke-width="2.4" stroke-linecap="round" />
+                <circle cx="16" cy="16" r="2.6" fill="#ff6a1a" />
+              </svg>
+              <span class="marca__texto">Dania<span>360</span></span>
+            </a>
+            <p class="pie__descripcion">
+              Una solución de Dania360 para centros de estética. Dania360 opera
+              como franquicia oficial de Dania.ai dentro de la red Dania.
+            </p>
+          </div>
+
+          <div>
+            <h2>Contacto</h2>
+            <ul class="pie__lista">
+              <li><a href="{{TEL_HREF}}">{{TELEFONO}}</a></li>
+              <li>
+                <a
+                  href="{{WA_GENERAL}}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-cta-location="pie"
+                  aria-label="Escribir por WhatsApp a Dania360 desde el pie de página"
+                  >WhatsApp</a
+                >
+              </li>
+              <li><a href="{{ORIGEN}}/">dania360.com</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Legal</h2>
+            <ul class="pie__lista">
+              <li><a href="{{RUTA_AVISO}}">Aviso legal</a></li>
+              <li><a href="{{RUTA_PRIVACIDAD}}">Privacidad</a></li>
+              <li><a href="{{RUTA_COOKIES}}">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pie__inferior">
+          <p>© {{ANIO}} Dania360. Todos los derechos reservados.</p>
+          <p>Una solución de Dania360 para centros de estética.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Barra fija de contacto en móvil. -->
+    <div class="barra-movil">
+      <a
+        class="boton boton--wa boton--ancho"
+        href="{{WA_GENERAL}}"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-cta-location="barra_movil"
+        aria-label="Escribir por WhatsApp a Dania360 para atraer más clientes a mi centro de estética"
+      >
+        <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
+        Hablar por WhatsApp
+      </a>
+    </div>
+
+    <script src="assets/js/salones-estetica.js" defer></script>
+  </body>
+</html>

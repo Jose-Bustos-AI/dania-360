@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Dania360 · Páginas legales
+   Hoja mínima y sobria: estas páginas se leen, no se venden. Comparte la
+   paleta cálida de la landing para no romper la continuidad de marca, pero
+   no reutiliza ninguno de sus componentes.
+   ========================================================================== */
+
+:root {
+  --marfil: #fbf7f3;
+  --blanco: #ffffff;
+  --carbon: #2b2521;
+  --carbon-suave: #4a423c;
+  --gris-calido: #6f655d;
+  --terracota: #b96a4e;
+  --terracota-tinta: #94513a;
+  --linea: #e6dbd0;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua',
+    Georgia, 'Times New Roman', serif;
+  --sans: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--marfil);
+  color: var(--carbon);
+  font-family: var(--sans);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.contenedor {
+  width: min(46rem, 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+.cabecera-legal {
+  border-bottom: 1px solid var(--linea);
+  padding-block: 1.25rem;
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.marca svg {
+  width: 28px;
+  height: 28px;
+}
+
+.marca span {
+  font-weight: 700;
+  color: var(--carbon);
+}
+
+.marca span em {
+  font-style: normal;
+  color: var(--terracota);
+}
+
+main {
+  padding-block: clamp(2.5rem, 6vw, 4.5rem) 4rem;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.15;
+  margin: 0 0 0.6rem;
+}
+
+h2 {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 2.4rem 0 0.7rem;
+}
+
+p,
+li {
+  color: var(--carbon-suave);
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+dl {
+  margin: 0 0 1rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.2rem;
+}
+
+dt {
+  font-weight: 600;
+  color: var(--carbon);
+}
+
+dd {
+  margin: 0;
+  color: var(--carbon-suave);
+}
+
+@media (max-width: 520px) {
+  dl {
+    grid-template-columns: 1fr;
+    gap: 0 0;
+  }
+
+  dd {
+    margin-bottom: 0.7rem;
+  }
+}
+
+.actualizado {
+  color: var(--gris-calido);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--terracota-tinta);
+}
+
+:focus-visible {
+  outline: 3px solid var(--terracota);
+  outline-offset: 3px;
+}
+
+/*
+ * Aviso de datos legales incompletos. Solo se inserta cuando la página se
+ * genera en modo desarrollo (npm run build -- --dev). Nunca llega a producción
+ * y nunca muestra el detalle de lo que falta a una persona visitante.
+ */
+.aviso-desarrollo {
+  background: #fff4e5;
+  border: 1px solid #f0c98a;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 2rem;
+  font-size: 0.92rem;
+  color: #7a4a10;
+}
+
+.aviso-desarrollo strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.pie-legal {
+  border-top: 1px solid var(--linea);
+  padding-block: 1.5rem 2.5rem;
+  font-size: 0.88rem;
+  color: var(--gris-calido);
+}
+
+.pie-legal a {
+  margin-right: 1.1rem;
+}

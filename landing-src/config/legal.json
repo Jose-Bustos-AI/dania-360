@@ -1,0 +1,56 @@
+{
+  "_aviso": "FUENTE ÚNICA DE LOS DATOS LEGALES. Mientras legalDataComplete sea false, las páginas legales se generan con noindex,nofollow y NUNCA imprimen marcadores como [PENDIENTE]: el bloque afectado simplemente no se renderiza.",
+  "legalDataComplete": false,
+
+  "razonSocial": "",
+  "nombreComercial": "Dania360",
+  "nif": "",
+  "domicilio": {
+    "via": "",
+    "codigoPostal": "",
+    "localidad": "",
+    "provincia": "",
+    "pais": "España"
+  },
+  "registroMercantil": {
+    "registro": "",
+    "tomo": "",
+    "folio": "",
+    "hoja": "",
+    "inscripcion": ""
+  },
+  "correos": {
+    "general": "",
+    "privacidad": "",
+    "legal": ""
+  },
+  "telefono": "+34 631 105 772",
+  "dpd": {
+    "designado": false,
+    "nombre": "",
+    "correo": ""
+  },
+  "jurisdiccion": {
+    "ciudad": "",
+    "pais": "España"
+  },
+  "daniaAi": {
+    "relacion": "Dania360 opera como franquicia oficial de Dania.ai.",
+    "identidadLegal": "",
+    "domicilio": "",
+    "rolProteccionDatos": ""
+  },
+
+  "_TODO": [
+    "TODO razonSocial — denominación social exacta de la S.L. una vez constituida.",
+    "TODO nif — CIF/NIF definitivo de la sociedad.",
+    "TODO domicilio.* — domicilio social completo que figure en escritura.",
+    "TODO registroMercantil.* — registro, tomo, folio, hoja e inscripción.",
+    "TODO correos.general / correos.privacidad / correos.legal — buzones definitivos.",
+    "TODO dpd.* — indicar si se designa Delegado de Protección de Datos y sus datos de contacto.",
+    "TODO jurisdiccion.ciudad — fuero pactado en las condiciones de contratación.",
+    "TODO daniaAi.identidadLegal / domicilio / rolProteccionDatos — identidad legal de Dania.ai y su papel (encargado o corresponsable) en el tratamiento.",
+    "TODO Revisión por asesoría jurídica antes de poner legalDataComplete en true.",
+    "ADVERTENCIA No deben iniciarse campañas de pago ni captación masiva hasta completar y revisar toda la información legal."
+  ]
+}
