@@ -89,27 +89,4 @@
     });
   }
 
-  /* --- Medición de los clics a WhatsApp ---------------------------------- */
-
-  /*
-   * Se empuja un evento `whatsapp_click` a dataLayer con el lugar del botón y,
-   * cuando corresponde, el plan. No se declara aquí ningún identificador de
-   * Google Analytics ni de Google Ads: el contenedor de etiquetas es quien
-   * decide qué hacer con el evento. Si no existe un contenedor, el array se
-   * crea igualmente y no se pierde nada.
-   */
-  window.dataLayer = window.dataLayer || [];
-
-  document.addEventListener('click', function (evento) {
-    var enlace = evento.target.closest('a[data-cta-location]');
-    if (!enlace) return;
-
-    window.dataLayer.push({
-      event: 'whatsapp_click',
-      cta_location: enlace.getAttribute('data-cta-location'),
-      plan: enlace.getAttribute('data-plan') || null,
-      destino: enlace.getAttribute('href'),
-      pagina: '/salones-estetica/',
-    });
-  });
 })();
