@@ -109,6 +109,18 @@
   }
 
   document.addEventListener('click', function (event) {
+    var resetButton = event.target.closest('[data-consent-reset]');
+    if (!resetButton) return;
+
+    try {
+      window.localStorage.removeItem(CONSENT_KEY);
+    } catch (error) {
+      /* El botón sigue informando aunque el almacenamiento esté bloqueado. */
+    }
+    window.location.reload();
+  });
+
+  document.addEventListener('click', function (event) {
     var link = event.target.closest('a[href*="wa.me/"]');
     if (!link || getSavedChoice() !== 'accepted') return;
 
