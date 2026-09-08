@@ -2,7 +2,10 @@
   'use strict';
 
   var MEASUREMENT_ID = 'G-MDS60C48BR';
-  var CONSENT_KEY = 'dania360_consent_v1';
+  var CONSENT_KEY = 'dania360_consent_v2';
+  var META_PIXEL_ID = '1093385700325597';
+  var metaLoaded = false;
+  var consentChoice = null;
   var tagLoaded = false;
 
   window.dataLayer = window.dataLayer || [];
@@ -33,7 +36,31 @@
     });
   }
 
+  function loadMetaPixel() {
+    if (metaLoaded) return;
+    metaLoaded = true;
+    if (!window.fbq) {
+      var queue = window.fbq = function () {
+        queue.callMethod ? queue.callMethod.apply(queue, arguments) : queue.queue.push(arguments);
+      };
+      if (!window._fbq) window._fbq = queue;
+      queue.push = queue;
+      queue.loaded = true;
+      queue.version = '2.0';
+      queue.queue = [];
+    }
+    window.fbq('consent', 'grant');
+    window.fbq('set', 'autoConfig', false, META_PIXEL_ID);
+    window.fbq('init', META_PIXEL_ID);
+    window.fbq('track', 'PageView');
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://connect.facebook.net/en_US/fbevents.js';
+    document.head.appendChild(script);
+  }
+
   function updateConsent(choice) {
+    consentChoice = choice;
     var granted = choice === 'accepted' ? 'granted' : 'denied';
 
     window.gtag('consent', 'update', {
@@ -43,7 +70,12 @@
       analytics_storage: granted
     });
 
-    if (choice === 'accepted') loadGoogleTag();
+    if (choice === 'accepted') {
+      loadGoogleTag();
+      loadMetaPixel();
+    } else if (window.fbq) {
+      window.fbq('consent', 'revoke');
+    }
   }
 
   function saveChoice(choice) {
@@ -57,9 +89,9 @@
 
   function getSavedChoice() {
     try {
-      return window.localStorage.getItem(CONSENT_KEY);
+      return window.localStorage.getItem(CONSENT_KEY) || consentChoice;
     } catch (error) {
-      return null;
+      return consentChoice;
     }
   }
 
@@ -71,7 +103,7 @@
     banner.innerHTML =
       '<div class="dania-consent__copy">' +
         '<strong>Tu privacidad importa</strong>' +
-        '<p>Usamos Google Analytics y medición publicitaria solo si aceptas, para entender las visitas y los contactos por WhatsApp.</p>' +
+        '<p>Si aceptas, usamos Google Analytics y el píxel de Meta para medir visitas y clics en WhatsApp, atribuirlos a los anuncios y optimizar las campañas. Puedes rechazar y seguir navegando.</p>' +
         '<a href="/cookies/">Ver política de cookies</a>' +
       '</div>' +
       '<div class="dania-consent__actions">' +
@@ -112,6 +144,7 @@
     var resetButton = event.target.closest('[data-consent-reset]');
     if (!resetButton) return;
 
+    updateConsent('rejected');
     try {
       window.localStorage.removeItem(CONSENT_KEY);
     } catch (error) {
@@ -124,6 +157,14 @@
     var link = event.target.closest('a[href*="wa.me/"]');
     if (!link || getSavedChoice() !== 'accepted') return;
 
+    // Contact represents a click opening WhatsApp, not a sent message or sale.
+    if (window.fbq) {
+      window.fbq('track', 'Contact', {
+        contact_method: 'whatsapp',
+        cta_location: link.getAttribute('data-cta-location') || link.getAttribute('data-cta') || 'sin_etiqueta',
+        plan: link.getAttribute('data-plan') || ''
+      });
+    }
     window.gtag('event', 'whatsapp_click', {
       cta_location: link.getAttribute('data-cta-location') || link.getAttribute('data-cta') || 'sin_etiqueta',
       plan: link.getAttribute('data-plan') || '',
