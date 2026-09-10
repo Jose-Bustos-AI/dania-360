@@ -194,6 +194,7 @@ blockquote footer b { font-size: 13px; } blockquote footer span { color: #7f8188
 .footer p { margin: 0; max-width: 480px; line-height: 1.5; }
 .footer-contact, .footer-legal { display: flex; flex-direction: column; gap: 8px; }
 .footer-contact a { color: #a3dcbc; }
+.footer-contact > a { min-height: 24px; display: inline-flex; align-items: center; }
 .footer-legal { align-items: flex-end; }
 .footer-legal a { color: #aeb0b7; }
 .footer-legal a:hover { color: white; }

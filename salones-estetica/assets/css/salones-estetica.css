@@ -54,8 +54,8 @@
   /* Verde WhatsApp: uso exclusivo en botones y enlaces de contacto.
      Se usa el verde oscuro de la marca porque el claro sobre blanco no
      alcanza el contraste mínimo para texto. */
-  --wa: #128c7e;
-  --wa-oscuro: #0d6f64;
+  --wa: #0d6f64;
+  --wa-oscuro: #09584f;
   --wa-brillo: #25d366;
 
   --linea: #e6dbd0;
@@ -448,7 +448,7 @@ ul {
 }
 
 .marca__texto span {
-  color: var(--terracota);
+  color: var(--terracota-tinta);
 }
 
 .nav {
@@ -829,7 +829,7 @@ ul {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--champan);
+  color: var(--terracota-tinta);
   flex: none;
   width: 1.6rem;
 }

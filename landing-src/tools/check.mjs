@@ -221,7 +221,15 @@ for (const ubicacion of ubicaciones) {
 }
 
 const js = leer('site/salones-estetica/assets/js/salones-estetica.js');
-comprobar('El evento de medición es whatsapp_click sobre dataLayer', /dataLayer[\s\S]*event: 'whatsapp_click'/.test(js));
+const analyticsGlobalRuta = join(raiz, '..', 'analytics.js');
+const analyticsGlobal = existsSync(analyticsGlobalRuta)
+  ? readFileSync(analyticsGlobalRuta, 'utf8')
+  : '';
+comprobar(
+  'El evento de medición es whatsapp_click sobre la capa de analítica',
+  /dataLayer[\s\S]*event: 'whatsapp_click'/.test(js) ||
+    /gtag\('event', 'whatsapp_click'/.test(analyticsGlobal),
+);
 comprobar(
   'No se codifica ningún identificador de Analytics ni de Ads',
   !/\bG-[A-Z0-9]{6,}|\bAW-\d{6,}|\bGTM-[A-Z0-9]{5,}|UA-\d{4,}/.test(js + html),
