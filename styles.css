@@ -1,6 +1,6 @@
 :root { --ink: #f8f7f4; --muted: #a7a9b2; --night: #090a0d; --panel: #12141a; --line: rgba(255,255,255,.11); --orange: #ff7139; --orange-light: #ff9c67; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 body { margin: 0; background: var(--night); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
 a { color: inherit; text-decoration: none; }
 .site-header { height: 78px; width: min(1180px, calc(100% - 40px)); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); position: relative; z-index: 10; }
@@ -102,6 +102,8 @@ h2 em { color: var(--orange-light); font-style: normal; }
 .service-icon { width: 43px; height: 43px; display: grid; place-items: center; border-radius: 12px; color: var(--orange-light); background: rgba(255,113,57,.09); border: 1px solid rgba(255,113,57,.16); font-size: 20px; }
 .service-card h3 { margin: 27px 0 11px; font-size: 18px; }
 .service-card p { margin: 0; color: #989aa2; font-size: 14px; line-height: 1.65; }
+.service-learn { display: inline-flex; align-items: center; gap: 7px; margin-top: 20px; color: var(--orange-light); font-size: 12px; font-weight: 850; text-decoration: underline; text-decoration-color: rgba(255,156,103,.42); text-underline-offset: 3px; }
+.service-learn:hover { color: white; text-decoration-color: var(--orange-light); }
 .conversion-strip { margin-top: 20px; padding: 24px 26px; display: flex; align-items: center; justify-content: space-between; gap: 30px; border: 1px solid rgba(61,216,132,.25); border-radius: 18px; background: linear-gradient(120deg, rgba(45,194,113,.11), rgba(255,255,255,.025)); }
 .conversion-strip > div { display: flex; flex-direction: column; gap: 6px; }
 .conversion-strip span { color: #79dda8; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; }

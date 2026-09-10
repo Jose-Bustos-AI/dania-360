@@ -1094,6 +1094,16 @@ ul {
   color: var(--carbon-suave);
 }
 
+.confianza__item p a {
+  color: var(--terracota-tinta);
+  font-weight: 700;
+  text-underline-offset: 0.18em;
+}
+
+.confianza__item p a:hover {
+  color: var(--carbon);
+}
+
 /*
  * Hueco reservado para los casos reales de salones. Se publica cuando existan
  * clientes con permiso por escrito; hasta entonces no se muestra nada.
