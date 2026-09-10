@@ -136,6 +136,8 @@ h1 em, h2 em { color: var(--orange-light); font-weight: 500; }
 .process-list p { margin: 0; color: var(--muted); font-size: 13px; }
 .relationship-note { max-width: 880px; margin: 28px auto 0; padding: 22px 25px; border-left: 3px solid var(--orange); color: #afb1b7; background: rgba(255, 113, 57, .055); font-size: 14px; }
 .relationship-note strong { color: white; }
+.relationship-note a { color: var(--orange-light); font-weight: 800; text-decoration: underline; text-decoration-color: rgba(255, 154, 107, .45); text-underline-offset: 3px; }
+.relationship-note a:hover { color: white; }
 
 .plans-grid { display: grid; grid-template-columns: repeat(3, 1fr); align-items: stretch; gap: 18px; margin-top: 58px; }
 .plan-card { display: flex; flex-direction: column; padding: 30px; border: 1px solid var(--line); border-radius: 24px; background: var(--panel); }
