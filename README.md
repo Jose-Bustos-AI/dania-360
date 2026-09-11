@@ -38,3 +38,13 @@ cd landing-src && npm run build:web
 Ese comando reescribe únicamente `salones-estetica/`. No toca la home, ni
 `styles.css`, ni las páginas legales, ni el sitemap, ni el `.htaccess`.
 Detalles y comprobaciones en `landing-src/README.md`.
+
+También publica una landing especializada para restaurantes, integrada desde
+la antigua web GastroVisual:
+
+- URL: https://dania360.com/gestion-redes-sociales-restaurantes/
+- Archivos publicados: `gestion-redes-sociales-restaurantes/`
+- Código fuente: `restaurantes-src/`
+
+El dominio `gastrovisual.es` se conserva como dominio de migración y redirige
+permanentemente a esta página para transferir usuarios y señales SEO.
