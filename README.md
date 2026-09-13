@@ -95,3 +95,16 @@ La estrategia acompaña el recorrido desde el descubrimiento de un curso hasta
 la consulta, con campañas de matrícula, contenido docente, metodología y
 reputación. La página figura en el sitemap y recibe enlaces desde la página
 general del servicio.
+
+La séptima landing sectorial está dirigida a tiendas físicas, comercios locales
+y marcas minoristas con venta online:
+
+- URL: https://dania360.com/gestion-redes-sociales-comercios/
+- Archivos publicados: `gestion-redes-sociales-comercios/`
+- Diseño: identidad gráfica en azul cobalto, rojo, amarillo y crema
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia conecta los tres escaparates del comercio —calle, redes y
+Google— y trabaja producto, contexto, atención, calendario comercial y visita.
+La página figura en el sitemap y recibe enlaces desde la página general del
+servicio.
