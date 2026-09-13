@@ -58,3 +58,15 @@ La tercera landing sectorial está dirigida a gimnasios y centros deportivos:
 
 La página aparece en el sitemap principal y recibe enlaces internos desde la
 página general de gestión de redes sociales.
+
+La cuarta landing sectorial está dirigida a clínicas dentales y profesionales
+de la odontología:
+
+- URL: https://dania360.com/gestion-redes-sociales-clinicas-dentales/
+- Archivos publicados: `gestion-redes-sociales-clinicas-dentales/`
+- Diseño: identidad editorial propia en tonos marfil, salvia y verde clínico
+- SEO: canonical propio, imagen social, servicio, planes, migas y preguntas
+
+La página se incluye en el sitemap y recibe enlaces internos desde la página
+general del servicio. Su contenido evita promesas clínicas y contempla la
+validación profesional y la privacidad del paciente.
