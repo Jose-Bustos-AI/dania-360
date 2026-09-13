@@ -48,3 +48,13 @@ la antigua web GastroVisual:
 
 El dominio `gastrovisual.es` se conserva como dominio de migración y redirige
 permanentemente a esta página para transferir usuarios y señales SEO.
+
+La tercera landing sectorial está dirigida a gimnasios y centros deportivos:
+
+- URL: https://dania360.com/gestion-redes-sociales-gimnasios/
+- Archivos publicados: `gestion-redes-sociales-gimnasios/`
+- Diseño: HTML y CSS estáticos propios, independientes de las otras landings
+- SEO: canonical propio, datos estructurados de servicio, planes y preguntas
+
+La página aparece en el sitemap principal y recibe enlaces internos desde la
+página general de gestión de redes sociales.
