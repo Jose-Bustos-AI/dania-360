@@ -122,3 +122,17 @@ particulares, empresas y su red profesional. Incluye un proceso de aprobación
 del contenido y límites explícitos para proteger la confidencialidad y evitar
 promesas de resultados. La página figura en el sitemap y recibe enlaces desde
 la página general del servicio.
+
+La novena landing sectorial está dirigida a fisioterapeutas, clínicas de
+fisioterapia y centros de rehabilitación:
+
+- URL: https://dania360.com/gestion-redes-sociales-fisioterapia/
+- Archivos publicados: `gestion-redes-sociales-fisioterapia/`
+- Diseño: identidad dinámica en azul marino, verde menta, coral y lima
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia acompaña el recorrido previo a la cita, muestra equipo, método,
+instalaciones y servicios, y coordina redes, Google y web. Incluye validación
+profesional, privacidad y límites claros para evitar diagnósticos o promesas de
+resultados. La página figura en el sitemap y recibe enlaces desde la página
+general del servicio.
