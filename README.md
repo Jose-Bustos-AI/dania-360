@@ -108,3 +108,17 @@ La estrategia conecta los tres escaparates del comercio —calle, redes y
 Google— y trabaja producto, contexto, atención, calendario comercial y visita.
 La página figura en el sitemap y recibe enlaces desde la página general del
 servicio.
+
+La octava landing sectorial está dirigida a abogados, bufetes y despachos
+profesionales:
+
+- URL: https://dania360.com/gestion-redes-sociales-abogados/
+- Archivos publicados: `gestion-redes-sociales-abogados/`
+- Diseño: identidad editorial sobria en burdeos, pergamino, nogal y latón
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia transforma el conocimiento del despacho en contenido claro para
+particulares, empresas y su red profesional. Incluye un proceso de aprobación
+del contenido y límites explícitos para proteger la confidencialidad y evitar
+promesas de resultados. La página figura en el sitemap y recibe enlaces desde
+la página general del servicio.
