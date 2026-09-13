@@ -82,3 +82,16 @@ promotoras:
 La estrategia de contenido diferencia la captación de propietarios de la
 presentación de inmuebles a compradores e inquilinos. La página figura en el
 sitemap y recibe enlaces desde la página general del servicio.
+
+La sexta landing sectorial está dirigida a academias, escuelas y centros de
+formación presenciales u online:
+
+- URL: https://dania360.com/gestion-redes-sociales-academias/
+- Archivos publicados: `gestion-redes-sociales-academias/`
+- Diseño: identidad editorial en tonos marfil, ciruela, coral y turquesa
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia acompaña el recorrido desde el descubrimiento de un curso hasta
+la consulta, con campañas de matrícula, contenido docente, metodología y
+reputación. La página figura en el sitemap y recibe enlaces desde la página
+general del servicio.
