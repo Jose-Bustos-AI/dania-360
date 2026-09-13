@@ -136,3 +136,17 @@ instalaciones y servicios, y coordina redes, Google y web. Incluye validación
 profesional, privacidad y límites claros para evitar diagnósticos o promesas de
 resultados. La página figura en el sitemap y recibe enlaces desde la página
 general del servicio.
+
+La décima landing sectorial está dirigida a clínicas, centros y consultas
+veterinarias:
+
+- URL: https://dania360.com/gestion-redes-sociales-veterinarias/
+- Archivos publicados: `gestion-redes-sociales-veterinarias/`
+- Diseño: identidad amable en verde bosque, crema, ámbar, coral y salvia
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia convierte el equipo, las instalaciones, los servicios y el día a
+día del centro en señales de confianza para los tutores. Coordina redes, Google
+y web, e incluye validación profesional, privacidad y límites claros para evitar
+diagnósticos, alarmismo o expectativas injustificadas. La página figura en el
+sitemap y recibe enlaces desde la página general del servicio.
