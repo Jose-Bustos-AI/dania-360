@@ -70,3 +70,15 @@ de la odontología:
 La página se incluye en el sitemap y recibe enlaces internos desde la página
 general del servicio. Su contenido evita promesas clínicas y contempla la
 validación profesional y la privacidad del paciente.
+
+La quinta landing sectorial está dirigida a agencias inmobiliarias, agentes y
+promotoras:
+
+- URL: https://dania360.com/gestion-redes-sociales-inmobiliarias/
+- Archivos publicados: `gestion-redes-sociales-inmobiliarias/`
+- Diseño: identidad editorial oscura con acentos lima y azul
+- SEO: canonical, imagen social, servicio, planes, migas y preguntas
+
+La estrategia de contenido diferencia la captación de propietarios de la
+presentación de inmuebles a compradores e inquilinos. La página figura en el
+sitemap y recibe enlaces desde la página general del servicio.
