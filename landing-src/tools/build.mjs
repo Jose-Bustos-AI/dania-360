@@ -182,8 +182,8 @@ function renderFaq() {
 const schemaService = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Gestión de presencia digital para centros de estética y salones de belleza',
-  serviceType: 'Marketing digital para centros de estética',
+  name: 'Gestión de redes sociales para peluquerías y centros de estética',
+  serviceType: 'Gestión de redes sociales para peluquerías',
   description: sitio.landing.description,
   url: sitio.landing.canonical,
   provider: {

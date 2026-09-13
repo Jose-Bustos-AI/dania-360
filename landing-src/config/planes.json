@@ -1,12 +1,12 @@
 {
-  "moneda": "USD",
+  "moneda": "EUR",
   "periodo": "mes",
-  "microcopy": "Precios en USD · Servicio mensual · Sin permanencia. Las condiciones e impuestos aplicables se comunicarán antes de contratar.",
+  "microcopy": "Precios en euros (EUR) · Servicio mensual · Sin permanencia. Las condiciones e impuestos aplicables se comunicarán antes de contratar.",
   "planes": [
     {
       "id": "starter",
       "nombre": "Starter",
-      "precio": 99,
+      "precio": 85,
       "destacado": false,
       "etiqueta": null,
       "descripcion": "Para que tu salón empiece a mostrar una imagen profesional y constante.",
@@ -26,7 +26,7 @@
     {
       "id": "growth",
       "nombre": "Growth",
-      "precio": 297,
+      "precio": 256,
       "destacado": true,
       "etiqueta": "Recomendado para crecer",
       "descripcion": "Para salones que quieren ganar visibilidad local y generar más oportunidades.",
@@ -47,7 +47,7 @@
     {
       "id": "scale",
       "nombre": "Scale",
-      "precio": 497,
+      "precio": 429,
       "destacado": false,
       "etiqueta": null,
       "descripcion": "Para centros que quieren una presencia integral y destacar también en buscadores.",
