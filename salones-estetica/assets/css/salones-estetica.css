@@ -22,12 +22,14 @@
    9. Beneficios
   10. Servicios
   11. Cómo funciona
-  12. Planes
-  13. Confianza
-  14. Preguntas
-  15. Cierre
-  16. Pie y barra móvil
-  17. Movimiento y responsive
+  12. Conversión y medición
+  13. Planes
+  14. Recursos
+  15. Confianza
+  16. Preguntas
+  17. Cierre
+  18. Pie y barra móvil
+  19. Movimiento y responsive
    ========================================================================== */
 
 /* --- 1. Tokens ---------------------------------------------------------- */
@@ -552,6 +554,30 @@ ul {
 
 /* --- 6. Hero ------------------------------------------------------------- */
 
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: clamp(1.5rem, 3vw, 2.3rem);
+  color: var(--gris-calido);
+  font-size: 0.82rem;
+}
+
+.breadcrumbs a {
+  color: var(--terracota-tinta);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.breadcrumbs a:hover {
+  color: var(--carbon);
+}
+
+.breadcrumbs [aria-current='page'] {
+  color: var(--carbon-suave);
+}
+
 .hero {
   padding-block: clamp(2.5rem, 5vw, 4.5rem) var(--hueco);
   position: relative;
@@ -954,7 +980,118 @@ ul {
   color: var(--carbon-suave);
 }
 
-/* --- 12. Planes ---------------------------------------------------------- */
+/* --- 12. Conversión y medición ------------------------------------------- */
+
+.seccion--conversion {
+  background: linear-gradient(145deg, #2b2521 0%, #463a33 100%);
+  color: var(--marfil);
+}
+
+.seccion--conversion .antetitulo {
+  color: #e8c69c;
+}
+
+.seccion--conversion .entradilla {
+  color: #e6ddd6;
+}
+
+.conversion__cabecera {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: end;
+}
+
+.conversion__flujo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.conversion__flujo > div {
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.conversion__flujo > div:first-child {
+  padding-left: 0;
+}
+
+.conversion__flujo > div:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.conversion__flujo > div > span {
+  display: block;
+  margin-bottom: 1rem;
+  color: #e8c69c;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.conversion__flujo h3 {
+  margin-bottom: 0.55rem;
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.conversion__flujo p {
+  color: #ded4cd;
+  font-size: 0.93rem;
+}
+
+.medicion {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  padding: clamp(1.6rem, 4vw, 2.8rem);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radio-l);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.medicion h3 {
+  margin-bottom: 0.8rem;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+}
+
+.medicion > div > p:last-child {
+  color: #ded4cd;
+}
+
+.medicion li {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  padding-block: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.medicion li:first-child {
+  padding-top: 0;
+}
+
+.medicion li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.medicion strong {
+  color: #e8c69c;
+}
+
+.medicion span {
+  color: #ded4cd;
+}
+
+/* --- 13. Planes ---------------------------------------------------------- */
 
 .planes {
   margin-top: clamp(2.4rem, 4vw, 3.6rem);
@@ -1068,7 +1205,59 @@ ul {
   margin-inline: auto;
 }
 
-/* --- 13. Confianza ------------------------------------------------------- */
+/* --- 14. Recursos -------------------------------------------------------- */
+
+.seccion--recursos {
+  background: var(--crema);
+}
+
+.recursos__rejilla {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.recursos__enlaces {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.recursos__enlaces a {
+  display: flex;
+  min-height: 9.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.35rem;
+  border: 1px solid var(--linea-fuerte);
+  border-radius: var(--radio-m);
+  background: rgba(255, 255, 255, 0.62);
+  text-decoration: none;
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.recursos__enlaces a:hover {
+  border-color: var(--terracota);
+  transform: translateY(-3px);
+}
+
+.recursos__enlaces span {
+  color: var(--terracota-tinta);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.recursos__enlaces strong {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+/* --- 15. Confianza ------------------------------------------------------- */
 
 .confianza__rejilla {
   margin-top: clamp(2rem, 4vw, 3rem);
@@ -1135,7 +1324,7 @@ ul {
   color: var(--gris-calido);
 }
 
-/* --- 14. Preguntas ------------------------------------------------------- */
+/* --- 16. Preguntas ------------------------------------------------------- */
 
 .faq {
   margin-top: clamp(2rem, 4vw, 3rem);
@@ -1215,7 +1404,7 @@ ul {
   text-align: center;
 }
 
-/* --- 15. Cierre ---------------------------------------------------------- */
+/* --- 17. Cierre ---------------------------------------------------------- */
 
 .cierre {
   position: relative;
@@ -1248,7 +1437,7 @@ ul {
   color: var(--carbon-suave);
 }
 
-/* --- 16. Pie y barra móvil ----------------------------------------------- */
+/* --- 18. Pie y barra móvil ----------------------------------------------- */
 
 .pie {
   background: var(--marfil);
@@ -1260,7 +1449,7 @@ ul {
 
 .pie__superior {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.25fr 1fr 1fr 0.8fr;
   gap: clamp(1.6rem, 4vw, 3rem);
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--linea);
@@ -1322,7 +1511,7 @@ ul {
   padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
 }
 
-/* --- 17. Movimiento y responsive ----------------------------------------- */
+/* --- 19. Movimiento y responsive ----------------------------------------- */
 
 /*
  * Única animación de la página: una aparición muy corta al entrar en pantalla.
@@ -1350,7 +1539,10 @@ ul {
   .hero__rejilla,
   .beneficios__rejilla,
   .cierre__rejilla,
-  .problema__cabecera {
+  .problema__cabecera,
+  .conversion__cabecera,
+  .medicion,
+  .recursos__rejilla {
     grid-template-columns: 1fr;
   }
 
@@ -1396,6 +1588,18 @@ ul {
 
   .pasos {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conversion__flujo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conversion__flujo > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .conversion__flujo > div:nth-child(-n + 2) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .planes {
@@ -1463,8 +1667,27 @@ ul {
   .transformacion__rejilla,
   .pasos,
   .confianza__rejilla,
-  .pie__superior {
+  .pie__superior,
+  .recursos__enlaces,
+  .conversion__flujo {
     grid-template-columns: 1fr;
+  }
+
+  .conversion__flujo > div,
+  .conversion__flujo > div:first-child,
+  .conversion__flujo > div:last-child {
+    padding: 1.4rem 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .conversion__flujo > div:last-child {
+    border-bottom: 0;
+  }
+
+  .medicion li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .marco--arco {
