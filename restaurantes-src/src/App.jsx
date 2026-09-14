@@ -12,7 +12,7 @@ const waLink = (message = generalMessage) => `https://wa.me/${WA_NUMBER}?text=${
 
 const plans = [
   {
-    name: 'Starter', price: '99', tagline: 'La base profesional para dejar de improvisar.',
+    name: 'Starter', price: '85', tagline: 'La base profesional para dejar de improvisar.',
     networks: 'Instagram · Facebook', content: [['20', 'publicaciones al mes'], ['5', 'publicaciones por semana']],
     features: [
       'Página web profesional incluida o gestión de tu web actual',
@@ -25,7 +25,7 @@ const plans = [
     ],
   },
   {
-    name: 'Growth', price: '297', tagline: 'Para convertir tu presencia local en oportunidades.',
+    name: 'Growth', price: '256', tagline: 'Para convertir tu presencia local en oportunidades.',
     networks: 'Instagram · Facebook · TikTok · Pinterest · Google', content: [['30', 'publicaciones al mes'], ['7', 'días de actividad']], popular: true,
     features: [
       'Influencer clon digital: la cara de tu restaurante creada con IA',
@@ -39,7 +39,7 @@ const plans = [
     ],
   },
   {
-    name: 'Scale', price: '497', tagline: 'Visibilidad integral, SEO y buscadores con IA.',
+    name: 'Scale', price: '429', tagline: 'Visibilidad integral, SEO y buscadores con IA.',
     networks: 'Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google', content: [['60', 'publicaciones al mes'], ['2', 'publicaciones diarias']],
     features: [
       'Optimización para buscadores con IA como ChatGPT',
@@ -72,6 +72,8 @@ const faqs = [
   ['¿Tengo que crear yo las fotos, vídeos y textos?', 'Necesitaremos la información y el material real que quieras compartir. También creamos imágenes y contenido con IA, y nuestro equipo revisa y adapta cada pieza antes de publicarla.'],
   ['¿Hay permanencia?', 'No. El servicio es mensual y puedes cancelar cuando quieras. No hay contratos largos ni gastos ocultos.'],
   ['¿Cómo empezamos?', 'Nos escribes por WhatsApp, conocemos tu restaurante y te recomendamos el plan que tenga sentido. Después conectamos tus canales y preparamos el calendario de trabajo.'],
+  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'Los planes oficiales de Dania360 cuestan 85 €, 256 € y 429 € al mes. El alcance cambia según la frecuencia de contenido, los canales gestionados, Google Business Profile, la atención de consultas y el trabajo SEO incluido.'],
+  ['¿Cómo medís si la estrategia genera oportunidades de reserva?', 'Seguimos llamadas, conversaciones por WhatsApp, clics para reservar, solicitudes de indicaciones y consultas desde Google. También analizamos qué contenidos impulsan visitas a la carta, guardados, compartidos y contactos con intención real.'],
 ]
 
 function WhatsAppIcon({ size = 20 }) {
@@ -170,10 +172,11 @@ function Hero() {
   return <section className="hero hero-section" id="inicio" ref={heroRef}>
     <video ref={videoRef} className="hero-media" src="/gestion-redes-sociales-restaurantes/hero-video-scrub.mp4" muted playsInline preload="metadata" poster="/og-mas-clientes.png" style={{ opacity: videoReady ? 1 : 0, transition: 'opacity .5s ease' }} /><div className="hero-shade" />
     <div className="hero-inner"><div className="hero-copy">
+      <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales<em>para restaurantes.</em></h1>
       <p>Gestionamos el contenido, la web, Google y las reseñas de tu restaurante para mejorar su visibilidad y generar más oportunidades de contacto y reserva.</p>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Ver planes desde 99 USD</a></div>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Ver planes desde 85 €/mes</a></div>
       <small className="cta-note">Te orientamos por WhatsApp · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
@@ -198,11 +201,15 @@ function Services() {
 
 function PlanCard({ plan }) {
   const message = `Hola, tengo un restaurante en [ciudad] y quiero mejorar mis redes sociales y conseguir más reservas. Me interesa el plan ${plan.name} de Dania360. ¿Podéis orientarme?`
-  return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Más elegido</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>$</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
+  return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Más elegido</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
 }
 
 function Pricing() {
-  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Elige hasta dónde quieres llevar la visibilidad de tu restaurante.</h2><p>Sin permanencia. Si no sabes cuál necesitas, cuéntanos tu caso por WhatsApp y te recomendaremos solo lo que tenga sentido.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en dólares estadounidenses (USD).</p></section>
+  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Elige hasta dónde quieres llevar la visibilidad de tu restaurante.</h2><p>Sin permanencia. Si no sabes cuál necesitas, cuéntanos tu caso por WhatsApp y te recomendaremos solo lo que tenga sentido.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
+}
+
+function Resources() {
+  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Antes de contratar la gestión digital de tu restaurante.</h2><p>Compara el alcance, entiende qué incluye el servicio y conecta la estrategia social con la visibilidad local.</p></div><div className="seo-resources__links"><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/agencia-redes-sociales-o-community-manager/">Agencia o community manager</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
 }
 
 function FAQ() {
@@ -246,6 +253,6 @@ function LegalPage({ type }) {
 export default function App() {
   const path = window.location.pathname.replace(/^\/+|\/+$/g, '')
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
-  return <main><Navbar /><Hero /><HowItWorks /><Services /><Pricing /><FAQ /><Footer /></main>
+  return <main><Navbar /><Hero /><HowItWorks /><Services /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
 
