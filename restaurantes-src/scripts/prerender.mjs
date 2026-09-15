@@ -12,7 +12,8 @@ if (!html.includes(marker)) {
 }
 
 const rendered = render('/gestion-redes-sociales-restaurantes/')
-await writeFile(outputUrl, html.replace(marker, rendered), 'utf8')
+const finalHtml = html.replace(marker, rendered).replace(/\r\n/g, '\n')
+await writeFile(outputUrl, finalHtml, 'utf8')
 await rm(ssrOutputUrl, { recursive: true, force: true })
 
 console.log(`HTML prerenderizado: ${fileURLToPath(outputUrl)}`)
