@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowRight, CalendarDays, Check, ChevronDown, Globe2, MapPin, Menu, MessageCircle, Search, Sparkles, Star, Utensils, X } from 'lucide-react'
 
-gsap.registerPlugin(ScrollTrigger)
+if (typeof window !== 'undefined') gsap.registerPlugin(ScrollTrigger)
 
 const WA_NUMBER = '34631105772'
 const EMAIL = 'hola@dania360.com'
@@ -56,7 +56,7 @@ const plans = [
 
 const services = [
   { icon: Globe2, title: 'Una web que abre el apetito', text: 'Creamos o gestionamos una web profesional para que tu carta, tu propuesta y tu forma de reservar se entiendan a la primera.' },
-  { icon: Sparkles, title: 'Contenido siempre activo', text: 'Creamos, revisamos, programamos y publicamos contenido constante para que tu restaurante no desaparezca de la mente del cliente.' },
+  { icon: Sparkles, title: 'Contenido gastronómico siempre activo', text: 'Creamos, revisamos y publicamos Reels, carruseles y Stories sobre platos, carta, menús, ambiente, equipo, eventos y novedades del restaurante.' },
   { icon: MapPin, title: 'Google y Maps trabajados', text: 'Desde Growth mantenemos activa tu ficha, gestionamos reseñas y reforzamos tu visibilidad cuando alguien busca dónde comer.' },
   { icon: MessageCircle, title: 'Consultas que llegan a ti', text: 'Gestionamos la conversación y derivamos las oportunidades a tu teléfono o WhatsApp para que puedas convertirlas en reservas.' },
   { icon: Star, title: 'Reputación que genera confianza', text: 'Respondemos reseñas y comentarios con el tono de tu restaurante para que más personas se decidan por ti.' },
@@ -74,6 +74,7 @@ const faqs = [
   ['¿Cómo empezamos?', 'Nos escribes por WhatsApp, conocemos tu restaurante y te recomendamos el plan que tenga sentido. Después conectamos tus canales y preparamos el calendario de trabajo.'],
   ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'Los planes oficiales de Dania360 cuestan 85 €, 256 € y 429 € al mes. El alcance cambia según la frecuencia de contenido, los canales gestionados, Google Business Profile, la atención de consultas y el trabajo SEO incluido.'],
   ['¿Cómo medís si la estrategia genera oportunidades de reserva?', 'Seguimos llamadas, conversaciones por WhatsApp, clics para reservar, solicitudes de indicaciones y consultas desde Google. También analizamos qué contenidos impulsan visitas a la carta, guardados, compartidos y contactos con intención real.'],
+  ['¿Podéis promocionar la carta, menús, eventos y pedidos online?', 'Sí. El calendario puede incluir platos, menús de temporada, eventos, novedades y llamadas a reservar o pedir. Enlazamos los canales de reserva o pedido que ya utilice el restaurante, pero no gestionamos la operativa interna de cocina, sala o reparto.'],
 ]
 
 function WhatsAppIcon({ size = 20 }) {
@@ -189,11 +190,11 @@ function Hero() {
 
 function HowItWorks() {
   const steps = [['01', 'Conocemos tu restaurante', 'Analizamos tu propuesta, tu zona, tus canales y qué tipo de cliente quieres atraer.'], ['02', 'Creamos tu sistema de visibilidad', 'Preparamos web, calendario, contenidos y presencia en Google según el plan elegido.'], ['03', 'Publicamos, cuidamos y mejoramos', 'Tu presencia sigue activa cada semana mientras tú te concentras en ofrecer una gran experiencia.']]
-  return <section className="section how" id="como-funciona"><div className="section-heading"><span>Cómo funciona</span><h2>Más visibilidad sin convertirte en experto en marketing.</h2><p>Nos ocupamos del trabajo constante que hace que un restaurante se vea profesional y resulte fácil de elegir.</p></div><div className="steps">{steps.map(([num, title, text]) => <article key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
+  return <section className="section how" id="como-funciona"><div className="section-heading"><span>Cómo funciona</span><h2>Cómo funciona la gestión de redes sociales para restaurantes.</h2><p>Nos ocupamos del trabajo constante que hace que un restaurante se vea profesional y resulte fácil de elegir.</p></div><div className="steps">{steps.map(([num, title, text]) => <article key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
 }
 
 function Services() {
-  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>No necesitas publicar más por publicar. Necesitas que te encuentren y te elijan.</h2><p>Combinamos presencia, contenido, reputación y posicionamiento para acompañar al cliente desde el descubrimiento hasta el contacto.</p></div><div className="service-grid">{services.map(service => {
+  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Qué incluye la gestión de redes sociales para restaurantes.</h2><p>Combinamos presencia, contenido, reputación y posicionamiento para acompañar al cliente desde el descubrimiento hasta el contacto.</p></div><div className="service-grid">{services.map(service => {
     const ServiceIcon = service.icon
     return <article key={service.title}><ServiceIcon /><h3>{service.title}</h3><p>{service.text}</p></article>
   })}</div><div className="manifesto"><p>Una agencia genérica vende publicaciones.</p><h2>Dania360 construye la presencia digital de tu restaurante para generar nuevas oportunidades.</h2></div></section>
@@ -205,11 +206,11 @@ function PlanCard({ plan }) {
 }
 
 function Pricing() {
-  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Elige hasta dónde quieres llevar la visibilidad de tu restaurante.</h2><p>Sin permanencia. Si no sabes cuál necesitas, cuéntanos tu caso por WhatsApp y te recomendaremos solo lo que tenga sentido.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
+  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Planes y precios de redes sociales para restaurantes.</h2><p>Sin permanencia. Si no sabes cuál necesitas, cuéntanos tu caso por WhatsApp y te recomendaremos solo lo que tenga sentido.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
 }
 
 function Resources() {
-  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Antes de contratar la gestión digital de tu restaurante.</h2><p>Compara el alcance, entiende qué incluye el servicio y conecta la estrategia social con la visibilidad local.</p></div><div className="seo-resources__links"><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/agencia-redes-sociales-o-community-manager/">Agencia o community manager</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
+  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Cómo elegir una agencia de redes sociales para restaurantes.</h2><p>Compara el alcance, entiende qué incluye el servicio y conecta la estrategia social con la visibilidad local. <a href="/quienes-somos/">Conoce quién te atiende en Dania360</a>.</p></div><div className="seo-resources__links"><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/agencia-redes-sociales-o-community-manager/">Agencia o community manager</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
 }
 
 function FAQ() {
@@ -250,8 +251,9 @@ function LegalPage({ type }) {
   return <main className="legal-page"><header><Brand dark /><a href="/">Volver a la web</a></header><article><span>Información legal</span><h1>{content.title}</h1><p className="legal-intro">{content.intro}</p>{content.sections.map(([title, body]) => <section key={title}><h2>{title}</h2>{body}</section>)}<small>Última actualización: 29 de agosto de 2026.</small></article><footer><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></footer></main>
 }
 
-export default function App() {
-  const path = window.location.pathname.replace(/^\/+|\/+$/g, '')
+export default function App({ initialPath }) {
+  const currentPath = initialPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/gestion-redes-sociales-restaurantes/')
+  const path = currentPath.replace(/^\/+|\/+$/g, '')
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
   return <main><Navbar /><Hero /><HowItWorks /><Services /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
