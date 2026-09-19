@@ -12,46 +12,86 @@ const waLink = (message = generalMessage) => `https://wa.me/${WA_NUMBER}?text=${
 
 const plans = [
   {
-    name: 'Starter', price: '85', tagline: 'La base profesional para dejar de improvisar.',
-    networks: 'Instagram · Facebook', content: [['20', 'publicaciones al mes'], ['5', 'publicaciones por semana']],
-    features: [
-      'Página web profesional incluida o gestión de tu web actual',
-      '3 posts de imagen y 2 carruseles por semana',
-      'Contenido y textos creados con IA y revisados por el equipo',
-      'Programación automática y calendario mensual',
-      '1 actualización mensual de tu página web',
-      'Informe mensual de actividad',
-      'Dominio .com, hosting e imágenes con IA incluidos',
+    name: 'Starter',
+    price: '99',
+    tagline: 'Tu página web profesional con chat inteligente, kit QR de reseñas para Google Maps, dominio y hosting incluidos.',
+    networks: 'Web · Chat inteligente · Google Maps',
+    content: [
+      [
+        'Web',
+        'profesional'
+      ],
+      [
+        'Chat',
+        'inteligente'
+      ]
     ],
+    features: [
+      'Página web profesional: nueva, inspirada en una referencia que elijas o migrada desde tu web actual.',
+      'Mantenimiento y optimización para buscadores de tu página web.',
+      'Chat en tu página web: responde a tus clientes desde tu móvil con la app DANIA.',
+      'Modo automático: la Inteligencia Artificial responde por ti cuando no estás disponible.',
+      'Kit QR de reseñas para Google Maps: consigue más valoraciones de tus clientes.',
+      '1 actualización mensual de tu página web.',
+      'Dominio .com incluido.',
+      'Hosting incluido, sin gastos ocultos.'
+    ]
   },
   {
-    name: 'Growth', price: '256', tagline: 'Para convertir tu presencia local en oportunidades.',
-    networks: 'Instagram · Facebook · TikTok · Pinterest · Google', content: [['30', 'publicaciones al mes'], ['7', 'días de actividad']], popular: true,
-    features: [
-      'Influencer clon digital: la cara de tu restaurante creada con IA',
-      '2 vídeos, 2 carruseles y 3 posts de imagen por semana',
-      'Google Business Profile: 1 publicación semanal',
-      'Respuesta a comentarios y mensajes privados',
-      'Gestión y respuesta de reseñas en Google',
-      'Republicación automática en Stories de Instagram',
-      'Derivación de consultas a tu teléfono o WhatsApp',
-      'Informe mensual de actividad y visibilidad local',
+    name: 'Growth',
+    price: '297',
+    tagline: 'Todo lo del Starter más tus redes sociales activas cada día con vídeos de 15 segundos y comentarios, mensajes y reseñas gestionados.',
+    networks: 'Instagram · Facebook · TikTok · Pinterest · Google',
+    content: [
+      [
+        '30',
+        'publicaciones al mes'
+      ],
+      [
+        '15 s',
+        'por vídeo'
+      ]
     ],
+    popular: true,
+    features: [
+      '1 publicación al día en Instagram, Facebook, TikTok y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 15 segundos.',
+      'Google Business Profile gestionado por nuestro equipo.',
+      'Respondemos los comentarios de las plataformas incluidas en tu plan.',
+      'Gestionamos los mensajes privados para ayudarte a generar más reservas y oportunidades.',
+      'Gestión y respuesta de reseñas en Google.',
+      'Derivación de clientes potenciales a tu teléfono, WhatsApp o canal de contacto preferido.',
+      'Informe mensual de actividad y visibilidad local.',
+      'Todo lo incluido en Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.'
+    ]
   },
   {
-    name: 'Scale', price: '429', tagline: 'Visibilidad integral, SEO y buscadores con IA.',
-    networks: 'Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google', content: [['60', 'publicaciones al mes'], ['2', 'publicaciones diarias']],
-    features: [
-      'Optimización para buscadores con IA como ChatGPT',
-      'Posicionamiento SEO continuo de tu página web',
-      '12 vídeos, 12 carruseles y 36 posts de imagen al mes',
-      '2 publicaciones semanales en Google Business Profile',
-      'Contenido adaptado para LinkedIn, X y YouTube',
-      '1 contenido y 1 página optimizados para SEO al mes',
-      'Gestión prioritaria de comentarios, mensajes y reseñas',
-      'Informe mensual de posicionamiento y visibilidad',
+    name: 'Scale',
+    price: '497',
+    tagline: 'Todo lo del Growth más LinkedIn, X y YouTube con vídeos de 30 segundos, optimización para ChatGPT y buscadores y SEO continuo.',
+    networks: 'Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google',
+    content: [
+      [
+        '30',
+        'publicaciones al mes'
+      ],
+      [
+        '30 s',
+        'por vídeo'
+      ]
     ],
-  },
+    features: [
+      '1 publicación al día en Instagram, Facebook, TikTok, LinkedIn, X, YouTube y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 30 segundos.',
+      'Optimización para buscadores con Inteligencia Artificial, como ChatGPT.',
+      'Posicionamiento SEO continuo de tu página web.',
+      'Adaptación del contenido para LinkedIn, X y YouTube.',
+      'Google Business Profile gestionado por nuestro equipo.',
+      'Gestión y respuesta de reseñas en Google.',
+      'Gestión prioritaria de comentarios y mensajes privados.',
+      'Datos estructurados para facilitar la comprensión de tu negocio por parte de buscadores.',
+      'Informe mensual de posicionamiento y visibilidad.',
+      'Todo lo incluido en Growth y Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.'
+    ]
+  }
 ]
 
 const services = [
@@ -72,7 +112,7 @@ const faqs = [
   ['¿Tengo que crear yo las fotos, vídeos y textos?', 'Necesitaremos la información y el material real que quieras compartir. También creamos imágenes y contenido con IA, y nuestro equipo revisa y adapta cada pieza antes de publicarla.'],
   ['¿Hay permanencia?', 'No. El servicio es mensual y puedes cancelar cuando quieras. No hay contratos largos ni gastos ocultos.'],
   ['¿Cómo empezamos?', 'Nos escribes por WhatsApp, conocemos tu restaurante y te recomendamos el plan que tenga sentido. Después conectamos tus canales y preparamos el calendario de trabajo.'],
-  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'Los planes oficiales de Dania360 cuestan 85 €, 256 € y 429 € al mes. El alcance cambia según la frecuencia de contenido, los canales gestionados, Google Business Profile, la atención de consultas y el trabajo SEO incluido.'],
+  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'Los planes oficiales de Dania360 cuestan 99 €, 297 € y 497 € al mes. El alcance cambia según la frecuencia de contenido, los canales gestionados, Google Business Profile, la atención de consultas y el trabajo SEO incluido.'],
   ['¿Cómo medís si la estrategia genera oportunidades de reserva?', 'Seguimos llamadas, conversaciones por WhatsApp, clics para reservar, solicitudes de indicaciones y consultas desde Google. También analizamos qué contenidos impulsan visitas a la carta, guardados, compartidos y contactos con intención real.'],
   ['¿Podéis promocionar la carta, menús, eventos y pedidos online?', 'Sí. El calendario puede incluir platos, menús de temporada, eventos, novedades y llamadas a reservar o pedir. Enlazamos los canales de reserva o pedido que ya utilice el restaurante, pero no gestionamos la operativa interna de cocina, sala o reparto.'],
 ]
@@ -177,13 +217,13 @@ function Hero() {
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales<em>para restaurantes.</em></h1>
       <p>Gestionamos el contenido, la web, Google y las reseñas de tu restaurante para mejorar su visibilidad y generar más oportunidades de contacto y reserva.</p>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Ver planes desde 85 €/mes</a></div>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Ver planes desde 99 €/mes</a></div>
       <small className="cta-note">Te orientamos por WhatsApp · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
       <div className="panel-head"><span>Tu presencia digital</span><b>En marcha</b></div>
       <div className="panel-goal"><small>Objetivo</small><strong>Más clientes para tu restaurante</strong><p>Más personas te encuentran, confían y contactan.</p></div>
-      <div className="panel-grid"><div><Globe2 /><small>Web</small><b>Incluida</b></div><div><CalendarDays /><small>Contenido</small><b>20–60/mes</b></div><div><MapPin /><small>Google</small><b>Growth · Scale</b></div><div><MessageCircle /><small>Consultas</small><b>A tu WhatsApp</b></div></div>
+      <div className="panel-grid"><div><Globe2 /><small>Web</small><b>Incluida</b></div><div><CalendarDays /><small>Contenido</small><b>hasta 30/mes</b></div><div><MapPin /><small>Google</small><b>Growth · Scale</b></div><div><MessageCircle /><small>Consultas</small><b>A tu WhatsApp</b></div></div>
     </div></div>
   </section>
 }
