@@ -200,7 +200,7 @@ const schemaService = {
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Planes de gestión de presencia digital',
-    itemListElement: planes.planes.map((plan) => ({
+    itemListElement: planes.planes.filter((plan) => plan.id !== 'starter').map((plan) => ({
       '@type': 'Offer',
       name: plan.nombre,
       description: plan.descripcion,
