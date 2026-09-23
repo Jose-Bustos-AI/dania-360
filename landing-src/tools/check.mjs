@@ -120,12 +120,12 @@ comprobar(
   service?.provider?.name === 'Dania360',
 );
 comprobar(
-  'Service publica los tres planes con su precio real',
-  planes.planes.every((plan) =>
+  'Service publica solo los planes que incluyen gestión de redes sociales',
+  planes.planes.filter((plan) => plan.id !== 'starter').every((plan) =>
     service?.hasOfferCatalog?.itemListElement?.some(
       (oferta) => oferta.name === plan.nombre && oferta.price === String(plan.precio),
     ),
-  ),
+  ) && service?.hasOfferCatalog?.itemListElement?.length === 2,
 );
 comprobar(
   'FAQPage tiene tantas preguntas como el acordeón',
