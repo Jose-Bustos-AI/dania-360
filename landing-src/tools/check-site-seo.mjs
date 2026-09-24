@@ -11,6 +11,23 @@ const errors = [];
 const titles = new Map();
 const descriptions = new Map();
 
+const homepage = readFileSync(resolve(root, 'index.html'), 'utf8');
+const servicePage = readFileSync(resolve(root, 'gestion-redes-sociales/index.html'), 'utf8');
+if (!/<h1>Marketing digital<br\/><em>para tu negocio\.<\/em><\/h1>/.test(homepage)) {
+  errors.push('/: la portada debe hablar de marketing digital, no duplicar la intención de la página de servicio');
+}
+if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(servicePage)) {
+  errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
+}
+if (!homepage.includes('la gestión de redes sociales empieza con Growth por <strong>297 €/mes</strong>') &&
+    !homepage.includes('la gestión de redes sociales empieza con Growth por <strong>297&nbsp;€/mes</strong>') &&
+    !homepage.includes('la gestión de redes sociales empieza con Growth por 297 €/mes')) {
+  errors.push('/: debe distinguir Starter de la gestión de redes sociales desde 297 €/mes');
+}
+if (homepage.includes('<b>+200</b><span>especialistas')) {
+  errors.push('/: no mostrar un número de especialistas sin verificación');
+}
+
 const localFile = (pathname) => resolve(root, `.${decodeURIComponent(pathname)}`, pathname.endsWith('/') ? 'index.html' : '');
 const tagValue = (html, pattern) => html.match(pattern)?.[1]?.trim();
 
