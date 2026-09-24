@@ -22,6 +22,7 @@ for (const path of paths) {
   const html = read(`${path}/index.html`);
   const url = `https://dania360.com/${path}/`;
   const meta = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
   const h1Count = [...html.matchAll(/<h1(?:\s|>)/g)].length;
   const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
@@ -33,6 +34,8 @@ for (const path of paths) {
 
   if (!meta || descriptions.has(meta)) errors.push(`${path}: descripción ausente o repetida`);
   descriptions.add(meta);
+  if (!meta?.includes('297 €')) errors.push(`${path}: la descripción debe indicar que las redes empiezan en 297 €`);
+  if (title && /redes sociales.*desde 99/i.test(title)) errors.push(`${path}: el título atribuye redes sociales al precio de Starter`);
   if (canonical !== url) errors.push(`${path}: canonical incorrecto`);
   if (h1Count !== 1) errors.push(`${path}: ${h1Count} encabezados H1`);
   if (/noindex/i.test(html.match(/<meta name="robots" content="([^"]+)"/)?.[1] ?? '')) {
@@ -45,9 +48,19 @@ for (const path of paths) {
   if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`${path}: falta en sitemap.xml`);
 }
 
+for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-murcia']) {
+  const html = read(`${path}/index.html`);
+  const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
+  const meta = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  if (!title?.includes('desde 297 €')) errors.push(`${path}: título con precio inicial de redes incorrecto`);
+  if (!meta?.includes('297 €/mes') || !meta.includes('99 €')) {
+    errors.push(`${path}: la descripción debe distinguir redes desde 297 € de Starter 99 €`);
+  }
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log('10/10 landings: descripción única, canonical, H1, indexación, enlaces, sitemap y ofertas coherentes.');
+  console.log('10/10 landings: descripción única, canonical, H1, indexación, enlaces, sitemap y precios coherentes.');
 }

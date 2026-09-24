@@ -112,7 +112,7 @@ const faqs = [
   ['¿Tengo que crear yo las fotos, vídeos y textos?', 'Necesitaremos la información y el material real que quieras compartir. También creamos imágenes y contenido con IA, y nuestro equipo revisa y adapta cada pieza antes de publicarla.'],
   ['¿Hay permanencia?', 'No. El servicio es mensual y puedes cancelar cuando quieras. No hay contratos largos ni gastos ocultos.'],
   ['¿Cómo empezamos?', 'Nos escribes por WhatsApp, conocemos tu restaurante y te recomendamos el plan que tenga sentido. Después conectamos tus canales y preparamos el calendario de trabajo.'],
-  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'Los planes oficiales de Dania360 cuestan 99 €, 297 € y 497 € al mes. El alcance cambia según la frecuencia de contenido, los canales gestionados, Google Business Profile, la atención de consultas y el trabajo SEO incluido.'],
+  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'La gestión de redes sociales empieza en Growth por 297 € al mes; Scale cuesta 497 € al mes. Starter cuesta 99 € al mes e incluye web, chat y kit QR de reseñas, pero no gestión de redes sociales.'],
   ['¿Cómo medís si la estrategia genera oportunidades de reserva?', 'Seguimos llamadas, conversaciones por WhatsApp, clics para reservar, solicitudes de indicaciones y consultas desde Google. También analizamos qué contenidos impulsan visitas a la carta, guardados, compartidos y contactos con intención real.'],
   ['¿Podéis promocionar la carta, menús, eventos y pedidos online?', 'Sí. El calendario puede incluir platos, menús de temporada, eventos, novedades y llamadas a reservar o pedir. Enlazamos los canales de reserva o pedido que ya utilice el restaurante, pero no gestionamos la operativa interna de cocina, sala o reparto.'],
 ]
@@ -217,7 +217,7 @@ function Hero() {
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales<em>para restaurantes.</em></h1>
       <p>Gestionamos el contenido, la web, Google y las reseñas de tu restaurante para mejorar su visibilidad y generar más oportunidades de contacto y reserva.</p>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Ver planes desde 99 €/mes</a></div>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Redes desde 297 €/mes</a></div>
       <small className="cta-note">Te orientamos por WhatsApp · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
@@ -297,4 +297,3 @@ export default function App({ initialPath }) {
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
   return <main><Navbar /><Hero /><HowItWorks /><Services /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
-

@@ -37,7 +37,7 @@ html = markerIndex === -1
   ? html.replace(footer, section + footer)
   : html.slice(0, markerIndex) + section + html.slice(footerIndex);
 html = html.replace(
-  '<small>Gestión de redes sociales</small><b>Desde 99 €/mes</b>',
+  '<small>Gestión de redes sociales</small><b>Desde 297 €/mes</b>',
   '<small>Planes digitales</small><b>Desde 99 €/mes</b>',
 );
 writeFileSync(homePath, html, 'utf8');
