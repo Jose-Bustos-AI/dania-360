@@ -9,6 +9,7 @@
     "build": "node tools/build.mjs",
     "build:dev": "node tools/build.mjs --dev",
     "check": "node tools/check.mjs",
+    "check:site-seo": "node tools/check-site-seo.mjs",
     "verify": "npm run build && npm run check",
     "serve": "node tools/serve.mjs"
   },

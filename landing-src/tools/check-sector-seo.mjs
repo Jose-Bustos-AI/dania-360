@@ -44,6 +44,9 @@ for (const path of paths) {
   if (prices.join(',') !== '297,497') {
     errors.push(`${path}: el Service debe ofrecer solo Growth y Scale; ofrece ${prices.join(',')}`);
   }
+  if (/publicaciones semanales (?:en|y)|publicación semanal en Google Business Profile|incrementa la frecuencia y añade posicionamiento SEO/i.test(html)) {
+    errors.push(`${path}: la FAQ afirma una frecuencia de publicaciones en Google no incluida en los planes oficiales`);
+  }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
   if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`${path}: falta en sitemap.xml`);
 }
