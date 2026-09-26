@@ -240,6 +240,15 @@ function Services() {
   })}</div><div className="manifesto"><p>Una agencia genérica vende publicaciones.</p><h2>Dania360 construye la presencia digital de tu restaurante para generar nuevas oportunidades.</h2></div></section>
 }
 
+function RestaurantContentExample() {
+  const examples = [
+    ['01', 'Carta y propuesta', 'Una pieza explica un plato o menú disponible, su precio y cómo consultar al restaurante por alérgenos. La información sale de la carta vigente, no de imágenes inventadas.'],
+    ['02', 'Experiencia real', 'Un vídeo breve muestra el ambiente, el equipo o el servicio con material autorizado. La publicación indica dónde está el local y cuándo abre.'],
+    ['03', 'Reserva sin fricción', 'Cada contenido dirige a la vía de reserva o pedido que ya utilice el restaurante. Revisamos clics, consultas y horarios para mejorar el calendario siguiente.'],
+  ]
+  return <section className="section how" aria-labelledby="restaurant-example-title"><div className="section-heading"><span>Ejemplo de calendario gastronómico</span><h2 id="restaurant-example-title">Qué publicar para ayudar a elegir tu restaurante.</h2><p>Los temas se ajustan a la carta, los horarios y el material real de cada local. Antes de publicar, el restaurante confirma platos, precios, disponibilidad y condiciones.</p></div><div className="steps">{examples.map(([num, title, text]) => <article key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
+}
+
 function PlanCard({ plan }) {
   const message = `Hola, tengo un restaurante en [ciudad] y quiero mejorar mis redes sociales y conseguir más reservas. Me interesa el plan ${plan.name} de Dania360. ¿Podéis orientarme?`
   return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Más elegido</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
@@ -295,5 +304,5 @@ export default function App({ initialPath }) {
   const currentPath = initialPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/gestion-redes-sociales-restaurantes/')
   const path = currentPath.replace(/^\/+|\/+$/g, '')
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
-  return <main><Navbar /><Hero /><HowItWorks /><Services /><Pricing /><Resources /><FAQ /><Footer /></main>
+  return <main><Navbar /><Hero /><HowItWorks /><Services /><RestaurantContentExample /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
