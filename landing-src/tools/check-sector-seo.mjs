@@ -15,6 +15,8 @@ const paths = [
 const read = (path) => readFileSync(new URL(`../../${path}`, import.meta.url), 'utf8');
 const home = read('index.html');
 const sitemap = read('sitemap.xml');
+const services = read('gestion-redes-sociales/index.html');
+const resources = read('recursos/index.html');
 const descriptions = new Set();
 const errors = [];
 
@@ -47,7 +49,7 @@ for (const path of paths) {
   if (/publicaciones semanales (?:en|y)|publicación semanal en Google Business Profile|incrementa la frecuencia y añade posicionamiento SEO/i.test(html)) {
     errors.push(`${path}: la FAQ afirma una frecuencia de publicaciones en Google no incluida en los planes oficiales`);
   }
-  if (['gestion-redes-sociales-abogados', 'gestion-redes-sociales-veterinarias'].includes(path)) {
+  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-veterinarias'].includes(path)) {
     const faq = entities.find((entity) => entity['@type'] === 'FAQPage');
     const priceAnswer = faq?.mainEntity?.find((entry) => entry.name?.startsWith('¿Cuánto cuesta la gestión de redes sociales'))?.acceptedAnswer?.text;
     if (!priceAnswer?.includes('Growth por 297 €') || !priceAnswer.includes('pero no gestión de redes sociales')) {
@@ -58,7 +60,12 @@ for (const path of paths) {
     }
   }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
+  if (!resources.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde recursos`);
   if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`${path}: falta en sitemap.xml`);
+}
+
+if (!services.includes('Gestión de redes sociales para peluquerías →')) {
+  errors.push('gestion-redes-sociales: el enlace a salones no nombra peluquerías');
 }
 
 for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-murcia']) {
