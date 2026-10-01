@@ -1,0 +1,185 @@
+/* Acento común de Dania360. Se carga después de los estilos de cada página. */
+:root {
+  --brand-orange: #ff7139;
+  --brand-orange-ink: #a43912;
+  --accent: var(--brand-orange);
+  --orange: var(--brand-orange);
+  --orange-light: var(--brand-orange);
+  --orange-dark: var(--brand-orange-ink);
+  --coral: var(--brand-orange);
+  --coral-dark: var(--brand-orange-ink);
+  --lime: var(--brand-orange);
+  --pink: var(--brand-orange);
+  --yellow: var(--brand-orange);
+  --red: var(--brand-orange);
+  --amber: var(--brand-orange);
+  --butter: var(--brand-orange);
+  --brass: var(--brand-orange);
+  --champan: var(--brand-orange);
+  --champan-claro: #ffe0d3;
+  --terracota: var(--brand-orange);
+  --terracota-tinta: var(--brand-orange-ink);
+}
+
+/* El 360 debe coincidir con el naranja de las dos flechas del logo. */
+.brand b,
+.brand strong,
+.marca__texto span {
+  color: var(--brand-orange);
+}
+
+/* La identidad de cada sector mantiene su base, pero no otro color de acento. */
+.brand-gym {
+  --blue: var(--brand-orange);
+}
+
+.brand-dental,
+.brand-academy {
+  --teal: var(--brand-orange);
+  --teal-dark: var(--brand-orange-ink);
+}
+
+.brand-realty {
+  --blue: var(--brand-orange);
+  --sky: var(--brand-orange);
+}
+
+.brand-physio {
+  --mint: var(--brand-orange);
+  --mint-soft: #fff1eb;
+}
+
+.button-primary {
+  background: var(--brand-orange);
+}
+
+.sector-directory__card:hover,
+.sector-directory__card:focus-visible {
+  border-color: var(--brand-orange);
+}
+
+.sector-directory__card span:last-child,
+.sector-directory__all a {
+  color: var(--brand-orange);
+}
+
+/* En fondos claros, un tono oscuro del naranja conserva el contraste. */
+.brand-dental h1 em,
+.brand-dental .kicker,
+.brand-dental .eyebrow,
+.brand-dental .label,
+.brand-dental .moment,
+.brand-dental .button--outline,
+.brand-dental .quiet-link:hover,
+.brand-dental .quiet-link:focus-visible {
+  color: var(--brand-orange-ink);
+}
+
+.brand-dental .button,
+.brand-dental .eyebrow span,
+.brand-dental .feature--accent {
+  color: #201510;
+}
+
+.brand-dental .feature--accent .label,
+.brand-dental .feature--accent p {
+  color: #201510;
+}
+
+.brand-dental .button--outline {
+  background: transparent;
+  color: var(--brand-orange-ink);
+}
+
+.brand-dental .button:hover,
+.brand-dental .button:focus-visible {
+  color: #fff;
+}
+
+.brand-realty .ticker b,
+.brand-realty .closing .kicker,
+.brand-realty .closing h2 em {
+  color: var(--night);
+}
+
+.brand-realty .plan--featured {
+  color: var(--night);
+}
+
+.brand-realty .plan--featured li,
+.brand-realty .plan--featured .channels,
+.brand-realty .plan--featured .price span,
+.brand-realty .plan--featured .plan__head small {
+  color: var(--night);
+}
+
+.brand-realty .plan--featured .plan__head > span,
+.brand-realty .plan--featured li::before {
+  color: var(--night);
+}
+
+.brand-law .hero h1 em,
+.brand-law .plan--featured .plan__label {
+  color: var(--brand-orange);
+}
+
+.brand-physio .wa-float {
+  background: #25d366;
+}
+
+.brand-vet .hero h1 em {
+  color: var(--brand-orange-ink);
+}
+
+.brand-vet .wa-float {
+  background: #25d366;
+}
+
+.brand-gym .tag--blue {
+  background: var(--brand-orange);
+}
+
+@media (max-width: 600px) {
+  .brand-physio .hero h1 span {
+    font-size: .74em;
+  }
+}
+
+/* Sobre naranja, el texto oscuro mantiene la legibilidad de los CTA. */
+.button-primary,
+.button--primary,
+.button--amber,
+.button--coral,
+.button--yellow {
+  color: #201510;
+}
+
+.plan .button--amber {
+  color: #201510;
+}
+
+/* En la landing de comercios, rojo y amarillo eran dos acentos distintos. */
+.marquee,
+.board-card--new {
+  color: #201510;
+}
+
+.final-cta .button--yellow {
+  background: #201510;
+  color: #fff;
+}
+
+.plans .kicker,
+.plans .section-heading h2 em {
+  color: #fff;
+}
+
+/* En superficies claras, esta variante es legible sin perder la identidad naranja. */
+.seo-resources__eyebrow,
+.seo-resources__links span {
+  color: var(--brand-orange-ink);
+}
+
+.seo-resources__links a:hover {
+  border-color: var(--brand-orange);
+}

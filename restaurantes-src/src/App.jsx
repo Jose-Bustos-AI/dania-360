@@ -122,7 +122,7 @@ function WhatsAppIcon({ size = 20 }) {
 }
 
 function Brand({ dark = false }) {
-  return <a className={`brand ${dark ? 'brand-dark' : ''}`} href="/" aria-label="Dania360, página principal"><img className="brand-logo" src="/logo-dania360-transparent.webp" width="42" height="42" alt="" /><span>DANIA</span><b>360</b><small>para restaurantes</small></a>
+  return <a className={`brand ${dark ? 'brand-dark' : ''}`} href="/" aria-label="Dania360, página principal"><img className="brand-logo" src="/logo-dania360-orange-black.webp" width="42" height="42" alt="" /><span>DANIA</span><b>360</b><small>para restaurantes</small></a>
 }
 
 function Navbar() {

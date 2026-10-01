@@ -115,8 +115,8 @@
     style.textContent =
       '.dania-consent{position:fixed;z-index:99999;left:16px;right:16px;bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:920px;margin:auto;padding:18px 20px;background:#fff;color:#25211f;border:1px solid rgba(37,33,31,.14);border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,.2);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}' +
       '.dania-consent strong{display:block;font-size:16px;margin-bottom:3px}.dania-consent p{margin:0}.dania-consent a{color:inherit;text-decoration:underline;text-underline-offset:2px}' +
-      '.dania-consent__actions{display:flex;gap:10px;flex:0 0 auto}.dania-consent button{min-width:112px;padding:11px 16px;border:1px solid #94513a;border-radius:999px;background:transparent;color:#5e3022;font:700 14px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer}' +
-      '.dania-consent button[data-consent="accepted"]{background:#94513a;color:#fff}.dania-consent button:focus-visible{outline:3px solid #c7a87c;outline-offset:2px}' +
+      '.dania-consent__actions{display:flex;gap:10px;flex:0 0 auto}.dania-consent button{min-width:112px;padding:11px 16px;border:1px solid #ff7139;border-radius:999px;background:transparent;color:#a43912;font:700 14px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer}' +
+      '.dania-consent button[data-consent="accepted"]{background:#ff7139;color:#201510}.dania-consent button:focus-visible{outline:3px solid #ff7139;outline-offset:2px}' +
       '@media(max-width:700px){.dania-consent{align-items:stretch;flex-direction:column;gap:14px;padding:16px}.dania-consent__actions{display:grid;grid-template-columns:1fr 1fr}.dania-consent button{min-width:0}}';
 
     document.head.appendChild(style);
