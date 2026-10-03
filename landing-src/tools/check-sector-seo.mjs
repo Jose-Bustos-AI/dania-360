@@ -59,6 +59,10 @@ for (const path of paths) {
       errors.push(`${path}: la respuesta de precio en FAQPage no coincide con la respuesta visible`);
     }
   }
+  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-abogados'].includes(path)
+      && html.includes('Web · Chat inteligente · Google Maps')) {
+    errors.push(`${path}: Starter ofrece kit QR, no gestión de Google Maps`);
+  }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
   if (!resources.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde recursos`);
   if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`${path}: falta en sitemap.xml`);
