@@ -78,6 +78,22 @@ for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-mu
   }
 }
 
+const murcia = read('gestion-redes-sociales-murcia/index.html');
+if (/100\s*%\s*online|completamente online|no\s+(?:trabajamos|prestamos).{0,60}presencialmente/i.test(murcia)) {
+  errors.push('gestion-redes-sociales-murcia: no presentar el servicio como exclusivamente online');
+}
+if (!/visitas concertadas/i.test(murcia) || !/afincado en Murcia/i.test(murcia)) {
+  errors.push('gestion-redes-sociales-murcia: falta explicar la atención local real');
+}
+const murciaGraph = [...murcia.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
+  .flatMap((match) => JSON.parse(match[1])['@graph'] ?? []);
+const presencialAnswer = murciaGraph.find((item) => item['@type'] === 'FAQPage')?.mainEntity
+  ?.find((item) => item.name === '¿Trabajáis presencialmente en Murcia?')?.acceptedAnswer?.text;
+const visiblePresencialAnswer = murcia.match(/<summary>¿Trabajáis presencialmente en Murcia\?<span>\+<\/span><\/summary><p>([^<]+)<\/p>/)?.[1];
+if (!presencialAnswer || presencialAnswer !== visiblePresencialAnswer) {
+  errors.push('gestion-redes-sociales-murcia: la respuesta visible sobre visitas no coincide con FAQPage');
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
