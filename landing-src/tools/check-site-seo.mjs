@@ -65,6 +65,7 @@ for (const address of urls) {
   const canonical = tagValue(html, /<link\s+rel="canonical"\s+href="([^"]+)"/i);
   const robots = tagValue(html, /<meta\s+name="robots"\s+content="([^"]+)"/i) ?? '';
   const h1Count = [...html.matchAll(/<h1(?:\s|>)/gi)].length;
+  const headingLevels = [...html.matchAll(/<h([1-6])\b[^>]*>/gi)].map((match) => Number(match[1]));
 
   if (!title) errors.push(`${pathname}: falta <title>`);
   else if (titles.has(title)) errors.push(`${pathname}: título repetido con ${titles.get(title)}`);
@@ -75,6 +76,9 @@ for (const address of urls) {
   if (canonical !== address) errors.push(`${pathname}: canonical ${canonical ?? 'ausente'} no coincide con sitemap`);
   if (/noindex/i.test(robots)) errors.push(`${pathname}: noindex en una página del sitemap`);
   if (h1Count !== 1) errors.push(`${pathname}: ${h1Count} encabezados H1`);
+  if (headingLevels[0] !== 1 || headingLevels.some((level, index) => index > 0 && level > headingLevels[index - 1] + 1)) {
+    errors.push(`${pathname}: jerarquía de encabezados H1–H6 con saltos o sin H1 inicial`);
+  }
 
   for (const [, json] of html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)) {
     try { JSON.parse(json); } catch { errors.push(`${pathname}: JSON-LD no válido`); }
@@ -94,5 +98,5 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`${urls.length} páginas del sitemap: títulos y descripciones únicos, canonical, H1, señales de indexabilidad, JSON-LD y enlaces internos correctos.`);
+  console.log(`${urls.length} páginas del sitemap: títulos y descripciones únicos, canonical, jerarquía H1–H6, señales de indexabilidad, JSON-LD y enlaces internos correctos.`);
 }

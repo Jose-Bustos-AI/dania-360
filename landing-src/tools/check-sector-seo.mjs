@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const paths = [
   'salones-estetica',
@@ -67,6 +67,12 @@ for (const path of paths) {
     if (!html.includes('Pide tu auditoría gratis')) errors.push(`${path}: falta la llamada a la auditoría gratuita`);
     if (!html.includes('Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales')) {
       errors.push(`${path}: el bloque de precios debe distinguir Starter de la gestión de redes`);
+    }
+    const brandStyles = [...html.matchAll(/<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>/g)];
+    if (brandStyles.length !== 1) errors.push(`${path}: debe cargar la hoja de marca una sola vez`);
+    const clientScript = html.match(/<script type="module" crossorigin src="(\/gestion-redes-sociales-restaurantes\/assets\/[^"]+\.js)"><\/script>/)?.[1];
+    if (!clientScript || !existsSync(new URL(`../..${clientScript}`, import.meta.url))) {
+      errors.push(`${path}: el JavaScript publicado no existe`);
     }
   }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
