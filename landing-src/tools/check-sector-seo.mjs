@@ -49,7 +49,7 @@ for (const path of paths) {
   if (/publicaciones semanales (?:en|y)|publicación semanal en Google Business Profile|incrementa la frecuencia y añade posicionamiento SEO/i.test(html)) {
     errors.push(`${path}: la FAQ afirma una frecuencia de publicaciones en Google no incluida en los planes oficiales`);
   }
-  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-veterinarias'].includes(path)) {
+  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia', 'gestion-redes-sociales-veterinarias'].includes(path)) {
     const faq = entities.find((entity) => entity['@type'] === 'FAQPage');
     const priceAnswer = faq?.mainEntity?.find((entry) => entry.name?.startsWith('¿Cuánto cuesta la gestión de redes sociales'))?.acceptedAnswer?.text;
     if (!priceAnswer?.includes('Growth por 297 €') || !priceAnswer.includes('pero no gestión de redes sociales')) {
@@ -58,6 +58,10 @@ for (const path of paths) {
     if (priceAnswer && !html.includes(`<p>${priceAnswer}</p>`)) {
       errors.push(`${path}: la respuesta de precio en FAQPage no coincide con la respuesta visible`);
     }
+  }
+  if (['gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-fisioterapia'].includes(path)
+      && html.includes('Web · Chat inteligente · Google Maps')) {
+    errors.push(`${path}: Starter ofrece kit QR, no gestión de Google Maps`);
   }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
   if (!resources.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde recursos`);
