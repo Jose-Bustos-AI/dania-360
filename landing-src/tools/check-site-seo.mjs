@@ -68,6 +68,10 @@ for (const address of urls) {
   if (html.includes('Web · Chat inteligente · Google Maps')) {
     errors.push(`${pathname}: Starter no debe presentarse como gestión de Google Maps`);
   }
+  if (html.includes('Gestión profesional de la presencia digital para empresas y negocios locales.')
+      || html.includes('visibilidad digital para negocios que quieren crecer')) {
+    errors.push(`${pathname}: queda un texto genérico de pie de página sin beneficio concreto`);
+  }
   const title = tagValue(html, /<title>([^<]+)<\/title>/i);
   const description = tagValue(html, /<meta\s+name="description"\s+content="([^"]+)"/i);
   const canonical = tagValue(html, /<link\s+rel="canonical"\s+href="([^"]+)"/i);
