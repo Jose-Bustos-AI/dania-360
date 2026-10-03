@@ -105,9 +105,9 @@
 .comparison-wrap tbody th { min-width: 235px; color: #d6d7da; background: #111319; font-weight: 700; text-align: left; }
 .comparison-wrap tbody td { min-width: 175px; color: #c8cad0; }
 .comparison-wrap tbody tr:nth-child(even) td { background: rgba(255, 255, 255, .018); }
-.yes { color: var(--green); font-weight: 800; }
+.yes { color: var(--orange); font-weight: 800; }
 .no { color: #858892; }
-.comparison-cta { display: flex; align-items: center; justify-content: space-between; gap: 35px; margin-top: 24px; padding: 25px 27px; border: 1px solid rgba(56, 217, 150, .22); border-radius: 18px; background: rgba(56, 217, 150, .055); }
+.comparison-cta { display: flex; align-items: center; justify-content: space-between; gap: 35px; margin-top: 24px; padding: 25px 27px; border: 1px solid rgba(255, 113, 57, .22); border-radius: 18px; background: rgba(255, 113, 57, .055); }
 .comparison-cta p { margin: 0; }
 .comparison-cta p strong, .comparison-cta p span { display: block; }
 .comparison-cta p span { margin-top: 3px; color: var(--muted); font-size: 13px; }
@@ -115,12 +115,12 @@
 .costs-section { display: grid; grid-template-columns: .72fr 1.28fr; gap: 80px; }
 .costs-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .costs-grid article { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--panel); }
-.costs-grid .included-costs { border-color: rgba(56, 217, 150, .24); }
+.costs-grid .included-costs { border-color: rgba(255, 113, 57, .24); }
 .costs-grid .extra-costs { border-color: rgba(255, 173, 125, .25); }
 .cost-label { margin: 0; color: white; font-size: 15px; font-weight: 800; }
 .costs-grid ul { display: grid; gap: 13px; margin: 22px 0 0; padding: 20px 0 0; border-top: 1px solid var(--line); list-style: none; }
 .costs-grid li { position: relative; padding-left: 21px; color: var(--muted); font-size: 13px; }
-.costs-grid li::before { position: absolute; left: 0; color: var(--green); content: "✓"; }
+.costs-grid li::before { position: absolute; left: 0; color: var(--orange); content: "✓"; }
 .extra-costs li::before { color: var(--orange-light); content: "•"; }
 .currency-note { grid-column: 2; margin: 0; padding: 20px 23px; border-left: 3px solid var(--orange); color: var(--muted); background: rgba(255, 113, 57, .055); font-size: 13px; }
 .currency-note strong { color: white; }
