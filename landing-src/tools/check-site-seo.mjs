@@ -13,6 +13,7 @@ const descriptions = new Map();
 
 const homepage = readFileSync(resolve(root, 'index.html'), 'utf8');
 const servicePage = readFileSync(resolve(root, 'gestion-redes-sociales/index.html'), 'utf8');
+const pricingPage = readFileSync(resolve(root, 'precios-gestion-redes-sociales/index.html'), 'utf8');
 const brandCss = readFileSync(resolve(root, 'brand-orange.css'), 'utf8');
 const salonPlans = readFileSync(resolve(root, 'landing-src/config/planes.json'), 'utf8');
 const restaurantPlans = readFileSync(resolve(root, 'restaurantes-src/src/App.jsx'), 'utf8');
@@ -32,6 +33,13 @@ if (homeH1 !== 'Gestión de redes sociales.') {
 }
 if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(servicePage)) {
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
+}
+if (!pricingPage.includes('<em>Web, chat y kit QR</em>') || !pricingPage.includes('<em>Redes, mensajes y Google</em>')
+    || !pricingPage.includes('<em>Más canales y SEO continuo</em>')) {
+  errors.push('/precios-gestion-redes-sociales/: el resumen de planes debe distinguir el kit QR de la gestión de redes, mensajes y Google');
+}
+if (!pricingPage.includes('Starter incluye web, chat inteligente y kit QR de reseñas. Growth añade gestión de redes sociales')) {
+  errors.push('/precios-gestion-redes-sociales/: la descripción de Starter no debe insinuar gestión de reseñas');
 }
 const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
   ?.replace(/<[^>]+>/g, '')
