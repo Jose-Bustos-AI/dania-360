@@ -162,8 +162,8 @@ h2 em { color: var(--orange-light); font-style: normal; }
 .plan-card li { display: flex; gap: 9px; margin: 12px 0; color: #acadb3; font-size: 12px; line-height: 1.43; }
 .plan-actions { display: flex; flex-direction: column; gap: 9px; }
 .plan-actions .button { min-height: 48px; font-size: 13px; }
-.button-whatsapp { padding: 16px 23px; border: 1px solid rgba(101,237,159,.42); color: #06140c; background: linear-gradient(135deg, #43dd88, #24bd6b); box-shadow: 0 14px 35px rgba(36,189,107,.2); }
-.button-whatsapp:hover { background: linear-gradient(135deg, #58e698, #2fca76); border-color: rgba(139,241,181,.7); }
+.button-whatsapp { padding: 16px 23px; border: 1px solid #ff7139; color: #201510; background: #ff7139; box-shadow: 0 14px 35px rgba(255,113,57,.2); }
+.button-whatsapp:hover { background: #ff8a5c; border-color: #ff8a5c; }
 .button-small.button-whatsapp { padding: 11px 17px; }
 .plan-reassurance { display: block; margin-top: 14px; text-align: center; color: #73757d; font-size: 10px; }
 .price-note { margin: 28px auto 0; max-width: 680px; text-align: center; color: #74767e; font-size: 11px; line-height: 1.55; }
