@@ -32,6 +32,9 @@ const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
 if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/Starter.*99\s*€\/mes/i.test(heroLead) || !/web y chat/i.test(heroLead)) {
   errors.push('/: la presentación debe separar Starter (web y chat, 99 €/mes) de Growth (redes, 297 €/mes)');
 }
+if (!homepage.includes('<div class="plan-channels-label">Incluye</div><div class="network-line"><span>Web · Chat inteligente · Kit QR de reseñas</span>')) {
+  errors.push('/: Starter debe mostrar el kit QR de reseñas, no presentar Google Maps como un canal gestionado');
+}
 if (homepage.includes('<b>+200</b><span>especialistas')) {
   errors.push('/: no mostrar un número de especialistas sin verificación');
 }
