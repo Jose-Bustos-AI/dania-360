@@ -15,7 +15,7 @@ const plans = [
     name: 'Starter',
     price: '99',
     tagline: 'Tu página web profesional con chat inteligente, kit QR de reseñas para Google Maps, dominio y hosting incluidos.',
-    networks: 'Web · Chat inteligente · Google Maps',
+    networks: 'Web · Chat inteligente · Kit QR de reseñas',
     content: [
       [
         'Web',
