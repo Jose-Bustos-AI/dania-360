@@ -7,7 +7,7 @@ if (typeof window !== 'undefined') gsap.registerPlugin(ScrollTrigger)
 
 const WA_NUMBER = '34631105772'
 const EMAIL = 'hola@dania360.com'
-const generalMessage = 'Hola, he visto el servicio de Dania360 para restaurantes. Tengo un restaurante en [ciudad] y quiero mejorar mis redes sociales y conseguir más reservas. ¿Qué plan me recomendáis?'
+const generalMessage = 'Hola, tengo un restaurante en [ciudad] y quiero solicitar la auditoría gratuita de mi web, redes sociales y presencia en Google. ¿Qué necesitáis para empezar?'
 const waLink = (message = generalMessage) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`
 
 const plans = [
@@ -95,12 +95,12 @@ const plans = [
 ]
 
 const services = [
-  { icon: Globe2, title: 'Una web que abre el apetito', text: 'Creamos o gestionamos una web profesional para que tu carta, tu propuesta y tu forma de reservar se entiendan a la primera.' },
-  { icon: Sparkles, title: 'Contenido gastronómico siempre activo', text: 'Creamos, revisamos y publicamos Reels, carruseles y Stories sobre platos, carta, menús, ambiente, equipo, eventos y novedades del restaurante.' },
-  { icon: MapPin, title: 'Google y Maps trabajados', text: 'Desde Growth mantenemos activa tu ficha, gestionamos reseñas y reforzamos tu visibilidad cuando alguien busca dónde comer.' },
-  { icon: MessageCircle, title: 'Consultas que llegan a ti', text: 'Gestionamos la conversación y derivamos las oportunidades a tu teléfono o WhatsApp para que puedas convertirlas en reservas.' },
-  { icon: Star, title: 'Reputación que genera confianza', text: 'Respondemos reseñas y comentarios con el tono de tu restaurante para que más personas se decidan por ti.' },
-  { icon: Search, title: 'Visibilidad más allá de las redes', text: 'Con Scale trabajamos SEO y buscadores con IA para que tu restaurante pueda aparecer en más momentos de decisión.' },
+  { icon: Globe2, title: 'Web con carta y contacto claros', text: 'Creamos o gestionamos una web profesional para mostrar tu carta, horarios y canal de reserva o pedido.' },
+  { icon: Sparkles, title: 'Publicaciones sobre carta, equipo y ambiente', text: 'Desde Growth creamos, revisamos y publicamos contenido sobre platos, menús, equipo, eventos y novedades del restaurante.' },
+  { icon: MapPin, title: 'Ficha de Google y reseñas desde Growth', text: 'Gestionamos tu perfil de empresa y respondemos reseñas para mantener información útil y actualizada.' },
+  { icon: MessageCircle, title: 'Comentarios, mensajes y consultas', text: 'Gestionamos la conversación y derivamos las consultas a tu teléfono, WhatsApp o canal de contacto preferido.' },
+  { icon: Star, title: 'Respuestas a reseñas con tu tono', text: 'Respondemos reseñas y comentarios de acuerdo con la información y el tono que nos facilites.' },
+  { icon: Search, title: 'SEO continuo con Scale', text: 'Con Scale trabajamos la web y sus datos estructurados para facilitar su comprensión por buscadores.' },
 ]
 
 const faqs = [
@@ -131,9 +131,9 @@ function Navbar() {
     <Brand dark />
     <div className={`nav-links ${open ? 'nav-open' : ''}`}>
       <a href="#como-funciona" onClick={() => setOpen(false)}>Cómo funciona</a><a href="#servicios" onClick={() => setOpen(false)}>Qué gestionamos</a><a href="#planes" onClick={() => setOpen(false)}>Planes</a><a href="#faq" onClick={() => setOpen(false)}>Preguntas</a>
-      <a className="nav-mobile-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Hablar por WhatsApp</a>
+      <a className="nav-mobile-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis</a>
     </div>
-    <a className="button nav-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon size={18} /> Quiero más clientes</a>
+    <a className="button nav-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon size={18} /> Pide tu auditoría gratis</a>
     <button className="menu-button" onClick={() => setOpen(!open)} aria-label={open ? 'Cerrar menú' : 'Abrir menú'}>{open ? <X /> : <Menu />}</button>
   </nav></header>
 }
@@ -216,25 +216,25 @@ function Hero() {
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales{' '}<em>para restaurantes.</em></h1>
-      <p>Gestionamos el contenido, la web, Google y las reseñas de tu restaurante para mejorar su visibilidad y generar más oportunidades de contacto y reserva.</p>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Redes desde 297 €/mes</a></div>
-      <small className="cta-note">Te orientamos por WhatsApp · Sin compromiso</small>
+      <p>Tu carta y tus horarios tienen que ser fáciles de encontrar; tus redes, mostrar lo que de verdad se sirve. Revisamos tu web, redes y ficha de Google y, desde Growth, gestionamos el contenido y las consultas para facilitar el contacto o la reserva.</p>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Redes desde 297 €/mes</a></div>
+      <small className="cta-note">Revisamos tu presencia actual · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
       <div className="panel-head"><span>Tu presencia digital</span><b>En marcha</b></div>
-      <div className="panel-goal"><small>Objetivo</small><strong>Más clientes para tu restaurante</strong><p>Más personas te encuentran, confían y contactan.</p></div>
+      <div className="panel-goal"><small>Objetivo</small><strong>Que puedan elegir tu restaurante</strong><p>Carta clara, contenido real y una vía sencilla para contactar o reservar.</p></div>
       <div className="panel-grid"><div><Globe2 /><small>Web</small><b>Incluida</b></div><div><CalendarDays /><small>Contenido</small><b>hasta 30/mes</b></div><div><MapPin /><small>Google</small><b>Growth · Scale</b></div><div><MessageCircle /><small>Consultas</small><b>A tu WhatsApp</b></div></div>
     </div></div>
   </section>
 }
 
 function HowItWorks() {
-  const steps = [['01', 'Conocemos tu restaurante', 'Analizamos tu propuesta, tu zona, tus canales y qué tipo de cliente quieres atraer.'], ['02', 'Creamos tu sistema de visibilidad', 'Preparamos web, calendario, contenidos y presencia en Google según el plan elegido.'], ['03', 'Publicamos, cuidamos y mejoramos', 'Tu presencia sigue activa cada semana mientras tú te concentras en ofrecer una gran experiencia.']]
-  return <section className="section how" id="como-funciona"><div className="section-heading"><span>Cómo funciona</span><h2>Cómo funciona la gestión de redes sociales para restaurantes.</h2><p>Nos ocupamos del trabajo constante que hace que un restaurante se vea profesional y resulte fácil de elegir.</p></div><div className="steps">{steps.map(([num, title, text]) => <article key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
+  const steps = [['01', 'Revisamos carta y canales actuales', 'Analizamos tu propuesta, zona, horarios, canales y forma de recibir reservas o pedidos.'], ['02', 'Preparamos web y calendario de contenidos', 'Organizamos la información de la web y, desde Growth, el calendario y la ficha de Google según el plan elegido.'], ['03', 'Publicamos y revisamos las consultas', 'Publicamos contenido aprobado, atendemos comentarios y mensajes y revisamos las consultas para ajustar el trabajo siguiente.']]
+  return <section className="section how" id="como-funciona"><div className="section-heading"><span>Cómo funciona</span><h2>Cómo organizamos el contenido y la presencia digital de tu restaurante.</h2><p>Partimos de tu carta, tus horarios y el material autorizado para publicar información útil y facilitar la consulta o reserva.</p></div><div className="steps">{steps.map(([num, title, text]) => <article key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
 }
 
 function Services() {
-  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Qué incluye la gestión de redes sociales para restaurantes.</h2><p>Combinamos presencia, contenido, reputación y posicionamiento para acompañar al cliente desde el descubrimiento hasta el contacto.</p></div><div className="service-grid">{services.map(service => {
+  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Qué gestionamos en la web, redes sociales y Google de tu restaurante.</h2><p>Growth y Scale incluyen publicaciones, mensajes y ficha de Google. Scale añade SEO continuo. La web con chat y el kit QR están incluidos desde Starter, sin gestión de redes.</p></div><div className="service-grid">{services.map(service => {
     const ServiceIcon = service.icon
     return <article key={service.title}><ServiceIcon /><h3>{service.title}</h3><p>{service.text}</p></article>
   })}</div></section>
@@ -250,25 +250,25 @@ function RestaurantContentExample() {
 }
 
 function PlanCard({ plan }) {
-  const message = `Hola, tengo un restaurante en [ciudad] y quiero mejorar mis redes sociales y conseguir más reservas. Me interesa el plan ${plan.name} de Dania360. ¿Podéis orientarme?`
+  const message = `Hola, tengo un restaurante en [ciudad] y quiero solicitar la auditoría gratuita. Me interesa el plan ${plan.name} de Dania360. ¿Podéis revisar mi situación y orientarme?`
   return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Más elegido</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
 }
 
 function Pricing() {
-  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Planes y precios de redes sociales para restaurantes.</h2><p>Sin permanencia. Si no sabes cuál necesitas, cuéntanos tu caso por WhatsApp y te recomendaremos solo lo que tenga sentido.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
+  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Precios de gestión de redes sociales para restaurantes: desde 297 €/mes.</h2><p>Growth (297 €) y Scale (497 €) gestionan tus redes. Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales. Sin permanencia.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
 }
 
 function Resources() {
-  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Cómo elegir una agencia de redes sociales para restaurantes.</h2><p>Compara el alcance, entiende qué incluye el servicio y conecta la estrategia social con la visibilidad local. Consulta también <a href="/recursos/que-publicar-redes-sociales-restaurante/">qué publicar en las redes sociales de un restaurante</a> y <a href="/quienes-somos/">conoce quién te atiende en Dania360</a>.</p></div><div className="seo-resources__links"><a href="/recursos/que-publicar-redes-sociales-restaurante/">Guía de contenido para restaurantes</a><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
+  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Qué publicar y qué revisar antes de contratar redes para tu restaurante.</h2><p>Una carta actualizada, horarios fiables y contenido real ayudan a evitar dudas antes de reservar. Consulta <a href="/recursos/que-publicar-redes-sociales-restaurante/">qué publicar en las redes sociales de un restaurante</a> y <a href="/quienes-somos/">quién atiende tu cuenta en Dania360</a>.</p></div><div className="seo-resources__links"><a href="/recursos/que-publicar-redes-sociales-restaurante/">Guía de contenido para restaurantes</a><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
 }
 
 function FAQ() {
   const [open, setOpen] = useState(0)
-  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Preguntas sobre redes sociales para restaurantes.</h2><p>Si tu duda depende de tu carta, tus cuentas o tu canal de reservas, podemos revisarla contigo por WhatsApp.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <article className={open === index ? 'faq-open' : ''} key={question}><button onClick={() => setOpen(open === index ? -1 : index)}><span>{question}</span><ChevronDown /></button><div><p>{answer}</p></div></article>)}</div></section>
+  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Dudas sobre precios, contenido y reservas de restaurantes.</h2><p>Si tu duda depende de tu carta, tus cuentas o tu canal de reservas, podemos revisarla contigo por WhatsApp.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <article className={open === index ? 'faq-open' : ''} key={question}><button onClick={() => setOpen(open === index ? -1 : index)}><span>{question}</span><ChevronDown /></button><div><p>{answer}</p></div></article>)}</div></section>
 }
 
 function Footer() {
-  return <><section className="final-cta"><span><i /> ¿Hablamos de tu restaurante?</span><h2>Tu próxima reserva puede empezar con una búsqueda, una publicación o una reseña.</h2><p>Hagamos que tu restaurante esté preparado para aparecer y convencer.</p><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a></section><footer className="footer"><div className="footer-top"><Brand /><p>Servicio especializado de Dania360 para la gestión de redes sociales, web, Google y reputación digital de restaurantes.</p><div><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: 631 105 772</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Dania 360</span><nav aria-label="Información legal"><a href="/gestion-redes-sociales/">Servicios</a><a href="/quienes-somos/">Quiénes somos</a><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav></div></footer><a className="whatsapp-float" href={waLink()} target="_blank" rel="noreferrer" aria-label="Hablar con Dania360 por WhatsApp"><WhatsAppIcon size={25} /><span>¿Hablamos?</span></a></>
+  return <><section className="final-cta"><span><i /> ¿Hablamos de tu restaurante?</span><h2>Pide una auditoría gratuita de la web, redes y ficha de Google de tu restaurante.</h2><p>Te diremos qué información falta, qué contenido conviene priorizar y qué plan encaja con tu situación.</p><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a></section><footer className="footer"><div className="footer-top"><Brand /><p>Servicio especializado de Dania360 para la gestión de redes sociales, web, Google y reputación digital de restaurantes.</p><div><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: 631 105 772</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Dania 360</span><nav aria-label="Información legal"><a href="/gestion-redes-sociales/">Servicios</a><a href="/quienes-somos/">Quiénes somos</a><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav></div></footer><a className="whatsapp-float" href={waLink()} target="_blank" rel="noreferrer" aria-label="Hablar con Dania360 por WhatsApp"><WhatsAppIcon size={25} /><span>¿Hablamos?</span></a></>
 }
 
 const pending = <strong className="pending">DATO PENDIENTE DE COMPLETAR</strong>

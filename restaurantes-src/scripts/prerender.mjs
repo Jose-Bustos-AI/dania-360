@@ -15,7 +15,7 @@ if (!html.includes(marker)) {
 const rendered = render('/gestion-redes-sociales-restaurantes/')
 const finalHtml = html
   .replace(marker, rendered)
-  .replace(/^[ \t]*<link rel="stylesheet" href="\/brand-orange\.css\?v=20261001" \/>[ \t]*\r?\n/m, '')
+  .replace(/^[ \t]*<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>[ \t]*\r?\n/gm, '')
   .replace('</head>', `    ${brandStylesheet}\n  </head>`)
   .replace(/\r\n/g, '\n')
 await writeFile(outputUrl, finalHtml, 'utf8')
