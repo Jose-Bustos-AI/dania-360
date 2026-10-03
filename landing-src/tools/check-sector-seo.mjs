@@ -59,7 +59,7 @@ for (const path of paths) {
       errors.push(`${path}: la respuesta de precio en FAQPage no coincide con la respuesta visible`);
     }
   }
-  if (['gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-fisioterapia', 'gestion-redes-sociales-comercios'].includes(path)
+  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-comercios', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia'].includes(path)
       && html.includes('Web · Chat inteligente · Google Maps')) {
     errors.push(`${path}: Starter ofrece kit QR, no gestión de Google Maps`);
   }
