@@ -215,7 +215,7 @@ function Hero() {
     <div className="hero-inner"><div className="hero-copy">
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
-      <h1>Gestión de redes sociales<em>para restaurantes.</em></h1>
+      <h1>Gestión de redes sociales{' '}<em>para restaurantes.</em></h1>
       <p>Gestionamos el contenido, la web, Google y las reseñas de tu restaurante para mejorar su visibilidad y generar más oportunidades de contacto y reserva.</p>
       <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Quiero más reservas <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Redes desde 297 €/mes</a></div>
       <small className="cta-note">Te orientamos por WhatsApp · Sin compromiso</small>
@@ -237,7 +237,7 @@ function Services() {
   return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Qué incluye la gestión de redes sociales para restaurantes.</h2><p>Combinamos presencia, contenido, reputación y posicionamiento para acompañar al cliente desde el descubrimiento hasta el contacto.</p></div><div className="service-grid">{services.map(service => {
     const ServiceIcon = service.icon
     return <article key={service.title}><ServiceIcon /><h3>{service.title}</h3><p>{service.text}</p></article>
-  })}</div><div className="manifesto"><p>Una agencia genérica vende publicaciones.</p><h2>Dania360 construye la presencia digital de tu restaurante para generar nuevas oportunidades.</h2></div></section>
+  })}</div></section>
 }
 
 function RestaurantContentExample() {
@@ -264,7 +264,7 @@ function Resources() {
 
 function FAQ() {
   const [open, setOpen] = useState(0)
-  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Todo claro antes de empezar.</h2><p>Si todavía te queda alguna duda, escríbenos. Te orientaremos sin compromiso y sin intentar venderte un plan que no necesitas.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <article className={open === index ? 'faq-open' : ''} key={question}><button onClick={() => setOpen(open === index ? -1 : index)}><span>{question}</span><ChevronDown /></button><div><p>{answer}</p></div></article>)}</div></section>
+  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Preguntas sobre redes sociales para restaurantes.</h2><p>Si tu duda depende de tu carta, tus cuentas o tu canal de reservas, podemos revisarla contigo por WhatsApp.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <article className={open === index ? 'faq-open' : ''} key={question}><button onClick={() => setOpen(open === index ? -1 : index)}><span>{question}</span><ChevronDown /></button><div><p>{answer}</p></div></article>)}</div></section>
 }
 
 function Footer() {
