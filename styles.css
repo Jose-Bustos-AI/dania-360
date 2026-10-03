@@ -1,4 +1,4 @@
-:root { --ink: #f8f7f4; --muted: #a7a9b2; --night: #090a0d; --panel: #12141a; --line: rgba(255,255,255,.11); --orange: #ff7139; --orange-light: #ff9c67; }
+:root { --ink: #f8f7f4; --muted: #a7a9b2; --night: #000; --panel: #12141a; --line: rgba(255,255,255,.11); --orange: #ff7139; --orange-light: #ff9c67; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; overflow-x: hidden; }
 body { margin: 0; background: var(--night); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
@@ -76,8 +76,8 @@ h1 em { color: var(--orange-light); font-style: normal; }
 @media (max-width: 560px) { .site-header { height: 68px; width: calc(100% - 28px); } .site-header .button-small { display: none; } .header-brand-group { width: 100%; justify-content: space-between; gap: 8px; } .official-header-link { padding: 6px 8px; } .official-header-link small { font-size: 7px; } .official-header-link strong { font-size: 9px; } .hero { width: calc(100% - 28px); padding-top: 44px; gap: 36px; } h1 { font-size: 47px; } .hero-lead { font-size: 16px; line-height: 1.6; } .official-hero-proof { grid-template-columns: 28px 1fr; } .official-hero-proof > b { display: none; } .hero-actions { flex-direction: column; } .trust-row { gap: 10px 16px; } .hero-visual { min-height: 420px; } .dashboard-card { padding: 14px; } .floating-proof { display: none; } .orbit-one { width: 340px; height: 340px; } .orbit-two { width: 410px; height: 410px; } .logo-strip { overflow: hidden; gap: 35px; justify-content: flex-start; white-space: nowrap; } }
 
 /* Complete landing */
-body { overflow-x: hidden; background: radial-gradient(circle at 78% 3%, rgba(255,113,57,.08), transparent 25%), var(--night); }
-.site-header { position: sticky; top: 0; width: 100%; padding-inline: max(20px, calc((100% - 1180px)/2)); background: rgba(9,10,13,.78); backdrop-filter: blur(18px); }
+body { overflow-x: hidden; background: var(--night); }
+.site-header { position: sticky; top: 0; width: 100%; padding-inline: max(20px, calc((100% - 1180px)/2)); background: rgba(0,0,0,.84); backdrop-filter: blur(18px); }
 .section-pad { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 118px 0; }
 .section-kicker { color: var(--orange-light); text-transform: uppercase; letter-spacing: .13em; font-size: 11px; font-weight: 800; }
 .section-heading { max-width: 770px; margin-bottom: 52px; }

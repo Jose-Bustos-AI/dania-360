@@ -1,6 +1,7 @@
 document.querySelectorAll('[data-vsl-src]').forEach((shell) => {
   const launch = shell.querySelector('.vsl-launch');
   const source = shell.getAttribute('data-vsl-src');
+  const poster = shell.getAttribute('data-vsl-poster');
   if (!launch || !source) return;
 
   launch.addEventListener('click', () => {
@@ -10,6 +11,7 @@ document.querySelectorAll('[data-vsl-src]').forEach((shell) => {
     video.preload = 'none';
     video.tabIndex = 0;
     video.setAttribute('aria-label', 'Explicación de los planes Starter, Growth y Scale');
+    if (poster) video.poster = poster;
     video.src = source;
 
     const error = document.createElement('p');

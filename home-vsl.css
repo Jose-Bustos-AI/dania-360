@@ -32,6 +32,11 @@
 .hero .audit-whatsapp:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
 .hero .audit-note { margin: 10px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-align: center; }
 .hero .hero-lead { margin-top: 25px; }
+.hero .hero-vsl .vsl-launch { position: relative; display: grid; place-content: center; place-items: center; padding: 0; background: #000; isolation: isolate; }
+.hero .hero-vsl .vsl-poster-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero .hero-vsl .vsl-launch-play { position: relative; z-index: 1; width: 68px; height: 68px; margin: 0; box-shadow: 0 0 0 10px rgba(0,0,0,.46), 0 10px 30px rgba(0,0,0,.4); }
+.hero .hero-service-title { margin: 27px 0 0; max-width: 640px; font-size: clamp(24px, 2.5vw, 34px); line-height: 1.16; letter-spacing: -.025em; }
+.hero .hero-service-title + .hero-lead { margin-top: 12px; }
 @media (max-width: 600px) {
   .home-vsl { width: calc(100% - 32px); padding-top: 55px; padding-bottom: 70px; }
   .home-vsl .vsl-shell { border-radius: 16px; }
@@ -49,5 +54,7 @@
   .hero .hero-vsl .vsl-launch-center strong { font-size: clamp(17px, 5vw, 23px); }
   .hero .hero-vsl .vsl-launch-play { width: 42px; height: 42px; margin-bottom: 5px; }
   .hero .hero-vsl .vsl-launch-play::after { border-top-width: 8px; border-bottom-width: 8px; border-left-width: 12px; }
+  .hero .hero-vsl .vsl-launch-play { width: 52px; height: 52px; margin: 0; box-shadow: 0 0 0 7px rgba(0,0,0,.46), 0 8px 20px rgba(0,0,0,.4); }
+  .hero .hero-service-title { font-size: 25px; }
   .hero .audit-whatsapp { min-height: 58px; font-size: 16px; }
 }
