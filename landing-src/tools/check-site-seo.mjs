@@ -13,6 +13,16 @@ const descriptions = new Map();
 
 const homepage = readFileSync(resolve(root, 'index.html'), 'utf8');
 const servicePage = readFileSync(resolve(root, 'gestion-redes-sociales/index.html'), 'utf8');
+const pricingPage = readFileSync(resolve(root, 'precios-gestion-redes-sociales/index.html'), 'utf8');
+const brandCss = readFileSync(resolve(root, 'brand-orange.css'), 'utf8');
+const salonPlans = readFileSync(resolve(root, 'landing-src/config/planes.json'), 'utf8');
+const restaurantPlans = readFileSync(resolve(root, 'restaurantes-src/src/App.jsx'), 'utf8');
+if (/^\s*\.plans \.kicker,/m.test(brandCss)) {
+  errors.push('brand-orange.css: el texto blanco de planes no debe aplicarse a secciones claras de otros sectores');
+}
+if ([salonPlans, restaurantPlans].some((source) => source.includes('Web · Chat inteligente · Google Maps'))) {
+  errors.push('las fuentes de los planes presentan Starter como gestión de Google Maps en lugar de kit QR');
+}
 const homeH1 = homepage.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1]
   ?.replace(/<br\s*\/?\s*>/gi, ' ')
   .replace(/<[^>]+>/g, '')
@@ -23,6 +33,13 @@ if (homeH1 !== 'Gestión de redes sociales.') {
 }
 if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(servicePage)) {
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
+}
+if (!pricingPage.includes('<em>Web, chat y kit QR</em>') || !pricingPage.includes('<em>Redes, mensajes y Google</em>')
+    || !pricingPage.includes('<em>Más canales y SEO continuo</em>')) {
+  errors.push('/precios-gestion-redes-sociales/: el resumen de planes debe distinguir el kit QR de la gestión de redes, mensajes y Google');
+}
+if (!pricingPage.includes('Starter incluye web, chat inteligente y kit QR de reseñas. Growth añade gestión de redes sociales')) {
+  errors.push('/precios-gestion-redes-sociales/: la descripción de Starter no debe insinuar gestión de reseñas');
 }
 const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
   ?.replace(/<[^>]+>/g, '')
@@ -48,11 +65,19 @@ for (const address of urls) {
   }
 
   const html = readFileSync(file, 'utf8');
+  if (html.includes('Web · Chat inteligente · Google Maps')) {
+    errors.push(`${pathname}: Starter no debe presentarse como gestión de Google Maps`);
+  }
+  if (html.includes('Gestión profesional de la presencia digital para empresas y negocios locales.')
+      || html.includes('visibilidad digital para negocios que quieren crecer')) {
+    errors.push(`${pathname}: queda un texto genérico de pie de página sin beneficio concreto`);
+  }
   const title = tagValue(html, /<title>([^<]+)<\/title>/i);
   const description = tagValue(html, /<meta\s+name="description"\s+content="([^"]+)"/i);
   const canonical = tagValue(html, /<link\s+rel="canonical"\s+href="([^"]+)"/i);
   const robots = tagValue(html, /<meta\s+name="robots"\s+content="([^"]+)"/i) ?? '';
   const h1Count = [...html.matchAll(/<h1(?:\s|>)/gi)].length;
+  const headingLevels = [...html.matchAll(/<h([1-6])\b[^>]*>/gi)].map((match) => Number(match[1]));
 
   if (!title) errors.push(`${pathname}: falta <title>`);
   else if (titles.has(title)) errors.push(`${pathname}: título repetido con ${titles.get(title)}`);
@@ -63,6 +88,9 @@ for (const address of urls) {
   if (canonical !== address) errors.push(`${pathname}: canonical ${canonical ?? 'ausente'} no coincide con sitemap`);
   if (/noindex/i.test(robots)) errors.push(`${pathname}: noindex en una página del sitemap`);
   if (h1Count !== 1) errors.push(`${pathname}: ${h1Count} encabezados H1`);
+  if (headingLevels[0] !== 1 || headingLevels.some((level, index) => index > 0 && level > headingLevels[index - 1] + 1)) {
+    errors.push(`${pathname}: jerarquía de encabezados H1–H6 con saltos o sin H1 inicial`);
+  }
 
   for (const [, json] of html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)) {
     try { JSON.parse(json); } catch { errors.push(`${pathname}: JSON-LD no válido`); }
@@ -82,5 +110,5 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`${urls.length} páginas del sitemap: títulos y descripciones únicos, canonical, H1, señales de indexabilidad, JSON-LD y enlaces internos correctos.`);
+  console.log(`${urls.length} páginas del sitemap: títulos y descripciones únicos, canonical, jerarquía H1–H6, señales de indexabilidad, JSON-LD y enlaces internos correctos.`);
 }

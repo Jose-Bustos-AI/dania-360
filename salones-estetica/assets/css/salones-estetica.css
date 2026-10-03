@@ -51,12 +51,9 @@
   --terracota-tinta: #94513a; /* variante con contraste suficiente en texto */
   --burdeos: #6d2c3e;
 
-  /* Verde WhatsApp: uso exclusivo en botones y enlaces de contacto.
-     Se usa el verde oscuro de la marca porque el claro sobre blanco no
-     alcanza el contraste mínimo para texto. */
-  --wa: #0d6f64;
-  --wa-oscuro: #09584f;
-  --wa-brillo: #25d366;
+  /* El contacto mantiene el mismo acento naranja que el resto de Dania360. */
+  --acento-contacto: #ff7139;
+  --acento-contacto-hover: #ff8a5c;
 
   --linea: #e6dbd0;
   --linea-fuerte: #d6c6b7;
@@ -278,15 +275,15 @@ ul {
   transform: translateY(-1px);
 }
 
-/* Verde WhatsApp: reservado a los botones que abren la conversación. */
+/* Botones de contacto con el acento oficial de la marca. */
 .boton--wa {
-  background: var(--wa);
-  color: #fff;
-  box-shadow: 0 12px 26px -16px rgba(18, 140, 126, 0.9);
+  background: var(--acento-contacto);
+  color: #201510;
+  box-shadow: 0 12px 26px -16px rgba(255, 113, 57, 0.65);
 }
 
 .boton--wa:hover {
-  background: var(--wa-oscuro);
+  background: var(--acento-contacto-hover);
 }
 
 .boton--wa .icono-wa {
@@ -719,134 +716,14 @@ ul {
   margin-top: clamp(2rem, 4vw, 3rem);
 }
 
-/* --- 8. Transformación --------------------------------------------------- */
-
-.transformacion__rejilla {
-  margin-top: clamp(2.2rem, 4vw, 3.4rem);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(1.2rem, 3vw, 2rem);
-  align-items: start;
-}
-
-.panel {
-  border-radius: var(--radio-l);
-  padding: clamp(1.6rem, 3vw, 2.4rem);
-}
-
-/* El "antes" se presenta apagado y sin relieve; el "después", cálido y elevado. */
-.panel--antes {
-  background: #f0ece7;
-  border: 1px solid var(--linea);
-  color: var(--gris-calido);
-}
-
-.panel--despues {
-  background: linear-gradient(165deg, #ffffff 0%, #fdf6ef 100%);
-  border: 1px solid var(--champan-claro);
-  box-shadow: var(--sombra-alta);
-}
-
-.panel__titulo {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-family: var(--sans);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  margin-bottom: 1.4rem;
-}
-
-.panel--antes .panel__titulo {
-  color: var(--gris-calido);
-}
-
-.panel--despues .panel__titulo {
-  color: var(--terracota-tinta);
-}
-
-.panel__lista li {
-  display: flex;
-  gap: 0.8rem;
-  padding-block: 0.7rem;
-  font-size: 1rem;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.07);
-}
-
-.panel__lista li:last-child {
-  border-bottom: 0;
-}
-
-.panel--despues .panel__lista li {
-  color: var(--carbon);
-}
-
+/* Las marcas de lista se reutilizan en la comparativa de planes. */
 .marca-lista {
   flex: none;
   width: 20px;
   height: 20px;
   margin-top: 0.22rem;
 }
-
-.panel__nota {
-  margin-top: 1.4rem;
-  font-size: 0.85rem;
-  color: var(--gris-calido);
-}
-
-/* --- 9. Beneficios ------------------------------------------------------- */
-
-.beneficios__rejilla {
-  margin-top: clamp(2.2rem, 4vw, 3.4rem);
-  display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: clamp(2rem, 5vw, 4rem);
-  align-items: center;
-}
-
-/*
- * Lista emocional con numeración fina y filetes: nada de cuadrícula de iconos.
- */
-.beneficios__lista li {
-  display: flex;
-  align-items: baseline;
-  gap: 1.1rem;
-  padding-block: clamp(0.85rem, 1.6vw, 1.15rem);
-  border-bottom: 1px solid var(--linea);
-  font-family: var(--serif);
-  font-size: clamp(1.15rem, 2vw, 1.5rem);
-  line-height: 1.3;
-}
-
-.beneficios__lista li:first-child {
-  border-top: 1px solid var(--linea);
-}
-
-.beneficios__lista .indice {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: var(--terracota-tinta);
-  flex: none;
-  width: 1.6rem;
-}
-
-.beneficios__media {
-  position: relative;
-}
-
-.beneficios__media .marco + .marco {
-  position: absolute;
-  right: -6%;
-  bottom: -12%;
-  width: 46%;
-  border: 6px solid var(--marfil);
-}
-
-/* --- 10. Servicios ------------------------------------------------------- */
+/* --- Servicios ----------------------------------------------------------- */
 
 /*
  * Composición asimétrica: filas alternas de fotografía y texto con numeración
@@ -1348,7 +1225,6 @@ ul {
 
 @media (max-width: 1080px) {
   .hero__rejilla,
-  .beneficios__rejilla,
   .cierre__rejilla,
   .problema__cabecera {
     grid-template-columns: 1fr;
@@ -1433,12 +1309,6 @@ ul {
     order: 0;
   }
 
-  .beneficios__media .marco + .marco {
-    right: 0;
-    bottom: -8%;
-    width: 40%;
-  }
-
   .barra-movil {
     display: block;
   }
@@ -1460,7 +1330,6 @@ ul {
     border-left: 0;
   }
 
-  .transformacion__rejilla,
   .pasos,
   .confianza__rejilla,
   .pie__superior {
