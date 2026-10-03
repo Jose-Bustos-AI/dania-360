@@ -13,6 +13,15 @@ const descriptions = new Map();
 
 const homepage = readFileSync(resolve(root, 'index.html'), 'utf8');
 const servicePage = readFileSync(resolve(root, 'gestion-redes-sociales/index.html'), 'utf8');
+const brandCss = readFileSync(resolve(root, 'brand-orange.css'), 'utf8');
+const salonPlans = readFileSync(resolve(root, 'landing-src/config/planes.json'), 'utf8');
+const restaurantPlans = readFileSync(resolve(root, 'restaurantes-src/src/App.jsx'), 'utf8');
+if (/^\s*\.plans \.kicker,/m.test(brandCss)) {
+  errors.push('brand-orange.css: el texto blanco de planes no debe aplicarse a secciones claras de otros sectores');
+}
+if ([salonPlans, restaurantPlans].some((source) => source.includes('Web · Chat inteligente · Google Maps'))) {
+  errors.push('las fuentes de los planes presentan Starter como gestión de Google Maps en lugar de kit QR');
+}
 const homeH1 = homepage.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1]
   ?.replace(/<br\s*\/?\s*>/gi, ' ')
   .replace(/<[^>]+>/g, '')
@@ -48,6 +57,9 @@ for (const address of urls) {
   }
 
   const html = readFileSync(file, 'utf8');
+  if (html.includes('Web · Chat inteligente · Google Maps')) {
+    errors.push(`${pathname}: Starter no debe presentarse como gestión de Google Maps`);
+  }
   const title = tagValue(html, /<title>([^<]+)<\/title>/i);
   const description = tagValue(html, /<meta\s+name="description"\s+content="([^"]+)"/i);
   const canonical = tagValue(html, /<link\s+rel="canonical"\s+href="([^"]+)"/i);

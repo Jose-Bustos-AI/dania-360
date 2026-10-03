@@ -169,8 +169,9 @@
   color: #fff;
 }
 
-.plans .kicker,
-.plans .section-heading h2 em {
+/* Solo la sección de planes de comercios usa fondo oscuro. */
+.brand-commerce .plans .kicker,
+.brand-commerce .plans .section-heading h2 em {
   color: #fff;
 }
 
