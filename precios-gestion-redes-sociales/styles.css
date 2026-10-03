@@ -65,6 +65,27 @@
 .pricing-factors h3 { margin: 0 0 7px; font-size: 17px; }
 .pricing-factors p { margin: 0; color: var(--muted); font-size: 14px; }
 
+.vsl-section { padding-top: 75px; }
+.vsl-section .section-heading { margin-bottom: 34px; }
+.vsl-shell { width: min(900px, 100%); margin: 0 auto; overflow: hidden; border: 1px solid rgba(255, 113, 57, .42); border-radius: 24px; background: #08090c; box-shadow: 0 30px 90px rgba(0, 0, 0, .38); }
+.vsl-launch { display: flex; width: 100%; aspect-ratio: 16 / 9; flex-direction: column; align-items: stretch; justify-content: space-between; padding: clamp(18px, 4vw, 36px); border: 0; color: #fff; background: radial-gradient(circle at 74% 25%, rgba(255, 113, 57, .24), transparent 33%), radial-gradient(circle at 22% 90%, rgba(255, 113, 57, .12), transparent 35%), linear-gradient(135deg, #101219, #08090c 65%); cursor: pointer; font: inherit; text-align: left; }
+.vsl-launch:hover .vsl-launch-play { transform: scale(1.08); background: #ff8758; }
+.vsl-launch:focus-visible { outline: 3px solid #fff; outline-offset: -7px; }
+.vsl-launch-brand { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 800; letter-spacing: .08em; }
+.vsl-launch-brand img { border-radius: 8px; }
+.vsl-launch-brand strong { color: #ff7139; }
+.vsl-launch-center { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.vsl-launch-play { display: grid; width: 70px; height: 70px; margin-bottom: 14px; place-items: center; border-radius: 50%; background: #ff7139; box-shadow: 0 0 0 9px rgba(255, 113, 57, .16); transition: transform .2s ease, background .2s ease; }
+.vsl-launch-play::after { width: 0; height: 0; margin-left: 5px; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-left: 18px solid #14100e; content: ""; }
+.vsl-launch-center strong { max-width: 690px; font-size: clamp(24px, 4vw, 43px); line-height: 1.13; letter-spacing: -.035em; }
+.vsl-launch-center small { color: #d4c9c5; font-size: clamp(12px, 1.8vw, 16px); }
+.vsl-launch-foot { display: flex; align-items: center; gap: 8px; color: #ffad8a; font-size: 14px; font-weight: 800; }
+.vsl-launch-foot small { margin-left: auto; color: #c2b8b5; font-size: 12px; font-weight: 600; }
+.vsl-shell video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+.vsl-error { margin: 0; padding: 12px 18px; color: #fff; background: #671e17; font-size: 14px; }
+.vsl-after { margin: 20px auto 0; color: var(--muted); font-size: 14px; text-align: center; }
+.vsl-after a { color: var(--orange-light); }
+
 .pricing-plans .plan-card { scroll-margin-top: 100px; }
 .pricing-plans .plan-card ul { flex: 1; }
 .pricing-plans .best-for { min-height: 88px; margin: 0 0 24px; padding: 16px; border-radius: 13px; color: var(--muted); background: rgba(255, 255, 255, .035); font-size: 12px; }
@@ -118,6 +139,18 @@
 }
 
 @media (max-width: 680px) {
+  .vsl-section { width: calc(100% - 32px); padding-top: 50px; }
+  .vsl-shell { border-radius: 16px; }
+  .vsl-launch { padding: 14px 18px; }
+  .vsl-launch-brand { gap: 6px; font-size: 10px; }
+  .vsl-launch-brand img { width: 24px; height: 24px; }
+  .vsl-launch-center { gap: 3px; }
+  .vsl-launch-play { width: 42px; height: 42px; margin-bottom: 5px; box-shadow: 0 0 0 5px rgba(255, 113, 57, .16); }
+  .vsl-launch-play::after { border-top-width: 8px; border-bottom-width: 8px; border-left-width: 12px; }
+  .vsl-launch-center strong { font-size: clamp(18px, 5vw, 25px); }
+  .vsl-launch-center small { font-size: 10px; }
+  .vsl-launch-foot { font-size: 10px; }
+  .vsl-launch-foot small { font-size: 10px; }
   .pricing-hero { width: min(100% - 32px, var(--max)); padding: 48px 0 72px; }
   .price-selector { padding: 10px; border-radius: 22px; }
   .price-selector > a { gap: 2px 12px; padding: 16px 14px; }
