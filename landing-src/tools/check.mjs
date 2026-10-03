@@ -203,8 +203,6 @@ const ubicaciones = [
   'cabecera',
   'menu_movil',
   'hero',
-  'problema',
-  'beneficios',
   'como_funciona',
   'plan',
   'faq',
@@ -219,6 +217,15 @@ for (const ubicacion of ubicaciones) {
     html.includes(`data-cta-location="${ubicacion}"`),
   );
 }
+
+comprobar(
+  'La navegación lleva directamente a los servicios, sin anclas de bloques eliminados',
+  html.includes('href="#servicios"') && html.includes('id="servicios"') && !html.includes('href="#resultados"'),
+);
+comprobar(
+  'La auditoría gratuita aparece en el CTA y en el mensaje de WhatsApp',
+  html.includes('Pide tu auditoría gratis') && html.includes('auditor%C3%ADa%20gratuita'),
+);
 
 const js = leer('site/salones-estetica/assets/js/salones-estetica.js');
 const analyticsGlobalRuta = join(raiz, '..', 'analytics.js');
