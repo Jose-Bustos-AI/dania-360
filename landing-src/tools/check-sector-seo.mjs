@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const paths = [
   'salones-estetica',
@@ -49,7 +49,7 @@ for (const path of paths) {
   if (/publicaciones semanales (?:en|y)|publicación semanal en Google Business Profile|incrementa la frecuencia y añade posicionamiento SEO/i.test(html)) {
     errors.push(`${path}: la FAQ afirma una frecuencia de publicaciones en Google no incluida en los planes oficiales`);
   }
-  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-veterinarias'].includes(path)) {
+  if (['gestion-redes-sociales-restaurantes', 'gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-comercios', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia', 'gestion-redes-sociales-veterinarias'].includes(path)) {
     const faq = entities.find((entity) => entity['@type'] === 'FAQPage');
     const priceAnswer = faq?.mainEntity?.find((entry) => entry.name?.startsWith('¿Cuánto cuesta la gestión de redes sociales'))?.acceptedAnswer?.text;
     if (!priceAnswer?.includes('Growth por 297 €') || !priceAnswer.includes('pero no gestión de redes sociales')) {
@@ -57,6 +57,22 @@ for (const path of paths) {
     }
     if (priceAnswer && !html.includes(`<p>${priceAnswer}</p>`)) {
       errors.push(`${path}: la respuesta de precio en FAQPage no coincide con la respuesta visible`);
+    }
+  }
+  if (['gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-comercios', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia'].includes(path)
+      && html.includes('Web · Chat inteligente · Google Maps')) {
+    errors.push(`${path}: Starter ofrece kit QR, no gestión de Google Maps`);
+  }
+  if (path === 'gestion-redes-sociales-restaurantes') {
+    if (!html.includes('Pide tu auditoría gratis')) errors.push(`${path}: falta la llamada a la auditoría gratuita`);
+    if (!html.includes('Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales')) {
+      errors.push(`${path}: el bloque de precios debe distinguir Starter de la gestión de redes`);
+    }
+    const brandStyles = [...html.matchAll(/<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>/g)];
+    if (brandStyles.length !== 1) errors.push(`${path}: debe cargar la hoja de marca una sola vez`);
+    const clientScript = html.match(/<script type="module" crossorigin src="(\/gestion-redes-sociales-restaurantes\/assets\/[^"]+\.js)"><\/script>/)?.[1];
+    if (!clientScript || !existsSync(new URL(`../..${clientScript}`, import.meta.url))) {
+      errors.push(`${path}: el JavaScript publicado no existe`);
     }
   }
   if (!home.includes(`href="/${path}/"`)) errors.push(`${path}: falta enlace desde la portada`);
@@ -76,6 +92,22 @@ for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-mu
   if (!meta?.includes('297 €/mes') || !meta.includes('99 €')) {
     errors.push(`${path}: la descripción debe distinguir redes desde 297 € de Starter 99 €`);
   }
+}
+
+const murcia = read('gestion-redes-sociales-murcia/index.html');
+if (/100\s*%\s*online|completamente online|no\s+(?:trabajamos|prestamos).{0,60}presencialmente/i.test(murcia)) {
+  errors.push('gestion-redes-sociales-murcia: no presentar el servicio como exclusivamente online');
+}
+if (!/visitas concertadas/i.test(murcia) || !/afincado en Murcia/i.test(murcia)) {
+  errors.push('gestion-redes-sociales-murcia: falta explicar la atención local real');
+}
+const murciaGraph = [...murcia.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
+  .flatMap((match) => JSON.parse(match[1])['@graph'] ?? []);
+const presencialAnswer = murciaGraph.find((item) => item['@type'] === 'FAQPage')?.mainEntity
+  ?.find((item) => item.name === '¿Trabajáis presencialmente en Murcia?')?.acceptedAnswer?.text;
+const visiblePresencialAnswer = murcia.match(/<summary>¿Trabajáis presencialmente en Murcia\?<span>\+<\/span><\/summary><p>([^<]+)<\/p>/)?.[1];
+if (!presencialAnswer || presencialAnswer !== visiblePresencialAnswer) {
+  errors.push('gestion-redes-sociales-murcia: la respuesta visible sobre visitas no coincide con FAQPage');
 }
 
 if (errors.length) {
