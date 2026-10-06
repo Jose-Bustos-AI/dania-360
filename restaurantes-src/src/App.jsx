@@ -142,6 +142,19 @@ function Hero() {
   const heroRef = useRef(null)
   const videoRef = useRef(null)
   const [videoReady, setVideoReady] = useState(false)
+  const [shouldUseVideo, setShouldUseVideo] = useState(false)
+
+  useEffect(() => {
+    const media = window.matchMedia('(min-width: 981px) and (prefers-reduced-motion: no-preference)')
+    const syncVideoPreference = () => {
+      setShouldUseVideo(media.matches)
+      if (!media.matches) setVideoReady(false)
+    }
+
+    syncVideoPreference()
+    media.addEventListener('change', syncVideoPreference)
+    return () => media.removeEventListener('change', syncVideoPreference)
+  }, [])
 
   useEffect(() => {
     const video = videoRef.current
@@ -149,11 +162,6 @@ function Hero() {
 
     let st
     let raf
-
-    document.addEventListener('touchstart', () => {
-      video.play()
-      video.pause()
-    }, { once: true })
 
     video.style.transform = 'translateZ(0)'
     video.style.willChange = 'transform'
@@ -208,10 +216,10 @@ function Hero() {
       if (st) st.kill()
       if (raf) cancelAnimationFrame(raf)
     }
-  }, [])
+  }, [shouldUseVideo])
 
-  return <section className="hero hero-section" id="inicio" ref={heroRef}>
-    <video ref={videoRef} className="hero-media" src="/gestion-redes-sociales-restaurantes/hero-video-scrub.mp4" muted playsInline preload="metadata" poster="/og-mas-clientes.png" style={{ opacity: videoReady ? 1 : 0, transition: 'opacity .5s ease' }} /><div className="hero-shade" />
+  return <section className={`hero hero-section${videoReady ? '' : ' hero--static'}`} id="inicio" ref={heroRef}>
+    {shouldUseVideo && <video ref={videoRef} className="hero-media" src="/gestion-redes-sociales-restaurantes/hero-video-scrub.mp4" muted playsInline preload="metadata" poster="/og-mas-clientes.png" style={{ opacity: videoReady ? 1 : 0, transition: 'opacity .5s ease' }} />}<div className="hero-shade" />
     <div className="hero-inner"><div className="hero-copy">
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
