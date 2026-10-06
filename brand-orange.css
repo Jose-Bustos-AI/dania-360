@@ -91,6 +91,29 @@
   color: var(--brand-orange-ink);
 }
 
+/* El mismo acento necesita una variante clara sobre los bloques oscuros. */
+.brand-dental .decision .kicker,
+.brand-dental .decision__path .moment,
+.brand-dental .closing .kicker {
+  color: var(--brand-orange);
+}
+
+/* Los textos pequeños sobre superficies claras requieren más contraste. */
+.brand-dental .principles__list article > span,
+.brand-dental .channel b,
+.brand-dental .plan:not(.plan--featured) .plan__name p {
+  color: var(--brand-orange-ink);
+}
+
+.brand-dental .whatsapp-float {
+  background: #147657;
+}
+
+.brand-dental .whatsapp-float span {
+  color: #18302d;
+  background: #fff;
+}
+
 .brand-dental .button:hover,
 .brand-dental .button:focus-visible {
   color: #fff;
