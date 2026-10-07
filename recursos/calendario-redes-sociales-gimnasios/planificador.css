@@ -1,0 +1,69 @@
+.gym-planner-jump { margin: 20px 0 0; }
+.gym-planner-jump a { color: #ffb395; font-weight: 800; text-underline-offset: 4px; }
+.gym-planner-form {
+  margin: 25px 0 0;
+  padding: 25px;
+  border: 1px solid rgba(255, 113, 57, .38);
+  border-radius: 18px;
+  background: rgba(255, 113, 57, .055);
+}
+.gym-planner-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.gym-planner-fields label,
+.gym-planner-result label {
+  display: grid;
+  gap: 8px;
+  color: #f4f4f5;
+  font-size: 14px;
+  font-weight: 700;
+}
+.gym-planner-fields label:last-child { grid-column: 1 / -1; }
+.gym-planner-fields input,
+.gym-planner-result textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid #51545e;
+  border-radius: 10px;
+  background: #14161b;
+  color: #fff;
+  color-scheme: dark;
+  font: inherit;
+}
+.gym-planner-fields input::placeholder { color: #9ca0a9; }
+.gym-planner-fields input:focus-visible,
+.gym-planner-result textarea:focus-visible,
+.gym-planner-form button:focus-visible,
+.gym-planner-result button:focus-visible {
+  outline: 3px solid #ffb395;
+  outline-offset: 2px;
+}
+.gym-planner-submit,
+.gym-planner-download {
+  margin-top: 22px;
+  cursor: pointer;
+}
+.gym-planner-result {
+  margin: 22px 0 0;
+  padding: 25px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #14161b;
+  scroll-margin-top: 100px;
+}
+.gym-planner-result[hidden] { display: none; }
+.gym-planner-result h3 { margin-top: 0; }
+.gym-planner-result textarea {
+  min-height: 320px;
+  resize: vertical;
+  line-height: 1.5;
+}
+.gym-planner-status { margin-top: 16px !important; }
+@media (max-width: 680px) {
+  .gym-planner-form,
+  .gym-planner-result { padding: 20px; }
+  .gym-planner-fields { grid-template-columns: 1fr; }
+}
