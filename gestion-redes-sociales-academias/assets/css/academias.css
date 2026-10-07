@@ -100,6 +100,14 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
 .message-map article span { color: var(--coral-dark); font-size: .68rem; font-weight: 900; letter-spacing: .12em; }
 .message-map article h3 { margin: 1.2rem 0; font-size: clamp(1.5rem, 2.4vw, 2.3rem); }
 .message-map article p { color: var(--ink-soft); }
+.academy-care { background: var(--teal-pale); }
+.academy-care__grid { max-width: 78rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 3rem auto 0; }
+.academy-care__grid article { padding: clamp(1.4rem, 3vw, 2.4rem); background: var(--white); border: 1px solid var(--line); border-radius: 1.2rem; }
+.academy-care__grid span { color: var(--coral-dark); font-size: .72rem; font-weight: 900; letter-spacing: .12em; }
+.academy-care__grid h3 { margin: 1.2rem 0; font-size: clamp(1.45rem, 2.3vw, 2.1rem); }
+.academy-care__grid p { margin-bottom: 0; color: var(--ink-soft); }
+.academy-care__source { max-width: 78rem; margin: 1.5rem auto 0; color: var(--ink-soft); font-size: .9rem; }
+.academy-care__source a { color: var(--ink); font-weight: 750; text-underline-offset: .2rem; }
 .plans { background: var(--white); }
 .plans__grid { max-width: 82rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; align-items: stretch; margin: 4rem auto 0; }
 .plan-card { position: relative; display: flex; flex-direction: column; padding: 2rem; background: var(--paper); border: 1px solid var(--line); border-radius: 1.2rem; }
@@ -154,6 +162,7 @@ details p { margin: 0; padding: 0 2.5rem 1.4rem 0; color: var(--ink-soft); }
   .plans__grid { grid-template-columns: 1fr; max-width: 38rem; }
   .plan-card--featured { transform: none; order: -1; }
   .message-map__grid { grid-template-columns: 1fr; }
+  .academy-care__grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 680px) {
