@@ -160,6 +160,10 @@
 
 /* El naranja exacto se conserva como acento; el texto pequeño usa tonos
    equivalentes con contraste suficiente en cada superficie. */
+.brand-vet {
+  --muted: #526159;
+}
+
 .brand-vet .site-header {
   color: #fffaf0;
   background: #0b2a22;
