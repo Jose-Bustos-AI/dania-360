@@ -158,6 +158,57 @@
   background: #25d366;
 }
 
+/* El naranja exacto se conserva como acento; el texto pequeño usa tonos
+   equivalentes con contraste suficiente en cada superficie. */
+.brand-vet .site-header {
+  color: #fffaf0;
+  background: #0b2a22;
+  border-bottom-color: rgba(255,255,255,.18);
+}
+
+.brand-vet .site-header .header-cta {
+  color: #201510;
+  background: var(--brand-orange);
+}
+
+.brand-vet .hero .eyebrow,
+.brand-vet .window-title .kicker,
+.brand-vet .calendar__intro .kicker,
+.brand-vet .search-card small,
+.brand-vet .responsible__grid span,
+.brand-vet .pricing__heading .kicker,
+.brand-vet .plan:not(.plan--featured) .plan__top > span,
+.brand-vet .faq__intro .kicker,
+.brand-vet .faq summary span {
+  color: var(--brand-orange-ink);
+}
+
+.brand-vet .window-card--service,
+.brand-vet .window-card--daily,
+.brand-vet .month:nth-child(3),
+.brand-vet .month:nth-child(3) span,
+.brand-vet .plan__flag {
+  color: #201510;
+}
+
+.brand-vet .local-search__copy .kicker,
+.brand-vet .closing .kicker,
+.brand-vet .plan--featured .plan__top > span {
+  color: #ffd8c5;
+}
+
+.brand-vet .plan__number {
+  color: #526b61;
+}
+
+.brand-vet .plan--featured .plan__number {
+  color: #d7e7df;
+}
+
+.brand-vet .footer__bottom {
+  color: #a9c0b7;
+}
+
 .brand-gym .tag--blue {
   background: var(--brand-orange);
 }
