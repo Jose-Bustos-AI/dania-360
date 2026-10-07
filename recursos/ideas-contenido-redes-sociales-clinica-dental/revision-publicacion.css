@@ -1,0 +1,77 @@
+.dental-brief-form,
+.dental-brief-result {
+  margin-top: 24px;
+  padding: 26px;
+  border: 1px solid rgba(255, 113, 57, .35);
+  border-radius: 18px;
+  background: #14161b;
+}
+
+.dental-brief-fields,
+.dental-brief-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.dental-brief-form label,
+.dental-brief-result label {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  color: #f4f4f5;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.dental-brief-form input,
+.dental-brief-form select,
+.dental-brief-result textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 13px;
+  border: 1px solid #666973;
+  border-radius: 10px;
+  background: #090a0d;
+  color: #fff;
+  color-scheme: dark;
+  font: inherit;
+}
+
+.dental-brief-form input::placeholder { color: #a9acb4; }
+
+.dental-brief-controls {
+  margin: 22px 0 0;
+  padding: 20px;
+  border: 1px solid #51545e;
+  border-radius: 12px;
+}
+
+.dental-brief-controls legend {
+  padding: 0 8px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.dental-brief-form input:focus-visible,
+.dental-brief-form select:focus-visible,
+.dental-brief-form button:focus-visible,
+.dental-brief-result textarea:focus-visible {
+  outline: 3px solid #ffb395;
+  outline-offset: 2px;
+}
+
+.dental-brief-submit { margin-top: 22px; cursor: pointer; }
+.article-body p.dental-brief-status { margin: 15px 0 0; }
+.dental-brief-result { scroll-margin-top: 100px; }
+.dental-brief-result[hidden] { display: none; }
+.dental-brief-result h3 { margin-top: 0; }
+.dental-brief-result textarea { min-height: 340px; margin-top: 8px; resize: vertical; line-height: 1.5; }
+.dental-brief-result p:last-child { margin-bottom: 0; }
+
+@media (max-width: 680px) {
+  .dental-brief-form,
+  .dental-brief-result { padding: 20px; }
+  .dental-brief-fields,
+  .dental-brief-controls { grid-template-columns: 1fr; }
+}
