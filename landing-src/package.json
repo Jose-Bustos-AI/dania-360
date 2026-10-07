@@ -8,7 +8,7 @@
     "build:web": "node tools/build.mjs --integrado --out ..",
     "build": "node tools/build.mjs",
     "build:dev": "node tools/build.mjs --dev",
-    "check": "node tools/check.mjs && node --test tools/test-gym-planner.mjs",
+    "check": "node tools/check.mjs && node --test tools/test-gym-planner.mjs tools/test-dental-brief.mjs",
     "check:site-seo": "node tools/check-site-seo.mjs",
     "check:gym-planner": "node --test tools/test-gym-planner.mjs",
     "verify": "npm run build && npm run check",
