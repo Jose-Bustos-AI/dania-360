@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const site = 'https://dania360.com';
+const joseAuthorId = `${site}/quienes-somos/#jose-antonio-bustos-garcia`;
 const sitemap = readFileSync(resolve(root, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>(https:\/\/dania360\.com\/[^<]*)<\/loc>/g)]
   .map((match) => match[1]);
@@ -93,7 +94,20 @@ for (const address of urls) {
   }
 
   for (const [, json] of html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)) {
-    try { JSON.parse(json); } catch { errors.push(`${pathname}: JSON-LD no válido`); }
+    try {
+      const data = JSON.parse(json);
+      const nodes = data['@graph'] ?? [data];
+      for (const node of nodes) {
+        if (node['@type'] === 'Person' && node.name === 'José Antonio Bustos García'
+            && node['@id'] !== joseAuthorId) {
+          errors.push(`${pathname}: el identificador del autor no coincide con /quienes-somos/`);
+        }
+        if (node['@type'] === 'Article' && node.author?.['@id']?.startsWith(`${site}/quienes-somos/#jose-antonio-bustos`)
+            && node.author['@id'] !== joseAuthorId) {
+          errors.push(`${pathname}: Article.author usa un identificador distinto al de /quienes-somos/`);
+        }
+      }
+    } catch { errors.push(`${pathname}: JSON-LD no válido`); }
   }
 
   for (const [, href] of html.matchAll(/\bhref="([^"]+)"/gi)) {
