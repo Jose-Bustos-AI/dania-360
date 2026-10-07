@@ -18,6 +18,7 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--cream); font-family: "Trebuchet MS", ui-rounded, system-ui, sans-serif; line-height: 1.55; }
 a { color: inherit; }
+.sector-brief__tool-link a { font-weight: 800; text-decoration-color: #ff7139; text-decoration-thickness: .15em; text-underline-offset: .18em; }
 img { display: block; max-width: 100%; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { line-height: 1.02; letter-spacing: -.045em; }
