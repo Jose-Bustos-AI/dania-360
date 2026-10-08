@@ -80,6 +80,10 @@ for (const address of urls) {
   const h1Count = [...html.matchAll(/<h1(?:\s|>)/gi)].length;
   const headingLevels = [...html.matchAll(/<h([1-6])\b[^>]*>/gi)].map((match) => Number(match[1]));
 
+  if (!/<script\s+src="\/analytics\.js\?v=[^"]+"\s+defer><\/script>/i.test(html)) {
+    errors.push(`${pathname}: falta el script de analítica sujeto al consentimiento`);
+  }
+
   if (!title) errors.push(`${pathname}: falta <title>`);
   else if (titles.has(title)) errors.push(`${pathname}: título repetido con ${titles.get(title)}`);
   else titles.set(title, pathname);
