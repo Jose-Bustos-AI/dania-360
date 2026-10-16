@@ -51,8 +51,8 @@ const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
   .replace(/&nbsp;/g, ' ')
   .replace(/\s+/g, ' ')
   .trim() ?? '';
-if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/web y el chat/i.test(heroLead)) {
-  errors.push('/: la presentación debe explicar Growth (redes, web y chat, 297 €/mes)');
+if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/web profesional con bot de IA/i.test(heroLead)) {
+  errors.push('/: la presentación debe explicar Growth (redes y web con bot de IA, 297 €/mes)');
 }
 if (homepage.includes('<b>+200</b><span>especialistas')) {
   errors.push('/: no mostrar un número de especialistas sin verificación');
