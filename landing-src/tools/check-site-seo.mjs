@@ -35,20 +35,24 @@ if (homeH1 !== 'Gestión de redes sociales.') {
 if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(servicePage)) {
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
 }
-if (!pricingPage.includes('<em>Web, chat y kit QR</em>') || !pricingPage.includes('<em>Redes, mensajes y Google</em>')
-    || !pricingPage.includes('<em>Más canales y SEO continuo</em>')) {
-  errors.push('/precios-gestion-redes-sociales/: el resumen de planes debe distinguir el kit QR de la gestión de redes, mensajes y Google');
-}
-if (!pricingPage.includes('Starter incluye web, chat inteligente y kit QR de reseñas. Growth añade gestión de redes sociales')) {
-  errors.push('/precios-gestion-redes-sociales/: la descripción de Starter no debe insinuar gestión de reseñas');
+for (const [page, html] of [['/', homepage], ['/precios-gestion-redes-sociales/', pricingPage]]) {
+  if (/\b(?:Starter|Scale)\b/.test(html)) {
+    errors.push(`${page}: la oferta comercial debe centrarse únicamente en Growth`);
+  }
+  const data = [...html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
+    .flatMap(([,json]) => { const value = JSON.parse(json); return value['@graph'] ?? [value]; });
+  const offers = data.filter(node => node['@type'] === 'Service').flatMap(node => [node.offers].flat());
+  if (offers.length !== 1 || !/Growth/.test(offers[0].name) || offers[0].price !== '297' || offers[0].priceCurrency !== 'EUR') {
+    errors.push(`${page}: debe existir una única oferta de servicio Growth por 297 EUR`);
+  }
 }
 const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
   ?.replace(/<[^>]+>/g, '')
   .replace(/&nbsp;/g, ' ')
   .replace(/\s+/g, ' ')
   .trim() ?? '';
-if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/Starter.*99\s*€\/mes/i.test(heroLead) || !/web y chat/i.test(heroLead)) {
-  errors.push('/: la presentación debe separar Starter (web y chat, 99 €/mes) de Growth (redes, 297 €/mes)');
+if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/web y el chat/i.test(heroLead)) {
+  errors.push('/: la presentación debe explicar Growth (redes, web y chat, 297 €/mes)');
 }
 if (homepage.includes('<b>+200</b><span>especialistas')) {
   errors.push('/: no mostrar un número de especialistas sin verificación');
