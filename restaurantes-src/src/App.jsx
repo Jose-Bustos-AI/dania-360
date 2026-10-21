@@ -1,9 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useEffect, useState } from 'react'
 import { ArrowRight, CalendarDays, Check, ChevronDown, Globe2, MapPin, Menu, MessageCircle, Search, Sparkles, Star, Utensils, X } from 'lucide-react'
-
-if (typeof window !== 'undefined') gsap.registerPlugin(ScrollTrigger)
 
 const WA_NUMBER = '34631105772'
 const EMAIL = 'hola@dania360.com'
@@ -95,7 +91,7 @@ const plans = [
 ]
 
 const services = [
-  { icon: Globe2, title: 'Web con carta y contacto claros', text: 'Creamos o gestionamos una web profesional para mostrar tu carta, horarios y canal de reserva o pedido.' },
+  { icon: Globe2, title: 'Web con carta y bot de IA incluida en Growth', text: 'Web profesional con carta, horarios y contacto. El bot responde información general cuando no estás disponible; también puedes contestar desde el móvil con la app DANIA.' },
   { icon: Sparkles, title: 'Publicaciones sobre carta, equipo y ambiente', text: 'Desde Growth creamos, revisamos y publicamos contenido sobre platos, menús, equipo, eventos y novedades del restaurante.' },
   { icon: MapPin, title: 'Ficha de Google y reseñas desde Growth', text: 'Gestionamos tu perfil de empresa y respondemos reseñas para mantener información útil y actualizada.' },
   { icon: MessageCircle, title: 'Comentarios, mensajes y consultas', text: 'Gestionamos la conversación y derivamos las consultas a tu teléfono, WhatsApp o canal de contacto preferido.' },
@@ -106,7 +102,7 @@ const services = [
 const faqs = [
   ['¿Cómo puede Dania360 ayudar a mi restaurante?', 'Hacemos que tu restaurante tenga una presencia profesional y constante en la web, las redes sociales y Google. Así aumentan las posibilidades de que más personas te encuentren, confíen y contacten o reserven.'],
   ['¿Gestionáis publicidad pagada?', 'No. En este momento nuestros planes se centran en presencia orgánica, contenido, web, Google Business Profile, reputación y posicionamiento. El presupuesto de tu plan no se destina a anuncios.'],
-  ['¿Necesito tener ya una página web?', 'No. El plan Starter incluye una página web profesional o, si ya tienes una compatible, podemos gestionar y actualizar la actual.'],
+  ['¿Necesito tener ya una página web?', 'No. Growth, por 297 €/mes, incluye una web profesional con bot de IA, dominio .com, hosting y una actualización mensual. Si ya tienes una web compatible, revisamos cómo gestionarla. El bot atiende información general y tú puedes contestar desde la app DANIA; no confirma reservas ni disponibilidad de mesas sin el sistema o la validación del restaurante.'],
   ['¿Ayudáis a aparecer en Google y Google Maps?', 'Sí. Desde Growth trabajamos Google Business Profile, publicaciones y reseñas. Scale añade posicionamiento SEO continuo y optimización para buscadores con IA como ChatGPT.'],
   ['¿Garantizáis un número concreto de reservas?', 'No sería serio prometer una cifra exacta. Nuestro trabajo es aumentar tu visibilidad, mejorar tu imagen y crear más oportunidades de contacto. Los resultados dependen de la zona, la propuesta, la competencia y el tiempo de trabajo.'],
   ['¿Tengo que crear yo las fotos, vídeos y textos?', 'Necesitaremos la información y el material real que quieras compartir. También creamos imágenes y contenido con IA, y nuestro equipo revisa y adapta cada pieza antes de publicarla.'],
@@ -139,101 +135,33 @@ function Navbar() {
 }
 
 function Hero() {
-  const heroRef = useRef(null)
-  const videoRef = useRef(null)
-  const [videoReady, setVideoReady] = useState(false)
-  const [shouldUseVideo, setShouldUseVideo] = useState(false)
-
-  useEffect(() => {
-    const media = window.matchMedia('(min-width: 981px) and (prefers-reduced-motion: no-preference)')
-    const syncVideoPreference = () => {
-      setShouldUseVideo(media.matches)
-      if (!media.matches) setVideoReady(false)
-    }
-
-    syncVideoPreference()
-    media.addEventListener('change', syncVideoPreference)
-    return () => media.removeEventListener('change', syncVideoPreference)
-  }, [])
-
-  useEffect(() => {
-    const video = videoRef.current
-    if (!video) return
-
-    let st
-    let raf
-
-    video.style.transform = 'translateZ(0)'
-    video.style.willChange = 'transform'
-    ScrollTrigger.config({ limitCallbacks: true, syncInterval: 40 })
-
-    const initScrub = () => {
-      const dur = video.duration
-      if (!dur || !isFinite(dur)) return
-
-      setVideoReady(true)
-      video.currentTime = 0
-
-      let currentT = 0
-      let targetT = 0
-      const lerpFactor = 0.1
-
-      const tick = () => {
-        currentT += (targetT - currentT) * lerpFactor
-        if (Math.abs(video.currentTime - currentT) > 0.015) video.currentTime = currentT
-        raf = requestAnimationFrame(tick)
-      }
-      raf = requestAnimationFrame(tick)
-
-      st = ScrollTrigger.create({
-        trigger: '.hero-section',
-        start: 'top top',
-        end: '+=200%',
-        scrub: 2.5,
-        pin: true,
-        pinSpacing: true,
-        fastScrollEnd: true,
-        preventOverlaps: true,
-        onUpdate: (self) => { targetT = Math.min(self.progress * dur, dur - (1 / 24)) },
-      })
-    }
-
-    const onReady = () => {
-      video.removeEventListener('loadedmetadata', onReady)
-      video.removeEventListener('loadeddata', onReady)
-      requestAnimationFrame(() => initScrub())
-    }
-
-    if (video.readyState >= 1) requestAnimationFrame(() => initScrub())
-    else {
-      video.addEventListener('loadedmetadata', onReady)
-      video.addEventListener('loadeddata', onReady)
-    }
-
-    return () => {
-      video.removeEventListener('loadedmetadata', onReady)
-      video.removeEventListener('loadeddata', onReady)
-      if (st) st.kill()
-      if (raf) cancelAnimationFrame(raf)
-    }
-  }, [shouldUseVideo])
-
-  return <section className={`hero hero-section${videoReady ? '' : ' hero--static'}`} id="inicio" ref={heroRef}>
-    {shouldUseVideo && <video ref={videoRef} className="hero-media" src="/gestion-redes-sociales-restaurantes/hero-video-scrub.mp4" muted playsInline preload="metadata" poster="/og-mas-clientes.png" style={{ opacity: videoReady ? 1 : 0, transition: 'opacity .5s ease' }} />}<div className="hero-shade" />
+  return <section className="hero hero-section hero--static" id="inicio">
+    <div className="hero-shade" />
     <div className="hero-inner"><div className="hero-copy">
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales{' '}<em>para restaurantes.</em></h1>
-      <p>Tu carta y tus horarios tienen que ser fáciles de encontrar; tus redes, mostrar lo que de verdad se sirve. Revisamos tu web, redes y ficha de Google y, desde Growth, gestionamos el contenido y las consultas para facilitar el contacto o la reserva.</p>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#planes">Redes desde 297 €/mes</a></div>
+      <p>Tu carta, tus platos y una forma clara de reservar. Growth gestiona redes, mensajes y Google por 297 €/mes e incluye una web con bot de IA. Tú confirmas la carta y la disponibilidad; nosotros preparamos y publicamos el contenido y derivamos las consultas.</p>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#growth">Qué incluye Growth por 297 €/mes</a></div>
       <small className="cta-note">Revisamos tu presencia actual · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
       <div className="panel-head"><span>Tu presencia digital</span><b>En marcha</b></div>
       <div className="panel-goal"><small>Objetivo</small><strong>Que puedan elegir tu restaurante</strong><p>Carta clara, contenido real y una vía sencilla para contactar o reservar.</p></div>
-      <div className="panel-grid"><div><Globe2 /><small>Web</small><b>Incluida</b></div><div><CalendarDays /><small>Contenido</small><b>hasta 30/mes</b></div><div><MapPin /><small>Google</small><b>Growth · Scale</b></div><div><MessageCircle /><small>Consultas</small><b>A tu WhatsApp</b></div></div>
+      <div className="panel-grid"><div><Globe2 /><small>Web con bot de IA</small><b>Incluida</b></div><div><CalendarDays /><small>Publicaciones</small><b>30 al mes</b></div><div><MapPin /><small>Google y reseñas</small><b>Incluidos</b></div><div><MessageCircle /><small>Consultas</small><b>A tu contacto</b></div></div>
     </div></div>
   </section>
+}
+
+function GrowthSummary() {
+  return <section className="sector-offer" id="growth" aria-labelledby="growth-title"><div className="sector-offer__inner">
+    <div><p className="sector-offer__label">Growth · Sin permanencia</p><h2 id="growth-title">Redes, carta en la web y bot de IA para tu restaurante</h2><p>El servicio parte de lo que sirves de verdad: carta vigente, horarios, ambiente y forma de reservar. Las consultas llegan al canal que ya utilizas, sin cambiar la operativa de sala.</p><p className="sector-offer__price"><strong>297 €</strong><span>/mes</span></p></div>
+    <div><dl>
+      <div><dt>Publicaciones y atención de mensajes</dt><dd>1 publicación al día (30 al mes) en Instagram, Facebook, TikTok y Pinterest, con vídeos de 15 segundos. Comentarios y mensajes de los canales incluidos, derivados a tu contacto.</dd></div>
+      <div><dt>Web profesional con bot de IA incluido</dt><dd>Chat automático cuando no estás disponible y respuesta desde el móvil con la app DANIA. Dominio .com, hosting, una actualización web mensual y kit QR de reseñas.</dd></div>
+      <div><dt>Perfil de Empresa en Google y reseñas</dt><dd>Gestión de la ficha y respuesta a reseñas, con informe mensual de actividad y visibilidad local.</dd></div>
+    </dl><p className="sector-offer__scope">No incluye inversión en anuncios, una sesión de fotografía presencial ni un motor de reservas a medida. El restaurante confirma reservas, disponibilidad y alérgenos; el chat no sustituye esa confirmación.</p><a href="#planes">Ver los planes y el alcance completo →</a></div>
+  </div></section>
 }
 
 function HowItWorks() {
@@ -312,5 +240,5 @@ export default function App({ initialPath }) {
   const currentPath = initialPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/gestion-redes-sociales-restaurantes/')
   const path = currentPath.replace(/^\/+|\/+$/g, '')
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
-  return <main><Navbar /><Hero /><HowItWorks /><Services /><RestaurantContentExample /><Pricing /><Resources /><FAQ /><Footer /></main>
+  return <main><Navbar /><Hero /><GrowthSummary /><HowItWorks /><Services /><RestaurantContentExample /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
