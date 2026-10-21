@@ -1,0 +1,19 @@
+.retail-brief, .retail-brief-result { padding: 24px; margin: 24px 0; border: 1px solid #88513d; border-radius: 18px; background: #17110f; }
+.retail-brief[hidden], .retail-brief-result[hidden] { display: none; }
+.retail-brief-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.retail-brief label, .retail-brief-result label { display: grid; gap: 8px; color: #fff; font-weight: 700; font-size: 15px; }
+.retail-brief input:not([type="checkbox"]), .retail-brief select, .retail-brief textarea, .retail-brief-result textarea { width: 100%; min-width: 0; border: 1px solid #8c8681; border-radius: 8px; background: #080808; color: #fff; padding: 12px; font: 400 16px/1.5 system-ui, sans-serif; }
+.retail-brief textarea, .retail-brief-result textarea { resize: vertical; }
+.retail-brief input::placeholder, .retail-brief textarea::placeholder { color: #bdb7b1; opacity: 1; }
+.retail-brief fieldset { margin: 24px 0; padding: 16px; border: 1px solid #8c8681; border-radius: 8px; }
+.retail-brief legend { color: #fff; padding: 0 6px; font-weight: 700; }
+.retail-brief fieldset label { grid-template-columns: 22px 1fr; align-items: start; margin: 12px 0; font-weight: 400; }
+.retail-brief input[type="checkbox"] { width: 20px; height: 20px; accent-color: #ff7139; }
+.retail-brief .button { cursor: pointer; }
+.retail-brief :is(input, select, textarea, button):focus-visible, .retail-brief-result :is(a, textarea):focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+.retail-brief .retail-brief-status { min-height: 1.5em; margin: 16px 0 0; color: #fff; font-weight: 700; }
+.retail-brief-result textarea { min-height: 380px; margin: 12px 0 20px; }
+.retail-brief-fallback { margin: 22px 0; }
+.retail-brief-fallback summary { cursor: pointer; color: #fff; font-weight: 700; padding: 12px 0; }
+.retail-brief-fallback pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: 20px; border: 1px solid #605650; border-radius: 12px; background: #080808; color: #ddd; font: 400 14px/1.65 system-ui, sans-serif; }
+@media (max-width: 680px) { .retail-brief-grid { grid-template-columns: 1fr; } .retail-brief, .retail-brief-result { padding: 18px; } }
