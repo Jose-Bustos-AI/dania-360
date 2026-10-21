@@ -17,3 +17,11 @@ npm run build
 
 La compilación publica directamente el resultado en
 `../gestion-redes-sociales-restaurantes/`.
+
+React se usa solamente al generar el HTML (SSR/prerender), no se envía al
+navegador ni se hidrata. Menú móvil y preguntas frecuentes usan `details` y
+`summary` nativos, con contenido disponible sin JavaScript. La entrada
+`src/main.jsx` solo cierra el menú al elegir un enlace o pulsar Escape.
+
+Después de compilar, ejecutar `npm test` para verificar el HTML, la igualdad
+de las preguntas/respuestas con JSON-LD y el presupuesto de JavaScript.
