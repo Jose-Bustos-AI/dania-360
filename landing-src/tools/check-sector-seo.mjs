@@ -69,7 +69,12 @@ for (const path of paths) {
       errors.push(`${path}: el bloque de precios debe distinguir Starter de la gestión de redes`);
     }
     const brandStyles = [...html.matchAll(/<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>/g)];
-    if (brandStyles.length !== 1) errors.push(`${path}: debe cargar la hoja de marca una sola vez`);
+    const inlineBrandStyles = [...html.matchAll(/<style data-source="\/brand-orange\.css\?v=[^"]+">/g)];
+    if (brandStyles.length + inlineBrandStyles.length !== 1) errors.push(`${path}: debe cargar la hoja de marca una sola vez`);
+    for (const [, href, css] of html.matchAll(/<style data-source="([^"]+)">\n([\s\S]*?)\n<\/style>/g)) {
+      const source = read(href.split('?')[0].replace(/^\//, '')).replace(/\r\n/g, '\n').trim();
+      if (css !== source) errors.push(`${path}: reconstruir la página, CSS insertado desactualizado: ${href}`);
+    }
     const clientScript = html.match(/<script type="module" crossorigin src="(\/gestion-redes-sociales-restaurantes\/assets\/[^"]+\.js)"><\/script>/)?.[1];
     if (!clientScript || !existsSync(new URL(`../..${clientScript}`, import.meta.url))) {
       errors.push(`${path}: el JavaScript publicado no existe`);
