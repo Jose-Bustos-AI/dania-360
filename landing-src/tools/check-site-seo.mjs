@@ -9,6 +9,13 @@ const sitemap = readFileSync(resolve(root, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>(https:\/\/dania360\.com\/[^<]*)<\/loc>/g)]
   .map((match) => match[1]);
 const errors = [];
+const serverRules = readFileSync(resolve(root, '.htaccess'), 'utf8');
+if (!/^\s*AddType\s+(?:text|application)\/javascript\s+\.mjs\s*$/mi.test(serverRules)) {
+  errors.push('.htaccess: los módulos .mjs deben servirse con MIME JavaScript, no text/plain');
+}
+if (!/Header\s+always\s+set\s+X-Content-Type-Options\s+"nosniff"/i.test(serverRules)) {
+  errors.push('.htaccess: conservar X-Content-Type-Options nosniff; no desactivar la protección para cargar módulos');
+}
 const titles = new Map();
 const descriptions = new Map();
 
