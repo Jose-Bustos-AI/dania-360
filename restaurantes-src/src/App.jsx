@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { ArrowRight, CalendarDays, Check, ChevronDown, Globe2, MapPin, Menu, MessageCircle, Search, Sparkles, Star, Utensils, X } from 'lucide-react'
 
 const WA_NUMBER = '34631105772'
@@ -122,15 +122,19 @@ function Brand({ dark = false }) {
 }
 
 function Navbar() {
-  const [open, setOpen] = useState(false)
   return <header className="nav-wrap"><nav className="navbar" aria-label="Navegación principal">
     <Brand dark />
-    <div className={`nav-links ${open ? 'nav-open' : ''}`}>
-      <a href="#como-funciona" onClick={() => setOpen(false)}>Cómo funciona</a><a href="#servicios" onClick={() => setOpen(false)}>Qué gestionamos</a><a href="#planes" onClick={() => setOpen(false)}>Planes</a><a href="#faq" onClick={() => setOpen(false)}>Preguntas</a>
-      <a className="nav-mobile-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis</a>
+    <div className="nav-links">
+      <a href="#como-funciona">Cómo funciona</a><a href="#servicios">Qué gestionamos</a><a href="#planes">Planes</a><a href="#faq">Preguntas</a>
     </div>
     <a className="button nav-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon size={18} /> Pide tu auditoría gratis</a>
-    <button className="menu-button" onClick={() => setOpen(!open)} aria-label={open ? 'Cerrar menú' : 'Abrir menú'}>{open ? <X /> : <Menu />}</button>
+    <details className="mobile-nav" data-mobile-nav="">
+      <summary className="menu-button" aria-label="Menú de navegación"><Menu className="menu-icon-open" aria-hidden="true" /><X className="menu-icon-close" aria-hidden="true" /></summary>
+      <div className="mobile-nav__links">
+        <a href="#como-funciona">Cómo funciona</a><a href="#servicios">Qué gestionamos</a><a href="#planes">Planes</a><a href="#faq">Preguntas</a>
+        <a className="nav-mobile-cta" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis</a>
+      </div>
+    </details>
   </nav></header>
 }
 
@@ -199,8 +203,7 @@ function Resources() {
 }
 
 function FAQ() {
-  const [open, setOpen] = useState(0)
-  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Dudas sobre precios, contenido y reservas de restaurantes.</h2><p>Si tu duda depende de tu carta, tus cuentas o tu canal de reservas, podemos revisarla contigo por WhatsApp.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <article className={open === index ? 'faq-open' : ''} key={question}><button onClick={() => setOpen(open === index ? -1 : index)}><span>{question}</span><ChevronDown /></button><div><p>{answer}</p></div></article>)}</div></section>
+  return <section className="section faq" id="faq"><div className="faq-intro"><span>Preguntas frecuentes</span><h2>Dudas sobre precios, contenido y reservas de restaurantes.</h2><p>Si tu duda depende de tu carta, tus cuentas o tu canal de reservas, podemos revisarla contigo por WhatsApp.</p><a href={waLink()} target="_blank" rel="noreferrer">Preguntar por WhatsApp <ArrowRight size={17} /></a></div><div className="accordion">{faqs.map(([question, answer], index) => <details name="restaurant-faq" open={index === 0} key={question}><summary><span>{question}</span><ChevronDown aria-hidden="true" /></summary><p>{answer}</p></details>)}</div></section>
 }
 
 function Footer() {
