@@ -304,3 +304,19 @@ h3 { margin-bottom: 10px; font-size: 1.35rem; line-height: 1.2; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+/* Texto de lectura sobre papel y tarjetas claras. El acento y el logo
+   conservan #ff7139; no se reutiliza ese naranja luminoso como tinta pequeña. */
+.brand-realty { --muted: #526072; }
+.brand-realty .audiences .kicker,
+.brand-realty .audiences .section-heading h2 em,
+.brand-realty .audience-card--buyer .audience-card__number,
+.brand-realty .audience-card--buyer .card-label,
+.brand-realty .workflow .kicker,
+.brand-realty .workflow li > span,
+.brand-realty .local-authority .kicker,
+.brand-realty .local-points b,
+.brand-realty .plan:not(.plan--featured) .plan__head > span,
+.brand-realty .faq .kicker {
+  color: var(--brand-orange-ink, #a43912);
+}
