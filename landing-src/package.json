@@ -12,7 +12,8 @@
     "check:site-seo": "node tools/check-site-seo.mjs && node --test ../recursos/atraer-clientes-tienda-redes-sociales/ficha-campana.test.mjs",
     "check:gym-planner": "node --test tools/test-gym-planner.mjs",
     "verify": "npm run build && npm run check",
-    "serve": "node tools/serve.mjs"
+    "serve": "node tools/serve.mjs",
+    "check:consent-snippet": "node --test tools/test-consent-snippet.mjs"
   },
   "engines": {
     "node": ">=18"
