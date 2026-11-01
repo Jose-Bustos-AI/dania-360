@@ -133,6 +133,7 @@ h3 { margin-bottom: 10px; font-size: 1.35rem; line-height: 1.2; }
 .editorial-example__card:first-child .editorial-example__copy { border-color: var(--lime); }
 .editorial-example__check { margin-bottom: 0; color: var(--muted); font-size: .89rem; }
 .editorial-example__card:first-child .editorial-example__check { color: rgba(255,255,255,.76); }
+.editorial-example__check a { display: inline-block; margin-top: 14px; color: var(--lime); text-decoration: underline; text-underline-offset: 4px; }
 .post--tour a { text-underline-offset: 4px; font-weight: 750; }
 .reel-outline { margin-top: 38px; padding: 30px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); scroll-margin-top: 30px; }
 .reel-outline > p { max-width: 900px; color: var(--muted); }

@@ -43,5 +43,7 @@ test('se conservan título, descripción, H1, canonical y precios', () => {
   assert.match(landing, /<link rel="canonical" href="https:\/\/dania360.com\/gestion-redes-sociales-inmobiliarias\/">/);
   const graph = JSON.parse(landing.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   assert.deepEqual(graph.find(node => node['@type'] === 'Service').offers.map(offer => Number(offer.price)), [297, 497]);
-  assert.equal(graph.find(node => node['@type'] === 'WebPage').dateModified, '2026-10-22');
+  const sitemap = readFileSync(new URL('sitemap.xml', root), 'utf8');
+  const landingLastmod = sitemap.match(/<loc>https:\/\/dania360\.com\/gestion-redes-sociales-inmobiliarias\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)[1];
+  assert.equal(graph.find(node => node['@type'] === 'WebPage').dateModified, landingLastmod);
 });
