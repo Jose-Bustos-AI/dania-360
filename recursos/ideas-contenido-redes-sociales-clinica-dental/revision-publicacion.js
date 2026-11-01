@@ -56,7 +56,7 @@ export function buildDentalBrief(fields) {
 
   const checks = controls.map((control) => {
     const state = clean(fields[control.key]);
-    if (!Object.hasOwn(control.choices, state)) throw new Error(`Selecciona el estado de «${control.name}».`);
+    if (!Object.hasOwn(control.choices, state)) throw new Error(`Selecciona el estado del control: ${control.name}.`);
     return { name: control.name, state, explanation: control.choices[state] };
   });
 
