@@ -943,5 +943,180 @@
         "Sí. Growth incluye la gestión de redes y todo Starter: una página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot responde con la información configurada y permite orientar el contacto al estudio. Tu equipo prepara la valoración del espacio y la propuesta profesional."
       ]
     ]
+  },
+  {
+    "id": 23,
+    "slug": "jardineria",
+    "name": "Empresas de jardinería y paisajismo",
+    "hubGroup": "proyectos-espacios",
+    "title": "Redes sociales para empresas de jardinería | Dania360",
+    "description": "Explica tus servicios de jardinería y el alcance del mantenimiento. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA. Auditoría gratis.",
+    "h1": "Gestión de redes sociales para empresas de jardinería",
+    "eyebrow": "El mantenimiento bien explicado",
+    "lead": "Presentamos los jardines que atiendes, tu zona de trabajo y los servicios que puede consultar cada cliente. Gestionamos contenido, comentarios y mensajes en Growth, con página web y bot de IA incluidos por 297 €/mes.",
+    "promise": "Que una comunidad entienda qué servicio puede contratar.",
+    "layout": "jardineria",
+    "artAlt": "Esquema conceptual de un jardín compartido con zonas de uso y anotaciones sobre espacio, servicio y consulta",
+    "artCaption": "Dibujo original de un jardín imaginado para explicar el contenido. No representa una propiedad o un trabajo realizado.",
+    "resourceTitle": "Una zona verde de comunidad con un servicio bien explicado",
+    "resourcePresentation": {
+      "description": "Un texto de publicación completo y criterios para adaptarlo a una actuación de tu empresa. Distingue el mantenimiento de un jardín existente y una nueva propuesta de paisajismo.",
+      "linkLabel": "Descargar el ejemplo de jardinería",
+      "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de jardinería. El ejemplo no corresponde a una propiedad o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de jardinería",
+        "redes sociales jardinería paisajismo",
+        "community manager jardineros",
+        "marketing empresas jardinería"
+      ],
+      "intent": "Servicio para una empresa que quiere delegar la comunicación de mantenimiento o paisajismo. La página comercial se distingue de una guía de cuidado de plantas.",
+      "distinctFrom": "El ejemplo explica el alcance del mantenimiento de un jardín compartido. No reproduce consejos estacionales de climatización, la atención de una comunidad desde una administración de fincas ni los servicios específicos de piscinas.",
+      "sources": [
+        {
+          "url": "https://lacocinamagica.com/blog/marketing-jardineria-paisajismo/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se contrasta la oferta de comunicación del sector. La pieza propia desarrolla un ejemplo de alcance para una comunidad; no adopta calendarios de actuaciones, estadísticas, promesas comerciales ni la estructura de la guía consultada."
+        }
+      ],
+      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "UNA ZONA VERDE, UN ALCANCE CLARO",
+      "Ejemplo de comunicación creado por Dania360 para una empresa de jardinería.",
+      "",
+      "PUNTO DE VISTA DE LA PUBLICACIÓN",
+      "Una comunidad no solo ve un jardín: necesita entender qué empresa atiende el espacio, qué servicios puede consultar y cómo se prepara una valoración.",
+      "",
+      "TEXTO BASE PROPUESTO",
+      "Una zona verde compartida necesita un servicio adaptado al espacio y a su uso. Antes de proponer el mantenimiento, conviene conocer las zonas que la componen, las tareas que necesita la comunidad y la forma de coordinar el acceso. La valoración profesional permite concretar el alcance y la frecuencia. Si buscas una empresa para atender el jardín de tu comunidad, indica el municipio y el tipo de espacio para iniciar la conversación.",
+      "",
+      "QUÉ AÑADIR CUANDO LA EMPRESA APORTE UN TRABAJO REAL",
+      "Un servicio concreto que efectivamente estuviera contratado. Una explicación del alcance de esa intervención. Una imagen autorizada en la que se aprecie lo descrito.",
+      "",
+      "DOS ENCARGOS QUE CONVIENE SEPARAR",
+      "Mantenimiento: el mensaje explica la atención de un espacio existente y cómo se acuerda el servicio periódico.",
+      "Nuevo jardín o cambio de uso: el mensaje presenta la forma de estudiar una propuesta y los materiales que ayudarían a explicarla. La empresa confirma si ofrece ese servicio.",
+      "",
+      "AL SELECCIONAR EL MATERIAL",
+      "Para comparar dos estados, conservar un punto de vista y unas condiciones de imagen que permitan entender el cambio. Recortar accesos privados, matrículas o datos que no aporten al mensaje. La empresa valida la descripción de las actuaciones.",
+      "",
+      "LA CONVERSACIÓN QUE SIGUE",
+      "Recoger el tipo de espacio y el municipio. Dirigir la valoración y la concreción de tareas al profesional. Confirmar después si la consulta llegó a visita o a propuesta, para separar alcance de la publicación y oportunidad comercial."
+    ],
+    "faq": [
+      [
+        "¿El enfoque sirve si atendemos comunidades y también jardines particulares?",
+        "Sí. Partimos de los servicios y los tipos de cliente que tu empresa atiende. Cada publicación aclara a quién se dirige y qué se puede consultar. Una comunidad puede necesitar información sobre un servicio periódico; un particular puede preguntar por una actuación o un proyecto diferente. La empresa confirma el alcance que ofrece en cada caso."
+      ],
+      [
+        "¿Cómo se organiza el contenido de jardinería durante el año?",
+        "Lo organizamos según los servicios que quieras priorizar, tu zona de trabajo y el material disponible. Tu equipo revisa las actuaciones y las condiciones que se describen. Podemos preparar piezas sobre espacios, trabajos, equipo y atención de consultas, manteniendo el mensaje ligado a la actividad real de tu empresa."
+      ],
+      [
+        "¿Tenéis que venir a grabar las visitas de mantenimiento?",
+        "Las grabaciones presenciales no figuran en la cuota oficial de Growth. Revisamos las fotos, vídeos y explicaciones que tu empresa pueda aportar y publicar, y acordamos cómo preparar las piezas con ese material. Las comparaciones entre estados de un jardín deben mostrar el trabajo real y permitir entender qué actuación se está explicando."
+      ],
+      [
+        "¿Growth incluye la web de jardinería y un bot de IA por 297 €/mes?",
+        "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos Instagram, Facebook, TikTok, Pinterest y Google Business Profile según el alcance del plan, además de comentarios, mensajes y reseñas. La valoración del jardín y el presupuesto los prepara tu empresa."
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "piscinas",
+    "name": "Empresas de piscinas",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para piscinas | Dania360",
+    "description": "Comunica construcción, renovación y mantenimiento de piscinas con mensajes para cada servicio. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "h1": "Gestión de redes sociales para empresas de piscinas",
+    "eyebrow": "Cada servicio, una consulta clara",
+    "lead": "Organizamos el contenido de tu empresa de piscinas para presentar los proyectos nuevos, las renovaciones y el mantenimiento que ofreces. Growth incluye gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "promise": "Que quien contacte sepa qué servicio está consultando.",
+    "layout": "piscinas",
+    "artAlt": "Ilustración conceptual de una piscina con tres líneas de comunicación: proyecto, renovación y servicio",
+    "artCaption": "Composición editorial original para distinguir servicios. Es un esquema conceptual, no una instalación real.",
+    "resourceTitle": "Tres mensajes distintos para una empresa de piscinas",
+    "resourcePresentation": {
+      "description": "Tres propuestas de publicación completas, con su propósito y el siguiente paso de la consulta. Puedes seleccionar las que correspondan a tu actividad y adaptarlas a tu material.",
+      "linkLabel": "Descargar las tres propuestas de piscinas",
+      "documentSubtitle": "Ejemplos editoriales originales de Dania360 para una empresa de piscinas. No representan proyectos ni clientes reales."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de piscinas",
+        "redes sociales constructores piscinas",
+        "marketing mantenimiento piscinas",
+        "community manager piscinas"
+      ],
+      "intent": "Servicio para el responsable de un negocio de piscinas que quiere presentar sus líneas de actividad y delegar su comunicación.",
+      "distinctFrom": "Tres publicaciones se distinguen por el encargo que inicia la consulta. No repiten las fases de una obra general ni el alcance del mantenimiento de jardines y no desarrollan instrucciones de tratamiento del agua.",
+      "sources": [
+        {
+          "url": "https://aseppi.es/marketing-para-piscinas/",
+          "access": "primary_page_content_returned_in_search_after_direct_fetch_timeout",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "El contenido de la oferta para instaladores, mantenedores y suministros está disponible en el resultado del propio sitio. La apertura directa agotó el tiempo de espera en esta sesión. Se contrasta el alcance de web y redes, sin atribuir spots, anuncios o vínculos con la asociación a Dania360."
+        },
+        {
+          "url": "https://www.agencydema.com/blog/marketing-redes-sociales-empresas-piscinas",
+          "access": "indexed_primary_page_content",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se contrasta una oferta editorial del sector. Las promesas de captación, viralidad y plazos que utiliza el competidor no son compromisos de Dania360. Los tres mensajes y el alcance comercial de esta página son propios."
+        }
+      ],
+      "demand": "Consultas candidatas y oferta comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "TRES SERVICIOS, TRES MENSAJES",
+      "Propuestas editoriales de Dania360 para una empresa de piscinas.",
+      "",
+      "A. UN PROYECTO NUEVO",
+      "Idea de pieza: presentar qué aspectos se estudian antes de formular una propuesta, con material autorizado de la empresa o un esquema identificado como conceptual.",
+      "Texto propuesto: Una piscina nueva empieza por entender el espacio y el uso que quieres darle. Cuéntanos el municipio y en qué punto está tu idea para hablar del proyecto con nuestro equipo.",
+      "La empresa confirma: si asume ese tipo de proyecto, qué documentación necesita y cómo continúa el estudio.",
+      "",
+      "B. UNA RENOVACIÓN",
+      "Idea de pieza: explicar una necesidad concreta y la parte que la empresa puede estudiar. Si se muestra una intervención terminada, separar el estado inicial de la actuación realmente ejecutada.",
+      "Texto propuesto: ¿Quieres plantear un cambio en una piscina existente? Describe qué te gustaría renovar y dónde se encuentra. Nuestro equipo revisará qué información necesita para valorar la intervención.",
+      "La empresa confirma: el alcance que puede asumir y los pasos de la valoración. La imagen no sustituye una comprobación profesional.",
+      "",
+      "C. UN SERVICIO PERIÓDICO",
+      "Idea de pieza: presentar el servicio que ofrece la empresa y cómo se determina su alcance. La publicación no contiene dosificaciones ni recomendaciones de tratamiento.",
+      "Texto propuesto: El servicio de una piscina se concreta conociendo la instalación y las necesidades de quien la utiliza. Indica si se trata de una vivienda, una comunidad u otro espacio y el municipio para consultar el servicio disponible.",
+      "La empresa confirma: trabajos, frecuencia, condiciones y disponibilidad antes de aceptar el encargo.",
+      "",
+      "CÓMO EVALUAR LAS CONSULTAS",
+      "Registrar qué línea de servicio originó el contacto y si avanzó a una conversación profesional. Una visita al perfil o la reproducción de un vídeo no prueba que exista un proyecto."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar construcción y mantenimiento en una misma empresa?",
+        "Sí. Organizamos el contenido para que cada pieza identifique el servicio que se está ofreciendo y el tipo de consulta que puede continuar. Una piscina nueva, una renovación y un servicio periódico necesitan información diferente. Primero confirmamos qué líneas atiende tu empresa y cuáles quieres priorizar."
+      ],
+      [
+        "¿Quién revisa la información técnica de las publicaciones?",
+        "El equipo profesional de tu empresa valida las explicaciones sobre intervenciones, equipos y servicios. Dania360 prepara y adapta el contenido a partir de esa información. Cualquier dato sobre prestaciones o condiciones debe corresponder a lo que tu negocio pueda confirmar; el contenido de comunicación no sustituye una valoración de la instalación."
+      ],
+      [
+        "¿Qué imágenes podemos usar si solo tenemos material de algunas intervenciones?",
+        "Revisamos qué fotografías y vídeos puedes publicar y qué servicio permite explicar cada pieza. Podemos combinar ese material con una presentación del equipo, una explicación del proceso de consulta o esquemas conceptuales claramente identificados. Se conserva la autoría del material y se confirma el permiso de publicación. Las grabaciones presenciales no figuran en la cuota de Growth."
+      ],
+      [
+        "¿La web y el bot de IA están incluidos en Growth?",
+        "Sí. Growth cuesta 297 €/mes e incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes, reseñas e informe mensual de actividad y visibilidad local. La empresa confirma las visitas, la propuesta profesional y el presupuesto."
+      ]
+    ]
   }
 ]

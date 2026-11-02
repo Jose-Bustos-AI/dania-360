@@ -73,3 +73,60 @@
   .interiors-caption{padding-left:20px}
   .layout-interioristas .hero figure{margin-top:0}
 }
+
+/* Gardening: an illustrated scope brief alongside a community-facing post. */
+.layout-jardineria .hero{grid-template-columns:.95fr 1.05fr;gap:46px}
+.layout-jardineria h1{font-size:clamp(2.35rem,3.8vw,3.8rem);max-width:20ch}
+.layout-jardineria .hero figure{order:-1}
+.garden-focus{display:grid;grid-template-columns:.85fr 1.15fr;gap:46px;align-items:start}
+.garden-focus-copy p,.garden-contact-copy p,.garden-material-copy{color:var(--muted)}
+.garden-visit{display:grid;grid-template-columns:1fr 1.05fr;gap:42px;align-items:start}
+.garden-visit h2{font-size:clamp(1.8rem,2.6vw,2.5rem);max-width:21ch}
+.garden-visit-intro>p{color:var(--muted)}
+.garden-visit-intro>.kicker{color:var(--orange)}
+.garden-scope-notes{margin:30px 0 0}
+.garden-scope-notes>div{padding:18px 0;border-top:1px solid var(--line)}
+.garden-scope-notes dt{font-size:.85rem;font-weight:800;color:var(--orange);margin-bottom:6px}
+.garden-scope-notes dd{margin:0;color:var(--muted);font-size:.96rem}
+.garden-post{padding:36px;background:#17130f;border:1px solid #775139;border-radius:24px 0}
+.garden-post h3{font-size:1.6rem;max-width:20ch;margin-bottom:24px}
+.garden-post>p{color:var(--text)}
+.garden-post>.kicker{color:var(--orange)}
+.garden-post-annotation{padding-top:22px;margin-top:26px;border-top:1px solid #775139}
+.garden-post-annotation p{margin:0;color:var(--muted);font-size:.9rem}
+.garden-commission-pair{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px}
+.garden-commission-pair article+article{padding-left:32px;border-left:1px solid var(--line)}
+.garden-commission-pair h3{max-width:22ch}
+.garden-commission-pair p{color:var(--muted)}
+.garden-material-copy,.garden-contact-copy{max-width:80ch}
+
+/* Pools: three service-led messages, laid out as full-width editorial rows. */
+.layout-piscinas .hero{grid-template-columns:1.1fr .9fr;gap:40px}
+.layout-piscinas h1{font-size:clamp(2.35rem,3.9vw,3.9rem);max-width:20ch}
+.pool-service-copy,.pool-material-copy{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:28px}
+.pool-service-copy p,.pool-material-copy p,.pool-contact-copy p{color:var(--muted)}
+.pool-message-row{display:grid;grid-template-columns:.6fr 1.4fr;gap:42px;padding:34px 0;border-top:1px solid var(--line)}
+.pool-message-row:last-child{padding-bottom:0}
+.pool-letter{display:block;font-size:3.5rem;line-height:1;font-weight:800;color:var(--orange);margin-bottom:20px}
+.pool-message-label h3{max-width:18ch;font-size:1.4rem}
+.pool-message-body>p{color:var(--muted)}
+.pool-post-text{margin:24px 0;padding:24px;background:var(--panel);border-left:3px solid var(--orange)}
+.pool-post-text>span{display:block;font-size:.73rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:var(--orange);margin-bottom:14px}
+.pool-post-text>p{margin:0;color:var(--text);font-size:1.05rem}
+.pool-message-body .pool-next-question{font-size:.91rem;margin-bottom:0}
+.pool-contact-copy{max-width:83ch}
+@media(max-width:850px){
+  .layout-jardineria .hero,.layout-piscinas .hero,.garden-focus,.garden-visit{grid-template-columns:1fr;gap:28px}
+  .layout-jardineria .hero figure{order:0}
+  .garden-visit h2{max-width:25ch}
+  .pool-message-row{grid-template-columns:.65fr 1.35fr;gap:26px}
+}
+@media(max-width:540px){
+  .garden-commission-pair,.pool-service-copy,.pool-material-copy,.pool-message-row{grid-template-columns:1fr;gap:20px}
+  .garden-commission-pair article+article{padding:24px 0 0;border-left:0;border-top:1px solid var(--line)}
+  .garden-post{padding:25px}
+  .pool-message-label{display:flex;gap:20px;align-items:start}
+  .pool-letter{font-size:2.4rem;margin:0;min-width:1ch}
+  .pool-message-label h3{margin:0;font-size:1.3rem}
+  .pool-post-text{padding:22px}
+}
