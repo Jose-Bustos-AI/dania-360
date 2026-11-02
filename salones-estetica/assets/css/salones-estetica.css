@@ -141,14 +141,16 @@ a {
   color: inherit;
 }
 
-.entradilla a {
+.entradilla a,
+.enlace-ejemplo {
   color: var(--terracota-tinta);
   font-weight: 700;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.18em;
 }
 
-.entradilla a:hover {
+.entradilla a:hover,
+.enlace-ejemplo:hover {
   color: var(--carbon);
 }
 
