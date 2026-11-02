@@ -4559,5 +4559,745 @@
       "Gracias por escribir. Podemos explicarte cómo se organiza el servicio de seguimiento y cómo consultar con el profesional. Contacta por el canal privado de la consulta e indica que quieres información sobre ese servicio. El equipo te orientará sobre su funcionamiento y las condiciones que corresponda confirmar antes de una cita.",
       ""
     ]
+  },
+  {
+    "id": 63,
+    "slug": "opticas",
+    "title": "Gestión de redes sociales para ópticas | Dania360",
+    "description": "Da a conocer las monturas, el equipo y el asesoramiento de tu óptica. Growth incluye gestión de redes sociales, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El interés por una montura continúa en tu centro",
+    "promise": "Relaciona el producto que muestras con el asesoramiento de tu óptica.",
+    "lead": "Preparamos contenido para presentar las monturas, el equipo y la atención de tu óptica. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Montura frontal y perfil abstractos junto a una tarjeta que identifica el asesoramiento de la óptica",
+    "artCaption": "Ilustración editorial original. No representa un modelo, una marca ni existencias de una óptica real.",
+    "resourceTitle": "Tres vistas de una montura con publicación y primera respuesta",
+    "faq": [
+      [
+        "¿Podéis mostrar monturas y explicar el asesoramiento en la misma cuenta?",
+        "Sí. La pieza puede partir del producto y continuar con la información del centro. Identificamos qué se está mostrando y cómo puede consultarse con el equipo, sin atribuir prestaciones a partir de una imagen."
+      ],
+      [
+        "¿Qué ocurre si mi óptica pertenece a una marca o cadena?",
+        "Antes de preparar contenido acordamos con el centro sus indicaciones de identidad y de uso del material. El responsable confirma qué referencias y piezas puede comunicar desde su cuenta."
+      ],
+      [
+        "¿El bot comprueba disponibilidad o recomienda una solución visual?",
+        "Se configura con información del centro y sus formas de contacto. No se presenta como un inventario sincronizado ni realiza una valoración visual. El equipo de la óptica confirma el producto y el asesoramiento."
+      ],
+      [
+        "¿Qué incluye Growth para ópticas por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Ópticas",
+    "h1": "Gestión de redes sociales para ópticas",
+    "hubGroup": "salud-cuidados",
+    "layout": "opticas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para ópticas",
+        "community manager ópticas",
+        "redes sociales para ópticas",
+        "marketing ópticas"
+      ],
+      "intent": "Óptica que necesita una presentación propia del centro, su equipo y el asesoramiento junto al producto.",
+      "distinctFrom": "Relacionar tres vistas de una montura con información de producto y una invitación a conocer el asesoramiento del centro.",
+      "sources": [
+        {
+          "url": "https://dato360.com/marketing-digital/gestion-redes-sociales/opticas/",
+          "access": "primary_page_direct_read",
+          "observation": "Oferta específica española que diferencia producto, equipo e identidad local de la óptica. Sus campañas, producción y otros servicios no se incorporan a Growth por inferencia.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "La ficha de encuadres y los textos completos para presentar un modelo y continuar una consulta sobre él.",
+      "linkLabel": "Descargar el ejemplo editorial para ópticas",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Una ficha editorial original",
+      "",
+      "Tres vistas de una montura y un siguiente paso claro",
+      "",
+      "Demostración para adaptar con un modelo y material que confirme la óptica. El dibujo de esta página es conceptual y no anuncia existencias.",
+      "",
+      "Frontal",
+      "",
+      "Identificar el modelo que se presenta, con su nombre y los datos que el centro decida comunicar.",
+      "",
+      "Perfil",
+      "",
+      "Acercar un detalle visible de la montura y relacionarlo con la explicación del equipo, sin atribuirle prestaciones a partir de la fotografía.",
+      "",
+      "En el centro",
+      "",
+      "Cerrar la pieza con una forma de consultar el producto y conocer el asesoramiento de la óptica.",
+      "",
+      "Texto de acompañamiento",
+      "",
+      "Una montura también se conoce por sus detalles. En esta pieza la mostramos de frente y de perfil para que puedas reconocer el modelo y acercarte a su diseño. Si te interesa, consulta con nuestro equipo por la información del producto y la forma de verlo en el centro. Allí podremos explicarte el asesoramiento que ofrece nuestra óptica y cómo informarte sobre él.",
+      "",
+      "Respuesta a una pregunta sobre el modelo mostrado",
+      "",
+      "Gracias por preguntar. Indícanos a qué publicación o modelo te refieres por el canal de contacto de la óptica. El equipo comprobará la información y te explicará cómo consultar sus características y disponibilidad en el centro.",
+      ""
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "centros-auditivos",
+    "title": "Gestión de redes sociales para centros auditivos | Dania360",
+    "description": "Presenta tu centro auditivo con contenido claro y mensajes que también se entiendan en pantalla. Gestión de redes, web y bot de IA en Growth: 297 €/mes.",
+    "eyebrow": "Conocer el centro también a través de lo que se lee",
+    "promise": "Presenta tu atención con un mensaje que pueda seguirse sin sonido.",
+    "lead": "Gestionamos las redes de tu centro auditivo con contenido sobre el equipo, el servicio y cómo informarse de una visita. Growth incluye publicaciones, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Vídeo conceptual de quince segundos con textos en pantalla y una tarjeta de contacto del centro auditivo",
+    "artCaption": "Esquema editorial original de un guion. No es un vídeo producido ni una prueba de audición.",
+    "resourceTitle": "Guion legible de 15 segundos para un centro auditivo",
+    "faq": [
+      [
+        "¿Por qué el ejemplo incluye texto en todos los planos?",
+        "El mensaje principal está escrito para que la pieza pueda seguirse sin depender de una locución. Antes de publicarla se revisan contraste, cantidad de texto y tiempo de lectura."
+      ],
+      [
+        "¿El guion de esta página es un vídeo ya realizado?",
+        "Es una demostración editorial original con encuadres y textos completos. La pieza se adapta con material autorizado y con la información que confirme el centro. No muestra una prueba o una simulación de audición."
+      ],
+      [
+        "¿Quién confirma lo que se comunica sobre el servicio del centro?",
+        "Su responsable revisa los servicios, productos y condiciones presentados. La atención del perfil orienta sobre funcionamiento y contacto; las valoraciones y pruebas continúan con los profesionales del centro."
+      ],
+      [
+        "¿Qué incluye Growth para centros auditivos por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Centros auditivos",
+    "h1": "Gestión de redes sociales para centros auditivos",
+    "hubGroup": "salud-cuidados",
+    "layout": "centros-auditivos",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para centros auditivos",
+        "redes sociales centros auditivos",
+        "community manager audiología",
+        "marketing centros auditivos"
+      ],
+      "intent": "Centro auditivo que quiere explicar su atención y facilitar el contacto con información clara que también pueda leerse en pantalla.",
+      "distinctFrom": "Un guion de quince segundos cuyo mensaje se entiende mediante texto en pantalla, desde el centro y su recepción hasta el canal de consulta.",
+      "sources": [
+        {
+          "url": "https://www.efectonewton.com/marketing-para-centros-auditivos/",
+          "access": "primary_page_direct_read",
+          "observation": "Oferta española para centros auditivos con interés en consultas y visitas. Su enfoque de campañas y sus garantías no acreditan demanda cuantificada ni se trasladan al alcance de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Los cuatro tramos, sus textos en pantalla y el pie de publicación completos para adaptar con el centro.",
+      "linkLabel": "Descargar el guion para presentar el centro auditivo",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Guion editorial original de 15 segundos",
+      "",
+      "Del centro al canal de consulta en cuatro planos",
+      "",
+      "Es un guion, no un vídeo producido. Se adapta con material autorizado del establecimiento y no muestra una prueba auditiva ni una simulación de audición.",
+      "",
+      "0–3 segundos",
+      "",
+      "Situar el centro",
+      "",
+      "Encuadre de la entrada o identificación del establecimiento.",
+      "",
+      "Texto en pantalla: Conoce nuestro centro auditivo",
+      "",
+      "3–7 segundos",
+      "",
+      "Presentar al equipo",
+      "",
+      "Plano del profesional o del espacio de recepción que el centro decida mostrar.",
+      "",
+      "Texto en pantalla: Pregunta cómo podemos atenderte",
+      "",
+      "7–11 segundos",
+      "",
+      "Explicar el primer contacto",
+      "",
+      "Imagen que acompañe la información sobre cómo consultar una visita.",
+      "",
+      "Texto en pantalla: Infórmate sobre el funcionamiento del centro",
+      "",
+      "11–15 segundos",
+      "",
+      "Dar un siguiente paso",
+      "",
+      "Cierre con el canal de atención confirmado por el establecimiento.",
+      "",
+      "Texto en pantalla: Consulta con el equipo por el canal del perfil",
+      "",
+      "Texto para acompañar la pieza",
+      "",
+      "Conocer el centro es una forma de empezar a informarte. En esta pieza presentamos nuestro espacio y cómo contactar con el equipo. Si quieres consultar nuestros servicios o saber cómo preparar una visita, utiliza el canal del perfil. Te explicaremos el funcionamiento del centro y cómo continuar la consulta con su profesional.",
+      ""
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "podologia",
+    "title": "Gestión de redes sociales para podólogos | Dania360",
+    "description": "Explica tu clínica de podología y orienta el primer contacto con contenido revisado por tu equipo. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El gabinete se conoce mejor cuando se explica",
+    "promise": "Ayuda a conocer tu consulta antes de pedir una primera cita.",
+    "lead": "Desarrollamos contenido para presentar tu clínica de podología, al equipo y cómo informarse. Growth reúne gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Gabinete conceptual y tarjeta de información sobre una cita en una clínica de podología",
+    "artCaption": "Ilustración conceptual original. No representa una clínica, equipamiento o paciente reales.",
+    "resourceTitle": "Publicación de primera visita y respuesta sobre fotografías",
+    "faq": [
+      [
+        "¿Necesitáis imágenes de tratamientos para crear contenido de podología?",
+        "Podemos presentar al equipo, el gabinete y el funcionamiento del centro con material autorizado. El profesional revisa las explicaciones de su especialidad; no hace falta construir una historia de un paciente para esas piezas."
+      ],
+      [
+        "¿Cómo se responde a quien quiere una valoración de una fotografía por redes?",
+        "La agencia orienta sobre la clínica y su canal de contacto. La valoración de una situación personal corresponde al profesional por el canal que indique el centro; no se interpreta la imagen desde la atención del perfil."
+      ],
+      [
+        "¿Puedo revisar cómo se describen mis servicios de podología?",
+        "El centro valida el alcance y las afirmaciones de su especialidad antes de publicar. Partimos de sus servicios confirmados y de la información que quiera presentar de su equipo y funcionamiento."
+      ],
+      [
+        "¿Qué incluye Growth para clínicas de podología por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Clínicas de podología",
+    "h1": "Gestión de redes sociales para clínicas de podología",
+    "hubGroup": "salud-cuidados",
+    "layout": "podologia",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para clínicas de podología",
+        "gestión redes sociales podólogos",
+        "community manager podología",
+        "marketing clínicas podológicas"
+      ],
+      "intent": "Clínica podológica que quiere mostrar su equipo y funcionamiento y orientar consultas sin valorar fotografías o síntomas desde redes.",
+      "distinctFrom": "Una publicación para la primera visita y una respuesta completa a quien propone enviar una fotografía del pie para obtener una valoración.",
+      "sources": [
+        {
+          "url": "https://marketingparapodologos.com/gestion-redes-sociales/",
+          "access": "primary_page_direct_read",
+          "observation": "Oferta de redes para podólogos que plantea tono, material y revisión por el profesional. No se adoptan su frecuencia, reglas editoriales, historias de pacientes, capacidades sanitarias ni garantías.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Texto completo para presentar el contacto con la clínica y orientar una petición de valoración por fotografía.",
+      "linkLabel": "Descargar los textos de atención para podología",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Una publicación y una respuesta originales",
+      "",
+      "Presentar la visita y orientar una petición de valoración por fotografía",
+      "",
+      "Propuesta de contenido administrativo para adaptar con la clínica. No representa un paciente ni una valoración de una fotografía.",
+      "",
+      "Publicación sobre cómo informarse antes de acudir",
+      "",
+      "Si todavía no conoces nuestra clínica de podología, puedes empezar por informarte sobre el equipo, los servicios y la forma de solicitar una cita. En el perfil presentamos cómo funciona el centro y qué canal utilizar para contactar. Si quieres consultar con el profesional, el equipo te explicará cómo continuar y qué información corresponde tratar en la consulta. Puedes preguntar por el funcionamiento sin publicar detalles personales en los comentarios.",
+      "",
+      "Respuesta a quien propone enviar una fotografía del pie para valorar su caso",
+      "",
+      "Gracias por contactar. Desde esta cuenta podemos orientarte sobre la clínica y cómo consultar con su profesional. La valoración de una situación personal debe continuar por el canal que indique el centro. Contacta para informarte sobre la cita; no necesitas publicar fotografías ni detalles de tu caso en los comentarios.",
+      "",
+      "Qué muestra la pieza",
+      "",
+      "El centro puede utilizar una imagen autorizada del equipo o del gabinete, con una explicación de lo que se está presentando.",
+      "",
+      "Qué revisa el profesional",
+      "",
+      "La descripción de sus servicios, el enfoque de cualquier contenido divulgativo y la información que se facilita sobre la consulta.",
+      "",
+      "Cómo continúa el contacto",
+      "",
+      "El responsable confirma el canal de atención y qué peticiones debe recibir directamente su equipo.",
+      ""
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "medicina-estetica",
+    "title": "Gestión de redes sociales para medicina estética | Dania360",
+    "description": "Presenta tu clínica de medicina estética y su forma de consulta con contenido revisado. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El equipo y la consulta dan sentido al perfil",
+    "promise": "Presenta el criterio del equipo y cómo empieza una consulta.",
+    "lead": "Preparamos la comunicación de tu clínica de medicina estética con información revisada por su responsable. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos espacios conceptuales para la información del perfil y el contacto con la consulta de medicina estética",
+    "artCaption": "Composición editorial original. No muestra pacientes, tratamientos ni resultados de una intervención.",
+    "resourceTitle": "Una publicación de consulta y una respuesta informativa",
+    "faq": [
+      [
+        "¿Esta página tiene el mismo enfoque que la de salones de estética?",
+        "Aquí se presenta la comunicación de una clínica de medicina estética y el comienzo de la consulta con sus profesionales. El contenido se prepara desde el alcance médico que confirme el centro."
+      ],
+      [
+        "¿Podéis recomendar una técnica a quien escriba por redes?",
+        "La atención del perfil facilita información del servicio y cómo consultar con la clínica. La recomendación y la valoración individual corresponden a su equipo clínico, no a la agencia ni al bot."
+      ],
+      [
+        "¿Quién revisa el contenido de medicina estética antes de publicar?",
+        "La clínica valida sus servicios, datos profesionales y afirmaciones de su especialidad. Trabajamos con material autorizado, sin crear pacientes, testimonios o resultados ficticios."
+      ],
+      [
+        "¿Qué incluye Growth para clínicas de medicina estética por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Clínicas de medicina estética",
+    "h1": "Gestión de redes sociales para clínicas de medicina estética",
+    "hubGroup": "salud-cuidados",
+    "layout": "medicina-estetica",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para clínicas de medicina estética",
+        "community manager medicina estética",
+        "redes sociales clínicas medicina estética",
+        "marketing medicina estética"
+      ],
+      "intent": "Clínica de medicina estética que necesita presentar al equipo, la consulta y su valoración profesional con información revisada.",
+      "distinctFrom": "Separar la información comercial del perfil de la decisión sobre una técnica, mediante un texto de consulta y una respuesta a la petición de recomendación por mensaje.",
+      "sources": [
+        {
+          "url": "https://www.marketingmedico.es/redes-sociales-medicas/",
+          "access": "primary_page_direct_read",
+          "observation": "El proveedor presenta gestión de redes para médicos y medicina estética, tono, imagen y seguimiento del contenido. Sus credenciales, clientes, garantías o promesas no se atribuyen a Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Los textos completos para presentar el primer contacto y orientar una petición de recomendación hacia la clínica.",
+      "linkLabel": "Descargar el ejemplo de comunicación de medicina estética",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Un ejemplo editorial original",
+      "",
+      "La información del perfil prepara el contacto con la consulta",
+      "",
+      "Estos textos se adaptan con el centro. No describen un tratamiento, una paciente ni resultados de una intervención.",
+      "",
+      "En el perfil",
+      "",
+      "Presentación del equipo, servicios confirmados y forma de solicitar información. Cada pieza elige un asunto y ofrece un siguiente paso comprensible.",
+      "",
+      "Con el equipo clínico",
+      "",
+      "La persona consulta su situación por el canal que indique la clínica. La recomendación profesional no se deduce de una publicación ni se resuelve con una respuesta de la agencia.",
+      "",
+      "Publicación sobre el comienzo de la consulta",
+      "",
+      "Antes de decidir un servicio de medicina estética, puedes informarte sobre quién te atenderá y cómo funciona la consulta. En nuestro perfil presentamos al equipo y la forma de contactar con la clínica. Si quieres plantear una consulta, utiliza el canal indicado: el personal del centro te explicará cómo continuar con el profesional y qué condiciones debes conocer antes de una cita.",
+      "",
+      "Respuesta a una petición de recomendación de tratamiento por mensaje",
+      "",
+      "Gracias por escribir. Podemos facilitarte información sobre la clínica y cómo consultar con su equipo. Para estudiar qué opción puede corresponder a tu situación, debe atenderte el profesional por el canal del centro. Si quieres conocer cómo solicitar esa consulta, te indicaremos el procedimiento de contacto.",
+      ""
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "residencias-mayores",
+    "title": "Redes sociales para residencias de mayores | Dania360",
+    "description": "Acerca el centro, el equipo y la visita a quienes buscan una residencia de mayores. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Un centro que se pueda conocer y consultar",
+    "promise": "Muestra la residencia con claridad y prepara la conversación sobre una visita.",
+    "lead": "Gestionamos contenido para presentar tu residencia de mayores y cómo informarse con su equipo. Growth incorpora redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Plano conceptual con tres paradas editoriales de una residencia: situar, conocer un espacio y conversar con el equipo",
+    "artCaption": "Plano editorial original. No representa una residencia, servicios asistenciales o residentes reales.",
+    "resourceTitle": "Un recorrido de tres paradas para presentar la residencia",
+    "faq": [
+      [
+        "¿Hay que mostrar residentes para dar a conocer el centro?",
+        "Podemos presentar espacios, equipo y funcionamiento con material autorizado. La propuesta de esta página permite explicar la residencia sin convertir la vida privada de quienes residen en contenido promocional."
+      ],
+      [
+        "¿Podéis anunciar plazas disponibles desde las redes?",
+        "Cualquier aviso de disponibilidad y sus condiciones debe confirmarlo la residencia. La gestión del perfil facilita información y contacto; no se presupone una conexión con el sistema de ocupación del centro."
+      ],
+      [
+        "¿Cómo se atienden preguntas sobre una persona que ya reside en el centro?",
+        "Se orientan hacia el canal que indique el responsable, sin tratar esa situación en comentarios públicos ni revelar la relación con la residencia. Acordamos con el equipo cómo continuar cada motivo de contacto."
+      ],
+      [
+        "¿Qué incluye Growth para residencias de mayores por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Residencias de mayores",
+    "h1": "Gestión de redes sociales para residencias de mayores",
+    "hubGroup": "salud-cuidados",
+    "layout": "residencias-mayores",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para residencias de mayores",
+        "redes sociales residencias de mayores",
+        "community manager residencias mayores",
+        "marketing residencias"
+      ],
+      "intent": "Residencia que quiere que la persona interesada y quienes la acompañen conozcan el centro y cómo preparar una visita.",
+      "distinctFrom": "Un recorrido editorial por espacios y equipo, con información para consultar una visita y sin utilizar residentes como material promocional.",
+      "sources": [
+        {
+          "url": "https://www.efectonewton.com/marketing-para-residencias-de-mayores/",
+          "access": "primary_page_direct_read",
+          "observation": "Oferta específica que pone el foco en llamadas y visitas al centro, además de ficha, reseñas y web. No se adoptan cifras, garantías, datos de ocupación ni servicios de medición adicionales por inferencia.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "La propuesta completa de espacios y texto de acompañamiento, con los puntos que debe confirmar el centro.",
+      "linkLabel": "Descargar el recorrido editorial para residencias",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Un recorrido editorial original",
+      "",
+      "Tres paradas para empezar a conocer la residencia",
+      "",
+      "Propuesta para adaptar al centro con imágenes autorizadas. No es un plano real, una visita grabada ni la historia de una persona residente.",
+      "",
+      "Situar",
+      "",
+      "La entrada y el entorno del centro",
+      "",
+      "Una imagen identifica la residencia y ayuda a reconocer dónde se está presentando el servicio. El equipo confirma la información que debe acompañarla.",
+      "",
+      "Conocer",
+      "",
+      "Un espacio y su uso explicado",
+      "",
+      "La pieza muestra una zona que el centro pueda compartir y explica para qué se utiliza. El responsable valida el uso; la imagen no acredita por sí sola servicios o condiciones.",
+      "",
+      "Conversar",
+      "",
+      "La persona que informa sobre una visita",
+      "",
+      "El cierre presenta cómo contactar con el centro y preparar las preguntas. La información sobre atención, disponibilidad y condiciones se consulta con su equipo.",
+      "",
+      "Texto para acompañar el recorrido",
+      "",
+      "Conocer una residencia empieza por poder preguntar y entender lo que se está viendo. En esta pieza presentamos nuestro centro y uno de sus espacios, con la explicación del equipo. Si quieres informarte, contacta por el canal del perfil: te indicaremos cómo consultar nuestros servicios y preparar una visita. Puedes contarnos qué información necesitas sobre el funcionamiento del centro, sin compartir datos personales de tu familiar en los comentarios.",
+      "",
+      "Al adaptar la pieza, el responsable confirma qué espacio se presenta, quién puede aparecer y cómo se solicita información. Las plazas disponibles y las condiciones de atención se revisan con la residencia.",
+      ""
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "ayuda-domicilio",
+    "title": "Gestión de redes sociales para ayuda a domicilio | Dania360",
+    "description": "Explica el alcance y la zona de tu empresa de ayuda a domicilio con contenido propio. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
+    "eyebrow": "La confianza empieza por entender el servicio",
+    "promise": "Deja claro qué se puede consultar y con quién continuar.",
+    "lead": "Presentamos tu empresa de ayuda a domicilio, su zona y cómo solicitar información con contenido propio. Growth reúne gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Casa conceptual con dos rutas diferenciadas para información del servicio de ayuda a domicilio y candidaturas profesionales",
+    "artCaption": "Esquema editorial original. No representa un domicilio, una familia ni una oferta de empleo reales.",
+    "resourceTitle": "Presentación del servicio y dos rutas de contacto",
+    "faq": [
+      [
+        "¿Cómo evitamos mezclar consultas de servicio y solicitudes de empleo?",
+        "Identificamos el motivo del mensaje y lo dirigimos al canal que confirme la empresa. El ejemplo incluye respuestas completas para ambos recorridos, sin pedir datos personales en público."
+      ],
+      [
+        "¿Podéis comunicar en qué zonas se presta ayuda a domicilio?",
+        "La empresa confirma su ámbito de atención y las condiciones que puede comunicar. El equipo comprueba cobertura y disponibilidad cuando recibe una petición; no se prometen por la apariencia de una publicación."
+      ],
+      [
+        "¿El bot asigna cuidadores u organiza la atención domiciliaria?",
+        "Se configura con información del negocio para orientar sobre el servicio y el contacto. La contratación, los profesionales y la organización asistencial corresponden a la empresa; no se atribuyen esas funciones al bot."
+      ],
+      [
+        "¿Qué incluye Growth para empresas de ayuda a domicilio por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Empresas de ayuda a domicilio",
+    "h1": "Gestión de redes sociales para empresas de ayuda a domicilio",
+    "hubGroup": "salud-cuidados",
+    "layout": "ayuda-domicilio",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de ayuda a domicilio",
+        "redes sociales ayuda a domicilio",
+        "marketing empresas ayuda a domicilio",
+        "community manager servicios asistenciales"
+      ],
+      "intent": "Empresa de ayuda a domicilio que necesita explicar qué servicio ofrece y en qué zona, y separar una consulta de contratación de una candidatura.",
+      "distinctFrom": "Dos rutas de contacto completas para familia o persona interesada y profesional que busca empleo, sin solicitar información personal del domicilio en público.",
+      "sources": [
+        {
+          "url": "https://www.dependenciasocialmedia.com/%C2%BFcomo-trabajamos/",
+          "access": "primary_page_direct_read",
+          "observation": "Consultoría de comunicación que identifica expresamente residencias, centros de día y ayuda a domicilio como su sector. La página es metodológica, no una oferta reciente con métricas; no prueba volumen de búsqueda ni resultados.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Publicación completa y respuestas distintas para quien consulta la zona de atención y quien presenta una candidatura.",
+      "linkLabel": "Descargar los textos para ayuda a domicilio",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Una publicación y dos respuestas originales",
+      "",
+      "La consulta del servicio y la candidatura necesitan recorridos distintos",
+      "",
+      "Estos textos se adaptan a la zona, los servicios y los canales confirmados de la empresa. No describen una familia, un domicilio ni una oferta de empleo reales.",
+      "",
+      "Publicación de presentación del servicio",
+      "",
+      "Si quieres informarte sobre ayuda a domicilio, puedes empezar por conocer qué servicio ofrece la empresa y cómo consultar con su equipo. En nuestro perfil explicamos el funcionamiento y la forma de contactar. Antes de una propuesta, el responsable te indicará qué información necesita para estudiar la petición y las condiciones que debe confirmar. Para empezar no hace falta publicar una dirección ni datos personales en los comentarios.",
+      "",
+      "Información sobre el servicio",
+      "",
+      "Una persona quiere saber si atendéis su zona",
+      "",
+      "Gracias por contactar. Podemos orientarte sobre cómo consultar el servicio de ayuda a domicilio. Utiliza el canal privado de la empresa e indica el municipio o zona general que quieres consultar, sin compartir una dirección en público. El equipo comprobará el ámbito de atención y te explicará cómo continuar.",
+      "",
+      "Interés profesional",
+      "",
+      "Una persona pregunta cómo presentar su candidatura",
+      "",
+      "Gracias por tu interés en trabajar con la empresa. Para informarte sobre candidaturas, utiliza el canal de selección que indique el equipo. Desde allí podrán explicarte el procedimiento. No necesitas publicar un currículum ni datos personales en los comentarios del perfil.",
+      ""
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "logopedia",
+    "title": "Gestión de redes sociales para logopedas | Dania360",
+    "description": "Da a conocer las áreas y el equipo de tu centro de logopedia con contenido revisado. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Que cada público reconozca el servicio que ofreces",
+    "promise": "Haz reconocibles los servicios de logopedia que ofrece tu centro.",
+    "lead": "Desarrollamos contenido para explicar tu centro de logopedia, sus áreas y cómo informarse con el equipo. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos piezas editoriales conceptuales para presentar servicios de logopedia a público infantil y adulto",
+    "artCaption": "Ilustración editorial original. No representa menores, pacientes ni resultados de una intervención.",
+    "resourceTitle": "Dos publicaciones de presentación para un centro de logopedia",
+    "faq": [
+      [
+        "¿Podéis comunicar áreas infantiles y adultas sin mezclarlas?",
+        "Cada pieza sitúa el servicio y el público al que se dirige. El centro confirma qué áreas ofrece y quién las atiende; no se le atribuye toda la amplitud de la profesión por defecto."
+      ],
+      [
+        "¿La agencia prepara ejercicios o diagnósticos de logopedia para los seguidores?",
+        "El contenido presenta el servicio o desarrolla información revisada por el profesional. Las situaciones individuales, ejercicios y valoraciones se abordan con el logopeda en el entorno de atención, no desde la respuesta de la agencia."
+      ],
+      [
+        "¿Podemos crear contenido sin mostrar menores o pacientes?",
+        "Podemos presentar al equipo, el funcionamiento del centro y sus servicios con material autorizado. Los ejemplos de esta página son textos originales, no conversaciones ni casos de familias reales."
+      ],
+      [
+        "¿Qué incluye Growth para centros de logopedia por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Centros de logopedia",
+    "h1": "Gestión de redes sociales para centros de logopedia",
+    "hubGroup": "salud-cuidados",
+    "layout": "logopedia",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para centros de logopedia",
+        "community manager logopedas",
+        "redes sociales logopedia",
+        "marketing logopedas"
+      ],
+      "intent": "Centro de logopedia que necesita explicar a qué públicos atiende y qué áreas ofrece, con la revisión del logopeda.",
+      "distinctFrom": "Dos publicaciones adaptables a atención infantil y adulta para mostrar el alcance del centro sin reducirlo a clases ni sugerir diagnósticos desde redes.",
+      "sources": [
+        {
+          "url": "https://ideassem.com/agencia-marketing-logopedas/",
+          "access": "primary_page_direct_read",
+          "observation": "La URL anterior agencia-de-marketing-digital-logopedas redirige a esta oferta. Describe marketing para logopedia, pero conserva una referencia incoherente a clínicas dentales; no se copia la plantilla ni se adoptan resultados.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://www.consejologopedas.es/que-es-la-logopedia",
+          "access": "primary_page_direct_read",
+          "observation": "El Consejo describe la amplitud de la profesión y su atención infantil y adulta. Se usa como referencia de contexto, sin atribuir al centro todas las áreas profesionales ni dar pautas clínicas.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para adaptar a servicios infantiles y de personas adultas, si ambas áreas forman parte del centro.",
+      "linkLabel": "Descargar las dos publicaciones para logopedia",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Dos publicaciones editoriales originales",
+      "",
+      "Dos formas de presentar el servicio según el público al que atiendas",
+      "",
+      "Son textos para adaptar a la cartera real del centro. No representan familias, pacientes ni resultados de una intervención.",
+      "",
+      "Si el centro ofrece atención infantil",
+      "",
+      "Presentar cómo se informa una familia",
+      "",
+      "Antes de pedir una cita de logopedia para tu hijo o hija, puedes conocer al equipo y preguntar cómo funciona el centro. En nuestro perfil presentamos los servicios y la forma de contactar. Si quieres informarte, utiliza el canal indicado: el personal te explicará cómo continuar con el profesional y qué cuestiones se tratan en la consulta. No necesitas contar la historia del menor en los comentarios de una publicación.",
+      "",
+      "Si el centro ofrece atención a personas adultas",
+      "",
+      "Dar a conocer esa área de la consulta",
+      "",
+      "La atención de nuestro centro también puede interesarte como persona adulta. En esta pieza presentamos el área que ofrece el equipo y cómo informarte sobre su funcionamiento. Si quieres conocer el servicio, contacta por el canal del perfil. Podrás consultar quién atiende y cómo solicitar información para una cita; las cuestiones de tu situación personal se abordan con el profesional por el canal que indique el centro.",
+      "",
+      "Qué cambia al adaptar cada texto",
+      "",
+      "El centro confirma el área que quiere presentar, el profesional que la atiende y su forma de contacto. Publicar ambas piezas tiene sentido cuando ambas describen servicios reales. La imagen puede mostrar al equipo o material autorizado del centro, sin necesitar fotografías de pacientes.",
+      ""
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "terapia-ocupacional",
+    "title": "Gestión de redes sociales para terapia ocupacional | Dania360",
+    "description": "Explica el trabajo de tu centro de terapia ocupacional con contenido claro y propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Un trabajo que merece una explicación comprensible",
+    "promise": "Explica tu servicio con palabras que permitan empezar una conversación.",
+    "lead": "Preparamos contenido para que se entienda el trabajo de tu centro de terapia ocupacional y cómo informarse. Growth incluye redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Diagrama editorial original que relaciona persona, actividad y entorno para explicar un centro de terapia ocupacional",
+    "artCaption": "Composición conceptual original. No es un caso clínico, una evaluación ni un ejercicio terapéutico.",
+    "resourceTitle": "Persona, actividad y entorno en una publicación de presentación",
+    "faq": [
+      [
+        "¿Cómo explicáis el servicio a quien no conoce la terapia ocupacional?",
+        "Partimos de una idea que el equipo quiera hacer comprensible y del alcance real del centro. El ejemplo relaciona persona, actividad y entorno para presentar su trabajo sin exigir vocabulario técnico al lector."
+      ],
+      [
+        "¿El contenido se dirige siempre a familiares?",
+        "Se dirige a la persona interesada y, cuando corresponda, a quienes la acompañan. No se presupone que otra persona decide siempre por ella ni se publica una historia individual para presentar el servicio."
+      ],
+      [
+        "¿Quién valida cómo se describe el trabajo del centro?",
+        "Los profesionales revisan el alcance y el vocabulario de su especialidad. La agencia da forma al contenido con material autorizado, sin crear valoraciones, ejercicios o resultados de intervención."
+      ],
+      [
+        "¿Qué incluye Growth para centros de terapia ocupacional por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Centros de terapia ocupacional",
+    "h1": "Gestión de redes sociales para centros de terapia ocupacional",
+    "hubGroup": "salud-cuidados",
+    "layout": "terapia-ocupacional",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para centros de terapia ocupacional",
+        "redes sociales terapia ocupacional",
+        "community manager terapia ocupacional",
+        "marketing terapia ocupacional"
+      ],
+      "intent": "Centro de terapia ocupacional que quiere hacer comprensible su trabajo para la persona interesada y quienes la acompañan.",
+      "distinctFrom": "Traducir persona, actividad y entorno a una explicación comprensible y una publicación completa, respetando la participación de la persona interesada.",
+      "sources": [
+        {
+          "url": "https://medicalmarketing.digital/es/marketing-terapia-ocupacional/",
+          "access": "primary_page_direct_read",
+          "observation": "Oferta especializada que insiste en explicar el servicio y el contacto local. No se adoptan sus generalizaciones sobre quién decide, duración de tratamientos, resultados o supuestos de búsqueda.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://coptoand.org/conocenos/que-es-la-terapia-ocupacional/",
+          "access": "primary_page_direct_read",
+          "observation": "Fuente profesional que sitúa ocupaciones de la vida diaria, participación y contexto. Se utiliza ese marco para comunicar con claridad, sin inventar intervención, habilidades, prestaciones ni resultados.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Las tres claves de lectura, la publicación y una primera respuesta completas para adaptar con el equipo del centro.",
+      "linkLabel": "Descargar el ejemplo para terapia ocupacional",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado del centro o empresa. No representa clientes, pacientes ni resultados reales."
+    },
+    "resource": [
+      "Una explicación editorial original",
+      "",
+      "Persona, actividad y entorno para presentar el trabajo del centro",
+      "",
+      "Este ejemplo explica cómo comunicar el servicio. No es un caso clínico, un ejercicio terapéutico ni un resultado de una intervención.",
+      "",
+      "La persona",
+      "",
+      "La explicación se dirige a quien quiere informarse y, cuando corresponda, a quienes le acompañen. Se mantiene su papel como interlocutor, sin presuponer que otra persona decide siempre por ella.",
+      "",
+      "La actividad",
+      "",
+      "El equipo sitúa qué parte de su trabajo quiere explicar y cómo se relaciona con las actividades cotidianas. La publicación se centra en una idea que pueda comprenderse.",
+      "",
+      "El entorno",
+      "",
+      "El profesional aporta el contexto que ayude a entender el servicio y la forma de consultar con el centro. Se comunica el alcance que realmente ofrece.",
+      "",
+      "Texto de presentación del centro",
+      "",
+      "Conocer la terapia ocupacional también empieza por entender cómo se relaciona con la vida cotidiana. En nuestro centro podemos explicarte qué trabajo realiza el equipo y qué servicios ofrece. Si quieres informarte, contacta por el canal del perfil: te orientaremos sobre el funcionamiento y la forma de consultar con el profesional. Puedes hacerlo como persona interesada o para acompañar a alguien que quiera conocer el centro. Las situaciones individuales se estudian en el entorno de atención correspondiente.",
+      "",
+      "Respuesta a una petición de información",
+      "",
+      "Gracias por contactar. Podemos informarte sobre los servicios que ofrece el centro y cómo consultar con su equipo. Utiliza el canal indicado en el perfil y cuéntanos qué información necesitas sobre su funcionamiento, sin publicar documentación o detalles personales en los comentarios. El responsable te explicará cómo continuar.",
+      ""
+    ]
   }
 ]
