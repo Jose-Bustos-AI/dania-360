@@ -2521,5 +2521,169 @@
         "Gestión de redes, atención en los canales del plan e informe mensual, con todo Starter incluido: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No se garantizan matrículas ni resultados de examen."
       ]
     ]
+  },
+  {
+    "id": 41,
+    "slug": "hoteles",
+    "name": "Hoteles",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para hoteles",
+    "layout": "hoteles",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para hoteles",
+        "community manager hoteles",
+        "redes sociales hotel",
+        "agencia redes sociales hoteles"
+      ],
+      "intent": "Un hotel que quiere delegar contenido y atención de sus redes, conservando la confirmación de las condiciones y la estancia en su equipo.",
+      "distinctFrom": "Relacionar una habitación o un espacio con la información que el viajero necesita antes de consultar una estancia. No tratar a todos los hoteles como un escaparate de paisajes.",
+      "sources": [
+        {
+          "url": "https://nexusmarketing.es/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "La agencia distingue redes, producción audiovisual, publicidad y otros servicios hoteleros. Se contrasta el tipo de oferta, no sus precios, resultados, especialización o herramientas como prestaciones de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para hoteles | Dania360",
+    "description": "Presenta los espacios de tu hotel y facilita las consultas de estancia. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Lo que el viajero quiere conocer antes de alojarse",
+    "lead": "Gestionamos las redes de tu hotel para presentar sus espacios, explicar sus servicios y atender las consultas incluidas en Growth. Por 297 €/mes tienes también página web y bot de IA.",
+    "promise": "Que una imagen de tu hotel ayude a preparar la siguiente conversación.",
+    "artAlt": "Tarjeta conceptual de un espacio de hotel con tres anotaciones editoriales: imagen, dato y consulta",
+    "artCaption": "Ilustración original para explicar el contenido. No representa una habitación, categoría o servicio de un hotel real.",
+    "resourceTitle": "Una publicación de hotel que relaciona imagen, información y consulta",
+    "resourcePresentation": {
+      "description": "Un texto completo de presentación, las tres partes de la pieza y una pauta para adaptarlas a un espacio real del hotel.",
+      "linkLabel": "Descargar el ejemplo de publicación para hoteles",
+      "documentSubtitle": "Propuesta editorial original de Dania360. Se adapta con material autorizado e información del establecimiento."
+    },
+    "resource": [
+      "UNA IMAGEN DEL HOTEL QUE PERMITE PREGUNTAR MEJOR",
+      "Ejemplo editorial original de Dania360. No describe un establecimiento cliente.",
+      "",
+      "QUÉ SE ELIGE",
+      "El hotel selecciona un espacio que quiera presentar y una cuestión que su equipo pueda explicar. Puede ser una habitación o una zona del establecimiento, siempre que las imágenes y la información correspondan entre sí.",
+      "",
+      "TRES PARTES DE LA PUBLICACIÓN",
+      "La imagen sitúa el espacio. El responsable confirma a qué zona o tipo de habitación pertenece.",
+      "El dato desarrolla un detalle real. Se escribe a partir de la información que facilite el hotel, sin deducir vistas, servicios o condiciones de una imagen.",
+      "La pregunta invita a continuar. El viajero puede explicar qué necesita conocer de la estancia y el hotel indica cómo consultarlo.",
+      "",
+      "TEXTO PROPUESTO",
+      "Antes de elegir dónde alojarte, también interesa conocer cómo son los espacios del hotel. En esta publicación nos detenemos en uno de ellos y en un detalle que nuestro equipo puede explicarte. Si estás preparando una estancia, cuéntanos qué quieres conocer y para qué fechas te gustaría consultar. Te indicaremos cómo continuar con el hotel.",
+      "",
+      "ADAPTACIÓN",
+      "Identificar el espacio mostrado y añadir el detalle que confirme el establecimiento. Revisar que las imágenes estén autorizadas y no muestren huéspedes, documentación o información ajena a la pieza. No se presupone una producción presencial.",
+      "",
+      "CUANDO LLEGA UNA CONSULTA",
+      "El equipo del hotel confirma las opciones, las condiciones y el precio de la estancia. La publicación dirige al canal acordado; no sustituye la confirmación de reserva. Se distinguen las consultas atendidas de las reservas registradas por el establecimiento."
+    ],
+    "faq": [
+      [
+        "¿Necesitamos publicar ofertas para mantener activas las redes del hotel?",
+        "No todas las piezas necesitan una promoción. Podemos presentar espacios, servicios confirmados, el equipo o la forma de consultar una estancia. Si se comunica una oferta, el hotel aporta su alcance y condiciones vigentes."
+      ],
+      [
+        "¿Quién aporta las imágenes y los datos del establecimiento?",
+        "Trabajamos con material autorizado e información del hotel. El responsable identifica lo que aparece y valida los detalles del servicio. La grabación o fotografía presencial no se presupone incluida en Growth."
+      ],
+      [
+        "¿El bot web confirma reservas o se conecta al sistema del hotel?",
+        "El chat orienta con la información configurada y permite continuar con el hotel. Growth no presupone una integración con un PMS, un channel manager o un motor de reservas. El establecimiento confirma la estancia por su canal."
+      ],
+      [
+        "¿Qué incluye Growth para un hotel por 297 €/mes?",
+        "Gestión de redes, atención de los canales incluidos en el plan e informe mensual de actividad y visibilidad local. Incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "casas-rurales",
+    "name": "Casas rurales",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para casas rurales",
+    "layout": "casas-rurales",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para casas rurales",
+        "redes sociales alojamientos rurales",
+        "community manager casa rural",
+        "marketing casa rural"
+      ],
+      "intent": "Un alojamiento rural que quiere comunicar cómo es la casa y cómo se utiliza antes de atender una petición de estancia.",
+      "distinctFrom": "Aclarar la modalidad y el uso de los espacios: qué se está mostrando y qué debe confirmar el anfitrión. El entorno se cuenta con información real, sin inventar distancias o actividades.",
+      "sources": [
+        {
+          "url": "https://redessociales.ruralesdata.com/",
+          "access": "primary_provider_page_direct_read",
+          "observation": "Oferta propia de gestión de redes para alojamientos rurales, con contenido y contacto con huéspedes. Los servicios adicionales de motor de reserva y fotografía no se incorporan por inferencia a Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para casas rurales | Dania360",
+    "description": "Explica cómo es tu casa rural y cómo se utilizan sus espacios con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La casa, sus espacios y la forma de alojarse",
+    "lead": "Preparamos contenido de tu casa rural con imágenes autorizadas e información del anfitrión para explicar la estancia. Growth incluye gestión de redes, una página web y bot de IA por 297 €/mes.",
+    "promise": "Ayuda al viajero a entender qué espacio está viendo y cómo se utiliza.",
+    "artAlt": "Casa abstracta con anotaciones sobre el espacio mostrado y el uso que confirma el anfitrión",
+    "artCaption": "Dibujo editorial original. No es un plano ni representa plazas, servicios o espacios de una casa rural cliente.",
+    "resourceTitle": "Dos maneras de presentar un espacio de una casa rural",
+    "resourcePresentation": {
+      "description": "Dos textos completos para modalidades de uso diferentes, con las comprobaciones que necesita hacer el anfitrión antes de adaptarlos.",
+      "linkLabel": "Descargar los ejemplos de contenido para casas rurales",
+      "documentSubtitle": "Alternativas editoriales originales de Dania360. Se utiliza solo la que describa la oferta real del alojamiento."
+    },
+    "resource": [
+      "LA CASA QUE SE VE Y LA ESTANCIA QUE SE OFRECE",
+      "Propuesta editorial original de Dania360 para un alojamiento rural.",
+      "",
+      "ANTES DE ELEGIR EL TEXTO",
+      "El anfitrión identifica el espacio mostrado, confirma cómo se utiliza y revisa que el material pueda compartirse. Las dos alternativas siguientes no describen una misma oferta ni atribuyen una modalidad a un alojamiento real.",
+      "",
+      "SI EL ANFITRIÓN CONFIRMA ALQUILER ÍNTEGRO",
+      "Una parte de la escapada es imaginar cómo vais a utilizar la casa. En esta publicación mostramos uno de sus espacios y explicamos qué relación tiene con el alojamiento que se contrata de forma íntegra. Cuéntanos qué estancia estás preparando y qué necesitas conocer de la casa. El anfitrión te explicará cómo consultar las fechas y sus condiciones.",
+      "",
+      "SI HAY ESPACIOS COMPARTIDOS",
+      "Conocer una casa también es entender sus distintos espacios. Hoy presentamos una de las zonas compartidas del alojamiento y cómo forma parte de la estancia. Si estás valorando venir, cuéntanos qué necesitas saber sobre las habitaciones y las zonas de uso común. El anfitrión podrá orientarte y explicarte cómo preparar la consulta.",
+      "",
+      "PARA ADAPTAR LA PUBLICACIÓN",
+      "Elegir una sola alternativa y concretar la explicación con el espacio real. No inferir uso exclusivo, plazas, accesibilidad o admisión de mascotas a partir de las imágenes. Si aparece el entorno, comprobar la información sobre ubicación, distancias y actividades antes de incorporarla.",
+      "",
+      "DESPUÉS DE PUBLICAR",
+      "La información sobre disponibilidad y condiciones de estancia la confirma el alojamiento. Si cambia la modalidad o el uso de un espacio, el anfitrión lo comunica para revisar el contenido afectado. Una conversación iniciada no se registra como una reserva confirmada."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar una casa de alquiler íntegro o un alojamiento por habitaciones?",
+        "Sí, con la modalidad que confirme el anfitrión. El contenido explica qué se ofrece y cómo se utilizan los espacios mostrados. Las dos alternativas de esta página son ejemplos editoriales, no modalidades atribuidas a tu casa."
+      ],
+      [
+        "¿Podemos presentar el entorno además de la casa rural?",
+        "Sí, cuando el contenido tenga relación con el alojamiento y la información se pueda comprobar. No se inventan rutas, distancias, accesos o actividades. El material utilizado debe poder compartirse y corresponder al asunto de la pieza."
+      ],
+      [
+        "¿La web y el bot de Growth incluyen un calendario de reservas conectado?",
+        "La web presenta el alojamiento y el chat orienta con la información configurada. Growth no presupone sincronización de calendarios, un channel manager o un motor de reservas. El anfitrión confirma fechas y condiciones por su canal."
+      ],
+      [
+        "¿Por 297 €/mes se incluyen redes, web y bot para la casa rural?",
+        "Sí. Growth incluye gestión de redes, atención de los canales del plan e informe mensual, además de todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
+      ]
+    ]
   }
 ]
