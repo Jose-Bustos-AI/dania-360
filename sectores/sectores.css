@@ -710,3 +710,155 @@
   .layout-escuelas-buceo .diving-reply-grid article+article{margin-left:16px}
   .layout-alquiler-barcos .nautical-closings>div{padding-left:20px}
 }
+
+/* Cafeterias: a compact sequence of everyday scenes. */
+.layout-cafeterias .hero{grid-template-columns:1fr 1fr}
+.layout-cafeterias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-cafeterias .cafe-moment,.layout-cafeterias .cafe-material{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-cafeterias .cafe-moment p:not(.kicker),.layout-cafeterias .cafe-material p:not(.kicker),.layout-cafeterias .cafe-web p{color:var(--muted)}
+.layout-cafeterias .cafe-three-scenes header{max-width:900px}
+.layout-cafeterias .cafe-three-scenes ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;list-style:none;padding:0;margin:34px 0}
+.layout-cafeterias .cafe-three-scenes li{border-top:3px solid var(--orange);padding-top:24px}
+.layout-cafeterias .cafe-three-scenes li>span{display:block;color:var(--orange);font-size:.8rem;font-weight:800;margin-bottom:16px}
+.layout-cafeterias .cafe-three-scenes li h3{font-size:1.35rem}
+.layout-cafeterias .cafe-three-scenes article{background:var(--panel);padding:28px;max-width:920px}
+.layout-cafeterias .cafe-web{max-width:940px}
+
+/* Bakeries: the whole piece, its detail and the accompanying text. */
+.layout-panaderias .hero{grid-template-columns:.95fr 1.05fr}
+.layout-panaderias .hero figure{order:-1}
+.layout-panaderias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-panaderias .bread-piece>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-panaderias .bread-editorial header{max-width:900px}
+.layout-panaderias .bread-editorial dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-panaderias .bread-editorial dt{color:var(--orange);font-weight:800;margin-bottom:14px}
+.layout-panaderias .bread-editorial dd{margin:0;color:var(--muted)}
+.layout-panaderias .bread-post{max-width:940px;border-top:3px solid var(--orange);padding-top:28px}
+.layout-panaderias .bread-availability{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:32px}
+.layout-panaderias .bread-counter{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-panaderias .bread-counter p:not(.kicker),.layout-panaderias .bread-web p{color:var(--muted)}
+.layout-panaderias .bread-web{max-width:940px}
+
+/* Pastry orders: a publication, the request context and a first response. */
+.layout-pastelerias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-pastelerias .pastry-order,.layout-pastelerias .pastry-confirmation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-pastelerias .pastry-order p:not(.kicker),.layout-pastelerias .pastry-confirmation p:not(.kicker),.layout-pastelerias .pastry-web p{color:var(--muted)}
+.layout-pastelerias .pastry-request{display:grid;grid-template-columns:1.15fr .85fr;gap:30px}
+.layout-pastelerias .pastry-request header{grid-column:1/-1;max-width:900px}
+.layout-pastelerias .pastry-sample-post{border-top:1px solid var(--line);padding-top:28px}
+.layout-pastelerias .pastry-request-context{background:var(--panel);padding:28px;margin:0}
+.layout-pastelerias .pastry-request-context>div+div{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+.layout-pastelerias .pastry-request-context dt{color:var(--orange);font-weight:800;margin-bottom:10px}
+.layout-pastelerias .pastry-request-context dd{margin:0;color:var(--muted)}
+.layout-pastelerias .pastry-sample-reply{grid-column:1/-1;max-width:940px;border-left:3px solid var(--orange);padding:12px 0 12px 26px}
+.layout-pastelerias .pastry-web{max-width:940px}
+
+/* Ice cream shops: product identity before availability. */
+.layout-heladerias .hero{grid-template-columns:1fr 1fr}
+.layout-heladerias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-heladerias .ice-choice>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-heladerias .ice-product-example header{max-width:900px}
+.layout-heladerias .ice-editorial-labels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:34px 0}
+.layout-heladerias .ice-editorial-labels>div{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-heladerias .ice-editorial-labels h3{font-size:1.35rem}
+.layout-heladerias .ice-editorial-labels p{color:var(--muted)}
+.layout-heladerias .ice-post{background:var(--panel);padding:28px;max-width:920px}
+.layout-heladerias .ice-reply{margin-top:30px;max-width:860px;border-left:3px solid var(--orange);padding-left:26px}
+.layout-heladerias .ice-information{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-heladerias .ice-information p:not(.kicker),.layout-heladerias .ice-web p{color:var(--muted)}
+.layout-heladerias .ice-web{max-width:940px}
+
+/* Catering: a service note with the event context beside it. */
+.layout-catering .hero{grid-template-columns:.95fr 1.05fr}
+.layout-catering .hero figure{order:-1}
+.layout-catering h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-catering .catering-service,.layout-catering .catering-material{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-catering .catering-service p:not(.kicker),.layout-catering .catering-material p:not(.kicker),.layout-catering .catering-web p{color:var(--muted)}
+.layout-catering .catering-event-note{display:grid;grid-template-columns:1.1fr .9fr;gap:34px}
+.layout-catering .catering-event-note header{grid-column:1/-1;max-width:900px}
+.layout-catering .catering-post{padding-top:28px;border-top:3px solid var(--orange)}
+.layout-catering .catering-event-note dl{margin:0;padding:28px;background:var(--panel)}
+.layout-catering .catering-event-note dl>div+div{margin-top:24px}
+.layout-catering .catering-event-note dt{font-weight:800;color:var(--orange);margin-bottom:10px}
+.layout-catering .catering-event-note dd{margin:0;color:var(--muted)}
+.layout-catering .catering-reply{grid-column:1/-1;max-width:920px;border-left:3px solid var(--orange);padding-left:26px}
+.layout-catering .catering-web{max-width:940px}
+
+/* Venues: three views of the space followed by a visit invitation. */
+.layout-salones-bodas h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:25ch}
+.layout-salones-bodas .venue-space>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-salones-bodas .venue-editorial-tour header{max-width:900px}
+.layout-salones-bodas .venue-editorial-tour ol{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-salones-bodas .venue-editorial-tour li{border-top:1px solid var(--line);padding-top:26px}
+.layout-salones-bodas .venue-editorial-tour li>span{color:var(--orange);font-size:.85rem;font-weight:800;display:block;margin-bottom:20px}
+.layout-salones-bodas .venue-editorial-tour li h3{font-size:1.35rem}
+.layout-salones-bodas .venue-editorial-tour li p{color:var(--muted)}
+.layout-salones-bodas .venue-editorial-tour article{padding:28px;background:var(--panel);max-width:920px}
+.layout-salones-bodas .venue-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-salones-bodas .venue-review p:not(.kicker),.layout-salones-bodas .venue-web p{color:var(--muted)}
+.layout-salones-bodas .venue-web{max-width:940px}
+
+/* Wineries: the bottle, its verified story and the professional contact. */
+.layout-bodegas .hero{grid-template-columns:1fr 1fr}
+.layout-bodegas .hero figure{order:-1}
+.layout-bodegas h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-bodegas .winery-reference,.layout-bodegas .winery-validation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-bodegas .winery-reference p:not(.kicker),.layout-bodegas .winery-validation p:not(.kicker),.layout-bodegas .winery-web p{color:var(--muted)}
+.layout-bodegas .winery-label-story header{max-width:900px}
+.layout-bodegas .winery-label-story dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-bodegas .winery-label-story dt{font-weight:800;color:var(--orange);margin-bottom:12px}
+.layout-bodegas .winery-label-story dd{margin:0;color:var(--muted)}
+.layout-bodegas .winery-post{padding-top:28px;border-top:3px solid var(--orange);max-width:940px}
+.layout-bodegas .winery-trade-reply{padding:24px 28px;background:var(--panel);max-width:860px;margin-top:30px}
+.layout-bodegas .winery-web{max-width:940px}
+
+/* Breweries: two conversations for distinct product channels. */
+.layout-cerveceras-artesanales h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-cerveceras-artesanales .brewery-formats>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-cerveceras-artesanales .brewery-channel-example header{max-width:900px}
+.layout-cerveceras-artesanales .brewery-post{margin-top:34px;max-width:940px;padding-top:28px;border-top:3px solid var(--orange)}
+.layout-cerveceras-artesanales .brewery-two-replies{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.layout-cerveceras-artesanales .brewery-two-replies article{background:var(--panel);border:1px solid var(--line);padding:28px}
+.layout-cerveceras-artesanales .brewery-two-replies h3{font-size:1.4rem}
+.layout-cerveceras-artesanales .brewery-catalog{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-cerveceras-artesanales .brewery-catalog p:not(.kicker),.layout-cerveceras-artesanales .brewery-web p{color:var(--muted)}
+.layout-cerveceras-artesanales .brewery-web{max-width:940px}
+
+/* Olive mills: product presentation built around a confirmed detail. */
+.layout-almazaras .hero{grid-template-columns:1fr 1fr}
+.layout-almazaras h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-almazaras .oil-product-context>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-almazaras .oil-editorial-label header{max-width:900px}
+.layout-almazaras .oil-editorial-label ol{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-almazaras .oil-editorial-label li{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-almazaras .oil-editorial-label li>span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-almazaras .oil-editorial-label li h3{font-size:1.35rem}
+.layout-almazaras .oil-editorial-label li p{color:var(--muted)}
+.layout-almazaras .oil-editorial-label article{max-width:940px;padding:28px;background:var(--panel)}
+.layout-almazaras .oil-adaptation{margin-top:28px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted)}
+.layout-almazaras .oil-producer-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-almazaras .oil-producer-review p:not(.kicker),.layout-almazaras .oil-web p{color:var(--muted)}
+.layout-almazaras .oil-web{max-width:940px}
+
+/* Food trucks: enduring product content beside a changing agenda. */
+.layout-food-trucks .hero{grid-template-columns:.95fr 1.05fr}
+.layout-food-trucks .hero figure{order:-1}
+.layout-food-trucks h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-food-trucks .truck-presence,.layout-food-trucks .truck-two-inquiries{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-food-trucks .truck-presence p:not(.kicker),.layout-food-trucks .truck-two-inquiries p:not(.kicker),.layout-food-trucks .truck-web p{color:var(--muted)}
+.layout-food-trucks .truck-changing-agenda header{max-width:900px}
+.layout-food-trucks .truck-product-post{max-width:940px;padding-top:28px;margin-top:34px;border-top:1px solid var(--line)}
+.layout-food-trucks .truck-outdated-location{max-width:860px;padding:28px;background:var(--panel);border-left:3px solid var(--orange);margin-top:30px}
+.layout-food-trucks .truck-changing-agenda dl{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:30px 0 0}
+.layout-food-trucks .truck-changing-agenda dt{color:var(--orange);font-weight:800;margin-bottom:12px}
+.layout-food-trucks .truck-changing-agenda dd{margin:0;color:var(--muted)}
+.layout-food-trucks .truck-web{max-width:940px}
+
+@media(max-width:850px){
+  .layout-cafeterias .hero,.layout-cafeterias .cafe-moment,.layout-cafeterias .cafe-material,.layout-cafeterias .cafe-three-scenes ol,.layout-panaderias .hero,.layout-panaderias .bread-piece>div,.layout-panaderias .bread-editorial dl,.layout-panaderias .bread-counter,.layout-pastelerias .pastry-order,.layout-pastelerias .pastry-confirmation,.layout-pastelerias .pastry-request,.layout-heladerias .hero,.layout-heladerias .ice-choice>div,.layout-heladerias .ice-editorial-labels,.layout-heladerias .ice-information,.layout-catering .hero,.layout-catering .catering-service,.layout-catering .catering-material,.layout-catering .catering-event-note,.layout-salones-bodas .venue-space>div,.layout-salones-bodas .venue-editorial-tour ol,.layout-salones-bodas .venue-review,.layout-bodegas .hero,.layout-bodegas .winery-reference,.layout-bodegas .winery-validation,.layout-bodegas .winery-label-story dl,.layout-cerveceras-artesanales .brewery-formats>div,.layout-cerveceras-artesanales .brewery-two-replies,.layout-cerveceras-artesanales .brewery-catalog,.layout-almazaras .hero,.layout-almazaras .oil-product-context>div,.layout-almazaras .oil-editorial-label ol,.layout-almazaras .oil-producer-review,.layout-food-trucks .hero,.layout-food-trucks .truck-presence,.layout-food-trucks .truck-two-inquiries,.layout-food-trucks .truck-changing-agenda dl{grid-template-columns:1fr;gap:26px}
+  .layout-panaderias .hero figure,.layout-catering .hero figure,.layout-bodegas .hero figure,.layout-food-trucks .hero figure{order:0}
+  .layout-pastelerias .pastry-request header,.layout-pastelerias .pastry-sample-reply,.layout-catering .catering-event-note header,.layout-catering .catering-reply{grid-column:auto}
+}
+@media(max-width:540px){
+  .layout-cafeterias .cafe-three-scenes article,.layout-pastelerias .pastry-request-context,.layout-heladerias .ice-post,.layout-catering .catering-event-note dl,.layout-salones-bodas .venue-editorial-tour article,.layout-bodegas .winery-trade-reply,.layout-cerveceras-artesanales .brewery-two-replies article,.layout-almazaras .oil-editorial-label article,.layout-food-trucks .truck-outdated-location{padding:24px}
+}

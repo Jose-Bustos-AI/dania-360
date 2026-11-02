@@ -3427,5 +3427,937 @@
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ]
+  },
+  {
+    "id": 51,
+    "slug": "cafeterias",
+    "name": "Cafeterías",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para cafeterías",
+    "layout": "cafeterias",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PIEZA DE CAFETERÍA EN TRES ESCENAS",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una secuencia editorial original",
+      "",
+      "De la taza al momento de visita en tres escenas",
+      "",
+      "Esta propuesta se adapta con material autorizado del local. No representa una bebida, una receta o una cafetería cliente.",
+      "",
+      "El producto",
+      "",
+      "Una imagen identifica la bebida que el negocio quiere presentar. El equipo confirma su nombre y la explicación que puede acompañarla.",
+      "",
+      "El servicio",
+      "",
+      "Un detalle muestra cómo se presenta al cliente, con la modalidad que ofrezca la cafetería. No se deduce un servicio para llevar a partir de un envase.",
+      "",
+      "El espacio",
+      "",
+      "El cierre sitúa el local y ofrece una forma de consultar la oferta vigente, sin exponer a personas ajenas a la pieza.",
+      "",
+      "Texto propuesto para la publicación",
+      "",
+      "Una bebida también forma parte de un momento en la cafetería. Hoy nos detenemos en una de las que ofrecemos y en cómo la presentamos en el local. Las imágenes permiten conocer ese detalle del servicio y un poco de nuestro espacio. Si quieres informarte sobre nuestra oferta, cuéntanos qué te interesa y el equipo te indicará cómo consultarla.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "La secuencia completa de producto, servicio y espacio, con el texto de acompañamiento para adaptar al local.",
+      "linkLabel": "Descargar el ejemplo de contenido para cafeterías",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para cafeterías",
+        "community manager cafeterías",
+        "redes sociales cafetería",
+        "marketing cafeterías"
+      ],
+      "intent": "Cafetería que quiere presentar su producto, el momento de servicio y la experiencia del local sin mezclarlo con reservas de restaurante.",
+      "distinctFrom": "Una bebida se entiende en su contexto de servicio: qué se presenta, cómo forma parte de la visita y dónde puede consultarse la oferta vigente.",
+      "sources": [
+        {
+          "url": "https://davidgcoffee.com/es/services/",
+          "access": "primary_provider_page_direct_read",
+          "observation": "El profesional separa gestión con material del negocio y producción presencial. Sirve para contrastar atención, producto y espacio de una cafetería. No se incorporan su consultoría, formación o visitas al alcance de Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para cafeterías | Dania360",
+    "description": "Presenta el producto, el servicio y el espacio de tu cafetería con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La bebida, el servicio y el momento de visita",
+    "lead": "Preparamos contenido para mostrar la oferta y el servicio de tu cafetería con información de tu equipo. Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Relaciona el producto con el servicio y el espacio de tu cafetería.",
+    "artAlt": "Taza conceptual junto a dos anotaciones de contenido sobre servicio y espacio de una cafetería",
+    "artCaption": "Ilustración editorial original. No representa una bebida, receta o cafetería cliente.",
+    "resourceTitle": "Una pieza de cafetería en tres escenas",
+    "faq": [
+      [
+        "¿Podéis comunicar producto y espacio de la cafetería en la misma cuenta?",
+        "Sí. Cada pieza elige un asunto y relaciona el material con la información del negocio. Se puede presentar una bebida, al equipo o una parte del servicio sin convertir todas las publicaciones en ofertas."
+      ],
+      [
+        "¿Necesitáis grabar presencialmente en la cafetería?",
+        "Trabajamos con material autorizado e información del equipo. La fotografía o grabación presencial no se presupone incluida en Growth. La secuencia de esta página es una propuesta editorial, no un vídeo producido."
+      ],
+      [
+        "¿Quién confirma ingredientes y modalidades de servicio?",
+        "La cafetería valida la información de producto, disponibilidad y forma de servir. Las consultas se dirigen al equipo para responder con su información vigente."
+      ],
+      [
+        "¿Qué incluye Growth para una cafetería por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "panaderias",
+    "name": "Panaderías",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para panaderías",
+    "layout": "panaderias",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "FICHA EDITORIAL DE UNA PIEZA DE PAN Y RESPUESTA DE DISPONIBILIDAD",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Ficha editorial original",
+      "",
+      "Mostrar el conjunto, acercar el detalle y escuchar al panadero",
+      "",
+      "El negocio elige una pieza real para adaptar este ejemplo. El dibujo de la página no acredita ingredientes, elaboración o producto de un cliente.",
+      "",
+      "Conjunto",
+      "",
+      "La imagen permite reconocer la pieza y el nombre que utiliza la panadería para presentarla.",
+      "",
+      "Detalle",
+      "",
+      "Un corte o un acercamiento acompaña a lo que el panadero quiera explicar. La imagen no sustituye la información sobre ingredientes.",
+      "",
+      "Explicación",
+      "",
+      "El profesional confirma el dato que se comunica y dónde se puede consultar la oferta.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "Hay detalles de un pan que se aprecian al mirarlo de cerca y otros que puede explicar quien lo elabora. En esta publicación mostramos una de nuestras piezas y nos detenemos en un aspecto de su preparación. Si quieres conocerla, pregunta al equipo por la información del producto y cómo consultar lo que ofrecemos en la panadería.",
+      "",
+      "Respuesta propuesta sobre disponibilidad",
+      "",
+      "Gracias por preguntar. Indícanos a qué pieza o publicación te refieres y cuándo te gustaría consultarla. El equipo revisará la información y te explicará si puede ofrecerte ese producto o cómo continuar con tu petición.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "El ejemplo completo de conjunto, detalle y explicación del panadero, con un texto y una respuesta para adaptar.",
+      "linkLabel": "Descargar los textos de ejemplo para panaderías",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para panaderías",
+        "community manager panadería",
+        "contenido redes panaderías",
+        "marketing panaderías"
+      ],
+      "intent": "Panadería que quiere mostrar sus piezas y el trabajo del obrador y orientar consultas sobre producto o encargos que confirme el negocio.",
+      "distinctFrom": "Relacionar una pieza reconocible con el detalle del obrador que el panadero pueda explicar. Separar contenido de elaboración y disponibilidad en mostrador.",
+      "sources": [
+        {
+          "url": "https://sodi.com.ar/blog/redes-sociales-para-panaderias",
+          "access": "primary_provider_own_editorial_page_direct_read_foreign_market",
+          "observation": "Contenido del proveedor argentino sobre producto, obrador y atención de panadería. Es contexto cualitativo de otro mercado, no demanda española. No se adoptan sus cifras, frecuencias, plazos de encargo o supuestas búsquedas.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://migacreativa.com/",
+          "access": "indexed_result_direct_open_timeout",
+          "observation": "El resultado se presenta como redes para panaderías; la apertura agotó el tiempo. No se considera una oferta completa leída.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para panaderías | Dania360",
+    "description": "Da a conocer tus piezas y el trabajo del obrador con material e información de la panadería. Gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La pieza que se ve y el trabajo que puede explicar el panadero",
+    "lead": "Gestionamos las redes de tu panadería con contenido sobre sus productos y el trabajo del equipo. Growth reúne publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Muestra una pieza reconocible y el detalle que tu panadería puede contar.",
+    "artAlt": "Pan abstracto junto a un corte y una nota editorial para presentar la pieza y su explicación",
+    "artCaption": "Dibujo editorial original. No acredita ingredientes, elaboración, disponibilidad o producto de una panadería cliente.",
+    "resourceTitle": "Ficha editorial de una pieza de pan y respuesta de disponibilidad",
+    "faq": [
+      [
+        "¿Podéis mostrar producto y elaboración del obrador?",
+        "Sí, con material autorizado y explicaciones del panadero. La pieza debe corresponder al producto que se presenta; no se deducen ingredientes o características del aspecto de una imagen."
+      ],
+      [
+        "¿Una publicación de producto confirma que está disponible en mostrador?",
+        "La panadería confirma su disponibilidad y las condiciones de los encargos que acepte. La atención de redes permite identificar la pieza y dirigir la consulta al equipo."
+      ],
+      [
+        "¿La web y el bot de Growth incluyen pedidos conectados a la panadería?",
+        "El chat orienta con la información configurada. Growth no presupone integración con pedidos, inventario o el sistema de venta del negocio. El equipo confirma cada petición por su canal."
+      ],
+      [
+        "¿Qué recibe una panadería con Growth por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "pastelerias",
+    "name": "Pastelerías y obradores",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para pastelerías",
+    "layout": "pastelerias",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PUBLICACIÓN DE PASTELERÍA Y SU PRIMERA CONSULTA DE ENCARGO",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una publicación y una primera respuesta originales",
+      "",
+      "Situar la petición antes de preparar una propuesta de pastelería",
+      "",
+      "Esta demostración no representa una celebración, un diseño o un encargo de un cliente. Se adapta a los servicios que confirme el obrador.",
+      "",
+      "Texto de publicación propuesto",
+      "",
+      "Cuando buscas algo para una celebración, una imagen puede ayudarte a empezar a explicar lo que tienes en mente. En esta pieza presentamos una parte del trabajo del obrador. Si quieres consultar un encargo, cuéntanos la ocasión, qué formato estás valorando y para qué fecha te gustaría informarte. El equipo estudiará la petición y te explicará cómo continuar.",
+      "",
+      "Ocasión",
+      "",
+      "El motivo de la petición ayuda a conocer qué está preparando el interesado.",
+      "",
+      "Formato",
+      "",
+      "La persona indica qué tipo de producto quiere consultar; el obrador confirma qué ofrece.",
+      "",
+      "Fecha a estudiar",
+      "",
+      "Se sitúa la petición sin confirmar capacidad o entrega desde el primer mensaje.",
+      "",
+      "Respuesta inicial propuesta",
+      "",
+      "Gracias por escribir. Cuéntanos para qué ocasión y fecha quieres consultar y qué producto o publicación te ha interesado. Lo trasladaremos al equipo del obrador para que te explique qué información necesita y qué opciones puede estudiar.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Textos completos de publicación y respuesta, con tres asuntos que ayudan a situar la petición antes de una propuesta.",
+      "linkLabel": "Descargar el ejemplo de consulta para pastelerías",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para pastelerías",
+        "redes sociales obrador pastelería",
+        "community manager pastelería",
+        "marketing pastelerías"
+      ],
+      "intent": "Pastelería u obrador que quiere presentar su trabajo y convertir una imagen en una consulta de encargo que pueda estudiar el equipo.",
+      "distinctFrom": "La persona ve un acabado y necesita preguntar por un encargo propio. Identificar formato, ocasión y consulta sin presentar la imagen como disponibilidad o presupuesto.",
+      "sources": [
+        {
+          "url": "https://salpimentaragencia.com/2020/10/12/pastelerias-como-vender-por-whatsapp/",
+          "access": "primary_provider_own_editorial_page_direct_read_historical_foreign_market",
+          "observation": "Artículo argentino de 2020 con actualización indicada de 2022, relacionado con consultas y catálogo de pastelería. Solo contexto comercial histórico; no se asume vigencia de funciones, límites, precios o recomendaciones de frecuencia de WhatsApp.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para pastelerías | Dania360",
+    "description": "Presenta el trabajo de tu obrador y orienta las consultas de encargo con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Una imagen que permite empezar a explicar el encargo",
+    "lead": "Preparamos contenido para presentar tu pastelería y situar las peticiones que llegan al obrador. Por 297 €/mes, Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA.",
+    "promise": "Conecta el trabajo que muestras con una consulta que el obrador pueda estudiar.",
+    "artAlt": "Caja de pastelería conceptual con una ficha de ocasión, formato y fecha a estudiar",
+    "artCaption": "Composición editorial original. No representa un diseño, una celebración o un encargo real.",
+    "resourceTitle": "Una publicación de pastelería y su primera consulta de encargo",
+    "faq": [
+      [
+        "¿Podéis preparar contenido para encargos personalizados?",
+        "Sí, con los productos y servicios que confirme el obrador. La publicación puede mostrar el trabajo y explicar cómo empezar una consulta. El equipo estudia la petición y confirma sus posibilidades."
+      ],
+      [
+        "¿Quién confirma el diseño, la fecha y el precio de un encargo?",
+        "El obrador revisa la información y confirma los detalles y condiciones. Atender un primer mensaje en redes no equivale a aceptar un encargo ni a fijar su presupuesto."
+      ],
+      [
+        "¿Hace falta publicar fotografías de las celebraciones?",
+        "Se puede presentar producto y trabajo del equipo con material autorizado. Los nombres o fotos personales de una celebración necesitan autorización específica para su uso; los ejemplos de esta página no representan clientes."
+      ],
+      [
+        "¿Por 297 €/mes se incluyen redes, web y bot para la pastelería?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "heladerias",
+    "name": "Heladerías",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para heladerías",
+    "layout": "heladerias",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PRESENTACIÓN DE HELADERÍA Y UNA RESPUESTA SOBRE LA OFERTA VIGENTE",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una propuesta editorial original",
+      "",
+      "Una presentación que invita a preguntar por la oferta vigente",
+      "",
+      "Este ejemplo no anuncia un sabor, ingrediente o formato disponible en una heladería cliente. El equipo elige el producto real que quiera presentar.",
+      "",
+      "Nombre confirmado",
+      "",
+      "El negocio identifica qué producto aparece en la pieza.",
+      "",
+      "Detalle visual",
+      "",
+      "La imagen muestra su presentación con material autorizado.",
+      "",
+      "Consulta al local",
+      "",
+      "El cierre permite conocer cómo informarse sobre la oferta.",
+      "",
+      "Texto propuesto para adaptar",
+      "",
+      "Elegir también empieza por conocer lo que estás viendo. Hoy presentamos uno de los productos de nuestra heladería y un detalle de cómo lo servimos. Si quieres saber más, pregunta al equipo por la información del producto y por las opciones que ofrecemos en el local. Te indicaremos cómo consultar nuestra oferta vigente.",
+      "",
+      "Respuesta propuesta a una consulta de producto",
+      "",
+      "Gracias por preguntar. Dinos a qué producto o publicación te refieres y qué necesitas conocer. El equipo de la heladería revisará la información y te indicará las opciones que puede ofrecerte en ese momento.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Las tres partes de la pieza y los textos completos de publicación y respuesta para adaptar al producto confirmado.",
+      "linkLabel": "Descargar los textos de ejemplo para heladerías",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para heladerías",
+        "community manager heladería",
+        "contenido redes heladerías",
+        "marketing heladerías"
+      ],
+      "intent": "Heladería que quiere mostrar su producto y explicar cómo consultar la oferta que el equipo tenga vigente.",
+      "distinctFrom": "Distinguir una presentación de sabor o formato de la disponibilidad que puede consultar el visitante. La imagen no es una carta sincronizada.",
+      "sources": [
+        {
+          "url": "https://v3rtice.com/proyectos/badiani-confia-en-v3rtice-para-la-organizacion-de-su-evento-y-la-gestion-de-sus-redes-sociales/",
+          "access": "primary_agency_own_project_page_direct_read",
+          "observation": "La agencia describe su trabajo para una marca de heladerías en España. Referencia ajena de comunicación de producto y aperturas; no se usan su cliente, material, difusión o resultados como experiencia de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para heladerías | Dania360",
+    "description": "Presenta los productos y formatos de tu heladería y orienta las consultas al equipo. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El producto que presentas y la oferta que confirma tu equipo",
+    "lead": "Desarrollamos contenido para mostrar lo que ofrece tu heladería con imágenes y datos del negocio. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Identifica el producto de la pieza y facilita la consulta sobre tu oferta.",
+    "artAlt": "Helado conceptual con dos notas editoriales que distinguen presentación y consulta de la oferta",
+    "artCaption": "Ilustración original. No anuncia sabores, ingredientes, formatos o existencias de una heladería real.",
+    "resourceTitle": "Una presentación de heladería y una respuesta sobre la oferta vigente",
+    "faq": [
+      [
+        "¿Cómo se elige el producto que se presenta en la cuenta?",
+        "La heladería identifica el producto o formato y valida su explicación. Preparamos el contenido con material autorizado y una información que corresponda a lo que aparece."
+      ],
+      [
+        "¿Quién responde las dudas sobre ingredientes y características?",
+        "El negocio confirma la información del producto. La atención de redes identifica el motivo de consulta y lo dirige al equipo; no se deducen ingredientes o características de un color o una textura."
+      ],
+      [
+        "¿La publicación o el bot confirman la disponibilidad de sabores?",
+        "El equipo de la heladería confirma su oferta vigente. El bot orienta con la información configurada; Growth no presupone una carta o un inventario sincronizados."
+      ],
+      [
+        "¿Qué incluye Growth para una heladería por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "catering",
+    "name": "Empresas de catering",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para empresas de catering",
+    "layout": "catering",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA CONSULTA DE CATERING CON OCASIÓN, LUGAR Y SERVICIO",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Ejemplo editorial original",
+      "",
+      "Una consulta de catering empieza por conocer el contexto del evento",
+      "",
+      "Esta propuesta no representa un menú, una boda o un servicio prestado a un cliente. Se adapta a la oferta de la empresa.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "Al preparar un evento, la propuesta gastronómica tiene que relacionarse con lo que estás organizando. En esta pieza presentamos una parte de nuestro servicio de catering y cómo empezar a consultarlo. Cuéntanos qué ocasión preparas, dónde quieres celebrarla y qué tipo de servicio estás valorando. Nuestro equipo te explicará qué necesita conocer para estudiar una propuesta.",
+      "",
+      "Ocasión",
+      "",
+      "Qué está preparando el interesado y qué necesita resolver.",
+      "",
+      "Lugar",
+      "",
+      "Dónde se plantea el servicio, para que la empresa pueda estudiar su alcance.",
+      "",
+      "Servicio",
+      "",
+      "Qué modalidad interesa conocer, sin asumir menús o prestaciones.",
+      "",
+      "Primera respuesta propuesta",
+      "",
+      "Gracias por contactar. Cuéntanos el tipo de evento, la zona y la fecha que estás valorando, además de lo que necesitas del catering. El equipo revisará la petición y te indicará cómo ampliar la información para preparar una propuesta.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Una publicación de presentación, tres asuntos de contexto y una primera respuesta completas para adaptar a la empresa.",
+      "linkLabel": "Descargar los ejemplos de contenido para catering",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de catering",
+        "community manager catering",
+        "redes sociales catering eventos",
+        "marketing catering"
+      ],
+      "intent": "Empresa de catering que quiere explicar su servicio y recibir consultas sobre eventos con contexto comercial suficiente para su equipo.",
+      "distinctFrom": "El plato es una parte de un servicio para un evento. Presentar el alcance que presta la empresa y situar ocasión, lugar y formato antes de preparar una propuesta.",
+      "sources": [
+        {
+          "url": "https://ingresamarketing.com/agencia-social-media-catering/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "Oferta comercial específica para catering, con contenido de eventos y atención. La diferenciación se estudia sin copiar sus casos, cifras, promesas, vídeos o servicios publicitarios.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para catering | Dania360",
+    "description": "Explica el servicio de tu catering y recibe consultas de eventos con contexto comercial. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El servicio gastronómico dentro del evento",
+    "lead": "Gestionamos las redes de tu catering para presentar su alcance y orientar las consultas de eventos. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Presenta el servicio y ayuda a situar la petición antes de una propuesta.",
+    "artAlt": "Bandeja y mesa conceptuales junto a una ficha editorial de ocasión, lugar y servicio de catering",
+    "artCaption": "Dibujo editorial original. No representa un menú, un montaje o un evento de un cliente.",
+    "resourceTitle": "Una consulta de catering con ocasión, lugar y servicio",
+    "faq": [
+      [
+        "¿Podéis presentar el servicio además de mostrar platos?",
+        "Sí. El contenido puede explicar una parte del alcance, al equipo o la forma de consultar un evento, con información que confirme el catering. Se identifica qué servicio se muestra."
+      ],
+      [
+        "¿Quién confirma los menús y las condiciones de un evento?",
+        "La empresa valida su oferta y estudia cada petición. El primer contacto permite situar el contexto; no confirma fecha, capacidad, menú o presupuesto."
+      ],
+      [
+        "¿Growth incluye grabación presencial de bodas o eventos?",
+        "La producción presencial no se presupone incluida. Preparamos las piezas con material autorizado y datos del negocio. Las fotografías de asistentes o eventos privados necesitan la autorización correspondiente."
+      ],
+      [
+        "¿Growth incluye web y bot de IA para el catering por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "salones-bodas",
+    "name": "Salones de bodas y celebraciones",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para salones de bodas",
+    "layout": "salones-bodas",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "TRES ENCUADRES PARA PRESENTAR UN SALÓN ANTES DE LA VISITA",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Un recorrido editorial original",
+      "",
+      "Tres encuadres para situar el salón antes de una visita",
+      "",
+      "Es una propuesta de contenido, no un recorrido grabado ni una celebración real. El responsable elige material autorizado del espacio.",
+      "",
+      "Situar",
+      "",
+      "La entrada o referencia del espacio",
+      "",
+      "Un plano permite entender qué zona se va a presentar. El salón confirma su nombre y su relación con el recinto.",
+      "",
+      "Conocer",
+      "",
+      "La vista de la zona elegida",
+      "",
+      "El encuadre muestra el espacio que el equipo puede explicar. No permite deducir aforo, accesibilidad o exclusividad.",
+      "",
+      "Preguntar",
+      "",
+      "Un detalle que continúe la conversación",
+      "",
+      "Se desarrolla una cuestión confirmada por el responsable y se indica cómo consultar una visita.",
+      "",
+      "Texto de acompañamiento propuesto",
+      "",
+      "Antes de imaginar una celebración, también interesa conocer el espacio donde podría tener lugar. En esta pieza presentamos una de las zonas del salón y un detalle que nuestro equipo puede explicarte. Si estás valorando organizar un evento, cuéntanos qué necesitas conocer y te indicaremos cómo preparar una consulta o una visita con nosotros.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Un recorrido editorial completo y su texto de acompañamiento para adaptar con material e información del recinto.",
+      "linkLabel": "Descargar el guion de presentación del salón",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para salones de bodas",
+        "redes sociales salones celebraciones",
+        "community manager salón bodas",
+        "marketing salones eventos"
+      ],
+      "intent": "Un salón que quiere presentar su espacio y facilitar que una pareja o una empresa plantee una visita o consulta de celebración.",
+      "distinctFrom": "Explicar el espacio en relación con una celebración y preparar una conversación sobre su uso. El recinto y el servicio de catering son ofertas distintas.",
+      "sources": [
+        {
+          "url": "https://www.seonetdigital.com/es/blog/marketing-para-salones-de-eventos",
+          "access": "primary_provider_own_editorial_page_direct_read",
+          "observation": "Artículo del proveedor sobre presentación de espacios y visita comercial de salones. Se aprovecha el contexto cualitativo del recinto, no sus garantías de agenda, cifras, publicidad o prescripciones de mercado.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Redes sociales para salones de bodas | Dania360",
+    "description": "Presenta los espacios de tu salón y facilita las consultas sobre visitas y celebraciones. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
+    "eyebrow": "Del espacio que se muestra a la conversación sobre una celebración",
+    "lead": "Preparamos contenido para dar a conocer tu salón y cómo consultar una visita con su equipo. Growth reúne gestión de redes, atención en los canales del plan, página web y bot de IA por 297 €/mes.",
+    "promise": "Ayuda a situar el espacio antes de plantear una visita o una celebración.",
+    "artAlt": "Recorrido editorial abstracto por un espacio de celebración con entrada, zona y detalle",
+    "artCaption": "Esquema original. No es un plano ni acredita aforo, servicios o instalaciones de un salón real.",
+    "resourceTitle": "Tres encuadres para presentar un salón antes de la visita",
+    "faq": [
+      [
+        "¿Se puede presentar el salón sin mostrar una boda real?",
+        "Sí. Podemos trabajar con zonas del recinto, detalles de montaje y personas autorizadas del equipo. El ejemplo de esta página es una propuesta editorial, no una celebración de un cliente."
+      ],
+      [
+        "¿Quién confirma los servicios y la capacidad del espacio?",
+        "El salón valida sus usos, capacidad y condiciones. No se deducen de una fotografía. El equipo continúa las consultas comerciales y confirma visitas y disponibilidad por su canal."
+      ],
+      [
+        "¿El bot de Growth confirma fechas para una celebración?",
+        "El bot orienta con la información configurada. Growth no presupone una agenda sincronizada ni contratación automática del recinto. La confirmación corresponde al salón."
+      ],
+      [
+        "¿Qué incluye Growth para un salón de bodas por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "bodegas",
+    "name": "Bodegas y productores de vino",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para bodegas",
+    "layout": "bodegas",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA REFERENCIA DE BODEGA Y SU CONSULTA PROFESIONAL",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una propuesta editorial original",
+      "",
+      "Una referencia que se reconoce y un relato que se puede explicar",
+      "",
+      "Este ejemplo no representa una botella, añada, origen o premio de una bodega cliente. El productor elige el asunto real de la pieza.",
+      "",
+      "Identificar",
+      "",
+      "La imagen y el nombre permiten reconocer a qué referencia se refiere el contenido.",
+      "",
+      "Explicar",
+      "",
+      "La bodega aporta un detalle verificable de su trabajo o de la referencia. No se completa con una historia inventada.",
+      "",
+      "Continuar",
+      "",
+      "El cierre indica cómo consultar información de producto por el canal de la empresa.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "Una referencia también permite conocer una parte del trabajo de la bodega. En esta pieza identificamos uno de nuestros productos y nos detenemos en un detalle que el equipo puede explicar. Si quieres ampliar la información sobre la referencia o conocer cómo contactar con nuestro área comercial, cuéntanos qué necesitas y te indicaremos cómo continuar.",
+      "",
+      "Respuesta propuesta a un contacto profesional",
+      "",
+      "Gracias por contactar. Indícanos qué referencia te interesa y qué información necesitas para tu establecimiento o actividad profesional. Trasladaremos la consulta al equipo comercial de la bodega para que te explique las opciones y condiciones que correspondan.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Una ficha de identificación, relato y continuación, con los textos completos de presentación y respuesta profesional.",
+      "linkLabel": "Descargar los textos de ejemplo para bodegas",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para bodegas",
+        "redes sociales bodegas vino",
+        "community manager bodega",
+        "marketing bodegas"
+      ],
+      "intent": "Bodega que quiere explicar su marca y sus referencias a un público adulto o profesional con información confirmada del productor.",
+      "distinctFrom": "Una referencia de vino se relaciona con la historia verificable que la bodega quiera contar y con su información comercial. Separar producto y visita si ofrece enoturismo.",
+      "sources": [
+        {
+          "url": "https://pintancopas.com/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "El proveedor distingue comunicación de bodegas, contenidos y enoturismo. Se utiliza para separar marca y producto de una visita. No se atribuyen servicios, experiencia, clientes o idiomas del proveedor a Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para bodegas | Dania360",
+    "description": "Presenta tu marca y tus referencias de vino con información confirmada de la bodega. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Una referencia reconocible y un relato verificable",
+    "lead": "Desarrollamos contenido de tu bodega con material autorizado e información revisada por el productor. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Relaciona cada referencia con la explicación que tu bodega puede confirmar.",
+    "artAlt": "Botella conceptual junto a una nota editorial de referencia, relato y canal profesional",
+    "artCaption": "Ilustración original. No acredita marca, añada, origen, premio o denominación de un vino real.",
+    "resourceTitle": "Una referencia de bodega y su consulta profesional",
+    "faq": [
+      [
+        "¿Quién valida el relato y la información de los vinos?",
+        "La bodega confirma qué referencia se presenta y qué datos o explicaciones pueden comunicarse. No se inventan historias, añadas, orígenes, premios o propiedades de salud para completar la pieza."
+      ],
+      [
+        "¿Podéis diferenciar contenido de producto y visitas a la bodega?",
+        "Sí, cuando la bodega confirme que ofrece ambos servicios. Cada pieza identifica qué presenta y el canal adecuado para consultar; una referencia de vino no confirma por sí sola una actividad de visita."
+      ],
+      [
+        "¿A qué público se orienta la comunicación de la bodega?",
+        "El contenido se plantea para públicos adultos o profesionales, con material e información revisados por el negocio. Las consultas comerciales se continúan con el equipo de la bodega."
+      ],
+      [
+        "¿Qué recibe la bodega con Growth por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "cerveceras-artesanales",
+    "name": "Cerveceras artesanales",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para cerveceras artesanales",
+    "layout": "cerveceras-artesanales",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PUBLICACIÓN DE FORMATO Y DOS RESPUESTAS DE LA CERVECERA",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una pieza y dos formas de continuar",
+      "",
+      "Distinguir una pregunta de producto de un contacto de hostelería",
+      "",
+      "Estos textos son ejemplos originales. No anuncian formatos, existencias o condiciones de una marca cliente.",
+      "",
+      "Publicación de presentación propuesta",
+      "",
+      "Conocer una referencia también es saber cómo se presenta y dónde ampliar su información. En esta pieza mostramos uno de los formatos de nuestro catálogo y un detalle que el equipo puede explicar. Si quieres consultar el producto o hablar con nosotros para tu establecimiento, indícanos qué necesitas y te orientaremos hacia el canal adecuado.",
+      "",
+      "Consulta de producto",
+      "",
+      "Gracias por preguntar. Dinos a qué referencia o publicación te refieres y qué información quieres conocer. El equipo revisará tu consulta y te indicará cómo ampliar los datos del producto.",
+      "",
+      "Contacto profesional",
+      "",
+      "Gracias por contactar con la marca. Cuéntanos el tipo de establecimiento y la zona para la que quieres informarte, además de la referencia o formato que te interesa. El equipo comercial te explicará si puede estudiar la petición y cómo continuar.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Textos completos para presentar un formato y distinguir una consulta de producto de un contacto profesional.",
+      "linkLabel": "Descargar los textos de ejemplo para cerveceras",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para cerveceras artesanales",
+        "redes sociales marca cerveza artesanal",
+        "community manager cervecera",
+        "marketing cerveceras"
+      ],
+      "intent": "Productor de cerveza artesanal que quiere comunicar su marca y orientar consultas de hostelería o distribución con sus formatos confirmados.",
+      "distinctFrom": "Presentar un formato del catálogo y separar una pregunta de disponibilidad de una petición profesional para un establecimiento. No repetir el relato de bodega cambiando la bebida.",
+      "sources": [
+        {
+          "url": "https://socialsare.com/",
+          "access": "primary_agency_own_homepage_and_project_excerpt_direct_read",
+          "observation": "La agencia muestra un proyecto de lanzamiento de una marca de cerveza mediante social ads. Referencia de comunicación de marca, no prueba específica de demanda de gestión orgánica ni inversión incluida en Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Redes sociales para cerveceras artesanales | Dania360",
+    "description": "Presenta los formatos de tu marca y orienta las consultas de producto o de hostelería. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La referencia, el formato y el contacto profesional",
+    "lead": "Preparamos contenido de tu cervecera para dar a conocer su catálogo confirmado y atender consultas de producto o profesionales. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "promise": "Explica el formato que presentas y cómo consultar con el equipo de la marca.",
+    "artAlt": "Envase y barril conceptuales junto a una tarjeta de consulta profesional de una cervecera",
+    "artCaption": "Dibujo editorial original. No representa una marca, una receta, un formato disponible o una certificación.",
+    "resourceTitle": "Una publicación de formato y dos respuestas de la cervecera",
+    "faq": [
+      [
+        "¿Podéis preparar contenido para el canal de hostelería?",
+        "Sí, con referencias, formatos e información que confirme la marca. El contenido puede invitar al contacto profesional y dirigir la consulta al equipo comercial."
+      ],
+      [
+        "¿Quién confirma catálogo, disponibilidad y suministro?",
+        "La cervecera confirma las características del producto y las condiciones comerciales. La gestión de redes no incorpora distribución, suministro o un inventario sincronizado por inferencia."
+      ],
+      [
+        "¿Qué criterio sigue la presentación de la marca?",
+        "Trabajamos con material autorizado y datos revisados, para públicos adultos o profesionales. No se inventan ingredientes, graduación, sellos o beneficios saludables a partir del envase."
+      ],
+      [
+        "¿Por 297 €/mes se incluyen redes, web y bot para la cervecera?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "almazaras",
+    "name": "Almazaras y marcas de aceite de oliva",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para almazaras",
+    "layout": "almazaras",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PIEZA QUE CONECTA ENVASE, DATO Y TRABAJO DE LA ALMAZARA",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Ficha editorial original",
+      "",
+      "Unir envase, dato confirmado y explicación del productor",
+      "",
+      "La propuesta no representa un aceite, una campaña o una certificación de una marca cliente. El responsable elige qué producto y qué material pueden utilizarse.",
+      "",
+      "El envase identifica",
+      "",
+      "Se muestra el producto al que se refiere el contenido con el nombre confirmado por la empresa.",
+      "",
+      "El dato sitúa",
+      "",
+      "El productor aporta la información que quiere explicar. No se infieren variedad, campaña o características de una fotografía.",
+      "",
+      "El material desarrolla",
+      "",
+      "Una imagen del trabajo acompaña al dato si corresponde a esa explicación y se puede compartir.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "Detrás de un envase hay información que ayuda a conocer el producto. En esta pieza identificamos una de nuestras referencias y la relacionamos con una explicación del equipo de la almazara. Si quieres ampliar los datos del producto o consultar con la empresa, cuéntanos qué te interesa y te indicaremos cómo continuar por nuestro canal de atención.",
+      "",
+      "Para adaptarlo, concretar la referencia y la explicación con información del responsable y seleccionar el material correspondiente. No se añaden premios, propiedades o certificaciones que no estén confirmados.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "La ficha editorial y el texto completo de presentación para adaptar a una referencia y una explicación confirmadas.",
+      "linkLabel": "Descargar el ejemplo editorial para almazaras",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para almazaras",
+        "redes sociales marcas aceite oliva",
+        "community manager almazara",
+        "marketing aceite oliva"
+      ],
+      "intent": "Almazara o marca que quiere relacionar su producto con información de elaboración y origen que pueda confirmar el productor.",
+      "distinctFrom": "Convertir una etiqueta y una explicación del productor en contenido comprensible. Distinguir información del producto, material del proceso y canal de consulta.",
+      "sources": [
+        {
+          "url": "https://agenciaconsalero.es/sectores/marketing-para-almazaras-aceite/",
+          "access": "indexed_sector_content_direct_read_only_cms_shell",
+          "observation": "El buscador expone una oferta sectorial para almazaras. La lectura directa solo muestra la carcasa del CMS y enlaces de sector, no el cuerpo indexado. No se presenta como una oferta completa leída ni se copian sus afirmaciones.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://farmaove.com/",
+          "access": "indexed_result_latest_direct_open_timeout",
+          "observation": "Resultado específico de agencia para almazaras y marcas de aceite; la apertura agotó el tiempo. Evidencia cualitativa parcial, sin considerar leído el cuerpo o adoptar sus credenciales.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para almazaras | Dania360",
+    "description": "Explica tu aceite con información de producto y elaboración confirmada por la almazara. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El envase y la explicación que aporta el productor",
+    "lead": "Desarrollamos contenido para presentar tu almazara y sus referencias con información revisada del negocio. Growth reúne gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Une el producto que muestras con información que el productor pueda explicar.",
+    "artAlt": "Envase y rama de olivo conceptuales junto a notas editoriales de producto, dato y elaboración",
+    "artCaption": "Ilustración original. No acredita categoría, variedad, origen, certificación o propiedades de un aceite real.",
+    "resourceTitle": "Una pieza que conecta envase, dato y trabajo de la almazara",
+    "faq": [
+      [
+        "¿Qué información de producto necesitáis de la almazara?",
+        "El responsable identifica la referencia y confirma el dato o la explicación que quiere comunicar. El material debe corresponder al producto y al asunto de la pieza."
+      ],
+      [
+        "¿Podéis mostrar elaboración y marca en la misma cuenta?",
+        "Sí, con información y material autorizados. Una imagen de un proceso o un olivar no acredita por sí sola el origen, la categoría o la elaboración de una referencia concreta."
+      ],
+      [
+        "¿El bot de Growth confirma pedidos o características del aceite?",
+        "El chat orienta con la información configurada y permite continuar con el equipo. Growth no presupone conexión con inventario o pedidos. La empresa confirma los datos del producto y las operaciones."
+      ],
+      [
+        "¿Qué incluye Growth para una almazara por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "food-trucks",
+    "name": "Food trucks",
+    "hubGroup": "alimentacion",
+    "h1": "Gestión de redes sociales para food trucks",
+    "layout": "food-trucks",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PUBLICACIÓN DE PRODUCTO Y UNA RESPUESTA SOBRE UNA UBICACIÓN ANTERIOR",
+      "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
+      "",
+      "Una publicación y su continuación",
+      "",
+      "Mostrar el producto sin fijar una ubicación inventada",
+      "",
+      "Estos textos son propuestas editoriales. No anuncian una agenda, un evento o un servicio de un food truck cliente.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "Nuestra propuesta gastronómica también viaja con nosotros. En esta publicación presentamos una parte de lo que ofrecemos y un detalle que el equipo puede explicarte. Si quieres saber dónde consultar nuestras próximas presencias, escríbenos y te indicaremos el canal de agenda vigente. Para plantear un evento, cuéntanos qué estás organizando y continuamos la conversación.",
+      "",
+      "Respuesta si una ubicación anterior ya no está vigente",
+      "",
+      "Gracias por preguntar. La ubicación de esa publicación corresponde a una presencia anterior. Cuéntanos dónde y cuándo te gustaría informarte y te indicaremos cómo consultar nuestra agenda vigente. El equipo confirma las próximas presencias por su canal.",
+      "",
+      "La pieza de producto",
+      "",
+      "Permite conocer la propuesta del negocio mientras la información siga siendo válida.",
+      "",
+      "La publicación de agenda",
+      "",
+      "Necesita los lugares, las fechas y el contexto que confirme el responsable.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Los textos completos de presentación y respuesta, con la diferencia entre una pieza de producto y un aviso de agenda.",
+      "linkLabel": "Descargar los textos de ejemplo para food trucks",
+      "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para food trucks",
+        "community manager food truck",
+        "redes sociales food truck",
+        "marketing food trucks"
+      ],
+      "intent": "Negocio gastronómico móvil que quiere presentar su propuesta y comunicar dónde se puede consultar su agenda o un servicio para eventos.",
+      "distinctFrom": "La ubicación y la agenda pueden cambiar mientras la pieza de producto sigue circulando. Separar presentación estable, información de presencia y consulta de contratación.",
+      "sources": [
+        {
+          "url": "https://foodtruckya.com/mx/empresas-alquiler/mobile-service",
+          "access": "advertiser_self_description_on_sector_platform_direct_read_foreign_market",
+          "observation": "El anunciante chileno describe en una plataforma mexicana experiencias móviles y food trucks. Sirve como contexto de actividad itinerante, no como evidencia de demanda SEO española ni de gestión orgánica equivalente a Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://digitalweb.pt/gestao-de-redes-sociais/gestao-de-redes-sociais-food-trucks/",
+          "access": "indexed_result_direct_open_timeout_foreign_market",
+          "observation": "El resultado portugués presenta gestión de redes para food trucks y agenda cambiante. La apertura agotó el tiempo: no es lectura completa ni prueba de búsquedas de España.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para food trucks | Dania360",
+    "description": "Comunica tu propuesta gastronómica y distingue agenda, presencias y consultas de eventos. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El producto, la agenda y el motivo de consulta",
+    "lead": "Gestionamos las redes de tu food truck con contenido de producto y agenda confirmados por el equipo. Growth incluye publicaciones, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Separa la presentación gastronómica de la información vigente sobre dónde estarás.",
+    "artAlt": "Vehículo gastronómico conceptual junto a un panel de agenda sin fechas y un canal de consulta",
+    "artCaption": "Composición editorial original. No anuncia ubicaciones, horarios, permisos o eventos de un food truck real.",
+    "resourceTitle": "Una publicación de producto y una respuesta sobre una ubicación anterior",
+    "faq": [
+      [
+        "¿Cómo se comunica una agenda que puede cambiar de ubicación?",
+        "El negocio confirma lugares, fechas y contexto de cada presencia y comunica los cambios. El contenido de producto se diferencia de la información de agenda para no tratar una ubicación anterior como vigente."
+      ],
+      [
+        "¿Podéis atender consultas para visitar y para contratar el food truck?",
+        "Sí, en los canales incluidos. Se identifica si el interesado busca una presencia del negocio o plantea un evento, y se dirige la conversación al canal que indique el equipo."
+      ],
+      [
+        "¿El servicio incluye operación del vehículo o contratación de eventos?",
+        "El servicio es digital. El negocio confirma su agenda, condiciones y contratación. Growth no incorpora desplazamientos, permisos o la operación del food truck."
+      ],
+      [
+        "¿Qué recibe un food truck con Growth por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
   }
 ]
