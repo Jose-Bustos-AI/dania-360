@@ -359,3 +359,54 @@
   .layout-talleres-mecanicos .workshop-post,.layout-talleres-mecanicos .workshop-first-reply,.layout-concesionarios .dealership-storyboard article{padding:24px}
   .layout-concesionarios .dealership-sample-copy{padding-left:20px}
 }
+
+/* Used vehicles: editorial records that stay identifiable when a unit changes. */
+.layout-compraventa-coches .hero{grid-template-columns:1.15fr .85fr;align-items:start}
+.layout-compraventa-coches h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:23ch}
+.layout-compraventa-coches .hero figure{margin-top:16px}
+.layout-compraventa-coches .used-unit-priority,.layout-compraventa-coches .used-web-attention{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-compraventa-coches .used-unit-copy p,.layout-compraventa-coches .used-web-copy p{color:var(--muted)}
+.layout-compraventa-coches .used-example-heading{max-width:850px;margin-bottom:32px}
+.layout-compraventa-coches .used-example-heading>p:not(.kicker){color:var(--muted)}
+.layout-compraventa-coches .used-publication-note,.layout-compraventa-coches .used-availability-reply{display:grid;grid-template-columns:.65fr 1.35fr;column-gap:38px;row-gap:12px;border-top:1px solid var(--line);padding:28px 0}
+.layout-compraventa-coches .used-note-label{grid-column:1/-1;color:var(--orange);font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px}
+.layout-compraventa-coches .used-publication-note h3,.layout-compraventa-coches .used-availability-reply h3{grid-column:1;font-size:1.45rem;max-width:20ch}
+.layout-compraventa-coches .used-publication-note>p:not(.used-note-label),.layout-compraventa-coches .used-availability-reply>p:not(.used-note-label){grid-column:2;margin-bottom:0}
+.layout-compraventa-coches .used-note-detail{font-size:.88rem;color:var(--muted);padding-top:10px}
+.layout-compraventa-coches .used-publication-lifecycle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;list-style:none;padding:0;margin:34px 0}
+.layout-compraventa-coches .used-publication-lifecycle li{margin:0;padding:24px 26px 0 0;border-top:3px solid var(--orange)}
+.layout-compraventa-coches .used-publication-lifecycle li+li{padding-left:26px;border-left:1px solid var(--line)}
+.layout-compraventa-coches .used-publication-lifecycle h3{font-size:1.3rem;margin-bottom:18px}
+.layout-compraventa-coches .used-publication-lifecycle p,.layout-compraventa-coches .used-editorial-coordination>p{color:var(--muted)}
+.layout-compraventa-coches .used-editorial-coordination>p{max-width:84ch}
+
+/* Vehicle hire: two different rental intentions, compared in readable rows. */
+.layout-alquiler-vehiculos .hero{grid-template-columns:1.15fr .85fr;gap:42px}
+.layout-alquiler-vehiculos h1{font-size:clamp(2.1rem,3.3vw,3.4rem);max-width:25ch}
+.layout-alquiler-vehiculos .rental-modalities,.layout-alquiler-vehiculos .rental-information,.layout-alquiler-vehiculos .rental-reservation-channel{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-alquiler-vehiculos .rental-modalities-copy p,.layout-alquiler-vehiculos .rental-contact-copy p{color:var(--muted)}
+.layout-alquiler-vehiculos .rental-needs-intro{max-width:890px;margin-bottom:34px}
+.layout-alquiler-vehiculos .rental-needs-intro>p:not(.kicker){color:var(--muted)}
+.layout-alquiler-vehiculos .rental-route{display:grid;grid-template-columns:.8fr 1fr 1.25fr;gap:28px;align-items:start;padding:28px 0;border-top:1px solid var(--line)}
+.layout-alquiler-vehiculos .rental-route-label{color:var(--orange);font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+.layout-alquiler-vehiculos .rental-route-intent h3{font-size:1.4rem;max-width:18ch}
+.layout-alquiler-vehiculos .rental-route-context{color:var(--muted);font-size:.96rem;margin:0}
+.layout-alquiler-vehiculos .rental-route-reply{background:var(--panel);border-left:3px solid var(--orange);padding:24px}
+.layout-alquiler-vehiculos .rental-route-reply>p:last-child{font-size:.96rem;margin-bottom:0}
+.layout-alquiler-vehiculos .rental-information>.section-intro{margin:0}
+.layout-alquiler-vehiculos .rental-information-list{margin:0}
+.layout-alquiler-vehiculos .rental-information-list>div{border-top:1px solid var(--line);padding:20px 0}
+.layout-alquiler-vehiculos .rental-information-list>div:first-child{padding-top:0;border-top:0}
+.layout-alquiler-vehiculos .rental-information-list dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-alquiler-vehiculos .rental-information-list dd{margin:0;color:var(--muted)}
+.layout-alquiler-vehiculos .rental-information>p{grid-column:1/-1;color:var(--muted);max-width:84ch}
+@media(max-width:850px){
+  .layout-compraventa-coches .hero,.layout-compraventa-coches .used-unit-priority,.layout-compraventa-coches .used-web-attention,.layout-alquiler-vehiculos .hero,.layout-alquiler-vehiculos .rental-modalities,.layout-alquiler-vehiculos .rental-information,.layout-alquiler-vehiculos .rental-reservation-channel,.layout-alquiler-vehiculos .rental-route{grid-template-columns:1fr;gap:28px}
+  .layout-compraventa-coches .hero figure{margin-top:0}
+  .layout-compraventa-coches .used-publication-note,.layout-compraventa-coches .used-availability-reply{grid-template-columns:1fr;gap:14px}
+  .layout-compraventa-coches .used-publication-note h3,.layout-compraventa-coches .used-availability-reply h3,.layout-compraventa-coches .used-publication-note>p:not(.used-note-label),.layout-compraventa-coches .used-availability-reply>p:not(.used-note-label){grid-column:auto}
+  .layout-compraventa-coches .used-publication-lifecycle{grid-template-columns:1fr}
+  .layout-compraventa-coches .used-publication-lifecycle li{padding-bottom:24px}
+  .layout-compraventa-coches .used-publication-lifecycle li+li{padding-left:0;border-left:0}
+  .layout-alquiler-vehiculos .rental-information>p{grid-column:auto}
+}
