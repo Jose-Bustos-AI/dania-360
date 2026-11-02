@@ -1,0 +1,152 @@
+[
+  {
+    "id": 11,
+    "slug": "fontaneros",
+    "name": "Fontaneros",
+    "title": "Gestión de redes sociales para fontaneros | Dania360",
+    "description": "Redes sociales para fontaneros: trabajos, zona de servicio, mensajes y Google. Growth por 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "h1": "Gestión de redes sociales para fontaneros",
+    "eyebrow": "Tu oficio, bien explicado",
+    "lead": "Mostramos los servicios de tu empresa de fontanería y atendemos sus redes para que quien revise tu negocio entienda qué haces, dónde trabajas y cómo pedirte presupuesto. Tú confirmas cada trabajo y su disponibilidad.",
+    "promise": "La confianza empieza antes de que suene el teléfono.",
+    "layout": "fontaneros",
+    "artAlt": "Esquema de comunicación de fontanería: servicio, zona y contacto conectados alrededor de una tubería",
+    "artCaption": "Ilustración propia del recorrido de una consulta. No representa una instalación real.",
+    "resourceTitle": "Ficha para preparar contenidos de fontanería",
+    "resource": [
+      "SERVICIOS Y ZONA",
+      "Trabajos que sí realizamos:",
+      "Trabajos que derivamos o no ofrecemos:",
+      "Municipios y radio real de desplazamiento:",
+      "Horario confirmado y canal para avisos:",
+      "",
+      "MATERIAL PARA UNA PUBLICACIÓN",
+      "Servicio realizado y problema que resolvía:",
+      "Fotos de contexto, detalle y acabado con permiso:",
+      "Datos, direcciones o personas que deben ocultarse:",
+      "Explicación técnica revisada por el profesional:",
+      "Llamada a la acción sin precio o disponibilidad inventados:",
+      "",
+      "CONSULTA RECIBIDA",
+      "Servicio solicitado y municipio:",
+      "¿Es un trabajo programado o un aviso?:",
+      "Contacto y canal preferido:",
+      "Disponibilidad pendiente de confirmación por la empresa:",
+      "Resultado posterior: atendida / visita / presupuesto / descartada:",
+      "",
+      "Esta ficha es una propuesta de organización. No es diagnóstico ni asesoramiento de reparación."
+    ],
+    "faq": [
+      [
+        "¿Las redes sirven para conseguir avisos urgentes de fontanería?",
+        "Pueden ayudar a que se conozca tu negocio, pero una publicación no sustituye una búsqueda local ni garantiza avisos. Mantenemos visibles los servicios, la zona y el contacto; solo anunciamos urgencias y horarios que tu empresa haya confirmado."
+      ],
+      [
+        "¿Qué tengo que aportar para crear el contenido?",
+        "La relación de servicios, los municipios donde trabajas, tus horarios y material de trabajos que puedas publicar. Una explicación breve del problema y del trabajo realizado permite preparar piezas más útiles que una foto sin contexto. Tú validas los detalles técnicos."
+      ],
+      [
+        "¿Growth incluye una página web y un bot de IA?",
+        "Sí. Growth cuesta 297 €/mes e incluye la gestión de redes sociales y todo Starter: página web con chat y modo automático con IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot de la web no confirma visitas ni realiza diagnósticos técnicos."
+      ],
+      [
+        "¿Vais a grabar los trabajos en mi domicilio o en la obra?",
+        "Las visitas de grabación y la producción presencial no figuran en el alcance oficial de Growth. Antes de contratar revisamos el material disponible y cómo preparar tus fotos y vídeos. Tampoco se incluye inversión en anuncios en la cuota mostrada."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para fontaneros",
+        "community manager fontaneros",
+        "marketing para empresas de fontanería"
+      ],
+      "intent": "El comprador es el profesional que quiere delegar su comunicación; no el particular que busca una reparación.",
+      "distinctFrom": "Climatización se centra en equipos y estacionalidad; reformas en proyectos de espacios; esta página se centra en servicios de fontanería y en la entrada de consultas.",
+      "sources": [
+        {
+          "url": "https://www.johnguest.com/ie/es/recursos/blog/5-formas-en-que-los-instaladores-de-fontaneria-y-calefaccion-pueden-utilizar-las-redes-sociales-para-hacer-crecer-su-negocio",
+          "observation": "El fabricante propone perfiles completos y material del negocio. Se revisa como fuente sectorial; no se trasladan sus recomendaciones antiguas de plataformas, frecuencia o anuncios."
+        },
+        {
+          "url": "https://madeforbuilders.com/es-ES/blog/marketing-para-fontaneros-espana-guia-2026/",
+          "observation": "La competencia diferencia avisos urgentes de trabajos planificados. La respuesta propia añade un guion y una ficha sin promesas de captación."
+        }
+      ],
+      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados."
+    }
+  },
+  {
+    "id": 12,
+    "slug": "construccion",
+    "name": "Empresas de construcción",
+    "title": "Redes sociales para empresas de construcción | Dania360",
+    "description": "Gestión de redes sociales para constructoras: obras, fases y consultas profesionales. Growth 297 €/mes con web y bot de IA. Auditoría gratuita.",
+    "h1": "Gestión de redes sociales para empresas de construcción",
+    "eyebrow": "Una obra merece algo más que una foto",
+    "lead": "Organizamos la comunicación de tu constructora alrededor de los proyectos que puedes mostrar y del trabajo que realmente ejecutas. Redes, web y mensajes conectados para presentar tu empresa antes de la primera reunión.",
+    "promise": "Que cada obra explique por qué contar con tu empresa.",
+    "layout": "construccion",
+    "artAlt": "Ilustración de un edificio y su comunicación en tres fases: contexto, desarrollo y entrega",
+    "artCaption": "Esquema original de comunicación por fases. No es el plano ni la imagen de una obra real.",
+    "resourceTitle": "Ficha editorial de proyecto para constructoras",
+    "resource": [
+      "PROYECTO Y ALCANCE",
+      "Tipo de proyecto:",
+      "Zona general que puede publicarse:",
+      "Papel exacto de nuestra empresa:",
+      "Fase que se muestra y fecha comprobada:",
+      "Personas o empresas que deben autorizar el material:",
+      "",
+      "MATERIAL",
+      "Vista general autorizada:",
+      "Hito o avance visible:",
+      "Trabajo terminado y alcance que acredita:",
+      "Datos técnicos comprobados por el responsable:",
+      "Documentos e imágenes que no deben compartirse:",
+      "",
+      "CONTACTO PROFESIONAL",
+      "Tipo de cliente al que se dirige la pieza:",
+      "Proyecto que puede interesarle:",
+      "Canal de contacto del responsable:",
+      "Seguimiento: consulta / proyecto compatible / reunión / oferta:",
+      "",
+      "No presentar este esquema como una referencia de obra ejecutada."
+    ],
+    "faq": [
+      [
+        "¿Podéis gestionar las redes de una constructora pequeña?",
+        "Sí. Partimos de tus especialidades, tu zona y los proyectos que puedas documentar. No necesitas presentar una cartera extensa: es preferible explicar con precisión una intervención autorizada que atribuirte obras o medios que no tienes."
+      ],
+      [
+        "¿Incluye LinkedIn el plan Growth?",
+        "No. Growth incluye Instagram, Facebook, TikTok, Pinterest y la gestión de Google Business Profile. LinkedIn está incluido en Scale. Si tu prioridad son promotores, estudios o compras profesionales, revisamos qué canales necesitas antes de contratar."
+      ],
+      [
+        "¿La cuota incluye web y bot de IA para mi constructora?",
+        "Sí. Growth cuesta 297 €/mes e incorpora la web y el chat con modo automático de IA de Starter, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El estudio técnico y la oferta de obra los elabora tu empresa."
+      ],
+      [
+        "¿Podéis publicar planos y fotografías de las obras?",
+        "Solo el material cuya publicación esté autorizada y que no exponga información reservada. Antes de usarlo se confirma tu papel en el proyecto y qué datos pueden difundirse. La grabación presencial y la inversión en anuncios no forman parte de la cuota mostrada."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de construcción",
+        "redes sociales constructoras",
+        "marketing para constructoras"
+      ],
+      "intent": "Contratar comunicación de una empresa ejecutora, con evaluación de proyectos y capacidad, no vender inmuebles ni contratar una reforma doméstica.",
+      "distinctFrom": "Inmobiliarias comercializa activos; reformas documenta espacios habitados; construcción explica alcance de ejecución y fases de proyecto.",
+      "sources": [
+        {
+          "url": "https://madeforbuilders.com/es-ES/blog/marketing-para-constructoras-pymes-espana-guia-2026/",
+          "observation": "El competidor da prioridad a cartera, interlocutores profesionales y evaluación previa. No se adoptan sus cifras, credenciales, SLA o promesas de licitación."
+        }
+      ],
+      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado."
+    }
+  }
+]
