@@ -379,5 +379,384 @@
       ],
       "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado."
     }
+  },
+  {
+    "id": 16,
+    "slug": "placas-solares",
+    "name": "Instaladores de placas solares",
+    "title": "Redes sociales para instaladores solares | Dania360",
+    "description": "Gestión de redes sociales para empresas de placas solares: proyectos y consultas con criterio. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "h1": "Gestión de redes sociales para instaladores de placas solares",
+    "eyebrow": "La propuesta solar, explicada con criterio",
+    "lead": "Convertimos tu oferta de autoconsumo en contenido comprensible para quien está valorando una instalación. Mostramos el proceso, atendemos las redes y dirigimos las consultas a tu equipo para estudiar cada proyecto.",
+    "promise": "Explica cómo trabajas antes de pedir que confíen en una cifra.",
+    "layout": "solar",
+    "artAlt": "Cubierta solar ilustrada con el recorrido entre necesidad, estudio y proyecto",
+    "artCaption": "Ilustración original de una propuesta solar. No representa una instalación ni un cálculo de rendimiento.",
+    "resourceTitle": "Ficha de revisión de afirmaciones para contenido solar",
+    "resource": [
+      "PUBLICACIÓN",
+      "Servicio y público al que se dirige:",
+      "Pregunta que resuelve:",
+      "",
+      "REVISIÓN DE AFIRMACIONES",
+      "Afirmación o cifra que se quiere publicar:",
+      "Origen del dato y responsable de comprobarlo:",
+      "Supuestos, fecha y caso al que se aplica:",
+      "¿Es una estimación o un resultado medido?:",
+      "Versión que puede aprobarse o explicación alternativa sin cifra:",
+      "",
+      "IMAGEN",
+      "Trabajo, diseño o ilustración:",
+      "Alcance real de nuestra intervención:",
+      "Permiso de publicación y datos que ocultar:",
+      "",
+      "CONSULTA",
+      "Municipio y tipo de inmueble:",
+      "Canal acordado para documentación:",
+      "Seguimiento: consulta / estudio / propuesta / contratación confirmada:",
+      "",
+      "No pedir facturas ni datos personales en comentarios públicos. Esta ficha no calcula ahorros."
+    ],
+    "faq": [
+      [
+        "¿Publicaréis cifras de ahorro en mis redes?",
+        "Solo cifras que tu empresa pueda justificar, con sus condiciones y el caso al que se refieren. Cuando no existe esa base, el contenido explica el proceso de valoración y orienta a un estudio individual. No se inventan ahorros, amortizaciones ni subvenciones."
+      ],
+      [
+        "¿Puedo comunicar instalaciones para viviendas y empresas?",
+        "Sí, si ambas forman parte de tu oferta. Diferenciamos las necesidades y preguntas de cada público para que una misma publicación no mezcle situaciones que requieren una valoración distinta."
+      ],
+      [
+        "¿Growth incluye web con bot de IA?",
+        "Sí. Por 297 €/mes reúne gestión de redes sociales y todo Starter: web, chat con modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot explica información general; tu equipo realiza el estudio del proyecto."
+      ],
+      [
+        "¿El plan incluye campañas para captar instalaciones?",
+        "La cuota mostrada corresponde a los servicios de Growth. La inversión en anuncios, la producción presencial y los estudios técnicos de instalaciones no forman parte de ese alcance. Revisamos tus necesidades antes de contratar."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales empresas placas solares",
+        "redes sociales instaladores solares",
+        "marketing empresas energía solar"
+      ],
+      "intent": "Empresa solar que busca comunicación y tratamiento de consultas, no particular que busca un precio de instalación.",
+      "distinctFrom": "Se centra en prueba de las afirmaciones, explicación de la valoración y públicos de autoconsumo; no duplica la página general de electricistas ni el calendario de climatización.",
+      "sources": [
+        {
+          "url": "https://astratechconsulting.com/gestion-de-redes-sociales-para-empresas-de-energia/",
+          "observation": "Se observa una oferta que mezcla solar, climatización y anuncios. La propuesta propia separa el proceso de estudio solar y añade una ficha de revisión de afirmaciones."
+        }
+      ],
+      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados."
+    }
+  },
+  {
+    "id": 17,
+    "slug": "carpinterias-madera",
+    "name": "Carpinterías de madera",
+    "title": "Redes sociales para carpinterías de madera | Dania360",
+    "description": "Gestión de redes para carpinterías: explica tus muebles, materiales y trabajos a medida. Growth 297 €/mes con web y bot de IA. Pide una auditoría gratis.",
+    "h1": "Gestión de redes sociales para carpinterías de madera",
+    "eyebrow": "El oficio se aprecia en los detalles",
+    "lead": "Preparamos contenido que explica el uso, los materiales y las decisiones de tus trabajos a medida. Mantenemos activas las redes de tu carpintería y orientamos las consultas hacia el taller para estudiar cada encargo.",
+    "promise": "De una imagen bonita a una pieza que el cliente entiende.",
+    "layout": "madera",
+    "artAlt": "Armario conceptual adaptado a una cubierta inclinada, con módulos interiores y detalles de acabado",
+    "artCaption": "Ilustración propia de un mueble a medida. No es una fotografía ni un proyecto de un cliente.",
+    "resourceTitle": "Ficha del taller para contar un trabajo a medida",
+    "resource": [
+      "LA PIEZA",
+      "Tipo de mueble o trabajo:",
+      "Uso y necesidad que resolvía:",
+      "Público: particular / interiorista / empresa:",
+      "Parte fabricada o instalada por nuestro taller:",
+      "",
+      "DECISIONES",
+      "Material y acabado reales:",
+      "Detalle de distribución o apertura que se quiere explicar:",
+      "Datos que debe validar el profesional:",
+      "",
+      "IMÁGENES",
+      "Vista de conjunto autorizada:",
+      "Vista de interior o función:",
+      "Detalle de material o acabado:",
+      "Permisos y elementos privados que ocultar:",
+      "",
+      "CONSULTA",
+      "Tipo de pieza que interesa y uso previsto:",
+      "Zona de entrega o instalación:",
+      "Canal para estudiar la medición y el encargo:",
+      "Seguimiento: consulta / medición / propuesta / aceptación confirmada:",
+      "",
+      "No presentar un esquema conceptual o material de catálogo como una obra del taller."
+    ],
+    "faq": [
+      [
+        "¿Podéis trabajar con fotos tomadas en el taller?",
+        "Sí, si tienen calidad suficiente y permiso de publicación. Una vista general, un detalle y una explicación breve del trabajo permiten preparar contenido con contexto. Revisamos el material disponible antes de contratar."
+      ],
+      [
+        "¿Sirve para un carpintero que solo fabrica muebles a medida?",
+        "Sí. Centramos el contenido en tus piezas, materiales, tipo de cliente y zona de trabajo. No añadimos fabricación en serie, reformas u otros servicios que no ofrezcas."
+      ],
+      [
+        "¿Growth también incluye la página web del taller?",
+        "Sí. Growth por 297 €/mes incluye redes y el alcance de Starter: web, chat con modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El taller confirma medidas, fabricación, presupuesto y plazo."
+      ],
+      [
+        "¿Incluye fotografía o grabación presencial?",
+        "La producción presencial no forma parte de la cuota mostrada de Growth, ni tampoco la inversión en anuncios. Acordamos cómo trabajar con tu material disponible y las explicaciones que puedas aportar."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales carpinterías madera",
+        "community manager carpinteros",
+        "marketing carpinterías muebles a medida"
+      ],
+      "intent": "Taller que quiere delegar la presentación visual y comunicación de sus encargos.",
+      "distinctFrom": "No se centra en ventanas ni prestaciones de cerramientos metálicos. Se trabaja uso, material, detalle y estudio de muebles o carpintería de madera.",
+      "sources": [
+        {
+          "url": "https://marketing.maderea.es/",
+          "observation": "Agencia especializada en madera con públicos industriales y profesionales. La respuesta propia para talleres desarrolla una ficha de pieza y la preparación de material de muebles a medida."
+        }
+      ],
+      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda."
+    }
+  },
+  {
+    "id": 18,
+    "slug": "carpinterias-metalicas",
+    "name": "Carpinterías metálicas y de aluminio",
+    "title": "Redes sociales para carpinterías metálicas | Dania360",
+    "description": "Gestión de redes para carpinterías de aluminio y metal: ventanas, cerramientos y consultas. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "h1": "Gestión de redes sociales para carpinterías metálicas y de aluminio",
+    "eyebrow": "Ventanas y cerramientos con contexto",
+    "lead": "Organizamos el contenido de tu carpintería metálica para explicar qué fabricas, qué instalas y qué proyecto puede estudiar tu empresa. Publicaciones y mensajes conectados con una web profesional y tu presencia en Google.",
+    "promise": "Que el cliente vea una solución para su espacio.",
+    "layout": "metal",
+    "artAlt": "Cerramiento ilustrado con referencias al uso del espacio, apertura y acabado",
+    "artCaption": "Ilustración editorial original. No representa prestaciones certificadas ni un proyecto ejecutado.",
+    "resourceTitle": "Ficha editorial de ventanas y cerramientos",
+    "resource": [
+      "PRODUCTO Y PROYECTO",
+      "Trabajo que queremos presentar:",
+      "Qué fabricamos y qué instalamos:",
+      "Tipo de cliente y uso del espacio:",
+      "",
+      "DECISIONES",
+      "Apertura y acabado que puede explicar el profesional:",
+      "Sistema y fabricante, cuando proceda:",
+      "Prestación que se quiere mencionar:",
+      "Documento que acredita esa prestación y para qué sistema:",
+      "",
+      "MATERIAL",
+      "Vista autorizada del conjunto:",
+      "Detalle que ayuda a entender la decisión:",
+      "Información privada del inmueble que debe ocultarse:",
+      "",
+      "CONSULTA",
+      "Tipo de trabajo y municipio:",
+      "Canal para estudiar la documentación o medición:",
+      "Seguimiento: información / visita / presupuesto / aceptación confirmada:",
+      "",
+      "No usar una prestación genérica de catálogo como resultado de cualquier instalación."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar ventanas, puertas y cerramientos?",
+        "Sí, cuando formen parte de tu oferta. Diferenciamos fabricación, suministro e instalación y adaptamos el contenido al tipo de trabajo que tu empresa quiera priorizar."
+      ],
+      [
+        "¿Se pueden publicar datos de aislamiento o seguridad?",
+        "Solo cuando tu empresa pueda relacionarlos con el sistema y la documentación adecuados. El responsable valida cada afirmación; no atribuimos prestaciones universales a partir de una fotografía."
+      ],
+      [
+        "¿La web y el bot de IA están dentro de Growth?",
+        "Sí. Growth por 297 €/mes incluye gestión de redes y todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. La medición, el estudio y el presupuesto los confirma tu empresa."
+      ],
+      [
+        "¿Growth incluye LinkedIn para contactar con arquitectos?",
+        "No. LinkedIn pertenece a Scale. Growth incluye Instagram, Facebook, TikTok, Pinterest y gestión de Google Business Profile. Si tu actividad depende principalmente de prescriptores profesionales, revisamos esa necesidad antes de recomendarte el plan."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión redes sociales carpintería metálica aluminio",
+        "marketing empresas cerramientos",
+        "redes sociales instaladores ventanas"
+      ],
+      "intent": "Fabricante o instalador que busca presentar su oferta y convertir el interés en una consulta de proyecto.",
+      "distinctFrom": "La madera se centra en muebles a medida y oficio de taller. Metal y aluminio abordan sistemas, aperturas y documentación de prestaciones de cerramientos.",
+      "sources": [
+        {
+          "url": "https://mesmarketing.es/",
+          "observation": "Oferta específica de cristalería y aluminio con cualificación de consultas. No se adoptan promesas económicas, automatizaciones de WhatsApp ni grabación presencial de ese competidor."
+        }
+      ],
+      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas."
+    }
+  },
+  {
+    "id": 19,
+    "slug": "cerrajeros",
+    "name": "Cerrajeros",
+    "title": "Gestión de redes sociales para cerrajeros | Dania360",
+    "description": "Redes sociales para cerrajerías: identidad, servicios, mensajes y Google coherentes. Growth 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "h1": "Gestión de redes sociales para cerrajeros",
+    "eyebrow": "Una empresa que el cliente puede reconocer",
+    "lead": "Presentamos tu cerrajería con servicios claros, datos de contacto coherentes y contenido que explica cómo solicitar una valoración. Atendemos las redes y orientamos cada consulta hacia el canal profesional que hayas definido.",
+    "promise": "Identidad, zona y disponibilidad: lo esencial debe estar claro.",
+    "layout": "cerrajeros",
+    "artAlt": "Tarjeta conceptual de cerrajería con un candado simbólico y campos de identidad, zona y horario",
+    "artCaption": "Diseño editorial propio. No contiene procedimientos de apertura ni información de una instalación real.",
+    "resourceTitle": "Mapa de servicios y disponibilidad de una cerrajería",
+    "resource": [
+      "IDENTIDAD",
+      "Nombre comercial y empresa que presta el servicio:",
+      "Teléfono y canal profesional de contacto:",
+      "Zona y municipios confirmados:",
+      "",
+      "OFERTA",
+      "Servicios programados que ofrecemos:",
+      "Servicios para comunidades o negocios:",
+      "Avisos o guardia: solo si se prestan y con sus condiciones:",
+      "Horario real y quién lo confirma:",
+      "",
+      "PUBLICACIÓN",
+      "Servicio que se quiere explicar:",
+      "Material autorizado que identifica a la empresa:",
+      "Información sensible del inmueble que no debe difundirse:",
+      "Forma de solicitar una valoración:",
+      "",
+      "SEGUIMIENTO",
+      "Consulta recibida y motivo:",
+      "Canal al que se deriva:",
+      "Disponibilidad, condiciones y presupuesto confirmados por:",
+      "Resultado real del contacto:",
+      "",
+      "Esta ficha no describe procedimientos de apertura ni sustituye las comprobaciones del profesional."
+    ],
+    "faq": [
+      [
+        "¿Las redes sociales bastan si mi cerrajería vive de urgencias?",
+        "No conviene asumirlo. La auditoría revisa cómo te encuentran, qué información ven y cómo contactan. Las redes pueden reforzar identidad y servicios programados, mientras una urgencia requiere un contacto directo y disponibilidad confirmada. No se garantizan avisos ni posiciones."
+      ],
+      [
+        "¿Anunciaréis servicio de cerrajería 24 horas?",
+        "Solo si tu empresa lo presta y confirma sus condiciones. La información publicada debe coincidir con tu disponibilidad real; no se utiliza una guardia permanente como reclamo genérico."
+      ],
+      [
+        "¿Growth incluye una página web y un bot?",
+        "Sí. Por 297 €/mes incorpora gestión de redes y todo Starter: web, chat con modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El profesional confirma condiciones del servicio, comprobaciones, presupuesto y disponibilidad."
+      ],
+      [
+        "¿Publicaréis trabajos realizados en viviendas?",
+        "Solo material autorizado que resulte adecuado para mostrar el servicio. No se difunden datos sensibles del inmueble ni procedimientos de apertura. Las visitas de grabación y la inversión en anuncios no figuran en la cuota mostrada."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para cerrajeros",
+        "marketing digital cerrajerías",
+        "redes sociales cerrajería"
+      ],
+      "intent": "Empresa que busca comunicar servicios e identidad. La búsqueda urgente de un particular requiere otros canales y no debe confundirse con contratar gestión de redes.",
+      "distinctFrom": "Página centrada en identidad, disponibilidad y encaje comercial entre urgencias y servicios previstos; no reproduce la cartera de obras de construcción ni la presentación de productos de metal.",
+      "sources": [
+        {
+          "url": "https://seocerrajero.es/blog/marketing-digital-cerrajeria",
+          "observation": "La competencia señala la prioridad del contacto local en urgencias y el papel complementario de redes. La propuesta propia ofrece una ficha de identidad y un encaje honesto de Growth."
+        }
+      ],
+      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado."
+    }
+  },
+  {
+    "id": 20,
+    "slug": "pintores",
+    "name": "Pintores y empresas de pintura",
+    "title": "Gestión de redes sociales para pintores | Dania360",
+    "description": "Redes sociales para empresas de pintura: preparación, acabados y consultas de presupuesto. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "h1": "Gestión de redes sociales para pintores y empresas de pintura",
+    "eyebrow": "El trabajo detrás del color",
+    "lead": "Preparamos contenido para mostrar tus acabados y explicar el servicio que hay detrás. Atendemos las redes de tu empresa de pintura y orientamos las consultas para que puedas estudiar cada espacio y presupuesto.",
+    "promise": "Que cada acabado cuente algo más que un cambio de tono.",
+    "layout": "pintores",
+    "artAlt": "Ilustración original de rodillo, pared y muestras de color para explicar el trabajo de pintura",
+    "artCaption": "Composición editorial propia. No es una fotografía de obra ni un resultado de un cliente.",
+    "resourceTitle": "Ficha de material para comunicar un trabajo de pintura",
+    "resource": [
+      "ALCANCE",
+      "Tipo de espacio y municipio general:",
+      "Qué servicio prestó nuestra empresa:",
+      "Necesidad inicial y decisión que se puede explicar:",
+      "",
+      "MATERIAL",
+      "Vista inicial autorizada:",
+      "Vista final comparable:",
+      "Detalle de preparación o acabado:",
+      "Condiciones de luz y filtros que se deben evitar:",
+      "Permisos y elementos personales que ocultar:",
+      "",
+      "TEXTO",
+      "Qué dato debe validar el profesional:",
+      "Qué pregunta resuelve la publicación:",
+      "Invitación a solicitar una valoración:",
+      "",
+      "CONSULTA",
+      "Servicio solicitado y ubicación general:",
+      "Información que debe revisar la empresa antes de presupuestar:",
+      "Seguimiento: consulta / visita / presupuesto / trabajo confirmado:",
+      "",
+      "La ficha no calcula precio por metro ni acredita un acabado."
+    ],
+    "faq": [
+      [
+        "¿Podéis trabajar con fotos de mis trabajos de pintura?",
+        "Sí, con permiso de publicación y calidad suficiente. Una vista general, un detalle y una explicación del alcance permiten preparar contenido con contexto. No usamos filtros para simular una calidad o un resultado distintos."
+      ],
+      [
+        "¿Tengo que ofrecer pintura de fachadas o grandes obras?",
+        "No. La comunicación se centra en las especialidades que prestas: interiores, locales, fachadas u otras que confirmes. No anunciamos trabajos para los que tu empresa no tenga oferta o disponibilidad."
+      ],
+      [
+        "¿Growth incluye una página web con bot de IA?",
+        "Sí. Por 297 €/mes incluye gestión de redes y todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. La visita, el precio y el plazo del trabajo los confirma tu empresa."
+      ],
+      [
+        "¿Publicaréis precios por metro cuadrado?",
+        "Solo si tu empresa confirma el importe y las condiciones en las que se aplica. Si no existe una oferta suficientemente definida, invitamos a solicitar una valoración del espacio. La cuota mostrada no incluye inversión publicitaria ni grabaciones presenciales."
+      ]
+    ],
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para pintores",
+        "marketing redes sociales empresas pintura",
+        "community manager empresas pintura"
+      ],
+      "intent": "Profesional de pintura que quiere delegar su comunicación y presentar el valor del trabajo, no propietario que busca una tarifa de pintura.",
+      "distinctFrom": "Se centra en preparación, luz, acabados y material comparable. Reformas trata decisiones de espacio y coordinación de una intervención más amplia.",
+      "sources": [
+        {
+          "url": "https://www.procolor.es/es/consejos/empresas/marketing-en-redes-sociales-para-pintores",
+          "observation": "El resultado indexado del fabricante aconseja imágenes de trabajos con permiso y atención al público objetivo. La apertura directa devuelve 403; se registra ese límite y no se usa como prueba de métricas."
+        },
+        {
+          "url": "https://digitalweb.pt/gestao-de-redes-sociais/gestao-de-redes-sociais-pintores/",
+          "observation": "La oferta portuguesa observada en búsqueda trabaja pares de imágenes y contexto del oficio. No se extrapola su mercado a volúmenes españoles."
+        }
+      ],
+      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
+    }
   }
 ]
