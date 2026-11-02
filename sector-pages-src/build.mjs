@@ -57,10 +57,14 @@ const hubBody = `<nav class="breadcrumb" aria-label="Ruta de navegación"><a hre
 const hubTitle = 'Gestión de redes sociales por sectores | Dania360';
 const hubDescription = 'Encuentra la gestión de redes sociales para tu actividad. Ejemplos y enfoques por sector, con web y bot de IA en Growth por 297 €/mes. Auditoría gratis.';
 writeFileSync(resolve(root, 'sectores/index.html'), shell({path:'/sectores/',title:hubTitle,description:hubDescription,body:hubBody,graph:[organization,{'@type':'CollectionPage',url:site+'/sectores/',name:hubTitle,description:hubDescription,mainEntity:{'@type':'ItemList',itemListElement:[...pages.map(p=>[pathFor(p),p.name]),...existing].map(([url,name],i)=>({'@type':'ListItem',position:i+1,name,url:site+url}))}}]}),'utf8');
-// Explicit, stable release dates; regenerating must not pretend the content changed today.
+// Authored content dates: a rebuild must not pretend every page changed today.
 let sitemap = readFileSync(resolve(root, 'sitemap.xml'), 'utf8');
-for (const path of ['/sectores/',...pages.map(pathFor)]) {
-  if (!sitemap.includes(`<loc>${site}${path}</loc>`)) sitemap = sitemap.replace('</urlset>', `  <url><loc>${site}${path}</loc><lastmod>2026-11-02</lastmod></url>\n</urlset>`);
+for (const p of pages) if (!/^\d{4}-\d{2}-\d{2}$/.test(p.contentModified ?? '')) throw new Error(`${p.slug}: falta una fecha de contenido explícita`);
+const hubModified = pages.map(p=>p.contentModified).sort().at(-1);
+for (const [path,modified] of [['/sectores/',hubModified],...pages.map(p=>[pathFor(p),p.contentModified])]) {
+  const loc = `<loc>${site}${path}</loc>`;
+  if (!sitemap.includes(loc)) sitemap = sitemap.replace('</urlset>', `  <url>${loc}<lastmod>${modified}</lastmod></url>\n</urlset>`);
+  else sitemap = sitemap.split(/(<url>[\s\S]*?<\/url>)/g).map(block=>block.includes(loc)?block.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${modified}</lastmod>`):block).join('');
 }
 writeFileSync(resolve(root, 'sitemap.xml'), sitemap, 'utf8');
 console.log(`${pages.length} landings originales y el índice sectorial generados; no publicados.`);

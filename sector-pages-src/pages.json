@@ -74,7 +74,8 @@
         }
       ],
       "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 12,
@@ -147,7 +148,8 @@
         }
       ],
       "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 13,
@@ -222,7 +224,8 @@
         }
       ],
       "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 14,
@@ -297,7 +300,8 @@
         }
       ],
       "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 15,
@@ -378,7 +382,8 @@
         }
       ],
       "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 16,
@@ -452,7 +457,8 @@
         }
       ],
       "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 17,
@@ -528,7 +534,8 @@
         }
       ],
       "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 18,
@@ -602,7 +609,8 @@
         }
       ],
       "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 19,
@@ -678,7 +686,8 @@
         }
       ],
       "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado."
-    }
+    },
+    "contentModified": "2026-11-02"
   },
   {
     "id": 20,
@@ -757,6 +766,7 @@
         }
       ],
       "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
-    }
+    },
+    "contentModified": "2026-11-02"
   }
 ]
