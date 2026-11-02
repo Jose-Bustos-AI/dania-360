@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Presentar una pregunta de uso en el concesionario</title>
+<desc id="art-desc">Vehículo abstracto sobre una plataforma de exposición con tres relaciones editoriales: uso, detalle y conversación. No es un modelo real.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#15120f"/>
+<path d="M77 335L208 293H505L567 335L450 380H170Z" fill="#34261b" stroke="#b8a38a" stroke-width="2"/>
+<path d="M132 280L191 259L227 207H382L437 249L505 265V319H132Z" fill="#eee5d5" stroke="#eee5d5" stroke-width="4"/>
+<path d="M244 222H372L411 255H217Z" fill="#6d5a45"/>
+<circle cx="217" cy="313" r="27" fill="#15120f" stroke="#b8a38a" stroke-width="7"/><circle cx="435" cy="313" r="27" fill="#15120f" stroke="#b8a38a" stroke-width="7"/>
+<path d="M198 224L145 173H85M377 226V151M487 271L551 211" fill="none" stroke="#FF7139" stroke-width="4"/>
+<circle cx="198" cy="224" r="6" fill="#FF7139"/><circle cx="377" cy="226" r="6" fill="#FF7139"/><circle cx="487" cy="271" r="6" fill="#FF7139"/>
+<text x="40" y="57" fill="#eee5d5" font-size="27" font-weight="700">UN MODELO, UNA PREGUNTA</text>
+<text x="55" y="156" fill="#eee5d5" font-size="25">Uso</text><text x="335" y="135" fill="#eee5d5" font-size="25">Detalle</text>
+<text x="383" y="428" fill="#FF7139" font-size="26">Conversación →</text>
+
+</g>
+</svg>

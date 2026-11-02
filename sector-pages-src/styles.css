@@ -299,3 +299,63 @@
   .fincas-route-branches article,.security-piece-copy{padding:24px}
   .fincas-route-branches{gap:18px}
 }
+
+/* Mechanical workshops: reception copy and the stages confirmed by the garage. */
+.layout-talleres-mecanicos h1{font-size:clamp(2.15rem,3.7vw,3.8rem);max-width:23ch}
+.layout-talleres-mecanicos .workshop-opening,.layout-talleres-mecanicos .workshop-material,.layout-talleres-mecanicos .workshop-followup{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-talleres-mecanicos .workshop-service-copy p,.layout-talleres-mecanicos .workshop-service-intro>p:not(.kicker),.layout-talleres-mecanicos .workshop-example-heading>p:not(.kicker){color:var(--muted)}
+.layout-talleres-mecanicos .workshop-reception{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:stretch}
+.layout-talleres-mecanicos .workshop-example-heading{grid-column:1/-1;max-width:850px}
+.layout-talleres-mecanicos .workshop-post{border-left:4px solid var(--orange);padding:32px;background:#19130f}
+.layout-talleres-mecanicos .workshop-post h3,.layout-talleres-mecanicos .workshop-first-reply h3{font-size:1.4rem;margin-bottom:22px}
+.layout-talleres-mecanicos .workshop-post p{margin-bottom:0}
+.layout-talleres-mecanicos .workshop-first-reply{border:1px solid var(--line);padding:28px}
+.layout-talleres-mecanicos .workshop-first-reply .scope{font-size:.87rem;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin:22px 0 0}
+.layout-talleres-mecanicos .workshop-material>.section-intro,.layout-talleres-mecanicos .workshop-followup>.section-intro{margin:0}
+.layout-talleres-mecanicos .workshop-material-list{margin:0}
+.layout-talleres-mecanicos .workshop-material-list>div{border-top:1px solid var(--line);padding:18px 0}
+.layout-talleres-mecanicos .workshop-material-list>div:first-child{padding-top:0;border-top:0}
+.layout-talleres-mecanicos .workshop-material-list dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-talleres-mecanicos .workshop-material-list dd{margin:0;color:var(--muted)}
+.layout-talleres-mecanicos .workshop-material>p,.layout-talleres-mecanicos .workshop-followup>p{grid-column:1/-1;color:var(--muted);max-width:86ch}
+.layout-talleres-mecanicos .workshop-contact-stages{padding-left:24px;margin:0}
+.layout-talleres-mecanicos .workshop-contact-stages li+li{margin-top:28px}
+.layout-talleres-mecanicos .workshop-contact-stages li::marker{color:var(--orange);font-weight:750}
+.layout-talleres-mecanicos .workshop-contact-stages h3{margin-bottom:10px}
+.layout-talleres-mecanicos .workshop-contact-stages p{color:var(--muted);margin-bottom:0}
+
+/* Dealerships: model presentation frames and the responsibilities of the centre. */
+.layout-concesionarios .hero{grid-template-columns:1fr 1.1fr;gap:44px}
+.layout-concesionarios .hero figure{order:-1}
+.layout-concesionarios h1{font-size:clamp(2.15rem,3.6vw,3.65rem);max-width:22ch}
+.layout-concesionarios .dealership-local,.layout-concesionarios .dealership-production,.layout-concesionarios .dealership-followup{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-concesionarios .dealership-local-copy p,.layout-concesionarios .dealership-followup-copy p{color:var(--muted)}
+.layout-concesionarios .dealership-example-intro{max-width:850px}
+.layout-concesionarios .dealership-example-intro>p:not(.kicker){color:var(--muted)}
+.layout-concesionarios .dealership-storyboard{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:32px}
+.layout-concesionarios .dealership-storyboard article{border:1px solid var(--line);padding:28px 24px;background:#100e0b}
+.layout-concesionarios .dealership-storyboard article+article{border-left:0}
+.layout-concesionarios .dealership-storyboard h3{font-size:1.25rem;margin-bottom:20px}
+.layout-concesionarios .dealership-storyboard article>p:last-child{color:var(--muted);font-size:.95rem;margin-bottom:0}
+.layout-concesionarios .dealership-frame-label{color:var(--orange);font-size:.73rem;letter-spacing:.1em;font-weight:800;text-transform:uppercase;margin-bottom:22px}
+.layout-concesionarios .dealership-sample-copy{max-width:860px;margin-top:34px;border-left:3px solid var(--orange);padding:10px 0 10px 28px}
+.layout-concesionarios .dealership-sample-copy h3{font-size:1.4rem;margin-bottom:20px}
+.layout-concesionarios .dealership-sample-copy p{margin-bottom:0}
+.layout-concesionarios .dealership-production>.section-intro{margin:0}
+.layout-concesionarios .dealership-responsibilities{margin:0}
+.layout-concesionarios .dealership-responsibilities>div{border-top:1px solid var(--line);padding:18px 0}
+.layout-concesionarios .dealership-responsibilities>div:first-child{padding-top:0;border-top:0}
+.layout-concesionarios .dealership-responsibilities dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-concesionarios .dealership-responsibilities dd{margin:0;color:var(--muted)}
+.layout-concesionarios .dealership-production>p{grid-column:1/-1;color:var(--muted);max-width:86ch}
+@media(max-width:850px){
+  .layout-talleres-mecanicos .workshop-opening,.layout-talleres-mecanicos .workshop-material,.layout-talleres-mecanicos .workshop-followup,.layout-talleres-mecanicos .workshop-reception,.layout-concesionarios .hero,.layout-concesionarios .dealership-local,.layout-concesionarios .dealership-production,.layout-concesionarios .dealership-followup{grid-template-columns:1fr;gap:28px}
+  .layout-concesionarios .hero figure{order:0}
+  .layout-talleres-mecanicos .workshop-material>p,.layout-talleres-mecanicos .workshop-followup>p,.layout-concesionarios .dealership-production>p{grid-column:auto}
+  .layout-concesionarios .dealership-storyboard{grid-template-columns:1fr}
+  .layout-concesionarios .dealership-storyboard article+article{border-left:1px solid var(--line);border-top:0}
+}
+@media(max-width:540px){
+  .layout-talleres-mecanicos .workshop-post,.layout-talleres-mecanicos .workshop-first-reply,.layout-concesionarios .dealership-storyboard article{padding:24px}
+  .layout-concesionarios .dealership-sample-copy{padding-left:20px}
+}

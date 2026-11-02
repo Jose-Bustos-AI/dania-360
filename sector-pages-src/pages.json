@@ -1647,5 +1647,179 @@
         "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla atención de comentarios, mensajes y reseñas en los canales incluidos e informe mensual de actividad y visibilidad local. Tu empresa confirma las valoraciones, las visitas y las condiciones del servicio."
       ]
     ]
+  },
+  {
+    "id": 31,
+    "slug": "talleres-mecanicos",
+    "name": "Talleres mecánicos",
+    "hubGroup": "automocion",
+    "title": "Gestión de redes sociales para talleres mecánicos | Dania360",
+    "description": "Presenta los servicios de tu taller y facilita las consultas con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "h1": "Gestión de redes sociales para talleres mecánicos",
+    "eyebrow": "De la recepción al contenido",
+    "lead": "Gestionamos las redes de tu taller mecánico para presentar sus servicios y atender las consultas que generan. Tu equipo aporta la información del negocio; Dania360 prepara las publicaciones y la atención incluida en Growth. Por 297 €/mes tienes también web y bot de IA.",
+    "promise": "Que el conductor entienda qué puede consultar y cómo empezar.",
+    "layout": "talleres-mecanicos",
+    "artAlt": "Dibujo conceptual de un vehículo y un punto de recepción para explicar el primer contacto con un taller",
+    "artCaption": "Ilustración editorial original. No representa un taller, una avería o un vehículo de un cliente.",
+    "resourceTitle": "Una publicación para explicar cómo recibe tu taller un vehículo",
+    "resourcePresentation": {
+      "description": "Una publicación completa sobre la recepción, una primera respuesta al conductor y las comprobaciones para adaptarlas a la forma de trabajar de tu taller.",
+      "linkLabel": "Descargar el ejemplo de recepción del taller",
+      "documentSubtitle": "Publicación y respuesta originales de Dania360 para un taller mecánico. Ejemplo conceptual para adaptar al procedimiento real del negocio."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para talleres mecánicos",
+        "marketing para talleres mecánicos",
+        "community manager taller mecánico",
+        "redes sociales taller de coches"
+      ],
+      "intent": "Servicio comercial para un taller que quiere delegar contenido y atención digital sobre su actividad. La landing vende la gestión de redes de Dania360, no una reparación o un diagnóstico del vehículo.",
+      "distinctFrom": "Se centra en el servicio que recibe el taller y en recepción. No utiliza el estado de una unidad de ocasión ni el acabado de carrocería como argumento.",
+      "sources": [
+        {
+          "url": "https://www.marketingtaller.es/sobre-nosotros/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La agencia ofrece web, redes y reputación para talleres mecánicos y carrocería. Se contrasta la existencia de una oferta comercial del sector. Sus garantías, exclusividad, experiencia y estimaciones de ingresos no se adoptan como hechos ni prestaciones de Dania360."
+        },
+        {
+          "url": "https://www.marketingdeltaller.es/",
+          "access": "prior_direct_primary_provider_read_recorded_in_brief",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La investigación previa registra una oferta de automatización para talleres. La propuesta de Dania360 conserva el bot web de Growth; no incorpora por comparación voz, agenda, presupuestos o WhatsApp automatizado."
+        }
+      ],
+      "demand": "Consultas candidatas y oferta sectorial estudiadas de forma cualitativa. No se han medido volumen, dificultad o posiciones de Google.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "LA RECEPCIÓN DEL TALLER TAMBIÉN SE PUEDE CONTAR",
+      "Ejemplo editorial original de Dania360. Se adapta al procedimiento real del taller.",
+      "",
+      "LA IDEA DE LA PUBLICACIÓN",
+      "Mostrar dónde empieza la atención cuando una persona quiere consultar un servicio programado. La pieza presenta al equipo de recepción y explica qué ocurre antes de aceptar un trabajo.",
+      "",
+      "MATERIAL QUE PUEDE APORTAR EL NEGOCIO",
+      "Una imagen del punto de recepción, un detalle del espacio de trabajo sin datos de clientes y una explicación breve del responsable sobre el procedimiento. Conviene elegir una sola prestación que el taller ofrezca realmente. El ejemplo no necesita mostrar una avería ni hacer una recomendación técnica.",
+      "",
+      "TEXTO PROPUESTO PARA LA PUBLICACIÓN",
+      "Cuando nos consultas por un servicio para tu coche, empezamos por conocer qué necesitas y los datos del vehículo. El equipo revisa la petición y te explica cómo continuar. Si hace falta una valoración, te indicaremos el siguiente paso antes de hablar de un trabajo concreto. Puedes escribir a recepción y contarnos qué servicio quieres consultar.",
+      "",
+      "RESPUESTA PROPUESTA A UNA PRIMERA CONSULTA",
+      "Gracias por escribirnos. Cuéntanos qué servicio quieres consultar y los datos del vehículo para trasladarlo a recepción. El taller te confirmará cómo preparar la atención y si es necesario acordar una visita.",
+      "",
+      "QUÉ REVISAR ANTES DE PUBLICAR",
+      "Confirmar que el recorrido descrito coincide con la forma de trabajar del taller. Revisar el material para evitar nombres, documentos, matrículas o pantallas de clientes. El responsable valida cualquier referencia técnica.",
+      "",
+      "QUÉ ANOTAR DESPUÉS",
+      "Separar la consulta recibida de la cita que confirme recepción y del trabajo que acepte el conductor. Las visualizaciones de la pieza describen su difusión; esas otras etapas requieren el seguimiento del taller."
+    ],
+    "faq": [
+      [
+        "¿Quién confirma las citas que llegan desde las redes?",
+        "La petición se dirige al canal de recepción que acuerdes. Tu equipo revisa qué necesita el conductor y confirma la cita y la disponibilidad. La gestión de mensajes permite atender y orientar la consulta; la valoración del vehículo y el trabajo que se acepte corresponden al taller."
+      ],
+      [
+        "¿Tenemos que mostrar reparaciones de clientes para empezar?",
+        "Podemos preparar contenido sobre el equipo, los servicios y la forma de atender utilizando material autorizado del negocio. Una imagen del espacio y una explicación del responsable pueden servir para presentar el taller. Cuando se utiliza material de un trabajo, el negocio confirma su información y qué puede difundirse."
+      ],
+      [
+        "¿La web del taller y el bot de IA están incluidos en Growth?",
+        "Sí. Growth cuesta 297 €/mes e incluye gestión de redes y todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El bot responde con la información configurada. No se presupone una integración con la agenda o el programa de gestión del taller."
+      ],
+      [
+        "¿Podéis publicar precios o explicaciones técnicas del taller?",
+        "Trabajamos con la información que tu equipo pueda confirmar y revisar. El responsable valida las explicaciones técnicas y las condiciones de cualquier precio o promoción antes de utilizarlas. Una publicación presenta el servicio; una reparación concreta puede requerir la valoración profesional del vehículo."
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "concesionarios",
+    "name": "Concesionarios de vehículos",
+    "hubGroup": "automocion",
+    "title": "Gestión de redes sociales para concesionarios | Dania360",
+    "description": "Convierte el material de tu concesionario en contenido sobre modelos, centro y atención. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
+    "h1": "Gestión de redes sociales para concesionarios",
+    "eyebrow": "El centro detrás de cada modelo",
+    "lead": "La gestión de redes de tu concesionario conecta el material de cada modelo con la información y la atención del centro. Preparamos contenido y atendemos los comentarios y mensajes incluidos en Growth, con web y bot de IA por 297 €/mes.",
+    "promise": "Presenta el vehículo y facilita la conversación con tu equipo comercial.",
+    "layout": "concesionarios",
+    "artAlt": "Vehículo abstracto en una exposición con relaciones entre uso, detalle y conversación con el concesionario",
+    "artCaption": "Composición conceptual original. No corresponde a una marca, modelo, equipamiento o unidad de exposición reales.",
+    "resourceTitle": "Cómo presentar un vehículo de exposición sin repetir una ficha técnica",
+    "resourcePresentation": {
+      "description": "Un guion para elegir una pregunta de uso, seleccionar material del vehículo y redactar una presentación que continúe con el equipo del centro.",
+      "linkLabel": "Descargar el guion para presentar un modelo",
+      "documentSubtitle": "Guion editorial original de Dania360 para un concesionario. Propuesta conceptual sin marca, modelo o condiciones comerciales asignados."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para concesionarios",
+        "marketing concesionarios coches",
+        "community manager concesionario",
+        "redes sociales concesionario de coches"
+      ],
+      "intent": "Servicio comercial para un concesionario que quiere delegar la comunicación de modelos, novedades y atención digital del centro. No es una página de compra de coches o financiación.",
+      "distinctFrom": "Presenta modelos y la relación del interesado con el centro. La compraventa independiente se centrará en cada unidad de ocasión y su estado vigente; aquí no se simula un inventario.",
+      "sources": [
+        {
+          "url": "https://monolits.studio/gestion-de-redes-sociales-para-concesionarios-2/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La oferta distingue modelos, campañas de marca, producción presencial y seguimiento. Se estudia esa intención comercial; sus rodajes, atribución CRM, precios, experiencia, garantías de cumplimiento y resultados no se incorporan a Growth."
+        }
+      ],
+      "demand": "Oferta comercial específica contrastada y consultas candidatas. No se han medido volumen de búsqueda, dificultad, demanda agregada ni posiciones.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "DEL VEHÍCULO DE EXPOSICIÓN A UNA CONVERSACIÓN EN EL CENTRO",
+      "Guion editorial original de Dania360. No corresponde a un modelo ni a una campaña de fabricante.",
+      "",
+      "UNA PREGUNTA PARA ABRIR LA PIEZA",
+      "¿Qué te gustaría entender de un coche antes de venir a verlo? La publicación elige una cuestión de uso que el equipo pueda explicar con material del modelo mostrado.",
+      "",
+      "LA SECUENCIA PROPUESTA",
+      "Primero, una vista general identifica el vehículo sobre el que se va a hablar. Después, un detalle autorizado permite desarrollar una característica concreta. El cierre presenta al centro y explica dónde continuar la consulta. El material de fabricante y las grabaciones del negocio deben tener permiso para ese uso.",
+      "",
+      "TEXTO DE ACOMPAÑAMIENTO PROPUESTO",
+      "Una fotografía permite reconocer el diseño. Una conversación ayuda a entender si el modelo encaja con lo que buscas. En esta presentación nos detenemos en una cuestión de uso y en el detalle que permite explicarla. Escríbenos qué te interesa conocer y el equipo del centro te facilitará la información del vehículo mostrado.",
+      "",
+      "CÓMO COMPLETAR EL GUION",
+      "El concesionario elige el modelo y la cuestión que quiere tratar. Confirma qué versión aparece y qué se puede afirmar del detalle seleccionado. Dania360 prepara la pieza con esa información y una llamada a continuar la conversación.",
+      "",
+      "COMPROBACIONES DEL CENTRO",
+      "Si se incluye una oferta, revisar su vigencia y sus condiciones antes de utilizarla. Disponibilidad, equipamiento, prueba, precio y financiación se confirman con el equipo comercial. La publicación no debe dar por hecho que una imagen genérica representa una unidad concreta.",
+      "",
+      "SEGUIMIENTO",
+      "Registrar qué preguntó la persona y si el centro pudo atender su interés. Un mensaje o una visita al perfil no acredita una prueba del vehículo ni una venta."
+    ],
+    "faq": [
+      [
+        "¿Podéis trabajar con material del fabricante?",
+        "Podemos preparar contenido con el material que el concesionario facilite y esté autorizado a utilizar. Tu equipo confirma qué vehículo aparece, qué información corresponde a esa versión y qué indicaciones de marca deben respetarse. La presentación del centro y de su relación con los fabricantes debe ser verificable."
+      ],
+      [
+        "¿Incluye Growth una sesión de grabación en el concesionario?",
+        "La cuota oficial de Growth no incluye grabaciones presenciales. El contenido puede prepararse con imágenes y vídeos autorizados que aporte el centro, además de recursos editoriales que expliquen su actividad. Antes de utilizar una pieza se revisa que el material y el texto correspondan al modelo o al servicio presentado."
+      ],
+      [
+        "¿El bot de la web puede confirmar stock o una prueba del vehículo?",
+        "El bot responde con la información configurada para orientar la consulta y facilitar su continuación. La disponibilidad, las ofertas y las visitas o pruebas las confirma el equipo del concesionario. Growth no presupone una integración con inventario, reservas o el sistema comercial del centro."
+      ],
+      [
+        "¿Qué incluye la gestión de redes con web y bot para un concesionario?",
+        "Growth cuesta 297 €/mes y reúne gestión de redes, comentarios, mensajes y reseñas en los canales incluidos, con informe mensual de actividad y visibilidad local. También incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El equipo comercial del concesionario continúa la valoración de cada contacto."
+      ]
+    ]
   }
 ]

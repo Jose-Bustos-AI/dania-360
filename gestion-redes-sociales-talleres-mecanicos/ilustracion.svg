@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">El primer contacto con el taller</title>
+<desc id="art-desc">Ilustración conceptual de un vehículo junto a recepción y un recorrido de consulta. No representa un taller o cliente real.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="640" height="480" rx="24" fill="#eee5d5"/>
+<path d="M48 380H592M72 132V380M72 132H568V380" fill="none" stroke="#3c3027" stroke-width="5"/>
+<path d="M99 135H541M99 160H541" stroke="#b8a38a" stroke-width="3"/>
+<path d="M115 308L135 253Q140 239 158 239H281Q294 239 302 254L325 308V349H115Z" fill="#d4c0a4" stroke="#3c3027" stroke-width="5"/>
+<path d="M150 253H277L296 299H132Z" fill="#eee5d5" stroke="#3c3027" stroke-width="3"/>
+<circle cx="153" cy="351" r="22" fill="#3c3027"/><circle cx="288" cy="351" r="22" fill="#3c3027"/>
+<rect x="392" y="278" width="159" height="101" fill="#FF7139"/>
+<path d="M416 277V241H504V277" fill="none" stroke="#3c3027" stroke-width="4"/>
+<path d="M205 205V190H471V226" fill="none" stroke="#FF7139" stroke-width="5" stroke-dasharray="8 8"/>
+<path d="M461 216L471 228L481 216" fill="none" stroke="#FF7139" stroke-width="5"/>
+<text x="44" y="62" fill="#3c3027" font-size="27" font-weight="700">ASÍ EMPIEZA LA ATENCIÓN</text>
+<text x="120" y="426" fill="#3c3027" font-size="25">Vehículo</text><text x="394" y="426" fill="#3c3027" font-size="25">Recepción</text>
+
+</g>
+</svg>
