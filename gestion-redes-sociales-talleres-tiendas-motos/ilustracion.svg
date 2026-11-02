@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Tres líneas de actividad en un negocio de motos</title>
+<desc id="art-desc">Motocicleta conceptual con tres áreas editoriales: taller, motos y accesorios. No representa una marca, un producto o un trabajo real.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#eee5d5"/>
+<text x="42" y="58" fill="#3c3027" font-size="27" font-weight="700">CADA ÁREA, SU MENSAJE</text>
+<circle cx="176" cy="282" r="60" fill="none" stroke="#3c3027" stroke-width="13"/><circle cx="476" cy="282" r="60" fill="none" stroke="#3c3027" stroke-width="13"/>
+<path d="M176 282L253 196H355L400 282H257L221 235M355 196L443 165L476 282M429 166H478M254 192H202" fill="none" stroke="#3c3027" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M263 183Q302 140 354 179L361 199H260Z" fill="#FF7139"/>
+<rect x="236" y="151" width="84" height="12" rx="6" fill="#3c3027"/>
+<rect x="274" y="222" width="70" height="57" rx="12" fill="#6d5a45" stroke="#3c3027" stroke-width="5"/><path d="M285 235H333M285 246H333M285 257H333" stroke="#eee5d5" stroke-width="3"/>
+<path d="M333 279L358 302H408" fill="none" stroke="#3c3027" stroke-width="9" stroke-linecap="round"/><circle cx="445" cy="190" r="12" fill="#FF7139" stroke="#3c3027" stroke-width="4"/>
+<path d="M182 352V382M320 306V382M476 352V382" stroke="#b8a38a" stroke-width="4"/>
+<rect x="55" y="382" width="151" height="52" rx="12" fill="#3c3027"/><rect x="240" y="382" width="151" height="52" rx="12" fill="#FF7139"/><rect x="425" y="382" width="174" height="52" rx="12" fill="#3c3027"/>
+<text x="95" y="416" fill="#eee5d5" font-size="25">Taller</text><text x="276" y="416" fill="#15120f" font-size="25">Motos</text><text x="445" y="416" fill="#eee5d5" font-size="25">Accesorios</text>
+
+</g>
+</svg>

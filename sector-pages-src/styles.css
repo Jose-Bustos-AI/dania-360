@@ -410,3 +410,121 @@
   .layout-compraventa-coches .used-publication-lifecycle li+li{padding-left:0;border-left:0}
   .layout-alquiler-vehiculos .rental-information>p{grid-column:auto}
 }
+
+/* Motorcycles: an activity map and a team presentation. */
+.layout-talleres-tiendas-motos h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-talleres-tiendas-motos .moto-activities{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.layout-talleres-tiendas-motos .moto-activities-heading>p:last-child,.layout-talleres-tiendas-motos .moto-preparation>p,.layout-talleres-tiendas-motos .moto-web p{color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-activity-map{margin:0;border-left:3px solid var(--orange);padding-left:28px}
+.layout-talleres-tiendas-motos .moto-activity-map>div+div{border-top:1px solid var(--line);margin-top:24px;padding-top:24px}
+.layout-talleres-tiendas-motos .moto-activity-map dt{color:var(--orange);font-size:1.25rem;font-weight:800;margin-bottom:12px}
+.layout-talleres-tiendas-motos .moto-activity-map dd{margin:0;color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-team-piece{display:grid;grid-template-columns:.85fr 1.15fr;gap:32px}
+.layout-talleres-tiendas-motos .moto-team-piece header{grid-column:1/-1;max-width:880px}
+.layout-talleres-tiendas-motos .moto-team-piece header>p:last-child{color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-piece-plan{padding:28px 0;border-top:1px solid var(--line)}
+.layout-talleres-tiendas-motos .moto-piece-plan ol{padding-left:24px;color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-piece-plan li+li{margin-top:18px}
+.layout-talleres-tiendas-motos .moto-piece-copy{padding:30px;background:var(--panel);border:1px solid var(--line)}
+.layout-talleres-tiendas-motos .moto-piece-copy>p:last-child{margin-bottom:0}
+.layout-talleres-tiendas-motos .moto-preparation{max-width:900px}
+.layout-talleres-tiendas-motos .moto-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+
+/* Tyre centres: a clear first question, reply and explanatory publication. */
+.layout-centros-neumaticos .hero{grid-template-columns:1fr .9fr}
+.layout-centros-neumaticos h1{font-size:clamp(2.1rem,3.5vw,3.6rem)}
+.layout-centros-neumaticos .tyre-service{max-width:1000px}
+.layout-centros-neumaticos .tyre-service-copy{display:grid;grid-template-columns:1fr 1fr;gap:36px;color:var(--muted)}
+.layout-centros-neumaticos .tyre-consultation{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}
+.layout-centros-neumaticos .tyre-question{grid-row:span 2}
+.layout-centros-neumaticos .tyre-question>p:last-child{color:var(--muted)}
+.layout-centros-neumaticos .tyre-reply{border-left:3px solid var(--orange);padding:28px;background:var(--panel)}
+.layout-centros-neumaticos .tyre-reply-note{font-size:.88rem;color:var(--muted);margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.layout-centros-neumaticos .tyre-post{border-top:1px solid var(--line);padding:26px 0 0}
+.layout-centros-neumaticos .tyre-editorial dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:30px 0 0}
+.layout-centros-neumaticos .tyre-editorial dt{font-size:1.15rem;color:var(--orange);font-weight:750;margin-bottom:15px}
+.layout-centros-neumaticos .tyre-editorial dd{margin:0;color:var(--muted)}
+.layout-centros-neumaticos .tyre-contact{max-width:900px}
+.layout-centros-neumaticos .tyre-contact>p:not(.kicker){color:var(--muted)}
+
+/* Bodywork: a contact sheet about context, detail and finish. */
+.layout-chapa-pintura h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-chapa-pintura .bodyshop-scope,.layout-chapa-pintura .bodyshop-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-chapa-pintura .bodyshop-scope p:not(.kicker),.layout-chapa-pintura .bodyshop-web p,.layout-chapa-pintura .bodyshop-material p{color:var(--muted)}
+.layout-chapa-pintura .bodyshop-contact-sheet header{max-width:900px}
+.layout-chapa-pintura .bodyshop-contact-sheet header>p:last-child{color:var(--muted)}
+.layout-chapa-pintura .bodyshop-frames{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:34px 0}
+.layout-chapa-pintura .bodyshop-frames li{margin:0;padding:28px 24px;border-top:3px solid var(--orange);background:#100f0e}
+.layout-chapa-pintura .bodyshop-frames span{display:block;color:var(--orange);font-size:.78rem;font-weight:750;letter-spacing:.08em;margin-bottom:24px}
+.layout-chapa-pintura .bodyshop-frames h3{font-size:1.35rem}
+.layout-chapa-pintura .bodyshop-frames p{color:var(--muted);margin-bottom:0}
+.layout-chapa-pintura .bodyshop-sample{border-left:1px solid var(--orange);padding:10px 0 10px 28px;max-width:880px}
+.layout-chapa-pintura .bodyshop-sample p{margin-bottom:0}
+.layout-chapa-pintura .bodyshop-material{max-width:900px}
+
+/* Detailing: a shot list that explains the role of each view. */
+.layout-detailing .hero{grid-template-columns:1fr 1fr}
+.layout-detailing .hero figure{order:-1}
+.layout-detailing .detail-opening{max-width:900px}
+.layout-detailing .detail-opening>p:not(.kicker),.layout-detailing .detail-sequence header>p:last-child{color:var(--muted)}
+.layout-detailing .detail-sequence header{max-width:900px}
+.layout-detailing .detail-sequence-rows{margin-top:34px}
+.layout-detailing .detail-sequence-rows article{display:grid;grid-template-columns:.55fr .8fr 1.3fr;gap:30px;padding:28px 0;border-top:1px solid var(--line)}
+.layout-detailing .detail-sequence-rows article>p{color:var(--orange);font-weight:800;font-size:.85rem;margin:0}
+.layout-detailing .detail-sequence-rows h3{font-size:1.4rem;margin:0}
+.layout-detailing .detail-sequence-rows article>div{color:var(--muted)}
+.layout-detailing .detail-caption{margin-top:30px;padding:30px;background:var(--panel);max-width:900px}
+.layout-detailing .detail-caption p{margin-bottom:0}
+.layout-detailing .detail-evidence{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-detailing .detail-evidence p:not(.kicker),.layout-detailing .detail-web p{color:var(--muted)}
+.layout-detailing .detail-web{max-width:900px}
+
+/* Motorhomes: an interior story followed by two commercial destinations. */
+.layout-autocaravanas .hero{grid-template-columns:.95fr 1.05fr}
+.layout-autocaravanas .hero figure{order:-1}
+.layout-autocaravanas h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-autocaravanas .camper-interior,.layout-autocaravanas .camper-web{display:grid;grid-template-columns:.85fr 1.15fr;gap:46px}
+.layout-autocaravanas .camper-interior p:not(.kicker),.layout-autocaravanas .camper-web p,.layout-autocaravanas .camper-preparation p{color:var(--muted)}
+.layout-autocaravanas .camper-tour header{max-width:890px}
+.layout-autocaravanas .camper-tour header>p:last-child{color:var(--muted)}
+.layout-autocaravanas .camper-tour-caption{padding:28px 0;border-top:1px solid var(--line);max-width:890px;margin-top:32px}
+.layout-autocaravanas .camper-tour-caption p{margin-bottom:0}
+.layout-autocaravanas .camper-two-closings{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.layout-autocaravanas .camper-two-closings article{padding:28px;border:1px solid var(--line);background:var(--panel)}
+.layout-autocaravanas .camper-two-closings article:last-child{border-top:3px solid var(--orange)}
+.layout-autocaravanas .camper-two-closings h3{font-size:1.4rem}
+.layout-autocaravanas .camper-two-closings article>p:last-child{margin-bottom:0}
+.layout-autocaravanas .camper-preparation{max-width:900px}
+
+/* Driving schools: a presentation and its first message, without invented pupils. */
+.layout-autoescuelas h1{font-size:clamp(2.1rem,3.8vw,3.9rem);max-width:23ch}
+.layout-autoescuelas .driving-centre{max-width:1040px}
+.layout-autoescuelas .driving-centre>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-autoescuelas .driving-conversation header{max-width:900px}
+.layout-autoescuelas .driving-conversation header>p:last-child{color:var(--muted)}
+.layout-autoescuelas .driving-message-thread{max-width:950px;margin-top:34px;display:grid;gap:24px}
+.layout-autoescuelas .driving-message-thread article{max-width:850px;padding:30px;background:var(--panel);border:1px solid var(--line);border-radius:0 24px 24px 24px}
+.layout-autoescuelas .driving-message-thread article+article{margin-left:60px;border-radius:24px 0 24px 24px;border-right:3px solid var(--orange)}
+.layout-autoescuelas .driving-message-label{color:var(--orange);font-size:.76rem;letter-spacing:.08em;font-weight:800;text-transform:uppercase}
+.layout-autoescuelas .driving-message-thread h3{font-size:1.45rem}
+.layout-autoescuelas .driving-message-thread article>p:last-child{margin-bottom:0}
+.layout-autoescuelas .driving-preparation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-autoescuelas .driving-preparation dl{margin:0}
+.layout-autoescuelas .driving-preparation dl>div+div{border-top:1px solid var(--line);padding-top:22px;margin-top:22px}
+.layout-autoescuelas .driving-preparation dt{color:var(--orange);font-weight:750;margin-bottom:12px}
+.layout-autoescuelas .driving-preparation dd{color:var(--muted);margin:0}
+.layout-autoescuelas .driving-web{max-width:900px}
+.layout-autoescuelas .driving-web p{color:var(--muted)}
+@media(max-width:850px){
+  .layout-talleres-tiendas-motos .moto-activities,.layout-talleres-tiendas-motos .moto-team-piece,.layout-talleres-tiendas-motos .moto-web,.layout-centros-neumaticos .hero,.layout-centros-neumaticos .tyre-service-copy,.layout-centros-neumaticos .tyre-consultation,.layout-centros-neumaticos .tyre-editorial dl,.layout-chapa-pintura .bodyshop-scope,.layout-chapa-pintura .bodyshop-web,.layout-chapa-pintura .bodyshop-frames,.layout-detailing .hero,.layout-detailing .detail-sequence-rows article,.layout-detailing .detail-evidence,.layout-autocaravanas .hero,.layout-autocaravanas .camper-interior,.layout-autocaravanas .camper-web,.layout-autocaravanas .camper-two-closings,.layout-autoescuelas .driving-centre>div,.layout-autoescuelas .driving-preparation{grid-template-columns:1fr;gap:26px}
+  .layout-talleres-tiendas-motos .moto-team-piece header{grid-column:auto}
+  .layout-centros-neumaticos .tyre-question{grid-row:auto}
+  .layout-detailing .hero figure,.layout-autocaravanas .hero figure{order:0}
+  .layout-detailing .detail-sequence-rows article{gap:14px}
+}
+@media(max-width:540px){
+  .layout-talleres-tiendas-motos .moto-piece-copy,.layout-centros-neumaticos .tyre-reply,.layout-chapa-pintura .bodyshop-frames li,.layout-detailing .detail-caption,.layout-autocaravanas .camper-two-closings article,.layout-autoescuelas .driving-message-thread article{padding:24px}
+  .layout-autoescuelas .driving-message-thread article+article{margin-left:18px}
+  .layout-talleres-tiendas-motos .moto-activity-map{padding-left:20px}
+  .layout-chapa-pintura .bodyshop-sample{padding-left:20px}
+}

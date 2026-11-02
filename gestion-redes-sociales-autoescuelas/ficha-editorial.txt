@@ -1,0 +1,28 @@
+﻿UNA PRIMERA CONVERSACIÓN DE AUTOESCUELA QUE EXPLICA CÓMO PEDIR INFORMACIÓN
+Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real.
+
+DEL PERFIL DE LA AUTOESCUELA A UNA CONVERSACIÓN INFORMADA
+Ejemplo editorial original de Dania360 para presentar la atención del centro.
+
+LA PIEZA QUE SE PREPARA
+Una publicación presenta al equipo y explica dónde obtener información sobre la formación. La autoescuela elige qué servicio y qué centro quiere comunicar, y confirma el canal por el que continúa la conversación.
+
+MATERIAL PROPUESTO
+Una imagen autorizada del centro y otra del miembro del equipo que explica su función. El texto conecta esa presentación con una duda inicial frecuente, sin convertirla en una lección de conducción o una pregunta de examen.
+
+TEXTO PROPUESTO PARA LA PUBLICACIÓN
+Antes de empezar una formación, necesitas saber cómo informarte y con quién resolver tus dudas. En esta publicación te presentamos al equipo y la forma de hablar con nuestro centro. Cuéntanos qué formación te interesa y qué necesitas conocer para valorar el siguiente paso. Te explicaremos cómo preparar esa conversación.
+
+RESPUESTA PROPUESTA AL PRIMER MENSAJE
+Gracias por contactar con la autoescuela. ¿Qué formación te interesa y sobre qué centro quieres informarte? Indícanos qué necesitas saber y cómo prefieres continuar. El equipo te confirmará la oferta, las condiciones y los siguientes pasos que correspondan.
+
+ANTES DE PUBLICAR
+Revisar nombres, funciones y servicios con el responsable del centro. Utilizar solo material que pueda compartirse. La pieza puede presentar al equipo sin mostrar alumnos ni testimonios.
+
+QUÉ CONFIRMA LA AUTOESCUELA
+La información sobre matrícula, plazas, horarios, prácticas y exámenes corresponde al centro. El bot web puede orientar con la información configurada, pero no se presenta como una integración de la agenda docente.
+
+PARA EVALUAR EL CONTENIDO
+Distinguir las consultas recibidas de las matrículas que confirme la autoescuela. Ninguna de esas cifras equivale a una tasa de aprobado.
+
+https://dania360.com/gestion-redes-sociales-autoescuelas/
