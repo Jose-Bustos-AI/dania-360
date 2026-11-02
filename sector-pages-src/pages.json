@@ -768,5 +768,180 @@
       "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
     },
     "contentModified": "2026-11-02"
+  },
+  {
+    "id": 21,
+    "slug": "arquitectos",
+    "name": "Arquitectos y estudios de arquitectura",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para arquitectos | Dania360",
+    "description": "Redes sociales para estudios de arquitectura: proyectos, criterio y consultas. Growth por 297 €/mes con web y bot de IA incluidos. Pide tu auditoría gratis.",
+    "h1": "Gestión de redes sociales para arquitectos",
+    "eyebrow": "El criterio de tu estudio, explicado",
+    "lead": "Preparamos contenido que presenta tus servicios y explica las decisiones de tus proyectos. Gestionamos las redes, los comentarios y los mensajes incluidos en Growth, con una web y un bot de IA para que las consultas puedan continuar con tu estudio.",
+    "promise": "Que quien vea tu proyecto entienda qué puede encargarte.",
+    "layout": "arquitectos",
+    "artAlt": "Croquis conceptual de arquitectura con anotaciones de intención, decisión y representación",
+    "artCaption": "Lámina editorial original. Es un esquema conceptual, no el plano de un edificio o un proyecto de un cliente.",
+    "resourceTitle": "Cómo convertir una decisión de arquitectura en tres láminas",
+    "resourcePresentation": {
+      "description": "Un ejemplo completo con la pregunta inicial, la decisión que se explica y el texto que acompaña las láminas. Incluye criterios para adaptarlo al material de tu estudio.",
+      "linkLabel": "Descargar el ejemplo de las tres láminas",
+      "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de arquitectura. No representa un encargo real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para arquitectos",
+        "redes sociales estudios de arquitectura",
+        "community manager arquitectura",
+        "comunicación estudios arquitectura"
+      ],
+      "intent": "Servicio para el responsable de un estudio que quiere delegar su comunicación y explicar qué encargos acepta.",
+      "distinctFrom": "Arquitectura presenta el razonamiento y la autoría del proyecto. Construcción presenta la ejecución, reformas la intervención y alcance de los trabajos, e interiorismo la relación entre uso, materiales y ambiente.",
+      "sources": [
+        {
+          "url": "https://hexagonoblanco.com/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se ha contrastado la oferta de comunicación especializada. Dania360 desarrolla su propia demostración editorial y su alcance comercial confirmado; no asume la titulación ni la experiencia del proveedor consultado."
+        },
+        {
+          "url": "https://www.nachovillegas.com/",
+          "access": "indexed_search_result_only",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Referencia secundaria del estudio previo, con acceso limitado al resultado indexado. No se usa como evidencia de demanda cuantitativa ni para atribuir renders o visualización arquitectónica a Growth."
+        }
+      ],
+      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "UNA DECISIÓN DE ARQUITECTURA EN TRES LÁMINAS",
+      "Demostración editorial original de Dania360 para un estudio de arquitectura.",
+      "",
+      "1. LA PREGUNTA QUE ABRE LA PIEZA",
+      "Al entrar en un espacio por primera vez, ¿cómo sabes hacia dónde continuar?",
+      "Imagen propuesta: un croquis conceptual de entrada y recorrido. Se identifica como esquema de una idea, con atribución del autor cuando se adapte a un proyecto del estudio.",
+      "",
+      "2. LA DECISIÓN QUE SE EXPLICA",
+      "La entrada se plantea como un punto desde el que se entiende la relación entre las zonas de uso. La publicación conecta esa intención con una única decisión del proyecto, sin acumular términos técnicos.",
+      "Imagen propuesta: el mismo croquis con una sola relación destacada. Las medidas y los detalles constructivos quedan en la documentación del estudio.",
+      "",
+      "3. LA CONVERSACIÓN QUE SE INVITA A TENER",
+      "Antes de dibujar una solución, interesa entender qué debe poder hacer la gente en ese lugar. Cuéntanos qué uso quieres dar a tu espacio y en qué municipio se encuentra para preparar una primera conversación.",
+      "Imagen propuesta: una vista autorizada o una representación del estudio, identificando su condición y su autoría.",
+      "",
+      "TEXTO DE ACOMPAÑAMIENTO PROPUESTO",
+      "Una entrada también forma parte del proyecto. En esta propuesta conceptual, la pregunta es cómo reconocer el recorrido al llegar a un espacio cultural. El esquema permite explicar una intención antes de hablar de acabados: que la relación entre las zonas se entienda desde el acceso. Cada encargo parte de sus usos y de su contexto. Si estás planteando un espacio para una actividad, podemos empezar por esa conversación.",
+      "",
+      "PARA ADAPTARLO A UN ENCARGO DEL ESTUDIO",
+      "Seleccionar una decisión que el equipo pueda justificar. Confirmar qué parte del proyecto es suya. Aportar material con permiso de publicación y acreditar a quienes correspondan. El estudio revisa la explicación antes de utilizarla."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar proyectos que todavía no están construidos?",
+        "Sí. Podemos trabajar con croquis, representaciones y material que el estudio aporte y pueda publicar. Cada pieza explica la decisión que interesa comunicar e identifica si se trata de una propuesta o de una obra terminada. El equipo del estudio valida la explicación y las atribuciones del material. La gestión de redes no presupone que Dania360 produzca renders o documentación arquitectónica."
+      ],
+      [
+        "¿Necesito una cartera amplia de obras para empezar?",
+        "Podemos comenzar por los servicios, el equipo y la manera de abordar un encargo. Una decisión de proyecto bien explicada o una presentación del proceso del estudio también aportan información a quien está valorando contratarte. Si aún no hay obras terminadas que puedas enseñar, preparamos contenido con ese punto de partida, sin presentar referencias ajenas o imágenes conceptuales como proyectos ejecutados."
+      ],
+      [
+        "¿LinkedIn está incluido en el plan Growth?",
+        "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. LinkedIn pertenece a Scale. En la auditoría gratuita revisamos a qué tipo de cliente quiere dirigirse el estudio y qué canales encajan con esa relación comercial, para que conozcas el alcance antes de contratar."
+      ],
+      [
+        "¿Growth incluye también la web del estudio y un bot de IA?",
+        "Sí. Growth cuesta 297 €/mes e incluye la gestión de redes sociales y todo Starter: página web con chat y modo automático con IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El servicio también contempla atención de comentarios, mensajes y reseñas en los canales incluidos. El estudio conserva la valoración del encargo, la propuesta profesional y la confirmación de reuniones."
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "interioristas",
+    "name": "Interioristas y estudios de diseño de interiores",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para interioristas | Dania360",
+    "description": "Presenta tus servicios de interiorismo con contenido sobre usos, materiales y ambiente. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
+    "h1": "Gestión de redes sociales para interioristas",
+    "eyebrow": "Diseño de interiores que se entiende",
+    "lead": "Organizamos el contenido de tu estudio para explicar qué servicio ofreces y cómo planteas cada espacio. Growth reúne gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "promise": "Que guardar una imagen sea el comienzo de una conversación sobre tu servicio.",
+    "layout": "interioristas",
+    "artAlt": "Tablero conceptual de interiorismo con un espacio de trabajo y muestras dibujadas de color y textura",
+    "artCaption": "Tablero original de ambiente. No muestra una vivienda, un proyecto realizado ni productos de una marca.",
+    "resourceTitle": "Del tablero de ambiente a una publicación de interiorismo",
+    "resourcePresentation": {
+      "description": "Un ejemplo editorial completo sobre un espacio de trabajo en casa, con texto de publicación y pautas para explicar las imágenes que lo acompañan.",
+      "linkLabel": "Descargar el ejemplo de interiorismo",
+      "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de interiorismo. No corresponde a una vivienda o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para interioristas",
+        "redes sociales diseño de interiores",
+        "community manager interiorismo",
+        "marketing estudios interiorismo"
+      ],
+      "intent": "Servicio para un interiorista o responsable de estudio que quiere presentar su oferta y delegar la comunicación con posibles clientes.",
+      "distinctFrom": "El ejemplo explica un tablero de ambiente, su uso y el estado de las imágenes. No repite la cocina de reformas, la fabricación de muebles de carpintería ni el razonamiento del acceso al espacio cultural de arquitectura.",
+      "sources": [
+        {
+          "url": "https://www.naeviacomunicacion.es/marketing-digital-interioristas-arquitectos/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La oferta consultada diferencia gestión de redes y producción presencial de imágenes. Se contrasta ese alcance para explicar el servicio propio, sin trasladar precios, credenciales, clientes o sesiones de ese proveedor a Dania360."
+        }
+      ],
+      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "DEL AMBIENTE AL MENSAJE",
+      "Demostración editorial de Dania360 para un estudio de interiorismo.",
+      "",
+      "EL PUNTO DE PARTIDA",
+      "Una persona quiere trabajar en casa y seguir utilizando la habitación para otras actividades. La pieza debe explicar qué se ha tenido en cuenta, además de mostrar una combinación atractiva.",
+      "",
+      "CÓMO LEER EL TABLERO",
+      "Uso: qué actividades necesita acoger el espacio y qué elementos quiere conservar la persona.",
+      "Material: qué función cumple cada muestra en la propuesta. Al utilizar productos concretos, comprobar la información del fabricante y acreditar las imágenes que lo requieran.",
+      "Atmósfera: cómo se relacionan las decisiones de color y textura con el ambiente que se busca. Describir la intención, sin atribuir efectos médicos o resultados universales.",
+      "",
+      "TEXTO DE PUBLICACIÓN PROPUESTO",
+      "Un rincón de trabajo no empieza por elegir una mesa. Empieza por entender qué necesitas hacer allí y qué más ocurre en la habitación. Este tablero conceptual reúne tres conversaciones: el uso del espacio, la relación entre materiales y el ambiente que se quiere conseguir. Es una propuesta de partida, todavía pendiente de medidas y decisiones del proyecto. Si quieres transformar una estancia, cuéntanos cómo la utilizas hoy y qué te gustaría poder hacer en ella.",
+      "",
+      "TRES ETIQUETAS QUE EVITAN CONFUSIONES",
+      "Referencia: material que ayuda a explicar una dirección estética y cuya procedencia se indica.",
+      "Propuesta: representación del estudio que todavía no acredita una ejecución.",
+      "Trabajo terminado: imágenes del espacio realmente intervenido, con el alcance y los permisos confirmados.",
+      "",
+      "CIERRE DE LA PIEZA",
+      "El siguiente paso editorial es invitar a describir la estancia y su uso. La consulta de diseño se continúa con el estudio por el canal acordado."
+    ],
+    "faq": [
+      [
+        "¿Podéis preparar contenido con mis fotografías y tableros?",
+        "Sí. Revisamos el material que el estudio pueda publicar y lo acompañamos de una explicación de su servicio y sus decisiones de diseño. Identificamos si se trata de referencias, propuestas o espacios terminados y conservamos los créditos necesarios. La producción de renders y el desarrollo del proyecto de interiorismo corresponden al estudio o a los profesionales que contrate."
+      ],
+      [
+        "¿Growth incluye sesiones de fotos en las viviendas?",
+        "Las sesiones presenciales de fotografía y vídeo no figuran en el alcance oficial de Growth. Partimos del material disponible y acordamos qué puede prepararse con fotografías, dibujos, representaciones y vídeos que puedas aportar. Si ya tienes una sesión profesional, revisamos sus permisos de uso antes de utilizarla en publicaciones."
+      ],
+      [
+        "¿Qué redes sociales se gestionan con Growth?",
+        "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. El plan contempla una publicación al día, 30 al mes, con vídeos de 15 segundos y la atención de comentarios y mensajes en las plataformas incluidas. LinkedIn, X y YouTube forman parte de Scale. En la auditoría revisamos el alcance que encaja con el estudio."
+      ],
+      [
+        "¿La web y el bot de IA del estudio están incluidos en los 297 €/mes?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: una página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot responde con la información configurada y permite orientar el contacto al estudio. Tu equipo prepara la valoración del espacio y la propuesta profesional."
+      ]
+    ]
   }
 ]
