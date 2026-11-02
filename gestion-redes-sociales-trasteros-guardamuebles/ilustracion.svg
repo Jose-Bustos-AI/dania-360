@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Almacenamiento: aclarar el modelo de servicio</title><desc id="d">Comparación gráfica original entre acceso a una unidad y custodia de bienes; sin disponibilidad, precios ni planos de seguridad de un centro real.</desc><rect width="640" height="480" rx="22" fill="#f3ece2"/>
+<path d="M320 110v274" stroke="#bca88e" stroke-width="2"/>
+<rect x="58" y="132" width="207" height="223" fill="#3a3027"/><rect x="78" y="153" width="167" height="202" fill="#ff7139"/>
+<path d="M78 183h167M78 214h167M78 245h167M78 276h167M78 307h167" stroke="#743e22" stroke-width="3"/><rect x="139" y="328" width="45" height="7" rx="3" fill="#392419"/>
+<path d="M376 170h186v185H376z" fill="#cfb28c" stroke="#4c3726" stroke-width="3"/><path d="M402 193h61v63h-61zM479 193h61v63h-61zM441 273h61v63h-61z" fill="#ab8055" stroke="#4c3726" stroke-width="2"/>
+<g font-family="system-ui,sans-serif" fill="#31231a"><text x="34" y="48" font-size="22" font-weight="700">PRIMERO, EL MODELO DE SERVICIO</text><text x="68" y="408" font-size="22">Acceso a unidad</text><text x="415" y="408" font-size="22">Custodia</text></g></svg>

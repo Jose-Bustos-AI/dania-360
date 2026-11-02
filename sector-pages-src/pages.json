@@ -768,5 +768,884 @@
       "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
     },
     "contentModified": "2026-11-02"
+  },
+  {
+    "id": 21,
+    "slug": "arquitectos",
+    "name": "Arquitectos y estudios de arquitectura",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para arquitectos | Dania360",
+    "description": "Redes sociales para estudios de arquitectura: proyectos, criterio y consultas. Growth por 297 €/mes con web y bot de IA incluidos. Pide tu auditoría gratis.",
+    "h1": "Gestión de redes sociales para arquitectos",
+    "eyebrow": "El criterio de tu estudio, explicado",
+    "lead": "Preparamos contenido que presenta tus servicios y explica las decisiones de tus proyectos. Gestionamos las redes, los comentarios y los mensajes incluidos en Growth, con una web y un bot de IA para que las consultas puedan continuar con tu estudio.",
+    "promise": "Que quien vea tu proyecto entienda qué puede encargarte.",
+    "layout": "arquitectos",
+    "artAlt": "Croquis conceptual de arquitectura con anotaciones de intención, decisión y representación",
+    "artCaption": "Lámina editorial original. Es un esquema conceptual, no el plano de un edificio o un proyecto de un cliente.",
+    "resourceTitle": "Cómo convertir una decisión de arquitectura en tres láminas",
+    "resourcePresentation": {
+      "description": "Un ejemplo completo con la pregunta inicial, la decisión que se explica y el texto que acompaña las láminas. Incluye criterios para adaptarlo al material de tu estudio.",
+      "linkLabel": "Descargar el ejemplo de las tres láminas",
+      "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de arquitectura. No representa un encargo real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para arquitectos",
+        "redes sociales estudios de arquitectura",
+        "community manager arquitectura",
+        "comunicación estudios arquitectura"
+      ],
+      "intent": "Servicio para el responsable de un estudio que quiere delegar su comunicación y explicar qué encargos acepta.",
+      "distinctFrom": "Arquitectura presenta el razonamiento y la autoría del proyecto. Construcción presenta la ejecución, reformas la intervención y alcance de los trabajos, e interiorismo la relación entre uso, materiales y ambiente.",
+      "sources": [
+        {
+          "url": "https://hexagonoblanco.com/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se ha contrastado la oferta de comunicación especializada. Dania360 desarrolla su propia demostración editorial y su alcance comercial confirmado; no asume la titulación ni la experiencia del proveedor consultado."
+        },
+        {
+          "url": "https://www.nachovillegas.com/",
+          "access": "indexed_search_result_only",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Referencia secundaria del estudio previo, con acceso limitado al resultado indexado. No se usa como evidencia de demanda cuantitativa ni para atribuir renders o visualización arquitectónica a Growth."
+        }
+      ],
+      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "UNA DECISIÓN DE ARQUITECTURA EN TRES LÁMINAS",
+      "Demostración editorial original de Dania360 para un estudio de arquitectura.",
+      "",
+      "1. LA PREGUNTA QUE ABRE LA PIEZA",
+      "Al entrar en un espacio por primera vez, ¿cómo sabes hacia dónde continuar?",
+      "Imagen propuesta: un croquis conceptual de entrada y recorrido. Se identifica como esquema de una idea, con atribución del autor cuando se adapte a un proyecto del estudio.",
+      "",
+      "2. LA DECISIÓN QUE SE EXPLICA",
+      "La entrada se plantea como un punto desde el que se entiende la relación entre las zonas de uso. La publicación conecta esa intención con una única decisión del proyecto, sin acumular términos técnicos.",
+      "Imagen propuesta: el mismo croquis con una sola relación destacada. Las medidas y los detalles constructivos quedan en la documentación del estudio.",
+      "",
+      "3. LA CONVERSACIÓN QUE SE INVITA A TENER",
+      "Antes de dibujar una solución, interesa entender qué debe poder hacer la gente en ese lugar. Cuéntanos qué uso quieres dar a tu espacio y en qué municipio se encuentra para preparar una primera conversación.",
+      "Imagen propuesta: una vista autorizada o una representación del estudio, identificando su condición y su autoría.",
+      "",
+      "TEXTO DE ACOMPAÑAMIENTO PROPUESTO",
+      "Una entrada también forma parte del proyecto. En esta propuesta conceptual, la pregunta es cómo reconocer el recorrido al llegar a un espacio cultural. El esquema permite explicar una intención antes de hablar de acabados: que la relación entre las zonas se entienda desde el acceso. Cada encargo parte de sus usos y de su contexto. Si estás planteando un espacio para una actividad, podemos empezar por esa conversación.",
+      "",
+      "PARA ADAPTARLO A UN ENCARGO DEL ESTUDIO",
+      "Seleccionar una decisión que el equipo pueda justificar. Confirmar qué parte del proyecto es suya. Aportar material con permiso de publicación y acreditar a quienes correspondan. El estudio revisa la explicación antes de utilizarla."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar proyectos que todavía no están construidos?",
+        "Sí. Podemos trabajar con croquis, representaciones y material que el estudio aporte y pueda publicar. Cada pieza explica la decisión que interesa comunicar e identifica si se trata de una propuesta o de una obra terminada. El equipo del estudio valida la explicación y las atribuciones del material. La gestión de redes no presupone que Dania360 produzca renders o documentación arquitectónica."
+      ],
+      [
+        "¿Necesito una cartera amplia de obras para empezar?",
+        "Podemos comenzar por los servicios, el equipo y la manera de abordar un encargo. Una decisión de proyecto bien explicada o una presentación del proceso del estudio también aportan información a quien está valorando contratarte. Si aún no hay obras terminadas que puedas enseñar, preparamos contenido con ese punto de partida, sin presentar referencias ajenas o imágenes conceptuales como proyectos ejecutados."
+      ],
+      [
+        "¿LinkedIn está incluido en el plan Growth?",
+        "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. LinkedIn pertenece a Scale. En la auditoría gratuita revisamos a qué tipo de cliente quiere dirigirse el estudio y qué canales encajan con esa relación comercial, para que conozcas el alcance antes de contratar."
+      ],
+      [
+        "¿Growth incluye también la web del estudio y un bot de IA?",
+        "Sí. Growth cuesta 297 €/mes e incluye la gestión de redes sociales y todo Starter: página web con chat y modo automático con IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El servicio también contempla atención de comentarios, mensajes y reseñas en los canales incluidos. El estudio conserva la valoración del encargo, la propuesta profesional y la confirmación de reuniones."
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "interioristas",
+    "name": "Interioristas y estudios de diseño de interiores",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para interioristas | Dania360",
+    "description": "Presenta tus servicios de interiorismo con contenido sobre usos, materiales y ambiente. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
+    "h1": "Gestión de redes sociales para interioristas",
+    "eyebrow": "Diseño de interiores que se entiende",
+    "lead": "Organizamos el contenido de tu estudio para explicar qué servicio ofreces y cómo planteas cada espacio. Growth reúne gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "promise": "Que guardar una imagen sea el comienzo de una conversación sobre tu servicio.",
+    "layout": "interioristas",
+    "artAlt": "Tablero conceptual de interiorismo con un espacio de trabajo y muestras dibujadas de color y textura",
+    "artCaption": "Tablero original de ambiente. No muestra una vivienda, un proyecto realizado ni productos de una marca.",
+    "resourceTitle": "Del tablero de ambiente a una publicación de interiorismo",
+    "resourcePresentation": {
+      "description": "Un ejemplo editorial completo sobre un espacio de trabajo en casa, con texto de publicación y pautas para explicar las imágenes que lo acompañan.",
+      "linkLabel": "Descargar el ejemplo de interiorismo",
+      "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de interiorismo. No corresponde a una vivienda o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para interioristas",
+        "redes sociales diseño de interiores",
+        "community manager interiorismo",
+        "marketing estudios interiorismo"
+      ],
+      "intent": "Servicio para un interiorista o responsable de estudio que quiere presentar su oferta y delegar la comunicación con posibles clientes.",
+      "distinctFrom": "El ejemplo explica un tablero de ambiente, su uso y el estado de las imágenes. No repite la cocina de reformas, la fabricación de muebles de carpintería ni el razonamiento del acceso al espacio cultural de arquitectura.",
+      "sources": [
+        {
+          "url": "https://www.naeviacomunicacion.es/marketing-digital-interioristas-arquitectos/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La oferta consultada diferencia gestión de redes y producción presencial de imágenes. Se contrasta ese alcance para explicar el servicio propio, sin trasladar precios, credenciales, clientes o sesiones de ese proveedor a Dania360."
+        }
+      ],
+      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "DEL AMBIENTE AL MENSAJE",
+      "Demostración editorial de Dania360 para un estudio de interiorismo.",
+      "",
+      "EL PUNTO DE PARTIDA",
+      "Una persona quiere trabajar en casa y seguir utilizando la habitación para otras actividades. La pieza debe explicar qué se ha tenido en cuenta, además de mostrar una combinación atractiva.",
+      "",
+      "CÓMO LEER EL TABLERO",
+      "Uso: qué actividades necesita acoger el espacio y qué elementos quiere conservar la persona.",
+      "Material: qué función cumple cada muestra en la propuesta. Al utilizar productos concretos, comprobar la información del fabricante y acreditar las imágenes que lo requieran.",
+      "Atmósfera: cómo se relacionan las decisiones de color y textura con el ambiente que se busca. Describir la intención, sin atribuir efectos médicos o resultados universales.",
+      "",
+      "TEXTO DE PUBLICACIÓN PROPUESTO",
+      "Un rincón de trabajo no empieza por elegir una mesa. Empieza por entender qué necesitas hacer allí y qué más ocurre en la habitación. Este tablero conceptual reúne tres conversaciones: el uso del espacio, la relación entre materiales y el ambiente que se quiere conseguir. Es una propuesta de partida, todavía pendiente de medidas y decisiones del proyecto. Si quieres transformar una estancia, cuéntanos cómo la utilizas hoy y qué te gustaría poder hacer en ella.",
+      "",
+      "TRES ETIQUETAS QUE EVITAN CONFUSIONES",
+      "Referencia: material que ayuda a explicar una dirección estética y cuya procedencia se indica.",
+      "Propuesta: representación del estudio que todavía no acredita una ejecución.",
+      "Trabajo terminado: imágenes del espacio realmente intervenido, con el alcance y los permisos confirmados.",
+      "",
+      "CIERRE DE LA PIEZA",
+      "El siguiente paso editorial es invitar a describir la estancia y su uso. La consulta de diseño se continúa con el estudio por el canal acordado."
+    ],
+    "faq": [
+      [
+        "¿Podéis preparar contenido con mis fotografías y tableros?",
+        "Sí. Revisamos el material que el estudio pueda publicar y lo acompañamos de una explicación de su servicio y sus decisiones de diseño. Identificamos si se trata de referencias, propuestas o espacios terminados y conservamos los créditos necesarios. La producción de renders y el desarrollo del proyecto de interiorismo corresponden al estudio o a los profesionales que contrate."
+      ],
+      [
+        "¿Growth incluye sesiones de fotos en las viviendas?",
+        "Las sesiones presenciales de fotografía y vídeo no figuran en el alcance oficial de Growth. Partimos del material disponible y acordamos qué puede prepararse con fotografías, dibujos, representaciones y vídeos que puedas aportar. Si ya tienes una sesión profesional, revisamos sus permisos de uso antes de utilizarla en publicaciones."
+      ],
+      [
+        "¿Qué redes sociales se gestionan con Growth?",
+        "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. El plan contempla una publicación al día, 30 al mes, con vídeos de 15 segundos y la atención de comentarios y mensajes en las plataformas incluidas. LinkedIn, X y YouTube forman parte de Scale. En la auditoría revisamos el alcance que encaja con el estudio."
+      ],
+      [
+        "¿La web y el bot de IA del estudio están incluidos en los 297 €/mes?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: una página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot responde con la información configurada y permite orientar el contacto al estudio. Tu equipo prepara la valoración del espacio y la propuesta profesional."
+      ]
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "jardineria",
+    "name": "Empresas de jardinería y paisajismo",
+    "hubGroup": "proyectos-espacios",
+    "title": "Redes sociales para empresas de jardinería | Dania360",
+    "description": "Explica tus servicios de jardinería y el alcance del mantenimiento. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA. Auditoría gratis.",
+    "h1": "Gestión de redes sociales para empresas de jardinería",
+    "eyebrow": "El mantenimiento bien explicado",
+    "lead": "Presentamos los jardines que atiendes, tu zona de trabajo y los servicios que puede consultar cada cliente. Gestionamos contenido, comentarios y mensajes en Growth, con página web y bot de IA incluidos por 297 €/mes.",
+    "promise": "Que una comunidad entienda qué servicio puede contratar.",
+    "layout": "jardineria",
+    "artAlt": "Esquema conceptual de un jardín compartido con zonas de uso y anotaciones sobre espacio, servicio y consulta",
+    "artCaption": "Dibujo original de un jardín imaginado para explicar el contenido. No representa una propiedad o un trabajo realizado.",
+    "resourceTitle": "Una zona verde de comunidad con un servicio bien explicado",
+    "resourcePresentation": {
+      "description": "Un texto de publicación completo y criterios para adaptarlo a una actuación de tu empresa. Distingue el mantenimiento de un jardín existente y una nueva propuesta de paisajismo.",
+      "linkLabel": "Descargar el ejemplo de jardinería",
+      "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de jardinería. El ejemplo no corresponde a una propiedad o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de jardinería",
+        "redes sociales jardinería paisajismo",
+        "community manager jardineros",
+        "marketing empresas jardinería"
+      ],
+      "intent": "Servicio para una empresa que quiere delegar la comunicación de mantenimiento o paisajismo. La página comercial se distingue de una guía de cuidado de plantas.",
+      "distinctFrom": "El ejemplo explica el alcance del mantenimiento de un jardín compartido. No reproduce consejos estacionales de climatización, la atención de una comunidad desde una administración de fincas ni los servicios específicos de piscinas.",
+      "sources": [
+        {
+          "url": "https://lacocinamagica.com/blog/marketing-jardineria-paisajismo/",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se contrasta la oferta de comunicación del sector. La pieza propia desarrolla un ejemplo de alcance para una comunidad; no adopta calendarios de actuaciones, estadísticas, promesas comerciales ni la estructura de la guía consultada."
+        }
+      ],
+      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "UNA ZONA VERDE, UN ALCANCE CLARO",
+      "Ejemplo de comunicación creado por Dania360 para una empresa de jardinería.",
+      "",
+      "PUNTO DE VISTA DE LA PUBLICACIÓN",
+      "Una comunidad no solo ve un jardín: necesita entender qué empresa atiende el espacio, qué servicios puede consultar y cómo se prepara una valoración.",
+      "",
+      "TEXTO BASE PROPUESTO",
+      "Una zona verde compartida necesita un servicio adaptado al espacio y a su uso. Antes de proponer el mantenimiento, conviene conocer las zonas que la componen, las tareas que necesita la comunidad y la forma de coordinar el acceso. La valoración profesional permite concretar el alcance y la frecuencia. Si buscas una empresa para atender el jardín de tu comunidad, indica el municipio y el tipo de espacio para iniciar la conversación.",
+      "",
+      "QUÉ AÑADIR CUANDO LA EMPRESA APORTE UN TRABAJO REAL",
+      "Un servicio concreto que efectivamente estuviera contratado. Una explicación del alcance de esa intervención. Una imagen autorizada en la que se aprecie lo descrito.",
+      "",
+      "DOS ENCARGOS QUE CONVIENE SEPARAR",
+      "Mantenimiento: el mensaje explica la atención de un espacio existente y cómo se acuerda el servicio periódico.",
+      "Nuevo jardín o cambio de uso: el mensaje presenta la forma de estudiar una propuesta y los materiales que ayudarían a explicarla. La empresa confirma si ofrece ese servicio.",
+      "",
+      "AL SELECCIONAR EL MATERIAL",
+      "Para comparar dos estados, conservar un punto de vista y unas condiciones de imagen que permitan entender el cambio. Recortar accesos privados, matrículas o datos que no aporten al mensaje. La empresa valida la descripción de las actuaciones.",
+      "",
+      "LA CONVERSACIÓN QUE SIGUE",
+      "Recoger el tipo de espacio y el municipio. Dirigir la valoración y la concreción de tareas al profesional. Confirmar después si la consulta llegó a visita o a propuesta, para separar alcance de la publicación y oportunidad comercial."
+    ],
+    "faq": [
+      [
+        "¿El enfoque sirve si atendemos comunidades y también jardines particulares?",
+        "Sí. Partimos de los servicios y los tipos de cliente que tu empresa atiende. Cada publicación aclara a quién se dirige y qué se puede consultar. Una comunidad puede necesitar información sobre un servicio periódico; un particular puede preguntar por una actuación o un proyecto diferente. La empresa confirma el alcance que ofrece en cada caso."
+      ],
+      [
+        "¿Cómo se organiza el contenido de jardinería durante el año?",
+        "Lo organizamos según los servicios que quieras priorizar, tu zona de trabajo y el material disponible. Tu equipo revisa las actuaciones y las condiciones que se describen. Podemos preparar piezas sobre espacios, trabajos, equipo y atención de consultas, manteniendo el mensaje ligado a la actividad real de tu empresa."
+      ],
+      [
+        "¿Tenéis que venir a grabar las visitas de mantenimiento?",
+        "Las grabaciones presenciales no figuran en la cuota oficial de Growth. Revisamos las fotos, vídeos y explicaciones que tu empresa pueda aportar y publicar, y acordamos cómo preparar las piezas con ese material. Las comparaciones entre estados de un jardín deben mostrar el trabajo real y permitir entender qué actuación se está explicando."
+      ],
+      [
+        "¿Growth incluye la web de jardinería y un bot de IA por 297 €/mes?",
+        "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos Instagram, Facebook, TikTok, Pinterest y Google Business Profile según el alcance del plan, además de comentarios, mensajes y reseñas. La valoración del jardín y el presupuesto los prepara tu empresa."
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "piscinas",
+    "name": "Empresas de piscinas",
+    "hubGroup": "proyectos-espacios",
+    "title": "Gestión de redes sociales para piscinas | Dania360",
+    "description": "Comunica construcción, renovación y mantenimiento de piscinas con mensajes para cada servicio. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "h1": "Gestión de redes sociales para empresas de piscinas",
+    "eyebrow": "Cada servicio, una consulta clara",
+    "lead": "Organizamos el contenido de tu empresa de piscinas para presentar los proyectos nuevos, las renovaciones y el mantenimiento que ofreces. Growth incluye gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "promise": "Que quien contacte sepa qué servicio está consultando.",
+    "layout": "piscinas",
+    "artAlt": "Ilustración conceptual de una piscina con tres líneas de comunicación: proyecto, renovación y servicio",
+    "artCaption": "Composición editorial original para distinguir servicios. Es un esquema conceptual, no una instalación real.",
+    "resourceTitle": "Tres mensajes distintos para una empresa de piscinas",
+    "resourcePresentation": {
+      "description": "Tres propuestas de publicación completas, con su propósito y el siguiente paso de la consulta. Puedes seleccionar las que correspondan a tu actividad y adaptarlas a tu material.",
+      "linkLabel": "Descargar las tres propuestas de piscinas",
+      "documentSubtitle": "Ejemplos editoriales originales de Dania360 para una empresa de piscinas. No representan proyectos ni clientes reales."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de piscinas",
+        "redes sociales constructores piscinas",
+        "marketing mantenimiento piscinas",
+        "community manager piscinas"
+      ],
+      "intent": "Servicio para el responsable de un negocio de piscinas que quiere presentar sus líneas de actividad y delegar su comunicación.",
+      "distinctFrom": "Tres publicaciones se distinguen por el encargo que inicia la consulta. No repiten las fases de una obra general ni el alcance del mantenimiento de jardines y no desarrollan instrucciones de tratamiento del agua.",
+      "sources": [
+        {
+          "url": "https://aseppi.es/marketing-para-piscinas/",
+          "access": "primary_page_content_returned_in_search_after_direct_fetch_timeout",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "El contenido de la oferta para instaladores, mantenedores y suministros está disponible en el resultado del propio sitio. La apertura directa agotó el tiempo de espera en esta sesión. Se contrasta el alcance de web y redes, sin atribuir spots, anuncios o vínculos con la asociación a Dania360."
+        },
+        {
+          "url": "https://www.agencydema.com/blog/marketing-redes-sociales-empresas-piscinas",
+          "access": "indexed_primary_page_content",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se contrasta una oferta editorial del sector. Las promesas de captación, viralidad y plazos que utiliza el competidor no son compromisos de Dania360. Los tres mensajes y el alcance comercial de esta página son propios."
+        }
+      ],
+      "demand": "Consultas candidatas y oferta comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "TRES SERVICIOS, TRES MENSAJES",
+      "Propuestas editoriales de Dania360 para una empresa de piscinas.",
+      "",
+      "A. UN PROYECTO NUEVO",
+      "Idea de pieza: presentar qué aspectos se estudian antes de formular una propuesta, con material autorizado de la empresa o un esquema identificado como conceptual.",
+      "Texto propuesto: Una piscina nueva empieza por entender el espacio y el uso que quieres darle. Cuéntanos el municipio y en qué punto está tu idea para hablar del proyecto con nuestro equipo.",
+      "La empresa confirma: si asume ese tipo de proyecto, qué documentación necesita y cómo continúa el estudio.",
+      "",
+      "B. UNA RENOVACIÓN",
+      "Idea de pieza: explicar una necesidad concreta y la parte que la empresa puede estudiar. Si se muestra una intervención terminada, separar el estado inicial de la actuación realmente ejecutada.",
+      "Texto propuesto: ¿Quieres plantear un cambio en una piscina existente? Describe qué te gustaría renovar y dónde se encuentra. Nuestro equipo revisará qué información necesita para valorar la intervención.",
+      "La empresa confirma: el alcance que puede asumir y los pasos de la valoración. La imagen no sustituye una comprobación profesional.",
+      "",
+      "C. UN SERVICIO PERIÓDICO",
+      "Idea de pieza: presentar el servicio que ofrece la empresa y cómo se determina su alcance. La publicación no contiene dosificaciones ni recomendaciones de tratamiento.",
+      "Texto propuesto: El servicio de una piscina se concreta conociendo la instalación y las necesidades de quien la utiliza. Indica si se trata de una vivienda, una comunidad u otro espacio y el municipio para consultar el servicio disponible.",
+      "La empresa confirma: trabajos, frecuencia, condiciones y disponibilidad antes de aceptar el encargo.",
+      "",
+      "CÓMO EVALUAR LAS CONSULTAS",
+      "Registrar qué línea de servicio originó el contacto y si avanzó a una conversación profesional. Una visita al perfil o la reproducción de un vídeo no prueba que exista un proyecto."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar construcción y mantenimiento en una misma empresa?",
+        "Sí. Organizamos el contenido para que cada pieza identifique el servicio que se está ofreciendo y el tipo de consulta que puede continuar. Una piscina nueva, una renovación y un servicio periódico necesitan información diferente. Primero confirmamos qué líneas atiende tu empresa y cuáles quieres priorizar."
+      ],
+      [
+        "¿Quién revisa la información técnica de las publicaciones?",
+        "El equipo profesional de tu empresa valida las explicaciones sobre intervenciones, equipos y servicios. Dania360 prepara y adapta el contenido a partir de esa información. Cualquier dato sobre prestaciones o condiciones debe corresponder a lo que tu negocio pueda confirmar; el contenido de comunicación no sustituye una valoración de la instalación."
+      ],
+      [
+        "¿Qué imágenes podemos usar si solo tenemos material de algunas intervenciones?",
+        "Revisamos qué fotografías y vídeos puedes publicar y qué servicio permite explicar cada pieza. Podemos combinar ese material con una presentación del equipo, una explicación del proceso de consulta o esquemas conceptuales claramente identificados. Se conserva la autoría del material y se confirma el permiso de publicación. Las grabaciones presenciales no figuran en la cuota de Growth."
+      ],
+      [
+        "¿La web y el bot de IA están incluidos en Growth?",
+        "Sí. Growth cuesta 297 €/mes e incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes, reseñas e informe mensual de actividad y visibilidad local. La empresa confirma las visitas, la propuesta profesional y el presupuesto."
+      ]
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "empresas-limpieza",
+    "name": "Empresas de limpieza",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Redes sociales para empresas de limpieza | Dania360",
+    "description": "Presenta tus servicios de limpieza y orienta cada solicitud de presupuesto. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
+    "h1": "Gestión de redes sociales para empresas de limpieza",
+    "eyebrow": "El servicio y su alcance, claros",
+    "lead": "Preparamos contenido que explica qué limpiezas puede contratar cada cliente y cómo pedir información a tu empresa. Growth reúne gestión de redes, atención de comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "promise": "Que una solicitud de presupuesto llegue con una idea del servicio.",
+    "layout": "empresas-limpieza",
+    "artAlt": "Esquema editorial de una oficina y tres datos de un servicio de limpieza: espacio, frecuencia y alcance",
+    "artCaption": "Ilustración original de una oficina imaginada. Sirve para explicar el contenido de un servicio; no documenta un trabajo de un cliente.",
+    "resourceTitle": "Cómo explicar la limpieza de una oficina con un alcance concreto",
+    "resourcePresentation": {
+      "description": "Un ejemplo completo con una tabla de alcance, un texto de publicación y una respuesta comercial. Incluye criterios para distinguir solicitudes de servicio y mensajes de empleo.",
+      "linkLabel": "Descargar el ejemplo de limpieza",
+      "documentSubtitle": "Demostración editorial original de Dania360 para una empresa de limpieza. No representa un contrato o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de limpieza",
+        "community manager empresas limpieza",
+        "marketing empresas limpieza",
+        "redes sociales limpieza oficinas"
+      ],
+      "intent": "Servicio para el responsable de una empresa de limpieza que quiere explicar su oferta y delegar su comunicación; no es una oferta de empleo ni una página para contratar limpieza directamente.",
+      "distinctFrom": "La tabla editorial explica un servicio periódico de oficina y la atención diferencia presupuestos y empleo. No reproduce una demostración de reformas, un contrato de mantenimiento de jardín ni una consulta sobre control de plagas.",
+      "sources": [
+        {
+          "url": "https://www.arimetrics.com/sectores/agencia-marketing-limpiezas",
+          "access": "direct_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Oferta comercial sectorial contrastada. La página propia aporta una tabla editorial y dos recorridos de atención con el alcance confirmado de Growth. No asume casos, experiencia, publicidad, servicios de adquisición o datos de analítica del proveedor consultado."
+        }
+      ],
+      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "EXPLICAR EL ALCANCE ANTES DE PEDIR PRESUPUESTO",
+      "Demostración editorial original de Dania360 para una empresa de limpieza.",
+      "",
+      "TABLA QUE ACOMPAÑA A UNA PUBLICACIÓN",
+      "Espacio: oficina. Sirve para indicar el entorno al que se refiere la pieza.",
+      "Servicio: limpieza periódica. La empresa concreta las tareas que incluye en su propuesta.",
+      "Frecuencia: se acuerda al estudiar las necesidades del espacio. No anunciar una periodicidad cerrada si aún no está pactada.",
+      "Acceso: se coordina con el cliente por el canal profesional. La publicación no muestra horarios privados ni sistemas de acceso.",
+      "Otros trabajos: cristales, tareas especiales y servicios puntuales se describen por separado si la empresa los ofrece.",
+      "",
+      "TEXTO PROPUESTO PARA LA PIEZA",
+      "Cuando pides limpieza para una oficina, interesa algo más que ver una imagen del resultado. Necesitas saber qué servicio se estudia, qué zonas comprende y cómo se acuerda su frecuencia. Cuéntanos el tipo de oficina, el municipio y el servicio que estás buscando. Con esa información, el equipo podrá preparar la conversación sobre el alcance.",
+      "",
+      "RESPUESTA A UNA CONSULTA COMERCIAL",
+      "Gracias por contactar. Para dirigir tu solicitud al equipo, indícanos en qué municipio está el espacio y qué servicio de limpieza necesitas. Continuaremos por el canal acordado para concretar el alcance y valorar la propuesta.",
+      "",
+      "SI EL MENSAJE ES UNA CANDIDATURA DE EMPLEO",
+      "Separarlo del registro comercial y dirigirlo al canal de selección que la empresa haya confirmado. No pedir un currículum o datos personales en un comentario público.",
+      "",
+      "IMAGEN QUE ENCAJA CON EL MENSAJE",
+      "Una vista autorizada del espacio sin documentación visible, pantallas legibles ni personas ajenas. La apariencia de limpieza no acredita resultados de desinfección."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar limpiezas puntuales y servicios periódicos?",
+        "Sí. Organizamos el contenido según los servicios que presta tu empresa y el tipo de cliente al que quieres dirigirte. Una pieza puede explicar cómo se consulta un trabajo puntual y otra cómo se estudia un servicio periódico. El alcance, las tareas y las condiciones se confirman con tu equipo."
+      ],
+      [
+        "¿Cómo atendéis a las personas que preguntan por trabajo?",
+        "Acordamos con tu empresa el canal de selección que debe indicarse. Esas consultas se distinguen de las solicitudes de limpieza y se orientan al equipo correspondiente. La revisión de candidaturas y las decisiones de contratación pertenecen a la empresa. No se pide a la persona que publique su currículum en un comentario."
+      ],
+      [
+        "¿Qué material necesitáis para preparar las publicaciones?",
+        "La relación de servicios, la zona de trabajo y fotografías, vídeos o explicaciones que puedas aportar y publicar. Revisamos qué servicio muestra cada imagen y qué información privada debe quedar fuera. Las descripciones técnicas parten de lo que tu empresa pueda justificar. Las sesiones presenciales de foto y vídeo no figuran en la cuota oficial de Growth."
+      ],
+      [
+        "¿Los 297 €/mes de Growth incluyen la web y un bot de IA?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan gestiona Instagram, Facebook, TikTok, Pinterest y Google Business Profile según su alcance, además de comentarios, mensajes, reseñas e informe mensual. Tu empresa concreta cada servicio y presupuesto."
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "control-plagas",
+    "name": "Empresas de control de plagas",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Gestión de redes sociales para control de plagas | Dania360",
+    "description": "Presenta tu empresa de control de plagas y atiende las primeras consultas con discreción. Growth incluye redes, página web y bot de IA por 297 €/mes.",
+    "h1": "Gestión de redes sociales para empresas de control de plagas",
+    "eyebrow": "Una primera atención con criterio",
+    "lead": "Explicamos los servicios y el ámbito de atención de tu empresa, preparamos las publicaciones y orientamos los comentarios y mensajes hacia el canal adecuado. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "promise": "Que el primer contacto pueda continuar con tu equipo profesional.",
+    "layout": "control-plagas",
+    "artAlt": "Diagrama editorial de una consulta de control de plagas con ficha protegida, valoración y seguimiento",
+    "artCaption": "Esquema conceptual original del recorrido de una consulta. No contiene datos de clientes ni representa una intervención real.",
+    "resourceTitle": "Orientar una consulta de control de plagas sin diagnosticar en redes",
+    "resourcePresentation": {
+      "description": "Un ejemplo completo de respuesta pública, continuación privada y publicación que prepara el contacto. Se adapta al servicio y al proceso que confirme tu empresa.",
+      "linkLabel": "Descargar el ejemplo de atención",
+      "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de control de plagas. No reproduce conversaciones ni casos reales."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de control de plagas",
+        "marketing control plagas",
+        "community manager control plagas",
+        "redes sociales empresas fumigación"
+      ],
+      "intent": "Servicio comercial para una empresa profesional de control de plagas que quiere delegar su comunicación y orientar las consultas con discreción.",
+      "distinctFrom": "La demostración desarrolla una respuesta pública y su continuación privada. No es una guía de tratamientos, una muestra de limpieza ni un calendario de cuidado de jardines.",
+      "sources": [
+        {
+          "url": "https://www.duoly.es/casos-de-exito-de-marketing-digital/american-pest-control-madrid/",
+          "access": "direct_primary_agency_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La agencia publica su propio trabajo de web y comunicación para una empresa del sector. Se contrasta la existencia de esa oferta; sus clientes, frecuencias, resultados, dashboard y servicios no se atribuyen a Dania360. El ejemplo y el alcance de esta landing son propios."
+        },
+        {
+          "url": "https://www.indalodigital.es/sectores/agencia-de-marketing-para-empresas-de-control-de-plagas/",
+          "access": "direct_page_read_generic_sector_heading_only",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La reapertura muestra un encabezado del sector y contenido mayoritariamente genérico de agencia. No se considera evidencia sustantiva de especialización técnica, demanda o resultados para control de plagas. Sus cifras y promesas no se utilizan."
+        }
+      ],
+      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "DE UN COMENTARIO A UNA CONSULTA PROFESIONAL",
+      "Ejemplo editorial original de Dania360 para una empresa de control de plagas.",
+      "",
+      "SITUACIÓN",
+      "Una persona comenta que necesita información para un inmueble y pregunta si la empresa puede atenderla. La respuesta pública debe permitir continuar sin exponer su caso.",
+      "",
+      "RESPUESTA PÚBLICA PROPUESTA",
+      "Gracias por contactar. Escríbenos por el canal privado indicado en el perfil y cuéntanos el municipio y el tipo de inmueble. El equipo te explicará cómo continúa la consulta.",
+      "",
+      "CONTINUACIÓN PRIVADA PROPUESTA",
+      "Para dirigir tu consulta, ¿en qué municipio se encuentra el inmueble y se trata de una vivienda, un local u otro tipo de espacio? Describe de forma breve el motivo del contacto. Nuestro equipo revisará qué información necesita para valorar el servicio.",
+      "",
+      "QUÉ REGISTRA LA ATENCIÓN DE MENSAJES",
+      "Tipo de consulta, zona general y canal para continuar. La empresa confirma quién debe atenderla y cómo se estudia el caso. No dar por concertada una visita ni por identificado el problema a partir del intercambio inicial.",
+      "",
+      "UNA PUBLICACIÓN QUE PREPARA ESA CONVERSACIÓN",
+      "Si necesitas consultar un servicio de control de plagas, puedes empezar indicando el municipio y el tipo de inmueble. El equipo profesional determinará cómo estudiar la situación y qué información adicional necesita. Utiliza nuestro canal privado para continuar la consulta.",
+      "",
+      "MATERIAL PARA ACOMPAÑAR EL MENSAJE",
+      "Un esquema del proceso de atención o material autorizado del equipo. Para hablar de técnicas, tratamientos o acreditaciones, utilizar únicamente información revisada y confirmada por el profesional."
+    ],
+    "faq": [
+      [
+        "¿Podéis publicar contenido sin mostrar los inmuebles de clientes?",
+        "Sí. Podemos trabajar con una presentación del equipo, esquemas conceptuales y explicaciones sobre servicios o formas de contacto. El material de una intervención solo se utiliza cuando la empresa confirma qué puede mostrarse y dispone de los permisos correspondientes. Las piezas identifican qué es una demostración y qué corresponde a un trabajo real."
+      ],
+      [
+        "¿Quién valida las explicaciones técnicas?",
+        "El equipo profesional de tu empresa confirma los servicios, las explicaciones y las acreditaciones que se pueden comunicar. Dania360 organiza y adapta esa información para las publicaciones. La identificación del problema, la valoración del inmueble y la propuesta de actuación corresponden al profesional."
+      ],
+      [
+        "¿Cómo respondéis a una consulta que llega por un comentario?",
+        "Acordamos con tu empresa una primera respuesta y el canal para continuar. El ejemplo de esta página muestra cómo pasar del comentario público a una conversación privada con el municipio y el tipo de inmueble. Tu equipo confirma el siguiente paso profesional; la respuesta inicial no da una visita por concertada."
+      ],
+      [
+        "¿Growth incluye web y bot de IA por 297 €/mes?",
+        "Sí. Growth incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos los comentarios, mensajes y reseñas de los canales incluidos en el plan. El bot utiliza la información configurada; la empresa conserva la valoración profesional y las condiciones del servicio."
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "mudanzas",
+    "name": "Empresas de mudanzas",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Gestión de redes sociales para mudanzas | Dania360",
+    "description": "Presenta el equipo y los servicios de tu empresa de mudanzas con contenido propio. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
+    "h1": "Gestión de redes sociales para empresas de mudanzas",
+    "eyebrow": "La preparación también comunica",
+    "lead": "Preparamos contenido sobre tu equipo, tu material y los servicios que ofrece tu empresa de mudanzas. Gestionamos publicaciones, comentarios y mensajes en Growth, con página web y bot de IA incluidos por 297 €/mes.",
+    "promise": "Que tu forma de trabajar se conozca antes de la primera conversación.",
+    "layout": "mudanzas",
+    "artAlt": "Ilustración editorial de cajas vacías, material de preparación y una etiqueta sin datos de clientes",
+    "artCaption": "Composición original con material imaginado para explicar un guion. No representa pertenencias ni una mudanza realizada.",
+    "resourceTitle": "Un vídeo de mudanzas sin enseñar las pertenencias del cliente",
+    "resourcePresentation": {
+      "description": "Un guion completo de 15 segundos con tres tomas, textos de pantalla y una propuesta para acompañar la publicación. Incluye la lista de material para adaptarlo a tu empresa.",
+      "linkLabel": "Descargar el guion de 15 segundos",
+      "documentSubtitle": "Guion editorial original de Dania360 para una empresa de mudanzas. Es una propuesta, no un vídeo producido ni un servicio realizado."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de mudanzas",
+        "redes sociales mudanzas",
+        "marketing empresas mudanzas",
+        "community manager mudanzas"
+      ],
+      "intent": "Servicio para una empresa que quiere delegar su comunicación y presentar sus especialidades de mudanza. No es una calculadora de traslado para particulares.",
+      "distinctFrom": "El guion muestra preparación, material propio y equipo en 15 segundos. No utiliza rutas, estimaciones de volumen o presupuestos simulados; el almacenamiento se trata en su página correspondiente.",
+      "sources": [
+        {
+          "url": "https://rogerllorens.com/marketing-mudanzas/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Se contrasta una oferta sectorial de marketing. El guion de tres tomas es propio y no reproduce el sistema de rutas, el formulario, las simulaciones o las afirmaciones normativas de ese proveedor. Tampoco se atribuye su experiencia a Dania360."
+        }
+      ],
+      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "GUION EDITORIAL DE 15 SEGUNDOS",
+      "Propuesta original de Dania360 para una empresa de mudanzas.",
+      "",
+      "SEGUNDOS 0 A 4",
+      "Toma: material de preparación ordenado en un espacio de la empresa. Utilizar cajas vacías o elementos propios, sin etiquetas de clientes.",
+      "Texto en pantalla: El trabajo empieza con la preparación.",
+      "",
+      "SEGUNDOS 4 A 9",
+      "Toma: una persona del equipo prepara material que la empresa utilice realmente. La imagen muestra organización, sin convertirse en una instrucción técnica de manipulación.",
+      "Texto en pantalla: Un equipo y un servicio que conviene conocer.",
+      "",
+      "SEGUNDOS 9 A 15",
+      "Toma: plano limpio del material o de un espacio corporativo autorizado. Terminar con el nombre y el canal de contacto de la empresa.",
+      "Texto en pantalla: Cuéntanos qué tipo de mudanza estás preparando.",
+      "",
+      "TEXTO DE LA PUBLICACIÓN",
+      "Antes de hablar de una fecha, interesa entender qué mudanza estás preparando y qué servicio necesitas. En este vídeo mostramos material y preparación de la empresa. Escríbenos para continuar la consulta con el equipo, que confirmará el alcance y la disponibilidad.",
+      "",
+      "LISTA DE MATERIAL PARA EDITAR",
+      "Tres tomas breves y estables. Nombre y contacto vigentes. Servicios que la empresa ha confirmado que ofrece. Permiso de las personas que aparezcan. Ningún domicilio, etiqueta, documento o pertenencia de un cliente visible.",
+      "",
+      "REVISIÓN ANTES DE UTILIZAR EL GUIÓN",
+      "Adaptar el texto a lo que se vea y a los servicios reales. No añadir seguros, equipo disponible, precios o plazos sin confirmación. El guion muestra una propuesta editorial; no acredita una mudanza realizada."
+    ],
+    "faq": [
+      [
+        "¿Tenéis que grabar dentro de las viviendas de clientes?",
+        "Podemos preparar contenido con material propio de la empresa, personas que autoricen su aparición y explicaciones del equipo. El guion de esta página utiliza un espacio corporativo y cajas vacías. Las sesiones presenciales de grabación no figuran en el alcance oficial de Growth; revisamos las imágenes y vídeos que puedas aportar y publicar."
+      ],
+      [
+        "¿Confirmáis fechas o presupuestos desde los mensajes?",
+        "La atención inicial permite conocer qué servicio se consulta y continuar con el equipo de la empresa. La disponibilidad de una fecha, las condiciones del traslado y el presupuesto requieren su confirmación. El bot de la web utiliza información configurada; no da una mudanza por reservada."
+      ],
+      [
+        "¿Podéis comunicar también nuestro servicio de guardamuebles?",
+        "Sí, cuando forme parte de tu actividad. Presentamos cada servicio con su alcance real y explicamos cómo se consulta. El contenido de mudanzas se centra en el traslado; el enfoque de trasteros y guardamuebles desarrolla el modelo de almacenamiento, el acceso y la atención del centro. La empresa confirma sus condiciones."
+      ],
+      [
+        "¿Growth incluye la web de la empresa y un bot de IA por 297 €/mes?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla publicaciones con vídeos de 15 segundos, atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local."
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "trasteros-guardamuebles",
+    "name": "Trasteros y guardamuebles",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Redes sociales para trasteros y guardamuebles | Dania360",
+    "description": "Explica el modelo de tu centro de trasteros o guardamuebles y atiende cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
+    "h1": "Gestión de redes sociales para trasteros y guardamuebles",
+    "eyebrow": "El modelo del centro, bien explicado",
+    "lead": "Presentamos cómo funciona tu servicio de almacenamiento y orientamos las consultas hacia el centro. Growth incluye contenido, gestión de comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "promise": "Que quien pregunte por un espacio entienda cómo funciona tu servicio.",
+    "layout": "trasteros-guardamuebles",
+    "artAlt": "Comparación conceptual de acceso a una unidad y custodia de mobiliario, sin datos de un centro real",
+    "artCaption": "Dibujo original para explicar dos modelos de servicio. No anuncia espacios, precios o disponibilidad de un centro.",
+    "resourceTitle": "Trastero y guardamuebles: dos conversaciones de almacenamiento",
+    "resourcePresentation": {
+      "description": "Dos ejemplos de necesidades de almacenamiento, con mensajes completos y preguntas para confirmar el modelo del centro. Se adapta a las condiciones reales de tu oferta.",
+      "linkLabel": "Descargar los dos ejemplos de almacenamiento",
+      "documentSubtitle": "Demostración editorial original de Dania360 para un operador de trasteros o guardamuebles. No describe un centro o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para trasteros y guardamuebles",
+        "gestión de redes sociales para trasteros",
+        "marketing centros trasteros",
+        "redes sociales self storage",
+        "marketing guardamuebles"
+      ],
+      "intent": "Servicio de comunicación para un operador de almacenamiento que quiere explicar su oferta y atender consultas. Se distingue de contratar un espacio o comprar software para el centro.",
+      "distinctFrom": "Compara dos necesidades de almacenamiento y qué debe confirmar el operador. No repite el guion de mudanzas, simula inventario ni ofrece intermediación inmobiliaria.",
+      "sources": [
+        {
+          "url": "https://integraldetrasteros.com/campanas-de-marketing-y-comunicacion/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Oferta profesional de comunicación para centros contrastada. La página propia desarrolla dos mensajes y el alcance confirmado de Growth. No incluye por asociación el software, el número 900, los canales adicionales o los servicios de otros apartados del proveedor."
+        },
+        {
+          "url": "https://keespaces.com/producto/captacion/",
+          "access": "prior_indexed_search_result_only",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Referencia secundaria del estudio previo sobre una solución de software. No se utiliza como prueba de demanda ni se atribuyen a Growth disponibilidad en tiempo real, inventario o reservas integradas."
+        }
+      ],
+      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "DOS NECESIDADES DE ALMACENAMIENTO",
+      "Demostración editorial original de Dania360 para un operador de trasteros o guardamuebles.",
+      "",
+      "NECESIDAD A: CONSULTAR CON FRECUENCIA OBJETOS GUARDADOS",
+      "El contenido debe explicar cómo funciona el acceso en ese centro, cuáles son sus condiciones y cómo se consulta una opción disponible. La frecuencia de acceso y los horarios los confirma el operador.",
+      "Mensaje propuesto: Quieres guardar objetos y necesitas saber cómo podrías acceder a ellos. Consulta con nuestro equipo el modelo de servicio, las condiciones y las opciones que pueda ofrecerte el centro.",
+      "",
+      "NECESIDAD B: GUARDAR MOBILIARIO DURANTE UN CAMBIO DE VIVIENDA",
+      "El contenido debe explicar cómo se estudian la recepción, la custodia y la devolución si ese es el modelo ofrecido. Transporte, preparación o seguro solo se mencionan cuando estén confirmados.",
+      "Mensaje propuesto: Si necesitas guardar mobiliario durante un periodo, cuéntanos qué servicio buscas y cuándo lo estás planteando. El equipo te explicará cómo funciona su propuesta y qué condiciones debes conocer.",
+      "",
+      "PREGUNTAS QUE MERECEN UNA RESPUESTA VISIBLE",
+      "¿Qué modelo ofrece el centro? ¿Cómo se consulta la disponibilidad? ¿Cómo se confirma el acceso o la entrega? ¿Qué condiciones explica el equipo antes de contratar?",
+      "",
+      "UNA LLAMADA A LA ACCIÓN COHERENTE",
+      "Consultar opciones con el centro. No utilizar un mensaje de reserva confirmada si el proceso todavía necesita revisión del operador.",
+      "",
+      "LO QUE SE REVISA AL PUBLICAR",
+      "Las imágenes corresponden al espacio que se describe y cuentan con permiso. Tamaños, precios, horarios y servicios coinciden con la oferta vigente. Las existencias se consultan al centro; una publicación no acredita disponibilidad en tiempo real."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar trasteros y guardamuebles en un mismo negocio?",
+        "Sí. Primero confirmamos qué modelos ofrece tu empresa y cómo funcionan. El contenido diferencia qué puede consultar el interesado, cómo se confirma el acceso o la entrega y qué condiciones explica el operador. La página reúne ambos enfoques para negocios que ofrecen una o varias de esas opciones."
+      ],
+      [
+        "¿El bot confirma espacios disponibles o reservas?",
+        "El bot responde con la información configurada y permite orientar el contacto. El operador confirma las opciones disponibles, el precio y la contratación. El alcance oficial de Growth no presupone una conexión con el inventario del centro o con un sistema de reservas; cualquier integración tendría que revisarse expresamente."
+      ],
+      [
+        "¿Qué información necesitáis para preparar el contenido del centro?",
+        "El modelo de servicio, las condiciones que se puedan comunicar y material autorizado del centro o del equipo. Revisamos qué puede explicar cada imagen y qué datos debe confirmar el operador. No se atribuyen horarios, acceso automatizado, vigilancia o seguros por pertenecer al sector. Las grabaciones presenciales no figuran en la cuota de Growth."
+      ],
+      [
+        "¿La web y el bot de IA están incluidos en los 297 €/mes?",
+        "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. También contempla atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local. El centro conserva la confirmación de sus servicios y condiciones."
+      ]
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "administradores-fincas",
+    "name": "Administradores de fincas",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Gestión de redes sociales para administradores de fincas",
+    "description": "Presenta los servicios de tu administración de fincas y orienta cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
+    "h1": "Gestión de redes sociales para administradores de fincas",
+    "eyebrow": "Tu despacho, su servicio y su atención",
+    "lead": "Preparamos contenido para presentar tu administración de fincas a nuevas comunidades y atendemos los mensajes según los canales acordados con el despacho. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "promise": "Que una comunidad entienda cómo empezar a hablar con tu despacho.",
+    "layout": "administradores-fincas",
+    "artAlt": "Mapa editorial de dos motivos de contacto: conocer el despacho y continuar un asunto de una comunidad gestionada",
+    "artCaption": "Ilustración original de dos recorridos de atención. No contiene expedientes, documentos ni conversaciones de comunidades reales.",
+    "resourceTitle": "Una nueva comunidad y una incidencia necesitan canales distintos",
+    "resourcePresentation": {
+      "description": "Dos respuestas completas y una propuesta de publicación sobre la primera conversación con el despacho. Se adapta a los servicios y canales que confirme tu administración.",
+      "linkLabel": "Descargar el ejemplo de atención del despacho",
+      "documentSubtitle": "Ejemplo editorial original de Dania360 para una administración de fincas. No reproduce expedientes o conversaciones reales."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para administradores de fincas",
+        "marketing administradores fincas",
+        "redes sociales administración comunidades",
+        "community manager administradores fincas"
+      ],
+      "intent": "Servicio de comunicación para un despacho de administración de comunidades. Se distingue de cursos de marketing y de la intermediación inmobiliaria que también aparecen en resultados relacionados.",
+      "distinctFrom": "El ejemplo separa una nueva comunidad que solicita información y una incidencia de una comunidad gestionada. No ofrece asesoramiento jurídico individual, anuncia viviendas ni utiliza expedientes como prueba de resultados.",
+      "sources": [
+        {
+          "url": "https://adminfergal.es/curso-de-formacion/",
+          "access": "direct_primary_professional_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "El despacho publica formación sobre marketing, web, redes y analítica para su sector. Sirve para observar una necesidad profesional de comunicación, no para cuantificar búsquedas ni acreditar contratación de una agencia."
+        },
+        {
+          "url": "https://adfinwebs.com/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "Oferta comercial de web y marketing dirigida a administradores contrastada. No se adoptan sus promesas de posiciones, especialización exclusiva, afirmaciones legales ni resultados. El ejemplo de dos recorridos y el alcance de Growth son propios."
+        }
+      ],
+      "demand": "Intención y oferta contrastadas cualitativamente. La mezcla de servicios y formación en resultados no acredita volumen, dificultad o puesto de Google.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "CADA CONSULTA, SU CANAL",
+      "Ejemplo editorial original de Dania360 para una administración de fincas.",
+      "",
+      "MENSAJE A: UNA COMUNIDAD SOLICITA INFORMACIÓN",
+      "Respuesta propuesta: Gracias por vuestro interés. Indicadnos el municipio y un canal de contacto para explicaros cómo presentamos nuestros servicios a una comunidad. El despacho os dirá qué información necesita para preparar la conversación.",
+      "Siguiente paso: registrar una consulta comercial y dirigirla a la persona que presenta el servicio. Confirmar posteriormente si avanzó a reunión o propuesta.",
+      "",
+      "MENSAJE B: UN RESIDENTE COMUNICA UNA INCIDENCIA",
+      "Respuesta propuesta: Para atender el asunto de vuestra comunidad, utilizad el canal que os ha facilitado el despacho. Así el equipo podrá revisar la información correspondiente y continuar la atención de forma privada.",
+      "Siguiente paso: seguir el circuito de atención confirmado por el despacho. No clasificar esta conversación como una nueva oportunidad comercial.",
+      "",
+      "CONTENIDO QUE AYUDA ANTES DEL CONTACTO",
+      "Una publicación puede explicar cómo empieza una conversación sobre el servicio de administración: qué necesita conocer la comunidad, quién la atiende y cómo se presenta una propuesta. El despacho valida su propio proceso antes de comunicarlo.",
+      "",
+      "TEXTO DE PUBLICACIÓN PROPUESTO",
+      "Antes de elegir administración, una comunidad necesita conocer la forma de atención del despacho. Podemos explicaros cómo presentamos nuestros servicios y qué información necesitamos para hablar de vuestra situación. Si queréis una primera conversación, indicadnos el municipio y un contacto para continuar.",
+      "",
+      "MATERIAL QUE NO ES NECESARIO PARA ESTA PIEZA",
+      "Actas, deudas, conflictos, direcciones, datos de vecinos o conversaciones de comunidades. El ejemplo se apoya en el proceso general del despacho, no en la exposición de expedientes."
+    ],
+    "faq": [
+      [
+        "¿Atendéis las incidencias de las comunidades desde las redes?",
+        "Acordamos cómo indicar el canal que el despacho haya facilitado a sus comunidades. La atención digital orienta el contacto; la gestión del asunto y de la documentación corresponde al equipo profesional. El ejemplo de esta página diferencia ese recorrido de una nueva comunidad que solicita información sobre los servicios."
+      ],
+      [
+        "¿Podéis preparar publicaciones sobre cuestiones normativas?",
+        "Podemos redactar contenido a partir de la información que el despacho aporte y pueda validar. Las explicaciones que requieran interpretación jurídica y sus fuentes deben revisarse con el profesional responsable antes de difundirse. Los asuntos particulares de una comunidad se continúan por el canal del despacho."
+      ],
+      [
+        "¿Esta página tiene el mismo enfoque que la de inmobiliarias?",
+        "Este enfoque presenta la administración de comunidades y su forma de atención. La comunicación de una agencia inmobiliaria se centra en servicios como la intermediación y su relación con propietarios o interesados. Si tu negocio desarrolla ambas actividades, revisamos cómo explicar cada una con claridad."
+      ],
+      [
+        "¿Growth incluye la web del despacho y un bot de IA por 297 €/mes?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes y reseñas en los canales incluidos, además de informe mensual de actividad y visibilidad local. El despacho conserva la atención profesional de sus comunidades."
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "seguridad-alarmas",
+    "name": "Empresas de seguridad y alarmas",
+    "hubGroup": "servicios-inmuebles",
+    "title": "Gestión de redes sociales para seguridad y alarmas | Dania360",
+    "description": "Explica los servicios de tu empresa de seguridad y alarmas con un mensaje claro. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
+    "h1": "Gestión de redes sociales para empresas de seguridad y alarmas",
+    "eyebrow": "El servicio que tu empresa puede valorar",
+    "lead": "Presentamos los servicios de tu empresa de seguridad y alarmas con contenido sobre su ámbito y su forma de atención. Growth incluye gestión de redes, comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "promise": "Que el primer mensaje permita continuar con el profesional adecuado.",
+    "layout": "seguridad-alarmas",
+    "artAlt": "Dibujos conceptuales de vivienda y comercio para presentar el ámbito de una consulta de seguridad",
+    "artCaption": "Composición editorial original. No muestra una instalación, un sistema de seguridad o una propiedad real.",
+    "resourceTitle": "Explicar un servicio de seguridad antes de proponer una solución",
+    "resourcePresentation": {
+      "description": "Un guion de presentación con apertura, desarrollo y cierre, una respuesta inicial y los datos que debe confirmar la empresa antes de adaptar el mensaje.",
+      "linkLabel": "Descargar el ejemplo de seguridad y alarmas",
+      "documentSubtitle": "Guion editorial original de Dania360 para una empresa de seguridad o alarmas. No describe una instalación o un cliente real."
+    },
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de seguridad y alarmas",
+        "gestión de redes sociales para empresas de seguridad",
+        "redes sociales empresas alarmas",
+        "marketing empresas seguridad alarmas",
+        "community manager seguridad privada"
+      ],
+      "intent": "Servicio comercial para una empresa que quiere delegar la comunicación de su oferta de seguridad o alarmas. No es una página para contratar vigilancia o instalar un sistema directamente.",
+      "distinctFrom": "El ejemplo presenta el ámbito y el primer contacto de un servicio confirmado. No reproduce aperturas de cerrajería, trabajos eléctricos ni recorridos de una instalación de seguridad.",
+      "sources": [
+        {
+          "url": "https://verdecereza.com/",
+          "access": "direct_primary_provider_page_read",
+          "checkedDateMadrid": "2026-11-02",
+          "observation": "La agencia presenta servicios de redes y relaciones propias con entidades del sector de seguridad. Se contrasta una oferta profesional; sus colaboraciones, descuentos, credenciales y precios no se atribuyen a Dania360. El mensaje y el alcance comercial de esta página son propios."
+        }
+      ],
+      "demand": "Consultas candidatas y oferta profesional contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "PRESENTAR EL SERVICIO CON CLARIDAD",
+      "Guion editorial original de Dania360 para una empresa de seguridad o alarmas.",
+      "",
+      "APERTURA",
+      "Antes de proponer un servicio, necesitamos entender para qué tipo de espacio lo estás consultando.",
+      "Visual: dibujo conceptual de vivienda y comercio. El texto identifica el ámbito real al que la empresa se dirige.",
+      "",
+      "DESARROLLO",
+      "La conversación inicial permite conocer el motivo del contacto y dirigirlo al profesional correspondiente. La empresa explica qué puede estudiar y cómo continúa la valoración.",
+      "Visual: nombre del servicio confirmado y canal de contacto. Si la empresa utiliza material de una instalación, selecciona únicamente lo que esté autorizado para comunicación pública.",
+      "",
+      "CIERRE",
+      "Indica el municipio y qué servicio quieres consultar. Nuestro equipo te explicará el siguiente paso.",
+      "Visual: contacto vigente y nombre de la empresa, sin imágenes de accesos o configuraciones de sistemas.",
+      "",
+      "RESPUESTA INICIAL PROPUESTA",
+      "Gracias por contactar. ¿Se trata de una vivienda, un comercio u otro tipo de espacio? Indícanos el municipio y el servicio que te interesa para dirigir tu consulta al equipo. Los detalles de la valoración los continuarás con el profesional por el canal acordado.",
+      "",
+      "COMPROBACIÓN EDITORIAL",
+      "El nombre del servicio coincide con lo que ofrece la empresa. El ámbito anunciado está confirmado. Cualquier mención a acreditaciones, monitorización, asistencia o tiempos de respuesta procede de información vigente validada por la empresa. La publicación invita a consultar; no confirma una instalación ni una visita.",
+      "",
+      "CÓMO EVALUAR LA PIEZA",
+      "Distinguir las consultas por servicio y comprobar con la empresa si encajaban en su actividad. Las visualizaciones no acreditan solicitudes de instalación ni contratos."
+    ],
+    "faq": [
+      [
+        "¿Podéis adaptar el contenido a los servicios concretos de nuestra empresa?",
+        "Sí. Partimos de los servicios, los ámbitos de trabajo y la forma de atención que tu empresa confirme. Cada publicación presenta lo que se puede consultar y cómo continúa la valoración. Las acreditaciones y las prestaciones se incluyen cuando proceden de información vigente que la empresa pueda validar."
+      ],
+      [
+        "¿El bot de IA atiende avisos de alarmas o presta vigilancia?",
+        "El bot incluido en Growth forma parte de la web y utiliza información configurada para orientar consultas sobre tu empresa. No se presenta como una central de alarmas ni como un servicio de vigilancia. Los servicios operativos, sus canales y sus condiciones corresponden a la empresa que los presta."
+      ],
+      [
+        "¿Es necesario mostrar instalaciones de clientes en las publicaciones?",
+        "Podemos preparar contenido con presentaciones del equipo, esquemas conceptuales y explicaciones del servicio. Cuando se utiliza material de una intervención, tu empresa confirma qué puede mostrarse y qué permisos tiene. Las imágenes se seleccionan para explicar la actividad; la producción presencial de foto y vídeo no figura en la cuota oficial de Growth."
+      ],
+      [
+        "¿Growth incluye web y bot de IA por 297 €/mes?",
+        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla atención de comentarios, mensajes y reseñas en los canales incluidos e informe mensual de actividad y visibilidad local. Tu empresa confirma las valoraciones, las visitas y las condiciones del servicio."
+      ]
+    ]
   }
 ]
