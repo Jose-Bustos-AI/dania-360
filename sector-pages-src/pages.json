@@ -5299,5 +5299,361 @@
       "Gracias por contactar. Podemos informarte sobre los servicios que ofrece el centro y cómo consultar con su equipo. Utiliza el canal indicado en el perfil y cuéntanos qué información necesitas sobre su funcionamiento, sin publicar documentación o detalles personales en los comentarios. El responsable te explicará cómo continuar.",
       ""
     ]
+  },
+  {
+    "id": 71,
+    "slug": "asesorias-gestorias",
+    "title": "Gestión de redes sociales para asesorías | Dania360",
+    "description": "Explica los servicios y la forma de trabajar de tu asesoría o gestoría con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El despacho se conoce mejor cuando explica cómo trabaja",
+    "promise": "Haz comprensible tu servicio antes de que te pidan una propuesta.",
+    "lead": "Preparamos contenido para presentar los servicios, el equipo y la atención de tu asesoría o gestoría. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Expediente editorial conceptual con tres separadores sobre alcance, contacto y comienzo del servicio de una asesoría",
+    "artCaption": "Ilustración original de una miniserie editorial. No representa documentación, clientes o trámites reales.",
+    "resourceTitle": "Tres publicaciones para quien valora cambiar de asesoría",
+    "faq": [
+      [
+        "¿Podéis preparar contenido diferente para autónomos y empresas?",
+        "Partimos de los públicos y servicios que confirme el despacho. Cada pieza elige un destinatario y una cuestión sobre su propuesta o forma de trabajar, en lugar de mezclar todos los servicios en la misma publicación."
+      ],
+      [
+        "¿Quién valida un aviso sobre trámites o campañas?",
+        "El equipo de la asesoría confirma su información profesional y la vigencia de cualquier aviso. No se mantienen fechas o procedimientos desactualizados ni se responde a una situación particular como si una publicación la resolviera."
+      ],
+      [
+        "¿Growth incluye LinkedIn o asesoramiento del bot?",
+        "LinkedIn no está incluido. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. El bot se configura con información del despacho y del contacto; no presta asesoramiento fiscal, laboral o jurídico."
+      ],
+      [
+        "¿Qué incluye Growth para asesorías y gestorías por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Asesorías y gestorías",
+    "h1": "Gestión de redes sociales para asesorías y gestorías",
+    "layout": "asesorias-gestorias",
+    "hubGroup": "servicios-empresas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para asesorías y gestorías",
+        "community manager asesorías",
+        "redes sociales gestorías",
+        "marketing asesorías"
+      ],
+      "intent": "Asesoría o gestoría que quiere explicar a qué tipo de cliente atiende y cómo se contrata su servicio sin publicar consejos individualizados.",
+      "distinctFrom": "Una miniserie de tres textos sobre alcance, interlocución y comienzo del servicio antes de cambiar de asesoría.",
+      "sources": [
+        {
+          "url": "https://amalgamaestudio.com/asesorias/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta específica para asesorías que diferencia tipo de cliente y coordinación entre contenido, web y contacto. Sus sistemas, casos, plazos, supuestos de rentabilidad y garantías no se adoptan.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos sobre alcance, interlocución y comienzo del servicio, para adaptar con el equipo del despacho.",
+      "linkLabel": "Descargar la miniserie editorial para asesorías",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado de la empresa. No representa clientes, resultados ni una prestación profesional real."
+    },
+    "resource": [
+      "Una miniserie editorial original",
+      "",
+      "Tres publicaciones para quien está valorando cambiar de asesoría",
+      "",
+      "Textos para adaptar al alcance y al funcionamiento del despacho. No describen clientes reales ni fijan obligaciones, fechas o procedimientos legales.",
+      "",
+      "01 · El alcance",
+      "",
+      "Conocer qué incluye el servicio",
+      "",
+      "Antes de cambiar de asesoría, conviene entender qué servicio estás consultando. En nuestro despacho te explicamos qué áreas puedes contratar y qué incluye la propuesta que estudiemos contigo. Si estás valorando un cambio, cuéntanos qué tipo de actividad tienes y qué información necesitas sobre el servicio. El equipo te indicará cómo continuar por el canal de atención del despacho.",
+      "",
+      "02 · La interlocución",
+      "",
+      "Saber cómo se organiza el contacto",
+      "",
+      "La forma de trabajar también importa al elegir una asesoría. Puedes preguntar quién atiende las consultas del servicio, por qué canal se contacta y cómo se organiza la comunicación. En esta pieza presentamos el funcionamiento que ofrece nuestro despacho para que puedas conocerlo antes de contratar. Las cuestiones de tu situación particular se revisan con el profesional, sin publicar documentación en los comentarios.",
+      "",
+      "03 · El comienzo",
+      "",
+      "Consultar cómo se estudia una incorporación",
+      "",
+      "Si quieres informarte sobre empezar con nuestra asesoría, el primer paso es conocer qué necesitas contratar y cómo se puede estudiar tu petición. El equipo te explicará qué información debe revisar y las condiciones de la propuesta. Los pasos del cambio y sus plazos se confirman para cada situación; una publicación no sustituye esa conversación con el despacho.",
+      ""
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "corredurias-seguros",
+    "title": "Redes sociales para corredurías de seguros | Dania360",
+    "description": "Presenta el equipo y el trabajo de tu correduría y orienta cada motivo de contacto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Cada consulta con el contexto que necesita tu equipo",
+    "promise": "Da a conocer tu correduría y facilita la continuación de las consultas.",
+    "lead": "Gestionamos contenido para explicar tu correduría de seguros, el equipo y cómo informarse. Growth reúne redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos bandejas conceptuales distinguen una nueva petición de información de un asunto ya iniciado con una correduría",
+    "artCaption": "Composición editorial original. No contiene pólizas, documentos ni datos de asegurados.",
+    "resourceTitle": "Una publicación y dos respuestas para la correduría",
+    "faq": [
+      [
+        "¿Cómo distinguís una petición nueva de una gestión sobre una póliza?",
+        "Acordamos con la correduría los canales y la información administrativa que puede facilitarse. El ejemplo incluye respuestas diferentes para orientar cada motivo sin publicar documentos o datos personales."
+      ],
+      [
+        "¿La agencia o el bot recomiendan seguros o comparan pólizas?",
+        "La agencia gestiona la comunicación y el bot orienta con información del negocio. Las propuestas, coberturas y decisiones de asesoramiento corresponden al profesional de la correduría; no se atribuyen esas funciones al bot."
+      ],
+      [
+        "¿Quién revisa lo que se publica sobre los servicios de la correduría?",
+        "Su responsable valida ramos, servicios, afirmaciones de su especialidad y condiciones de los avisos comerciales. Preparamos el contenido con material autorizado y sin inventar clientes, pólizas o resultados."
+      ],
+      [
+        "¿Qué incluye Growth para corredurías de seguros por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Corredurías de seguros",
+    "h1": "Gestión de redes sociales para corredurías de seguros",
+    "layout": "corredurias-seguros",
+    "hubGroup": "servicios-empresas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para corredurías de seguros",
+        "community manager corredurías",
+        "redes sociales seguros",
+        "marketing corredurías seguros"
+      ],
+      "intent": "Correduría que necesita presentar su trabajo y orientar consultas de información y asuntos de pólizas existentes hacia su equipo.",
+      "distinctFrom": "Distinguir una nueva petición de información de una gestión ya iniciada, con publicación y dos respuestas completas sin recomendar coberturas desde la agencia.",
+      "sources": [
+        {
+          "url": "https://segurospipamedia.es/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Página de marketing para seguros con campañas y formularios. Mezcla en su texto la oferta de agencia con asesoramiento asegurador; no se trasladan esos servicios profesionales ni se confunden sus campañas de pago con gestión orgánica.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://marketingparaseguros.com/",
+          "access": "indexed_result_read_direct_open_timeout",
+          "observation": "El resultado indexado menciona expresamente gestión de redes de corredurías y web. La apertura directa agotó el tiempo; no se considera una oferta completa leída ni una prueba de volumen.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para presentar el contacto y distinguir información nueva de una gestión sobre una póliza existente.",
+      "linkLabel": "Descargar el ejemplo de atención para corredurías",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado de la empresa. No representa clientes, resultados ni una prestación profesional real."
+    },
+    "resource": [
+      "Una publicación y dos respuestas originales",
+      "",
+      "Situar el motivo del contacto antes de continuar con la correduría",
+      "",
+      "Ejemplo editorial administrativo para adaptar al servicio y a los canales confirmados. No describe una póliza, una cobertura o un asegurado reales.",
+      "",
+      "Publicación para presentar cómo informarse",
+      "",
+      "Conocer una correduría también es saber quién te atiende y cómo puedes consultar con su equipo. En nuestro perfil presentamos el servicio y las formas de contacto. Si quieres informarte, utiliza el canal indicado y explica qué información necesitas sobre la correduría. El equipo te orientará sobre cómo continuar. Las propuestas y las cuestiones de una póliza se estudian con el profesional, fuera de los comentarios de una publicación.",
+      "",
+      "Nueva petición de información",
+      "",
+      "Gracias por contactar. Podemos orientarte sobre el funcionamiento de la correduría y cómo consultar con su equipo. Utiliza el canal privado indicado en el perfil y dinos qué información necesitas sobre el servicio. El responsable te explicará qué corresponde revisar antes de preparar una propuesta.",
+      "",
+      "Asunto de una póliza existente",
+      "",
+      "Para una gestión relacionada con una póliza, continúa por el canal de atención que tengas acordado con la correduría. Su equipo podrá indicarte el procedimiento que corresponda. No publiques números de póliza, documentos ni datos personales en los comentarios de esta cuenta.",
+      ""
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "consultorias-empresariales",
+    "title": "Redes sociales para consultorías empresariales | Dania360",
+    "description": "Explica la propuesta y los entregables de tu consultoría con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Del conocimiento a una propuesta que se pueda entender",
+    "promise": "Muestra en qué se concreta el trabajo que una empresa puede encargarte.",
+    "lead": "Damos forma al contenido de tu consultoría para explicar su propuesta, equipo y servicios. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes; LinkedIn no está incluido.",
+    "artAlt": "Mapa editorial conceptual con contexto, entregable y alcance para presentar un encargo de consultoría",
+    "artCaption": "Esquema original de comunicación. No representa un proyecto de un cliente ni resultados empresariales.",
+    "resourceTitle": "Un mapa editorial para presentar un encargo de consultoría",
+    "faq": [
+      [
+        "¿Podemos mostrar cómo trabajamos sin publicar datos de clientes?",
+        "Podemos desarrollar una explicación del método, un recurso propio autorizado o un ejemplo conceptual identificado. La demostración de esta página no es un proyecto de un cliente y no acredita resultados."
+      ],
+      [
+        "¿Growth incluye LinkedIn para mi consultoría?",
+        "No. Incluye publicaciones en Instagram, Facebook, TikTok y Pinterest y gestión de Google Business Profile. Si LinkedIn es prioritario para tu negocio, se debe valorar el alcance adecuado en la auditoría antes de contratar."
+      ],
+      [
+        "¿El bot de IA prepara diagnósticos o propuestas de consultoría?",
+        "Se configura con información del negocio para orientar sobre el servicio y el contacto. El estudio del encargo, su alcance y la propuesta corresponden al equipo de tu consultoría."
+      ],
+      [
+        "¿Qué incluye Growth para consultorías empresariales por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Consultorías empresariales",
+    "h1": "Gestión de redes sociales para consultorías empresariales",
+    "layout": "consultorias-empresariales",
+    "hubGroup": "servicios-empresas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para consultorías empresariales",
+        "redes sociales consultoras",
+        "community manager consultorías",
+        "marketing consultores"
+      ],
+      "intent": "Consultoría que necesita hacer comprensible su propuesta y lo que puede estudiar con una empresa antes de preparar un encargo.",
+      "distinctFrom": "Un mapa editorial de un encargo didáctico sobre reuniones y decisiones, con contexto, entregable y alcance sin atribuir resultados a un cliente.",
+      "sources": [
+        {
+          "url": "https://www.roiting.com/marketing-consultores/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta para consultores y firmas B2B que pone en valor conocimiento y conversación comercial. No se adoptan su sistema, cartera, resultados o servicios de captación. LinkedIn no está en Growth; ese límite debe quedar visible.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Contexto, entregable, alcance y texto de presentación completos de una demostración didáctica, para adaptar a tu servicio real.",
+      "linkLabel": "Descargar el ejemplo editorial para consultorías",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado de la empresa. No representa clientes, resultados ni una prestación profesional real."
+    },
+    "resource": [
+      "Un mapa editorial original",
+      "",
+      "Contexto, entregable y alcance para presentar un encargo",
+      "",
+      "Demostración didáctica sobre la organización de reuniones y decisiones. No es un proyecto de un cliente ni un servicio que Dania360 incluya en Growth. Se adapta al trabajo real de la consultoría.",
+      "",
+      "El contexto que se quiere explicar",
+      "",
+      "Un equipo necesita aclarar cómo se registran los acuerdos de sus reuniones y quién continúa cada asunto. La pieza sitúa esa necesidad sin inventar pérdidas, costes o resultados.",
+      "",
+      "Un entregable que el lector pueda imaginar",
+      "",
+      "Un mapa de decisiones y responsables, con los campos que se revisarían en ese encargo. Mostrar cómo se presenta ese documento ayuda a entender en qué podría concretarse el trabajo.",
+      "",
+      "Un alcance que debe confirmarse",
+      "",
+      "La consultoría explica si estudia el funcionamiento, propone una forma de organizarlo o acompaña su implantación. Esos servicios y condiciones se acuerdan antes de una propuesta.",
+      "",
+      "Texto de presentación para adaptar a ese servicio",
+      "",
+      "Un encargo de consultoría se entiende mejor cuando se puede ver en qué se concreta. En esta pieza mostramos cómo presentar un mapa de decisiones y responsables para organizar la continuidad de los acuerdos de un equipo. El punto de partida es conocer cómo trabaja la empresa y qué quiere revisar. Si te interesa estudiar un encargo de este tipo, podemos explicar qué alcance ofrece nuestra consultoría y cómo se prepara una primera conversación.",
+      "",
+      "La consultoría debe sustituir el asunto y el entregable por los que realmente trabaja. Un ejemplo conceptual no acredita experiencia con un cliente ni un resultado económico.",
+      ""
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "seleccion-personal",
+    "title": "Redes sociales para empresas de selección | Dania360",
+    "description": "Explica tu servicio de selección y separa el contacto de empresas y candidatos. Growth incluye redes, web y bot de IA por 297 €/mes, sin LinkedIn.",
+    "eyebrow": "Dos públicos, una presentación clara del servicio",
+    "promise": "Haz reconocible tu servicio para empresas y el canal de información de candidatos.",
+    "lead": "Preparamos contenido para presentar tu empresa de selección y orientar cada motivo de contacto. Growth incluye redes sociales, atención de sus canales, web y bot de IA por 297 €/mes; LinkedIn no está incluido.",
+    "artAlt": "Dos recorridos editoriales conceptuales para empresa empleadora y candidato hacia el equipo de selección",
+    "artCaption": "Diagrama original de comunicación. No representa personas, vacantes ni procesos de clientes reales.",
+    "resourceTitle": "Dos publicaciones para empresas y candidatos",
+    "faq": [
+      [
+        "¿Podéis preparar contenido para captar empresas además de comunicar ofertas?",
+        "Podemos presentar el servicio, el equipo y cómo una empresa consulta un encargo de selección. Ese recorrido se diferencia del canal de información que la organización indique para candidatos."
+      ],
+      [
+        "¿Growth incluye LinkedIn o los portales de empleo?",
+        "LinkedIn no está incluido y no se presupone gestión de portales de empleo. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. Revisamos los canales prioritarios en la auditoría antes de contratar."
+      ],
+      [
+        "¿La atención del perfil o el bot evalúan o eligen candidatos?",
+        "No. Su función es orientar con información del negocio y dirigir cada consulta al canal acordado. La evaluación, las decisiones de selección y los sistemas de candidaturas corresponden a la empresa."
+      ],
+      [
+        "¿Qué incluye Growth para empresas de selección de personal por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Empresas de selección de personal",
+    "h1": "Gestión de redes sociales para empresas de selección de personal",
+    "layout": "seleccion-personal",
+    "hubGroup": "servicios-empresas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de selección de personal",
+        "community manager selección personal",
+        "redes sociales empresas recursos humanos",
+        "marketing empresas selección"
+      ],
+      "intent": "Empresa de selección que quiere explicar su servicio a empresas empleadoras y separar ese recorrido de los contactos de candidatos.",
+      "distinctFrom": "Una pieza para presentar el encargo de selección a la empresa y otra para orientar a candidatos, sin inventar una vacante ni atribuir selección de personas al bot.",
+      "sources": [
+        {
+          "url": "https://www.agenciabenayas.com/",
+          "access": "primary_sector_business_page_direct_read",
+          "observation": "La propia empresa distingue servicios y contactos para empresa y candidato. Sirve para contrastar el funcionamiento del sector; no es un cliente de Dania360 ni evidencia de demanda de agencia.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://rogerllorens.com/marketing-empresas-seleccion-rrhh/",
+          "access": "indexed_result_and_direct_navigation_excerpt_read",
+          "observation": "El resultado indexado describe marketing para selección y RRHH. La apertura consultada aporta principalmente navegación; no se considera leída su oferta completa. No se adoptan sus cifras, categorías jurídicas, servicios o casos.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para presentar el encargo de selección y orientar sobre el canal de candidatura, sin anunciar una vacante real.",
+      "linkLabel": "Descargar las publicaciones para selección de personal",
+      "documentSubtitle": "Propuesta editorial original para adaptar al servicio confirmado de la empresa. No representa clientes, resultados ni una prestación profesional real."
+    },
+    "resource": [
+      "Dos textos editoriales originales",
+      "",
+      "Presentar el servicio a una empresa y orientar a quien busca empleo",
+      "",
+      "Propuesta para adaptar a los servicios y canales confirmados de tu organización. No anuncia una vacante, no solicita candidaturas reales ni representa un proceso de un cliente.",
+      "",
+      "Para la empresa que consulta el servicio",
+      "",
+      "Explicar cómo se estudia un encargo de selección",
+      "",
+      "Antes de iniciar un proceso de selección, interesa concretar qué necesita la empresa y qué servicio quiere contratar. En nuestro perfil presentamos al equipo y cómo puede consultar una organización con nosotros. Si quieres informarte, utiliza el canal para empresas y cuéntanos qué información necesitas sobre el servicio. El responsable te explicará cómo se estudia el encargo, qué alcance puede ofrecer y qué condiciones deben acordarse antes de comenzar.",
+      "",
+      "Para la persona que busca oportunidades",
+      "",
+      "Indicar el canal de información sobre candidaturas",
+      "",
+      "Si buscas información para presentar una candidatura, consulta los canales de empleo que indique nuestra organización. Allí podrás conocer el procedimiento y las oportunidades que estén publicadas. No necesitas dejar un currículum ni datos personales en los comentarios del perfil. Para una consulta sobre tu participación en un proceso, utiliza la vía de atención que te haya facilitado el equipo.",
+      "",
+      "Lo que debe confirmar el responsable al adaptar las piezas",
+      "",
+      "Qué servicios se ofrecen a empresas, cómo se solicita información comercial y qué canal existe para candidatos. Las ofertas, su estado y el procedimiento de participación deben corresponder a la información vigente de la organización.",
+      ""
+    ]
   }
 ]
