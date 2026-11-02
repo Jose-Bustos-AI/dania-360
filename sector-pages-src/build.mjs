@@ -35,7 +35,7 @@ for (const p of pages) {
   const path = pathFor(p), url = site+path, out = resolve(root, `.${path}`);
   mkdirSync(out, {recursive:true});
   copyFileSync(resolve(source, `art/${p.slug}.svg`), resolve(out, 'ilustracion.svg'));
-  writeFileSync(resolve(out, 'ficha-editorial.txt'), `${p.resourceTitle.toUpperCase()}\nDania360 · Recurso editable · Ejemplo de organización\n\n${p.resource.join('\n')}\n\n${url}\n`, 'utf8');
+  writeFileSync(resolve(out, 'ficha-editorial.txt'), `\uFEFF${p.resourceTitle.toUpperCase()}\nDania360 · Recurso editable · Ejemplo de organización\n\n${p.resource.join('\n')}\n\n${url}\n`, 'utf8');
   const crumbs = {'@type':'BreadcrumbList','@id':url+'#breadcrumb',itemListElement:[{'@type':'ListItem',position:1,name:'Inicio',item:site+'/'},{'@type':'ListItem',position:2,name:p.name,item:url}]};
   const service = {'@type':'Service','@id':url+'#service',name:p.h1,serviceType:p.h1,description:p.lead,provider:{'@id':organization['@id']},areaServed:{'@type':'Country',name:'España'},url,offers:{'@type':'Offer',name:'Growth: redes sociales, web y bot de IA',price:'297',priceCurrency:'EUR',url:url+'#growth',priceSpecification:{'@type':'UnitPriceSpecification',price:'297',priceCurrency:'EUR',unitText:'mes'}}};
   const faq = {'@type':'FAQPage','@id':url+'#preguntas',mainEntity:p.faq.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))};

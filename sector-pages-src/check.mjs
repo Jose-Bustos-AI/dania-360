@@ -49,6 +49,8 @@ for(const p of pages) {
   const svg=readFileSync(resolve(root,'.'+path,'ilustracion.svg'),'utf8');
   if(!svg.includes('<title') || !svg.includes('<desc') || !svg.includes('viewBox="0 0 640 480"')) fail(p.slug,'ilustración sin semántica o proporción reservada');
   const resource=readFileSync(resolve(root,'.'+path,'ficha-editorial.txt'),'utf8');
+  const resourceBytes=readFileSync(resolve(root,'.'+path,'ficha-editorial.txt'));
+  if(!resourceBytes.subarray(0,3).equals(Buffer.from([0xef,0xbb,0xbf]))) fail(p.slug,'la ficha necesita una marca UTF-8 para servidores text/plain sin charset');
   if(!p.resource.every(line=>resource.includes(line))) fail(p.slug,'ficha descargable desincronizada');
   reports.push({slug:p.slug,titleLength:p.title.length,descriptionLength:p.description.length,originalBodyWords:text(body).split(' ').length,localLinks,faqCount:questions.length,illustrationBytes:Buffer.byteLength(svg)});
   bodies.push([p.slug,new Set(text(body).toLowerCase().match(/[a-záéíóúñü]+/g))]);
