@@ -4359,5 +4359,205 @@
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ]
+  },
+  {
+    "id": 61,
+    "slug": "psicologos",
+    "h1": "Gestión de redes sociales para psicólogos",
+    "title": "Gestión de redes sociales para psicólogos | Dania360",
+    "description": "Da a conocer tu consulta de psicología con contenido propio y atención al primer contacto. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La consulta empieza a conocerse antes de la primera cita",
+    "promise": "Presenta tu forma de trabajar y facilita el primer contacto con tu centro.",
+    "lead": "Gestionamos las redes de psicólogos y centros de psicología con contenido sobre su equipo, servicio y funcionamiento. Growth reúne publicaciones, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Composición original con tres motivos de contacto de una consulta de psicología: información, situación personal y cita existente",
+    "artCaption": "Ilustración conceptual del recorrido de atención. No representa un centro ni mensajes de pacientes.",
+    "resourceTitle": "Una publicación y tres respuestas para el primer contacto",
+    "resourcePresentation": {
+      "description": "Textos completos para presentar la forma de contactar y responder según el motivo del mensaje, con el criterio del centro.",
+      "linkLabel": "Descargar la publicación y las tres respuestas para psicología",
+      "documentSubtitle": "Propuesta editorial original para adaptar al centro. No contiene pacientes ni conversaciones reales."
+    },
+    "faq": [
+      [
+        "¿Podéis mantener la voz de mi consulta de psicología?",
+        "Partimos de cómo presentas tu trabajo, a quién atiende el centro y qué temas quieres comunicar. El profesional revisa el contenido de su especialidad y el material autorizado antes de publicar. La demostración de esta página se adapta a ese criterio."
+      ],
+      [
+        "¿Cómo se responden comentarios que cuentan una situación personal?",
+        "Se orienta hacia el canal de atención del centro sin valorar el caso en público. Acordamos con el responsable qué información administrativa puede facilitarse y qué mensajes debe continuar su equipo."
+      ],
+      [
+        "¿Necesitáis historias o testimonios de pacientes para preparar contenido?",
+        "Podemos presentar al equipo, explicar el funcionamiento de la consulta y desarrollar temas revisados por el profesional. No hace falta utilizar historias ni imágenes de pacientes para trabajar esas piezas."
+      ],
+      [
+        "¿Qué incluye Growth para psicólogos por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El bot se configura para orientar sobre el centro y sus canales; no realiza una valoración clínica."
+      ]
+    ],
+    "name": "Centros de psicología",
+    "hubGroup": "salud-cuidados",
+    "layout": "psicologos",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para psicólogos",
+        "gestión de redes sociales centros de psicología",
+        "community manager psicólogos",
+        "marketing para psicólogos"
+      ],
+      "intent": "Psicólogo o centro que quiere delegar publicaciones y atención administrativa conservando la voz y el criterio de sus profesionales.",
+      "distinctFrom": "Una publicación explica el primer contacto y tres respuestas diferencian información del centro, situación personal y gestión de una cita existente.",
+      "sources": [
+        {
+          "url": "https://casabalmes.es/es/services/servicio-de-gestion-de-redes-sociales",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta específica para psicólogos: voz del profesional, presentación de su enfoque, revisión y continuidad de contenido. Sus precios, formatos, plazos y supuestos de captación son de ese proveedor; no se adoptan. Se diferencia la demostración propia mediante una publicación y tres respuestas administrativas según el motivo del mensaje.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. No hay datos de volumen, dificultad, tendencia ni puesto puntual en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "Una publicación y tres respuestas originales",
+      "",
+      "El primer mensaje necesita una respuesta acorde con su motivo",
+      "",
+      "Ejemplo editorial para adaptar al funcionamiento y a los canales del centro. Los textos presentan la atención administrativa; no son una conversación con un paciente.",
+      "",
+      "Publicación para explicar cómo empezar",
+      "",
+      "Antes de reservar una cita puedes informarte sobre quién te atenderá, en qué modalidad trabaja y cómo se solicita la primera consulta. El primer contacto sirve para resolver esas dudas sobre el centro y orientarte hacia su equipo. Puedes preguntar por su funcionamiento sin contar tu historia en los comentarios de esta cuenta. Si quieres empezar, utiliza el canal de contacto que aparece en el perfil.",
+      "",
+      "Información del centro",
+      "",
+      "Una persona pregunta cómo solicitar cita",
+      "",
+      "Gracias por escribir. Podemos orientarte sobre las modalidades de atención y la forma de solicitar una cita. Contacta por el canal privado del centro y el equipo te explicará cómo continuar.",
+      "",
+      "Situación personal",
+      "",
+      "El comentario incluye una consulta clínica",
+      "",
+      "Gracias por contactar. Para cuidar tu intimidad, las situaciones personales no se valoran en los comentarios de esta cuenta. Si quieres consultar con el centro, utiliza su canal de atención para que el equipo te indique cómo dirigirte al profesional.",
+      "",
+      "Atención ya iniciada",
+      "",
+      "La petición se refiere a una cita existente",
+      "",
+      "Para una gestión de tu cita, utiliza el canal de atención que tengas acordado con el centro. Así el equipo podrá atender tu petición en el lugar adecuado, sin tratar información de tu consulta en el perfil público.",
+      ""
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "nutricionistas",
+    "h1": "Gestión de redes sociales para nutricionistas",
+    "title": "Gestión de redes sociales para nutricionistas | Dania360",
+    "description": "Explica tu consulta y seguimiento con contenido de nutrición revisado por ti. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Haz visible el servicio que hay detrás de la consulta",
+    "promise": "Explica cómo trabajas antes de que te pregunten solo por una dieta.",
+    "lead": "Preparamos contenido para nutricionistas que quieren dar a conocer su servicio, equipo y acompañamiento. Con Growth tienes gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "artAlt": "Cuatro tarjetas editoriales originales sobre primer contacto, consulta, seguimiento y canal de información de un nutricionista",
+    "artCaption": "Composición conceptual de un carrusel. No muestra una dieta, un paciente ni un resultado clínico.",
+    "resourceTitle": "Un carrusel sobre consulta y seguimiento nutricional",
+    "resourcePresentation": {
+      "description": "Las cuatro pantallas, el texto de acompañamiento y una primera respuesta completos, listos para adaptar con el nutricionista.",
+      "linkLabel": "Descargar el carrusel y la respuesta sobre seguimiento",
+      "documentSubtitle": "Ejemplo editorial original para explicar el servicio. No es una pauta nutricional ni un caso de un paciente."
+    },
+    "faq": [
+      [
+        "¿El contenido tiene que limitarse a recetas y consejos de alimentación?",
+        "También podemos explicar quién atiende, las áreas del servicio, cómo informarse sobre la primera visita y cómo consultar el seguimiento. Los temas divulgativos se desarrollan con el criterio y la revisión del nutricionista."
+      ],
+      [
+        "¿Quién revisa las explicaciones sobre nutrición?",
+        "El profesional valida la información de su especialidad y cómo se describe la consulta. Nuestro trabajo es ordenar y dar forma al contenido para que se entienda, se publique y permita continuar el contacto con el centro."
+      ],
+      [
+        "¿El bot de IA prepara dietas o responde sobre informes clínicos?",
+        "En este servicio se configura con información de la consulta para orientar sobre su funcionamiento y sus formas de contacto. Las dietas, los informes y las valoraciones individuales corresponden al profesional en el entorno de consulta."
+      ],
+      [
+        "¿Qué incluye Growth para nutricionistas por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Nutricionistas y centros de nutrición",
+    "hubGroup": "salud-cuidados",
+    "layout": "nutricionistas",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para nutricionistas",
+        "community manager nutricionistas",
+        "redes sociales centros de nutrición",
+        "marketing nutricionistas"
+      ],
+      "intent": "Nutricionista o centro de nutrición que necesita hacer comprensible su consulta y el seguimiento, además de publicar contenido divulgativo.",
+      "distinctFrom": "Un carrusel de cuatro pantallas presenta preguntas de contratación sobre atención inicial, modalidad y seguimiento, con texto y primera respuesta completos.",
+      "sources": [
+        {
+          "url": "https://www.clickorimarketing.es/agencia-de-marketing/nutricionistas/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta española específica de marketing para nutricionistas, con redes, web y presentación de servicios. El texto incluye promesas y referencias incoherentes a farmacia; no se replican ni se consideran evidencia de resultados. Se desarrolla una demostración propia sobre información de consulta y seguimiento, sin consejos nutricionales.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://nexosalud.es/agencia",
+          "access": "indexed_result_only_direct_page_no_readable_lines",
+          "observation": "El resultado indexado presenta marketing para nutricionistas y un servicio centrado en campañas y embudos. La apertura directa no ofrece texto legible; no se considera una oferta completa verificada ni prueba de demanda.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. No hay datos de volumen, dificultad, tendencia ni puesto puntual en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resource": [
+      "Un carrusel editorial original",
+      "",
+      "Cuatro pantallas para explicar la consulta y el seguimiento",
+      "",
+      "Propuesta para adaptar con el nutricionista. Describe cómo informarse sobre su servicio, sin presentar una dieta, un paciente o un resultado clínico.",
+      "",
+      "01 · Portada",
+      "",
+      "Antes de pedir tu primera consulta",
+      "",
+      "Conoce al profesional, las áreas que atiende y la forma de contactar con su consulta.",
+      "",
+      "02 · La consulta",
+      "",
+      "Pregunta qué incluye la atención inicial",
+      "",
+      "El centro puede explicarte su funcionamiento, la modalidad disponible y las condiciones de la cita.",
+      "",
+      "03 · La continuidad",
+      "",
+      "Infórmate sobre el seguimiento",
+      "",
+      "Consulta cómo se organiza, qué canal utiliza el equipo y qué aspectos se acuerdan con el profesional.",
+      "",
+      "04 · El siguiente paso",
+      "",
+      "Contacta para conocer el servicio",
+      "",
+      "Utiliza el canal del perfil para informarte. Las cuestiones personales se atienden con el profesional en el entorno de consulta.",
+      "",
+      "Texto que acompaña al carrusel",
+      "",
+      "Antes de elegir una consulta de nutrición, puede ayudarte conocer cómo trabaja el profesional y qué incluye su servicio. En este carrusel reunimos las preguntas para ese primer contacto: atención inicial, modalidad y seguimiento. Si quieres informarte, escribe por el canal del perfil y el equipo te explicará el funcionamiento de la consulta. Los comentarios de una publicación no son el lugar para compartir informes o recibir una pauta individual.",
+      "",
+      "Respuesta a una petición de información sobre seguimiento",
+      "",
+      "Gracias por escribir. Podemos explicarte cómo se organiza el servicio de seguimiento y cómo consultar con el profesional. Contacta por el canal privado de la consulta e indica que quieres información sobre ese servicio. El equipo te orientará sobre su funcionamiento y las condiciones que corresponda confirmar antes de una cita.",
+      ""
+    ]
   }
 ]

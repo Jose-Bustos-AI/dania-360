@@ -22,5 +22,9 @@
   {
     "id": "alimentacion",
     "title": "Alimentación y celebraciones"
+  },
+  {
+    "id": "salud-cuidados",
+    "title": "Salud y cuidados"
   }
 ]
