@@ -1256,3 +1256,98 @@
  .layout-traduccion-interpretacion .translation-written,.layout-ingenierias .engineering-caption,.layout-prevencion-riesgos-laborales .prevention-timing article,.layout-transporte-logistica .logistics-post,.layout-informatica-soporte-tecnico .it-service-note,.layout-informatica-soporte-tecnico .it-slides li,.layout-informatica-soporte-tecnico .it-caption,.layout-imprentas-rotulacion .print-label,.layout-imprentas-rotulacion .print-sign{padding:24px}
  .layout-ingenierias .engineering-frames li{grid-template-columns:1fr;gap:14px}
 }
+
+/* Flowers: a composition in three views, followed by two kinds of enquiry. */
+.layout-floristerias .hero{grid-template-columns:.9fr 1.1fr}
+.layout-floristerias .hero figure{order:-1}
+.layout-floristerias h1{font-size:clamp(2.3rem,3.6vw,3.7rem);max-width:18ch}
+.layout-floristerias .flowers-style{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:end}
+.layout-floristerias .flowers-style p,.layout-floristerias .flowers-material p{color:var(--muted)}
+.layout-floristerias .flowers-style .kicker{color:var(--orange)}
+.layout-floristerias .flowers-views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:34px 0}
+.layout-floristerias .flowers-views>div{border-top:3px solid var(--orange);padding-top:20px}
+.layout-floristerias .flowers-views dt{font-size:1.2rem;font-weight:750;margin-bottom:10px}
+.layout-floristerias .flowers-views dd{margin:0;color:var(--muted)}
+.layout-floristerias .flowers-caption{background:var(--paper);color:#251d17;padding:34px;border-radius:28px 0 28px 0}
+.layout-floristerias .flowers-caption p{color:#46372c;margin-bottom:0}
+.layout-floristerias .flowers-replies{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:36px}
+.layout-floristerias .flowers-replies article{padding-left:24px;border-left:1px solid var(--orange)}
+.layout-floristerias .flowers-replies p{color:var(--muted);margin-bottom:0}
+.layout-floristerias .flowers-material,.layout-floristerias .flowers-contact{max-width:980px}
+
+/* Jewellery: two separate product stories, with a restrained display treatment. */
+.layout-joyerias-relojerias .hero{grid-template-columns:1.15fr .85fr}
+.layout-joyerias-relojerias h1{font-size:clamp(2.3rem,3.6vw,3.7rem);max-width:23ch}
+.layout-joyerias-relojerias .jewellery-detail>div{display:grid;grid-template-columns:1fr 1fr;gap:48px;color:var(--muted)}
+.layout-joyerias-relojerias .jewellery-two-pieces>article{display:grid;grid-template-columns:.65fr 1.35fr;gap:44px;padding:34px 0;margin-top:30px;border-top:1px solid #8c6f4f}
+.layout-joyerias-relojerias .jewellery-two-pieces>article span{display:block;color:var(--orange);font-size:.8rem;letter-spacing:.12em;margin-bottom:18px}
+.layout-joyerias-relojerias .jewellery-two-pieces>article h3{font-size:1.6rem}
+.layout-joyerias-relojerias .jewellery-two-pieces>article p{color:var(--muted);margin-bottom:0}
+.layout-joyerias-relojerias .jewellery-two-pieces .watch-piece{padding-left:36px;border-left:1px solid #8c6f4f;margin-left:56px}
+.layout-joyerias-relojerias .jewellery-authority,.layout-joyerias-relojerias .jewellery-service{max-width:960px}
+
+/* Furniture: a timed three-shot storyboard and a store enquiry checklist. */
+.layout-tiendas-muebles h1{font-size:clamp(2.3rem,3.7vw,3.9rem);max-width:21ch}
+.layout-tiendas-muebles .furniture-showroom{display:grid;grid-template-columns:1.25fr .75fr;gap:42px}
+.layout-tiendas-muebles .furniture-showroom aside{background:#18130f;padding:28px;border-top:3px solid var(--orange);align-self:start}
+.layout-tiendas-muebles .furniture-showroom p{color:var(--muted)}
+.layout-tiendas-muebles .furniture-showroom .kicker{color:var(--orange)}
+.layout-tiendas-muebles .furniture-shots{list-style:none;padding:0;margin:36px 0;border-bottom:1px solid var(--line)}
+.layout-tiendas-muebles .furniture-shots li{display:grid;grid-template-columns:110px 1fr;gap:28px;padding:26px 0;margin:0;border-top:1px solid var(--line)}
+.layout-tiendas-muebles .furniture-shots li>span{font-weight:800;color:var(--orange)}
+.layout-tiendas-muebles .furniture-shots p{color:var(--muted);margin-bottom:0}
+.layout-tiendas-muebles .furniture-caption{background:#21170f;padding:34px;border:1px solid #8d6545}
+.layout-tiendas-muebles .furniture-caption p{margin-bottom:0}
+.layout-tiendas-muebles .furniture-questions dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:32px 0}
+.layout-tiendas-muebles .furniture-questions dt{font-size:1.2rem;font-weight:750;color:var(--orange);margin-bottom:12px}
+.layout-tiendas-muebles .furniture-questions dd{margin:0;color:var(--muted)}
+.layout-tiendas-muebles .furniture-web{max-width:940px}
+
+/* Decoration and lighting: an object and a light keep their own editorial space. */
+.layout-decoracion-iluminacion .hero{grid-template-columns:1fr}
+.layout-decoracion-iluminacion .hero>div{max-width:1000px}
+.layout-decoracion-iluminacion .hero figure{max-width:750px;justify-self:center}
+.layout-decoracion-iluminacion h1{font-size:clamp(2.3rem,4.4vw,4.3rem);max-width:25ch}
+.layout-decoracion-iluminacion .decor-selection>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-decoracion-iluminacion .decor-editorials{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start;margin-top:34px}
+.layout-decoracion-iluminacion .decor-editorials article{padding:34px}
+.layout-decoracion-iluminacion .decor-editorials span{display:block;font-size:.8rem;letter-spacing:.1em;font-weight:750;margin-bottom:25px}
+.layout-decoracion-iluminacion .decor-editorials h3{font-size:1.65rem}
+.layout-decoracion-iluminacion .decor-editorials p{margin-bottom:0}
+.layout-decoracion-iluminacion .decor-object{background:var(--paper);color:#291e16}
+.layout-decoracion-iluminacion .decor-object span{color:#94350f}
+.layout-decoracion-iluminacion .decor-object p{color:#49392b}
+.layout-decoracion-iluminacion .decor-light{border:1px solid #a57950;margin-top:54px;background:#1c140d}
+.layout-decoracion-iluminacion .decor-light span{color:var(--orange)}
+.layout-decoracion-iluminacion .decor-reference,.layout-decoracion-iluminacion .decor-service{max-width:980px}
+
+/* Books: the bookseller's reading note and the programme notice read differently. */
+.layout-librerias .hero{grid-template-columns:1fr 1fr}
+.layout-librerias h1{font-size:clamp(2.5rem,3.7vw,3.9rem);max-width:20ch}
+.layout-librerias .bookseller-voice{display:grid;grid-template-columns:1.2fr .8fr;gap:46px;align-items:end}
+.layout-librerias .bookseller-voice p{color:var(--muted)}
+.layout-librerias .bookseller-voice .kicker{color:var(--orange)}
+.layout-librerias .books-reading-note{max-width:850px;margin:38px 0;padding:36px;background:var(--paper);color:#291e16;border-left:8px solid #b1562e}
+.layout-librerias .books-reading-note span{color:#94350f}
+.layout-librerias .books-reading-note p{color:#49392b;margin-bottom:0}
+.layout-librerias .books-programme-note{max-width:850px;margin-left:auto;padding:30px 0 0 32px;border-top:1px solid var(--orange);border-left:1px solid var(--orange)}
+.layout-librerias .books-programme-note span{color:var(--orange)}
+.layout-librerias .books-programme-note p{color:var(--muted);margin-bottom:0}
+.layout-librerias .bookseller-notes article span{display:block;font-size:.8rem;font-weight:750;letter-spacing:.08em;margin-bottom:24px}
+.layout-librerias .bookseller-notes article h3{font-size:1.65rem}
+.layout-librerias .books-material dl{margin:32px 0}
+.layout-librerias .books-material dl>div{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:22px 0;border-top:1px solid var(--line)}
+.layout-librerias .books-material dt{font-weight:750;color:var(--orange)}
+.layout-librerias .books-material dd{margin:0;color:var(--muted)}
+.layout-librerias .books-web{max-width:950px}
+@media(max-width:850px){
+ .layout-floristerias .hero,.layout-floristerias .flowers-style,.layout-floristerias .flowers-views,.layout-floristerias .flowers-replies,.layout-joyerias-relojerias .hero,.layout-joyerias-relojerias .jewellery-detail>div,.layout-joyerias-relojerias .jewellery-two-pieces>article,.layout-tiendas-muebles .furniture-showroom,.layout-tiendas-muebles .furniture-questions dl,.layout-decoracion-iluminacion .decor-selection>div,.layout-decoracion-iluminacion .decor-editorials,.layout-librerias .hero,.layout-librerias .bookseller-voice{grid-template-columns:1fr;gap:26px}
+ .layout-floristerias .hero figure{order:0}
+ .layout-joyerias-relojerias .jewellery-two-pieces .watch-piece{margin-left:0;padding-left:0;border-left:0}
+ .layout-decoracion-iluminacion .decor-light{margin-top:0}
+}
+@media(max-width:540px){
+ .layout-floristerias .flowers-caption,.layout-tiendas-muebles .furniture-showroom aside,.layout-tiendas-muebles .furniture-caption,.layout-decoracion-iluminacion .decor-editorials article,.layout-librerias .books-reading-note{padding:24px}
+ .layout-tiendas-muebles .furniture-shots li,.layout-librerias .books-material dl>div{grid-template-columns:1fr;gap:12px}
+ .layout-librerias .books-programme-note{padding-left:22px}
+}
