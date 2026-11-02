@@ -130,3 +130,64 @@
   .pool-message-label h3{margin:0;font-size:1.3rem}
   .pool-post-text{padding:22px}
 }
+
+/* Cleaning: a service-scope table and separate routes for each enquiry. */
+.layout-empresas-limpieza h1{font-size:clamp(2.25rem,3.8vw,3.8rem);max-width:21ch}
+.layout-empresas-limpieza .hero{grid-template-columns:1.1fr .9fr}
+.cleaning-focus{display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:start}
+.cleaning-focus-copy>p,.cleaning-contact-copy p,.cleaning-material>p{color:var(--muted)}
+.cleaning-focus-copy>.kicker{color:var(--orange)}
+.cleaning-delegation{padding:30px;background:var(--panel);border-top:3px solid var(--orange)}
+.cleaning-delegation p{color:var(--muted);font-size:.96rem}
+.cleaning-delegation p:last-child{margin:0;color:var(--text)}
+.cleaning-scope-table{width:100%;border-collapse:collapse;margin:34px 0;line-height:1.55}
+.cleaning-scope-table caption{text-align:left;font-size:.9rem;color:var(--muted);margin-bottom:16px}
+.cleaning-scope-table th,.cleaning-scope-table td{padding:20px 24px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.cleaning-scope-table thead{background:#21150e}
+.cleaning-scope-table thead th{font-size:.84rem;letter-spacing:.03em}
+.cleaning-scope-table tbody th{width:24%;color:var(--orange);font-size:.96rem}
+.cleaning-scope-table td{color:var(--muted)}
+.cleaning-caption{padding:28px 0 4px;max-width:80ch}
+.cleaning-caption h3{font-size:1.5rem}
+.cleaning-resource-note{max-width:80ch;color:var(--muted);font-size:.94rem}
+.cleaning-message-routes{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:34px 0 0}
+.cleaning-message-routes>div{padding:26px 0;border-top:2px solid var(--orange)}
+.cleaning-message-routes dt{font-size:1.2rem;font-weight:750;margin-bottom:16px}
+.cleaning-message-routes dd{margin:0;color:var(--muted)}
+.cleaning-material>p,.cleaning-contact-copy{max-width:82ch}
+
+/* Pest control: clearly labelled public and private example messages. */
+.layout-control-plagas .hero{grid-template-columns:1.15fr .85fr;gap:44px}
+.layout-control-plagas h1{font-size:clamp(2.15rem,3.55vw,3.55rem);max-width:21ch}
+.pest-position-copy,.pest-contact-copy{max-width:82ch}
+.pest-position-copy p,.pest-contact-copy p,.pest-material-copy p{color:var(--muted)}
+.pest-conversation-flow{list-style:none;padding:0;margin:38px 0}
+.pest-conversation-flow>li{margin-top:34px}
+.pest-public-reply{margin-right:14%}
+.pest-private-reply{margin-left:14%}
+.pest-channel{display:flex;align-items:baseline;gap:16px;margin-bottom:16px}
+.pest-channel>span{font-size:.83rem;font-weight:800;color:var(--orange)}
+.pest-channel h3{margin:0;font-size:1.3rem}
+.pest-message{padding:30px;background:var(--panel);border:1px solid var(--line);border-radius:0 18px 18px}
+.pest-private-reply .pest-message{background:#24170f;border-color:#775139;border-radius:18px 0 18px 18px}
+.pest-message p{margin:0;font-size:1.05rem}
+.pest-editor-note{font-size:.89rem;color:var(--muted);margin:14px 0 0;max-width:78ch}
+.pest-following-step{padding-top:28px;border-top:1px solid var(--line);max-width:82ch}
+.pest-following-step p{color:var(--muted);margin-bottom:0}
+.pest-content-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:32px 0 0}
+.pest-content-topics>div{padding-top:20px;border-top:1px solid var(--line)}
+.pest-content-topics dt{color:var(--orange);font-size:1.1rem;font-weight:750;margin-bottom:14px}
+.pest-content-topics dd{margin:0;color:var(--muted)}
+.pest-material{display:grid;grid-template-columns:.95fr 1.05fr;gap:42px;align-items:start}
+@media(max-width:850px){
+  .layout-empresas-limpieza .hero,.layout-control-plagas .hero,.cleaning-focus,.pest-material{grid-template-columns:1fr;gap:28px}
+  .pest-content-topics{grid-template-columns:1fr;gap:22px}
+}
+@media(max-width:540px){
+  .cleaning-delegation{padding:25px}
+  .cleaning-scope-table th,.cleaning-scope-table td{padding:15px 10px;font-size:.94rem}
+  .cleaning-scope-table tbody th{width:auto}
+  .cleaning-message-routes{grid-template-columns:1fr;gap:0}
+  .pest-public-reply,.pest-private-reply{margin-left:0;margin-right:0}
+  .pest-message{padding:24px}
+}
