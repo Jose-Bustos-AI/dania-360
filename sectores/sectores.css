@@ -244,3 +244,58 @@
   .storage-access{padding:0 0 28px;border-right:0;border-bottom:1px solid var(--line)}
   .storage-custody{padding:14px 0 0}
 }
+
+/* Community administrators: a contact-routing map with two distinct outcomes. */
+.layout-administradores-fincas h1{font-size:clamp(2.15rem,3.6vw,3.6rem);max-width:22ch}
+.layout-administradores-fincas .hero{grid-template-columns:1.05fr .95fr;gap:42px}
+.fincas-position-copy,.fincas-web-copy{max-width:82ch}
+.fincas-position-copy p,.fincas-web-copy p,.fincas-content-copy p{color:var(--muted)}
+.fincas-route-map{margin-top:38px}
+.fincas-route-root{display:table;position:relative;margin:0 auto 26px;padding:12px 25px;border:1px solid var(--orange);font-size:.9rem;font-weight:750;text-align:center}
+.fincas-route-root:after{content:'';position:absolute;left:50%;top:100%;height:27px;border-left:1px solid var(--orange)}
+.fincas-route-branches{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:30px;padding-top:28px}
+.fincas-route-branches:before{content:'';position:absolute;top:0;left:25%;right:25%;border-top:1px solid var(--orange)}
+.fincas-route-branches article{position:relative;padding:28px;background:#100d0b;border:1px solid var(--line)}
+.fincas-route-branches article:before{content:'';position:absolute;top:-29px;left:50%;height:28px;border-left:1px solid var(--orange)}
+.fincas-route-label{color:var(--orange);font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px}
+.fincas-route-branches h3{font-size:1.4rem;max-width:23ch}
+.fincas-route-branches article>p:not(.fincas-route-label){color:var(--muted)}
+.fincas-reply{border-top:1px solid var(--line);padding-top:20px;margin-top:24px}
+.fincas-reply>span{display:block;color:var(--orange);font-size:.74rem;text-transform:uppercase;font-weight:800;letter-spacing:.08em;margin-bottom:14px}
+.fincas-reply p{margin:0}
+.fincas-route-branches .fincas-route-outcome{font-size:.9rem;margin:22px 0 0}
+.fincas-content{display:grid;grid-template-columns:.95fr 1.05fr;gap:42px;align-items:start}
+
+/* Security: one presentation brief, its message and a first reply. */
+.layout-seguridad-alarmas .hero{grid-template-columns:.95fr 1.05fr;gap:44px}
+.layout-seguridad-alarmas h1{font-size:clamp(2.15rem,3.45vw,3.45rem);max-width:23ch}
+.layout-seguridad-alarmas .hero figure{order:-1}
+.security-service{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.security-service-copy p,.security-contact-copy p,.security-material-copy p{color:var(--muted)}
+.security-message{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:start}
+.security-message-intro h2{font-size:clamp(1.9rem,2.8vw,2.7rem);max-width:22ch}
+.security-message-intro>p{color:var(--muted)}
+.security-message-intro>.kicker{color:var(--orange)}
+.security-piece-brief{margin:30px 0 0}
+.security-piece-brief>div{padding:16px 0;border-top:1px solid var(--line)}
+.security-piece-brief dt{font-size:.86rem;font-weight:800;color:var(--orange);margin-bottom:7px}
+.security-piece-brief dd{margin:0;color:var(--muted);font-size:.95rem}
+.security-piece-copy{padding:32px;background:var(--panel);border-left:3px solid var(--orange)}
+.security-piece-copy h3{font-size:1.45rem;margin-bottom:26px;max-width:24ch}
+.security-piece-copy .security-copy-note{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:21px;margin:24px 0 0}
+.security-initial-reply{grid-column:1/-1;border-top:1px solid var(--line);padding-top:30px;max-width:85ch}
+.security-initial-reply h3{font-size:1.4rem}
+.security-initial-reply p{margin:0;color:var(--muted)}
+.security-material-copy{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.security-contact-copy{max-width:82ch}
+@media(max-width:850px){
+  .layout-administradores-fincas .hero,.layout-seguridad-alarmas .hero,.fincas-content,.fincas-route-branches,.security-service,.security-message,.security-material-copy{grid-template-columns:1fr;gap:28px}
+  .layout-seguridad-alarmas .hero figure{order:0}
+  .fincas-route-root:after,.fincas-route-branches:before,.fincas-route-branches article:before{display:none}
+  .fincas-route-root{margin-bottom:0}
+  .security-initial-reply{grid-column:auto}
+}
+@media(max-width:540px){
+  .fincas-route-branches article,.security-piece-copy{padding:24px}
+  .fincas-route-branches{gap:18px}
+}
