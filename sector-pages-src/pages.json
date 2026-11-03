@@ -2520,5 +2520,922 @@
         "Gestión de redes, atención en los canales del plan e informe mensual, con todo Starter incluido: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No se garantizan matrículas ni resultados de examen."
       ]
     ]
+  },
+  {
+    "id": 41,
+    "slug": "hoteles",
+    "name": "Hoteles",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para hoteles",
+    "layout": "hoteles",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para hoteles",
+        "community manager hoteles",
+        "redes sociales hotel",
+        "agencia redes sociales hoteles"
+      ],
+      "intent": "Un hotel que quiere delegar contenido y atención de sus redes, conservando la confirmación de las condiciones y la estancia en su equipo.",
+      "distinctFrom": "Relacionar una habitación o un espacio con la información que el viajero necesita antes de consultar una estancia. No tratar a todos los hoteles como un escaparate de paisajes.",
+      "sources": [
+        {
+          "url": "https://nexusmarketing.es/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "La agencia distingue redes, producción audiovisual, publicidad y otros servicios hoteleros. Se contrasta el tipo de oferta, no sus precios, resultados, especialización o herramientas como prestaciones de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para hoteles | Dania360",
+    "description": "Presenta los espacios de tu hotel y facilita las consultas de estancia. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Lo que el viajero quiere conocer antes de alojarse",
+    "lead": "Gestionamos las redes de tu hotel para presentar sus espacios, explicar sus servicios y atender las consultas incluidas en Growth. Por 297 €/mes tienes también página web y bot de IA.",
+    "promise": "Que una imagen de tu hotel ayude a preparar la siguiente conversación.",
+    "artAlt": "Tarjeta conceptual de un espacio de hotel con tres anotaciones editoriales: imagen, dato y consulta",
+    "artCaption": "Ilustración original para explicar el contenido. No representa una habitación, categoría o servicio de un hotel real.",
+    "resourceTitle": "Una publicación de hotel que relaciona imagen, información y consulta",
+    "resourcePresentation": {
+      "description": "Un texto completo de presentación, las tres partes de la pieza y una pauta para adaptarlas a un espacio real del hotel.",
+      "linkLabel": "Descargar el ejemplo de publicación para hoteles",
+      "documentSubtitle": "Propuesta editorial original de Dania360. Se adapta con material autorizado e información del establecimiento."
+    },
+    "resource": [
+      "UNA IMAGEN DEL HOTEL QUE PERMITE PREGUNTAR MEJOR",
+      "Ejemplo editorial original de Dania360. No describe un establecimiento cliente.",
+      "",
+      "QUÉ SE ELIGE",
+      "El hotel selecciona un espacio que quiera presentar y una cuestión que su equipo pueda explicar. Puede ser una habitación o una zona del establecimiento, siempre que las imágenes y la información correspondan entre sí.",
+      "",
+      "TRES PARTES DE LA PUBLICACIÓN",
+      "La imagen sitúa el espacio. El responsable confirma a qué zona o tipo de habitación pertenece.",
+      "El dato desarrolla un detalle real. Se escribe a partir de la información que facilite el hotel, sin deducir vistas, servicios o condiciones de una imagen.",
+      "La pregunta invita a continuar. El viajero puede explicar qué necesita conocer de la estancia y el hotel indica cómo consultarlo.",
+      "",
+      "TEXTO PROPUESTO",
+      "Antes de elegir dónde alojarte, también interesa conocer cómo son los espacios del hotel. En esta publicación nos detenemos en uno de ellos y en un detalle que nuestro equipo puede explicarte. Si estás preparando una estancia, cuéntanos qué quieres conocer y para qué fechas te gustaría consultar. Te indicaremos cómo continuar con el hotel.",
+      "",
+      "ADAPTACIÓN",
+      "Identificar el espacio mostrado y añadir el detalle que confirme el establecimiento. Revisar que las imágenes estén autorizadas y no muestren huéspedes, documentación o información ajena a la pieza. No se presupone una producción presencial.",
+      "",
+      "CUANDO LLEGA UNA CONSULTA",
+      "El equipo del hotel confirma las opciones, las condiciones y el precio de la estancia. La publicación dirige al canal acordado; no sustituye la confirmación de reserva. Se distinguen las consultas atendidas de las reservas registradas por el establecimiento."
+    ],
+    "faq": [
+      [
+        "¿Necesitamos publicar ofertas para mantener activas las redes del hotel?",
+        "No todas las piezas necesitan una promoción. Podemos presentar espacios, servicios confirmados, el equipo o la forma de consultar una estancia. Si se comunica una oferta, el hotel aporta su alcance y condiciones vigentes."
+      ],
+      [
+        "¿Quién aporta las imágenes y los datos del establecimiento?",
+        "Trabajamos con material autorizado e información del hotel. El responsable identifica lo que aparece y valida los detalles del servicio. La grabación o fotografía presencial no se presupone incluida en Growth."
+      ],
+      [
+        "¿El bot web confirma reservas o se conecta al sistema del hotel?",
+        "El chat orienta con la información configurada y permite continuar con el hotel. Growth no presupone una integración con un PMS, un channel manager o un motor de reservas. El establecimiento confirma la estancia por su canal."
+      ],
+      [
+        "¿Qué incluye Growth para un hotel por 297 €/mes?",
+        "Gestión de redes, atención de los canales incluidos en el plan e informe mensual de actividad y visibilidad local. Incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "casas-rurales",
+    "name": "Casas rurales",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para casas rurales",
+    "layout": "casas-rurales",
+    "contentModified": "2026-11-02",
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para casas rurales",
+        "redes sociales alojamientos rurales",
+        "community manager casa rural",
+        "marketing casa rural"
+      ],
+      "intent": "Un alojamiento rural que quiere comunicar cómo es la casa y cómo se utiliza antes de atender una petición de estancia.",
+      "distinctFrom": "Aclarar la modalidad y el uso de los espacios: qué se está mostrando y qué debe confirmar el anfitrión. El entorno se cuenta con información real, sin inventar distancias o actividades.",
+      "sources": [
+        {
+          "url": "https://redessociales.ruralesdata.com/",
+          "access": "primary_provider_page_direct_read",
+          "observation": "Oferta propia de gestión de redes para alojamientos rurales, con contenido y contacto con huéspedes. Los servicios adicionales de motor de reserva y fotografía no se incorporan por inferencia a Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para casas rurales | Dania360",
+    "description": "Explica cómo es tu casa rural y cómo se utilizan sus espacios con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La casa, sus espacios y la forma de alojarse",
+    "lead": "Preparamos contenido de tu casa rural con imágenes autorizadas e información del anfitrión para explicar la estancia. Growth incluye gestión de redes, una página web y bot de IA por 297 €/mes.",
+    "promise": "Ayuda al viajero a entender qué espacio está viendo y cómo se utiliza.",
+    "artAlt": "Casa abstracta con anotaciones sobre el espacio mostrado y el uso que confirma el anfitrión",
+    "artCaption": "Dibujo editorial original. No es un plano ni representa plazas, servicios o espacios de una casa rural cliente.",
+    "resourceTitle": "Dos maneras de presentar un espacio de una casa rural",
+    "resourcePresentation": {
+      "description": "Dos textos completos para modalidades de uso diferentes, con las comprobaciones que necesita hacer el anfitrión antes de adaptarlos.",
+      "linkLabel": "Descargar los ejemplos de contenido para casas rurales",
+      "documentSubtitle": "Alternativas editoriales originales de Dania360. Se utiliza solo la que describa la oferta real del alojamiento."
+    },
+    "resource": [
+      "LA CASA QUE SE VE Y LA ESTANCIA QUE SE OFRECE",
+      "Propuesta editorial original de Dania360 para un alojamiento rural.",
+      "",
+      "ANTES DE ELEGIR EL TEXTO",
+      "El anfitrión identifica el espacio mostrado, confirma cómo se utiliza y revisa que el material pueda compartirse. Las dos alternativas siguientes no describen una misma oferta ni atribuyen una modalidad a un alojamiento real.",
+      "",
+      "SI EL ANFITRIÓN CONFIRMA ALQUILER ÍNTEGRO",
+      "Una parte de la escapada es imaginar cómo vais a utilizar la casa. En esta publicación mostramos uno de sus espacios y explicamos qué relación tiene con el alojamiento que se contrata de forma íntegra. Cuéntanos qué estancia estás preparando y qué necesitas conocer de la casa. El anfitrión te explicará cómo consultar las fechas y sus condiciones.",
+      "",
+      "SI HAY ESPACIOS COMPARTIDOS",
+      "Conocer una casa también es entender sus distintos espacios. Hoy presentamos una de las zonas compartidas del alojamiento y cómo forma parte de la estancia. Si estás valorando venir, cuéntanos qué necesitas saber sobre las habitaciones y las zonas de uso común. El anfitrión podrá orientarte y explicarte cómo preparar la consulta.",
+      "",
+      "PARA ADAPTAR LA PUBLICACIÓN",
+      "Elegir una sola alternativa y concretar la explicación con el espacio real. No inferir uso exclusivo, plazas, accesibilidad o admisión de mascotas a partir de las imágenes. Si aparece el entorno, comprobar la información sobre ubicación, distancias y actividades antes de incorporarla.",
+      "",
+      "DESPUÉS DE PUBLICAR",
+      "La información sobre disponibilidad y condiciones de estancia la confirma el alojamiento. Si cambia la modalidad o el uso de un espacio, el anfitrión lo comunica para revisar el contenido afectado. Una conversación iniciada no se registra como una reserva confirmada."
+    ],
+    "faq": [
+      [
+        "¿Podéis comunicar una casa de alquiler íntegro o un alojamiento por habitaciones?",
+        "Sí, con la modalidad que confirme el anfitrión. El contenido explica qué se ofrece y cómo se utilizan los espacios mostrados. Las dos alternativas de esta página son ejemplos editoriales, no modalidades atribuidas a tu casa."
+      ],
+      [
+        "¿Podemos presentar el entorno además de la casa rural?",
+        "Sí, cuando el contenido tenga relación con el alojamiento y la información se pueda comprobar. No se inventan rutas, distancias, accesos o actividades. El material utilizado debe poder compartirse y corresponder al asunto de la pieza."
+      ],
+      [
+        "¿La web y el bot de Growth incluyen un calendario de reservas conectado?",
+        "La web presenta el alojamiento y el chat orienta con la información configurada. Growth no presupone sincronización de calendarios, un channel manager o un motor de reservas. El anfitrión confirma fechas y condiciones por su canal."
+      ],
+      [
+        "¿Por 297 €/mes se incluyen redes, web y bot para la casa rural?",
+        "Sí. Growth incluye gestión de redes, atención de los canales del plan e informe mensual, además de todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "campings",
+    "name": "Campings",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para campings",
+    "layout": "campings",
+    "contentModified": "2026-11-03",
+    "resource": [
+      "Una publicación y su respuesta, para adaptar",
+      "",
+      "La estancia que se muestra y los servicios que hay que confirmar",
+      "",
+      "Esta demostración editorial no representa un camping real ni anuncia servicios abiertos, parcelas o alojamientos disponibles. Se completa con las condiciones que valide el establecimiento.",
+      "",
+      "Modalidad",
+      "",
+      "Se identifica si la pieza presenta una parcela, un alojamiento u otra opción confirmada. Una zona común no se presenta como parte privada de esa estancia.",
+      "",
+      "Servicios",
+      "",
+      "El camping aclara qué corresponde a la modalidad y qué necesita una consulta aparte. No se deduce de la fotografía que una actividad o instalación esté incluida.",
+      "",
+      "Período",
+      "",
+      "La información temporal se revisa para las fechas de la consulta. Una publicación anterior no confirma por sí sola apertura, programación o condiciones actuales.",
+      "",
+      "Publicación para preparar las preguntas de estancia",
+      "",
+      "La imagen te ayuda a reconocer una modalidad; la información te permite preparar la estancia. Antes de decidir, interesa conocer qué incluye esa opción, cuáles son servicios del recinto y qué debe consultarse para tus fechas. Esta propuesta muestra cómo ordenar esas preguntas y no corresponde a un camping real. Cuando compartimos nuestra oferta, acompañamos cada espacio con datos confirmados y un contacto para ampliar la información. Escríbenos a qué modalidad se refiere tu consulta y para qué período estás preparando la estancia. Nuestro equipo te explicará la oferta vigente y cómo consultar sus condiciones.",
+      "",
+      "Respuesta a una pregunta sobre un servicio del recinto",
+      "",
+      "Gracias por escribir. Indícanos qué modalidad estás valorando, a qué publicación te refieres y por qué servicio quieres preguntar. Si estás preparando una estancia, puedes situar también el período. El equipo comprobará qué información corresponde a esa opción y a esas fechas antes de explicarte cómo continuar. La imagen de una zona no confirma que el servicio esté incluido o abierto para tu visita. La disponibilidad y las condiciones de la estancia se confirman con el camping.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Una publicación completa, tres comprobaciones y una respuesta sobre servicios asociados a la estancia.",
+      "linkLabel": "Descargar el ejemplo de estancia y servicios del camping",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para campings",
+        "community manager camping",
+        "marketing campings",
+        "redes sociales camping"
+      ],
+      "intent": "Un camping que quiere explicar sus modalidades y zonas sin que una publicación lleve a consultar un alojamiento distinto del mostrado.",
+      "distinctFrom": "La publicación y su respuesta separan modalidad de estancia, servicios asociados y período. Evita repetir la secuencia genérica de imagen, detalle y consulta de hotel y no atribuye inclusión o apertura a partir de una fotografía.",
+      "sources": [
+        {
+          "url": "https://www.turismecv.com/wp-content/uploads/sites/13/2022/10/Guia-Campings.pdf",
+          "access": "primary_tourism_authority_pdf_relevant_sections_read",
+          "observation": "Guía de Turisme Comunitat Valenciana con diagnóstico de 2021. En páginas 29, 35 y 36 distingue gestión de redes, contenido del alojamiento y tecnología de reservas. Es contexto sectorial histórico, no demanda ni cifras de 2026.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://articagency.com/agencia-de-marketing-para-campings/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "La lectura directa se resolvió el 3 de noviembre. La oferta separa mantenimiento web, contenido y redes de motores de reserva y otras funciones. No se adoptan sus cifras, testimonios, ocupación, reservas prometidas, precios, frecuencia, grabación o automatizaciones. No acredita volumen de la consulta.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null,
+      "sourceReviewHistory": [
+        {
+          "url": "https://articagency.com/agencia-de-marketing-para-campings/",
+          "access": "indexed_result_latest_direct_open_timeout",
+          "observation": "El resultado presenta una agencia para campings; la apertura directa agotó el tiempo. No se considera contenido completo leído ni se usan afirmaciones no verificadas.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "editorialRevision": {
+        "dateMadrid": "2026-11-03",
+        "reason": "Reforzar la distinción frente a la presentación genérica de hotel, centrando el ejemplo en modalidad, servicios y período.",
+        "sourceRecheck": "https://articagency.com/agencia-de-marketing-para-campings/",
+        "historicalSourceLimit": "La guía de Turisme Comunitat Valenciana utiliza diagnóstico de 2021; no se usan sus cifras como demanda actual."
+      }
+    },
+    "title": "Gestión de redes sociales para campings | Dania360",
+    "description": "Presenta las modalidades y zonas de tu camping con contenido claro y consultas bien orientadas. Gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Cada modalidad, sus servicios y su período",
+    "lead": "Gestionamos las redes de tu camping para presentar sus modalidades, zonas y servicios confirmados. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Aclara qué corresponde a la estancia y qué se consulta para cada fecha.",
+    "artAlt": "Tienda de campaña y alojamiento conceptuales junto a modalidad, servicios y período, sin oferta real",
+    "artCaption": "Dibujo editorial original. No anuncia zonas, servicios o plazas de un camping real.",
+    "resourceTitle": "Modalidad, servicios y período en una publicación de camping",
+    "faq": [
+      [
+        "¿Podéis comunicar varias modalidades de estancia del camping?",
+        "Sí, con las que ofrezca el establecimiento. Cada pieza identifica qué modalidad muestra y la información que confirme el equipo. Los servicios comunes y la programación se presentan con su contexto."
+      ],
+      [
+        "¿Una imagen de una zona común permite anunciarla como incluida en todas las estancias?",
+        "No se deduce esa condición de la imagen. El camping confirma qué servicios corresponden a cada modalidad y qué información depende del período. Las publicaciones se preparan con esos datos y se revisan cuando el establecimiento comunica cambios."
+      ],
+      [
+        "¿El bot de Growth confirma plazas o sincroniza reservas?",
+        "El bot orienta con la información configurada. Growth no presupone conexión con un motor de reservas, un channel manager o la ocupación del camping. El establecimiento confirma disponibilidad y contratación."
+      ],
+      [
+        "¿Qué incluye Growth para un camping por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "gestion-alojamientos-turisticos",
+    "name": "Empresas de gestión de alojamientos turísticos",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para gestores de alojamientos turísticos",
+    "layout": "gestion-alojamientos-turisticos",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PRESENTACIÓN A PROPIETARIOS Y DOS RECORRIDOS DE CONSULTA",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Una publicación y dos entradas a la conversación",
+      "",
+      "Distinguir una consulta de gestión de una consulta de alojamiento",
+      "",
+      "Estos textos son ejemplos editoriales originales. No representan una cartera de inmuebles ni acuerdos de gestión de clientes.",
+      "",
+      "Presentación dirigida al propietario",
+      "",
+      "Cuando valoras delegar un alojamiento turístico, interesa saber qué parte de la gestión quieres poner en otras manos y qué atención esperas recibir. Nuestro equipo puede explicarte el servicio que ofrecemos y estudiar contigo si encaja con tu propiedad. Cuéntanos en qué zona está y qué quieres conocer antes de tomar una decisión.",
+      "",
+      "Propietario",
+      "",
+      "Para conocer el servicio de gestión",
+      "",
+      "Gracias por contactar. ¿Quieres informarte sobre la gestión de un alojamiento? Indícanos su zona y qué parte del servicio quieres consultar. Te pondremos en contacto con el equipo que puede explicarte nuestro alcance y los siguientes pasos.",
+      "",
+      "Viajero",
+      "",
+      "Para consultar una estancia",
+      "",
+      "Gracias por escribir. Cuéntanos a qué alojamiento o publicación te refieres y qué estancia estás valorando. El equipo de atención al viajero te indicará cómo consultar las opciones y sus condiciones.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "La publicación dirigida a propietarios y dos respuestas completas que distinguen gestión y estancia, listas para adaptar al alcance de la empresa.",
+      "linkLabel": "Descargar los ejemplos para gestores turísticos",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para gestores de alojamientos turísticos",
+        "marketing gestores alquiler vacacional",
+        "redes sociales empresa gestión turística",
+        "captación propietarios alojamientos turísticos"
+      ],
+      "intent": "Una empresa gestora que quiere explicar su servicio a propietarios y diferenciar esas conversaciones de las peticiones de huéspedes.",
+      "distinctFrom": "Dos públicos en una marca: propietarios que valoran delegar y viajeros que preguntan por una estancia. Dar prioridad comercial al servicio del gestor y a su alcance confirmado.",
+      "sources": [
+        {
+          "url": "https://bewellgestio.com/es/servicios/",
+          "access": "primary_operator_page_direct_read",
+          "observation": "El gestor dirige su oferta a propietarios y diferencia promoción y gestión operativa. Se usa para separar el público propietario del huésped. No se adoptan sus servicios de reservas, mantenimiento, liquidaciones o atención continua.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Redes sociales para gestores de alojamientos | Dania360",
+    "description": "Explica tu servicio de gestión a propietarios y distingue las consultas de viajeros. Growth incluye redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "La marca del gestor y sus dos públicos",
+    "lead": "Preparamos contenido para explicar tu servicio de gestión turística a propietarios y orientar las consultas de viajeros al canal adecuado. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "promise": "Presenta tu alcance al propietario y diferencia su consulta de la estancia.",
+    "artAlt": "Dos entradas conceptuales a la comunicación de un gestor turístico: propietario y viajero",
+    "artCaption": "Esquema editorial original. No representa una cartera de alojamientos, contratos o rendimientos.",
+    "resourceTitle": "Una presentación a propietarios y dos recorridos de consulta",
+    "faq": [
+      [
+        "¿Podemos dirigir contenido a propietarios y a viajeros en una misma cuenta?",
+        "Sí. Se identifica a quién se dirige cada publicación y quién continúa las consultas. Para presentar el servicio del gestor, el contenido explica su alcance confirmado y cómo puede informarse el propietario."
+      ],
+      [
+        "¿Necesitáis mostrar contratos o datos de las propiedades?",
+        "No hace falta compartir documentación privada para presentar el servicio. Trabajamos con información y material autorizado de la empresa. Los ejemplos de esta página no representan propiedades gestionadas."
+      ],
+      [
+        "¿Dania360 asume la gestión operativa de los alojamientos?",
+        "El servicio de Dania360 es digital. La empresa gestora confirma qué ofrece a propietarios y viajeros y continúa sus acuerdos y estancias por su canal. No se incorporan mantenimiento, liquidaciones o gestión de reservas por inferencia."
+      ],
+      [
+        "¿Qué recibe la empresa gestora con Growth por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "agencias-viajes",
+    "name": "Agencias de viajes",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para agencias de viajes",
+    "layout": "agencias-viajes",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PIEZA SOBRE EL COMIENZO DE UN VIAJE Y SU PRIMERA RESPUESTA",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Una pieza editorial para adaptar",
+      "",
+      "El comienzo de un viaje también puede ser contenido de la agencia",
+      "",
+      "Esta propuesta pone el foco en la primera conversación. No anuncia un paquete, un precio o un itinerario real.",
+      "",
+      "Texto de presentación propuesto",
+      "",
+      "A veces tienes claro el destino; otras, solo sabes qué te gustaría vivir durante el viaje. Ambas pueden ser una forma de empezar. Cuéntanos qué estás imaginando, en qué momento te gustaría viajar y qué preguntas quieres resolver. Nuestro equipo puede explicarte cómo preparar esa primera conversación para estudiar contigo las opciones.",
+      "",
+      "Tres asuntos para situar la consulta",
+      "",
+      "La idea: el motivo del viaje y lo que quiere conocer el interesado.",
+      "",
+      "El momento: las fechas o el periodo que está valorando, sin presentarlos como disponibilidad.",
+      "",
+      "La continuación: el canal por el que el equipo de la agencia puede estudiar la petición.",
+      "",
+      "Respuesta inicial propuesta",
+      "",
+      "Gracias por contactar. Cuéntanos qué viaje estás valorando y qué necesitas conocer. Si ya tienes un destino o unas fechas en mente, puedes indicarlos para situar la consulta. El equipo te explicará cómo continuar y qué información necesita para preparar una propuesta.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Textos completos de publicación y respuesta, con tres asuntos para situar una primera consulta a la agencia.",
+      "linkLabel": "Descargar la propuesta editorial de viajes",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para agencias de viajes",
+        "community manager agencia viajes",
+        "contenido redes agencias de viajes",
+        "marketing agencias de viajes"
+      ],
+      "intent": "Una agencia que quiere hacer visible su asesoramiento y recibir consultas que permitan estudiar una propuesta de viaje.",
+      "distinctFrom": "Pasar de una imagen de destino a una conversación sobre el viaje que se quiere preparar. Mostrar criterio de atención sin publicar supuestos paquetes ni precios no confirmados.",
+      "sources": [
+        {
+          "url": "https://www.promotourist.com/",
+          "access": "primary_agency_page_direct_read_broad_tourism_scope",
+          "observation": "Oferta de comunicación turística y contenido en redes. La página tiene un alcance turístico amplio: no prueba demanda cuantificada de agencias de viajes minoristas ni una especialización de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        },
+        {
+          "url": "https://www.soloagentes.com/marketing/redes-sociales/",
+          "access": "primary_publisher_own_category_page_read",
+          "observation": "El medio profesional agrupa contenido de redes sociales para agentes de viajes. Se constata un contexto editorial del sector, no volumen de búsqueda ni una oferta comercial equivalente a Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para agencias de viajes | Dania360",
+    "description": "Haz visible el asesoramiento de tu agencia y el comienzo de una propuesta de viaje. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Del deseo de viajar a una conversación con tu agencia",
+    "lead": "Creamos contenido para presentar cómo atiende tu agencia a quien prepara un viaje. Growth incluye gestión de redes, atención de los canales del plan, página web y bot de IA por 297 €/mes.",
+    "promise": "Muestra cómo empieza el asesoramiento, además de enseñar el destino.",
+    "artAlt": "Cuaderno de planificación de viaje con una idea, un momento y un canal de consulta",
+    "artCaption": "Composición editorial original. No anuncia un itinerario, paquete o presupuesto de viaje.",
+    "resourceTitle": "Una pieza sobre el comienzo de un viaje y su primera respuesta",
+    "faq": [
+      [
+        "¿Podéis preparar contenido de la agencia sin publicar ofertas?",
+        "Sí. Se puede presentar al equipo, la forma de asesorar o el comienzo de una consulta. La pieza explica el servicio de la agencia sin necesitar un precio o paquete que no haya sido confirmado."
+      ],
+      [
+        "¿Quién revisa los paquetes y las condiciones que se comunican?",
+        "La agencia confirma el contenido comercial, la vigencia y las condiciones de su oferta. Si cambian los datos de una propuesta publicada, lo comunica para revisar el contenido correspondiente."
+      ],
+      [
+        "¿El chat web de Growth prepara o contrata el viaje por el cliente?",
+        "El chat orienta con la información configurada y permite continuar con la agencia. La propuesta, el presupuesto y la contratación corresponden a su equipo; Growth no presupone conexión con sistemas de reservas."
+      ],
+      [
+        "¿Growth incorpora la web y el bot de IA de la agencia por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "guias-turisticos",
+    "name": "Guías turísticos y empresas de visitas guiadas",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para guías turísticos",
+    "layout": "guias-turisticos",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "GUION DE 15 SEGUNDOS PARA PRESENTAR UNA MIRADA DEL GUÍA",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Guion editorial original de 15 segundos",
+      "",
+      "Una parada puede empezar por una pregunta",
+      "",
+      "Es una propuesta de guion, no un vídeo producido. El guía elige el lugar y aporta el detalle real que permite desarrollar la pieza.",
+      "",
+      "0–3 s · Apertura",
+      "",
+      "Invitar a observar",
+      "",
+      "Imagen autorizada del detalle elegido. Texto de pantalla propuesto: ¿En qué te fijarías al pasar por aquí?",
+      "",
+      "3–8 s · Mirada del guía",
+      "",
+      "Señalar qué merece atención",
+      "",
+      "El guía explica un aspecto que pueda comprobar y relacionar con su visita. La locución se redacta después de recibir esa información.",
+      "",
+      "8–12 s · Continuidad",
+      "",
+      "Relacionar el detalle con el recorrido",
+      "",
+      "Texto propuesto: Una visita también consiste en descubrir lo que suele pasar desapercibido.",
+      "",
+      "12–15 s · Cierre",
+      "",
+      "Ofrecer una forma de consultar",
+      "",
+      "Texto propuesto: Pregúntanos por la visita y te explicamos cómo conocerla.",
+      "",
+      "Texto de acompañamiento propuesto",
+      "",
+      "Hay detalles que cambian la forma de mirar un lugar. En esta pieza nos detenemos en uno que nuestro guía puede explicarte y relacionar con la visita. Si quieres conocer el recorrido, escríbenos qué te interesa y qué necesitas saber para valorar venir. El equipo te indicará cómo consultar la información de la visita.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Un guion completo con tiempos y funciones de cada plano, más el texto de acompañamiento. El relato concreto lo aporta y valida el guía.",
+      "linkLabel": "Descargar el guion editorial de visitas guiadas",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para guías turísticos",
+        "redes sociales visitas guiadas",
+        "marketing guías turísticos",
+        "community manager tours"
+      ],
+      "intent": "Un guía o una empresa de visitas que quiere presentar su forma de contar un lugar y explicar cómo consultar sus recorridos.",
+      "distinctFrom": "Una pregunta sobre una parada como entrada al relato del guía. Conectar el interés cultural con información de la visita sin fabricar hechos históricos o condiciones.",
+      "sources": [
+        {
+          "url": "https://www.daimarketing.es/marketing-guias-turisticos.html",
+          "access": "primary_agency_page_direct_read_with_quality_limit",
+          "observation": "La parte principal diferencia visitas, idiomas y atención del guía. Algunas secciones inferiores contienen referencias incoherentes a restaurantes y mesas: no se adoptan como información sobre guías ni se replica su plantilla.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para guías turísticos | Dania360",
+    "description": "Presenta tu forma de contar el destino con contenido propio y consultas sobre tus visitas. Growth reúne redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El detalle que invita a mirar con tu guía",
+    "lead": "Desarrollamos contenido para mostrar tu forma de explicar un lugar y cómo consultar tus visitas. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "promise": "Da a conocer la mirada del guía y la visita que puede explicar.",
+    "artAlt": "Recorrido conceptual con una parada destacada y una pregunta para el visitante",
+    "artCaption": "Ilustración editorial original. No representa un mapa, monumento o itinerario real.",
+    "resourceTitle": "Guion de 15 segundos para presentar una mirada del guía",
+    "faq": [
+      [
+        "¿Quién prepara y confirma la información cultural de las piezas?",
+        "El guía aporta el asunto y valida la información sobre el lugar. Dania360 desarrolla su presentación con ese material. No se inventan hechos, relatos o rutas para completar una publicación."
+      ],
+      [
+        "¿El guion de esta página es un vídeo ya producido?",
+        "No. Es una propuesta editorial de 15 segundos para adaptar al detalle que elija el guía. La grabación presencial no se presupone incluida en Growth."
+      ],
+      [
+        "¿Quién confirma idioma, punto de encuentro y disponibilidad de una visita?",
+        "El equipo del guía confirma la información práctica y comunica los cambios que afecten a la publicación. Los mensajes se dirigen al canal acordado; una consulta no confirma una reserva."
+      ],
+      [
+        "¿Qué incluye Growth para un guía turístico por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "turismo-activo",
+    "name": "Empresas de turismo activo y aventura",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para empresas de turismo activo",
+    "layout": "turismo-activo",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA SECUENCIA SOBRE LA ATENCIÓN PREVIA A UNA ACTIVIDAD",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Propuesta editorial original",
+      "",
+      "Contar la atención previa, además del momento de aventura",
+      "",
+      "La secuencia propone un contenido sobre el equipo. No representa una actividad realizada por un cliente, una grabación ya producida o una garantía de participación.",
+      "",
+      "La persona",
+      "",
+      "Quién explica la actividad",
+      "",
+      "Un miembro autorizado del equipo presenta su función. El operador confirma qué servicio se comunica.",
+      "",
+      "La conversación",
+      "",
+      "Cómo se empieza a informar",
+      "",
+      "El contenido muestra el contexto de atención que pueda compartirse. No expone información de participantes ni reproduce instrucciones técnicas.",
+      "",
+      "La experiencia",
+      "",
+      "Qué permite mostrar el material",
+      "",
+      "Un plano autorizado sitúa la actividad. El texto invita a preguntar al operador sobre su oferta.",
+      "",
+      "Publicación propuesta para adaptar",
+      "",
+      "Antes de vivir una actividad, también hay una conversación. Nuestro equipo puede explicarte qué ofrecemos y cómo empezar a informarte. En esta pieza presentamos a una de las personas que atienden esas primeras preguntas y el contexto de la experiencia. Cuéntanos qué actividad te interesa y qué necesitas conocer; te indicaremos cómo continuar con el equipo.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Las tres funciones de la secuencia y una publicación completa para presentar al equipo y el comienzo de una consulta.",
+      "linkLabel": "Descargar la pieza editorial de turismo activo",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de turismo activo",
+        "redes sociales turismo aventura",
+        "marketing turismo activo",
+        "community manager actividades aventura"
+      ],
+      "intent": "Un operador de actividades que quiere comunicar qué experiencia ofrece y cómo empezar una consulta con su equipo.",
+      "distinctFrom": "Además del momento espectacular, explicar cómo se desarrolla la atención previa. Las condiciones de participación y la decisión operativa pertenecen al operador.",
+      "sources": [
+        {
+          "url": "https://uppper.es/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "Oferta de marketing para turismo activo que relaciona actividades y canal de consulta. Los servicios, experiencia y resultados pertenecen al proveedor; no son datos ni capacidades confirmadas de Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Redes sociales para empresas de turismo activo | Dania360",
+    "description": "Presenta tus actividades y al equipo que atiende las primeras consultas con contenido propio. Gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El equipo y la conversación antes de la aventura",
+    "lead": "Preparamos contenido de tus actividades con información del operador y material autorizado. Growth reúne gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Ayuda a conocer la actividad y cómo empezar a informarse con tu equipo.",
+    "artAlt": "Tres momentos conceptuales de comunicación de una actividad: equipo, conversación y experiencia",
+    "artCaption": "Esquema editorial original. No es una ruta técnica ni representa una actividad realizada por un cliente.",
+    "resourceTitle": "Una secuencia sobre la atención previa a una actividad",
+    "faq": [
+      [
+        "¿Podéis presentar al equipo además de mostrar la actividad?",
+        "Sí, con personas autorizadas e información que confirme el operador. Una pieza puede explicar cómo atiende el equipo las primeras consultas y qué servicio está presentando."
+      ],
+      [
+        "¿Quién valida las explicaciones sobre las actividades?",
+        "El profesional confirma la información del servicio y continúa la valoración de cada interesado. La publicación no sustituye sus decisiones operativas ni el proceso de participación."
+      ],
+      [
+        "¿Incluye Growth grabación presencial de las experiencias?",
+        "La producción presencial no se presupone incluida. Trabajamos con el material autorizado disponible y las explicaciones del operador. La secuencia de esta página es una propuesta editorial."
+      ],
+      [
+        "¿Por 297 €/mes se incluyen redes, web y bot para la empresa de actividades?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "parques-ocio",
+    "name": "Parques de ocio y atracciones",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para parques de ocio",
+    "layout": "parques-ocio",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "PRESENTACIÓN DE UNA EXPERIENCIA Y AVISO DE PROGRAMACIÓN DEL PARQUE",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Dos tipos de contenido, dos revisiones",
+      "",
+      "Una presentación del parque y un aviso de programación tienen vigencias distintas",
+      "",
+      "Estos ejemplos editoriales no anuncian atracciones, horarios o entradas de un parque real. Se adaptan con la información confirmada por el responsable.",
+      "",
+      "Presentar una experiencia",
+      "",
+      "Una pieza que explica qué se puede conocer",
+      "",
+      "Se revisa si cambia la experiencia o la información que la describe.",
+      "",
+      "Una visita al parque también se prepara conociendo lo que vas a encontrar. Hoy nos detenemos en una de las experiencias de nuestra oferta y en un detalle que el equipo puede explicarte. Si quieres saber cómo organizar tu visita, consulta la información del parque y cuéntanos qué necesitas conocer.",
+      "",
+      "Comunicar una programación",
+      "",
+      "Un aviso ligado a su información vigente",
+      "",
+      "El parque aporta los datos concretos y comunica cuándo deben revisarse.",
+      "",
+      "Si has visto una publicación sobre nuestra programación, el equipo puede indicarte dónde consultar la información vigente para tu visita. Cuéntanos a qué propuesta te refieres y qué necesitas saber. Las condiciones y la disponibilidad se confirman por los canales del parque.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Dos textos completos con revisiones diferentes: una pieza de presentación y una respuesta ligada a la información vigente de programación.",
+      "linkLabel": "Descargar los ejemplos de contenido para parques",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para parques de ocio",
+        "redes sociales parques atracciones",
+        "marketing parques ocio",
+        "community manager parque temático"
+      ],
+      "intent": "Un parque que quiere presentar su oferta de ocio y ayudar a preparar la consulta de una visita.",
+      "distinctFrom": "Dar contexto a una experiencia del parque y distinguir la programación de las condiciones de acceso. No reducir el contenido a promociones genéricas.",
+      "sources": [
+        {
+          "url": "https://eximiastudio.com/academia/marketing-digital-para-parques-de-atracciones/",
+          "access": "primary_provider_own_editorial_page_direct_read",
+          "observation": "El proveedor trata la comunicación y promoción de parques. Parte del contenido está orientado a publicidad: no se interpreta como demanda de gestión orgánica ni se incorpora inversión publicitaria al precio de Growth.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para parques de ocio | Dania360",
+    "description": "Presenta las experiencias de tu parque y comunica la programación con su contexto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La experiencia del parque y la información para visitarlo",
+    "lead": "Gestionamos las redes de tu parque con contenido sobre su oferta y programación confirmadas. Growth incluye atención en los canales del plan, página web y bot de IA por 297 €/mes.",
+    "promise": "Que el visitante entienda qué presenta la pieza y dónde informarse.",
+    "artAlt": "Entrada conceptual de un parque junto a una pieza estable y un aviso temporal de programación",
+    "artCaption": "Dibujo editorial original. No anuncia entradas, atracciones, horarios o condiciones de un parque real.",
+    "resourceTitle": "Presentación de una experiencia y aviso de programación del parque",
+    "faq": [
+      [
+        "¿Cómo se diferencia una publicación de una experiencia y un aviso temporal?",
+        "La primera presenta una parte de la oferta y se revisa si cambia su información. El aviso temporal necesita los datos y la vigencia que confirme el parque. Cada pieza debe dejar claro qué comunica."
+      ],
+      [
+        "¿Quién confirma las condiciones de visita y participación?",
+        "El parque valida la información sobre acceso, disponibilidad y condiciones. La atención de redes permite situar la consulta y dirigirla al canal acordado con el equipo."
+      ],
+      [
+        "¿El bot de Growth vende entradas o se conecta a la taquilla?",
+        "El bot orienta con la información configurada. Growth no presupone integración con venta de entradas, taquilla o control de aforo. El parque indica dónde continuar la información y la contratación."
+      ],
+      [
+        "¿Qué incluye Growth para un parque de ocio por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "escuelas-buceo",
+    "name": "Escuelas de buceo",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para escuelas de buceo",
+    "layout": "escuelas-buceo",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "DOS PRIMERAS RESPUESTAS PARA CONOCER UNA ESCUELA DE BUCEO",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Dos primeras respuestas originales",
+      "",
+      "Situar el interés antes de continuar con el profesional",
+      "",
+      "Estos mensajes propuestos permiten conocer el motivo del contacto y continuar con el equipo de la escuela.",
+      "",
+      "Información inicial",
+      "",
+      "La persona quiere conocer el centro y sus opciones",
+      "",
+      "Gracias por contactar. Cuéntanos qué te gustaría conocer sobre nuestra escuela y qué tipo de información estás buscando. El equipo puede explicarte las opciones que ofrece el centro y cómo empezar a informarte por el canal adecuado.",
+      "",
+      "Interés en formación",
+      "",
+      "La persona pregunta por una propuesta de aprendizaje",
+      "",
+      "Gracias por escribir. ¿Sobre qué formación o publicación quieres informarte? Indícanos qué te interesa conocer para trasladarlo al equipo de la escuela. El profesional te explicará la oferta y qué información necesita para orientarte.",
+      "",
+      "Publicación propuesta sobre la atención del centro",
+      "",
+      "No todas las conversaciones con una escuela de buceo empiezan en el mismo punto. Puede que quieras conocer el centro o informarte sobre una formación que has visto. Nuestro equipo puede ayudarte a situar esa primera consulta. Cuéntanos qué te interesa y te indicaremos cómo continuar para conocer la oferta de la escuela.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Respuestas completas para información inicial y formación, junto a una publicación sobre la atención del centro.",
+      "linkLabel": "Descargar los textos de ejemplo para buceo",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para escuelas de buceo",
+        "redes sociales centros buceo",
+        "marketing escuela buceo",
+        "community manager buceo"
+      ],
+      "intent": "Una escuela o centro de buceo que necesita explicar su oferta de formación y experiencias y orientar cada consulta al profesional.",
+      "distinctFrom": "Distinguir la persona que se informa por primera vez de quien consulta una formación o experiencia según su recorrido. No evaluar aptitud desde redes.",
+      "sources": [
+        {
+          "url": "https://www.frescore.es/",
+          "access": "primary_agency_homepage_direct_read_sector_reference",
+          "observation": "La agencia muestra un centro de buceo entre sus proyectos. Solo sirve como referencia cualitativa de servicio profesional en el segmento; no se copian cifras, imágenes, reseñas o clientes ni se atribuyen a Dania360.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Gestión de redes sociales para escuelas de buceo | Dania360",
+    "description": "Presenta tu escuela y orienta las consultas de información o formación con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Una conversación adecuada al interés por la escuela",
+    "lead": "Creamos contenido para presentar tu escuela de buceo y distinguir los motivos de consulta. Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "promise": "Da a conocer el centro y facilita el primer contacto con su equipo.",
+    "artAlt": "Máscara de buceo conceptual junto a dos entradas a la conversación: información y formación",
+    "artCaption": "Ilustración editorial original. No acredita una certificación, una inmersión o un resultado de un alumno.",
+    "resourceTitle": "Dos primeras respuestas para conocer una escuela de buceo",
+    "faq": [
+      [
+        "¿Podéis comunicar formación y experiencias del centro?",
+        "Sí, con los servicios que confirme la escuela. Cada publicación identifica qué presenta y utiliza material autorizado. El centro valida su explicación y continúa las consultas por su canal."
+      ],
+      [
+        "¿El equipo de redes valora si una persona puede participar?",
+        "La valoración y los requisitos corresponden al profesional del centro. La atención de redes permite conocer el motivo del contacto y dirigirlo al equipo; no da instrucciones de inmersión ni asesoramiento médico."
+      ],
+      [
+        "¿Incluís producción presencial o fotografías de buceo?",
+        "La producción presencial o de imágenes de inmersión no se presupone incluida. Trabajamos el contenido con el material autorizado y la información de la escuela."
+      ],
+      [
+        "¿Growth incluye web y bot de IA para la escuela por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "alquiler-barcos",
+    "name": "Empresas de alquiler de embarcaciones y excursiones náuticas",
+    "hubGroup": "turismo",
+    "h1": "Gestión de redes sociales para empresas de alquiler de barcos",
+    "layout": "alquiler-barcos",
+    "contentModified": "2026-11-02",
+    "resource": [
+      "UNA PRESENTACIÓN NÁUTICA CON CIERRES PARA ALQUILER Y EXCURSIÓN",
+      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "",
+      "Una pieza, dos posibles continuaciones",
+      "",
+      "El cierre depende de si se presenta un alquiler o una excursión",
+      "",
+      "Estos textos son propuestas editoriales originales. El operador elige la alternativa que corresponda a su actividad; no anuncian un barco, unas plazas o una salida disponibles.",
+      "",
+      "Presentación propuesta",
+      "",
+      "Antes de elegir una propuesta en el mar, interesa conocer qué servicio se está ofreciendo. En esta publicación presentamos una parte de nuestra actividad y la forma de consultarla con el equipo. Cuéntanos qué estás valorando y qué necesitas saber para preparar la siguiente conversación.",
+      "",
+      "Para una consulta de alquiler",
+      "",
+      "Si quieres informarte sobre un alquiler, indícanos qué modalidad estás buscando y para qué periodo quieres consultar. El equipo revisará la petición y te explicará qué opciones y condiciones puede ofrecerte.",
+      "",
+      "Para una consulta de excursión",
+      "",
+      "Si te interesa una excursión, cuéntanos a qué publicación o propuesta te refieres y qué necesitas conocer sobre la salida. El operador te indicará dónde consultar la información vigente y cómo continuar.",
+      ""
+    ],
+    "resourcePresentation": {
+      "description": "Un texto de presentación completo y dos cierres alternativos para adaptar a la actividad que confirme el operador.",
+      "linkLabel": "Descargar los textos para alquiler y excursiones náuticas",
+      "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
+    },
+    "research": {
+      "date": "2026-11-02",
+      "queries": [
+        "gestión de redes sociales para empresas de alquiler de barcos",
+        "redes sociales charter náutico",
+        "marketing excursiones náuticas",
+        "community manager alquiler barcos"
+      ],
+      "intent": "Una empresa náutica que quiere explicar sus modalidades y distinguir una consulta de alquiler de una excursión organizada.",
+      "distinctFrom": "La misma imagen de una embarcación puede representar servicios diferentes. Identificar qué se presenta y qué confirma el operador antes de continuar.",
+      "sources": [
+        {
+          "url": "https://caretta.es/",
+          "access": "primary_agency_page_direct_read",
+          "observation": "Oferta diferenciada para chárter, alquiler de barcos y actividades en el mar. Sirve para contrastar segmentos y consultas. No se adoptan promesas, idiomas, plazos, resultados o experiencia del proveedor.",
+          "checkedDateMadrid": "2026-11-02"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "title": "Redes sociales para alquiler de barcos y excursiones | Dania360",
+    "description": "Distingue tus modalidades de alquiler de barcos y excursiones con contenido claro. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La embarcación y el servicio que quieres presentar",
+    "lead": "Preparamos contenido para explicar las modalidades de tu empresa náutica y orientar las consultas de alquiler o excursión. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "promise": "Identifica el servicio de la pieza y cómo consultarlo con tu equipo.",
+    "artAlt": "Embarcación abstracta con dos continuaciones comerciales: alquiler y excursión",
+    "artCaption": "Composición editorial original. No representa un barco, equipamiento, capacidad o salida disponibles.",
+    "resourceTitle": "Una presentación náutica con cierres para alquiler y excursión",
+    "faq": [
+      [
+        "¿Podéis comunicar alquiler de barcos y excursiones en una misma cuenta?",
+        "Sí, si son servicios del negocio. Cada publicación identifica la modalidad que presenta y utiliza una continuación adecuada para que el operador pueda estudiar la consulta."
+      ],
+      [
+        "¿Quién confirma características y condiciones del servicio náutico?",
+        "La empresa confirma los datos de la embarcación, las modalidades y la información comercial. Las decisiones sobre la navegación y la salida corresponden al operador."
+      ],
+      [
+        "¿La web y el bot incluyen un sistema de reservas náuticas?",
+        "La web presenta la actividad y el chat orienta con la información configurada. Growth no presupone sincronización de flota o motor de reservas. La empresa confirma disponibilidad y contratación por su canal."
+      ],
+      [
+        "¿Qué incluye Growth para la empresa náutica por 297 €/mes?",
+        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ]
   }
 ]
