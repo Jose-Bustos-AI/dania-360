@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Interiorismo: del uso al ambiente</title><desc id="d">Tablero original de ambiente con formas y muestras dibujadas; no contiene muebles de marca ni fotografías de una vivienda real.</desc><rect width="640" height="480" rx="18" fill="#f3ece2"/>
+<rect x="34" y="87" width="348" height="333" fill="#e5d7c4"/>
+<path d="M58 337h300M105 337V196h200v141M137 196v-42h136v42" stroke="#3d2d20" stroke-width="4" fill="none"/>
+<rect x="124" y="212" width="163" height="46" rx="6" fill="#ff7139"/><path d="M119 337v40M292 337v40" stroke="#3d2d20" stroke-width="6"/>
+<circle cx="208" cy="116" r="35" fill="#b39472"/><path d="M208 87v58" stroke="#f3ece2" stroke-width="2"/>
+<rect x="410" y="89" width="192" height="77" fill="#ff7139"/>
+<rect x="410" y="178" width="90" height="98" fill="#927257"/>
+<rect x="512" y="178" width="90" height="98" fill="#d1b89b"/>
+<g stroke="#6e5038" fill="none"><path d="M417 192q30 12 68-2M417 207q30 12 68-2M417 222q30 12 68-2M417 237q30 12 68-2M417 252q30 12 68-2"/></g>
+<g font-family="system-ui,sans-serif" fill="#302118"><text x="34" y="47" font-size="22" font-weight="700" letter-spacing="1">DEL USO AL AMBIENTE</text><text x="412" y="318" font-size="22">Uso</text><text x="412" y="359" font-size="22">Material</text><text x="412" y="400" font-size="22">Atmósfera</text></g></svg>
