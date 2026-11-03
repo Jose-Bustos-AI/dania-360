@@ -4,6 +4,9 @@ RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^www\.dania360\.com$ [NC]
 RewriteRule ^ https://dania360.com%{REQUEST_URI} [R=301,L]
 
+# Short affiliate link: preserve the complete, fixed Dania referral destination.
+RewriteRule ^ver/?$ https://go.dania.ai/es/?via=jose-antonio-bustos-garcia-dania [R=302,L,NE]
+
 <IfModule mod_mime.c>
   AddType text/javascript .mjs
 </IfModule>

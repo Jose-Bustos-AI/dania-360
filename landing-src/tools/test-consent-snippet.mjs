@@ -6,7 +6,7 @@ import { runInNewContext } from 'node:vm';
 const root = new URL('../../', import.meta.url);
 const source = readFileSync(new URL('analytics.js', root), 'utf8');
 const key = 'dania360_consent_v2';
-const version = '/analytics.js?v=20261027-1';
+const version = '/analytics.js?v=20261103-snippet';
 
 // DOM and storage doubles: no browser network, tags or live analytics events.
 function boot({ saved, ready = 'complete', storageBlocked = false } = {}) {
@@ -157,11 +157,14 @@ test('el clic de WhatsApp sigue condicionado a una aceptación', () => {
   }
 });
 
-test('las 30 páginas y las fuentes de las landings usan la versión nueva sin cambios de indexabilidad', () => {
+test('las páginas del sitemap y las fuentes usan la versión nueva sin cambios de indexabilidad', () => {
   const sitemap = readFileSync(new URL('sitemap.xml', root), 'utf8');
   const paths = [...sitemap.matchAll(/<loc>https:\/\/dania360\.com\/([^<]*)<\/loc>/g)].map(match => match[1] + 'index.html');
-  assert.equal(paths.length, 30);
+  assert.ok(paths.length > 0, 'el sitemap no debe estar vacío');
+  assert.equal(new Set(paths).size, paths.length, 'sin URLs repetidas');
   paths.push('landing-src/src/templates/salones-estetica.html', 'restaurantes-src/index.html', 'cookies/index.html');
+  const generator = readFileSync(new URL('sector-pages-src/build.mjs', root), 'utf8');
+  assert.equal(generator.split(version).length - 1, 1, 'generador de sectoriales');
   for (const path of paths) {
     const html = readFileSync(new URL(path, root), 'utf8');
     assert.equal(html.split(version).length - 1, 1, path);

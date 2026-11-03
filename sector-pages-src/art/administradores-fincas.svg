@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Administración de fincas: dos motivos de contacto</title><desc id="d">Ilustración propia de mensajes abstractos para una nueva consulta y para una comunidad ya gestionada; no reproduce expedientes ni conversaciones reales.</desc><rect width="640" height="480" rx="22" fill="#12100e"/>
+<rect x="48" y="108" width="248" height="259" rx="15" fill="#f3ece2"/>
+<rect x="344" y="108" width="248" height="259" rx="15" fill="#39271b" stroke="#bd9470" stroke-width="2"/>
+<path d="M78 152h149M78 182h183M78 212h132" stroke="#bca68b" stroke-width="8"/>
+<path d="M375 152h149M375 182h183M375 212h132" stroke="#8d7158" stroke-width="8"/>
+<rect x="78" y="257" width="116" height="57" rx="10" fill="#ff7139"/><path d="m112 314-16 19v-19" fill="#ff7139"/>
+<rect x="375" y="257" width="116" height="57" rx="10" fill="#ff7139"/><path d="m409 314-16 19v-19" fill="#ff7139"/>
+<g font-family="system-ui,sans-serif" fill="#f3ece2"><text x="35" y="48" font-size="22" letter-spacing="1">CADA CONSULTA, SU CANAL</text><text x="62" y="414" font-size="22">Nuevo contacto</text><text x="348" y="414" font-size="22">Comunidad gestionada</text></g></svg>

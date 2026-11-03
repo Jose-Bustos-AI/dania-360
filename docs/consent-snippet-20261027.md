@@ -1,38 +1,23 @@
-# Excluir el aviso de cookies de los fragmentos de Google
+# Excluir el aviso de cookies de los fragmentos de búsqueda
 
-## Evidencia y alcance
+Revisión actualizada el 3 de noviembre de 2026. El nombre del archivo conserva la fecha inicial de preparación.
 
-El 27 de octubre de 2026 se comprobó en Google la consulta sin marca y sin comillas `gestión de redes sociales para clínicas veterinarias`, con `hl=es`, `gl=es` y `pws=0`. La landing comercial apareció como tercer resultado web de la página 16 (`start=150`): puesto observado 153 por paginación. El fragmento acababa con «Si aceptas, ...», texto del aviso compartido de cookies, no de la oferta veterinaria.
+El 27 de octubre se observó texto del aviso de cookies en el fragmento de la landing veterinaria. Es una evidencia histórica; no se presenta como fragmento o posición actual. La captura de Google y los datos de aquella revisión permanecen en outputs/seo-consent-snippet-20261027 del workspace.
 
-La observación anterior de la misma consulta, el 21 de octubre, era 122. Son dos mediciones puntuales, no una posición universal ni prueba de una caída sostenida o de su causa. La cuenta y la ubicación de la búsqueda pueden seguir influyendo pese a `pws=0`. No se han vuelto a medir hoy las otras nueve consultas sectoriales.
+Se añade data-nosnippet únicamente al section del aviso antes de incorporarlo al DOM, de acuerdo con la documentación de Google. No se excluyen el servicio, la oferta ni la página completa. No cambian H1, títulos, metadescripciones, canonical, datos estructurados, contenido comercial ni fechas editoriales.
 
-Search Console aún terminaba el 24 de octubre, sin datos nuevos respecto a la revisión del día anterior. Con España, búsqueda Web y consultas que no contienen «dania», el período 18–24 de octubre suma 64 impresiones y 0 clics, frente a 74 y 0 del 1–7 de octubre. La posición media es 29,2 frente a 57,5: cambia la mezcla de consultas y no equivale al puesto puntual de la consulta veterinaria. No se atribuye causalidad al título de portada ni a este cambio aún sin publicar.
+Fuente oficial: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#data-nosnippet-attr
 
-## Cambio propuesto
+La referencia de analytics.js usa la versión 20261103-snippet en las 51 páginas del sitemap, la política de cookies, las dos fuentes HTML y el generador de ampliación sectorial. La comparación contra main confirma que esa referencia es el único cambio en esos 55 archivos. El sitemap conserva su contenido y fechas.
 
-- Añadir el atributo booleano `data-nosnippet` al `section` del aviso en `analytics.js`, **antes** de insertar el elemento en el DOM.
-- Actualizar la referencia del recurso a `/analytics.js?v=20261027-1` en las 30 páginas del sitemap, la política de cookies y las dos fuentes HTML existentes. No cambia ningún otro contenido de esos 33 archivos.
-- Añadir una prueba aislada `npm run check:consent-snippet`, sin paquetes nuevos ni red.
+La clave de consentimiento, las elecciones guardadas, el texto, los botones, sus estilos y la carga de Google y Meta se conservan. Sin aceptación no se cargan proveedores. El cambio no mejora las cifras de medición ni convierte un clic en contacto o venta.
 
-Google documenta `data-nosnippet` en elementos `span`, `div` y `section`, y recomienda fijarlo antes de insertar contenido generado con JavaScript:
+Validación actual:
+- Once pruebas existentes de consentimiento, con aceptación y rechazo simulados sin red.
+- Comprobadores de 51 URLs, diez sectoriales originales, cinco ofertas y veinte páginas del generador.
+- Generación sectorial con conservación del contenido y las fechas.
+- Navegador local a 1280 y 390 píxeles reales. El atributo está presente en el section y el documento no se desborda.
+- En móvil el aviso mide 343 píxeles y muestra ambos botones. Rechazo por teclado y recarga sin aviso ni etiquetas externas.
+- Reapertura desde la política de cookies verificada en el entorno local. No se modifica el consentimiento de producción ni se aceptan proveedores para generar eventos de prueba.
 
-https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#data-nosnippet-attr
-
-No se añade un `nosnippet` global, `noindex` ni contenido oculto. Se conservan el texto del aviso, su aspecto, el rol y etiqueta accesible, ambas opciones, el enlace a la política, la clave `dania360_consent_v2`, las elecciones guardadas y el bloqueo de Google/Meta hasta aceptar. Tampoco se cambian precios, H1, títulos, descripciones, schema, canonicals, fechas editoriales ni sitemap. La política de cookies conserva su `noindex,follow` previo.
-
-## Comprobaciones
-
-- 11 pruebas de consentimiento: atributo desde la inserción, mismas opciones, denegación inicial, aceptación, rechazo, elecciones guardadas, DOMContentLoaded, almacenamiento bloqueado, retirada y clic de WhatsApp condicionado al consentimiento; versión del recurso en las 33 páginas/fuentes.
-- `npm run check:site-seo`: 30 URLs y 15 pruebas de la herramienta de comercios.
-- `node tools/check-sector-seo.mjs`: 10/10 landings.
-- `node tools/check-five-sector-offers.mjs`: 5/5 ofertas.
-- `git diff --check` y comparación de los 33 HTML con HEAD descontando únicamente el nuevo identificador de caché.
-- Navegador de escritorio, viewport real 1280 × 720: aviso visible, dos botones, rechazo y recarga sin proveedores, reapertura desde la política.
-- Breakpoint de 390 × 844 mediante iframe local: sin desbordamiento horizontal; aviso de 343 px y dos botones visibles de 149,5 × 38 px. Rechazo por teclado y recarga sin proveedores. La API de viewport del navegador no aplicó la reducción de la ventana, por lo que esta comprobación no se presenta como emulación de un dispositivo físico.
-- La aceptación se verificó en VM sin red; no se aceptaron etiquetas en producción ni se generaron eventos de medición de QA.
-
-Capturas y mediciones completas quedan en el directorio local de resultados `outputs/seo-consent-snippet-20261027/`, fuera del repositorio. El fixture de prueba adaptativa se retiró al terminar.
-
-## Publicación y verificación posterior
-
-La PR queda abierta, sin fusionar ni desplegar. No incluye ni publica las PR pendientes #98 y #105. Después de una aprobación y despliegue habrá que comprobar el recurso público y la presencia del atributo en el DOM; tras un nuevo rastreo de Google se podrá volver a revisar el fragmento. No se garantiza un fragmento concreto, una fecha de actualización ni una mejora de posiciones.
+La revisión del navegador bloquea proveedores externos solo en QA. El cambio requiere aprobación específica antes de fusionar y publicar. Tras el despliegue se debe verificar el recurso público y el atributo en el DOM. Un nuevo rastreo será necesario para evaluar el fragmento de Google; no se garantiza su redacción ni una mejora de posiciones.
