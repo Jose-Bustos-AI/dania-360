@@ -7216,5 +7216,868 @@
       "Gracias por avisarnos. Para revisar un pedido, utiliza el canal de atención que indica nuestra tienda. Evita publicar el número de pedido, tu dirección o datos de pago en comentarios. El equipo te explicará qué información necesita por su canal privado y confirmará el estado de la gestión. Este mensaje orienta el contacto; no consulta el pedido automáticamente ni confirma su entrega o devolución.",
       ""
     ]
+  },
+  {
+    "id": 91,
+    "slug": "organizadores-bodas-eventos",
+    "title": "Redes sociales para organizadores de bodas y eventos | Dania360",
+    "description": "Explica qué coordina tu empresa de bodas y eventos y orienta cada consulta. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El trabajo de organizar también necesita una explicación",
+    "promise": "Que una pareja o una empresa entienda qué puede confiar a tu equipo.",
+    "lead": "Preparamos contenido para presentar tu servicio de organización y atender las consultas de sus canales. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "artAlt": "Tablero conceptual de organización con notas y dos recorridos para una pareja y una empresa, sin fechas o proveedores",
+    "artCaption": "Esquema editorial original. No representa un evento realizado, una agenda disponible o acuerdos con proveedores.",
+    "resourceTitle": "Una publicación y dos respuestas para empezar a organizar",
+    "faq": [
+      [
+        "¿Cómo diferenciáis mi servicio del de una finca o un catering?",
+        "Tu empresa confirma qué organiza y qué parte asume. El contenido presenta esa modalidad y su contacto, sin atribuirle un espacio, proveedores o servicios que no le pertenecen. Una propuesta conceptual se distingue de un evento realizado."
+      ],
+      [
+        "¿El bot reserva una fecha o prepara un presupuesto del evento?",
+        "El bot orienta con la información configurada y dirige al equipo. Tu empresa estudia el encargo y confirma disponibilidad, propuesta y condiciones. No se presupone una agenda o una conexión con proveedores."
+      ],
+      [
+        "¿Incluye cobertura o grabación durante una boda?",
+        "Las grabaciones presenciales y la cobertura en directo no figuran en la cuota de Growth. Trabajamos con material que se pueda utilizar y con información confirmada por tu equipo, conservando el contexto y las atribuciones."
+      ],
+      [
+        "¿Qué incluye Growth para organizadores de bodas y eventos por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Organizadores de bodas y eventos",
+    "h1": "Gestión de redes sociales para organizadores de bodas y eventos",
+    "layout": "organizadores-bodas-eventos",
+    "hubGroup": "creatividad-eventos",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para organizadores de bodas y eventos",
+        "redes sociales wedding planners",
+        "community manager organizadores eventos",
+        "marketing organización de bodas"
+      ],
+      "intent": "Organizador que quiere explicar qué coordina y cómo empieza una propuesta para parejas o empresas.",
+      "distinctFrom": "Publicación sobre el comienzo de la organización y dos respuestas: una pareja y un encargo de empresa. La organización se diferencia de contratar una finca, un catering, mobiliario o cobertura del evento. No se incluyen esos servicios en Growth.",
+      "sources": [
+        {
+          "url": "https://thesocialmint.es/redes-sociales-bodas",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "Oferta de comunicación que incluye expresamente wedding planners junto a fincas y fotógrafos. No se trasladan sus clientes, cifras, planes, permanencia, plataforma o producción presencial. El ejemplo propio diferencia parejas y encargos corporativos en lugar de reproducir sus piezas sobre fincas.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para presentar la primera conversación y distinguir una pareja de un encargo de empresa.",
+      "linkLabel": "Descargar los mensajes para organizadores de eventos",
+      "documentSubtitle": "Ejemplo editorial original para adaptar al servicio confirmado del negocio. No representa clientes, proyectos, agenda o resultados reales."
+    },
+    "resource": [
+      "Una publicación y dos comienzos de conversación",
+      "",
+      "Antes de una propuesta, entender qué se quiere organizar",
+      "",
+      "Demostración editorial original. El esquema no representa una boda, un cliente, una fecha disponible o una relación con proveedores. Los textos se adaptan al servicio confirmado del organizador.",
+      "",
+      "Presentar la primera conversación",
+      "",
+      "Organizar un evento empieza por entender qué queréis vivir y qué ayuda necesitáis para prepararlo. Antes de hablar de una imagen de referencia, interesa situar el tipo de encuentro, su momento y la parte que queréis confiar a un equipo. Esta publicación presenta una forma de iniciar esa conversación, sin anunciar una celebración realizada. Si estáis preparando una boda o un evento, contadnos de forma general vuestra idea por el contacto del perfil. Nuestro equipo os explicará qué servicios ofrece y qué información necesita para estudiar una propuesta. El alcance y la disponibilidad se confirman después de revisar cada encargo.",
+      "",
+      "Una pareja",
+      "",
+      "Situar el momento de la preparación",
+      "",
+      "Gracias por escribir. Contadnos en qué punto estáis, la fecha o el período que estáis valorando y qué parte de la organización os interesa consultar. Si ya tenéis un espacio u otros servicios acordados, podéis indicarlo de forma general. El equipo os explicará cómo continuar la conversación y qué modalidad puede estudiar. Esta primera respuesta no reserva una fecha ni confirma una propuesta.",
+      "",
+      "Una empresa",
+      "",
+      "Empezar por el objetivo del encuentro",
+      "",
+      "Gracias por contactar. Indicad qué tipo de encuentro estáis preparando, a quién se dirige y qué necesitáis coordinar. Con una referencia general de fecha y ubicación, el equipo podrá situar la consulta y explicar el siguiente paso. El formato, los proveedores, los tiempos y el alcance se revisan en la propuesta; no se dan por incluidos antes de estudiar el encargo.",
+      ""
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "fotografos",
+    "title": "Gestión de redes sociales para fotógrafos | Dania360",
+    "description": "Presenta el criterio y las sesiones de tu estudio de fotografía con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Tu imagen, con una intención y un servicio reconocibles",
+    "promise": "Relaciona la selección de tu portfolio con la sesión que quieres presentar.",
+    "lead": "Gestionamos contenido y consultas para hacer comprensibles los servicios de tu estudio fotográfico. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "artAlt": "Tres encuadres dibujados de una taza junto a una ventana, un detalle del borde y una composición con espacio para texto",
+    "artCaption": "Esquema editorial original de una escena de producto. No corresponde a fotografías ni a una sesión real.",
+    "resourceTitle": "Encuadres de producto, publicación y consulta de sesión",
+    "faq": [
+      [
+        "¿Necesito compartir todo mi archivo para empezar?",
+        "Seleccionamos contigo la especialidad que quieres presentar y qué material se puede utilizar. El estudio confirma la información de las sesiones y los permisos y créditos correspondientes. No se necesita presentar trabajos o personas inventados."
+      ],
+      [
+        "¿Dania360 hace las fotografías de mis sesiones?",
+        "Esta propuesta prepara y gestiona la comunicación del negocio con material autorizado. La sesión fotográfica, la selección y entrega de sus archivos y las condiciones del encargo corresponden a tu estudio. Growth no incluye producción presencial."
+      ],
+      [
+        "¿Podéis presentar una idea que todavía no se ha fotografiado?",
+        "Puede explicarse mediante una demostración gráfica identificada o una propuesta del estudio autorizada para ese uso. No se presenta como sesión realizada, fotografía de cliente o prueba de resultados."
+      ],
+      [
+        "¿Qué incluye Growth para fotógrafos y estudios de fotografía por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Fotógrafos y estudios de fotografía",
+    "h1": "Gestión de redes sociales para fotógrafos",
+    "layout": "fotografos",
+    "hubGroup": "creatividad-eventos",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para fotógrafos",
+        "redes sociales estudios fotografía",
+        "community manager fotógrafos",
+        "marketing estudios fotográficos"
+      ],
+      "intent": "Fotógrafo que necesita presentar una especialidad y orientar consultas sin convertir todo el portfolio en una galería sin contexto.",
+      "distinctFrom": "Tres encuadres dibujados de una taza junto a una ventana: contexto, borde y espacio para el mensaje, con una publicación específica de fotografía de producto y respuesta para consultar una sesión. No simula fotografías, una sesión realizada o un portfolio de clientes.",
+      "sources": [
+        {
+          "url": "https://adsplorer.com/marketing-para-fotografos/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "Oferta dirigida a estudios con comunicación, web y captación local. No se adoptan sus campañas, WordPress, plazos, promesas o experiencia. Un texto alternativo de imagen menciona nutricionistas y no se considera evidencia sectorial; la copia propia se revisa para evitar ese arrastre de plantilla.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null,
+      "editorialRevision": "El ejemplo genérico de conjunto y detalle se concreta mediante una escena de producto y tres decisiones de encuadre legibles en dibujo, texto y descargable. Se revisa la ilustración existente; no se añade una imagen de cliente ni una especialidad real no confirmada."
+    },
+    "resourcePresentation": {
+      "description": "Esquema de tres encuadres y textos completos para presentar una especialidad fotográfica sin simular un trabajo realizado.",
+      "linkLabel": "Descargar el ejemplo editorial para fotógrafos",
+      "documentSubtitle": "Ejemplo editorial original para adaptar al servicio confirmado del negocio. No representa clientes, proyectos, agenda o resultados reales."
+    },
+    "resource": [
+      "Una selección editorial para adaptar",
+      "",
+      "Una taza y tres encuadres para explicar una sesión de producto",
+      "",
+      "En este ejemplo dibujamos una taza junto a una ventana. Los tres encuadres muestran una elección de composición, no fotografías de una sesión real ni de un cliente. El enfoque se adapta a la especialidad que quiera presentar tu estudio.",
+      "",
+      "Situar el objeto",
+      "",
+      "El encuadre general mantiene la taza y la ventana para explicar qué entorno se ha elegido en esta demostración. La pieza presenta fotografía de producto, sin atribuir al estudio otras modalidades de sesión.",
+      "",
+      "Leer el borde",
+      "",
+      "Un recuadro cercano separa la curva del borde del resto del objeto. La selección permite hablar del detalle que se quiere que observe el lector, sin atribuir una técnica o un equipo a un fotógrafo real.",
+      "",
+      "Dejar espacio",
+      "",
+      "El último encuadre recupera la taza con espacio libre para acompañar la presentación. El fotógrafo revisa qué composición representa su criterio en una pieza real y cómo continuar la consulta de esa especialidad.",
+      "",
+      "Texto para acompañar la selección",
+      "",
+      "Una misma taza puede contar cosas diferentes: el primer encuadre sitúa el objeto junto a una ventana; el segundo se detiene en el borde; el tercero devuelve el conjunto con espacio para el texto. Este esquema editorial ayuda a explicar una elección de encuadre antes de mostrar un trabajo del estudio. No es una sesión realizada ni una promesa sobre cómo quedaría tu producto. Si necesitas fotografiar un artículo, cuéntanos dónde se utilizarán las imágenes, qué referencias te interesan y qué piezas necesitas presentar. El fotógrafo estudiará la propuesta y confirmará el alcance, la selección y las condiciones de entrega.",
+      "",
+      "Respuesta para situar una sesión",
+      "",
+      "Gracias por escribir. Cuéntanos qué tipo de sesión estás valorando, qué necesitas obtener y si tienes un momento o un uso previsto para las imágenes. El estudio te indicará qué información necesita y cómo continuar. La disponibilidad, la propuesta y las condiciones de entrega se confirman con el fotógrafo. No hace falta compartir imágenes personales en comentarios públicos; el equipo te dirá por qué canal puede revisar el material que corresponda.",
+      ""
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "productoras-audiovisuales",
+    "title": "Redes sociales para productoras audiovisuales | Dania360",
+    "description": "Presenta los servicios y el papel de tu productora en cada encargo audiovisual. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "La pieza atrae; el contexto explica qué puede encargarse",
+    "promise": "Haz comprensible el trabajo que asume tu productora audiovisual.",
+    "lead": "Preparamos contenido para explicar los servicios de tu productora y orientar consultas de marcas y agencias. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Storyboard conceptual con dos órdenes de formas abstractas para explicar continuidad y progresión, sin fotogramas de una película real",
+    "artCaption": "Secuencia gráfica original. No es un vídeo producido, una campaña o un trabajo de cliente.",
+    "resourceTitle": "Dos decisiones de montaje contadas en una publicación",
+    "faq": [
+      [
+        "¿El ejemplo es una película o una campaña producida?",
+        "No. Es una secuencia gráfica editorial identificada como conceptual. Muestra cómo explicar una decisión con texto e imágenes propias. El material de un proyecto real se presenta solo cuando tu productora confirma su contexto y que puede compartirse."
+      ],
+      [
+        "¿Quién valida la función de la productora y los créditos?",
+        "Tu equipo confirma qué parte del proyecto asumió y qué material puede compartirse. La publicación conserva el contexto y las atribuciones. No se inventan marcas, trabajos, premios, equipo técnico o cifras de audiencia."
+      ],
+      [
+        "¿LinkedIn o un rodaje presencial están incluidos en Growth?",
+        "LinkedIn pertenece al alcance de Scale. Growth conserva sus canales oficiales y no incluye rodajes presenciales por tratarse de una actividad audiovisual. El proyecto de producción de tu cliente lo estudia y ejecuta tu productora."
+      ],
+      [
+        "¿Qué incluye Growth para productoras audiovisuales por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Productoras audiovisuales",
+    "h1": "Gestión de redes sociales para productoras audiovisuales",
+    "layout": "productoras-audiovisuales",
+    "hubGroup": "creatividad-eventos",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para productoras audiovisuales",
+        "redes sociales productora audiovisual",
+        "community manager productoras",
+        "marketing productoras audiovisuales"
+      ],
+      "intent": "Productora que quiere presentar qué parte del trabajo audiovisual asume y recibir un encargo con contexto.",
+      "distinctFrom": "Dos decisiones de montaje explicadas mediante un storyboard conceptual y una publicación sobre el encargo, sin producir o atribuir una película. Se comunica el negocio audiovisual de un cliente, no se vende un rodaje incluido en Growth ni un servicio de fotógrafo. El bot no define presupuestos o entregas de producción.",
+      "sources": [
+        {
+          "url": "https://maldito.studio/productora-audiovisual-barcelona/",
+          "access": "primary_sector_business_service_direct_read",
+          "observation": "La productora distingue fases, encargos de marca o agencia y entregables. Se usa como fuente primaria del servicio del sector, no como prueba de demanda de marketing. No se copian sus proyectos, recursos, clientes, 3D, equipo o experiencia.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Storyboard explicado y publicación completos para presentar el criterio audiovisual sin atribuir una película realizada.",
+      "linkLabel": "Descargar el ejemplo editorial para productoras",
+      "documentSubtitle": "Ejemplo editorial original para adaptar al servicio confirmado del negocio. No representa clientes, proyectos, agenda o resultados reales."
+    },
+    "resource": [
+      "Un ejemplo editorial de montaje",
+      "",
+      "Dos formas de ordenar una idea para explicar una decisión audiovisual",
+      "",
+      "Este storyboard utiliza formas abstractas originales. No es una película producida, un encargo de cliente o una demostración de una técnica garantizada. Permite enseñar cómo una decisión de montaje puede convertirse en contenido sobre el servicio.",
+      "",
+      "Una acción continua",
+      "",
+      "Dar tiempo a observar",
+      "",
+      "Una secuencia conceptual conserva el mismo motivo durante varios encuadres. La explicación se centra en lo que se quiere que el público observe y en por qué esa continuidad interesa a la pieza. La productora revisa la decisión antes de presentarla como parte de su trabajo.",
+      "",
+      "Varias ideas relacionadas",
+      "",
+      "Ordenar una progresión",
+      "",
+      "La alternativa distribuye motivos distintos para construir una relación. El texto explica qué papel cumple cada imagen y cómo se entiende la sucesión. No se atribuye un efecto medido sobre la audiencia ni se presenta el esquema como solución para todos los encargos.",
+      "",
+      "Publicación para acompañar el storyboard",
+      "",
+      "El montaje también explica qué queremos contar. En esta propuesta conceptual, una versión mantiene un motivo para observarlo y otra relaciona varias ideas mediante su orden. Son dos puntos de partida editoriales, no una campaña realizada. Cuando compartimos un trabajo real, situamos el objetivo de la pieza y la parte que ha asumido nuestro equipo. Si estás preparando un encargo audiovisual, cuéntanos qué necesitas comunicar, dónde se utilizará y en qué fase está. La productora revisará contigo el planteamiento, los recursos y las entregas que puede proponer. El alcance y las condiciones se acuerdan después de estudiar el proyecto.",
+      ""
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "alquiler-material-eventos",
+    "title": "Redes sociales para alquiler de material de eventos | Dania360",
+    "description": "Muestra el material que alquilas para eventos y orienta consultas por referencia y fecha. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Del material que se ve a una propuesta por confirmar",
+    "promise": "Presenta las piezas y facilita que la consulta llegue con contexto.",
+    "lead": "Gestionamos contenido para explicar tu catálogo de alquiler y cómo consultar sus condiciones. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Composición conceptual de una mesa y dos sillas con etiquetas de pieza, fecha y propuesta, sin cantidades de inventario",
+    "artCaption": "Dibujo editorial original. No representa material disponible, un montaje realizado o una reserva.",
+    "resourceTitle": "Publicación de material y respuesta a una solicitud de alquiler",
+    "faq": [
+      [
+        "¿Una publicación confirma que el material está disponible?",
+        "No se presupone. Tu empresa valida referencias, cantidades y condiciones para las fechas del encargo. Una muestra conceptual o una imagen anterior puede explicar un estilo sin anunciar disponibilidad actual."
+      ],
+      [
+        "¿Podéis comunicar transporte, montaje y recogida?",
+        "Sí, cuando tu negocio confirme que los presta y su alcance. No se dan por incluidos en el alquiler o en una publicación. Las necesidades de cada encargo se concretan con el proveedor."
+      ],
+      [
+        "¿El bot funciona como un inventario o una herramienta de reservas?",
+        "No se presupone esa conexión. Informa con datos configurados del negocio y orienta el contacto. Tu empresa confirma disponibilidad, propuesta, logística y condiciones antes de cerrar el alquiler."
+      ],
+      [
+        "¿Qué incluye Growth para empresas de alquiler de mobiliario y material para eventos por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Empresas de alquiler de mobiliario y material para eventos",
+    "h1": "Gestión de redes sociales para alquiler de material para eventos",
+    "layout": "alquiler-material-eventos",
+    "hubGroup": "creatividad-eventos",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para alquiler de material para eventos",
+        "redes sociales alquiler mobiliario eventos",
+        "community manager alquiler material eventos",
+        "marketing alquiler mobiliario eventos"
+      ],
+      "intent": "Empresa de alquiler que quiere presentar las piezas y situar una consulta por fecha y uso antes de confirmar condiciones.",
+      "distinctFrom": "Publicación de una composición de alquiler y primera respuesta que distingue referencia, fechas y logística por confirmar. La comunicación del alquiler se diferencia de vender muebles, fabricar piezas o coordinar el evento. No se supone stock conectado, montaje incluido o una reserva automática.",
+      "sources": [
+        {
+          "url": "https://www.lluistore.com/alquiler-mobiliario-atrezzo/",
+          "access": "primary_sector_business_service_direct_read",
+          "observation": "Servicio de alquiler con consultas de piezas, proyecto y fechas; el proveedor explica que la logística se presupuesta según el caso. No se trasladan su catálogo, disponibilidad, precios, cobertura, responsabilidad contractual o experiencia. Fuente de necesidades del comprador, no volumen de demanda de marketing.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos y datos de contexto completos para pasar de una referencia a la conversación de alquiler.",
+      "linkLabel": "Descargar el ejemplo de consulta de alquiler",
+      "documentSubtitle": "Ejemplo editorial original para adaptar al servicio confirmado del negocio. No representa clientes, proyectos, agenda o resultados reales."
+    },
+    "resource": [
+      "Publicación y primera respuesta originales",
+      "",
+      "De una pieza de mobiliario a una solicitud de alquiler con contexto",
+      "",
+      "La ilustración es una composición conceptual de mesa y sillas. No representa material disponible, un montaje realizado o una reserva. Los textos se adaptan a las referencias y servicios que confirme tu empresa.",
+      "",
+      "Qué interesa",
+      "",
+      "La pieza o el tipo de composición que quiere consultar la persona, con una referencia reconocible para el equipo.",
+      "",
+      "Para qué momento",
+      "",
+      "Las fechas o el período del proyecto, que el proveedor revisa antes de confirmar disponibilidad y condiciones.",
+      "",
+      "Qué hay que estudiar",
+      "",
+      "El uso y la ubicación general del material. Transporte, montaje, recogida y otras necesidades se concretan en la propuesta.",
+      "",
+      "Publicación de la composición",
+      "",
+      "Un conjunto empieza por elegir qué necesita el espacio. En esta muestra conceptual reunimos una mesa y unas sillas para explicar cómo presentar referencias de alquiler, sin anunciar un catálogo disponible. Cuando mostramos material real, identificamos las piezas y cómo consultar sus condiciones. Si estás preparando un evento o una producción, indica qué referencia te interesa y el momento en que la necesitarías. Nuestro equipo revisará la consulta y explicará cómo continuar una propuesta. La disponibilidad, las cantidades y los servicios de transporte, montaje o recogida se confirman para cada encargo antes de cerrar el alquiler.",
+      "",
+      "Respuesta para preparar la consulta",
+      "",
+      "Gracias por escribir. Indícanos qué piezas has visto, las fechas que estás valorando y el tipo de evento o producción. Con una ubicación general y una idea del uso, el equipo podrá explicar qué información necesita para estudiar la solicitud. La primera respuesta no bloquea material ni confirma una reserva. Las cantidades, la logística, las condiciones de uso y el presupuesto se revisan después con el proveedor.",
+      ""
+    ]
+  },
+  {
+    "id": 95,
+    "slug": "sonido-iluminacion",
+    "title": "Redes sociales para empresas de sonido e iluminación | Dania360",
+    "description": "Explica la intervención de tu empresa de sonido e iluminación en eventos. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Que el montaje explique el servicio que ofrece tu empresa",
+    "promise": "Presenta tu intervención y dirige cada consulta al equipo adecuado.",
+    "lead": "Preparamos contenido para explicar tus servicios técnicos y orientar consultas de eventos e instalaciones. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "artAlt": "Escena abstracta con un altavoz y haces de luz, sin medidas, potencias o diseño de instalación",
+    "artCaption": "Ilustración editorial original. No es un montaje real, una propuesta técnica o una instalación validada.",
+    "resourceTitle": "Una intervención explicada desde el formato, la función y el contacto",
+    "faq": [
+      [
+        "¿Quién confirma capacidades, equipos y condiciones técnicas?",
+        "Los profesionales de tu empresa validan el servicio y el alcance de cada intervención. Dania360 prepara el contenido con esa información; no diseña, certifica o valida montajes a partir de una imagen."
+      ],
+      [
+        "¿Podéis mostrar trabajos y equipos de nuestra empresa?",
+        "Sí, con material autorizado y contexto confirmado. Se explica la función que asumió tu negocio y se conservan las atribuciones. No se incorporan equipos, clientes, artistas o certificaciones que no se hayan confirmado."
+      ],
+      [
+        "¿Incluye grabación presencial o cobertura de un evento en directo?",
+        "No figuran en la cuota de Growth. Esta propuesta gestiona la comunicación y la atención de los canales del plan con información y material que se puedan utilizar. Tu equipo estudia y ejecuta el servicio técnico."
+      ],
+      [
+        "¿Qué incluye Growth para empresas de sonido e iluminación por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Empresas de sonido e iluminación",
+    "h1": "Gestión de redes sociales para empresas de sonido e iluminación",
+    "layout": "sonido-iluminacion",
+    "hubGroup": "creatividad-eventos",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para empresas de sonido e iluminación",
+        "redes sociales empresas audiovisuales eventos",
+        "community manager sonido iluminación",
+        "marketing sonido iluminación profesional"
+      ],
+      "intent": "Proveedor técnico que necesita explicar su papel en un evento sin reducir la publicación a una foto de equipos o prometer prestaciones sin revisar.",
+      "distinctFrom": "Una intervención conceptual se cuenta desde el formato del acto, la función del equipo y el contacto técnico, con publicación y respuesta inicial. El servicio técnico para eventos se diferencia de la venta de lámparas, del alquiler de muebles y de organizar una celebración. Dania360 no diseña ni certifica un montaje.",
+      "sources": [
+        {
+          "url": "https://soniluz.es/",
+          "access": "primary_sector_business_service_direct_read",
+          "observation": "El proveedor presenta sonido, iluminación y distintos formatos de evento y enlaza sus publicaciones. No se adoptan actuaciones, equipos, artistas, municipios, cifras, certificaciones o capacidades. Fuente primaria del sector, no demostración de demanda de agencias.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Esquema, publicación y respuesta completos para presentar el servicio técnico antes de enumerar equipos.",
+      "linkLabel": "Descargar los mensajes para sonido e iluminación",
+      "documentSubtitle": "Ejemplo editorial original para adaptar al servicio confirmado del negocio. No representa clientes, proyectos, agenda o resultados reales."
+    },
+    "resource": [
+      "Una demostración editorial de servicio",
+      "",
+      "Contar la intervención antes de enumerar los equipos",
+      "",
+      "El esquema muestra una escena abstracta sin medidas, potencias o equipos comerciales. No representa un acto real, un diseño técnico o una instalación validada. Sirve para ordenar un mensaje sobre el papel del proveedor.",
+      "",
+      "El formato",
+      "",
+      "Qué se quiere desarrollar",
+      "",
+      "La pieza sitúa el tipo de encuentro que el proveedor ha confirmado que puede atender. Así, la persona reconoce si está consultando sobre un acto, una instalación o un alquiler.",
+      "",
+      "La intervención",
+      "",
+      "Qué parte asume el equipo",
+      "",
+      "El texto explica la función del servicio con datos revisados por la empresa. No se deducen capacidades del tamaño de una imagen ni se anuncian medios que no estén confirmados.",
+      "",
+      "El contacto",
+      "",
+      "Cómo empieza la valoración",
+      "",
+      "El cierre pide situar el proyecto por el canal profesional. El equipo revisa después sus necesidades; una primera respuesta no certifica la viabilidad del montaje.",
+      "",
+      "Texto de la publicación",
+      "",
+      "Antes de hablar de equipos, interesa conocer qué debe ocurrir en el evento. Esta demostración conceptual presenta una forma de explicar la intervención: situar el formato, describir el papel del proveedor y abrir una consulta con el equipo. No es una instalación realizada. Cuando compartimos un trabajo real, aclaramos qué parte asumimos y qué información podemos mostrar. Si estás preparando un acto, cuéntanos su formato, el momento previsto y qué necesitas estudiar. Nuestro equipo te indicará cómo continuar la valoración. Los recursos, las condiciones y la propuesta técnica se confirman después de revisar el proyecto.",
+      "",
+      "Respuesta para dirigir la consulta al equipo",
+      "",
+      "Gracias por contactar. Indícanos de forma general qué tipo de acto o instalación estás preparando, su fecha o período y qué parte del servicio quieres consultar. El equipo te explicará qué documentación necesita y por qué canal puede revisarla. Esta primera orientación no confirma equipos, disponibilidad o una solución técnica. La propuesta se estudia con los profesionales de la empresa.",
+      ""
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "escuelas-danza",
+    "hubGroup": "escuelas-clubes",
+    "title": "Gestión de redes sociales para escuelas de danza | Dania360",
+    "description": "Presenta las clases de tu escuela de danza y orienta las consultas por experiencia. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Que la clase se entienda antes de entrar en el aula",
+    "promise": "Explica qué se aprende y facilita el primer contacto con la escuela.",
+    "lead": "Preparamos contenido para presentar las clases y orientar las consultas de tu escuela de danza. Growth reúne redes sociales, página web y bot de IA por 297 €/mes.",
+    "artAlt": "Líneas curvas abstractas y dos tarjetas de primera experiencia y continuidad, sin bailarines reales",
+    "artCaption": "Composición editorial original. No representa una clase realizada, alumnado o una oferta de matrícula.",
+    "resourceTitle": "Una presentación de clase y dos respuestas por experiencia",
+    "faq": [
+      [
+        "¿Podéis explicar las clases sin mostrar al alumnado?",
+        "Sí. Podemos partir de la información del equipo, imágenes del espacio autorizadas o piezas gráficas propias. La escuela confirma modalidades, niveles y condiciones. No hace falta mostrar personas para explicar qué puede consultar alguien interesado."
+      ],
+      [
+        "¿El bot elige el nivel y confirma la inscripción?",
+        "El bot orienta con los datos configurados y dirige al equipo. La escuela valora el nivel, explica sus opciones y confirma plazas, horarios y condiciones de inscripción."
+      ],
+      [
+        "¿Incluye grabar clases o cubrir un espectáculo?",
+        "Growth no incluye grabación presencial o cobertura de espectáculos. Gestionamos el contenido y los canales del plan con información y material que se puedan utilizar, revisando su contexto con la escuela."
+      ],
+      [
+        "¿Qué incluye Growth para escuelas de danza por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Escuelas de danza",
+    "h1": "Gestión de redes sociales para escuelas de danza",
+    "layout": "escuelas-danza",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para escuelas de danza",
+        "redes sociales academias baile",
+        "community manager escuelas danza",
+        "marketing escuelas baile"
+      ],
+      "intent": "Escuela que necesita presentar una clase y facilitar una conversación sobre nivel y oferta confirmada.",
+      "distinctFrom": "Una publicación de presentación de una clase y dos respuestas para quien empieza y quien quiere conocer la continuidad de su formación. El enfoque trata la enseñanza de danza, no la academia genérica, entrenamiento de gimnasio o una actuación contratada. No se inventan estilos, docentes, horarios, alumnos o matrículas.",
+      "sources": [
+        {
+          "url": "https://monolits.studio/gestion-de-redes-sociales-para-academias-de-baile-2/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "Oferta específica para academias, clases y material de danza. Se excluyen sus afirmaciones de viralidad, matrículas, tiempos, cámaras de cine y asesoramiento normativo. No se presentan sus canales, rodajes o permanencia como alcance de Growth.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Publicación completa y mensajes para quien empieza y para quien quiere continuar aprendiendo.",
+      "linkLabel": "Descargar los textos para escuelas de danza",
+      "documentSubtitle": "Ejemplo editorial original para adaptar a la oferta confirmada del negocio. No representa clientes, agenda o resultados reales."
+    },
+    "resource": [
+      "Publicación y mensajes originales para adaptar",
+      "",
+      "Una presentación de clase que abre dos conversaciones",
+      "",
+      "Esta demostración editorial no anuncia una clase disponible ni muestra alumnado real. El texto se adapta a una modalidad que la escuela haya confirmado y a imágenes que pueda utilizar.",
+      "",
+      "Publicación para presentar la enseñanza",
+      "",
+      "Al ver una clase desde fuera, quizá te preguntes si podrías seguirla. La forma de empezar depende de la enseñanza y del grupo que estés valorando. En esta propuesta editorial mostramos cómo presentar una clase: explicar qué se trabaja, situar su nivel y dejar un contacto para preguntar. No es un horario o una convocatoria de matrícula. Cuando compartimos una clase de nuestra escuela, el equipo confirma su modalidad y para quién está planteada. Si quieres conocer nuestra oferta, cuéntanos qué te gustaría aprender y si has bailado antes. Te indicaremos cómo consultar las opciones y sus condiciones.",
+      "",
+      "Primera experiencia",
+      "",
+      "Respuesta a quien nunca ha bailado",
+      "",
+      "Gracias por escribir. Cuéntanos qué modalidad te interesa y si buscas empezar desde el principio. El equipo te explicará qué grupos ofrece y qué información necesita para orientarte. No hace falta que elijas un nivel a partir de un vídeo. La escuela confirma las opciones, los horarios y las condiciones antes de inscribirte.",
+      "",
+      "Experiencia previa",
+      "",
+      "Respuesta a quien quiere continuar",
+      "",
+      "Gracias por contactar. Indícanos qué has practicado y qué te gustaría seguir aprendiendo, de forma general. La escuela te dirá con quién puedes hablar para valorar las opciones de su oferta. La publicación no asigna un nivel ni confirma una plaza; esa orientación corresponde al equipo docente.",
+      ""
+    ]
+  },
+  {
+    "id": 97,
+    "slug": "artes-marciales",
+    "hubGroup": "escuelas-clubes",
+    "title": "Redes sociales para escuelas de artes marciales | Dania360",
+    "description": "Explica la enseñanza de tu escuela de artes marciales y cómo consultar para empezar. Growth incluye gestión de redes, web y bot por 297 €/mes.",
+    "eyebrow": "La enseñanza también debe entenderse desde fuera",
+    "promise": "Acerca la propuesta de tu escuela a quien todavía no conoce la disciplina.",
+    "lead": "Gestionamos contenido y consultas para presentar la enseñanza de tu escuela de artes marciales. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos paneles gráficos con un círculo abierto y líneas de conversación, sin técnicas o personas practicando",
+    "artCaption": "Esquema editorial original sobre escuela y primer contacto. No muestra una técnica o sesión real.",
+    "resourceTitle": "Dos publicaciones para explicar la escuela y cómo empezar",
+    "faq": [
+      [
+        "¿El contenido tiene que enseñar técnicas de combate?",
+        "No. Puede explicar la propuesta de la escuela, el contexto de una actividad o cómo contactar. El ejemplo de esta página presenta la enseñanza sin instrucciones de práctica. Los profesionales del centro validan el contenido docente."
+      ],
+      [
+        "¿Podéis anunciar una clase de prueba o nuevos grupos?",
+        "Solo si la escuela confirma esa oferta y sus condiciones. No se añaden pruebas, horarios, grados o acreditaciones por el hecho de preparar contenido para el sector."
+      ],
+      [
+        "¿El bot puede decidir si una actividad es adecuada para una persona?",
+        "No realiza valoraciones profesionales. Orienta con la información configurada del centro y dirige al equipo. La escuela confirma el proceso de incorporación y responde las cuestiones que requieran su criterio."
+      ],
+      [
+        "¿Qué incluye Growth para escuelas de artes marciales por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Escuelas de artes marciales",
+    "h1": "Gestión de redes sociales para escuelas de artes marciales",
+    "layout": "artes-marciales",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para escuelas de artes marciales",
+        "redes sociales dojos",
+        "community manager artes marciales",
+        "marketing academias artes marciales"
+      ],
+      "intent": "Escuela que quiere explicar su propuesta a quien no conoce la disciplina y orientar la primera consulta.",
+      "distinctFrom": "Dos publicaciones diferentes para conocer la forma de enseñanza y consultar el comienzo, sin una demostración de combate o consejo de salud. Se comunica la oferta formativa y el equipo, no se enseñan técnicas ni se añaden clases de prueba, grados o credenciales inexistentes.",
+      "sources": [
+        {
+          "url": "https://blog.trainingym.com/estrategias-de-marketing-para-escuelas-de-artes-marciales",
+          "access": "primary_software_provider_editorial_direct_read",
+          "observation": "Artículo del proveedor publicado en enero de 2023 que distingue contenido para alumnado avanzado y primeras consultas. No prueba tendencias de 2026. Sus datos de eficacia, recomendaciones de salud, etiquetado de alumnado, software, reservas y cobros no se adoptan.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos que distinguen el enfoque de enseñanza de la primera consulta al centro.",
+      "linkLabel": "Descargar las publicaciones para artes marciales",
+      "documentSubtitle": "Ejemplo editorial original para adaptar a la oferta confirmada del negocio. No representa clientes, agenda o resultados reales."
+    },
+    "resource": [
+      "Dos publicaciones editoriales completas",
+      "",
+      "Explicar cómo se enseña y cómo se inicia una consulta",
+      "",
+      "Son ejemplos originales para adaptar con la escuela. No describen un centro, un docente o una clase de prueba reales ni contienen instrucciones técnicas de combate.",
+      "",
+      "La escuela",
+      "",
+      "Una publicación sobre el enfoque de enseñanza",
+      "",
+      "Una escuela también se conoce por cómo explica lo que enseña. Esta propuesta editorial invita a presentar el enfoque del centro con una pregunta concreta: qué necesita comprender alguien que se acerca por primera vez. No muestra una técnica ni representa una sesión realizada. Cuando compartimos contenido de nuestra escuela, el equipo sitúa la disciplina, el sentido de la actividad y el grupo al que pertenece. Así puedes conocer mejor la enseñanza antes de consultar. Si quieres saber qué ofrecemos, utiliza el contacto del perfil y cuéntanos qué te gustaría aprender; te indicaremos cómo continuar con el equipo.",
+      "",
+      "El primer contacto",
+      "",
+      "Una publicación para quien quiere empezar",
+      "",
+      "No necesitas decidir un grupo solo por lo que has visto en redes. Si estás valorando aprender en nuestra escuela, puedes empezar por una consulta sencilla: qué disciplina te interesa, si has practicado antes y qué necesitas saber de la oferta. El equipo explicará las opciones que tenga confirmadas y cómo se valora el encaje. Este ejemplo no anuncia una plaza o una clase de prueba. Los horarios, las condiciones y el proceso de incorporación se confirman con la escuela. Evita dejar información personal sensible en comentarios; te indicaremos un canal adecuado para la conversación que corresponda.",
+      ""
+    ]
+  },
+  {
+    "id": 98,
+    "slug": "clubes-padel",
+    "hubGroup": "escuelas-clubes",
+    "title": "Gestión de redes sociales para clubes de pádel | Dania360",
+    "description": "Presenta tu club de pádel y diferencia la oferta estable de los avisos de actividad. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La oferta del club y los avisos, cada uno con su contexto",
+    "promise": "Haz comprensible qué puede consultar una persona a tu club de pádel.",
+    "lead": "Preparamos contenido del club y atendemos consultas en los canales del plan. Growth incluye gestión de redes sociales, página web y bot de IA por 297 €/mes.",
+    "artAlt": "Esquema abstracto de pista junto a una ficha de información y una tarjeta de aviso sin fecha",
+    "artCaption": "Ilustración conceptual original. No representa un club, pistas disponibles o una actividad convocada.",
+    "resourceTitle": "Presentación del club y aviso temporal para validar",
+    "faq": [
+      [
+        "¿El ejemplo anuncia un torneo o plazas disponibles?",
+        "No. Es una demostración editorial. Una actividad solo se anuncia cuando el club confirma su nombre, fecha, destinatarios, condiciones y contacto. Preparar el texto no acredita una convocatoria."
+      ],
+      [
+        "¿El bot se conecta a nuestro programa de reservas?",
+        "No se presupone una integración. Informa con datos configurados y orienta la consulta. El club confirma disponibilidad, condiciones y reservas en su sistema o por el canal que utilice."
+      ],
+      [
+        "¿Growth organiza o cubre torneos de forma presencial?",
+        "La organización, los patrocinios y la cobertura presencial no figuran en la cuota de Growth. Podemos comunicar actividades confirmadas con información y material que el club pueda compartir."
+      ],
+      [
+        "¿Qué incluye Growth para clubes de pádel por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Clubes de pádel",
+    "h1": "Gestión de redes sociales para clubes de pádel",
+    "layout": "clubes-padel",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para clubes de pádel",
+        "redes sociales club pádel",
+        "community manager pádel",
+        "marketing clubes pádel"
+      ],
+      "intent": "Club que quiere mostrar su ambiente y oferta y distinguir una consulta de juego de un aviso de actividad confirmada.",
+      "distinctFrom": "Publicación permanente de presentación y aviso temporal adaptable, con criterios distintos de vigencia y contacto. Se comunica un club, no una tienda de palas ni la carrera de un deportista. No se inventan torneos, pistas libres, socios, entrenadores o integraciones de reserva.",
+      "sources": [
+        {
+          "url": "https://agencialarevenia.com/marketing-padel",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "La oferta separa clubes, marcas, jugadores y torneos. No se atribuyen a Dania360 sus clientes, conocimiento sectorial, patrocinios, fotografía presencial, cobertura en directo o resultados.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Dos publicaciones completas con controles de vigencia diferentes, sin inventar una actividad.",
+      "linkLabel": "Descargar las dos publicaciones para pádel",
+      "documentSubtitle": "Ejemplo editorial original para adaptar a la oferta confirmada del negocio. No representa clientes, agenda o resultados reales."
+    },
+    "resource": [
+      "Dos piezas con una vigencia diferente",
+      "",
+      "Una presentación del club y un aviso que solo se publica al confirmarse",
+      "",
+      "Estos textos son demostraciones editoriales. No anuncian pistas libres, una convocatoria real, un torneo o servicios concretos de un club.",
+      "",
+      "Presentación estable",
+      "",
+      "Publicación para conocer el centro",
+      "",
+      "Antes de organizar tu próxima visita, interesa saber qué puedes consultar al club. Esta propuesta editorial presenta una forma de explicar el centro: sus modalidades de uso confirmadas, el contacto y el lugar donde ampliar la información. La imagen conceptual no muestra nuestras instalaciones. En una publicación real acompañamos el material del club con los datos que ayudan a situarlo. Si quieres conocer nuestra oferta, escribe por el canal del perfil e indica qué te gustaría consultar. El equipo te explicará las opciones y sus condiciones. La disponibilidad se revisa con el club antes de cerrar una reserva.",
+      "",
+      "Aviso por completar y validar",
+      "",
+      "Texto base para una actividad del club",
+      "",
+      "Esta pieza se prepara para una actividad que el club confirme. Antes de publicarla se incorpora su nombre, fecha, destinatarios, condiciones y contacto; no debe difundirse como convocatoria mientras falte esa información. El texto presenta en qué consiste la propuesta y cómo solicitar detalles al equipo. No anuncia plazas disponibles ni una inscripción automática. Si hay un cambio, el club confirma el dato y se revisa el aviso que lo comunica. Para preguntar por la actividad, utiliza el canal indicado en su publicación definitiva; el equipo verificará contigo los requisitos y la forma de participar.",
+      "",
+      "La presentación se revisa cuando cambia la oferta del club. El aviso necesita además una fecha y condiciones vigentes antes de difundirse. Preparar una pieza no confirma que la actividad vaya a celebrarse.",
+      ""
+    ]
+  },
+  {
+    "id": 99,
+    "slug": "estudios-tatuajes",
+    "hubGroup": "creatividad-eventos",
+    "title": "Gestión de redes sociales para estudios de tatuajes | Dania360",
+    "description": "Presenta el trabajo de tu estudio de tatuajes con autoría y contexto y orienta consultas. Growth incluye gestión de redes, web y bot por 297 €/mes.",
+    "eyebrow": "Que cada pieza conserve su autoría y su contexto",
+    "promise": "Abre una conversación sobre la idea antes de confirmar un encargo.",
+    "lead": "Gestionamos contenido y consultas para presentar el trabajo de tu estudio de tatuajes. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "artAlt": "Lámina abstracta de curvas y puntos sobre papel, sin piel o simulación de un tatuaje",
+    "artCaption": "Dibujo editorial original. No es un tatuaje realizado, una pieza de portfolio o un diseño disponible.",
+    "resourceTitle": "Una idea presentada y una respuesta para continuar",
+    "faq": [
+      [
+        "¿La ilustración es un tatuaje realizado o un diseño que se puede reservar?",
+        "No. Es una lámina abstracta creada para esta demostración editorial. El trabajo real del estudio se comparte con su autoría, contexto y permisos confirmados; el ejemplo no sustituye ese portfolio."
+      ],
+      [
+        "¿Podéis conservar los créditos de cada artista?",
+        "Sí. El estudio confirma a quién corresponde el trabajo y qué material puede utilizarse. La publicación conserva esa atribución y distingue dibujos, propuestas y piezas realizadas."
+      ],
+      [
+        "¿El bot valora una idea o da indicaciones sobre cuidados?",
+        "El bot orienta con información configurada y dirige al estudio. Las decisiones sobre el encargo y las preguntas profesionales o sanitarias corresponden a los profesionales adecuados; no se resuelven mediante una valoración automática de imágenes."
+      ],
+      [
+        "¿Qué incluye Growth para estudios de tatuajes por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Estudios de tatuajes",
+    "h1": "Gestión de redes sociales para estudios de tatuajes",
+    "layout": "estudios-tatuajes",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para estudios de tatuajes",
+        "redes sociales tatuadores",
+        "community manager estudios tatuajes",
+        "marketing estudios tatuajes"
+      ],
+      "intent": "Estudio que necesita mostrar la autoría y el estado de una pieza y orientar una idea hacia el artista adecuado.",
+      "distinctFrom": "Una lámina gráfica original y una publicación sobre cómo iniciar una idea, con una respuesta que evita convertir una referencia ajena en un encargo confirmado. La comunicación presenta al estudio y su proceso de contacto. No simula tatuajes realizados, inventa artistas o agenda, ni da valoración médica o indicaciones clínicas.",
+      "sources": [
+        {
+          "url": "https://rogerllorens.com/marketing-estudios-tatuajes/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "Oferta específica que distingue estilo, artista, portfolio y contacto. La propia página identifica visualizaciones conceptuales. No se copian esas muestras, arquitectura de artistas o comparaciones de estados, ni se atribuye su experiencia, herramientas o casos a Dania360.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Publicación y respuesta completas para distinguir una referencia visual de un encargo confirmado.",
+      "linkLabel": "Descargar los mensajes para estudios de tatuajes",
+      "documentSubtitle": "Ejemplo editorial original para adaptar a la oferta confirmada del negocio. No representa clientes, agenda o resultados reales."
+    },
+    "resource": [
+      "Lámina gráfica y mensajes originales",
+      "",
+      "Presentar una idea sin convertir la referencia en una reserva",
+      "",
+      "La ilustración de esta página es una composición lineal abstracta creada para el ejemplo. No es un tatuaje, un diseño ofertado por un artista o una pieza de portfolio.",
+      "",
+      "Publicación para iniciar la conversación",
+      "",
+      "Una idea puede empezar por una forma, un ritmo o una imagen que te interesa. Esta lámina abstracta sirve para explicar ese comienzo; no es un tatuaje realizado ni un diseño que puedas reservar. Cuando compartimos el trabajo de nuestro estudio, indicamos su autoría y el contexto de la pieza. Si tienes una idea, utiliza el contacto del perfil y cuéntanos de forma general qué quieres consultar. El equipo te explicará qué información necesita y con quién puedes desarrollarla. Las referencias ayudan a conversar, pero la propuesta, sus condiciones y la disponibilidad se acuerdan después con el estudio.",
+      "",
+      "De la referencia a la conversación",
+      "",
+      "Respuesta a quien envía una idea",
+      "",
+      "Gracias por compartir lo que estás pensando. Podemos trasladar tu consulta al estudio para que indique cómo continuar. Cuéntanos de forma general qué quieres desarrollar y si buscas información sobre el trabajo de algún artista del equipo. No publiques datos sensibles o imágenes personales en comentarios. El estudio te dirá por qué canal puede revisar las referencias necesarias. Una primera respuesta no confirma el diseño, una cita o un presupuesto; esos puntos se concretan con el profesional que valore el encargo.",
+      ""
+    ]
+  },
+  {
+    "id": 100,
+    "slug": "coworking",
+    "hubGroup": "servicios-empresas",
+    "title": "Gestión de redes sociales para coworking | Dania360",
+    "description": "Explica los usos y las modalidades de tu coworking y orienta consultas de visita. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Presenta el espacio desde la forma de utilizarlo",
+    "promise": "Diferencia trabajar en un puesto de consultar una sala para reunirse.",
+    "lead": "Preparamos contenido para explicar las modalidades de tu coworking y atender sus consultas. Growth reúne gestión de redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Vista conceptual con un puesto individual y una mesa de reunión separada, sin local real o disponibilidad",
+    "artCaption": "Esquema original de usos de un espacio. No representa un coworking real, puestos libres o una reserva.",
+    "resourceTitle": "Dos publicaciones para un puesto y una sala de reunión",
+    "faq": [
+      [
+        "¿Podéis presentar un puesto y una sala como servicios distintos?",
+        "Sí, si el operador ofrece ambas modalidades. Cada publicación explica su uso y dirige al contacto correspondiente. No se presupone que compartan condiciones, equipamiento o disponibilidad."
+      ],
+      [
+        "¿La gestión de comunidad incluye organizar eventos en el espacio?",
+        "Growth gestiona el contenido y los canales del plan. La organización de eventos, mentorías o formación presencial no está incluida por tratarse de un coworking. Una actividad confirmada puede comunicarse con datos y material autorizados."
+      ],
+      [
+        "¿El bot confirma una visita, un puesto o el acceso al coworking?",
+        "Orienta con los datos configurados y dirige al equipo. El operador confirma visitas, disponibilidad y condiciones. No se presupone conexión con programas de reservas, contratación o control de accesos."
+      ],
+      [
+        "¿Qué incluye Growth para espacios de coworking por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Espacios de coworking",
+    "h1": "Gestión de redes sociales para coworking",
+    "layout": "coworking",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para coworking",
+        "redes sociales espacios coworking",
+        "community manager coworking",
+        "marketing espacios coworking"
+      ],
+      "intent": "Operador que quiere explicar modalidades de uso y atender una visita o una consulta sobre un espacio sin anunciar plazas ficticias.",
+      "distinctFrom": "Dos publicaciones completas para un puesto de trabajo y una sala de reunión, con confirmación de condiciones por el operador. Se presenta el uso de un espacio de trabajo, no una oferta inmobiliaria ni la promesa de crear una comunidad o celebrar eventos incluidos en Growth.",
+      "sources": [
+        {
+          "url": "https://www.communityfirst.es/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "El proveedor incluye expresamente coworking y espacios creativos en una oferta de comunidad y redes. Parte de las respuestas son amplias y no prueban resultados específicos del sector. No se trasladan sus eventos presenciales, formación, mentoría, clientes o compromisos de crecimiento.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para presentar modalidades de uso y situar las condiciones que confirma el operador.",
+      "linkLabel": "Descargar las publicaciones para coworking",
+      "documentSubtitle": "Ejemplo editorial original para adaptar a la oferta confirmada del negocio. No representa clientes, agenda o resultados reales."
+    },
+    "resource": [
+      "Dos publicaciones con usos distintos",
+      "",
+      "Explicar un puesto de trabajo y una reunión sin mezclar las condiciones",
+      "",
+      "Son ejemplos editoriales para adaptar a modalidades confirmadas por el coworking. La ilustración representa un esquema conceptual, no un local real o puestos disponibles.",
+      "",
+      "Trabajar en el espacio",
+      "",
+      "Publicación sobre un puesto",
+      "",
+      "El lugar desde el que trabajas también tiene una forma de utilizarse. Esta propuesta editorial explica cómo presentar una modalidad de puesto: qué uso admite, qué servicios incluye según el operador y dónde consultar sus condiciones. No es una oferta de disponibilidad. En una publicación del espacio, acompañamos las imágenes con la información confirmada para esa modalidad. Si estás valorando trabajar aquí, cuéntanos qué uso buscas y para qué período. El equipo te explicará las opciones que ofrece y cómo concertar una visita, si corresponde. Las condiciones y la disponibilidad se confirman antes de contratar.",
+      "",
+      "Reunirse en el espacio",
+      "",
+      "Publicación sobre una sala",
+      "",
+      "Una reunión necesita una información distinta de la de un puesto de trabajo. Antes de consultar, interesa saber para qué uso se presenta la sala y cómo hablar con el espacio. Este ejemplo no ofrece una sala concreta ni confirma una fecha. En una publicación real, el operador revisa las características que pueden comunicarse y qué está incluido en esa modalidad. Si necesitas valorar una reunión, indica su uso general, el número previsto de asistentes y el momento que estás considerando. El equipo revisará contigo las opciones, las condiciones y la forma de continuar; una consulta no equivale a una reserva.",
+      ""
+    ]
   }
 ]

@@ -1448,3 +1448,168 @@
 @media(max-width:540px){
  .layout-jugueterias .toys-adult aside,.layout-jugueterias .toys-checkpoints>div,.layout-jugueterias .toys-caption,.layout-ropa-complementos .fashion-copy article:first-child,.layout-tiendas-deporte .sports-caption,.layout-tiendas-deporte .sports-reply,.layout-tiendas-mascotas .petshop-example article,.layout-tiendas-online .ecommerce-journey aside,.layout-tiendas-online .ecommerce-post,.layout-tiendas-online .ecommerce-replies article{padding:24px}
 }
+
+/* Organisers: a first conversation branches towards couples and companies. */
+.layout-organizadores-bodas-eventos .hero{grid-template-columns:1fr}
+.layout-organizadores-bodas-eventos .hero>div{max-width:1050px}
+.layout-organizadores-bodas-eventos .hero figure{max-width:740px;justify-self:end}
+.layout-organizadores-bodas-eventos h1{font-size:clamp(2.4rem,4.1vw,4.2rem);max-width:27ch}
+.layout-organizadores-bodas-eventos .planner-scope{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-organizadores-bodas-eventos .planner-scope p{color:var(--muted)}
+.layout-organizadores-bodas-eventos .planner-scope .kicker{color:var(--orange)}
+.layout-organizadores-bodas-eventos .planner-scope aside{padding:26px;border-top:3px solid var(--orange);background:#17110c;align-self:start}
+.layout-organizadores-bodas-eventos .planner-publication{background:var(--paper);color:#2b2018;padding:34px;margin-top:34px}
+.layout-organizadores-bodas-eventos .planner-publication p{color:#49392b;margin-bottom:0}
+.layout-organizadores-bodas-eventos .planner-two-routes{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:36px}
+.layout-organizadores-bodas-eventos .planner-two-routes article{padding:26px;border:1px solid #826048;border-radius:18px}
+.layout-organizadores-bodas-eventos .planner-two-routes span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-organizadores-bodas-eventos .planner-two-routes p{margin-bottom:0;color:var(--muted)}
+.layout-organizadores-bodas-eventos .planner-material,.layout-organizadores-bodas-eventos .planner-web{max-width:980px}
+
+/* Photography: a reading of the image selection precedes the enquiry note. */
+.layout-fotografos .hero{grid-template-columns:.95fr 1.05fr}
+.layout-fotografos .hero figure{order:-1}
+.layout-fotografos h1{font-size:clamp(2.4rem,3.8vw,4rem);max-width:21ch}
+.layout-fotografos .photo-intention>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-fotografos .photo-reading{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:34px 0}
+.layout-fotografos .photo-reading>div{border-bottom:3px solid var(--orange);padding-bottom:24px}
+.layout-fotografos .photo-reading dt{color:var(--orange);font-weight:750;font-size:1.2rem;margin-bottom:14px}
+.layout-fotografos .photo-reading dd{margin:0;color:var(--muted)}
+.layout-fotografos .photo-caption{padding:34px;background:#22170f;border:1px solid #7d5941;max-width:940px}
+.layout-fotografos .photo-caption p{margin-bottom:0}
+.layout-fotografos .photo-contact-note{max-width:820px;margin:36px 0 0 auto;border-left:1px solid var(--orange);padding:12px 0 12px 30px}
+.layout-fotografos .photo-contact-note p{margin-bottom:0;color:var(--muted)}
+.layout-fotografos .photo-portfolio,.layout-fotografos .photo-service{max-width:980px}
+
+/* Production: two editorial cuts are compared before the written publication. */
+.layout-productoras-audiovisuales h1{font-size:clamp(2.2rem,3.2vw,3.5rem);max-width:24ch}
+.layout-productoras-audiovisuales .film-business{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-productoras-audiovisuales .film-business p{color:var(--muted)}
+.layout-productoras-audiovisuales .film-business .kicker{color:var(--orange)}
+.layout-productoras-audiovisuales .film-business aside{align-self:start;padding-left:28px;border-left:3px solid var(--orange)}
+.layout-productoras-audiovisuales .film-two-cuts{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:36px 0}
+.layout-productoras-audiovisuales .film-two-cuts article{padding:32px;background:#17110c;border-top:4px solid var(--orange)}
+.layout-productoras-audiovisuales .film-two-cuts span{display:block;font-size:.8rem;letter-spacing:.1em;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-productoras-audiovisuales .film-two-cuts h3{font-size:1.55rem}
+.layout-productoras-audiovisuales .film-two-cuts p{margin-bottom:0;color:var(--muted)}
+.layout-productoras-audiovisuales .film-caption{padding:36px;background:var(--paper);color:#2c2118}
+.layout-productoras-audiovisuales .film-caption p{color:#49392b;margin-bottom:0}
+.layout-productoras-audiovisuales .film-credit,.layout-productoras-audiovisuales .film-service{max-width:980px}
+
+/* Event rentals: the enquiry fields stay distinct from the rental conditions. */
+.layout-alquiler-material-eventos .hero{grid-template-columns:.9fr 1.1fr}
+.layout-alquiler-material-eventos .hero figure{order:-1}
+.layout-alquiler-material-eventos h1{font-size:clamp(2.2rem,3.2vw,3.5rem);max-width:25ch}
+.layout-alquiler-material-eventos .rental-catalogue>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-enquiry{margin:34px 0}
+.layout-alquiler-material-eventos .rental-enquiry>div{display:grid;grid-template-columns:180px 1fr;gap:30px;padding:22px 0;border-top:1px solid var(--line)}
+.layout-alquiler-material-eventos .rental-enquiry dt{font-weight:750;color:var(--orange);font-size:1.15rem}
+.layout-alquiler-material-eventos .rental-enquiry dd{margin:0;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-caption{background:var(--paper);color:#2c2118;padding:34px;max-width:920px}
+.layout-alquiler-material-eventos .rental-caption p{margin-bottom:0;color:#49392b}
+.layout-alquiler-material-eventos .rental-reply{max-width:850px;margin:34px 0 0 auto;padding:28px;border:1px solid #8d6648}
+.layout-alquiler-material-eventos .rental-reply p{margin-bottom:0;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-conditions,.layout-alquiler-material-eventos .rental-service{max-width:980px}
+
+/* Live AV: format, intervention and contact run as three editorial rows. */
+.layout-sonido-iluminacion .hero{grid-template-columns:1.15fr .85fr}
+.layout-sonido-iluminacion h1{font-size:clamp(2.2rem,3.3vw,3.6rem);max-width:25ch}
+.layout-sonido-iluminacion .av-intervention{display:grid;grid-template-columns:1.3fr .7fr;gap:42px}
+.layout-sonido-iluminacion .av-intervention p{color:var(--muted)}
+.layout-sonido-iluminacion .av-intervention .kicker{color:var(--orange)}
+.layout-sonido-iluminacion .av-intervention aside{align-self:start;padding:28px;background:#18110c;border-bottom:3px solid var(--orange)}
+.layout-sonido-iluminacion .av-explanation{margin:34px 0}
+.layout-sonido-iluminacion .av-explanation article{display:grid;grid-template-columns:110px .8fr 1.2fr;gap:28px;padding:26px 0;border-top:1px solid var(--line)}
+.layout-sonido-iluminacion .av-explanation span{font-size:.8rem;font-weight:750;color:var(--orange)}
+.layout-sonido-iluminacion .av-explanation p{margin-bottom:0;color:var(--muted)}
+.layout-sonido-iluminacion .av-caption{padding:34px;background:#24170f;border:1px solid #8c6448}
+.layout-sonido-iluminacion .av-caption p{margin-bottom:0}
+.layout-sonido-iluminacion .av-reply{max-width:850px;padding:28px 0 0 30px;margin:34px 0 0 auto;border-left:1px solid var(--orange)}
+.layout-sonido-iluminacion .av-reply p{margin-bottom:0;color:var(--muted)}
+.layout-sonido-iluminacion .av-material,.layout-sonido-iluminacion .av-service{max-width:980px}
+@media(max-width:850px){
+ .layout-organizadores-bodas-eventos .planner-scope,.layout-organizadores-bodas-eventos .planner-two-routes,.layout-fotografos .hero,.layout-fotografos .photo-intention>div,.layout-fotografos .photo-reading,.layout-productoras-audiovisuales .film-business,.layout-productoras-audiovisuales .film-two-cuts,.layout-alquiler-material-eventos .hero,.layout-alquiler-material-eventos .rental-catalogue>div,.layout-sonido-iluminacion .hero,.layout-sonido-iluminacion .av-intervention,.layout-sonido-iluminacion .av-explanation article{grid-template-columns:1fr;gap:26px}
+ .layout-fotografos .hero figure,.layout-alquiler-material-eventos .hero figure{order:0}
+ .layout-productoras-audiovisuales .film-business aside{padding:24px 0 0;border-left:0;border-top:1px solid var(--line)}
+}
+@media(max-width:540px){
+ .layout-organizadores-bodas-eventos .planner-scope aside,.layout-organizadores-bodas-eventos .planner-publication,.layout-organizadores-bodas-eventos .planner-two-routes article,.layout-fotografos .photo-caption,.layout-productoras-audiovisuales .film-two-cuts article,.layout-productoras-audiovisuales .film-caption,.layout-alquiler-material-eventos .rental-caption,.layout-alquiler-material-eventos .rental-reply,.layout-sonido-iluminacion .av-intervention aside,.layout-sonido-iluminacion .av-caption{padding:24px}
+ .layout-alquiler-material-eventos .rental-enquiry>div{grid-template-columns:1fr;gap:12px}
+}
+
+/* Dance: a teaching introduction branches by previous experience. */
+.layout-escuelas-danza .hero{grid-template-columns:1.1fr .9fr}
+.layout-escuelas-danza h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-escuelas-danza .dance-class>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-escuelas-danza .dance-caption{padding:34px;background:var(--paper);color:#2b2119;margin-top:34px}
+.layout-escuelas-danza .dance-caption p{color:#49382c;margin-bottom:0}
+.layout-escuelas-danza .dance-routes{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:36px}
+.layout-escuelas-danza .dance-routes article{border-top:3px solid var(--orange);padding-top:26px}
+.layout-escuelas-danza .dance-routes span{display:block;color:var(--orange);font-size:.8rem;font-weight:750;margin-bottom:24px}
+.layout-escuelas-danza .dance-routes p{color:var(--muted);margin-bottom:0}
+.layout-escuelas-danza .dance-material,.layout-escuelas-danza .dance-service{max-width:980px}
+
+/* Martial arts: two long-form posts separate school identity and introduction. */
+.layout-artes-marciales .hero{grid-template-columns:1fr}
+.layout-artes-marciales .hero>div{max-width:1050px}
+.layout-artes-marciales .hero figure{max-width:700px;justify-self:end}
+.layout-artes-marciales h1{font-size:clamp(2.4rem,4.1vw,4.2rem);max-width:26ch}
+.layout-artes-marciales .martial-intro{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-artes-marciales .martial-intro p{color:var(--muted)}
+.layout-artes-marciales .martial-intro .kicker{color:var(--orange)}
+.layout-artes-marciales .martial-intro aside{padding:28px;border-left:3px solid var(--orange);align-self:start}
+.layout-artes-marciales .martial-posts{margin-top:34px}
+.layout-artes-marciales .martial-posts article{padding:32px;background:#21160f;max-width:950px;border:1px solid #805d43}
+.layout-artes-marciales .martial-posts article+article{margin:34px 0 0 auto;background:var(--paper);color:#2b2119}
+.layout-artes-marciales .martial-posts span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-artes-marciales .martial-posts p{margin-bottom:0}
+.layout-artes-marciales .martial-posts article+article span{color:#94350f}
+.layout-artes-marciales .martial-posts article+article p{color:#49382c}
+.layout-artes-marciales .martial-community,.layout-artes-marciales .martial-service{max-width:980px}
+
+/* Padel: stable information and temporary notices use different editorial rows. */
+.layout-clubes-padel .hero{grid-template-columns:.95fr 1.05fr}
+.layout-clubes-padel .hero figure{order:-1}
+.layout-clubes-padel h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-clubes-padel .padel-club>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-clubes-padel .padel-example article{display:grid;grid-template-columns:.7fr 1.3fr;gap:44px;padding:32px 0;border-top:1px solid #866045;margin-top:34px}
+.layout-clubes-padel .padel-example article span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-clubes-padel .padel-example article p{margin-bottom:0;color:var(--muted)}
+.layout-clubes-padel .padel-currency{max-width:800px;margin:34px 0 0 auto;border-left:3px solid var(--orange);padding-left:28px}
+.layout-clubes-padel .padel-check,.layout-clubes-padel .padel-service{max-width:980px}
+
+/* Tattoo studio: the graphic plate remains separate from the enquiry response. */
+.layout-estudios-tatuajes .hero{grid-template-columns:1.1fr .9fr}
+.layout-estudios-tatuajes h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-estudios-tatuajes .tattoo-language>div{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;color:var(--muted)}
+.layout-estudios-tatuajes .tattoo-caption{padding:36px;background:var(--paper);color:#2b2119;max-width:940px;margin-top:34px}
+.layout-estudios-tatuajes .tattoo-caption p{margin-bottom:0;color:#49382c}
+.layout-estudios-tatuajes .tattoo-enquiry{padding:30px;border:1px solid #886348;border-radius:20px;max-width:820px;margin:36px 0 0 auto}
+.layout-estudios-tatuajes .tattoo-enquiry span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-estudios-tatuajes .tattoo-enquiry p{margin-bottom:0;color:var(--muted)}
+.layout-estudios-tatuajes .tattoo-material,.layout-estudios-tatuajes .tattoo-service{max-width:980px}
+
+/* Coworking: the two uses receive two parallel, self-contained publications. */
+.layout-coworking .hero{grid-template-columns:.9fr 1.1fr}
+.layout-coworking .hero figure{order:-1}
+.layout-coworking h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:22ch}
+.layout-coworking .cowork-use{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-coworking .cowork-use p{color:var(--muted)}
+.layout-coworking .cowork-use .kicker{color:var(--orange)}
+.layout-coworking .cowork-use aside{align-self:start;padding:28px;background:#1c130d;border-bottom:3px solid var(--orange)}
+.layout-coworking .cowork-posts{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:34px}
+.layout-coworking .cowork-posts article{padding:30px;border:1px solid #856148}
+.layout-coworking .cowork-posts article:last-child{margin-top:48px;background:var(--paper);color:#2b2119;border-color:var(--paper)}
+.layout-coworking .cowork-posts span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-coworking .cowork-posts p{margin-bottom:0;color:var(--muted)}
+.layout-coworking .cowork-posts article:last-child span{color:#94350f}
+.layout-coworking .cowork-posts article:last-child p{color:#49382c}
+.layout-coworking .cowork-operator,.layout-coworking .cowork-service{max-width:980px}
+@media(max-width:850px){
+ .layout-escuelas-danza .hero,.layout-escuelas-danza .dance-class>div,.layout-escuelas-danza .dance-routes,.layout-artes-marciales .martial-intro,.layout-clubes-padel .hero,.layout-clubes-padel .padel-club>div,.layout-clubes-padel .padel-example article,.layout-estudios-tatuajes .hero,.layout-estudios-tatuajes .tattoo-language>div,.layout-coworking .hero,.layout-coworking .cowork-use,.layout-coworking .cowork-posts{grid-template-columns:1fr;gap:26px}
+ .layout-clubes-padel .hero figure,.layout-coworking .hero figure{order:0}
+ .layout-coworking .cowork-posts article:last-child{margin-top:0}
+}
+@media(max-width:540px){
+ .layout-escuelas-danza .dance-caption,.layout-artes-marciales .martial-intro aside,.layout-artes-marciales .martial-posts article,.layout-estudios-tatuajes .tattoo-caption,.layout-estudios-tatuajes .tattoo-enquiry,.layout-coworking .cowork-use aside,.layout-coworking .cowork-posts article{padding:24px}
+}
