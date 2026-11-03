@@ -1,0 +1,38 @@
+GUION DE REEL VETERINARIO · PRIMERA VISITA · 15 SEGUNDOS
+Muestra de producción de Dania360. No describe un cliente ni un vídeo realizado.
+
+DATOS QUE COMPLETA EL CENTRO
+Clínica:
+Dirección:
+Canal para solicitar cita:
+Horario atendido de ese canal:
+Canal aprobado para posibles urgencias y horario:
+Responsable de revisión:
+
+PLANOS Y TEXTO EN PANTALLA
+0–3 s · Entrada real, con rótulo visible y sin personas ajenas a la grabación.
+Texto: ¿Tu primera visita a [clínica]?
+3–7 s · Recepción preparada, sin información de pacientes en pantallas ni documentos.
+Texto: Así nos encontrarás al llegar.
+7–11 s · Canal de cita legible, sin agendas ni conversaciones reales.
+Texto: Consulta disponibilidad por [canal de cita].
+11–15 s · Nombre del centro y contacto aprobado por recepción.
+Texto: El equipo confirmará tu cita · [contacto].
+
+LOCUCIÓN PARA ENSAYAR Y CRONOMETRAR
+Primera visita a [clínica]. Conoce nuestra entrada y recepción. Pide cita en [canal]. El equipo confirmará la disponibilidad y los detalles.
+
+PIE DE PUBLICACIÓN
+Antes de tu primera visita a [clínica], consulta disponibilidad en [canal verificado]. Nuestro equipo te confirmará la cita y la información necesaria. Nos encontrarás en [dirección confirmada]. Para posibles urgencias, utiliza [canal aprobado para esos casos] en [horario confirmado].
+
+REVISIÓN ANTES DE GRABAR Y PROGRAMAR
+Completar todos los campos y comprobar canales y horarios con recepción.
+Grabar solo material que el centro haya autorizado y personas que hayan aceptado participar.
+Evitar pantallas, documentos, agendas y conversaciones con información de pacientes o tutores.
+Cronometrar la locución con los datos definitivos y acortarla si hace falta.
+Comprobar subtítulos y contacto desde un móvil.
+Si se añade información sanitaria, solicitar revisión veterinaria.
+La solicitud se convierte en cita cuando el equipo la confirma.
+
+Guion y herramienta de respuesta: https://dania360.com/recursos/calendario-redes-sociales-clinicas-veterinarias/
+Servicio: https://dania360.com/gestion-redes-sociales-veterinarias/
