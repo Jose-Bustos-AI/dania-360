@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Piscinas: tres líneas de servicio</title><desc id="d">Composición original de una piscina abstracta y tres líneas editoriales de proyecto, renovación y servicio. No es una instalación real ni un consejo de tratamiento.</desc><rect width="640" height="480" rx="22" fill="#f3ece2"/>
+<rect x="45" y="107" width="361" height="285" rx="22" fill="#c6b194"/>
+<rect x="66" y="128" width="319" height="243" rx="14" fill="#2b2721"/>
+<path d="M85 179q25-12 50 0t50 0 50 0 50 0 50 0M85 224q25-12 50 0t50 0 50 0 50 0 50 0M85 269q25-12 50 0t50 0 50 0 50 0 50 0M85 314q25-12 50 0t50 0 50 0 50 0 50 0" fill="none" stroke="#c6b194" stroke-width="3"/>
+<path d="M93 127v71M125 127v71M93 151h32M93 176h32" stroke="#ff7139" stroke-width="5" fill="none"/>
+<g font-family="system-ui,sans-serif" fill="#31241a"><text x="36" y="49" font-size="22" font-weight="700">CADA SERVICIO TIENE SU MENSAJE</text><text x="437" y="164" font-size="22">Proyecto</text><text x="437" y="254" font-size="22">Renovación</text><text x="437" y="344" font-size="22">Servicio</text></g>
+<path d="M438 185h155M438 275h155M438 365h155" stroke="#ff7139" stroke-width="4"/></svg>

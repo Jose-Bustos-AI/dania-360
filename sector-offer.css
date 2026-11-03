@@ -1,0 +1,43 @@
+/* Resumen del servicio contratado; solo lo cargan las cinco landings revisadas. */
+.sector-offer {
+  padding: clamp(2.5rem, 5vw, 4.5rem) 1.25rem;
+  background: #080808;
+  color: #f8f8f8;
+  scroll-margin-top: 6rem;
+}
+.sector-offer .sector-offer__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  width: min(1160px, 100%);
+  margin: 0 auto;
+  font-family: system-ui, sans-serif;
+}
+.sector-offer .sector-offer__label {
+  margin: 0 0 .8rem;
+  color: #ff7139;
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.sector-offer h2 {
+  margin: 0 0 1rem;
+  color: #fff;
+  font: 700 clamp(1.7rem, 3vw, 2.6rem)/1.16 system-ui, sans-serif;
+  letter-spacing: -.035em;
+}
+.sector-offer p { margin: 0 0 1rem; color: #ddd; font-size: 1rem; line-height: 1.65; }
+.sector-offer .sector-offer__price { display: flex; align-items: baseline; gap: .5rem; margin: 1.1rem 0 0; }
+.sector-offer__price strong { color: #ff7139; font-size: 2.5rem; line-height: 1.2; }
+.sector-offer__price span { color: #ddd; }
+.sector-offer dl { display: grid; gap: 1rem; margin: 0 0 1.2rem; }
+.sector-offer dl > div { border-bottom: 1px solid #383838; padding-bottom: 1rem; }
+.sector-offer dt { margin-bottom: .25rem; color: #fff; font-size: 1rem; font-weight: 750; }
+.sector-offer dd { margin: 0; color: #ddd; font-size: .95rem; line-height: 1.6; }
+.sector-offer .sector-offer__scope { font-size: .9rem; }
+.sector-offer a { display: inline-block; padding: .6rem 0; color: #ff9367; font-weight: 700; text-underline-offset: .22em; }
+.sector-offer a:focus-visible { outline: 2px solid #ff7139; outline-offset: 5px; }
+@media (max-width: 760px) {
+  .sector-offer .sector-offer__inner { grid-template-columns: 1fr; }
+}
