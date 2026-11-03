@@ -1,50 +1,24 @@
-# Noveno lote: diez borradores de creación, escuelas y espacios
+# Noveno lote: creación, eventos, escuelas y coworking
 
-Borradores redactados, integrados y comprobados el 3 de noviembre de 2026. La fecha del nombre de este documento corresponde a la revisión final prevista del lote completo, no a una publicación o actualización del contenido.
+Revisión final realizada el 3 de noviembre de 2026. El día 10 del nombre de archivo y de rama es una fecha de planificación inicial, no una revisión futura o publicación.
 
-## Contenido de esta entrega
+Se han leído los diez cuerpos completos, metadatos, cuarenta respuestas y diez recursos. Cada página explica un servicio diferente: qué coordina un organizador; qué sesión presenta un fotógrafo; qué parte produce una empresa audiovisual; qué se consulta para alquilar material; qué intervención asume un proveedor de sonido; cómo conocer una clase de danza; cómo preguntar a una escuela de artes marciales; qué distingue información estable y aviso de un club de pádel; a quién pertenece una pieza de tatuaje; y qué cambia entre un puesto y una sala de coworking.
 
-- Organizadores de bodas y eventos: publicación sobre el comienzo de la organización y respuestas distintas para una pareja y una empresa.
-- Fotógrafos: selección editorial de conjunto, detalle y continuación, con publicación y respuesta para situar una sesión.
-- Productoras audiovisuales: dos formas de ordenar una idea en un storyboard conceptual y texto para explicar el servicio. No es una película producida.
-- Alquiler de material para eventos: composición conceptual, datos de contexto, publicación y respuesta de alquiler.
-- Sonido e iluminación: formato del acto, función del proveedor y contacto, con publicación y primera respuesta.
-- Escuelas de danza: presentación de una clase y dos respuestas según experiencia previa.
-- Artes marciales: dos publicaciones que explican la escuela y el comienzo de una consulta, sin instrucciones técnicas.
-- Clubes de pádel: presentación estable y aviso temporal con comprobaciones de vigencia diferentes.
-- Estudios de tatuajes: lámina gráfica, publicación y respuesta que distingue una referencia de un encargo.
-- Coworking: dos publicaciones para puesto de trabajo y sala de reunión, con condiciones por modalidad.
+La revisión concreta el ejemplo de fotografía mediante tres encuadres dibujados de una taza junto a una ventana. Se muestran contexto, borde y espacio para el mensaje. Texto, imagen, alt, pie y descargable coinciden. Es una revisión del ejemplo y de la ilustración existentes, sin añadir páginas o activos ni simular fotografías, sesiones o portfolio reales. Se conservan H1, títulos, CSS, planes y las correcciones heredadas.
 
-Cada página incorpora cuerpo, estructura de lectura, título, descripción, H1, cuatro preguntas, ilustración SVG conceptual y recurso de texto completo propios. Los ejemplos no representan clientes, proyectos, agenda, equipos disponibles o resultados reales. Growth mantiene 297 €/mes y todo Starter, incluida web profesional y bot de IA. No incorpora el trabajo presencial del cliente, cobertura de eventos, producción, integraciones de inventario o reservas por asociación con el sector. LinkedIn pertenece a Scale.
+La investigación registra consultas candidatas, intención y fuentes por sector. Algunas son ofertas de agencias; otras explican el servicio del propio sector. El artículo de artes marciales es histórico y no acredita tendencias actuales. No se adoptan proyectos, eventos, agenda, matrículas, resultados, credenciales o servicios de los proveedores, ni se presentan las fuentes como medición de demanda o puestos de Google España.
 
-## Investigación
+## Validación
 
-Hay diez expedientes cualitativos en outputs/seo-sector-expansion-20261110/research-briefs.json, con consultas candidatas y fuentes primarias diferenciadas. La oferta de marketing se contrastó con SocialMint para organizadores y Adsplorer para fotógrafos. Las fuentes de productoras, alquiler y sonido son los propios negocios del sector: Maldito Studio, Lluistore y Soniluz. Estas últimas ayudan a identificar servicios y preguntas, sin probar demanda de marketing o posiciones en Google.
+- Pasan los cuatro verificadores. El SEO general revisa las 121 URL del sitemap de esta rama; los verificadores heredados conservan su alcance particular.
+- Un H1 por página, metadatos únicos, jerarquía y enlaces válidos y correspondencia de contenido visible, cuarenta respuestas y datos estructurados. Growth mantiene 297 €/mes con web, bot y todo Starter incluido.
+- Treinta recursos HTML, SVG y texto devuelven HTTP 200 en local y coinciden con sus archivos; descargables en UTF-8 con BOM.
+- Se preservan 275 archivos anteriores y compartidos, con finales de línea normalizados. No se cambia CSS, portada, servicio, planes, logo o favicon.
+- Las diez páginas tienen evidencia de escritorio de 1280 px y móvil real de 390 px. Se repiten las cinco primeras porque su evidencia previa precedía la ampliación del CSS y fotografía contiene el ejemplo revisado. Para las otras cinco se verifica la identidad de sus 15 recursos y del CSS con el commit de la evidencia anterior, sin atribuir esa captura a hoy. El archivo anterior no registra fecha de captura.
+- Sin desbordamiento, imágenes cargadas y botones de al menos 48 px. Veinte saltos a ejemplos, dos preguntas desplegadas por página y las diez ofertas comprobadas. Se comprueba también la nueva ilustración en móvil.
+- El índice contiene cien sectoriales. El lote se distribuye entre creación y eventos, escuelas y clubes y servicios para empresas. Se comprueba cada grupo con su inventario completo y se navega desde ellos a fotografía, danza y coworking. No se fuerza todo el lote a una sola categoría.
+- Navegación móvil desde organizadores a salones de bodas y desde coworking a organizadores, manteniendo la diferencia entre recinto, coordinación y uso de un espacio.
 
-No se adoptan clientes, cifras, métodos exclusivos, equipo, servicios, plazos o promesas de los proveedores consultados. Un texto alternativo de la página de fotografía menciona nutricionistas; no se utiliza como evidencia y la copia propia se revisa para evitar ese tipo de arrastre. No se han verificado volúmenes, dificultad o ranking.
+Evidencias del workspace: outputs/seo-sector-expansion-20261110/qa-final-batch/final-review.json, code-checks.json, browser-metrics.json, browser-evidence-lineage.json y capturas.
 
-Los cinco últimos expedientes incluyen Monolits para danza, el artículo de Trainingym de enero de 2023 para artes marciales, Revenía para pádel, Roger Llorens para tatuajes y Community First para coworking. No se traslada su experiencia, resultados, herramientas, cobertura presencial o servicios al plan de Dania360. La segunda lectura del 3 de noviembre confirmó las cuatro últimas fuentes; Monolits dio un error de espera, que se conserva como límite de esa recomprobación sin borrar la lectura previa registrada. El artículo de 2023 no demuestra tendencias actuales y la oferta de coworking contiene respuestas genéricas que tampoco prueban resultados sectoriales.
-
-## Arquitectura
-
-Organizadores, fotógrafos, productoras, alquiler, sonido y tatuajes aparecen en Creación y servicios para eventos. Danza, artes marciales y pádel forman Escuelas y clubes. Coworking se incorpora a Servicios para empresas. El índice es accesible desde portada y servicio general y enlaza las diez.
-
-Las páginas enlazan servicio y precios. Los enlaces organizador a salón de bodas, alquiler a tienda de muebles, servicio técnico a tienda de iluminación, danza a academias, artes marciales a gimnasios, pádel a tiendas deportivas y coworking a organización de eventos distinguen necesidades próximas. No se crea otra página para la misma consulta.
-
-## Validación de los dos subconjuntos
-
-- Cuatro verificadores superados en cada entrega: generador sectorial, SEO general, SEO sectorial y prestaciones. El SEO general cubre ahora las 121 URL de sitemap; los verificadores heredados de sectores y prestaciones mantienen su alcance específico anterior. El generador revisa las 90 páginas de ampliación. La rama reúne 100 fichas sectoriales y once grupos. Ochenta páginas generadas proceden de la base y diez de esta PR; son cifras del borrador.
-- Las diez se revisaron en escritorio de 1280 píxeles y móvil con ancho real de 390. Sin desbordamiento, imágenes cargadas y botones de al menos 48 píxeles.
-- Veinte saltos a ejemplos en total; dos preguntas desplegables y oferta Growth comprobadas en cada página.
-- Navegación móvil desde el índice a organizadores y danza y por los siete enlaces contextuales, con URL y H1 de destino registrados. El enlace de texto partido de pádel necesitó comprobar el foco antes de activarlo con teclado; el destino final quedó verificado.
-- Treinta recursos locales HTML, SVG y texto devuelven HTTP 200 y coinciden con los archivos. Fichas UTF-8 con BOM.
-- El primer subconjunto conservó 242 archivos anteriores respecto a la base de la PR; el segundo conserva 257 respecto al commit intermedio 6844ad63ad06aa3dd680e798b3660edb4bdd8fa1. Se permiten solo finales de línea y versión del CSS en HTML generado. El CSS previo es prefijo íntegro y los estilos nuevos solo afectan a los diseños añadidos.
-- JSON-LD contrastado con propiedades requeridas y contenido visible. No se añaden reseñas, valoraciones, eventos, entidades locales o vídeos inexistentes.
-
-Evidencias: outputs/seo-sector-expansion-20261110/qa-primeros-cinco y qa-restantes-cinco, con integration-verification.json, code-checks.json, browser-metrics.json y capturas. Algunas capturas rápidas del navegador integrado muestran pintura parcial del encabezado o del primer carácter de un texto; se conservaron vistas completas y no se alteró el CSS compartido para compensarlo. El salto de organización se volvió a verificar sobre una página estable y su captura final muestra el ejemplo.
-
-## Estado
-
-Las diez están redactadas, integradas y comprobadas por subconjuntos. No quedan cuerpos, ejemplos o ilustraciones por crear. Falta la revisión editorial final de las diez como conjunto prevista a partir del 10 de noviembre. No se cuenta este estado como lote listo ni como publicación.
-
-La rama se apoya en la PR #122, todavía en borrador, y sus antecedentes. No existe aprobación de producción para este lote. No fusionar, desplegar o solicitar indexación automáticamente. Las pruebas no acreditan indexación, ranking, resultados enriquecidos, tráfico o recepción de Analytics. No se han enviado correos ni conseguido enlaces externos con esta entrega.
+La PR depende de la anterior y requiere aprobación específica antes de fusionar o publicar. Las pruebas locales no acreditan indexación, ranking, resultados enriquecidos, CWV, tráfico o recepción de Analytics. No se enviaron correos ni se consiguieron enlaces externos con el lote.
