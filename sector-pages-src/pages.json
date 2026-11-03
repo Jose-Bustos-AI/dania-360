@@ -6293,5 +6293,928 @@
       "Un rótulo se presenta mejor cuando sabemos qué mensaje debe comunicar y dónde se quiere utilizar. Este dibujo es una muestra de composición, no una instalación realizada. Si tu negocio quiere consultar un trabajo de rotulación, explica el tipo de aplicación y el espacio de forma general. Nuestro equipo revisará contigo la información, el material y el alcance que puede ofrecer. Las medidas, el montaje, los permisos que correspondan y las condiciones se confirman para cada trabajo; no se dan por incluidos desde una publicación.",
       ""
     ]
+  },
+  {
+    "id": 81,
+    "slug": "floristerias",
+    "title": "Gestión de redes sociales para floristerías | Dania360",
+    "description": "Muestra el estilo de tu floristería y orienta consultas de regalos y eventos. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La composición se ve; el encargo se conversa",
+    "promise": "Presenta tu estilo floral y facilita una consulta con tu equipo.",
+    "lead": "Preparamos contenido para explicar las composiciones y los servicios de tu floristería. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Ramo conceptual con flores y envoltura geométricas que relaciona forma, detalle y consulta",
+    "artCaption": "Ilustración editorial original. No representa un ramo disponible, un pedido o un evento real.",
+    "resourceTitle": "Una composición floral y dos motivos de consulta",
+    "faq": [
+      [
+        "¿Podéis mostrar una composición anterior sin anunciar que está disponible?",
+        "Sí. Se identifica como muestra del estilo o de un trabajo autorizado y se aclara cómo consultar otras opciones. El florista confirma qué materiales y composiciones puede ofrecer en ese momento."
+      ],
+      [
+        "¿La atención de redes confirma pedidos, entregas o fechas de eventos?",
+        "La atención inicial orienta la consulta con los canales acordados. La floristería confirma disponibilidad, presupuesto, recogida o entrega y fecha. El bot de la web no se presenta como un sistema de pedidos conectado."
+      ],
+      [
+        "¿Qué material necesitáis para preparar el contenido floral?",
+        "Servicios, información del negocio y fotografías, vídeos o explicaciones que puedas aportar y publicar. Podemos utilizar un ejemplo conceptual identificado para explicar un enfoque. Las grabaciones presenciales no figuran en la cuota de Growth."
+      ],
+      [
+        "¿Qué incluye Growth para floristerías por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Floristerías",
+    "h1": "Gestión de redes sociales para floristerías",
+    "layout": "floristerias",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para floristerías",
+        "community manager floristerías",
+        "redes sociales floristería",
+        "marketing floristerías"
+      ],
+      "intent": "Florista que quiere mostrar su estilo y orientar peticiones de composiciones sin anunciar disponibilidad o entrega no confirmadas.",
+      "distinctFrom": "Tres vistas de una composición conceptual, una publicación y dos respuestas distintas para un regalo y un evento. La página general de comercios trata el escaparate local; esta explica el estilo floral y cómo se estudia un encargo. No sustituye la página de organización de bodas.",
+      "sources": [
+        {
+          "url": "https://floristas-por-el-mundo.com/servicios",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta específica que conecta imágenes de arreglos con consulta por WhatsApp. Su publicidad, catálogo, plazos, permanencia y casos de El Salvador no se adoptan ni se usan como medición de demanda en España.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Tres vistas, publicación y respuestas completas para diferenciar un regalo y una propuesta de evento.",
+      "linkLabel": "Descargar el ejemplo editorial para floristerías",
+      "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Una publicación y dos respuestas propias",
+      "",
+      "Mostrar una composición y abrir la consulta adecuada",
+      "",
+      "Demostración editorial con un ramo conceptual. No representa un producto disponible, un encargo o un evento de un cliente. El ejemplo se adapta al trabajo real del florista.",
+      "",
+      "La forma",
+      "",
+      "Una vista general muestra la silueta de la composición sin atribuirle medidas o materiales.",
+      "",
+      "El detalle",
+      "",
+      "Un acercamiento permite explicar una relación de color o textura que el profesional pueda confirmar.",
+      "",
+      "La presentación",
+      "",
+      "El cierre conecta esa muestra con el tipo de encargo y el canal para consultar.",
+      "",
+      "Texto para acompañar las tres vistas",
+      "",
+      "La forma de un ramo también cuenta cómo trabajamos. En esta composición conceptual, la vista general presenta la silueta y el detalle invita a observar la relación entre sus elementos. Es una muestra de estilo, no una referencia que pueda encargarse sin confirmar sus condiciones. Si buscas un regalo o quieres consultar flores para una ocasión, escribe a nuestro equipo y cuéntanos qué estás preparando. Te explicaremos qué opciones podemos estudiar, el material disponible y cómo continuar la propuesta.",
+      "",
+      "Si la consulta es un regalo",
+      "",
+      "Gracias por escribir. Cuéntanos de forma general qué ocasión estás preparando y qué tipo de composición te interesa. El equipo confirmará las opciones y cómo se puede organizar el encargo. La disponibilidad del material, el precio y las condiciones de recogida o entrega se revisan con la floristería antes de cerrar la petición.",
+      "",
+      "Si la consulta es un evento",
+      "",
+      "Para estudiar una propuesta floral, continúa por el contacto del perfil y sitúa el tipo de evento, su fecha y el ámbito general del espacio. Nuestro equipo te indicará qué necesita conocer para preparar la conversación. La propuesta y la disponibilidad se confirman después de revisar el encargo; este mensaje no reserva una fecha.",
+      ""
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "joyerias-relojerias",
+    "title": "Redes sociales para joyerías y relojerías | Dania360",
+    "description": "Presenta piezas y referencias de tu joyería o relojería con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "El detalle merece una explicación de tu tienda",
+    "promise": "Haz reconocible cada pieza y facilita la conversación con tu equipo.",
+    "lead": "Gestionamos contenido para presentar las piezas, las colecciones y la atención de tu joyería o relojería. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos piezas conceptuales sin marca, un aro y un reloj, con detalles gráficos que no acreditan materiales o mecanismos",
+    "artCaption": "Composición original sin marcas ni referencias comerciales. No representa piezas disponibles o de clientes.",
+    "resourceTitle": "Dos publicaciones para una joya y un reloj",
+    "faq": [
+      [
+        "¿Quién confirma materiales, mecanismos o características de una pieza?",
+        "El equipo de la tienda valida la referencia y los datos que se comunican. No se deducen certificados, materiales, procedencia o propiedades a partir de una imagen ni se presentan como comprobados por Dania360."
+      ],
+      [
+        "¿Podéis comunicar ajustes, reparación u otros servicios de nuestra tienda?",
+        "Sí, cuando el negocio confirme que los presta y su alcance. No se añaden por pertenecer al sector. La valoración de una pieza y las condiciones del servicio corresponden al profesional de la tienda."
+      ],
+      [
+        "¿El bot puede tasar o autenticar una pieza?",
+        "No se le atribuyen esas funciones. Se configura con información del negocio para orientar el contacto. La valoración, la autenticidad, las existencias y cualquier encargo se revisan con el equipo de la tienda."
+      ],
+      [
+        "¿Qué incluye Growth para joyerías y relojerías por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Joyerías y relojerías",
+    "h1": "Gestión de redes sociales para joyerías y relojerías",
+    "layout": "joyerias-relojerias",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para joyerías y relojerías",
+        "redes sociales joyerías",
+        "community manager relojerías",
+        "marketing joyerías"
+      ],
+      "intent": "Comercio que necesita presentar piezas y colecciones con detalle y facilitar la consulta con su equipo.",
+      "distinctFrom": "Dos publicaciones completas: lectura visual de una pieza de joyería y presentación de una referencia de reloj, con características por confirmar. Se comunica venta y atención de producto; no inversión en metales, autenticación ni reparación atribuida por pertenecer al sector.",
+      "sources": [
+        {
+          "url": "https://www.alioze.com/es/agencia-comunicacion-relojes",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Agencia que describe comunicación, colecciones y redes para relojería. Sus contactos de prensa, clientes de lujo, prestaciones, campañas y desarrollos ecommerce no se atribuyen a Dania360.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://www.925lab.com/producto/gestion-integral-redes-sociales-joyeria/",
+          "access": "indexed_offer_direct_fetch_timeout",
+          "observation": "Resultado indexado específico de redes para joyería; la lectura directa agotó el tiempo. No se considera una página completa leída.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos que diferencian forma y acabado de una pieza y consulta de una referencia de reloj.",
+      "linkLabel": "Descargar las dos publicaciones de joyería y relojería",
+      "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Dos propuestas editoriales originales",
+      "",
+      "Una pieza de joyería y un reloj, contados con su propio enfoque",
+      "",
+      "Las composiciones son conceptuales y no llevan marca. No representan artículos disponibles ni acreditan materiales, autenticidad o propiedades de un producto real.",
+      "",
+      "01 · Joyería",
+      "",
+      "La forma y el acabado como punto de partida",
+      "",
+      "Una pieza se conoce mejor cuando podemos observar su forma y cómo se presenta el acabado. En esta muestra conceptual, una vista general sitúa la composición y un detalle permite detenerse en su diseño. Cuando enseñamos una referencia de la tienda, el equipo confirma la información que la acompaña y las opciones que se pueden consultar. Si te interesa una pieza, contacta por el canal del perfil e indica la publicación. Te explicaremos sus características, disponibilidad y condiciones antes de decidir un encargo o una compra.",
+      "",
+      "02 · Relojería",
+      "",
+      "Reconocer la referencia antes de comparar opciones",
+      "",
+      "Para conocer un reloj conviene saber qué referencia se está mostrando y qué información puede explicar la tienda. Una vista completa presenta su diseño; los acercamientos ayudan a observar los detalles que el equipo haya confirmado. Esta ilustración no corresponde a una marca o un modelo comercial. Si quieres consultar una referencia de nuestro catálogo, indica la pieza por el canal de contacto. Nuestro equipo revisará contigo sus características y las opciones disponibles. Los servicios adicionales, los ajustes y cualquier condición se confirman según la oferta real del establecimiento.",
+      ""
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "tiendas-muebles",
+    "title": "Redes sociales para tiendas de muebles | Dania360",
+    "description": "Presenta modelos de tu tienda de muebles y facilita consultas sobre sus opciones. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Un modelo, un detalle y una consulta con tu tienda",
+    "promise": "Que la imagen de ambiente permita reconocer qué mueble vendes.",
+    "lead": "Preparamos contenido para mostrar los muebles de tu tienda y explicar cómo consultar una referencia. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Mueble geométrico conceptual con una vista de conjunto y un detalle ampliado sin dimensiones o marcas",
+    "artCaption": "Dibujo editorial original. No es un modelo comercial, un encargo de fabricación o una estancia de un cliente.",
+    "resourceTitle": "Guion de 15 segundos para un mueble de exposición",
+    "faq": [
+      [
+        "¿Quién confirma medidas, acabados y disponibilidad de los muebles?",
+        "Tu tienda valida el modelo y sus opciones antes de publicarlos o preparar una propuesta. No se anuncian transporte, montaje, personalización o plazos sin confirmar que forman parte de la oferta."
+      ],
+      [
+        "¿El guion es un vídeo ya producido o incluye grabación en la exposición?",
+        "Es un guion editorial editable, no un vídeo producido. Revisamos material autorizado que pueda aportar la tienda. Las grabaciones presenciales no figuran en la cuota oficial de Growth."
+      ],
+      [
+        "¿El bot funciona como configurador de muebles o inventario conectado?",
+        "No se presupone esa integración. El bot informa sobre el negocio y orienta al contacto. La tienda confirma el producto, las opciones y la compra. La fabricación a medida necesita una explicación diferente de la venta de mobiliario."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas de muebles por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas de muebles",
+    "h1": "Gestión de redes sociales para tiendas de muebles",
+    "layout": "tiendas-muebles",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas de muebles",
+        "community manager tiendas muebles",
+        "redes sociales mobiliario",
+        "marketing tiendas muebles"
+      ],
+      "intent": "Tienda de mobiliario que quiere explicar referencias de su exposición y orientar la visita o la consulta sobre un modelo.",
+      "distinctFrom": "Guion de 15 segundos sobre vista general, detalle y consulta de un mueble, con publicación completa y preguntas sobre medidas y condiciones. Se presenta mobiliario que comercializa la tienda; la página de carpintería comunica fabricación y la de interiorismo un servicio de diseño.",
+      "sources": [
+        {
+          "url": "https://www.arimetrics.com/sectores/agencia-marketing-muebles",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta que diferencia tiendas y fabricantes y relaciona catálogo, medidas y seguimiento comercial. No se adoptan sus casos, analítica, publicidad, promesas de posicionamiento o servicios de producción.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Tres tomas y publicación completas para presentar una pieza, un detalle y su consulta con la tienda.",
+      "linkLabel": "Descargar el guion para tiendas de muebles",
+      "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Guion editorial original de 15 segundos",
+      "",
+      "Una pieza corta para presentar un mueble de exposición",
+      "",
+      "Ejemplo para adaptar con material autorizado de la tienda. El dibujo es conceptual y el guion no es un vídeo producido ni presenta una referencia comercial disponible.",
+      "",
+      "0–4 s",
+      "",
+      "Situar la pieza",
+      "",
+      "Una vista general muestra el mueble dentro de un ambiente sencillo. Texto en pantalla: Conoce la pieza antes de elegir el acabado. Se identifica el producto real cuando el equipo confirma su referencia.",
+      "",
+      "4–10 s",
+      "",
+      "Detenerse en un detalle",
+      "",
+      "Un acercamiento presenta una parte que ayude a comprender el modelo. Texto en pantalla: El detalle también merece una explicación. No se deducen materiales, funciones o medidas a partir del aspecto de la imagen.",
+      "",
+      "10–15 s",
+      "",
+      "Invitar a consultar con la tienda",
+      "",
+      "El cierre recupera la vista general y el contacto. Texto en pantalla: Pregunta por esta referencia. La tienda confirma qué información puede facilitar y si la consulta continúa con una visita o una propuesta.",
+      "",
+      "Publicación para acompañar el vídeo",
+      "",
+      "Un mueble se entiende mejor cuando podemos verlo en conjunto y observar un detalle. En esta demostración conceptual presentamos ese recorrido: primero la pieza, después una parte de su diseño y finalmente la consulta con la tienda. Para una referencia de nuestro catálogo, el equipo te explicará las medidas, los acabados y las opciones que puede ofrecer. Si quieres informarte, indica la publicación y cuéntanos qué estás buscando. La disponibilidad y las condiciones de la propuesta se confirman antes de acordar la compra.",
+      ""
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "decoracion-iluminacion",
+    "title": "Redes sociales para decoración e iluminación | Dania360",
+    "description": "Da contexto a los productos de tu tienda de decoración e iluminación. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Inspiración con una referencia que se pueda consultar",
+    "promise": "Une el ambiente de la imagen con el producto que ofrece tu tienda.",
+    "lead": "Preparamos contenido para presentar objetos decorativos y luminarias con información confirmada por tu tienda. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "artAlt": "Dos escenas conceptuales muestran un objeto decorativo y una luminaria sin marcas ni datos de instalación",
+    "artCaption": "Ilustración editorial propia. No representa productos disponibles, una estancia realizada o un proyecto de iluminación.",
+    "resourceTitle": "Dos publicaciones para decoración e iluminación",
+    "faq": [
+      [
+        "¿Cómo diferenciáis una composición de inspiración y un producto real?",
+        "La pieza indica qué está mostrando y la tienda confirma la referencia y sus datos. Una muestra conceptual o una imagen de ambiente no se anuncia como producto disponible ni como proyecto ejecutado."
+      ],
+      [
+        "¿Quién revisa datos técnicos o de instalación de las luminarias?",
+        "La tienda y el profesional correspondiente validan la información. Dania360 prepara el contenido, sin atribuir al producto prestaciones o efectos no justificados ni prestar un servicio de instalación eléctrica."
+      ],
+      [
+        "¿Podéis trabajar con imágenes de fabricantes?",
+        "Se revisa que la tienda tenga permiso para ese uso y se conserva la atribución que corresponda. También podemos preparar contenido con material propio autorizado o demostraciones claramente identificadas."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas de decoración e iluminación por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas de decoración e iluminación",
+    "h1": "Gestión de redes sociales para tiendas de decoración e iluminación",
+    "layout": "decoracion-iluminacion",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas de decoración e iluminación",
+        "redes sociales tiendas iluminación",
+        "community manager decoración",
+        "marketing tiendas decoración"
+      ],
+      "intent": "Comercio que quiere presentar objetos y luminarias en un contexto reconocible y explicar cómo consultar sus características.",
+      "distinctFrom": "Dos textos sobre una composición decorativa y una luminaria, distinguiendo intención visual, referencia y condiciones de consulta. La tienda vende productos; no se atribuye un proyecto de interiorismo, instalación eléctrica o asesoramiento técnico a la agencia.",
+      "sources": [
+        {
+          "url": "https://pentamium.es/como-las-tiendas-de-iluminacion-pueden-transformar-sus-ventas-con-una-estrategia-digital-sencilla-pero-efectiva/",
+          "access": "primary_provider_editorial_direct_read",
+          "observation": "Artículo del proveedor que relaciona producto visible, contexto y continuidad de la consulta. No se adoptan sus predicciones de ventas, afirmaciones de rendimiento o servicios ajenos al alcance oficial.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para relacionar un objeto y una luminaria con su contexto y la consulta de producto.",
+      "linkLabel": "Descargar los ejemplos de decoración e iluminación",
+      "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Dos publicaciones para adaptar",
+      "",
+      "Presentar un objeto decorativo y una luminaria sin confundir inspiración y ficha de producto",
+      "",
+      "Estas escenas son muestras conceptuales originales sin marcas. No representan una estancia de cliente, artículos disponibles ni una propuesta técnica de iluminación.",
+      "",
+      "Objeto y composición",
+      "",
+      "Una pieza dentro del conjunto",
+      "",
+      "Una composición decorativa permite observar cómo se relacionan formas, colores y espacios. En esta muestra conceptual, el objeto principal tiene sitio para verse sin competir con todos los elementos del ambiente. Cuando presentamos una pieza de la tienda, identificamos su referencia y el detalle que queremos explicar. Si te interesa un objeto de una publicación, contacta con el equipo e indica cuál estás consultando. Te facilitaremos la información del producto y las opciones disponibles, y te explicaremos cómo continuar con la tienda.",
+      "",
+      "Luminaria y contexto",
+      "",
+      "Del ambiente a una consulta concreta",
+      "",
+      "Una imagen de una lámpara en una estancia ayuda a situar su diseño, pero no responde por sí sola a todas las preguntas sobre el producto. Este dibujo es una demostración editorial. Al mostrar una referencia real, nuestro equipo confirma los datos que la acompañan y lo que puedes consultar. Si estás valorando una luminaria, explica qué pieza te interesa y el espacio donde la estás planteando. La tienda revisará contigo sus características y condiciones; las cuestiones técnicas o de instalación se confirman con el profesional correspondiente.",
+      ""
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "librerias",
+    "title": "Gestión de redes sociales para librerías | Dania360",
+    "description": "Haz visible el criterio y la actividad de tu librería con contenido propio. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "La voz de tu librería, también antes de la visita",
+    "promise": "Convierte la selección de tu equipo en una conversación con lectores.",
+    "lead": "Gestionamos contenido para presentar tu librería, su selección y las actividades que confirmes. Growth incluye redes sociales, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Libros conceptuales sin títulos y una tarjeta editorial diferencian conversación lectora y programación",
+    "artCaption": "Composición gráfica original. No reproduce portadas, obras, reseñas ni una actividad anunciada.",
+    "resourceTitle": "Dos publicaciones para lectores y programación",
+    "faq": [
+      [
+        "¿Podéis comunicar nuestra selección sin copiar reseñas o fragmentos?",
+        "Sí. Partimos del criterio y la información que confirme el equipo y redactamos una explicación propia. Los títulos, ediciones e imágenes se revisan antes de publicar; no se inventan obras ni valoraciones de lectores."
+      ],
+      [
+        "¿Cómo preparáis el contenido de presentaciones y encuentros?",
+        "Solo a partir de una convocatoria confirmada por la librería. Se revisan participantes, fecha, formato, condiciones y vigencia antes de invitar a asistir. Un ejemplo editorial no se publica como una actividad real."
+      ],
+      [
+        "¿El bot confirma ejemplares o reservas?",
+        "El bot orienta con información configurada del negocio y del contacto. Las existencias, los encargos y las reservas los confirma la librería. Growth no presupone una conexión con un catálogo o sistema de venta de libros."
+      ],
+      [
+        "¿Qué incluye Growth para librerías por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Librerías",
+    "h1": "Gestión de redes sociales para librerías",
+    "layout": "librerias",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para librerías",
+        "community manager librerías",
+        "redes sociales librerías",
+        "marketing librerías"
+      ],
+      "intent": "Librería que quiere mostrar su criterio de selección y orientar preguntas de lectores además de presentar actividades confirmadas.",
+      "distinctFrom": "Un comentario original sobre La vuelta al mundo en ochenta días, con autor y título contrastados, y otra pieza para consultar programación confirmada. No se anuncia stock, una reseña de un cliente o un evento ficticio. La propuesta comunica una librería, no un servicio de edición o publicación de libros.",
+      "sources": [
+        {
+          "url": "https://www.seonetdigital.com/es/blog/marketing-para-librerias",
+          "access": "primary_provider_editorial_direct_read",
+          "observation": "Guía de un proveedor internacional que distingue comunidad lectora, presencia física y venta online. No se incorporan sus estadísticas, citas, promesas de viralidad o referencias de mercado como datos verificados de España.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://www.comunicare.es/marketing-para-librerias/",
+          "access": "indexed_offer_direct_fetch_forbidden",
+          "observation": "El resultado indexado presenta marketing para librerías. La apertura fue rechazada con 403; se conserva ese límite y no se cuenta como lectura completa. En la revisión final la apertura directa volvió a responder 403; se conserva como parcial.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-03",
+              "access": "indexed_offer_direct_fetch_forbidden"
+            }
+          ]
+        },
+        {
+          "url": "https://cervantesvirtual.com/obra/la-vuelta-al-mundo-en-ochenta-dias-1226313/",
+          "access": "primary_library_bibliographic_record_direct_read",
+          "observation": "Registro primario que confirma título y autor y documenta una edición digital basada en la de 1885. Se utiliza como referencia bibliográfica, sin atribuir esa edición a existencias de una tienda.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://www.akal.com/libro/la-vuelta-al-mundo-en-ochenta-dias_34067/",
+          "access": "primary_publisher_catalogue_direct_read",
+          "observation": "Catálogo del editor para contrastar el argumento de la apuesta y el recorrido temporal. El comentario es original; no se copia la sinopsis ni se adoptan sus cifras, precio, disponibilidad o condiciones.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null,
+      "editorialRevision": "La recomendación genérica se convierte en un comentario concreto, escrito de nuevo sobre una obra real documentada, con referencia bibliográfica visible. No se reproducen fragmentos, reseñas ajenas o portadas ni se atribuyen existencias."
+    },
+    "resourcePresentation": {
+      "description": "Un comentario original de una obra real y un texto de programación, para adaptar al criterio y la actividad de la librería.",
+      "linkLabel": "Descargar las dos publicaciones para librerías",
+      "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Dos textos editoriales originales",
+      "",
+      "Una conversación para elegir lectura y otra para conocer la programación",
+      "",
+      "Ejemplos para adaptar a la actividad real de la librería. La primera pieza comenta una obra real; la segunda explica cómo consultar una programación confirmada. Los dibujos son conceptuales y no anuncian existencias o un encuentro.",
+      "",
+      "El criterio del librero",
+      "",
+      "Un viaje contra el reloj como conversación de lectura",
+      "",
+      "Si te apetecen los viajes con un reto que empuja la historia, La vuelta al mundo en ochenta días, de Julio Verne, puede abrir la conversación. Phileas Fogg convierte una apuesta en un itinerario contra el reloj. La tensión está en continuar el recorrido a pesar de los imprevistos; ese contraste entre plan y aventura da un motivo concreto para acercarse al libro. Antes de elegir una edición, pregunta por el idioma, la traducción y si ofrece el texto completo o una adaptación. Nuestro equipo puede revisar contigo qué opciones tiene la librería. Este comentario es una muestra editorial, no un anuncio de ejemplares disponibles.",
+      "",
+      "Referencia bibliográfica de la obra: Biblioteca Virtual Miguel de Cervantes. https://cervantesvirtual.com/obra/la-vuelta-al-mundo-en-ochenta-dias-1226313/",
+      "",
+      "La actividad de la librería",
+      "",
+      "Consultar una programación confirmada",
+      "",
+      "Si nuestra librería publica una nueva actividad, encontrarás el tema, a quién se dirige y cómo consultar sus condiciones. Antes de organizar tu visita, confirma con el equipo la convocatoria vigente, la fecha, el formato y la disponibilidad. El aviso informa sobre una actividad concreta; no convierte cualquier fecha en una reserva. Cuando una publicación anterior ya no corresponda a la programación actual, utiliza el contacto de la librería para conocer qué está previsto y cómo puedes informarte.",
+      ""
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "jugueterias",
+    "title": "Gestión de redes sociales para jugueterías | Dania360",
+    "description": "Explica productos de tu juguetería y atiende las consultas de compradores adultos. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La caja despierta interés; la información ayuda a elegir",
+    "promise": "Presenta cada referencia con información que tu equipo pueda explicar.",
+    "lead": "Preparamos contenido para mostrar los juguetes y la atención de tu tienda a compradores adultos. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "artAlt": "Caja conceptual abierta con piezas geométricas sin marca, sin indicaciones de edad o características comerciales",
+    "artCaption": "Ilustración original para explicar un enfoque editorial. No representa un juguete a la venta ni una recomendación de edad.",
+    "resourceTitle": "Una caja, su contenido y la conversación con el comprador",
+    "faq": [
+      [
+        "¿El contenido se dirige a menores?",
+        "Esta propuesta presenta la oferta de la tienda a compradores adultos. No pide a menores datos o imágenes para continuar una consulta y no atribuye a una muestra conceptual una recomendación de compra."
+      ],
+      [
+        "¿Quién confirma edades, advertencias y características de un juguete?",
+        "La tienda revisa la referencia y la información correspondiente del fabricante. No se deducen edades, seguridad o beneficios de aprendizaje por el aspecto de una imagen. Se confirma también qué incluye cada versión."
+      ],
+      [
+        "¿Podéis utilizar demostraciones de productos?",
+        "Sí, con material autorizado y datos revisados por la tienda. La publicación distingue la referencia real de una muestra conceptual. La cuota de Growth no incluye grabaciones presenciales ni un sistema de pedidos conectado."
+      ],
+      [
+        "¿Qué incluye Growth para jugueterías por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Jugueterías",
+    "h1": "Gestión de redes sociales para jugueterías",
+    "layout": "jugueterias",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para jugueterías",
+        "community manager jugueterías",
+        "redes sociales tiendas juguetes",
+        "marketing jugueterías"
+      ],
+      "intent": "Tienda de juguetes que necesita explicar productos a compradores adultos con información del fabricante confirmada.",
+      "distinctFrom": "Demostración editorial de qué muestra una caja, qué incluye y qué debe consultar el adulto antes de comprar. Frente a librerías o ropa, el contenido trata producto de juguetería y compra adulta. No se inventan edades, seguridad o beneficios del desarrollo.",
+      "sources": [
+        {
+          "url": "https://babycare.agency/es/servicios/social-media/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta de redes dirigida a marcas infantiles, juguetes y familias. No acredita una demanda cuantificada de minoristas ni incluye sus campañas B2B, LinkedIn, casos o plataformas en Growth.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Secuencia, publicación y respuesta completas para presentar una referencia de juguetería con información confirmada.",
+      "linkLabel": "Descargar el ejemplo de publicación para jugueterías",
+      "documentSubtitle": "Demostración editorial original para adaptar a información confirmada del negocio. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Una muestra editorial original",
+      "",
+      "De la imagen de la caja a una pregunta que tu equipo puede responder",
+      "",
+      "Esta demostración utiliza piezas geométricas sin marca. No representa un juguete comercial, una recomendación de edad o una prueba de uso. Sirve para mostrar cómo se puede ordenar la información antes de publicar una referencia real.",
+      "",
+      "Reconocer la caja",
+      "",
+      "La primera imagen identifica el producto que la tienda ha confirmado y permite distinguirlo de otras versiones. La referencia escrita acompaña al material autorizado.",
+      "",
+      "Entender el contenido",
+      "",
+      "La siguiente vista muestra únicamente lo que se haya comprobado que incluye esa caja. Los accesorios vendidos aparte se explican por separado; la composición visual no sustituye a las indicaciones del fabricante.",
+      "",
+      "Continuar con un adulto",
+      "",
+      "El cierre invita a consultar al equipo sobre esa referencia. Las condiciones del producto, su disponibilidad y la compra se confirman con la tienda.",
+      "",
+      "Texto para acompañar la publicación",
+      "",
+      "Antes de elegir una caja, merece la pena saber qué contiene. En esta demostración editorial mostramos un conjunto imaginado para explicar cómo presentar una referencia: una vista general, su contenido confirmado y el contacto de la tienda. Cuando publiquemos un producto real, podrás identificarlo y consultar la información que facilita su fabricante. Si estás valorando una opción, escribe a nuestro equipo e indica la publicación. Te explicaremos qué datos podemos revisar contigo y cómo continuar la compra. Esta muestra no anuncia existencias ni recomienda un juguete para una edad concreta.",
+      "",
+      "Una respuesta inicial para el comprador",
+      "",
+      "Gracias por consultar. Indícanos qué referencia has visto y qué información necesitas conocer antes de comprar. Nuestro equipo revisará el contenido de la caja y las indicaciones del fabricante que correspondan a ese producto. Las opciones disponibles y las condiciones de la compra se confirman con la juguetería. No hace falta publicar datos o imágenes de menores en el comentario; podemos continuar por el contacto de la tienda con la persona adulta que realiza la consulta.",
+      ""
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "ropa-complementos",
+    "title": "Redes sociales para ropa y complementos | Dania360",
+    "description": "Presenta las prendas de tu tienda y orienta consultas sobre referencias, tallas y colores. Growth incluye redes, página web y bot de IA por 297 €/mes.",
+    "eyebrow": "Del conjunto a la prenda que quieres presentar",
+    "promise": "Que el detalle de la imagen lleve a una consulta sobre tu producto.",
+    "lead": "Gestionamos contenido para presentar prendas y complementos con datos confirmados por tu tienda. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Prenda geométrica en una percha y un recuadro de detalle sin marca, talla o composición de tejido",
+    "artCaption": "Muestra gráfica original sin prendas comerciales o modelos reales. No anuncia una colección disponible.",
+    "resourceTitle": "Secuencia de una prenda y respuesta a una consulta de talla",
+    "faq": [
+      [
+        "¿Cómo se confirman tallas, colores y disponibilidad?",
+        "Tu tienda valida la referencia y las opciones que ofrece. Las publicaciones y respuestas utilizan esa información. Una fotografía del conjunto no confirma que todas las piezas sigan disponibles ni cómo queda una prenda a una persona."
+      ],
+      [
+        "¿Incluye sesiones con modelos, fotografía presencial o colaboraciones?",
+        "No figuran en la cuota de Growth. Revisamos el material autorizado que pueda aportar la tienda y los permisos de las imágenes de proveedores. No se inventan modelos, colaboraciones o colecciones para preparar una publicación."
+      ],
+      [
+        "¿Qué pasa si una prenda de una publicación deja de ofrecerse?",
+        "Acordamos con el negocio qué dato o contenido necesita revisarse. El equipo confirma el cambio y las condiciones que se pueden comunicar. La atención inicial no consulta un inventario conectado por defecto."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas de ropa y complementos por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas de ropa y complementos",
+    "h1": "Gestión de redes sociales para tiendas de ropa y complementos",
+    "layout": "ropa-complementos",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas de ropa y complementos",
+        "community manager tiendas ropa",
+        "redes sociales boutiques",
+        "marketing moda complementos"
+      ],
+      "intent": "Comercio de moda que quiere mostrar una prenda y sus detalles y responder sobre referencias y tallas sin inventar existencias.",
+      "distinctFrom": "Secuencia editorial original de conjunto, detalle y cierre para consultar una prenda, con respuesta sobre talla y disponibilidad. Se presenta el producto de una tienda, no un servicio de estilismo ni un catálogo sincronizado o sesión profesional incluida.",
+      "sources": [
+        {
+          "url": "https://avantys.com/academia/marketing/redes-sociales-tiendas-ropa/",
+          "access": "primary_author_editorial_direct_read",
+          "observation": "Guía visual sobre moda y recorrido de compra. Sus porcentajes, afirmaciones de crecimiento, shopping, influencers y recomendaciones de frecuencia no se adoptan como evidencia o prestaciones propias.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Tres vistas, publicación y respuesta completas para pasar del conjunto a una referencia de ropa o complemento.",
+      "linkLabel": "Descargar la secuencia editorial de moda",
+      "documentSubtitle": "Demostración editorial original para adaptar a información confirmada del negocio. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Una secuencia para adaptar a tu colección",
+      "",
+      "Del conjunto al detalle y de ahí a la consulta sobre una prenda",
+      "",
+      "La ilustración muestra prendas geométricas sin marca. Es una propuesta editorial, no una colección comercial, un conjunto disponible o una recomendación sobre cómo debe vestir una persona.",
+      "",
+      "Vista de conjunto",
+      "",
+      "Reconocer la pieza protagonista",
+      "",
+      "La primera imagen sitúa la prenda dentro de una composición. El texto identifica qué artículo se está presentando y cuáles son elementos de contexto, según la información de la tienda.",
+      "",
+      "Un detalle",
+      "",
+      "Mostrar lo que merece observarse",
+      "",
+      "El acercamiento explica un acabado o una parte del diseño que el equipo haya confirmado. No se deduce composición, calidad o comportamiento de un tejido a partir de su fotografía.",
+      "",
+      "Referencia y contacto",
+      "",
+      "Preguntar por esa prenda",
+      "",
+      "El cierre recupera la referencia y explica cómo consultar tallas o colores con la tienda. Una imagen del conjunto no confirma que todas sus piezas sigan disponibles.",
+      "",
+      "Publicación de la prenda",
+      "",
+      "Un detalle puede cambiar la forma de mirar una prenda. En esta propuesta conceptual empezamos por el conjunto y nos detenemos después en la pieza protagonista. Al presentar artículos reales de nuestra tienda, identificamos su referencia y el detalle que queremos explicar. Si te interesa uno de los modelos de una publicación, indícanos cuál es y qué información necesitas. El equipo revisará contigo las opciones de talla, color y disponibilidad antes de continuar la compra. Las imágenes de esta muestra no corresponden a una colección a la venta.",
+      "",
+      "Respuesta a una consulta de talla",
+      "",
+      "Gracias por escribir. Para localizar el artículo, envíanos la referencia o la publicación que has visto y la talla o el color por el que quieres preguntar. La tienda confirmará qué opciones tiene y qué información de medidas puede facilitar. Una fotografía no permite asegurar cómo queda una prenda a una persona. Si necesitas conocer las condiciones de compra o de cambio, el equipo te indicará las que correspondan al artículo y al canal por el que vayas a comprar.",
+      ""
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "tiendas-deporte",
+    "title": "Gestión de redes sociales para tiendas de deporte | Dania360",
+    "description": "Da contexto al material de tu tienda de deporte y facilita consultas sobre cada referencia. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "La actividad sitúa el producto; tu equipo explica el detalle",
+    "promise": "Presenta el material que vendes con un camino claro hacia tu tienda.",
+    "lead": "Preparamos contenido para mostrar productos y orientar consultas con tu comercio deportivo. Growth reúne gestión de redes sociales, web y bot de IA por 297 €/mes.",
+    "artAlt": "Raqueta y pelota conceptuales junto a tres etiquetas de actividad, referencia y consulta, sin marca o prestaciones",
+    "artCaption": "Composición editorial original. No representa material probado, disponible o recomendado para una persona.",
+    "resourceTitle": "Actividad, referencia y consulta en una publicación deportiva",
+    "faq": [
+      [
+        "¿Es el mismo enfoque que el de gimnasios o clubes?",
+        "No. Aquí se presenta el producto y la atención de una tienda de material deportivo. Las clases, entrenamientos e inscripciones requieren explicar otro servicio y tienen páginas propias cuando corresponde."
+      ],
+      [
+        "¿Probáis el material o garantizáis un resultado deportivo?",
+        "No se atribuye esa función a Dania360. El comercio valida las características que comunica y el material autorizado. Una muestra conceptual no acredita rendimiento, idoneidad para una persona o una recomendación de salud."
+      ],
+      [
+        "¿Podéis trabajar con material de marcas o imágenes de deportistas?",
+        "Se revisan el permiso y el contexto de uso. No se anuncian acuerdos, patrocinios o colaboraciones sin confirmarlos. La cuota de Growth no incorpora grabaciones presenciales o campañas publicitarias por asociación con el sector."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas de deporte por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas de deporte",
+    "h1": "Gestión de redes sociales para tiendas de deporte",
+    "layout": "tiendas-deporte",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas de deporte",
+        "community manager tiendas deporte",
+        "redes sociales material deportivo",
+        "marketing retail deportivo"
+      ],
+      "intent": "Comercio deportivo que quiere mostrar material y sus características confirmadas sin prometer prestaciones físicas.",
+      "distinctFrom": "Una demostración de producto desde disciplina, uso y dato de referencia, diferenciada del servicio de entrenamiento de un gimnasio. Se vende comunicación de productos, no clases, entrenamiento, rehabilitación o asesoramiento clínico.",
+      "sources": [
+        {
+          "url": "https://www.digitalmarketers.es/es-es/",
+          "access": "indexed_provider_offer_direct_fetch_timeout",
+          "observation": "El resultado indexado distingue tiendas de deporte de centros y clubes. La apertura directa agotó el tiempo de lectura. No se presenta como página completa leída ni se infieren volúmenes, casos o servicios.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://www.mariajesusalonso.com/en/base/",
+          "access": "indexed_historical_provider_case_direct_fetch_error",
+          "observation": "Referencia indexada de un caso histórico de retail deportivo. La página devolvió error al abrir; no se atribuye ese cliente, su resultado o su experiencia a Dania360.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://thesportsmarketing.com/redes-sociales-deportivas/",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "La oferta separa las tiendas de material de clubes, gimnasios, federaciones y marcas. Para retail sitúa el producto y la consulta hacia la tienda. No se adoptan sus casos, precios, frecuencias, canales adicionales, patrocinios, producción presencial, comercio electrónico o promesas. El ejemplo de Dania360 será propio y no atribuirá prestaciones físicas al producto.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Ficha de enfoque, publicación y primera respuesta completas para presentar material deportivo con datos del comercio.",
+      "linkLabel": "Descargar el ejemplo editorial de material deportivo",
+      "documentSubtitle": "Demostración editorial original para adaptar a información confirmada del negocio. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Una demostración editorial propia",
+      "",
+      "Dar contexto a una referencia antes de pedir que la comparen",
+      "",
+      "El dibujo utiliza una raqueta y una pelota sin marca ni especificaciones. No representa material disponible o probado. El ejemplo muestra qué información puede ordenar la tienda antes de publicar un producto real.",
+      "",
+      "Situar la pieza",
+      "",
+      "Actividad",
+      "",
+      "La disciplina con la que la tienda relaciona el artículo, sin anunciar una competición, un deportista o una colaboración inexistentes.",
+      "",
+      "Referencia",
+      "",
+      "El modelo confirmado y el detalle que merece una explicación. Las características proceden de los datos del producto revisados por el comercio.",
+      "",
+      "Consulta",
+      "",
+      "La pregunta que puede continuar con el equipo: qué opción está mirando la persona y qué necesita conocer antes de comprar.",
+      "",
+      "Texto de la publicación",
+      "",
+      "Conocer el material empieza por saber qué estamos viendo. En esta muestra conceptual presentamos una pieza y una forma de ordenar su información: la actividad, la referencia y el detalle que el equipo puede explicar. Cuando enseñamos un producto real, sus características acompañan a la imagen y se revisan con la tienda. Si quieres comparar opciones, indica la publicación y cuéntanos qué dato necesitas conocer. Nuestro equipo te orientará sobre la información disponible y cómo continuar la consulta. Esta ilustración no anuncia prestaciones, resultados deportivos o existencias.",
+      "",
+      "Primera respuesta sobre el producto",
+      "",
+      "Gracias por consultar. Dinos qué referencia has visto y para qué actividad estás buscando información. El equipo revisará los datos del modelo y las opciones que puede ofrecerte, sin deducir sus características por una imagen. Las medidas, las versiones, la disponibilidad y las condiciones de compra se confirman con la tienda. Si tu pregunta necesita una valoración de entrenamiento o de salud, esa decisión corresponde al profesional adecuado; esta conversación comercial no sustituye ese asesoramiento.",
+      ""
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "tiendas-mascotas",
+    "title": "Redes sociales para tiendas de mascotas | Dania360",
+    "description": "Presenta accesorios y productos de tu tienda de mascotas con información clara. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Un producto identificable y una tienda a la que preguntar",
+    "promise": "Relaciona la imagen del accesorio con información que tu equipo pueda confirmar.",
+    "lead": "Gestionamos contenido para presentar productos y atención de tu tienda de mascotas. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "artAlt": "Transportín geométrico conceptual sin animal, marca o dimensiones, con un detalle de su representación",
+    "artCaption": "Ilustración original sin referencia comercial. No recomienda un accesorio para un animal ni presenta existencias.",
+    "resourceTitle": "Presentación de un accesorio y respuesta sobre su referencia",
+    "faq": [
+      [
+        "¿Es la misma propuesta que la de una clínica veterinaria?",
+        "No. Esta página comunica productos y atención comercial de una tienda. La landing de veterinarias trata los servicios de una clínica. No se atribuyen recomendaciones clínicas al contenido o al bot de esta propuesta."
+      ],
+      [
+        "¿Quién confirma que un accesorio es adecuado y qué condiciones tiene?",
+        "La tienda revisa la referencia y las instrucciones del fabricante antes de explicar el producto. No se asegura su adecuación para un animal a partir de una ilustración. Las cuestiones de salud necesitan el profesional veterinario correspondiente."
+      ],
+      [
+        "¿Podéis comunicar otros servicios del establecimiento?",
+        "Sí, si tu negocio confirma que los presta y su alcance real. No se añaden peluquería, asesoramiento u otras actividades por pertenecer al sector. La tienda confirma cada información, encargo y condición comercial."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas de mascotas por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas de mascotas",
+    "h1": "Gestión de redes sociales para tiendas de mascotas",
+    "layout": "tiendas-mascotas",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas de mascotas",
+        "community manager tiendas mascotas",
+        "redes sociales pet shop",
+        "marketing tiendas mascotas"
+      ],
+      "intent": "Tienda de productos para animales que quiere explicar referencias de su catálogo y orientar preguntas de compra.",
+      "distinctFrom": "Dos mensajes editoriales para presentar un accesorio y continuar una consulta sobre una referencia, sin consejo veterinario ni inventar existencias. Se comunica venta de producto y atención de tienda; la landing de veterinarias trata servicios de una clínica.",
+      "sources": [
+        {
+          "url": "https://www.ignarapets.com/servicios",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta de marketing para marcas de mascotas y comunicación con compradores. No se adoptan sus embudos, campañas, producción presencial, resultados o modelos comerciales.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Dos mensajes completos para comunicar un producto de tienda y continuar una consulta con información confirmada.",
+      "linkLabel": "Descargar los mensajes para tiendas de mascotas",
+      "documentSubtitle": "Demostración editorial original para adaptar a información confirmada del negocio. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Dos mensajes originales para adaptar",
+      "",
+      "Presentar un accesorio y responder a quien pregunta por esa referencia",
+      "",
+      "Utilizamos el dibujo conceptual de un transportín sin marca. No muestra un artículo disponible ni recomienda un modelo para un animal concreto. La tienda debe revisar la información del producto real antes de utilizar el enfoque.",
+      "",
+      "La publicación",
+      "",
+      "Explicar qué se puede consultar",
+      "",
+      "Una vista general permite reconocer un accesorio; el detalle ayuda a saber qué merece una explicación. En esta demostración conceptual utilizamos un transportín para mostrar ese recorrido. Al presentar una referencia real, la tienda identifica el modelo y revisa la información que facilita su fabricante. Si te interesa un artículo de una publicación, indícanos cuál y qué necesitas conocer. El equipo te explicará qué datos puede confirmar, sus condiciones de uso y cómo continuar la compra. Este dibujo no corresponde a un producto a la venta ni asegura su idoneidad para una mascota concreta.",
+      "",
+      "La conversación con la tienda",
+      "",
+      "Continuar con información del artículo",
+      "",
+      "Gracias por escribir. Dinos qué referencia has visto y qué aspecto del accesorio quieres consultar. Nuestro equipo revisará contigo la información del fabricante y las opciones que puede ofrecer la tienda. Las medidas, las condiciones de uso, la disponibilidad y la compra se confirman sobre el modelo real. No es posible asegurar la adecuación de un producto a partir de esta ilustración. Si la pregunta se relaciona con la salud o una necesidad clínica del animal, conviene tratarla con su profesional veterinario; por este canal podemos continuar la información comercial del artículo.",
+      ""
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "tiendas-online",
+    "title": "Gestión de redes sociales para tiendas online | Dania360",
+    "description": "Conecta las publicaciones de tu tienda online con la información y atención de compra. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "eyebrow": "Del producto al destino correcto de cada conversación",
+    "promise": "Distingue la duda antes de comprar de la consulta sobre un pedido.",
+    "lead": "Preparamos contenido de producto y gestionamos la atención de los canales del plan para tu comercio electrónico. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "artAlt": "Esquema conceptual de una publicación de producto y dos rutas de información y atención sin pedidos o datos personales",
+    "artCaption": "Diagrama editorial original. No muestra una venta, datos de clientes o una integración con una tienda real.",
+    "resourceTitle": "Una publicación y dos respuestas para tu comercio electrónico",
+    "faq": [
+      [
+        "¿La web de Growth equivale a desarrollar una tienda con catálogo, carrito y pagos?",
+        "No. Growth incluye la web profesional y el chat de Starter. No se presenta como desarrollo o migración de un comercio electrónico con carrito, cobros o integraciones. Ese alcance se tendría que estudiar por separado, sin añadirlo a la cuota mostrada."
+      ],
+      [
+        "¿Podéis trabajar si ya tenemos una tienda online?",
+        "Sí. Se acuerda con tu negocio qué referencias y destinos se van a comunicar y cómo continuar la atención. No es necesario atribuir a Growth una migración o una conexión automática con la plataforma para preparar contenido y gestionar los canales del plan."
+      ],
+      [
+        "¿El bot consulta pedidos, confirma entregas o tramita devoluciones?",
+        "No se presupone esa conexión. El bot informa con datos configurados y orienta hacia el equipo. La tienda confirma el estado del pedido, pagos, entregas y devoluciones por su canal de atención, sin pedir datos privados en comentarios públicos."
+      ],
+      [
+        "¿Qué incluye Growth para tiendas online y negocios de comercio electrónico por 297 €/mes?",
+        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+      ]
+    ],
+    "name": "Tiendas online y negocios de comercio electrónico",
+    "h1": "Gestión de redes sociales para tiendas online",
+    "layout": "tiendas-online",
+    "hubGroup": "comercio-especializado",
+    "contentModified": "2026-11-03",
+    "research": {
+      "date": "2026-11-03",
+      "queries": [
+        "gestión de redes sociales para tiendas online",
+        "gestión redes sociales ecommerce",
+        "community manager ecommerce",
+        "redes sociales comercio electrónico"
+      ],
+      "intent": "Comercio electrónico con tienda propia que quiere preparar contenido de producto y separar preguntas previas a compra de consultas de un pedido.",
+      "distinctFrom": "Publicación de producto y dos respuestas distintas para información antes de comprar y atención de un pedido, sin pedir datos en comentarios. Esta landing comunica ecommerce; la genérica de comercios prioriza la visita a la tienda física. La web profesional de Growth no se presenta como desarrollo de tienda, checkout o conexión a inventario.",
+      "sources": [
+        {
+          "url": "https://morganmedia.es/redes-sociales-ecommerce",
+          "access": "primary_provider_offer_direct_read",
+          "observation": "Oferta de redes que combina catálogo e inversión publicitaria. Sus conectores, precios, campañas y publicidad no forman parte por analogía de Growth y no se utilizan como benchmark propio.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "searchVolume": null,
+      "googlePosition": null
+    },
+    "resourcePresentation": {
+      "description": "Textos completos para presentar un artículo y separar una duda previa a la compra de la atención de un pedido.",
+      "linkLabel": "Descargar los textos de publicación y atención ecommerce",
+      "documentSubtitle": "Demostración editorial original para adaptar a información confirmada del negocio. No representa productos disponibles, clientes o resultados reales."
+    },
+    "resource": [
+      "Una publicación y dos respuestas completas",
+      "",
+      "La misma referencia puede generar una pregunta de compra o de un pedido",
+      "",
+      "Este ejemplo editorial utiliza un producto abstracto sin marca. No anuncia existencias, una promoción o una compra real. Los textos se adaptan a la referencia y a las condiciones confirmadas de la tienda.",
+      "",
+      "Publicación que conduce a información de producto",
+      "",
+      "Antes de elegir un artículo, necesitas reconocer qué versión estás mirando y dónde consultar sus detalles. En esta demostración presentamos una referencia conceptual y el recorrido hacia su información. Cuando publiquemos un producto real de nuestra tienda, podrás identificarlo y continuar en la ficha que corresponda. Si tienes una duda, indica la publicación y qué dato necesitas revisar; el equipo te orientará por el contacto del perfil. Los detalles del artículo, la disponibilidad y las condiciones de la compra se confirman en la tienda. Esta muestra no incorpora un enlace de pago ni representa un pedido.",
+      "",
+      "Antes de comprar",
+      "",
+      "Localizar la referencia y la duda",
+      "",
+      "Gracias por consultar. Indícanos qué artículo o publicación has visto y qué información necesitas antes de decidir. Te orientaremos hacia la ficha y el contacto que confirme el comercio. El equipo revisará las opciones y las condiciones vigentes de esa referencia. La respuesta inicial no reserva existencias ni confirma un precio, un envío o una promoción que no se haya verificado con la tienda.",
+      "",
+      "Con un pedido iniciado",
+      "",
+      "Continuar por el canal de atención",
+      "",
+      "Gracias por avisarnos. Para revisar un pedido, utiliza el canal de atención que indica nuestra tienda. Evita publicar el número de pedido, tu dirección o datos de pago en comentarios. El equipo te explicará qué información necesita por su canal privado y confirmará el estado de la gestión. Este mensaje orienta el contacto; no consulta el pedido automáticamente ni confirma su entrega o devolución.",
+      ""
+    ]
   }
 ]
