@@ -6693,7 +6693,7 @@
         "marketing librerías"
       ],
       "intent": "Librería que quiere mostrar su criterio de selección y orientar preguntas de lectores además de presentar actividades confirmadas.",
-      "distinctFrom": "Una publicación para iniciar una recomendación del librero y otra para comunicar cómo consultar la programación, sin inventar un título o un encuentro. Se vende gestión de comunicación a una librería, no edición de libros, representación de autores o un servicio de publicación editorial.",
+      "distinctFrom": "Un comentario original sobre La vuelta al mundo en ochenta días, con autor y título contrastados, y otra pieza para consultar programación confirmada. No se anuncia stock, una reseña de un cliente o un evento ficticio. La propuesta comunica una librería, no un servicio de edición o publicación de libros.",
       "sources": [
         {
           "url": "https://www.seonetdigital.com/es/blog/marketing-para-librerias",
@@ -6704,16 +6704,35 @@
         {
           "url": "https://www.comunicare.es/marketing-para-librerias/",
           "access": "indexed_offer_direct_fetch_forbidden",
-          "observation": "El resultado indexado presenta marketing para librerías. La apertura fue rechazada con 403; se conserva ese límite y no se cuenta como lectura completa.",
+          "observation": "El resultado indexado presenta marketing para librerías. La apertura fue rechazada con 403; se conserva ese límite y no se cuenta como lectura completa. En la revisión final la apertura directa volvió a responder 403; se conserva como parcial.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-03",
+              "access": "indexed_offer_direct_fetch_forbidden"
+            }
+          ]
+        },
+        {
+          "url": "https://cervantesvirtual.com/obra/la-vuelta-al-mundo-en-ochenta-dias-1226313/",
+          "access": "primary_library_bibliographic_record_direct_read",
+          "observation": "Registro primario que confirma título y autor y documenta una edición digital basada en la de 1885. Se utiliza como referencia bibliográfica, sin atribuir esa edición a existencias de una tienda.",
+          "checkedDateMadrid": "2026-11-03"
+        },
+        {
+          "url": "https://www.akal.com/libro/la-vuelta-al-mundo-en-ochenta-dias_34067/",
+          "access": "primary_publisher_catalogue_direct_read",
+          "observation": "Catálogo del editor para contrastar el argumento de la apuesta y el recorrido temporal. El comentario es original; no se copia la sinopsis ni se adoptan sus cifras, precio, disponibilidad o condiciones.",
           "checkedDateMadrid": "2026-11-03"
         }
       ],
       "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": "La recomendación genérica se convierte en un comentario concreto, escrito de nuevo sobre una obra real documentada, con referencia bibliográfica visible. No se reproducen fragmentos, reseñas ajenas o portadas ni se atribuyen existencias."
     },
     "resourcePresentation": {
-      "description": "Textos completos para iniciar una recomendación del librero y consultar actividades confirmadas, sin inventar títulos o eventos.",
+      "description": "Un comentario original de una obra real y un texto de programación, para adaptar al criterio y la actividad de la librería.",
       "linkLabel": "Descargar las dos publicaciones para librerías",
       "documentSubtitle": "Demostración editorial original para adaptar a la oferta confirmada de la tienda. No representa productos disponibles, clientes o resultados reales."
     },
@@ -6722,13 +6741,15 @@
       "",
       "Una conversación para elegir lectura y otra para conocer la programación",
       "",
-      "Ejemplos para adaptar a la actividad real de la librería. Los dibujos muestran libros sin título y una tarjeta conceptual; no reproducen obras ni anuncian un encuentro.",
+      "Ejemplos para adaptar a la actividad real de la librería. La primera pieza comenta una obra real; la segunda explica cómo consultar una programación confirmada. Los dibujos son conceptuales y no anuncian existencias o un encuentro.",
       "",
       "El criterio del librero",
       "",
-      "Empezar por lo que apetece leer",
+      "Un viaje contra el reloj como conversación de lectura",
       "",
-      "A veces una nueva lectura empieza con una conversación. Puedes contarnos qué temas te interesan, si buscas un formato concreto o qué tipo de lectura te apetece ahora. Nuestro equipo te explicará qué opciones puede proponerte a partir de la selección de la librería. Esta publicación invita a conocer ese criterio, sin presentar un libro ficticio ni una lista de títulos disponibles. Para consultar una obra concreta, indica su referencia por el contacto del perfil; el equipo comprobará la información y te dirá cómo continuar.",
+      "Si te apetecen los viajes con un reto que empuja la historia, La vuelta al mundo en ochenta días, de Julio Verne, puede abrir la conversación. Phileas Fogg convierte una apuesta en un itinerario contra el reloj. La tensión está en continuar el recorrido a pesar de los imprevistos; ese contraste entre plan y aventura da un motivo concreto para acercarse al libro. Antes de elegir una edición, pregunta por el idioma, la traducción y si ofrece el texto completo o una adaptación. Nuestro equipo puede revisar contigo qué opciones tiene la librería. Este comentario es una muestra editorial, no un anuncio de ejemplares disponibles.",
+      "",
+      "Referencia bibliográfica de la obra: Biblioteca Virtual Miguel de Cervantes. https://cervantesvirtual.com/obra/la-vuelta-al-mundo-en-ochenta-dias-1226313/",
       "",
       "La actividad de la librería",
       "",
