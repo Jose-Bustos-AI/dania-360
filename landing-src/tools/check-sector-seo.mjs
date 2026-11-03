@@ -89,7 +89,7 @@ if (!services.includes('Gestión de redes sociales para peluquerías →')) {
   errors.push('gestion-redes-sociales: el enlace a salones no nombra peluquerías');
 }
 
-for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-murcia']) {
+for (const path of ['gestion-redes-sociales-murcia']) {
   const html = read(`${path}/index.html`);
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
   const meta = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
@@ -97,6 +97,17 @@ for (const path of ['precios-gestion-redes-sociales', 'gestion-redes-sociales-mu
   if (!meta?.includes('297 €/mes') || !meta.includes('99 €')) {
     errors.push(`${path}: la descripción debe distinguir redes desde 297 € de Starter 99 €`);
   }
+}
+
+// Pricing now presents one Growth offer; Starter is not a social-management tier.
+const growthPricing = read('precios-gestion-redes-sociales/index.html');
+const growthTitle = growthPricing.match(/<title>([^<]+)<\/title>/)?.[1] ?? '';
+const growthMeta = growthPricing.match(/<meta\s+name="description"\s+content="([^"]+)"/)?.[1] ?? '';
+if (!/Precios de gestión de redes sociales/.test(growthTitle) || !/Growth 297 €/.test(growthTitle)) {
+  errors.push('precios-gestion-redes-sociales: el título debe identificar precio, servicio y Growth 297 €');
+}
+if (!/297 €\/mes/.test(growthMeta) || !/web con bot de IA/.test(growthMeta) || /\b(?:Starter|Scale)\b/.test(growthPricing)) {
+  errors.push('precios-gestion-redes-sociales: oferta única Growth, redes y web con bot de IA por 297 €/mes');
 }
 
 const murcia = read('gestion-redes-sociales-murcia/index.html');
