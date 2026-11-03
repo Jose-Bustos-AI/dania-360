@@ -24,6 +24,7 @@
 
 /* Contraste de texto funcional; se mantiene intacto el naranja de marca. */
 .steps article>b{color:#74655d}
+.steps .step-guide{color:var(--brand-orange-ink,#a43912);text-decoration:underline;text-underline-offset:.2em}
 .popular-label,.navbar .nav-cta,.nav-mobile-cta,.whatsapp-float{color:#201510}
 .button-primary:hover,.button-outline:hover{color:#201510;background:#ff8a5c;border-color:#ff8a5c}
 .seo-resources .eyebrow{color:var(--brand-orange-ink,#a43912)}
