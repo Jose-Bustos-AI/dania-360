@@ -862,3 +862,214 @@
 @media(max-width:540px){
   .layout-cafeterias .cafe-three-scenes article,.layout-pastelerias .pastry-request-context,.layout-heladerias .ice-post,.layout-catering .catering-event-note dl,.layout-salones-bodas .venue-editorial-tour article,.layout-bodegas .winery-trade-reply,.layout-cerveceras-artesanales .brewery-two-replies article,.layout-almazaras .oil-editorial-label article,.layout-food-trucks .truck-outdated-location{padding:24px}
 }
+
+/* Psychology: the introductory publication is separate from the three contact paths. */
+.layout-psicologos .hero{grid-template-columns:1.05fr .95fr}
+.layout-psicologos h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-psicologos .psychology-first-contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-psicologos .psychology-first-contact p:not(.kicker),.layout-psicologos .psychology-web p{color:var(--muted)}
+.layout-psicologos .psychology-message-map header{max-width:920px}
+.layout-psicologos .psychology-message-map header>p:last-child{color:var(--muted)}
+.layout-psicologos .psychology-intro-post{padding:30px;background:var(--panel);border-top:3px solid var(--orange);max-width:940px;margin-top:34px}
+.layout-psicologos .psychology-intro-post h3{font-size:1.45rem}
+.layout-psicologos .psychology-intro-post p{margin-bottom:0}
+.layout-psicologos .psychology-three-messages{margin-top:34px}
+.layout-psicologos .psychology-three-messages article{display:grid;grid-template-columns:.6fr .9fr 1.5fr;gap:26px;align-items:start;border-top:1px solid var(--line);padding:26px 0}
+.layout-psicologos .psychology-three-messages span{font-size:.85rem;font-weight:800;color:var(--orange);padding-top:5px}
+.layout-psicologos .psychology-three-messages h3{font-size:1.35rem}
+.layout-psicologos .psychology-three-messages p{margin:0;color:var(--muted)}
+.layout-psicologos .psychology-editorial-process{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-psicologos .psychology-editorial-process ol{list-style:none;counter-reset:psychology-step;padding:0;margin:0}
+.layout-psicologos .psychology-editorial-process li{counter-increment:psychology-step;padding:0 0 24px 50px;position:relative}
+.layout-psicologos .psychology-editorial-process li+li{padding-top:24px;border-top:1px solid var(--line)}
+.layout-psicologos .psychology-editorial-process li:before{content:counter(psychology-step,decimal-leading-zero);position:absolute;left:0;top:4px;color:var(--orange);font-size:.9rem;font-weight:800}
+.layout-psicologos .psychology-editorial-process li+li:before{top:28px}
+.layout-psicologos .psychology-editorial-process h3{font-size:1.35rem}
+.layout-psicologos .psychology-editorial-process p{color:var(--muted);margin-bottom:0}
+.layout-psicologos .psychology-web{max-width:950px}
+
+/* Nutrition: a readable four-screen sequence followed by its caption and response. */
+.layout-nutricionistas .hero{grid-template-columns:1fr 1fr}
+.layout-nutricionistas .hero figure{order:-1}
+.layout-nutricionistas h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:25ch}
+.layout-nutricionistas .nutrition-service-story>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-nutricionistas .nutrition-editorial-sequence header{max-width:920px}
+.layout-nutricionistas .nutrition-editorial-sequence header>p:last-child{color:var(--muted)}
+.layout-nutricionistas .nutrition-four-panels{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.layout-nutricionistas .nutrition-four-panels li{border:1px solid var(--line);background:var(--panel);padding:28px;margin:0}
+.layout-nutricionistas .nutrition-four-panels li:nth-child(3){border-top:3px solid var(--orange)}
+.layout-nutricionistas .nutrition-four-panels span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:22px}
+.layout-nutricionistas .nutrition-four-panels h3{font-size:1.45rem;max-width:28ch}
+.layout-nutricionistas .nutrition-four-panels p{color:var(--muted);margin-bottom:0}
+.layout-nutricionistas .nutrition-caption{max-width:940px;border-top:1px solid var(--line);padding-top:28px}
+.layout-nutricionistas .nutrition-first-reply{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:30px}
+.layout-nutricionistas .nutrition-content-workbench{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-nutricionistas .nutrition-content-workbench dl{margin:0}
+.layout-nutricionistas .nutrition-content-workbench dl>div+div{border-top:1px solid var(--line);margin-top:26px;padding-top:26px}
+.layout-nutricionistas .nutrition-content-workbench dt{font-weight:800;font-size:1.2rem;margin-bottom:14px}
+.layout-nutricionistas .nutrition-content-workbench dd{color:var(--muted);margin:0}
+.layout-nutricionistas .nutrition-web-path{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-nutricionistas .nutrition-web-path p:not(.kicker){color:var(--muted)}
+@media(max-width:850px){
+  .layout-psicologos .hero,.layout-psicologos .psychology-first-contact,.layout-psicologos .psychology-three-messages article,.layout-psicologos .psychology-editorial-process,.layout-nutricionistas .hero,.layout-nutricionistas .nutrition-service-story>div,.layout-nutricionistas .nutrition-four-panels,.layout-nutricionistas .nutrition-content-workbench,.layout-nutricionistas .nutrition-web-path{grid-template-columns:1fr;gap:26px}
+  .layout-nutricionistas .hero figure{order:0}
+  .layout-psicologos .psychology-three-messages article{gap:18px}
+  .layout-psicologos .psychology-three-messages span{padding-top:0}
+}
+@media(max-width:540px){
+  .layout-psicologos .psychology-intro-post,.layout-nutricionistas .nutrition-four-panels li{padding:24px}
+  .layout-psicologos .psychology-editorial-process li{padding-left:40px}
+}
+
+/* Optical centres: product views lead to the local advice channel. */
+.layout-opticas .hero{grid-template-columns:.95fr 1.05fr}
+.layout-opticas .hero figure{order:-1}
+.layout-opticas h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-opticas .optical-centre{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-opticas .optical-centre p:not(.kicker),.layout-opticas .optical-material p,.layout-opticas .optical-web p{color:var(--muted)}
+.layout-opticas .optical-product-reading header{max-width:920px}
+.layout-opticas .optical-three-views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-opticas .optical-three-views dt{color:var(--orange);font-weight:800;margin-bottom:14px;font-size:1.15rem}
+.layout-opticas .optical-three-views dd{color:var(--muted);margin:0}
+.layout-opticas .optical-sample-post{max-width:940px;padding-top:28px;border-top:3px solid var(--orange)}
+.layout-opticas .optical-model-reply{max-width:850px;padding:28px;background:var(--panel);margin-top:30px}
+.layout-opticas .optical-material{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:start}
+.layout-opticas .optical-material h3{font-size:1.4rem}
+.layout-opticas .optical-material aside{border-left:3px solid var(--orange);padding-left:26px}
+.layout-opticas .optical-web{max-width:950px}
+
+/* Hearing centres: the screen copy is visible beside the shot and its duration. */
+.layout-centros-auditivos h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-centros-auditivos .hearing-visit>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-centros-auditivos .hearing-readable-script header{max-width:920px}
+.layout-centros-auditivos .hearing-timed-scenes{list-style:none;padding:0;margin:34px 0}
+.layout-centros-auditivos .hearing-timed-scenes li{display:grid;grid-template-columns:.5fr .8fr 1.2fr 1.1fr;gap:26px;align-items:start;padding:26px 0;border-top:1px solid var(--line);margin:0}
+.layout-centros-auditivos .hearing-timed-scenes span{color:var(--orange);font-size:.85rem;font-weight:800;padding-top:5px}
+.layout-centros-auditivos .hearing-timed-scenes h3{font-size:1.3rem}
+.layout-centros-auditivos .hearing-timed-scenes p{color:var(--muted);margin:0}
+.layout-centros-auditivos .hearing-timed-scenes .screen-copy{border-left:3px solid var(--orange);padding-left:20px;color:var(--text)}
+.layout-centros-auditivos .hearing-caption{background:var(--panel);max-width:940px;padding:28px}
+.layout-centros-auditivos .hearing-publication-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-centros-auditivos .hearing-publication-review dl{margin:0}
+.layout-centros-auditivos .hearing-publication-review dl>div+div{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.layout-centros-auditivos .hearing-publication-review dt{font-weight:800;margin-bottom:12px;font-size:1.2rem}
+.layout-centros-auditivos .hearing-publication-review dd{color:var(--muted);margin:0}
+.layout-centros-auditivos .hearing-web{max-width:950px}
+.layout-centros-auditivos .hearing-web p{color:var(--muted)}
+
+/* Podiatry: the introductory post and the response have distinct roles. */
+.layout-podologia .hero{grid-template-columns:1fr 1fr}
+.layout-podologia h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-podologia .podiatry-introduction{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-podologia .podiatry-introduction p:not(.kicker),.layout-podologia .podiatry-gabinet p:not(.kicker),.layout-podologia .podiatry-web p{color:var(--muted)}
+.layout-podologia .podiatry-first-visit-example{display:grid;grid-template-columns:1.1fr .9fr;gap:30px}
+.layout-podologia .podiatry-first-visit-example header{grid-column:1/-1;max-width:920px}
+.layout-podologia .podiatry-visit-post{padding-top:28px;border-top:1px solid var(--line)}
+.layout-podologia .podiatry-photo-reply{background:var(--panel);border-top:3px solid var(--orange);padding:28px}
+.layout-podologia .podiatry-photo-reply h3{font-size:1.4rem}
+.layout-podologia .podiatry-photo-context{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:0}
+.layout-podologia .podiatry-photo-context dt{font-weight:800;color:var(--orange);margin-bottom:14px}
+.layout-podologia .podiatry-photo-context dd{color:var(--muted);margin:0}
+.layout-podologia .podiatry-gabinet{display:grid;grid-template-columns:1.2fr .8fr;gap:44px}
+.layout-podologia .podiatry-gabinet aside{padding-top:26px;border-top:3px solid var(--orange)}
+.layout-podologia .podiatry-web{max-width:950px}
+
+/* Medical aesthetics: public information precedes the clinical consultation. */
+.layout-medicina-estetica .hero figure{order:-1}
+.layout-medicina-estetica h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-medicina-estetica .medical-aesthetics-consultation{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.layout-medicina-estetica .medical-aesthetics-consultation p:not(.kicker),.layout-medicina-estetica .medical-aesthetics-web p{color:var(--muted)}
+.layout-medicina-estetica .medical-aesthetics-two-spaces header{max-width:920px}
+.layout-medicina-estetica .medical-aesthetics-information{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:34px 0}
+.layout-medicina-estetica .medical-aesthetics-information article{border-top:1px solid var(--line);padding-top:26px}
+.layout-medicina-estetica .medical-aesthetics-information article+article{border-top-color:var(--orange)}
+.layout-medicina-estetica .medical-aesthetics-information h3{font-size:1.4rem}
+.layout-medicina-estetica .medical-aesthetics-information p{color:var(--muted)}
+.layout-medicina-estetica .medical-aesthetics-post{background:var(--panel);padding:28px;max-width:940px}
+.layout-medicina-estetica .medical-aesthetics-reply{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:30px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dl{margin:0}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dl>div+div{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dd{color:var(--muted);margin:0}
+.layout-medicina-estetica .medical-aesthetics-web{max-width:950px}
+
+/* Residences: the stops explain the visit rather than private resident stories. */
+.layout-residencias-mayores h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:26ch}
+.layout-residencias-mayores .residence-understand>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-residencias-mayores .residence-editorial-tour header{max-width:920px}
+.layout-residencias-mayores .residence-tour-stops{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-residencias-mayores .residence-tour-stops li{border-top:3px solid var(--orange);padding-top:24px;margin:0}
+.layout-residencias-mayores .residence-tour-stops span{display:block;color:var(--orange);font-weight:800;font-size:.85rem;margin-bottom:20px}
+.layout-residencias-mayores .residence-tour-stops h3{font-size:1.35rem}
+.layout-residencias-mayores .residence-tour-stops p{color:var(--muted)}
+.layout-residencias-mayores .residence-visit-post{padding:28px;background:var(--panel);max-width:940px}
+.layout-residencias-mayores .residence-adaptation{max-width:940px;color:var(--muted);margin-top:26px;font-size:.9rem}
+.layout-residencias-mayores .residence-public-private{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-residencias-mayores .residence-public-private h3{font-size:1.4rem}
+.layout-residencias-mayores .residence-public-private p:not(.kicker),.layout-residencias-mayores .residence-web p{color:var(--muted)}
+.layout-residencias-mayores .residence-web{max-width:950px}
+
+/* Home care: service enquiries and professional candidatures are routed separately. */
+.layout-ayuda-domicilio .hero figure{order:-1}
+.layout-ayuda-domicilio h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-ayuda-domicilio .homecare-service{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-ayuda-domicilio .homecare-service p:not(.kicker),.layout-ayuda-domicilio .homecare-web p{color:var(--muted)}
+.layout-ayuda-domicilio .homecare-two-routes header{max-width:920px}
+.layout-ayuda-domicilio .homecare-intro-post{max-width:940px;border-top:3px solid var(--orange);padding-top:28px;margin-top:34px}
+.layout-ayuda-domicilio .homecare-route-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.layout-ayuda-domicilio .homecare-route-grid article{background:var(--panel);border:1px solid var(--line);padding:28px}
+.layout-ayuda-domicilio .homecare-route-grid span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-ayuda-domicilio .homecare-route-grid h3{font-size:1.4rem}
+.layout-ayuda-domicilio .homecare-route-grid p{margin-bottom:0}
+.layout-ayuda-domicilio .homecare-visible-scope{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-ayuda-domicilio .homecare-visible-scope dl{margin:0}
+.layout-ayuda-domicilio .homecare-visible-scope dl>div+div{padding-top:24px;margin-top:24px;border-top:1px solid var(--line)}
+.layout-ayuda-domicilio .homecare-visible-scope dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-ayuda-domicilio .homecare-visible-scope dd{margin:0;color:var(--muted)}
+.layout-ayuda-domicilio .homecare-web{max-width:950px}
+
+/* Speech therapy: two complete publications, each with its own audience. */
+.layout-logopedia h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-logopedia .speech-centre-scope>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-logopedia .speech-two-publications header{max-width:920px}
+.layout-logopedia .speech-child-piece,.layout-logopedia .speech-adult-piece{max-width:930px;padding:30px;background:var(--panel);border:1px solid var(--line);margin-top:34px}
+.layout-logopedia .speech-adult-piece{margin-left:80px;border-left:3px solid var(--orange)}
+.layout-logopedia .speech-child-piece span,.layout-logopedia .speech-adult-piece span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-logopedia .speech-child-piece h3,.layout-logopedia .speech-adult-piece h3{font-size:1.5rem}
+.layout-logopedia .speech-child-piece p,.layout-logopedia .speech-adult-piece p{margin-bottom:0}
+.layout-logopedia .speech-adaptation{max-width:930px;margin-top:30px;padding-top:28px;border-top:1px solid var(--line)}
+.layout-logopedia .speech-adaptation p{color:var(--muted)}
+.layout-logopedia .speech-editorial-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-logopedia .speech-editorial-review ol{padding-left:24px;margin:0}
+.layout-logopedia .speech-editorial-review li+li{margin-top:28px}
+.layout-logopedia .speech-editorial-review h3{font-size:1.35rem}
+.layout-logopedia .speech-editorial-review p,.layout-logopedia .speech-web p{color:var(--muted)}
+.layout-logopedia .speech-web{max-width:950px}
+
+/* Occupational therapy: a conceptual key followed by the presentation in plain language. */
+.layout-terapia-ocupacional .hero figure{order:-1}
+.layout-terapia-ocupacional h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-terapia-ocupacional .occupational-explain{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-terapia-ocupacional .occupational-explain p:not(.kicker),.layout-terapia-ocupacional .occupational-material p:not(.kicker),.layout-terapia-ocupacional .occupational-web p{color:var(--muted)}
+.layout-terapia-ocupacional .occupational-three-lenses header{max-width:920px}
+.layout-terapia-ocupacional .occupational-reading-key{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-terapia-ocupacional .occupational-reading-key>div{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-terapia-ocupacional .occupational-reading-key dt{font-weight:800;font-size:1.25rem;margin-bottom:14px}
+.layout-terapia-ocupacional .occupational-reading-key dd{margin:0;color:var(--muted)}
+.layout-terapia-ocupacional .occupational-centre-post{max-width:940px;padding:28px;background:var(--panel)}
+.layout-terapia-ocupacional .occupational-service-reply{max-width:860px;padding:12px 0 12px 26px;border-left:3px solid var(--orange);margin-top:30px}
+.layout-terapia-ocupacional .occupational-material{display:grid;grid-template-columns:1.2fr .8fr;gap:44px}
+.layout-terapia-ocupacional .occupational-material aside{border-top:1px solid var(--line);padding-top:26px}
+.layout-terapia-ocupacional .occupational-web{max-width:950px}
+@media(max-width:850px){
+  .layout-opticas .hero,.layout-opticas .optical-centre,.layout-opticas .optical-three-views,.layout-opticas .optical-material,.layout-centros-auditivos .hearing-visit>div,.layout-centros-auditivos .hearing-timed-scenes li,.layout-centros-auditivos .hearing-publication-review,.layout-podologia .hero,.layout-podologia .podiatry-introduction,.layout-podologia .podiatry-first-visit-example,.layout-podologia .podiatry-photo-context,.layout-podologia .podiatry-gabinet,.layout-medicina-estetica .medical-aesthetics-consultation,.layout-medicina-estetica .medical-aesthetics-information,.layout-medicina-estetica .medical-aesthetics-editorial-review,.layout-residencias-mayores .residence-understand>div,.layout-residencias-mayores .residence-tour-stops,.layout-residencias-mayores .residence-public-private,.layout-ayuda-domicilio .homecare-service,.layout-ayuda-domicilio .homecare-route-grid,.layout-ayuda-domicilio .homecare-visible-scope,.layout-logopedia .speech-centre-scope>div,.layout-logopedia .speech-editorial-review,.layout-terapia-ocupacional .occupational-explain,.layout-terapia-ocupacional .occupational-reading-key,.layout-terapia-ocupacional .occupational-material{grid-template-columns:1fr;gap:26px}
+  .layout-opticas .hero figure,.layout-medicina-estetica .hero figure,.layout-ayuda-domicilio .hero figure,.layout-terapia-ocupacional .hero figure{order:0}
+  .layout-centros-auditivos .hearing-timed-scenes li{gap:18px}
+  .layout-centros-auditivos .hearing-timed-scenes span{padding-top:0}
+  .layout-podologia .podiatry-first-visit-example header,.layout-podologia .podiatry-photo-context{grid-column:auto}
+}
+@media(max-width:540px){
+  .layout-opticas .optical-model-reply,.layout-centros-auditivos .hearing-caption,.layout-podologia .podiatry-photo-reply,.layout-medicina-estetica .medical-aesthetics-post,.layout-residencias-mayores .residence-visit-post,.layout-ayuda-domicilio .homecare-route-grid article,.layout-logopedia .speech-child-piece,.layout-logopedia .speech-adult-piece,.layout-terapia-ocupacional .occupational-centre-post{padding:24px}
+  .layout-logopedia .speech-adult-piece{margin-left:16px}
+}
