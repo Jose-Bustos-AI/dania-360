@@ -5507,8 +5507,14 @@
         {
           "url": "https://marketingparaseguros.com/",
           "access": "indexed_result_read_direct_open_timeout",
-          "observation": "El resultado indexado menciona expresamente gestión de redes de corredurías y web. La apertura directa agotó el tiempo; no se considera una oferta completa leída ni una prueba de volumen.",
-          "checkedDateMadrid": "2026-11-02"
+          "observation": "El resultado indexado menciona expresamente gestión de redes de corredurías y web. La apertura directa agotó el tiempo; no se considera una oferta completa leída ni una prueba de volumen. La apertura directa del 3 de noviembre vuelve a agotar el tiempo; se conserva como lectura parcial.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "indexed_result_read_direct_open_timeout"
+            }
+          ]
         }
       ],
       "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
@@ -5574,7 +5580,7 @@
     "h1": "Gestión de redes sociales para consultorías empresariales",
     "layout": "consultorias-empresariales",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -5590,12 +5596,19 @@
           "url": "https://www.roiting.com/marketing-consultores/",
           "access": "primary_provider_offer_direct_read",
           "observation": "Oferta para consultores y firmas B2B que pone en valor conocimiento y conversación comercial. No se adoptan su sistema, cartera, resultados o servicios de captación. LinkedIn no está en Growth; ese límite debe quedar visible.",
-          "checkedDateMadrid": "2026-11-02"
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "primary_provider_offer_direct_read"
+            }
+          ]
         }
       ],
       "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": "Se añade un acuerdo didáctico concreto con lo acordado, quién continúa y qué falta revisar dentro del ejemplo existente. No representa un cliente o resultado ni añade un servicio a Growth."
     },
     "resourcePresentation": {
       "description": "Contexto, entregable, alcance y texto de presentación completos de una demostración didáctica, para adaptar a tu servicio real.",
@@ -5620,6 +5633,19 @@
       "Un alcance que debe confirmarse",
       "",
       "La consultoría explica si estudia el funcionamiento, propone una forma de organizarlo o acompaña su implantación. Esos servicios y condiciones se acuerdan antes de una propuesta.",
+      "",
+      "Un acuerdo de muestra para leer el mapa",
+      "",
+      "Ejemplo didáctico de una reunión interna. Los papeles se describen por función; no corresponden a una empresa, una decisión de compra o un resultado reales.",
+      "",
+      "Qué se acordó",
+      "Comparar el alcance de dos propuestas antes de elegir proveedor.",
+      "",
+      "Quién continúa",
+      "Coordinación reúne los documentos; el área usuaria indica qué necesita.",
+      "",
+      "Qué falta revisar",
+      "Qué incluye cada propuesta y qué puntos deben aclararse antes de decidir.",
       "",
       "Texto de presentación para adaptar a ese servicio",
       "",
@@ -5682,9 +5708,15 @@
         },
         {
           "url": "https://rogerllorens.com/marketing-empresas-seleccion-rrhh/",
-          "access": "indexed_result_and_direct_navigation_excerpt_read",
-          "observation": "El resultado indexado describe marketing para selección y RRHH. La apertura consultada aporta principalmente navegación; no se considera leída su oferta completa. No se adoptan sus cifras, categorías jurídicas, servicios o casos.",
-          "checkedDateMadrid": "2026-11-02"
+          "access": "primary_offer_relevant_body_sections_direct_read",
+          "observation": "Lectura directa del cuerpo relevante de la oferta el 3 de noviembre: distingue el servicio dirigido a empresas y el recorrido de candidatos. La lectura previa había sido parcial. No se adopta su sistema de selección, sus ejemplos, integraciones ATS, servicios de publicidad, resultados o criterios de evaluación; no mide demanda española.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "indexed_result_and_direct_navigation_excerpt_read"
+            }
+          ]
         }
       ],
       "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
@@ -5842,7 +5874,7 @@
     "h1": "Gestión de redes sociales para ingenierías",
     "layout": "ingenierias",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -5858,12 +5890,19 @@
           "url": "https://www.creativewallsagency.com/sectores/marketing-para-ingenierias",
           "access": "primary_provider_offer_direct_read",
           "observation": "Oferta específica centrada en hacer comprensible la capacidad técnica y el contenido de proyectos ante compradores. Incluye LinkedIn, embudos y casos propios; no se incorporan a Growth ni se atribuyen sus resultados o experiencia a Dania360.",
-          "checkedDateMadrid": "2026-11-02"
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "primary_provider_offer_direct_read"
+            }
+          ]
         }
       ],
       "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": "Se acorta el primer texto de pantalla del guion y se conecta con la página de prevención para oficinas que también presten ese servicio, sin atribuir funciones preventivas a Dania360."
     },
     "resourcePresentation": {
       "description": "Secuencia completa de tres planos, textos de pantalla y publicación para adaptar a la especialidad real de tu oficina.",
@@ -5881,7 +5920,7 @@
       "",
       "La pregunta que abre el trabajo",
       "",
-      "Plano general del esquema. Texto en pantalla: Antes de elegir una distribución, hay que entender su uso. La pieza presenta la cuestión que el equipo estudia, sin atribuir un problema a una instalación o a un cliente reales.",
+      "Plano general del esquema. Texto en pantalla: Primero, entender el uso. La pieza presenta la cuestión que el equipo estudia, sin atribuir un problema a una instalación o a un cliente reales.",
       "",
       "04–10 s",
       "",
