@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Jardinería: el alcance de un espacio cuidado</title><desc id="d">Vista conceptual de zonas de uso y recorrido de un jardín, con vegetación dibujada y sin representar una propiedad real.</desc><rect width="640" height="480" rx="22" fill="#14120f"/>
+<rect x="40" y="97" width="360" height="324" rx="9" fill="#d6c5ac"/>
+<path d="M72 385V293q0-38 44-38h66q47 0 47-40V125" fill="none" stroke="#f3ece2" stroke-width="25"/>
+<path d="M65 121h100v85H65zM269 298h103v89H269z" fill="#8e785c"/>
+<g fill="#614f3b" stroke="#f3ece2" stroke-width="2"><circle cx="310" cy="157" r="42"/><circle cx="337" cy="190" r="34"/><circle cx="310" cy="220" r="30"/><circle cx="134" cy="339" r="35"/></g>
+<g fill="#ff7139"><circle cx="310" cy="157" r="8"/><circle cx="337" cy="190" r="6"/><circle cx="310" cy="220" r="6"/><circle cx="134" cy="339" r="7"/></g>
+<path d="M435 150h145M435 240h145M435 330h145" stroke="#5f4b39" stroke-width="3"/>
+<g font-family="system-ui,sans-serif" fill="#f3ece2"><text x="38" y="49" font-size="22" letter-spacing="1">UN JARDÍN. UN ALCANCE CLARO.</text><text x="436" y="133" font-size="22">Espacio</text><text x="436" y="222" font-size="22">Servicio</text><text x="436" y="312" font-size="22">Consulta</text></g></svg>

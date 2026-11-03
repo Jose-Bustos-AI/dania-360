@@ -5,5 +5,6 @@ Allow: /
 # pero no es contenido para buscadores.
 Disallow: /landing-src/
 Disallow: /restaurantes-src/
+Disallow: /sector-pages-src/
 
 Sitemap: https://dania360.com/sitemap.xml

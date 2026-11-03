@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Control de plagas: una consulta que se orienta</title><desc id="d">Diseño editorial original con una ficha protegida y etapas de consulta, valoración y seguimiento; sin datos de clientes ni indicaciones de tratamientos.</desc><rect width="640" height="480" rx="22" fill="#eee4d6"/>
+<rect x="72" y="94" width="286" height="302" rx="8" fill="#fff8ed" stroke="#4b3526" stroke-width="2"/>
+<path d="M109 144h181M109 181h118M109 218h166" stroke="#b19c83" stroke-width="9"/>
+<path d="m213 231 65 26v57q0 55-65 78-65-23-65-78v-57Z" fill="#ff7139" stroke="#4b3526" stroke-width="3"/>
+<path d="m184 310 20 20 41-47" fill="none" stroke="#20160f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="system-ui,sans-serif" fill="#31231a"><text x="36" y="49" font-size="22" font-weight="700">INFORMAR CON CRITERIO</text><text x="394" y="155" font-size="22">Consulta</text><text x="394" y="252" font-size="22">Valoración</text><text x="394" y="349" font-size="22">Seguimiento</text></g>
+<path d="M395 177h192M395 274h192M395 371h192" stroke="#a68a6a" stroke-width="3"/></svg>

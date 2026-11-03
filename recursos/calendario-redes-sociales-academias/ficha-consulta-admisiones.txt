@@ -1,0 +1,36 @@
+﻿RESPUESTA Y TRASPASO A ADMISIONES
+Modelo editable de Dania360 para academias
+https://dania360.com/recursos/calendario-redes-sociales-academias/#consulta-admisiones
+
+SUPUESTO DIDÁCTICO
+Una persona adulta quiere retomar inglés después de varios años, pregunta por clases de tarde y no sabe qué nivel le corresponde. Es un ejemplo ficticio de comunicación, no un alumno real ni una evaluación de conocimientos.
+
+PRIMERA RESPUESTA ADAPTABLE
+Gracias por escribirnos. Para orientarte, ¿buscas inglés para conversación, trabajo o un examen concreto? Podemos explicarte cómo se organizan las clases y trasladar tu duda de nivel al equipo docente. ¿Qué días y franja de tarde te encajan?
+
+SI ES UN COMENTARIO PÚBLICO
+Podemos ayudarte con la información de las clases. Escríbenos por el canal de admisiones indicado en el perfil y cuéntanos qué quieres aprender y en qué horario podrías asistir. Así el equipo podrá revisar contigo las opciones.
+
+ANTES DE RESPONDER
+Comprobar que el centro ofrece la modalidad solicitada.
+Revisar la ficha vigente del curso: horario, precio y plazas.
+Confirmar si existe entrevista o prueba de nivel y sus condiciones. No anunciarla como gratuita por defecto.
+Adaptar el texto si no existe la opción solicitada.
+No pedir teléfono, documentación o detalles personales en comentarios públicos.
+
+NOTA PARA EL EQUIPO DE LA ACADEMIA
+Curso o área de interés:
+Objetivo indicado por la persona:
+Días y franja disponibles:
+Información ya comunicada y ficha consultada:
+Duda docente pendiente, sin asignar nivel desde el mensaje:
+Modalidad, horario, precio y plazas pendientes de confirmar:
+Persona responsable de continuar:
+Canal autorizado para la respuesta:
+Siguiente paso acordado:
+Estado real: consulta atendida / pendiente de valoración docente / información completada / matrícula confirmada por el centro / otra situación comprobada.
+
+USO DE LA FICHA
+Registrar solo lo necesario en el canal autorizado de la academia. No copiar conversaciones privadas a documentos públicos. Revisar los estados sin sumar dos veces a la misma persona ni contar una consulta como matrícula.
+
+Es un procedimiento manual adaptable. No incorpora CRM, evaluación automática o sistema de matrícula conectado. El equipo docente valora el nivel; admisiones confirma la información comercial y académica vigente.

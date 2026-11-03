@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Arquitectura: una decisión que se puede explicar</title><desc id="d">Croquis conceptual original de planos abstractos y relaciones entre intención, decisión y representación; no es un proyecto arquitectónico real.</desc><rect width="640" height="480" rx="18" fill="#101010"/>
+<g stroke="#584b40" stroke-width="1"><path d="M40 360 320 200 600 360 320 460Z" fill="none"/><path d="M40 300 320 140 600 300 320 400Z" fill="none"/><path d="M40 240 320 80 600 240 320 340Z" fill="none"/></g>
+<path d="m130 300 190-108 190 108-190 110Z" fill="#36271d" stroke="#f3ece2" stroke-width="3"/>
+<path d="M160 282V165l160-92v119Z" fill="#c2a384"/><path d="m320 73 160 92v117l-160-90Z" fill="#ff7139"/>
+<path d="M200 260v-72l78-44v73Z" fill="#18120e"/><path d="m365 144 72 43v73l-72-43Z" fill="#18120e"/>
+<path d="M102 115h80l30 35M480 125h65M320 370v50" fill="none" stroke="#f3ece2" stroke-width="2"/>
+<g fill="#f3ece2" font-family="system-ui,sans-serif"><text x="38" y="46" font-size="22" letter-spacing="2">EXPLICAR UNA DECISIÓN</text><text x="55" y="100" font-size="22">Intención</text><text x="490" y="112" font-size="22">Decisión</text><text x="242" y="449" font-size="22">Representación</text></g></svg>
