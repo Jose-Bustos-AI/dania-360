@@ -4556,8 +4556,14 @@
         {
           "url": "https://nexosalud.es/agencia",
           "access": "indexed_result_only_direct_page_no_readable_lines",
-          "observation": "El resultado indexado presenta marketing para nutricionistas y un servicio centrado en campañas y embudos. La apertura directa no ofrece texto legible; no se considera una oferta completa verificada ni prueba de demanda.",
-          "checkedDateMadrid": "2026-11-02"
+          "observation": "El resultado indexado presenta marketing para nutricionistas y un servicio centrado en campañas y embudos. La apertura directa no ofrece texto legible; no se considera una oferta completa verificada ni prueba de demanda. La apertura directa del 3 de noviembre sigue devolviendo cero líneas legibles; se conserva como evidencia parcial.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "indexed_result_only_direct_page_no_readable_lines"
+            }
+          ]
         }
       ],
       "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. No hay datos de volumen, dificultad, tendencia ni puesto puntual en Google España.",
@@ -5010,7 +5016,7 @@
     "h1": "Gestión de redes sociales para residencias de mayores",
     "hubGroup": "salud-cuidados",
     "layout": "residencias-mayores",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -5031,7 +5037,8 @@
       ],
       "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": "Añadida una conexión contextual que distingue el centro residencial del servicio de ayuda a domicilio, solo cuando la empresa también lo preste."
     },
     "resourcePresentation": {
       "description": "La propuesta completa de espacios y texto de acompañamiento, con los puntos que debe confirmar el centro.",
@@ -5282,7 +5289,7 @@
     "h1": "Gestión de redes sociales para centros de terapia ocupacional",
     "hubGroup": "salud-cuidados",
     "layout": "terapia-ocupacional",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -5298,18 +5305,31 @@
           "url": "https://medicalmarketing.digital/es/marketing-terapia-ocupacional/",
           "access": "primary_page_direct_read",
           "observation": "Oferta especializada que insiste en explicar el servicio y el contacto local. No se adoptan sus generalizaciones sobre quién decide, duración de tratamientos, resultados o supuestos de búsqueda.",
-          "checkedDateMadrid": "2026-11-02"
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "primary_page_direct_read"
+            }
+          ]
         },
         {
           "url": "https://coptoand.org/conocenos/que-es-la-terapia-ocupacional/",
           "access": "primary_page_direct_read",
-          "observation": "Fuente profesional que sitúa ocupaciones de la vida diaria, participación y contexto. Se utiliza ese marco para comunicar con claridad, sin inventar intervención, habilidades, prestaciones ni resultados.",
-          "checkedDateMadrid": "2026-11-02"
+          "observation": "Fuente profesional que sitúa ocupaciones de la vida diaria, participación y contexto. Se utiliza ese marco para comunicar con claridad, sin inventar intervención, habilidades, prestaciones ni resultados. Lectura directa revalidada el 3 de noviembre: ocupaciones diarias, participación y contexto. Los ejemplos de actividades son ilustraciones editoriales, no pautas de salud.",
+          "checkedDateMadrid": "2026-11-03",
+          "accessHistory": [
+            {
+              "date": "2026-11-02",
+              "access": "primary_page_direct_read"
+            }
+          ]
         }
       ],
       "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": "Revisado el ejemplo para explicar persona, actividad y entorno con lenguaje concreto y actividades cotidianas conceptuales. Añadida una conexión contextual al área de logopedia cuando el centro la ofrezca. No se propone una intervención ni se atribuyen servicios al lector."
     },
     "resourcePresentation": {
       "description": "Las tres claves de lectura, la publicación y una primera respuesta completas para adaptar con el equipo del centro.",
@@ -5329,7 +5349,7 @@
       "",
       "La actividad",
       "",
-      "El equipo sitúa qué parte de su trabajo quiere explicar y cómo se relaciona con las actividades cotidianas. La publicación se centra en una idea que pueda comprenderse.",
+      "El profesional puede partir de una actividad cotidiana, como vestirse o preparar una comida, para explicar el ámbito de su trabajo. La pieza relaciona esa actividad con la persona y su entorno, sin proponer una pauta individual.",
       "",
       "El entorno",
       "",
@@ -5337,7 +5357,7 @@
       "",
       "Texto de presentación del centro",
       "",
-      "Conocer la terapia ocupacional también empieza por entender cómo se relaciona con la vida cotidiana. En nuestro centro podemos explicarte qué trabajo realiza el equipo y qué servicios ofrece. Si quieres informarte, contacta por el canal del perfil: te orientaremos sobre el funcionamiento y la forma de consultar con el profesional. Puedes hacerlo como persona interesada o para acompañar a alguien que quiera conocer el centro. Las situaciones individuales se estudian en el entorno de atención correspondiente.",
+      "La terapia ocupacional se interesa por la participación en las actividades de la vida diaria. Para explicarlo, en esta pieza relacionamos tres preguntas: qué actividad importa a la persona, cómo participa en ella y en qué entorno se realiza. El equipo de nuestro centro puede contarte cómo se concreta ese enfoque en los servicios que ofrece. Si quieres conocer su funcionamiento, utiliza el canal del perfil. Puedes informarte como persona interesada o acompañar a alguien que quiera hacerlo; las situaciones individuales se estudian con el profesional.",
       "",
       "Respuesta a una petición de información",
       "",
