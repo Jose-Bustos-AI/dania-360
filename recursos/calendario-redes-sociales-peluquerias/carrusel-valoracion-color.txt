@@ -1,0 +1,49 @@
+Guion adaptable: valoración del color en una peluquería
+
+Ejemplo ficticio de producción de Dania360. No es un caso de cliente, un presupuesto ni una promesa de resultado.
+
+Antes de diseñar
+Servicio real del salón:
+Persona que revisa el proceso:
+Canal público para solicitar valoración:
+Persona que confirma cómo se pide cita:
+Coste y condiciones de la valoración, si los tiene:
+Qué incluye el presupuesto y cuándo se comunica:
+Fecha real de revisión:
+
+Pantalla 1
+Texto: Antes de presupuestar tus mechas, hablamos de tu cabello.
+Imagen: profesional junto al tocador, sin otras personas identificables en el espejo.
+Comprobar: el salón ofrece esa valoración y puede explicar cómo se solicita.
+
+Pantalla 2
+Texto: Cuéntanos qué color llevas y qué cambio buscas.
+Imagen: herramientas sobre una superficie despejada, sin fichas ni datos de clientes.
+Comprobar: qué información inicial pide el salón y qué debe revisarse presencialmente.
+
+Pantalla 3
+Texto: En la valoración concretamos el servicio y su presupuesto.
+Imagen: carta de servicios propia y vigente; si no está revisada, una pantalla de texto.
+Comprobar: contenido del presupuesto y momento en que se comunica. No inventar un precio.
+
+Pantalla 4
+Texto: Solicita tu valoración por el canal de nuestra bio.
+Imagen: página pública de contacto, sin conversaciones ni reservas de terceros.
+Comprobar: destino del enlace y persona que atiende. Si el canal real es otro, adaptar pantalla y pie.
+
+Pie adaptable
+El presupuesto de unas mechas empieza por conocer el trabajo que necesitas. En nuestra valoración revisamos tu punto de partida y el cambio que buscas para proponerte un servicio y un presupuesto. Solicita la valoración desde el enlace de nuestra bio.
+
+Revisión final
+El texto describe el proceso real del salón:
+Coste y condiciones de la valoración visibles antes de confirmar, si existen:
+Imágenes propias o autorizadas para este uso, sin datos de terceros:
+Canal y enlace probados desde un móvil:
+Responsable del servicio ha aprobado el texto:
+Responsable de agenda ha confirmado el siguiente paso:
+Pendientes antes de programar:
+
+Solicitar valoración no confirma el servicio de mechas ni su precio. Si faltan datos, dejar la pieza pendiente.
+
+Guía de contexto: https://dania360.com/recursos/calendario-redes-sociales-peluquerias/#carrusel-color
+Servicio de Dania360: https://dania360.com/salones-estetica/
