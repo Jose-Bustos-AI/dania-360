@@ -100,6 +100,8 @@
     banner.className = 'dania-consent';
     banner.setAttribute('role', 'dialog');
     banner.setAttribute('aria-label', 'Preferencias de privacidad');
+    // Excluir solo el aviso de los fragmentos, sin ocultarlo a las personas.
+    banner.setAttribute('data-nosnippet', '');
     banner.innerHTML =
       '<div class="dania-consent__copy">' +
         '<strong>Tu privacidad importa</strong>' +
