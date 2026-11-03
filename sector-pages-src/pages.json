@@ -2090,19 +2090,19 @@
     "title": "Gestión de redes sociales para centros de neumáticos | Dania360",
     "description": "Haz comprensibles los servicios de tu centro de neumáticos y orienta las consultas. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para centros de neumáticos",
-    "eyebrow": "Del servicio a una consulta que el centro pueda estudiar",
+    "eyebrow": "Producto y servicio, con su referencia y su alcance",
     "lead": "Preparamos contenido que explica los servicios de tu centro de neumáticos y atendemos las consultas incluidas en Growth. Redes sociales, web y bot de IA por 297 €/mes, con la valoración profesional en manos de tu equipo.",
-    "promise": "Explica tus servicios y facilita el comienzo de la consulta.",
+    "promise": "Distingue lo que se vende de los trabajos que se pueden consultar.",
     "layout": "centros-neumaticos",
-    "artAlt": "Neumático conceptual junto a las tres partes de una consulta: vehículo, servicio y valoración del centro",
+    "artAlt": "Neumático conceptual junto a referencia, alcance y vigencia, sin marca, medida o precio",
     "artCaption": "Esquema editorial original. No es una recomendación de producto, medida o montaje.",
-    "resourceTitle": "Convertir una pregunta sobre neumáticos en una consulta que pueda revisar el centro",
+    "resourceTitle": "Dos publicaciones para diferenciar producto y servicio",
     "resourcePresentation": {
-      "description": "Una respuesta inicial y una publicación completas, con la información que debe revisar el centro al adaptarlas.",
-      "linkLabel": "Descargar el ejemplo de consulta de neumáticos",
+      "description": "Dos textos completos y las comprobaciones para presentar un producto o un servicio del centro.",
+      "linkLabel": "Descargar las publicaciones para neumáticos",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2112,7 +2112,7 @@
         "community manager centro neumáticos"
       ],
       "intent": "Centro especializado que quiere hacer comprensibles sus servicios y preparar consultas que pueda revisar su equipo.",
-      "distinctFrom": "Explicar lo que puede estudiar el centro y qué información inicial ayuda a orientar la consulta. El objetivo editorial es facilitar la conversación, no recomendar un neumático desde una publicación genérica.",
+      "distinctFrom": "Dos publicaciones completas distinguen una referencia de producto de un servicio y revisan referencia, alcance y vigencia. Sustituye el enfoque de recepción de consultas que se solapaba con talleres mecánicos; no recomienda compatibilidad ni reproduce la oferta de un operador.",
       "sources": [
         {
           "url": "https://duda-ssl-proxy.apps.qdqmedia.com/marketing-digital/sectores/talleres-y-automocion",
@@ -2129,37 +2129,36 @@
       ],
       "demand": "Investigación cualitativa de intención y contexto sectorial. Sin medición de volumen, dificultad o puesto puntual en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": {
+        "dateMadrid": "2026-11-03",
+        "reason": "Diferenciar el ejemplo de la recepción del taller mecánico general.",
+        "primaryOperatorRechecked": "https://www.euromaster-neumaticos.es/",
+        "limit": "La página del operador distingue productos y servicios. No prueba demanda de agencia, volumen, ranking o prioridad comercial. La búsqueda adicional devolvió resultados no pertinentes y no se usa como evidencia positiva."
+      }
     },
     "resource": [
-      "DE UNA PREGUNTA GENERAL A LA ATENCIÓN DEL CENTRO",
-      "Ejemplo editorial original de Dania360 para un negocio de neumáticos.",
+      "Dos publicaciones originales para adaptar",
       "",
-      "LA SITUACIÓN",
-      "Una persona pregunta por un servicio sin indicar el vehículo ni qué quiere consultar. Dar una cifra o recomendar un producto en ese punto puede dejar fuera información que necesita el profesional.",
+      "Una referencia de neumático y un servicio del centro no anuncian lo mismo",
       "",
-      "RESPUESTA PROPUESTA",
-      "Gracias por contactar. Cuéntanos qué vehículo tienes y qué servicio quieres consultar para trasladarlo al equipo del centro. Si hace falta ampliar algún dato, te indicarán cuál. El profesional revisará la información y te explicará cómo continuar.",
+      "La demostración no ofrece una marca, medida, precio o promoción reales. Cada texto se completa con material y condiciones que confirme el centro antes de utilizarlo.",
       "",
-      "POR QUÉ SE REDACTA ASÍ",
-      "La respuesta permite identificar el motivo del contacto. El centro decide qué información adicional necesita y quién puede valorarla. La recomendación de producto, la compatibilidad y el trabajo que proceda corresponden al profesional, con los datos que requiera.",
+      "Texto para presentar una referencia de producto",
       "",
-      "PUBLICACIÓN PROPUESTA SOBRE LA ATENCIÓN",
-      "Antes de hablar de un servicio para tus neumáticos, nuestro equipo necesita conocer qué quieres consultar y a qué vehículo se refiere. Podemos explicarte cómo atendemos esa primera petición y qué información hace falta para estudiarla. Escríbenos el motivo de tu consulta y continuamos desde ahí.",
+      "Esta publicación se dedica a una referencia de neumático. Antes de elegirla, interesa comprobar a qué producto corresponde la información y qué necesitas consultar para tu vehículo. Cuando presentamos una referencia de nuestro catálogo, identificamos sus datos con la información que puede confirmar el centro. La imagen conceptual de este ejemplo no representa un producto a la venta. Si quieres conocer una opción, escribe al contacto del perfil e indica la publicación por la que preguntas. El equipo revisará contigo la referencia, su compatibilidad y las condiciones que pueda ofrecerte. No se da por incluido ningún trabajo a partir de la fotografía.",
       "",
-      "MATERIAL DEL NEGOCIO",
-      "Una imagen de la recepción o del área de neumáticos puede acompañar el texto. El centro confirma los servicios que desea comunicar. Si se añade una promoción, facilita su alcance, las condiciones vigentes y la información que debe aparecer.",
+      "La referencia se valida con el profesional. No se deducen compatibilidad, montaje o disponibilidad del dibujo.",
       "",
-      "COMPROBACIÓN EDITORIAL",
-      "Evitar que una imagen genérica parezca una recomendación válida para cualquier vehículo. La publicación describe la atención del negocio; no da instrucciones de presión, montaje o mantenimiento.",
+      "Texto para presentar un servicio del centro",
       "",
-      "SEGUIMIENTO",
-      "Registrar la consulta y la respuesta del centro por separado de una cita o un trabajo aceptado. Esas etapas las confirma quien atiende al conductor."
+      "Una publicación sobre un servicio necesita explicar qué trabajo se está presentando. En esta propuesta editorial, el centro elige una prestación de su oferta y aclara su alcance antes de difundirla. El texto definitivo indica qué incluye, qué condiciones deben consultarse y por qué canal continuar. No anuncia una promoción ni una intervención válida para cualquier vehículo. Si te interesa el servicio que presentamos, cuéntanos qué quieres consultar e identifica la pieza que has visto. El profesional revisará la información necesaria y te explicará la propuesta. Un precio de producto y el presupuesto de un trabajo no se presentan como equivalentes.",
+      ""
     ],
     "faq": [
       [
-        "¿Podéis publicar promociones del centro de neumáticos?",
-        "Sí, cuando el negocio facilite la oferta vigente, su alcance y sus condiciones. La publicación debe identificar qué producto o servicio presenta y la información que haya validado el centro."
+        "¿Cómo evitáis confundir un precio de neumático con el alcance de un servicio?",
+        "El centro identifica qué se presenta y confirma sus condiciones. El contenido distingue la referencia de producto del trabajo que puede contratarse, sin dar por incluidos montaje u otras prestaciones a partir de una imagen. Cualquier promoción se publica con información vigente validada por el negocio."
       ],
       [
         "¿El equipo de redes recomienda el neumático para cada vehículo?",
