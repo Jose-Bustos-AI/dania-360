@@ -11,7 +11,7 @@ Demostración conceptual para adaptar a una especialidad real. Se utiliza un dib
 
 La pregunta que abre el trabajo
 
-Plano general del esquema. Texto en pantalla: Antes de elegir una distribución, hay que entender su uso. La pieza presenta la cuestión que el equipo estudia, sin atribuir un problema a una instalación o a un cliente reales.
+Plano general del esquema. Texto en pantalla: Primero, entender el uso. La pieza presenta la cuestión que el equipo estudia, sin atribuir un problema a una instalación o a un cliente reales.
 
 04–10 s
 
