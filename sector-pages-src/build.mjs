@@ -1,4 +1,4 @@
-import {readFileSync, writeFileSync, mkdirSync, copyFileSync} from 'node:fs';
+import {readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
@@ -62,10 +62,14 @@ const groupNavigation = catalog.length > 1 ? `<nav class="actions" aria-label="�
 const hubBody = `<nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Sectores</span></nav><section class="hub-hero"><p class="kicker">Dania360 · Soluciones por actividad</p><h1>Gestión de redes sociales por sectores</h1><p><a href="#${esc(catalog[0].id)}">Elige tu actividad</a> para conocer el enfoque del contenido, un ejemplo de trabajo y cómo atendemos las consultas. El servicio debe explicar lo que vendes y ayudar a quien está valorando contratarte.</p><p>Growth reúne gestión de redes sociales, web y bot de IA por 297 €/mes. Los ejemplos de cada sector son propuestas editoriales; no representan clientes ni resultados obtenidos.</p>${groupNavigation}</section>${groupSections}<section class="section"><h2>Servicios, comercios y negocios locales</h2><div class="sector-grid">${cards(existing)}</div></section><section class="closing"><h2>¿Tu actividad combina varios servicios?</h2><p>Cuéntanos cuál es tu cliente y qué trabajo quieres priorizar. Te orientaremos hacia el enfoque que mejor encaje, sin obligarte a presentar todos tus servicios de la misma manera.</p><a class="button" href="https://wa.me/34631105772?text=${encodeURIComponent('Hola, quiero una auditoría gratuita para mi negocio. Mi actividad es:')}" data-cta="sectores-auditoria">Pide tu auditoría gratis</a><p><a href="/gestion-redes-sociales/">Consultar el servicio de gestión de redes sociales</a></p></section>`;
 const hubTitle = 'Gestión de redes sociales por sectores | Dania360';
 const hubDescription = 'Encuentra la gestión de redes sociales para tu actividad. Ejemplos y enfoques por sector, con web y bot de IA en Growth por 297 €/mes. Auditoría gratis.';
-writeFileSync(resolve(root, 'sectores/index.html'), shell({path:'/sectores/',title:hubTitle,description:hubDescription,body:hubBody,graph:[organization,{'@type':'CollectionPage',url:site+'/sectores/',name:hubTitle,description:hubDescription,mainEntity:{'@type':'ItemList',itemListElement:[...catalog.flatMap(group=>group.pages.map(p=>[pathFor(p),p.name])),...existing].map(([url,name],i)=>({'@type':'ListItem',position:i+1,name,url:site+url}))}}]}),'utf8');
+const hubOutput = resolve(root, 'sectores/index.html');
+const hubHtml = shell({path:'/sectores/',title:hubTitle,description:hubDescription,body:hubBody,graph:[organization,{'@type':'CollectionPage',url:site+'/sectores/',name:hubTitle,description:hubDescription,mainEntity:{'@type':'ItemList',itemListElement:[...catalog.flatMap(group=>group.pages.map(p=>[pathFor(p),p.name])),...existing].map(([url,name],i)=>({'@type':'ListItem',position:i+1,name,url:site+url}))}}]});
+const hubChanged = !existsSync(hubOutput) || readFileSync(hubOutput,'utf8').replaceAll('\r\n','\n') !== hubHtml.replaceAll('\r\n','\n');
+writeFileSync(hubOutput, hubHtml, 'utf8');
 // Authored content dates: a rebuild must not pretend every page changed today.
 let sitemap = readFileSync(resolve(root, 'sitemap.xml'), 'utf8');
-const hubModified = pages.map(p=>p.contentModified).sort().at(-1);
+const previousHubDate = sitemap.match(/<url>\s*<loc>https:\/\/dania360\.com\/sectores\/<\/loc>\s*<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/)?.[1];
+const hubModified = !hubChanged && previousHubDate ? previousHubDate : pages.map(p=>p.contentModified).sort().at(-1);
 for (const [path,modified] of [['/sectores/',hubModified],...pages.map(p=>[pathFor(p),p.contentModified])]) {
   const loc = `<loc>${site}${path}</loc>`;
   if (!sitemap.includes(loc)) sitemap = sitemap.replace('</urlset>', `  <url>${loc}<lastmod>${modified}</lastmod></url>\n</urlset>`);
