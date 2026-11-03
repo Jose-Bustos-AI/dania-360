@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Limpieza: explicar un servicio periódico</title><desc id="d">Ilustración propia de una oficina abstracta y una tarjeta de espacio, frecuencia y alcance. No representa un cliente ni acredita desinfección.</desc><rect width="640" height="480" rx="18" fill="#11100e"/>
+<rect x="38" y="100" width="310" height="313" rx="10" fill="#e4d5bd"/>
+<g fill="#a98b69" stroke="#3d2c1e" stroke-width="3"><rect x="73" y="146" width="96" height="64" rx="5"/><rect x="214" y="146" width="96" height="64" rx="5"/><rect x="73" y="292" width="96" height="64" rx="5"/><rect x="214" y="292" width="96" height="64" rx="5"/></g>
+<g fill="#ff7139"><rect x="104" y="221" width="34" height="24" rx="5"/><rect x="245" y="221" width="34" height="24" rx="5"/><rect x="104" y="259" width="34" height="24" rx="5"/><rect x="245" y="259" width="34" height="24" rx="5"/></g>
+<g fill="#f3ece2" font-family="system-ui,sans-serif"><text x="36" y="48" font-size="22" letter-spacing="1">HACER VISIBLE EL ALCANCE</text><text x="387" y="158" font-size="22">Espacio</text><text x="387" y="257" font-size="22">Frecuencia</text><text x="387" y="356" font-size="22">Alcance</text></g>
+<path d="M387 182h204M387 281h204M387 380h204" stroke="#64503e" stroke-width="4"/></svg>

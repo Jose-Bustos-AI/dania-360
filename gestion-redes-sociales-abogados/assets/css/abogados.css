@@ -216,3 +216,12 @@ footer nav a:hover, footer nav a:focus-visible { color: #fff; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Texto oscuro sobre el fondo claro; el subrayado conserva el naranja de marca. */
+.sector-brief__example a {
+  color: #17222b;
+  text-decoration: underline;
+  text-decoration-color: #ff7139;
+  text-underline-offset: 4px;
+}
+.sector-brief__example a:hover { color: #17222b; text-decoration-thickness: 2px; }

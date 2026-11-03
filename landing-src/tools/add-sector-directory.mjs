@@ -26,7 +26,7 @@ const cards = sectors
   .map(([url, name, detail]) =>
     `<a href="${url}" class="sector-directory__card"><strong>Gestión de redes sociales para ${name.toLowerCase()}</strong><span>${detail}</span><span aria-hidden="true">Ver solución →</span></a>`)
   .join('');
-const section = `${marker}<section class="sector-directory" aria-labelledby="sector-directory-title"><div class="section-heading centered"><span class="section-kicker">Soluciones por sector</span><h2 id="sector-directory-title">Una estrategia adaptada <em>a tu negocio.</em></h2><p>Consulta ejemplos, canales y planes específicos para tu actividad.</p></div><div class="sector-directory__grid">${cards}</div><p class="sector-directory__all"><a href="/gestion-redes-sociales/">Cómo funciona nuestro servicio de gestión de redes sociales →</a></p></section>`;
+const section = `${marker}<section class="sector-directory" aria-labelledby="sector-directory-title"><div class="section-heading centered"><span class="section-kicker">Soluciones por sector</span><h2 id="sector-directory-title">Una estrategia adaptada <em>a tu negocio.</em></h2><p>Consulta ejemplos, canales y planes específicos para tu actividad.</p></div><div class="sector-directory__grid">${cards}</div><p class="sector-directory__all"><a href="/sectores/">Ver todas las soluciones por sector →</a> · <a href="/gestion-redes-sociales/">Cómo funciona nuestro servicio de gestión de redes sociales →</a></p></section>`;
 
 const markerIndex = html.indexOf(marker);
 const footerIndex = html.indexOf(footer);
