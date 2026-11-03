@@ -3597,7 +3597,15 @@
       ],
       "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "sourceRecheckAttempts": [
+        {
+          "dateMadrid": "2026-11-03",
+          "url": "https://migacreativa.com/",
+          "result": "direct_open_timeout_again",
+          "consequence": "Conservar como lectura parcial; no atribuir contenido completo o demanda española al resultado."
+        }
+      ]
     },
     "title": "Gestión de redes sociales para panaderías | Dania360",
     "description": "Da a conocer tus piezas y el trabajo del obrador con material e información de la panadería. Gestión de redes, web y bot de IA por 297 €/mes.",
@@ -3819,7 +3827,7 @@
     "hubGroup": "alimentacion",
     "h1": "Gestión de redes sociales para empresas de catering",
     "layout": "catering",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "resource": [
       "UNA CONSULTA DE CATERING CON OCASIÓN, LUGAR Y SERVICIO",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -3876,7 +3884,12 @@
       ],
       "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": {
+        "dateMadrid": "2026-11-03",
+        "change": "Enlace contextual para distinguir el servicio de catering de la presentación del recinto.",
+        "newPage": false
+      }
     },
     "title": "Gestión de redes sociales para catering | Dania360",
     "description": "Explica el servicio de tu catering y recibe consultas de eventos con contexto comercial. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
@@ -4007,7 +4020,7 @@
     "hubGroup": "alimentacion",
     "h1": "Gestión de redes sociales para bodegas",
     "layout": "bodegas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "resource": [
       "UNA REFERENCIA DE BODEGA Y SU CONSULTA PROFESIONAL",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4032,7 +4045,7 @@
       "",
       "Texto de presentación propuesto",
       "",
-      "Una referencia también permite conocer una parte del trabajo de la bodega. En esta pieza identificamos uno de nuestros productos y nos detenemos en un detalle que el equipo puede explicar. Si quieres ampliar la información sobre la referencia o conocer cómo contactar con nuestro área comercial, cuéntanos qué necesitas y te indicaremos cómo continuar.",
+      "Una referencia también permite conocer una parte del trabajo de la bodega. En esta pieza identificamos uno de nuestros productos y nos detenemos en un detalle que el equipo puede explicar. Si quieres ampliar la información sobre la referencia o conocer cómo contactar con nuestra área comercial, cuéntanos qué necesitas y te indicaremos cómo continuar.",
       "",
       "Respuesta propuesta a un contacto profesional",
       "",
@@ -4064,7 +4077,12 @@
       ],
       "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "editorialRevision": {
+        "dateMadrid": "2026-11-03",
+        "change": "Corrección gramatical de nuestra área comercial en el ejemplo y el descargable.",
+        "newPage": false
+      }
     },
     "title": "Gestión de redes sociales para bodegas | Dania360",
     "description": "Presenta tu marca y tus referencias de vino con información confirmada de la bodega. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
@@ -4239,14 +4257,23 @@
         },
         {
           "url": "https://farmaove.com/",
+          "access": "primary_marketing_provider_homepage_direct_read",
+          "observation": "Lectura directa resuelta el 3 de noviembre. La consultora incluye almazaras y marcas de aceite entre sus sectores y ofrece marketing digital y redes. No se adoptan clientes, experiencia, planes comerciales, servicios, fotografía, tienda online o promesas de ventas. No acredita volumen de búsqueda.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "searchVolume": null,
+      "googlePosition": null,
+      "sourceReviewHistory": [
+        {
+          "url": "https://farmaove.com/",
           "access": "indexed_result_latest_direct_open_timeout",
           "observation": "Resultado específico de agencia para almazaras y marcas de aceite; la apertura agotó el tiempo. Evidencia cualitativa parcial, sin considerar leído el cuerpo o adoptar sus credenciales.",
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
-      "searchVolume": null,
-      "googlePosition": null
+      "sourceRecheckedDateMadrid": "2026-11-03"
     },
     "title": "Gestión de redes sociales para almazaras | Dania360",
     "description": "Explica tu aceite con información de producto y elaboración confirmada por la almazara. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
@@ -4341,7 +4368,15 @@
       ],
       "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "sourceRecheckAttempts": [
+        {
+          "dateMadrid": "2026-11-03",
+          "url": "https://digitalweb.pt/gestao-de-redes-sociais/gestao-de-redes-sociais-food-trucks/",
+          "result": "direct_open_timeout_again",
+          "consequence": "Conservar como lectura parcial; no atribuir contenido completo o demanda española al resultado."
+        }
+      ]
     },
     "title": "Gestión de redes sociales para food trucks | Dania360",
     "description": "Comunica tu propuesta gastronómica y distingue agenda, presencias y consultas de eventos. Growth incluye redes, web y bot de IA por 297 €/mes.",
