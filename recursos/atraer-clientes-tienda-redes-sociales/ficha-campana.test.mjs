@@ -82,7 +82,12 @@ test('FAQ schema usa exactamente preguntas y respuestas visibles', () => {
   assert.deepEqual(marked, visible);
   const article = graph.find(node => node['@type'] === 'Article');
   for (const property of ['headline', 'image', 'datePublished', 'author']) assert.ok(article[property]);
-  assert.equal(article.dateModified, '2026-10-21');
+  assert.match(article.dateModified, /^\d{4}-\d{2}-\d{2}$/);
+  assert.equal(html.match(/<meta property="article:modified_time" content="([^"]+)"/)[1], article.dateModified);
+  const sitemap = readFileSync(new URL('../../sitemap.xml', import.meta.url), 'utf8');
+  assert.equal(sitemap.match(/<loc>https:\/\/dania360\.com\/recursos\/atraer-clientes-tienda-redes-sociales\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)[1], article.dateModified);
+  const visibleDate = new Date(`${article.dateModified}T00:00:00Z`).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  assert.ok(html.includes(`actualizado el ${visibleDate}`), 'fecha visible coherente con Article, Open Graph y sitemap');
 });
 test('la herramienta no añade red, almacenamiento ni paquetes de terceros', () => {
   const source = readFileSync(new URL('./ficha-campana.mjs', import.meta.url), 'utf8');
