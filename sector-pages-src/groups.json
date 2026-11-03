@@ -26,5 +26,9 @@
   {
     "id": "salud-cuidados",
     "title": "Salud y cuidados"
+  },
+  {
+    "id": "servicios-empresas",
+    "title": "Servicios para empresas"
   }
 ]
