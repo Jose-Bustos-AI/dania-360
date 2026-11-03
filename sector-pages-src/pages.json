@@ -2692,41 +2692,38 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para campings",
     "layout": "campings",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-03",
     "resource": [
-      "UNA PUBLICACIÓN DE CAMPING Y UNA RESPUESTA SOBRE OTRA MODALIDAD",
-      "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
+      "Una publicación y su respuesta, para adaptar",
       "",
-      "Ejemplo editorial original",
+      "La estancia que se muestra y los servicios que hay que confirmar",
       "",
-      "Una publicación que identifica lo que se muestra",
+      "Esta demostración editorial no representa un camping real ni anuncia servicios abiertos, parcelas o alojamientos disponibles. Se completa con las condiciones que valide el establecimiento.",
       "",
-      "Esta propuesta se adapta a una modalidad real del camping. No anuncia parcelas, alojamientos o fechas disponibles de un establecimiento cliente.",
+      "Modalidad",
       "",
-      "Qué modalidad aparece",
+      "Se identifica si la pieza presenta una parcela, un alojamiento u otra opción confirmada. Una zona común no se presenta como parte privada de esa estancia.",
       "",
-      "El equipo identifica el material y el nombre que utiliza para esa modalidad.",
+      "Servicios",
       "",
-      "Qué permite conocer la imagen",
+      "El camping aclara qué corresponde a la modalidad y qué necesita una consulta aparte. No se deduce de la fotografía que una actividad o instalación esté incluida.",
       "",
-      "Se elige un detalle que pueda explicar el camping, sin atribuir servicios que no correspondan.",
+      "Período",
       "",
-      "Dónde se consulta",
+      "La información temporal se revisa para las fechas de la consulta. Una publicación anterior no confirma por sí sola apertura, programación o condiciones actuales.",
       "",
-      "El cierre indica cómo continuar con el personal que confirma la estancia.",
+      "Publicación para preparar las preguntas de estancia",
       "",
-      "Texto propuesto",
+      "La imagen te ayuda a reconocer una modalidad; la información te permite preparar la estancia. Antes de decidir, interesa conocer qué incluye esa opción, cuáles son servicios del recinto y qué debe consultarse para tus fechas. Esta propuesta muestra cómo ordenar esas preguntas y no corresponde a un camping real. Cuando compartimos nuestra oferta, acompañamos cada espacio con datos confirmados y un contacto para ampliar la información. Escríbenos a qué modalidad se refiere tu consulta y para qué período estás preparando la estancia. Nuestro equipo te explicará la oferta vigente y cómo consultar sus condiciones.",
       "",
-      "En el camping hay distintas formas de preparar una estancia. Hoy nos detenemos en una de las modalidades que ofrecemos para que puedas conocerla antes de consultar. La imagen corresponde a esa zona y nuestro equipo puede explicarte qué incluye. Cuéntanos qué tipo de estancia estás buscando y para qué fechas quieres informarte.",
+      "Respuesta a una pregunta sobre un servicio del recinto",
       "",
-      "Si el viajero pregunta por otra modalidad",
-      "",
-      "Gracias por escribir. Esta publicación presenta una modalidad concreta del camping. Dinos cuál te interesa y qué necesitas conocer para trasladar la consulta al equipo. Te explicarán qué opciones pueden ofrecerte y cómo continuar.",
+      "Gracias por escribir. Indícanos qué modalidad estás valorando, a qué publicación te refieres y por qué servicio quieres preguntar. Si estás preparando una estancia, puedes situar también el período. El equipo comprobará qué información corresponde a esa opción y a esas fechas antes de explicarte cómo continuar. La imagen de una zona no confirma que el servicio esté incluido o abierto para tu visita. La disponibilidad y las condiciones de la estancia se confirman con el camping.",
       ""
     ],
     "resourcePresentation": {
-      "description": "El ejemplo completo de una publicación, sus tres comprobaciones editoriales y una respuesta para orientar otra modalidad de estancia.",
-      "linkLabel": "Descargar los textos de ejemplo para campings",
+      "description": "Una publicación completa, tres comprobaciones y una respuesta sobre servicios asociados a la estancia.",
+      "linkLabel": "Descargar el ejemplo de estancia y servicios del camping",
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
@@ -2738,7 +2735,7 @@
         "redes sociales camping"
       ],
       "intent": "Un camping que quiere explicar sus modalidades y zonas sin que una publicación lleve a consultar un alojamiento distinto del mostrado.",
-      "distinctFrom": "Identificar la modalidad de estancia que protagoniza cada publicación y separarla de servicios comunes y programación. El calendario operativo lo confirma el camping.",
+      "distinctFrom": "La publicación y su respuesta separan modalidad de estancia, servicios asociados y período. Evita repetir la secuencia genérica de imagen, detalle y consulta de hotel y no atribuye inclusión o apertura a partir de una fotografía.",
       "sources": [
         {
           "url": "https://www.turismecv.com/wp-content/uploads/sites/13/2022/10/Guia-Campings.pdf",
@@ -2748,31 +2745,45 @@
         },
         {
           "url": "https://articagency.com/agencia-de-marketing-para-campings/",
+          "access": "primary_marketing_provider_direct_read",
+          "observation": "La lectura directa se resolvió el 3 de noviembre. La oferta separa mantenimiento web, contenido y redes de motores de reserva y otras funciones. No se adoptan sus cifras, testimonios, ocupación, reservas prometidas, precios, frecuencia, grabación o automatizaciones. No acredita volumen de la consulta.",
+          "checkedDateMadrid": "2026-11-03"
+        }
+      ],
+      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "searchVolume": null,
+      "googlePosition": null,
+      "sourceReviewHistory": [
+        {
+          "url": "https://articagency.com/agencia-de-marketing-para-campings/",
           "access": "indexed_result_latest_direct_open_timeout",
           "observation": "El resultado presenta una agencia para campings; la apertura directa agotó el tiempo. No se considera contenido completo leído ni se usan afirmaciones no verificadas.",
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
-      "searchVolume": null,
-      "googlePosition": null
+      "editorialRevision": {
+        "dateMadrid": "2026-11-03",
+        "reason": "Reforzar la distinción frente a la presentación genérica de hotel, centrando el ejemplo en modalidad, servicios y período.",
+        "sourceRecheck": "https://articagency.com/agencia-de-marketing-para-campings/",
+        "historicalSourceLimit": "La guía de Turisme Comunitat Valenciana utiliza diagnóstico de 2021; no se usan sus cifras como demanda actual."
+      }
     },
     "title": "Gestión de redes sociales para campings | Dania360",
     "description": "Presenta las modalidades y zonas de tu camping con contenido claro y consultas bien orientadas. Gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Cada modalidad de estancia, su explicación",
+    "eyebrow": "Cada modalidad, sus servicios y su período",
     "lead": "Gestionamos las redes de tu camping para presentar sus modalidades, zonas y servicios confirmados. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Que cada publicación permita reconocer qué estancia se está presentando.",
-    "artAlt": "Parcela y alojamiento conceptuales conectados a una tarjeta de consulta del camping",
+    "promise": "Aclara qué corresponde a la estancia y qué se consulta para cada fecha.",
+    "artAlt": "Tienda de campaña y alojamiento conceptuales junto a modalidad, servicios y período, sin oferta real",
     "artCaption": "Dibujo editorial original. No anuncia zonas, servicios o plazas de un camping real.",
-    "resourceTitle": "Una publicación de camping y una respuesta sobre otra modalidad",
+    "resourceTitle": "Modalidad, servicios y período en una publicación de camping",
     "faq": [
       [
         "¿Podéis comunicar varias modalidades de estancia del camping?",
         "Sí, con las que ofrezca el establecimiento. Cada pieza identifica qué modalidad muestra y la información que confirme el equipo. Los servicios comunes y la programación se presentan con su contexto."
       ],
       [
-        "¿Cómo se revisan los servicios y la programación por temporada?",
-        "El camping aporta la información vigente y comunica los cambios que afecten al contenido. Una pieza temporal necesita el contexto que confirme el establecimiento antes de difundirse."
+        "¿Una imagen de una zona común permite anunciarla como incluida en todas las estancias?",
+        "No se deduce esa condición de la imagen. El camping confirma qué servicios corresponden a cada modalidad y qué información depende del período. Las publicaciones se preparan con esos datos y se revisan cuando el establecimiento comunica cambios."
       ],
       [
         "¿El bot de Growth confirma plazas o sincroniza reservas?",
