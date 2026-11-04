@@ -50,6 +50,8 @@ Espacio y municipio:
 Alcance previsto y estado de la vivienda:
 Canal para estudiar el encargo:
 Confirmación de visita y presupuesto por la empresa:
+Resumen para el equipo: estancia, municipio, cambio solicitado y datos pendientes.
+Si la persona ya facilitó un dato, pásalo al equipo para que no tenga que volver a pedirlo.
 
 REVISIÓN ANTES DE PUBLICAR
 Responsable que revisa el texto y los datos del trabajo:
