@@ -1,5 +1,46 @@
 [
-  {"id":"oficios","title":"Oficios, construcción e instalaciones"},
-  {"id":"proyectos-espacios","title":"Arquitectura, diseño y espacios exteriores"},
-  {"id":"servicios-inmuebles","title":"Servicios para inmuebles y comunidades"}
+  {
+    "id": "oficios",
+    "title": "Oficios, construcción e instalaciones"
+  },
+  {
+    "id": "proyectos-espacios",
+    "title": "Arquitectura, diseño y espacios exteriores"
+  },
+  {
+    "id": "servicios-inmuebles",
+    "title": "Servicios para inmuebles y comunidades"
+  },
+  {
+    "id": "automocion",
+    "title": "Automoción y formación vial"
+  },
+  {
+    "id": "turismo",
+    "title": "Turismo y alojamientos"
+  },
+  {
+    "id": "alimentacion",
+    "title": "Alimentación y celebraciones"
+  },
+  {
+    "id": "salud-cuidados",
+    "title": "Salud y cuidados"
+  },
+  {
+    "id": "servicios-empresas",
+    "title": "Servicios para empresas"
+  },
+  {
+    "id": "comercio-especializado",
+    "title": "Comercio especializado y tiendas online"
+  },
+  {
+    "id": "creatividad-eventos",
+    "title": "Creación y servicios para eventos"
+  },
+  {
+    "id": "escuelas-clubes",
+    "title": "Escuelas y clubes"
+  }
 ]
