@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Dos motivos de consulta para alquiler</title>
+<desc id="art-desc">Dos llaves abstractas y tarjetas de duración representan un desplazamiento puntual y una necesidad prolongada. No indican precios ni disponibilidad.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#15120f"/>
+<text x="42" y="60" fill="#eee5d5" font-size="27" font-weight="700">¿QUÉ NECESITAS CUBRIR?</text>
+<rect x="42" y="94" width="266" height="337" rx="18" fill="#eee5d5"/><rect x="332" y="94" width="266" height="337" rx="18" fill="#34261b" stroke="#b8a38a" stroke-width="2"/>
+<circle cx="174" cy="187" r="46" fill="none" stroke="#FF7139" stroke-width="17"/>
+<path d="M174 231V322M174 286H201M174 314H194" fill="none" stroke="#FF7139" stroke-width="17" stroke-linecap="round"/>
+<circle cx="464" cy="187" r="46" fill="none" stroke="#eee5d5" stroke-width="17"/>
+<path d="M464 231V322M464 286H491M464 314H484" fill="none" stroke="#eee5d5" stroke-width="17" stroke-linecap="round"/>
+<text x="91" y="376" fill="#3c3027" font-size="25" font-weight="700">Un momento</text><text x="117" y="407" fill="#3c3027" font-size="24">concreto</text>
+<text x="382" y="376" fill="#eee5d5" font-size="25" font-weight="700">Un periodo</text><text x="407" y="407" fill="#eee5d5" font-size="24">más largo</text>
+
+</g>
+</svg>

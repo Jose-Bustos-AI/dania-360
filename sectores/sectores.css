@@ -299,3 +299,1317 @@
   .fincas-route-branches article,.security-piece-copy{padding:24px}
   .fincas-route-branches{gap:18px}
 }
+
+/* Mechanical workshops: reception copy and the stages confirmed by the garage. */
+.layout-talleres-mecanicos h1{font-size:clamp(2.15rem,3.7vw,3.8rem);max-width:23ch}
+.layout-talleres-mecanicos .workshop-opening,.layout-talleres-mecanicos .workshop-material,.layout-talleres-mecanicos .workshop-followup{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-talleres-mecanicos .workshop-service-copy p,.layout-talleres-mecanicos .workshop-service-intro>p:not(.kicker),.layout-talleres-mecanicos .workshop-example-heading>p:not(.kicker){color:var(--muted)}
+.layout-talleres-mecanicos .workshop-reception{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:stretch}
+.layout-talleres-mecanicos .workshop-example-heading{grid-column:1/-1;max-width:850px}
+.layout-talleres-mecanicos .workshop-post{border-left:4px solid var(--orange);padding:32px;background:#19130f}
+.layout-talleres-mecanicos .workshop-post h3,.layout-talleres-mecanicos .workshop-first-reply h3{font-size:1.4rem;margin-bottom:22px}
+.layout-talleres-mecanicos .workshop-post p{margin-bottom:0}
+.layout-talleres-mecanicos .workshop-first-reply{border:1px solid var(--line);padding:28px}
+.layout-talleres-mecanicos .workshop-first-reply .scope{font-size:.87rem;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin:22px 0 0}
+.layout-talleres-mecanicos .workshop-material>.section-intro,.layout-talleres-mecanicos .workshop-followup>.section-intro{margin:0}
+.layout-talleres-mecanicos .workshop-material-list{margin:0}
+.layout-talleres-mecanicos .workshop-material-list>div{border-top:1px solid var(--line);padding:18px 0}
+.layout-talleres-mecanicos .workshop-material-list>div:first-child{padding-top:0;border-top:0}
+.layout-talleres-mecanicos .workshop-material-list dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-talleres-mecanicos .workshop-material-list dd{margin:0;color:var(--muted)}
+.layout-talleres-mecanicos .workshop-material>p,.layout-talleres-mecanicos .workshop-followup>p{grid-column:1/-1;color:var(--muted);max-width:86ch}
+.layout-talleres-mecanicos .workshop-contact-stages{padding-left:24px;margin:0}
+.layout-talleres-mecanicos .workshop-contact-stages li+li{margin-top:28px}
+.layout-talleres-mecanicos .workshop-contact-stages li::marker{color:var(--orange);font-weight:750}
+.layout-talleres-mecanicos .workshop-contact-stages h3{margin-bottom:10px}
+.layout-talleres-mecanicos .workshop-contact-stages p{color:var(--muted);margin-bottom:0}
+
+/* Dealerships: model presentation frames and the responsibilities of the centre. */
+.layout-concesionarios .hero{grid-template-columns:1fr 1.1fr;gap:44px}
+.layout-concesionarios .hero figure{order:-1}
+.layout-concesionarios h1{font-size:clamp(2.15rem,3.6vw,3.65rem);max-width:22ch}
+.layout-concesionarios .dealership-local,.layout-concesionarios .dealership-production,.layout-concesionarios .dealership-followup{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-concesionarios .dealership-local-copy p,.layout-concesionarios .dealership-followup-copy p{color:var(--muted)}
+.layout-concesionarios .dealership-example-intro{max-width:850px}
+.layout-concesionarios .dealership-example-intro>p:not(.kicker){color:var(--muted)}
+.layout-concesionarios .dealership-storyboard{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:32px}
+.layout-concesionarios .dealership-storyboard article{border:1px solid var(--line);padding:28px 24px;background:#100e0b}
+.layout-concesionarios .dealership-storyboard article+article{border-left:0}
+.layout-concesionarios .dealership-storyboard h3{font-size:1.25rem;margin-bottom:20px}
+.layout-concesionarios .dealership-storyboard article>p:last-child{color:var(--muted);font-size:.95rem;margin-bottom:0}
+.layout-concesionarios .dealership-frame-label{color:var(--orange);font-size:.73rem;letter-spacing:.1em;font-weight:800;text-transform:uppercase;margin-bottom:22px}
+.layout-concesionarios .dealership-sample-copy{max-width:860px;margin-top:34px;border-left:3px solid var(--orange);padding:10px 0 10px 28px}
+.layout-concesionarios .dealership-sample-copy h3{font-size:1.4rem;margin-bottom:20px}
+.layout-concesionarios .dealership-sample-copy p{margin-bottom:0}
+.layout-concesionarios .dealership-production>.section-intro{margin:0}
+.layout-concesionarios .dealership-responsibilities{margin:0}
+.layout-concesionarios .dealership-responsibilities>div{border-top:1px solid var(--line);padding:18px 0}
+.layout-concesionarios .dealership-responsibilities>div:first-child{padding-top:0;border-top:0}
+.layout-concesionarios .dealership-responsibilities dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-concesionarios .dealership-responsibilities dd{margin:0;color:var(--muted)}
+.layout-concesionarios .dealership-production>p{grid-column:1/-1;color:var(--muted);max-width:86ch}
+@media(max-width:850px){
+  .layout-talleres-mecanicos .workshop-opening,.layout-talleres-mecanicos .workshop-material,.layout-talleres-mecanicos .workshop-followup,.layout-talleres-mecanicos .workshop-reception,.layout-concesionarios .hero,.layout-concesionarios .dealership-local,.layout-concesionarios .dealership-production,.layout-concesionarios .dealership-followup{grid-template-columns:1fr;gap:28px}
+  .layout-concesionarios .hero figure{order:0}
+  .layout-talleres-mecanicos .workshop-material>p,.layout-talleres-mecanicos .workshop-followup>p,.layout-concesionarios .dealership-production>p{grid-column:auto}
+  .layout-concesionarios .dealership-storyboard{grid-template-columns:1fr}
+  .layout-concesionarios .dealership-storyboard article+article{border-left:1px solid var(--line);border-top:0}
+}
+@media(max-width:540px){
+  .layout-talleres-mecanicos .workshop-post,.layout-talleres-mecanicos .workshop-first-reply,.layout-concesionarios .dealership-storyboard article{padding:24px}
+  .layout-concesionarios .dealership-sample-copy{padding-left:20px}
+}
+
+/* Used vehicles: editorial records that stay identifiable when a unit changes. */
+.layout-compraventa-coches .hero{grid-template-columns:1.15fr .85fr;align-items:start}
+.layout-compraventa-coches h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:23ch}
+.layout-compraventa-coches .hero figure{margin-top:16px}
+.layout-compraventa-coches .used-unit-priority,.layout-compraventa-coches .used-web-attention{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-compraventa-coches .used-unit-copy p,.layout-compraventa-coches .used-web-copy p{color:var(--muted)}
+.layout-compraventa-coches .used-example-heading{max-width:850px;margin-bottom:32px}
+.layout-compraventa-coches .used-example-heading>p:not(.kicker){color:var(--muted)}
+.layout-compraventa-coches .used-publication-note,.layout-compraventa-coches .used-availability-reply{display:grid;grid-template-columns:.65fr 1.35fr;column-gap:38px;row-gap:12px;border-top:1px solid var(--line);padding:28px 0}
+.layout-compraventa-coches .used-note-label{grid-column:1/-1;color:var(--orange);font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px}
+.layout-compraventa-coches .used-publication-note h3,.layout-compraventa-coches .used-availability-reply h3{grid-column:1;font-size:1.45rem;max-width:20ch}
+.layout-compraventa-coches .used-publication-note>p:not(.used-note-label),.layout-compraventa-coches .used-availability-reply>p:not(.used-note-label){grid-column:2;margin-bottom:0}
+.layout-compraventa-coches .used-note-detail{font-size:.88rem;color:var(--muted);padding-top:10px}
+.layout-compraventa-coches .used-publication-lifecycle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;list-style:none;padding:0;margin:34px 0}
+.layout-compraventa-coches .used-publication-lifecycle li{margin:0;padding:24px 26px 0 0;border-top:3px solid var(--orange)}
+.layout-compraventa-coches .used-publication-lifecycle li+li{padding-left:26px;border-left:1px solid var(--line)}
+.layout-compraventa-coches .used-publication-lifecycle h3{font-size:1.3rem;margin-bottom:18px}
+.layout-compraventa-coches .used-publication-lifecycle p,.layout-compraventa-coches .used-editorial-coordination>p{color:var(--muted)}
+.layout-compraventa-coches .used-editorial-coordination>p{max-width:84ch}
+
+/* Vehicle hire: two different rental intentions, compared in readable rows. */
+.layout-alquiler-vehiculos .hero{grid-template-columns:1.15fr .85fr;gap:42px}
+.layout-alquiler-vehiculos h1{font-size:clamp(2.1rem,3.3vw,3.4rem);max-width:25ch}
+.layout-alquiler-vehiculos .rental-modalities,.layout-alquiler-vehiculos .rental-information,.layout-alquiler-vehiculos .rental-reservation-channel{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
+.layout-alquiler-vehiculos .rental-modalities-copy p,.layout-alquiler-vehiculos .rental-contact-copy p{color:var(--muted)}
+.layout-alquiler-vehiculos .rental-needs-intro{max-width:890px;margin-bottom:34px}
+.layout-alquiler-vehiculos .rental-needs-intro>p:not(.kicker){color:var(--muted)}
+.layout-alquiler-vehiculos .rental-route{display:grid;grid-template-columns:.8fr 1fr 1.25fr;gap:28px;align-items:start;padding:28px 0;border-top:1px solid var(--line)}
+.layout-alquiler-vehiculos .rental-route-label{color:var(--orange);font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+.layout-alquiler-vehiculos .rental-route-intent h3{font-size:1.4rem;max-width:18ch}
+.layout-alquiler-vehiculos .rental-route-context{color:var(--muted);font-size:.96rem;margin:0}
+.layout-alquiler-vehiculos .rental-route-reply{background:var(--panel);border-left:3px solid var(--orange);padding:24px}
+.layout-alquiler-vehiculos .rental-route-reply>p:last-child{font-size:.96rem;margin-bottom:0}
+.layout-alquiler-vehiculos .rental-information>.section-intro{margin:0}
+.layout-alquiler-vehiculos .rental-information-list{margin:0}
+.layout-alquiler-vehiculos .rental-information-list>div{border-top:1px solid var(--line);padding:20px 0}
+.layout-alquiler-vehiculos .rental-information-list>div:first-child{padding-top:0;border-top:0}
+.layout-alquiler-vehiculos .rental-information-list dt{color:var(--orange);font-weight:750;margin-bottom:10px}
+.layout-alquiler-vehiculos .rental-information-list dd{margin:0;color:var(--muted)}
+.layout-alquiler-vehiculos .rental-information>p{grid-column:1/-1;color:var(--muted);max-width:84ch}
+@media(max-width:850px){
+  .layout-compraventa-coches .hero,.layout-compraventa-coches .used-unit-priority,.layout-compraventa-coches .used-web-attention,.layout-alquiler-vehiculos .hero,.layout-alquiler-vehiculos .rental-modalities,.layout-alquiler-vehiculos .rental-information,.layout-alquiler-vehiculos .rental-reservation-channel,.layout-alquiler-vehiculos .rental-route{grid-template-columns:1fr;gap:28px}
+  .layout-compraventa-coches .hero figure{margin-top:0}
+  .layout-compraventa-coches .used-publication-note,.layout-compraventa-coches .used-availability-reply{grid-template-columns:1fr;gap:14px}
+  .layout-compraventa-coches .used-publication-note h3,.layout-compraventa-coches .used-availability-reply h3,.layout-compraventa-coches .used-publication-note>p:not(.used-note-label),.layout-compraventa-coches .used-availability-reply>p:not(.used-note-label){grid-column:auto}
+  .layout-compraventa-coches .used-publication-lifecycle{grid-template-columns:1fr}
+  .layout-compraventa-coches .used-publication-lifecycle li{padding-bottom:24px}
+  .layout-compraventa-coches .used-publication-lifecycle li+li{padding-left:0;border-left:0}
+  .layout-alquiler-vehiculos .rental-information>p{grid-column:auto}
+}
+
+/* Motorcycles: an activity map and a team presentation. */
+.layout-talleres-tiendas-motos h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-talleres-tiendas-motos .moto-activities{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.layout-talleres-tiendas-motos .moto-activities-heading>p:last-child,.layout-talleres-tiendas-motos .moto-preparation>p,.layout-talleres-tiendas-motos .moto-web p{color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-activity-map{margin:0;border-left:3px solid var(--orange);padding-left:28px}
+.layout-talleres-tiendas-motos .moto-activity-map>div+div{border-top:1px solid var(--line);margin-top:24px;padding-top:24px}
+.layout-talleres-tiendas-motos .moto-activity-map dt{color:var(--orange);font-size:1.25rem;font-weight:800;margin-bottom:12px}
+.layout-talleres-tiendas-motos .moto-activity-map dd{margin:0;color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-team-piece{display:grid;grid-template-columns:.85fr 1.15fr;gap:32px}
+.layout-talleres-tiendas-motos .moto-team-piece header{grid-column:1/-1;max-width:880px}
+.layout-talleres-tiendas-motos .moto-team-piece header>p:last-child{color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-piece-plan{padding:28px 0;border-top:1px solid var(--line)}
+.layout-talleres-tiendas-motos .moto-piece-plan ol{padding-left:24px;color:var(--muted)}
+.layout-talleres-tiendas-motos .moto-piece-plan li+li{margin-top:18px}
+.layout-talleres-tiendas-motos .moto-piece-copy{padding:30px;background:var(--panel);border:1px solid var(--line)}
+.layout-talleres-tiendas-motos .moto-piece-copy>p:last-child{margin-bottom:0}
+.layout-talleres-tiendas-motos .moto-preparation{max-width:900px}
+.layout-talleres-tiendas-motos .moto-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+
+/* Tyre centres: a clear first question, reply and explanatory publication. */
+.layout-centros-neumaticos .hero{grid-template-columns:1fr .9fr}
+.layout-centros-neumaticos h1{font-size:clamp(2.1rem,3.5vw,3.6rem)}
+.layout-centros-neumaticos .tyre-service{max-width:1000px}
+.layout-centros-neumaticos .tyre-service-copy{display:grid;grid-template-columns:1fr 1fr;gap:36px;color:var(--muted)}
+.layout-centros-neumaticos .tyre-consultation{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}
+.layout-centros-neumaticos .tyre-question{grid-row:span 2}
+.layout-centros-neumaticos .tyre-question>p:last-child{color:var(--muted)}
+.layout-centros-neumaticos .tyre-reply{border-left:3px solid var(--orange);padding:28px;background:var(--panel)}
+.layout-centros-neumaticos .tyre-reply-note{font-size:.88rem;color:var(--muted);margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.layout-centros-neumaticos .tyre-post{border-top:1px solid var(--line);padding:26px 0 0}
+.layout-centros-neumaticos .tyre-editorial dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:30px 0 0}
+.layout-centros-neumaticos .tyre-editorial dt{font-size:1.15rem;color:var(--orange);font-weight:750;margin-bottom:15px}
+.layout-centros-neumaticos .tyre-editorial dd{margin:0;color:var(--muted)}
+.layout-centros-neumaticos .tyre-contact{max-width:900px}
+.layout-centros-neumaticos .tyre-contact>p:not(.kicker){color:var(--muted)}
+
+/* Bodywork: a contact sheet about context, detail and finish. */
+.layout-chapa-pintura h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-chapa-pintura .bodyshop-scope,.layout-chapa-pintura .bodyshop-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-chapa-pintura .bodyshop-scope p:not(.kicker),.layout-chapa-pintura .bodyshop-web p,.layout-chapa-pintura .bodyshop-material p{color:var(--muted)}
+.layout-chapa-pintura .bodyshop-contact-sheet header{max-width:900px}
+.layout-chapa-pintura .bodyshop-contact-sheet header>p:last-child{color:var(--muted)}
+.layout-chapa-pintura .bodyshop-frames{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:34px 0}
+.layout-chapa-pintura .bodyshop-frames li{margin:0;padding:28px 24px;border-top:3px solid var(--orange);background:#100f0e}
+.layout-chapa-pintura .bodyshop-frames span{display:block;color:var(--orange);font-size:.78rem;font-weight:750;letter-spacing:.08em;margin-bottom:24px}
+.layout-chapa-pintura .bodyshop-frames h3{font-size:1.35rem}
+.layout-chapa-pintura .bodyshop-frames p{color:var(--muted);margin-bottom:0}
+.layout-chapa-pintura .bodyshop-sample{border-left:1px solid var(--orange);padding:10px 0 10px 28px;max-width:880px}
+.layout-chapa-pintura .bodyshop-sample p{margin-bottom:0}
+.layout-chapa-pintura .bodyshop-material{max-width:900px}
+
+/* Detailing: a shot list that explains the role of each view. */
+.layout-detailing .hero{grid-template-columns:1fr 1fr}
+.layout-detailing .hero figure{order:-1}
+.layout-detailing .detail-opening{max-width:900px}
+.layout-detailing .detail-opening>p:not(.kicker),.layout-detailing .detail-sequence header>p:last-child{color:var(--muted)}
+.layout-detailing .detail-sequence header{max-width:900px}
+.layout-detailing .detail-sequence-rows{margin-top:34px}
+.layout-detailing .detail-sequence-rows article{display:grid;grid-template-columns:.55fr .8fr 1.3fr;gap:30px;padding:28px 0;border-top:1px solid var(--line)}
+.layout-detailing .detail-sequence-rows article>p{color:var(--orange);font-weight:800;font-size:.85rem;margin:0}
+.layout-detailing .detail-sequence-rows h3{font-size:1.4rem;margin:0}
+.layout-detailing .detail-sequence-rows article>div{color:var(--muted)}
+.layout-detailing .detail-caption{margin-top:30px;padding:30px;background:var(--panel);max-width:900px}
+.layout-detailing .detail-caption p{margin-bottom:0}
+.layout-detailing .detail-evidence{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-detailing .detail-evidence p:not(.kicker),.layout-detailing .detail-web p{color:var(--muted)}
+.layout-detailing .detail-web{max-width:900px}
+
+/* Motorhomes: an interior story followed by two commercial destinations. */
+.layout-autocaravanas .hero{grid-template-columns:.95fr 1.05fr}
+.layout-autocaravanas .hero figure{order:-1}
+.layout-autocaravanas h1{font-size:clamp(2.1rem,3.5vw,3.6rem);max-width:24ch}
+.layout-autocaravanas .camper-interior,.layout-autocaravanas .camper-web{display:grid;grid-template-columns:.85fr 1.15fr;gap:46px}
+.layout-autocaravanas .camper-interior p:not(.kicker),.layout-autocaravanas .camper-web p,.layout-autocaravanas .camper-preparation p{color:var(--muted)}
+.layout-autocaravanas .camper-tour header{max-width:890px}
+.layout-autocaravanas .camper-tour header>p:last-child{color:var(--muted)}
+.layout-autocaravanas .camper-tour-caption{padding:28px 0;border-top:1px solid var(--line);max-width:890px;margin-top:32px}
+.layout-autocaravanas .camper-tour-caption p{margin-bottom:0}
+.layout-autocaravanas .camper-two-closings{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.layout-autocaravanas .camper-two-closings article{padding:28px;border:1px solid var(--line);background:var(--panel)}
+.layout-autocaravanas .camper-two-closings article:last-child{border-top:3px solid var(--orange)}
+.layout-autocaravanas .camper-two-closings h3{font-size:1.4rem}
+.layout-autocaravanas .camper-two-closings article>p:last-child{margin-bottom:0}
+.layout-autocaravanas .camper-preparation{max-width:900px}
+
+/* Driving schools: a presentation and its first message, without invented pupils. */
+.layout-autoescuelas h1{font-size:clamp(2.1rem,3.8vw,3.9rem);max-width:23ch}
+.layout-autoescuelas .driving-centre{max-width:1040px}
+.layout-autoescuelas .driving-centre>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-autoescuelas .driving-conversation header{max-width:900px}
+.layout-autoescuelas .driving-conversation header>p:last-child{color:var(--muted)}
+.layout-autoescuelas .driving-message-thread{max-width:950px;margin-top:34px;display:grid;gap:24px}
+.layout-autoescuelas .driving-message-thread article{max-width:850px;padding:30px;background:var(--panel);border:1px solid var(--line);border-radius:0 24px 24px 24px}
+.layout-autoescuelas .driving-message-thread article+article{margin-left:60px;border-radius:24px 0 24px 24px;border-right:3px solid var(--orange)}
+.layout-autoescuelas .driving-message-label{color:var(--orange);font-size:.76rem;letter-spacing:.08em;font-weight:800;text-transform:uppercase}
+.layout-autoescuelas .driving-message-thread h3{font-size:1.45rem}
+.layout-autoescuelas .driving-message-thread article>p:last-child{margin-bottom:0}
+.layout-autoescuelas .driving-preparation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-autoescuelas .driving-preparation dl{margin:0}
+.layout-autoescuelas .driving-preparation dl>div+div{border-top:1px solid var(--line);padding-top:22px;margin-top:22px}
+.layout-autoescuelas .driving-preparation dt{color:var(--orange);font-weight:750;margin-bottom:12px}
+.layout-autoescuelas .driving-preparation dd{color:var(--muted);margin:0}
+.layout-autoescuelas .driving-web{max-width:900px}
+.layout-autoescuelas .driving-web p{color:var(--muted)}
+@media(max-width:850px){
+  .layout-talleres-tiendas-motos .moto-activities,.layout-talleres-tiendas-motos .moto-team-piece,.layout-talleres-tiendas-motos .moto-web,.layout-centros-neumaticos .hero,.layout-centros-neumaticos .tyre-service-copy,.layout-centros-neumaticos .tyre-consultation,.layout-centros-neumaticos .tyre-editorial dl,.layout-chapa-pintura .bodyshop-scope,.layout-chapa-pintura .bodyshop-web,.layout-chapa-pintura .bodyshop-frames,.layout-detailing .hero,.layout-detailing .detail-sequence-rows article,.layout-detailing .detail-evidence,.layout-autocaravanas .hero,.layout-autocaravanas .camper-interior,.layout-autocaravanas .camper-web,.layout-autocaravanas .camper-two-closings,.layout-autoescuelas .driving-centre>div,.layout-autoescuelas .driving-preparation{grid-template-columns:1fr;gap:26px}
+  .layout-talleres-tiendas-motos .moto-team-piece header{grid-column:auto}
+  .layout-centros-neumaticos .tyre-question{grid-row:auto}
+  .layout-detailing .hero figure,.layout-autocaravanas .hero figure{order:0}
+  .layout-detailing .detail-sequence-rows article{gap:14px}
+}
+@media(max-width:540px){
+  .layout-talleres-tiendas-motos .moto-piece-copy,.layout-centros-neumaticos .tyre-reply,.layout-chapa-pintura .bodyshop-frames li,.layout-detailing .detail-caption,.layout-autocaravanas .camper-two-closings article,.layout-autoescuelas .driving-message-thread article{padding:24px}
+  .layout-autoescuelas .driving-message-thread article+article{margin-left:18px}
+  .layout-talleres-tiendas-motos .moto-activity-map{padding-left:20px}
+  .layout-chapa-pintura .bodyshop-sample{padding-left:20px}
+}
+
+/* Hotels: editorial context for the space and the guest's next question. */
+.layout-hoteles .hero{grid-template-columns:.95fr 1.05fr;gap:44px}
+.layout-hoteles .hero figure{order:-1}
+.layout-hoteles h1{font-size:clamp(2.1rem,3.8vw,3.8rem);max-width:22ch}
+.layout-hoteles .hotel-guest-question,.layout-hoteles .hotel-web-channel{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-hoteles .hotel-question-copy p,.layout-hoteles .hotel-web-channel p:not(.kicker){color:var(--muted)}
+.layout-hoteles .hotel-editorial-card header{max-width:900px}
+.layout-hoteles .hotel-editorial-card header>p:last-child{color:var(--muted)}
+.layout-hoteles .hotel-card-components{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;margin-top:34px;align-items:start}
+.layout-hoteles .hotel-card-components dl{margin:0}
+.layout-hoteles .hotel-card-components dl>div{border-top:1px solid var(--line);padding:20px 0}
+.layout-hoteles .hotel-card-components dl>div:first-child{padding-top:0;border-top:0}
+.layout-hoteles .hotel-card-components dt{color:var(--orange);font-weight:800;margin-bottom:12px}
+.layout-hoteles .hotel-card-components dd{margin:0;color:var(--muted)}
+.layout-hoteles .hotel-sample{padding:30px;background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--orange)}
+.layout-hoteles .hotel-sample h3{font-size:1.45rem}
+.layout-hoteles .hotel-sample-note{color:var(--muted);font-size:.88rem;padding-top:20px;border-top:1px solid var(--line);margin-bottom:0}
+.layout-hoteles .hotel-information{max-width:1000px}
+.layout-hoteles .hotel-information-columns{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:32px}
+.layout-hoteles .hotel-information-columns h3{font-size:1.4rem}
+.layout-hoteles .hotel-information p{color:var(--muted)}
+
+/* Rural stays: contrasting uses of a space, with the host's explanation. */
+.layout-casas-rurales .hero{grid-template-columns:1.05fr .95fr;align-items:start}
+.layout-casas-rurales h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-casas-rurales .hero figure{margin-top:20px}
+.layout-casas-rurales .rural-house-reading>div{display:grid;grid-template-columns:1fr 1fr;gap:38px}
+.layout-casas-rurales .rural-house-reading p:not(.kicker){color:var(--muted)}
+.layout-casas-rurales .rural-space-example header{max-width:920px;margin-bottom:34px}
+.layout-casas-rurales .rural-space-example header>p:last-child{color:var(--muted)}
+.layout-casas-rurales .rural-whole-house,.layout-casas-rurales .rural-shared-space{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;padding:30px 0;border-top:1px solid var(--line)}
+.layout-casas-rurales .rural-whole-house h3,.layout-casas-rurales .rural-shared-space h3{font-size:1.5rem;max-width:22ch}
+.layout-casas-rurales .rural-shared-space{border-top-color:var(--orange)}
+.layout-casas-rurales .rural-adaptation{color:var(--muted);font-size:.88rem;margin:22px 0 0}
+.layout-casas-rurales .rural-house-context{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.layout-casas-rurales .rural-house-context dl{margin:0}
+.layout-casas-rurales .rural-house-context dl>div+div{margin-top:24px;padding-top:24px;border-top:1px solid var(--line)}
+.layout-casas-rurales .rural-house-context dt{color:var(--orange);font-weight:750;margin-bottom:12px}
+.layout-casas-rurales .rural-house-context dd{margin:0;color:var(--muted)}
+.layout-casas-rurales .rural-host-channel{max-width:950px}
+.layout-casas-rurales .rural-host-channel p{color:var(--muted)}
+@media(max-width:850px){
+  .layout-hoteles .hero,.layout-hoteles .hotel-guest-question,.layout-hoteles .hotel-web-channel,.layout-hoteles .hotel-card-components,.layout-hoteles .hotel-information-columns,.layout-casas-rurales .hero,.layout-casas-rurales .rural-house-reading>div,.layout-casas-rurales .rural-whole-house,.layout-casas-rurales .rural-shared-space,.layout-casas-rurales .rural-house-context{grid-template-columns:1fr;gap:26px}
+  .layout-hoteles .hero figure{order:0}
+  .layout-casas-rurales .hero figure{margin-top:0}
+}
+@media(max-width:540px){
+  .layout-hoteles .hotel-sample{padding:24px}
+}
+
+/* Campings: one modality and the context of its consultation. */
+.layout-campings .hero{grid-template-columns:1.05fr .95fr}
+.layout-campings .camping-modalities,.layout-campings .camping-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-campings .camping-modalities p:not(.kicker),.layout-campings .camping-web p:not(.kicker),.layout-campings .camping-season p{color:var(--muted)}
+.layout-campings .camping-publication header{max-width:900px}
+.layout-campings .camping-publication header>p:last-child{color:var(--muted)}
+.layout-campings .camping-publication-check{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-campings .camping-publication-check dt{color:var(--orange);font-weight:800;margin-bottom:12px}
+.layout-campings .camping-publication-check dd{margin:0;color:var(--muted)}
+.layout-campings .camping-post{padding:30px;background:var(--panel);border-left:3px solid var(--orange);max-width:920px}
+.layout-campings .camping-post p{margin-bottom:0}
+.layout-campings .camping-other-modality{border-top:1px solid var(--line);padding-top:26px;margin-top:30px;max-width:920px}
+.layout-campings .camping-season{max-width:920px}
+
+/* Property managers: the owner proposition and two routes into a conversation. */
+.layout-gestion-alojamientos-turisticos h1{font-size:clamp(2.1rem,3.2vw,3.3rem);max-width:27ch}
+.layout-gestion-alojamientos-turisticos .manager-brand>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-gestion-alojamientos-turisticos .manager-two-publics header{max-width:900px}
+.layout-gestion-alojamientos-turisticos .manager-two-publics header>p:last-child{color:var(--muted)}
+.layout-gestion-alojamientos-turisticos .manager-owner-post{padding:28px 0;border-top:3px solid var(--orange);max-width:900px;margin-top:32px}
+.layout-gestion-alojamientos-turisticos .manager-inquiry-paths{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.layout-gestion-alojamientos-turisticos .manager-inquiry-paths article{padding:28px;background:var(--panel);border:1px solid var(--line)}
+.layout-gestion-alojamientos-turisticos .manager-inquiry-paths h3{font-size:1.4rem}
+.layout-gestion-alojamientos-turisticos .manager-inquiry-paths article>p:last-child{margin-bottom:0}
+.layout-gestion-alojamientos-turisticos .manager-scope{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-gestion-alojamientos-turisticos .manager-scope p:not(.kicker),.layout-gestion-alojamientos-turisticos .manager-web p{color:var(--muted)}
+.layout-gestion-alojamientos-turisticos .manager-web{max-width:920px}
+
+/* Travel agencies: a planning note beside the editorial presentation. */
+.layout-agencias-viajes h1{font-size:clamp(2.1rem,3.7vw,3.8rem);max-width:24ch}
+.layout-agencias-viajes .travel-advice,.layout-agencias-viajes .travel-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-agencias-viajes .travel-advice p:not(.kicker),.layout-agencias-viajes .travel-web p:not(.kicker),.layout-agencias-viajes .travel-current-offer p{color:var(--muted)}
+.layout-agencias-viajes .travel-planning-note{display:grid;grid-template-columns:1.15fr .85fr;gap:30px}
+.layout-agencias-viajes .travel-planning-note header{grid-column:1/-1;max-width:900px}
+.layout-agencias-viajes .travel-planning-note header>p:last-child{color:var(--muted)}
+.layout-agencias-viajes .travel-publication{padding:28px 0;border-top:1px solid var(--line)}
+.layout-agencias-viajes .travel-first-context{padding:28px;background:var(--panel);border:1px solid var(--line)}
+.layout-agencias-viajes .travel-first-context h3{font-size:1.3rem}
+.layout-agencias-viajes .travel-first-context ol{padding-left:20px;color:var(--muted)}
+.layout-agencias-viajes .travel-first-context li+li{margin-top:18px}
+.layout-agencias-viajes .travel-first-reply{grid-column:1/-1;max-width:900px;border-left:3px solid var(--orange);padding:12px 0 12px 26px}
+.layout-agencias-viajes .travel-first-reply p{margin-bottom:0}
+.layout-agencias-viajes .travel-current-offer{max-width:920px}
+
+/* Tour guides: four timed editorial beats, not a produced video. */
+.layout-guias-turisticos .hero{grid-template-columns:1fr 1fr}
+.layout-guias-turisticos .hero figure{order:-1}
+.layout-guias-turisticos h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-guias-turisticos .guide-story>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-guias-turisticos .guide-script header{max-width:900px}
+.layout-guias-turisticos .guide-script header>p:last-child{color:var(--muted)}
+.layout-guias-turisticos .guide-beats{display:grid;grid-template-columns:1fr 1fr;gap:0;list-style:none;padding:0;margin:32px 0}
+.layout-guias-turisticos .guide-beats li{margin:0;padding:28px;border-top:1px solid var(--line)}
+.layout-guias-turisticos .guide-beats li:nth-child(even){border-left:1px solid var(--line)}
+.layout-guias-turisticos .guide-beats span{display:block;color:var(--orange);font-size:.8rem;font-weight:800;margin-bottom:20px}
+.layout-guias-turisticos .guide-beats h3{font-size:1.35rem}
+.layout-guias-turisticos .guide-beats p{color:var(--muted);margin-bottom:0}
+.layout-guias-turisticos .guide-caption{max-width:900px;padding:28px;background:var(--panel)}
+.layout-guias-turisticos .guide-caption p{margin-bottom:0}
+.layout-guias-turisticos .guide-practical{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-guias-turisticos .guide-practical p:not(.kicker),.layout-guias-turisticos .guide-web p{color:var(--muted)}
+.layout-guias-turisticos .guide-web{max-width:920px}
+
+/* Active tourism: the team, the conversation and the experience. */
+.layout-turismo-activo h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:25ch}
+.layout-turismo-activo .active-before-experience,.layout-turismo-activo .active-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-turismo-activo .active-before-experience p:not(.kicker),.layout-turismo-activo .active-web p:not(.kicker),.layout-turismo-activo .active-operator p{color:var(--muted)}
+.layout-turismo-activo .active-team-sequence header{max-width:900px}
+.layout-turismo-activo .active-team-sequence header>p:last-child{color:var(--muted)}
+.layout-turismo-activo .active-three-moments{margin:32px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-turismo-activo .active-three-moments article{border-top:3px solid var(--orange);padding-top:24px}
+.layout-turismo-activo .active-three-moments span{display:block;color:var(--orange);font-size:.85rem;margin-bottom:20px;font-weight:800}
+.layout-turismo-activo .active-three-moments h3{font-size:1.35rem}
+.layout-turismo-activo .active-three-moments p{color:var(--muted)}
+.layout-turismo-activo .active-post{padding:28px;background:var(--panel);max-width:920px}
+.layout-turismo-activo .active-post p{margin-bottom:0}
+.layout-turismo-activo .active-operator{max-width:920px}
+
+/* Leisure parks: stable presentation contrasted with time-sensitive programming. */
+.layout-parques-ocio .hero{grid-template-columns:1fr 1fr}
+.layout-parques-ocio .hero figure{order:-1}
+.layout-parques-ocio h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-parques-ocio .park-visit>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-parques-ocio .park-content-types header{max-width:900px;margin-bottom:34px}
+.layout-parques-ocio .park-content-types header>p:last-child{color:var(--muted)}
+.layout-parques-ocio .park-stable-piece,.layout-parques-ocio .park-temporary-piece{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;padding:28px 0;border-top:1px solid var(--line)}
+.layout-parques-ocio .park-temporary-piece{border-top-color:var(--orange)}
+.layout-parques-ocio .park-stable-piece h3,.layout-parques-ocio .park-temporary-piece h3{font-size:1.4rem}
+.layout-parques-ocio .park-review-note{font-size:.88rem;color:var(--muted)}
+.layout-parques-ocio .park-information{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-parques-ocio .park-information p:not(.kicker),.layout-parques-ocio .park-web p{color:var(--muted)}
+.layout-parques-ocio .park-web{max-width:920px}
+
+/* Diving schools: first contact by information need. */
+.layout-escuelas-buceo h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-escuelas-buceo .diving-interests,.layout-escuelas-buceo .diving-web{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-escuelas-buceo .diving-interests p:not(.kicker),.layout-escuelas-buceo .diving-web p:not(.kicker),.layout-escuelas-buceo .diving-professional p{color:var(--muted)}
+.layout-escuelas-buceo .diving-first-contact header{max-width:900px}
+.layout-escuelas-buceo .diving-first-contact header>p:last-child{color:var(--muted)}
+.layout-escuelas-buceo .diving-reply-grid{max-width:960px;display:grid;gap:24px;margin:34px 0}
+.layout-escuelas-buceo .diving-reply-grid article{padding:28px;max-width:850px;border:1px solid var(--line);background:var(--panel)}
+.layout-escuelas-buceo .diving-reply-grid article+article{margin-left:70px;border-left:3px solid var(--orange)}
+.layout-escuelas-buceo .diving-reply-grid h3{font-size:1.4rem}
+.layout-escuelas-buceo .diving-reply-grid article>p:last-child{margin-bottom:0}
+.layout-escuelas-buceo .diving-post{max-width:920px;border-top:1px solid var(--line);padding-top:28px}
+.layout-escuelas-buceo .diving-professional{max-width:920px}
+
+/* Nautical businesses: a presentation followed by its service-specific closing. */
+.layout-alquiler-barcos h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:27ch}
+.layout-alquiler-barcos .nautical-service>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-alquiler-barcos .nautical-presentation header{max-width:900px}
+.layout-alquiler-barcos .nautical-presentation header>p:last-child{color:var(--muted)}
+.layout-alquiler-barcos .nautical-shared-caption{max-width:900px;border-top:1px solid var(--line);padding:28px 0;margin-top:32px}
+.layout-alquiler-barcos .nautical-closings{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:0}
+.layout-alquiler-barcos .nautical-closings>div{border-left:3px solid var(--orange);padding:10px 0 10px 24px}
+.layout-alquiler-barcos .nautical-closings dt{font-size:1.25rem;font-weight:800;margin-bottom:18px}
+.layout-alquiler-barcos .nautical-closings dd{margin:0;color:var(--muted)}
+.layout-alquiler-barcos .nautical-operator{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-alquiler-barcos .nautical-operator p:not(.kicker),.layout-alquiler-barcos .nautical-web p{color:var(--muted)}
+.layout-alquiler-barcos .nautical-web{max-width:920px}
+@media(max-width:850px){
+  .layout-campings .hero,.layout-campings .camping-modalities,.layout-campings .camping-web,.layout-campings .camping-publication-check,.layout-gestion-alojamientos-turisticos .manager-brand>div,.layout-gestion-alojamientos-turisticos .manager-inquiry-paths,.layout-gestion-alojamientos-turisticos .manager-scope,.layout-agencias-viajes .travel-advice,.layout-agencias-viajes .travel-web,.layout-agencias-viajes .travel-planning-note,.layout-guias-turisticos .hero,.layout-guias-turisticos .guide-story>div,.layout-guias-turisticos .guide-beats,.layout-guias-turisticos .guide-practical,.layout-turismo-activo .active-before-experience,.layout-turismo-activo .active-web,.layout-turismo-activo .active-three-moments,.layout-parques-ocio .hero,.layout-parques-ocio .park-visit>div,.layout-parques-ocio .park-stable-piece,.layout-parques-ocio .park-temporary-piece,.layout-parques-ocio .park-information,.layout-escuelas-buceo .diving-interests,.layout-escuelas-buceo .diving-web,.layout-alquiler-barcos .nautical-service>div,.layout-alquiler-barcos .nautical-closings,.layout-alquiler-barcos .nautical-operator{grid-template-columns:1fr;gap:26px}
+  .layout-guias-turisticos .hero figure,.layout-parques-ocio .hero figure{order:0}
+  .layout-agencias-viajes .travel-planning-note header,.layout-agencias-viajes .travel-first-reply{grid-column:auto}
+  .layout-guias-turisticos .guide-beats li:nth-child(even){border-left:0}
+}
+@media(max-width:540px){
+  .layout-campings .camping-post,.layout-gestion-alojamientos-turisticos .manager-inquiry-paths article,.layout-agencias-viajes .travel-first-context,.layout-guias-turisticos .guide-beats li,.layout-guias-turisticos .guide-caption,.layout-turismo-activo .active-post,.layout-escuelas-buceo .diving-reply-grid article{padding:24px}
+  .layout-escuelas-buceo .diving-reply-grid article+article{margin-left:16px}
+  .layout-alquiler-barcos .nautical-closings>div{padding-left:20px}
+}
+
+/* Cafeterias: a compact sequence of everyday scenes. */
+.layout-cafeterias .hero{grid-template-columns:1fr 1fr}
+.layout-cafeterias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-cafeterias .cafe-moment,.layout-cafeterias .cafe-material{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-cafeterias .cafe-moment p:not(.kicker),.layout-cafeterias .cafe-material p:not(.kicker),.layout-cafeterias .cafe-web p{color:var(--muted)}
+.layout-cafeterias .cafe-three-scenes header{max-width:900px}
+.layout-cafeterias .cafe-three-scenes ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;list-style:none;padding:0;margin:34px 0}
+.layout-cafeterias .cafe-three-scenes li{border-top:3px solid var(--orange);padding-top:24px}
+.layout-cafeterias .cafe-three-scenes li>span{display:block;color:var(--orange);font-size:.8rem;font-weight:800;margin-bottom:16px}
+.layout-cafeterias .cafe-three-scenes li h3{font-size:1.35rem}
+.layout-cafeterias .cafe-three-scenes article{background:var(--panel);padding:28px;max-width:920px}
+.layout-cafeterias .cafe-web{max-width:940px}
+
+/* Bakeries: the whole piece, its detail and the accompanying text. */
+.layout-panaderias .hero{grid-template-columns:.95fr 1.05fr}
+.layout-panaderias .hero figure{order:-1}
+.layout-panaderias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-panaderias .bread-piece>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-panaderias .bread-editorial header{max-width:900px}
+.layout-panaderias .bread-editorial dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-panaderias .bread-editorial dt{color:var(--orange);font-weight:800;margin-bottom:14px}
+.layout-panaderias .bread-editorial dd{margin:0;color:var(--muted)}
+.layout-panaderias .bread-post{max-width:940px;border-top:3px solid var(--orange);padding-top:28px}
+.layout-panaderias .bread-availability{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:32px}
+.layout-panaderias .bread-counter{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-panaderias .bread-counter p:not(.kicker),.layout-panaderias .bread-web p{color:var(--muted)}
+.layout-panaderias .bread-web{max-width:940px}
+
+/* Pastry orders: a publication, the request context and a first response. */
+.layout-pastelerias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-pastelerias .pastry-order,.layout-pastelerias .pastry-confirmation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-pastelerias .pastry-order p:not(.kicker),.layout-pastelerias .pastry-confirmation p:not(.kicker),.layout-pastelerias .pastry-web p{color:var(--muted)}
+.layout-pastelerias .pastry-request{display:grid;grid-template-columns:1.15fr .85fr;gap:30px}
+.layout-pastelerias .pastry-request header{grid-column:1/-1;max-width:900px}
+.layout-pastelerias .pastry-sample-post{border-top:1px solid var(--line);padding-top:28px}
+.layout-pastelerias .pastry-request-context{background:var(--panel);padding:28px;margin:0}
+.layout-pastelerias .pastry-request-context>div+div{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+.layout-pastelerias .pastry-request-context dt{color:var(--orange);font-weight:800;margin-bottom:10px}
+.layout-pastelerias .pastry-request-context dd{margin:0;color:var(--muted)}
+.layout-pastelerias .pastry-sample-reply{grid-column:1/-1;max-width:940px;border-left:3px solid var(--orange);padding:12px 0 12px 26px}
+.layout-pastelerias .pastry-web{max-width:940px}
+
+/* Ice cream shops: product identity before availability. */
+.layout-heladerias .hero{grid-template-columns:1fr 1fr}
+.layout-heladerias h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-heladerias .ice-choice>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-heladerias .ice-product-example header{max-width:900px}
+.layout-heladerias .ice-editorial-labels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:34px 0}
+.layout-heladerias .ice-editorial-labels>div{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-heladerias .ice-editorial-labels h3{font-size:1.35rem}
+.layout-heladerias .ice-editorial-labels p{color:var(--muted)}
+.layout-heladerias .ice-post{background:var(--panel);padding:28px;max-width:920px}
+.layout-heladerias .ice-reply{margin-top:30px;max-width:860px;border-left:3px solid var(--orange);padding-left:26px}
+.layout-heladerias .ice-information{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-heladerias .ice-information p:not(.kicker),.layout-heladerias .ice-web p{color:var(--muted)}
+.layout-heladerias .ice-web{max-width:940px}
+
+/* Catering: a service note with the event context beside it. */
+.layout-catering .hero{grid-template-columns:.95fr 1.05fr}
+.layout-catering .hero figure{order:-1}
+.layout-catering h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-catering .catering-service,.layout-catering .catering-material{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-catering .catering-service p:not(.kicker),.layout-catering .catering-material p:not(.kicker),.layout-catering .catering-web p{color:var(--muted)}
+.layout-catering .catering-event-note{display:grid;grid-template-columns:1.1fr .9fr;gap:34px}
+.layout-catering .catering-event-note header{grid-column:1/-1;max-width:900px}
+.layout-catering .catering-post{padding-top:28px;border-top:3px solid var(--orange)}
+.layout-catering .catering-event-note dl{margin:0;padding:28px;background:var(--panel)}
+.layout-catering .catering-event-note dl>div+div{margin-top:24px}
+.layout-catering .catering-event-note dt{font-weight:800;color:var(--orange);margin-bottom:10px}
+.layout-catering .catering-event-note dd{margin:0;color:var(--muted)}
+.layout-catering .catering-reply{grid-column:1/-1;max-width:920px;border-left:3px solid var(--orange);padding-left:26px}
+.layout-catering .catering-web{max-width:940px}
+
+/* Venues: three views of the space followed by a visit invitation. */
+.layout-salones-bodas h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:25ch}
+.layout-salones-bodas .venue-space>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-salones-bodas .venue-editorial-tour header{max-width:900px}
+.layout-salones-bodas .venue-editorial-tour ol{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-salones-bodas .venue-editorial-tour li{border-top:1px solid var(--line);padding-top:26px}
+.layout-salones-bodas .venue-editorial-tour li>span{color:var(--orange);font-size:.85rem;font-weight:800;display:block;margin-bottom:20px}
+.layout-salones-bodas .venue-editorial-tour li h3{font-size:1.35rem}
+.layout-salones-bodas .venue-editorial-tour li p{color:var(--muted)}
+.layout-salones-bodas .venue-editorial-tour article{padding:28px;background:var(--panel);max-width:920px}
+.layout-salones-bodas .venue-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-salones-bodas .venue-review p:not(.kicker),.layout-salones-bodas .venue-web p{color:var(--muted)}
+.layout-salones-bodas .venue-web{max-width:940px}
+
+/* Wineries: the bottle, its verified story and the professional contact. */
+.layout-bodegas .hero{grid-template-columns:1fr 1fr}
+.layout-bodegas .hero figure{order:-1}
+.layout-bodegas h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-bodegas .winery-reference,.layout-bodegas .winery-validation{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-bodegas .winery-reference p:not(.kicker),.layout-bodegas .winery-validation p:not(.kicker),.layout-bodegas .winery-web p{color:var(--muted)}
+.layout-bodegas .winery-label-story header{max-width:900px}
+.layout-bodegas .winery-label-story dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-bodegas .winery-label-story dt{font-weight:800;color:var(--orange);margin-bottom:12px}
+.layout-bodegas .winery-label-story dd{margin:0;color:var(--muted)}
+.layout-bodegas .winery-post{padding-top:28px;border-top:3px solid var(--orange);max-width:940px}
+.layout-bodegas .winery-trade-reply{padding:24px 28px;background:var(--panel);max-width:860px;margin-top:30px}
+.layout-bodegas .winery-web{max-width:940px}
+
+/* Breweries: two conversations for distinct product channels. */
+.layout-cerveceras-artesanales h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-cerveceras-artesanales .brewery-formats>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-cerveceras-artesanales .brewery-channel-example header{max-width:900px}
+.layout-cerveceras-artesanales .brewery-post{margin-top:34px;max-width:940px;padding-top:28px;border-top:3px solid var(--orange)}
+.layout-cerveceras-artesanales .brewery-two-replies{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.layout-cerveceras-artesanales .brewery-two-replies article{background:var(--panel);border:1px solid var(--line);padding:28px}
+.layout-cerveceras-artesanales .brewery-two-replies h3{font-size:1.4rem}
+.layout-cerveceras-artesanales .brewery-catalog{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-cerveceras-artesanales .brewery-catalog p:not(.kicker),.layout-cerveceras-artesanales .brewery-web p{color:var(--muted)}
+.layout-cerveceras-artesanales .brewery-web{max-width:940px}
+
+/* Olive mills: product presentation built around a confirmed detail. */
+.layout-almazaras .hero{grid-template-columns:1fr 1fr}
+.layout-almazaras h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-almazaras .oil-product-context>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-almazaras .oil-editorial-label header{max-width:900px}
+.layout-almazaras .oil-editorial-label ol{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-almazaras .oil-editorial-label li{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-almazaras .oil-editorial-label li>span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-almazaras .oil-editorial-label li h3{font-size:1.35rem}
+.layout-almazaras .oil-editorial-label li p{color:var(--muted)}
+.layout-almazaras .oil-editorial-label article{max-width:940px;padding:28px;background:var(--panel)}
+.layout-almazaras .oil-adaptation{margin-top:28px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted)}
+.layout-almazaras .oil-producer-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-almazaras .oil-producer-review p:not(.kicker),.layout-almazaras .oil-web p{color:var(--muted)}
+.layout-almazaras .oil-web{max-width:940px}
+
+/* Food trucks: enduring product content beside a changing agenda. */
+.layout-food-trucks .hero{grid-template-columns:.95fr 1.05fr}
+.layout-food-trucks .hero figure{order:-1}
+.layout-food-trucks h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-food-trucks .truck-presence,.layout-food-trucks .truck-two-inquiries{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-food-trucks .truck-presence p:not(.kicker),.layout-food-trucks .truck-two-inquiries p:not(.kicker),.layout-food-trucks .truck-web p{color:var(--muted)}
+.layout-food-trucks .truck-changing-agenda header{max-width:900px}
+.layout-food-trucks .truck-product-post{max-width:940px;padding-top:28px;margin-top:34px;border-top:1px solid var(--line)}
+.layout-food-trucks .truck-outdated-location{max-width:860px;padding:28px;background:var(--panel);border-left:3px solid var(--orange);margin-top:30px}
+.layout-food-trucks .truck-changing-agenda dl{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:30px 0 0}
+.layout-food-trucks .truck-changing-agenda dt{color:var(--orange);font-weight:800;margin-bottom:12px}
+.layout-food-trucks .truck-changing-agenda dd{margin:0;color:var(--muted)}
+.layout-food-trucks .truck-web{max-width:940px}
+
+@media(max-width:850px){
+  .layout-cafeterias .hero,.layout-cafeterias .cafe-moment,.layout-cafeterias .cafe-material,.layout-cafeterias .cafe-three-scenes ol,.layout-panaderias .hero,.layout-panaderias .bread-piece>div,.layout-panaderias .bread-editorial dl,.layout-panaderias .bread-counter,.layout-pastelerias .pastry-order,.layout-pastelerias .pastry-confirmation,.layout-pastelerias .pastry-request,.layout-heladerias .hero,.layout-heladerias .ice-choice>div,.layout-heladerias .ice-editorial-labels,.layout-heladerias .ice-information,.layout-catering .hero,.layout-catering .catering-service,.layout-catering .catering-material,.layout-catering .catering-event-note,.layout-salones-bodas .venue-space>div,.layout-salones-bodas .venue-editorial-tour ol,.layout-salones-bodas .venue-review,.layout-bodegas .hero,.layout-bodegas .winery-reference,.layout-bodegas .winery-validation,.layout-bodegas .winery-label-story dl,.layout-cerveceras-artesanales .brewery-formats>div,.layout-cerveceras-artesanales .brewery-two-replies,.layout-cerveceras-artesanales .brewery-catalog,.layout-almazaras .hero,.layout-almazaras .oil-product-context>div,.layout-almazaras .oil-editorial-label ol,.layout-almazaras .oil-producer-review,.layout-food-trucks .hero,.layout-food-trucks .truck-presence,.layout-food-trucks .truck-two-inquiries,.layout-food-trucks .truck-changing-agenda dl{grid-template-columns:1fr;gap:26px}
+  .layout-panaderias .hero figure,.layout-catering .hero figure,.layout-bodegas .hero figure,.layout-food-trucks .hero figure{order:0}
+  .layout-pastelerias .pastry-request header,.layout-pastelerias .pastry-sample-reply,.layout-catering .catering-event-note header,.layout-catering .catering-reply{grid-column:auto}
+}
+@media(max-width:540px){
+  .layout-cafeterias .cafe-three-scenes article,.layout-pastelerias .pastry-request-context,.layout-heladerias .ice-post,.layout-catering .catering-event-note dl,.layout-salones-bodas .venue-editorial-tour article,.layout-bodegas .winery-trade-reply,.layout-cerveceras-artesanales .brewery-two-replies article,.layout-almazaras .oil-editorial-label article,.layout-food-trucks .truck-outdated-location{padding:24px}
+}
+
+/* Psychology: the introductory publication is separate from the three contact paths. */
+.layout-psicologos .hero{grid-template-columns:1.05fr .95fr}
+.layout-psicologos h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-psicologos .psychology-first-contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-psicologos .psychology-first-contact p:not(.kicker),.layout-psicologos .psychology-web p{color:var(--muted)}
+.layout-psicologos .psychology-message-map header{max-width:920px}
+.layout-psicologos .psychology-message-map header>p:last-child{color:var(--muted)}
+.layout-psicologos .psychology-intro-post{padding:30px;background:var(--panel);border-top:3px solid var(--orange);max-width:940px;margin-top:34px}
+.layout-psicologos .psychology-intro-post h3{font-size:1.45rem}
+.layout-psicologos .psychology-intro-post p{margin-bottom:0}
+.layout-psicologos .psychology-three-messages{margin-top:34px}
+.layout-psicologos .psychology-three-messages article{display:grid;grid-template-columns:.6fr .9fr 1.5fr;gap:26px;align-items:start;border-top:1px solid var(--line);padding:26px 0}
+.layout-psicologos .psychology-three-messages span{font-size:.85rem;font-weight:800;color:var(--orange);padding-top:5px}
+.layout-psicologos .psychology-three-messages h3{font-size:1.35rem}
+.layout-psicologos .psychology-three-messages p{margin:0;color:var(--muted)}
+.layout-psicologos .psychology-editorial-process{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-psicologos .psychology-editorial-process ol{list-style:none;counter-reset:psychology-step;padding:0;margin:0}
+.layout-psicologos .psychology-editorial-process li{counter-increment:psychology-step;padding:0 0 24px 50px;position:relative}
+.layout-psicologos .psychology-editorial-process li+li{padding-top:24px;border-top:1px solid var(--line)}
+.layout-psicologos .psychology-editorial-process li:before{content:counter(psychology-step,decimal-leading-zero);position:absolute;left:0;top:4px;color:var(--orange);font-size:.9rem;font-weight:800}
+.layout-psicologos .psychology-editorial-process li+li:before{top:28px}
+.layout-psicologos .psychology-editorial-process h3{font-size:1.35rem}
+.layout-psicologos .psychology-editorial-process p{color:var(--muted);margin-bottom:0}
+.layout-psicologos .psychology-web{max-width:950px}
+
+/* Nutrition: a readable four-screen sequence followed by its caption and response. */
+.layout-nutricionistas .hero{grid-template-columns:1fr 1fr}
+.layout-nutricionistas .hero figure{order:-1}
+.layout-nutricionistas h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:25ch}
+.layout-nutricionistas .nutrition-service-story>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-nutricionistas .nutrition-editorial-sequence header{max-width:920px}
+.layout-nutricionistas .nutrition-editorial-sequence header>p:last-child{color:var(--muted)}
+.layout-nutricionistas .nutrition-four-panels{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.layout-nutricionistas .nutrition-four-panels li{border:1px solid var(--line);background:var(--panel);padding:28px;margin:0}
+.layout-nutricionistas .nutrition-four-panels li:nth-child(3){border-top:3px solid var(--orange)}
+.layout-nutricionistas .nutrition-four-panels span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:22px}
+.layout-nutricionistas .nutrition-four-panels h3{font-size:1.45rem;max-width:28ch}
+.layout-nutricionistas .nutrition-four-panels p{color:var(--muted);margin-bottom:0}
+.layout-nutricionistas .nutrition-caption{max-width:940px;border-top:1px solid var(--line);padding-top:28px}
+.layout-nutricionistas .nutrition-first-reply{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:30px}
+.layout-nutricionistas .nutrition-content-workbench{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-nutricionistas .nutrition-content-workbench dl{margin:0}
+.layout-nutricionistas .nutrition-content-workbench dl>div+div{border-top:1px solid var(--line);margin-top:26px;padding-top:26px}
+.layout-nutricionistas .nutrition-content-workbench dt{font-weight:800;font-size:1.2rem;margin-bottom:14px}
+.layout-nutricionistas .nutrition-content-workbench dd{color:var(--muted);margin:0}
+.layout-nutricionistas .nutrition-web-path{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-nutricionistas .nutrition-web-path p:not(.kicker){color:var(--muted)}
+@media(max-width:850px){
+  .layout-psicologos .hero,.layout-psicologos .psychology-first-contact,.layout-psicologos .psychology-three-messages article,.layout-psicologos .psychology-editorial-process,.layout-nutricionistas .hero,.layout-nutricionistas .nutrition-service-story>div,.layout-nutricionistas .nutrition-four-panels,.layout-nutricionistas .nutrition-content-workbench,.layout-nutricionistas .nutrition-web-path{grid-template-columns:1fr;gap:26px}
+  .layout-nutricionistas .hero figure{order:0}
+  .layout-psicologos .psychology-three-messages article{gap:18px}
+  .layout-psicologos .psychology-three-messages span{padding-top:0}
+}
+@media(max-width:540px){
+  .layout-psicologos .psychology-intro-post,.layout-nutricionistas .nutrition-four-panels li{padding:24px}
+  .layout-psicologos .psychology-editorial-process li{padding-left:40px}
+}
+
+/* Optical centres: product views lead to the local advice channel. */
+.layout-opticas .hero{grid-template-columns:.95fr 1.05fr}
+.layout-opticas .hero figure{order:-1}
+.layout-opticas h1{font-size:clamp(2.1rem,3.6vw,3.7rem);max-width:24ch}
+.layout-opticas .optical-centre{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-opticas .optical-centre p:not(.kicker),.layout-opticas .optical-material p,.layout-opticas .optical-web p{color:var(--muted)}
+.layout-opticas .optical-product-reading header{max-width:920px}
+.layout-opticas .optical-three-views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-opticas .optical-three-views dt{color:var(--orange);font-weight:800;margin-bottom:14px;font-size:1.15rem}
+.layout-opticas .optical-three-views dd{color:var(--muted);margin:0}
+.layout-opticas .optical-sample-post{max-width:940px;padding-top:28px;border-top:3px solid var(--orange)}
+.layout-opticas .optical-model-reply{max-width:850px;padding:28px;background:var(--panel);margin-top:30px}
+.layout-opticas .optical-material{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:start}
+.layout-opticas .optical-material h3{font-size:1.4rem}
+.layout-opticas .optical-material aside{border-left:3px solid var(--orange);padding-left:26px}
+.layout-opticas .optical-web{max-width:950px}
+
+/* Hearing centres: the screen copy is visible beside the shot and its duration. */
+.layout-centros-auditivos h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-centros-auditivos .hearing-visit>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-centros-auditivos .hearing-readable-script header{max-width:920px}
+.layout-centros-auditivos .hearing-timed-scenes{list-style:none;padding:0;margin:34px 0}
+.layout-centros-auditivos .hearing-timed-scenes li{display:grid;grid-template-columns:.5fr .8fr 1.2fr 1.1fr;gap:26px;align-items:start;padding:26px 0;border-top:1px solid var(--line);margin:0}
+.layout-centros-auditivos .hearing-timed-scenes span{color:var(--orange);font-size:.85rem;font-weight:800;padding-top:5px}
+.layout-centros-auditivos .hearing-timed-scenes h3{font-size:1.3rem}
+.layout-centros-auditivos .hearing-timed-scenes p{color:var(--muted);margin:0}
+.layout-centros-auditivos .hearing-timed-scenes .screen-copy{border-left:3px solid var(--orange);padding-left:20px;color:var(--text)}
+.layout-centros-auditivos .hearing-caption{background:var(--panel);max-width:940px;padding:28px}
+.layout-centros-auditivos .hearing-publication-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-centros-auditivos .hearing-publication-review dl{margin:0}
+.layout-centros-auditivos .hearing-publication-review dl>div+div{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.layout-centros-auditivos .hearing-publication-review dt{font-weight:800;margin-bottom:12px;font-size:1.2rem}
+.layout-centros-auditivos .hearing-publication-review dd{color:var(--muted);margin:0}
+.layout-centros-auditivos .hearing-web{max-width:950px}
+.layout-centros-auditivos .hearing-web p{color:var(--muted)}
+
+/* Podiatry: the introductory post and the response have distinct roles. */
+.layout-podologia .hero{grid-template-columns:1fr 1fr}
+.layout-podologia h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-podologia .podiatry-introduction{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-podologia .podiatry-introduction p:not(.kicker),.layout-podologia .podiatry-gabinet p:not(.kicker),.layout-podologia .podiatry-web p{color:var(--muted)}
+.layout-podologia .podiatry-first-visit-example{display:grid;grid-template-columns:1.1fr .9fr;gap:30px}
+.layout-podologia .podiatry-first-visit-example header{grid-column:1/-1;max-width:920px}
+.layout-podologia .podiatry-visit-post{padding-top:28px;border-top:1px solid var(--line)}
+.layout-podologia .podiatry-photo-reply{background:var(--panel);border-top:3px solid var(--orange);padding:28px}
+.layout-podologia .podiatry-photo-reply h3{font-size:1.4rem}
+.layout-podologia .podiatry-photo-context{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:0}
+.layout-podologia .podiatry-photo-context dt{font-weight:800;color:var(--orange);margin-bottom:14px}
+.layout-podologia .podiatry-photo-context dd{color:var(--muted);margin:0}
+.layout-podologia .podiatry-gabinet{display:grid;grid-template-columns:1.2fr .8fr;gap:44px}
+.layout-podologia .podiatry-gabinet aside{padding-top:26px;border-top:3px solid var(--orange)}
+.layout-podologia .podiatry-web{max-width:950px}
+
+/* Medical aesthetics: public information precedes the clinical consultation. */
+.layout-medicina-estetica .hero figure{order:-1}
+.layout-medicina-estetica h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-medicina-estetica .medical-aesthetics-consultation{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.layout-medicina-estetica .medical-aesthetics-consultation p:not(.kicker),.layout-medicina-estetica .medical-aesthetics-web p{color:var(--muted)}
+.layout-medicina-estetica .medical-aesthetics-two-spaces header{max-width:920px}
+.layout-medicina-estetica .medical-aesthetics-information{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:34px 0}
+.layout-medicina-estetica .medical-aesthetics-information article{border-top:1px solid var(--line);padding-top:26px}
+.layout-medicina-estetica .medical-aesthetics-information article+article{border-top-color:var(--orange)}
+.layout-medicina-estetica .medical-aesthetics-information h3{font-size:1.4rem}
+.layout-medicina-estetica .medical-aesthetics-information p{color:var(--muted)}
+.layout-medicina-estetica .medical-aesthetics-post{background:var(--panel);padding:28px;max-width:940px}
+.layout-medicina-estetica .medical-aesthetics-reply{max-width:860px;border-left:3px solid var(--orange);padding:12px 0 12px 26px;margin-top:30px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dl{margin:0}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dl>div+div{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-medicina-estetica .medical-aesthetics-editorial-review dd{color:var(--muted);margin:0}
+.layout-medicina-estetica .medical-aesthetics-web{max-width:950px}
+
+/* Residences: the stops explain the visit rather than private resident stories. */
+.layout-residencias-mayores h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:26ch}
+.layout-residencias-mayores .residence-understand>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-residencias-mayores .residence-editorial-tour header{max-width:920px}
+.layout-residencias-mayores .residence-tour-stops{list-style:none;padding:0;margin:34px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.layout-residencias-mayores .residence-tour-stops li{border-top:3px solid var(--orange);padding-top:24px;margin:0}
+.layout-residencias-mayores .residence-tour-stops span{display:block;color:var(--orange);font-weight:800;font-size:.85rem;margin-bottom:20px}
+.layout-residencias-mayores .residence-tour-stops h3{font-size:1.35rem}
+.layout-residencias-mayores .residence-tour-stops p{color:var(--muted)}
+.layout-residencias-mayores .residence-visit-post{padding:28px;background:var(--panel);max-width:940px}
+.layout-residencias-mayores .residence-adaptation{max-width:940px;color:var(--muted);margin-top:26px;font-size:.9rem}
+.layout-residencias-mayores .residence-public-private{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-residencias-mayores .residence-public-private h3{font-size:1.4rem}
+.layout-residencias-mayores .residence-public-private p:not(.kicker),.layout-residencias-mayores .residence-web p{color:var(--muted)}
+.layout-residencias-mayores .residence-web{max-width:950px}
+
+/* Home care: service enquiries and professional candidatures are routed separately. */
+.layout-ayuda-domicilio .hero figure{order:-1}
+.layout-ayuda-domicilio h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-ayuda-domicilio .homecare-service{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-ayuda-domicilio .homecare-service p:not(.kicker),.layout-ayuda-domicilio .homecare-web p{color:var(--muted)}
+.layout-ayuda-domicilio .homecare-two-routes header{max-width:920px}
+.layout-ayuda-domicilio .homecare-intro-post{max-width:940px;border-top:3px solid var(--orange);padding-top:28px;margin-top:34px}
+.layout-ayuda-domicilio .homecare-route-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.layout-ayuda-domicilio .homecare-route-grid article{background:var(--panel);border:1px solid var(--line);padding:28px}
+.layout-ayuda-domicilio .homecare-route-grid span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-ayuda-domicilio .homecare-route-grid h3{font-size:1.4rem}
+.layout-ayuda-domicilio .homecare-route-grid p{margin-bottom:0}
+.layout-ayuda-domicilio .homecare-visible-scope{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-ayuda-domicilio .homecare-visible-scope dl{margin:0}
+.layout-ayuda-domicilio .homecare-visible-scope dl>div+div{padding-top:24px;margin-top:24px;border-top:1px solid var(--line)}
+.layout-ayuda-domicilio .homecare-visible-scope dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-ayuda-domicilio .homecare-visible-scope dd{margin:0;color:var(--muted)}
+.layout-ayuda-domicilio .homecare-web{max-width:950px}
+
+/* Speech therapy: two complete publications, each with its own audience. */
+.layout-logopedia h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-logopedia .speech-centre-scope>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-logopedia .speech-two-publications header{max-width:920px}
+.layout-logopedia .speech-child-piece,.layout-logopedia .speech-adult-piece{max-width:930px;padding:30px;background:var(--panel);border:1px solid var(--line);margin-top:34px}
+.layout-logopedia .speech-adult-piece{margin-left:80px;border-left:3px solid var(--orange)}
+.layout-logopedia .speech-child-piece span,.layout-logopedia .speech-adult-piece span{display:block;color:var(--orange);font-size:.85rem;font-weight:800;margin-bottom:20px}
+.layout-logopedia .speech-child-piece h3,.layout-logopedia .speech-adult-piece h3{font-size:1.5rem}
+.layout-logopedia .speech-child-piece p,.layout-logopedia .speech-adult-piece p{margin-bottom:0}
+.layout-logopedia .speech-adaptation{max-width:930px;margin-top:30px;padding-top:28px;border-top:1px solid var(--line)}
+.layout-logopedia .speech-adaptation p{color:var(--muted)}
+.layout-logopedia .speech-editorial-review{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-logopedia .speech-editorial-review ol{padding-left:24px;margin:0}
+.layout-logopedia .speech-editorial-review li+li{margin-top:28px}
+.layout-logopedia .speech-editorial-review h3{font-size:1.35rem}
+.layout-logopedia .speech-editorial-review p,.layout-logopedia .speech-web p{color:var(--muted)}
+.layout-logopedia .speech-web{max-width:950px}
+
+/* Occupational therapy: a conceptual key followed by the presentation in plain language. */
+.layout-terapia-ocupacional .hero figure{order:-1}
+.layout-terapia-ocupacional h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-terapia-ocupacional .occupational-explain{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-terapia-ocupacional .occupational-explain p:not(.kicker),.layout-terapia-ocupacional .occupational-material p:not(.kicker),.layout-terapia-ocupacional .occupational-web p{color:var(--muted)}
+.layout-terapia-ocupacional .occupational-three-lenses header{max-width:920px}
+.layout-terapia-ocupacional .occupational-reading-key{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:34px 0}
+.layout-terapia-ocupacional .occupational-reading-key>div{padding-top:24px;border-top:3px solid var(--orange)}
+.layout-terapia-ocupacional .occupational-reading-key dt{font-weight:800;font-size:1.25rem;margin-bottom:14px}
+.layout-terapia-ocupacional .occupational-reading-key dd{margin:0;color:var(--muted)}
+.layout-terapia-ocupacional .occupational-centre-post{max-width:940px;padding:28px;background:var(--panel)}
+.layout-terapia-ocupacional .occupational-service-reply{max-width:860px;padding:12px 0 12px 26px;border-left:3px solid var(--orange);margin-top:30px}
+.layout-terapia-ocupacional .occupational-material{display:grid;grid-template-columns:1.2fr .8fr;gap:44px}
+.layout-terapia-ocupacional .occupational-material aside{border-top:1px solid var(--line);padding-top:26px}
+.layout-terapia-ocupacional .occupational-web{max-width:950px}
+@media(max-width:850px){
+  .layout-opticas .hero,.layout-opticas .optical-centre,.layout-opticas .optical-three-views,.layout-opticas .optical-material,.layout-centros-auditivos .hearing-visit>div,.layout-centros-auditivos .hearing-timed-scenes li,.layout-centros-auditivos .hearing-publication-review,.layout-podologia .hero,.layout-podologia .podiatry-introduction,.layout-podologia .podiatry-first-visit-example,.layout-podologia .podiatry-photo-context,.layout-podologia .podiatry-gabinet,.layout-medicina-estetica .medical-aesthetics-consultation,.layout-medicina-estetica .medical-aesthetics-information,.layout-medicina-estetica .medical-aesthetics-editorial-review,.layout-residencias-mayores .residence-understand>div,.layout-residencias-mayores .residence-tour-stops,.layout-residencias-mayores .residence-public-private,.layout-ayuda-domicilio .homecare-service,.layout-ayuda-domicilio .homecare-route-grid,.layout-ayuda-domicilio .homecare-visible-scope,.layout-logopedia .speech-centre-scope>div,.layout-logopedia .speech-editorial-review,.layout-terapia-ocupacional .occupational-explain,.layout-terapia-ocupacional .occupational-reading-key,.layout-terapia-ocupacional .occupational-material{grid-template-columns:1fr;gap:26px}
+  .layout-opticas .hero figure,.layout-medicina-estetica .hero figure,.layout-ayuda-domicilio .hero figure,.layout-terapia-ocupacional .hero figure{order:0}
+  .layout-centros-auditivos .hearing-timed-scenes li{gap:18px}
+  .layout-centros-auditivos .hearing-timed-scenes span{padding-top:0}
+  .layout-podologia .podiatry-first-visit-example header,.layout-podologia .podiatry-photo-context{grid-column:auto}
+}
+@media(max-width:540px){
+  .layout-opticas .optical-model-reply,.layout-centros-auditivos .hearing-caption,.layout-podologia .podiatry-photo-reply,.layout-medicina-estetica .medical-aesthetics-post,.layout-residencias-mayores .residence-visit-post,.layout-ayuda-domicilio .homecare-route-grid article,.layout-logopedia .speech-child-piece,.layout-logopedia .speech-adult-piece,.layout-terapia-ocupacional .occupational-centre-post{padding:24px}
+  .layout-logopedia .speech-adult-piece{margin-left:16px}
+}
+
+/* Advisors: a three-part editorial series, each with its full publication text. */
+.layout-asesorias-gestorias .hero{grid-template-columns:1.05fr .95fr}
+.layout-asesorias-gestorias h1{font-size:clamp(2.1rem,3.3vw,3.5rem);max-width:25ch}
+.layout-asesorias-gestorias .advisory-client-focus{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-asesorias-gestorias .advisory-client-focus p:not(.kicker),.layout-asesorias-gestorias .advisory-web p{color:var(--muted)}
+.layout-asesorias-gestorias .advisory-change-series header{max-width:920px}
+.layout-asesorias-gestorias .advisory-change-series ol{list-style:none;padding:0;margin:34px 0 0}
+.layout-asesorias-gestorias .advisory-change-series li{display:grid;grid-template-columns:.45fr .85fr 1.7fr;gap:28px;border-top:1px solid var(--line);padding:28px 0;margin:0;align-items:start}
+.layout-asesorias-gestorias .advisory-change-series span{font-size:.85rem;color:var(--orange);font-weight:800;padding-top:5px}
+.layout-asesorias-gestorias .advisory-change-series h3{font-size:1.4rem}
+.layout-asesorias-gestorias .advisory-change-series li p{margin:0}
+.layout-asesorias-gestorias .advisory-editorial-control{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-asesorias-gestorias .advisory-editorial-control dl{margin:0}
+.layout-asesorias-gestorias .advisory-editorial-control dl>div+div{border-top:1px solid var(--line);margin-top:24px;padding-top:24px}
+.layout-asesorias-gestorias .advisory-editorial-control dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-asesorias-gestorias .advisory-editorial-control dd{color:var(--muted);margin:0}
+.layout-asesorias-gestorias .advisory-web{max-width:950px}
+
+/* Insurance brokers: a presentation followed by two explicitly different enquiries. */
+.layout-corredurias-seguros .hero figure{order:-1}
+.layout-corredurias-seguros h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:26ch}
+.layout-corredurias-seguros .insurance-broker-work>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-corredurias-seguros .insurance-contact-context header{max-width:920px}
+.layout-corredurias-seguros .insurance-intro-post{max-width:940px;background:var(--panel);border-top:3px solid var(--orange);padding:28px;margin-top:34px}
+.layout-corredurias-seguros .insurance-two-inquiries{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:34px 0 0}
+.layout-corredurias-seguros .insurance-two-inquiries>div{border-left:3px solid var(--orange);padding:12px 0 12px 24px}
+.layout-corredurias-seguros .insurance-two-inquiries dt{font-weight:800;font-size:1.35rem;margin-bottom:18px}
+.layout-corredurias-seguros .insurance-two-inquiries dd{color:var(--muted);margin:0}
+.layout-corredurias-seguros .insurance-content-review{display:grid;grid-template-columns:1.15fr .85fr;gap:44px}
+.layout-corredurias-seguros .insurance-content-review aside{border-top:1px solid var(--line);padding-top:26px}
+.layout-corredurias-seguros .insurance-content-review h3{font-size:1.4rem}
+.layout-corredurias-seguros .insurance-content-review p:not(.kicker),.layout-corredurias-seguros .insurance-web p{color:var(--muted)}
+.layout-corredurias-seguros .insurance-web{max-width:950px}
+
+/* Consultancies: the commission map is followed by a paper-toned presentation. */
+.layout-consultorias-empresariales h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-consultorias-empresariales .consulting-proposition{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-consultorias-empresariales .consulting-proposition p:not(.kicker),.layout-consultorias-empresariales .consulting-channels p{color:var(--muted)}
+.layout-consultorias-empresariales .consulting-commission-map header{max-width:920px}
+.layout-consultorias-empresariales .consulting-project-fields{margin:34px 0}
+.layout-consultorias-empresariales .consulting-project-fields>div{display:grid;grid-template-columns:.85fr 1.5fr;gap:36px;border-top:1px solid var(--line);padding:26px 0}
+.layout-consultorias-empresariales .consulting-project-fields dt{font-weight:800;font-size:1.3rem;color:var(--orange)}
+.layout-consultorias-empresariales .consulting-project-fields dd{color:var(--muted);margin:0}
+.layout-consultorias-empresariales .consulting-example-caption{background:var(--paper);color:#261c15;padding:32px;max-width:970px}
+.layout-consultorias-empresariales .consulting-example-caption h3{font-size:1.5rem}
+.layout-consultorias-empresariales .consulting-example-caption p{color:#46362b;margin-bottom:0}
+.layout-consultorias-empresariales .consulting-adaptation{max-width:950px;color:var(--muted);font-size:.9rem;margin-top:26px}
+.layout-consultorias-empresariales .consulting-material{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-consultorias-empresariales .consulting-material ul{list-style:none;padding:0;margin:0}
+.layout-consultorias-empresariales .consulting-material li{border-top:1px solid var(--line);padding-top:24px;margin:0 0 24px}
+.layout-consultorias-empresariales .consulting-material h3{font-size:1.4rem}
+.layout-consultorias-empresariales .consulting-material p{color:var(--muted)}
+.layout-consultorias-empresariales .consulting-channels{max-width:950px}
+
+/* Recruitment: employer and candidate publications are shown side by side. */
+.layout-seleccion-personal .hero figure{order:-1}
+.layout-seleccion-personal h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-seleccion-personal .recruitment-two-readers>div{display:grid;grid-template-columns:1fr 1fr;gap:38px;color:var(--muted)}
+.layout-seleccion-personal .recruitment-service-publications{display:grid;grid-template-columns:1.1fr .9fr;gap:30px}
+.layout-seleccion-personal .recruitment-service-publications header{grid-column:1/-1;max-width:920px}
+.layout-seleccion-personal .recruitment-employer-post,.layout-seleccion-personal .recruitment-candidate-post{padding:28px;background:var(--panel);border-top:3px solid var(--orange)}
+.layout-seleccion-personal .recruitment-candidate-post{border-top-color:var(--line)}
+.layout-seleccion-personal .recruitment-employer-post span,.layout-seleccion-personal .recruitment-candidate-post span{display:block;font-size:.85rem;font-weight:800;color:var(--orange);margin-bottom:22px}
+.layout-seleccion-personal .recruitment-employer-post h3,.layout-seleccion-personal .recruitment-candidate-post h3{font-size:1.45rem}
+.layout-seleccion-personal .recruitment-employer-post p,.layout-seleccion-personal .recruitment-candidate-post p{margin-bottom:0}
+.layout-seleccion-personal .recruitment-confirmed-information{grid-column:1/-1;max-width:950px;border-top:1px solid var(--line);padding-top:26px}
+.layout-seleccion-personal .recruitment-confirmed-information p{color:var(--muted)}
+.layout-seleccion-personal .recruitment-current-content{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.layout-seleccion-personal .recruitment-current-content dl{margin:0}
+.layout-seleccion-personal .recruitment-current-content dl>div+div{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.layout-seleccion-personal .recruitment-current-content dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-seleccion-personal .recruitment-current-content dd{color:var(--muted);margin:0}
+.layout-seleccion-personal .recruitment-web-channels{max-width:950px}
+.layout-seleccion-personal .recruitment-web-channels p{color:var(--muted)}
+@media(max-width:850px){
+  .layout-asesorias-gestorias .hero,.layout-asesorias-gestorias .advisory-client-focus,.layout-asesorias-gestorias .advisory-change-series li,.layout-asesorias-gestorias .advisory-editorial-control,.layout-corredurias-seguros .insurance-broker-work>div,.layout-corredurias-seguros .insurance-two-inquiries,.layout-corredurias-seguros .insurance-content-review,.layout-consultorias-empresariales .consulting-proposition,.layout-consultorias-empresariales .consulting-project-fields>div,.layout-consultorias-empresariales .consulting-material,.layout-seleccion-personal .recruitment-two-readers>div,.layout-seleccion-personal .recruitment-service-publications,.layout-seleccion-personal .recruitment-current-content{grid-template-columns:1fr;gap:26px}
+  .layout-corredurias-seguros .hero figure,.layout-seleccion-personal .hero figure{order:0}
+  .layout-asesorias-gestorias .advisory-change-series li{gap:18px}
+  .layout-asesorias-gestorias .advisory-change-series span{padding-top:0}
+  .layout-seleccion-personal .recruitment-service-publications header,.layout-seleccion-personal .recruitment-confirmed-information{grid-column:auto}
+}
+@media(max-width:540px){
+  .layout-corredurias-seguros .insurance-intro-post,.layout-consultorias-empresariales .consulting-example-caption,.layout-seleccion-personal .recruitment-employer-post,.layout-seleccion-personal .recruitment-candidate-post{padding:24px}
+}
+
+/* Translation: written and spoken assignments use contrasting editorial sheets. */
+.layout-traduccion-interpretacion h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:27ch}
+.layout-traduccion-interpretacion .translation-services{display:grid;grid-template-columns:1.2fr .8fr;gap:44px}
+.layout-traduccion-interpretacion .translation-services dl{margin:0}
+.layout-traduccion-interpretacion .translation-services dl>div{border-top:2px solid var(--orange);padding:24px 0}
+.layout-traduccion-interpretacion .translation-services dt{font-weight:800;font-size:1.2rem;margin-bottom:12px}
+.layout-traduccion-interpretacion .translation-services dd{margin:0;color:var(--muted)}
+.layout-traduccion-interpretacion .translation-pair{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:36px;align-items:start}
+.layout-traduccion-interpretacion .translation-written{background:var(--paper);padding:32px;color:#261c15;box-shadow:8px 8px 0 #493326}
+.layout-traduccion-interpretacion .translation-written p{color:#46362b;margin-bottom:0}
+.layout-traduccion-interpretacion .translation-live{border-left:3px solid var(--orange);padding:28px 0 0 28px;margin-top:42px}
+.layout-traduccion-interpretacion .translation-label{display:block;font-size:.83rem;font-weight:800;margin-bottom:24px}
+.layout-traduccion-interpretacion .translation-live .translation-label{color:var(--orange)}
+.layout-traduccion-interpretacion .translation-pair h3{font-size:1.5rem}
+.layout-traduccion-interpretacion .translation-review,.layout-traduccion-interpretacion .translation-web{max-width:950px}
+
+/* Engineering: a three-shot storyboard with its own caption. */
+.layout-ingenierias h1{font-size:clamp(2.1rem,3.4vw,3.5rem);max-width:24ch}
+.layout-ingenierias .hero{grid-template-columns:1.2fr .8fr;align-items:start}
+.layout-ingenierias .engineering-specialty>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-ingenierias .engineering-frames{list-style:none;padding:0;margin:36px 0}
+.layout-ingenierias .engineering-frames li{display:grid;grid-template-columns:130px 1fr;gap:28px;padding:26px 0;border-top:1px solid var(--line);margin:0}
+.layout-ingenierias .engineering-frames li>span{color:var(--orange);font-weight:800}
+.layout-ingenierias .engineering-frames p{margin-bottom:0;color:var(--muted);max-width:76ch}
+.layout-ingenierias .engineering-caption{background:#18120e;border:1px solid #6f4834;padding:32px;max-width:980px}
+.layout-ingenierias .engineering-caption p{margin-bottom:0}
+.layout-ingenierias .engineering-material,.layout-ingenierias .engineering-web{max-width:960px}
+
+/* Prevention: permanent presentation and time-limited notice remain distinct. */
+.layout-prevencion-riesgos-laborales h1{font-size:clamp(2.05rem,3.05vw,3.2rem);max-width:28ch}
+.layout-prevencion-riesgos-laborales .hero figure{order:-1}
+.layout-prevencion-riesgos-laborales .prevention-service{display:grid;grid-template-columns:1.25fr .75fr;gap:44px}
+.layout-prevencion-riesgos-laborales .prevention-service aside{border-left:2px solid var(--line);padding-left:26px;color:var(--muted)}
+.layout-prevencion-riesgos-laborales .prevention-service aside h3{color:var(--text)}
+.layout-prevencion-riesgos-laborales .prevention-timing{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;margin-top:36px}
+.layout-prevencion-riesgos-laborales .prevention-timing article{padding:30px;background:var(--panel);border-top:3px solid var(--orange)}
+.layout-prevencion-riesgos-laborales .prevention-timing article+article{background:transparent;border-top-color:#766354}
+.layout-prevencion-riesgos-laborales .prevention-tag{display:block;font-size:.85rem;font-weight:800;color:var(--orange);margin-bottom:24px}
+.layout-prevencion-riesgos-laborales .prevention-timing h3{font-size:1.45rem}
+.layout-prevencion-riesgos-laborales .prevention-timing p{margin-bottom:0}
+.layout-prevencion-riesgos-laborales .prevention-edition{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:32px 0 0}
+.layout-prevencion-riesgos-laborales .prevention-edition>div{border-top:1px solid var(--line);padding-top:24px}
+.layout-prevencion-riesgos-laborales .prevention-edition dt{font-weight:800;margin-bottom:10px}
+.layout-prevencion-riesgos-laborales .prevention-edition dd{margin:0;color:var(--muted)}
+.layout-prevencion-riesgos-laborales .prevention-responsibility,.layout-prevencion-riesgos-laborales .prevention-growth{max-width:970px}
+
+/* Logistics: the transport presentation leads to two different conversations. */
+.layout-transporte-logistica h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:27ch}
+.layout-transporte-logistica .logistics-capacity>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-transporte-logistica .logistics-post{padding:32px;border-left:5px solid var(--orange);background:var(--paper);color:#261c15;margin-top:36px;max-width:980px}
+.layout-transporte-logistica .logistics-post p{color:#46362b;margin-bottom:0}
+.layout-transporte-logistica .logistics-replies{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:42px}
+.layout-transporte-logistica .logistics-replies article{border-top:1px solid var(--line);padding-top:24px}
+.layout-transporte-logistica .logistics-replies span{display:block;font-size:.85rem;font-weight:800;color:var(--orange);margin-bottom:22px}
+.layout-transporte-logistica .logistics-replies h3{font-size:1.45rem}
+.layout-transporte-logistica .logistics-replies p{margin-bottom:0;color:var(--muted)}
+.layout-transporte-logistica .logistics-material,.layout-transporte-logistica .logistics-web{max-width:970px}
+
+/* IT: three slides, caption and service response use different reading levels. */
+.layout-informatica-soporte-tecnico h1{font-size:clamp(2.1rem,3.1vw,3.3rem);max-width:27ch}
+.layout-informatica-soporte-tecnico .it-service{display:grid;grid-template-columns:1.1fr .9fr;gap:42px}
+.layout-informatica-soporte-tecnico .it-service-note{border:1px solid var(--line);padding:30px;align-self:start}
+.layout-informatica-soporte-tecnico .it-service-note p{margin-bottom:0;color:var(--muted)}
+.layout-informatica-soporte-tecnico .it-slides{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:36px 0}
+.layout-informatica-soporte-tecnico .it-slides li{padding:27px 24px;background:var(--panel);border-top:3px solid var(--orange);margin:0}
+.layout-informatica-soporte-tecnico .it-slides span{display:block;font-size:.85rem;color:var(--orange);font-weight:800;margin-bottom:24px}
+.layout-informatica-soporte-tecnico .it-slides h3{font-size:1.35rem}
+.layout-informatica-soporte-tecnico .it-slides p{font-size:.95rem;color:var(--muted);margin-bottom:0}
+.layout-informatica-soporte-tecnico .it-caption{max-width:950px;padding:30px;background:var(--paper);color:#261c15}
+.layout-informatica-soporte-tecnico .it-caption p{color:#46362b;margin-bottom:0}
+.layout-informatica-soporte-tecnico .it-reply{max-width:820px;border-left:3px solid var(--orange);padding:8px 0 8px 28px;margin-top:32px}
+.layout-informatica-soporte-tecnico .it-reply p{margin-bottom:0;color:var(--muted)}
+.layout-informatica-soporte-tecnico .it-validation,.layout-informatica-soporte-tecnico .it-growth{max-width:970px}
+
+/* Print: two product applications appear as a staggered pair of samples. */
+.layout-imprentas-rotulacion h1{font-size:clamp(2.1rem,3.2vw,3.4rem);max-width:27ch}
+.layout-imprentas-rotulacion .hero figure{order:-1}
+.layout-imprentas-rotulacion .print-purpose>div,.layout-imprentas-rotulacion .print-material>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-imprentas-rotulacion .print-samples{display:grid;grid-template-columns:.95fr 1.05fr;gap:36px;margin-top:36px;align-items:start}
+.layout-imprentas-rotulacion .print-label{padding:32px;background:var(--paper);color:#261c15}
+.layout-imprentas-rotulacion .print-label p{color:#46362b;margin-bottom:0}
+.layout-imprentas-rotulacion .print-sign{padding:30px;border:2px solid #81624a;margin-top:42px}
+.layout-imprentas-rotulacion .print-sign p{margin-bottom:0}
+.layout-imprentas-rotulacion .print-samples span{display:block;font-size:.85rem;font-weight:800;margin-bottom:25px}
+.layout-imprentas-rotulacion .print-sign span{color:var(--orange)}
+.layout-imprentas-rotulacion .print-samples h3{font-size:1.5rem}
+.layout-imprentas-rotulacion .print-contact{max-width:970px}
+@media(max-width:850px){
+ .layout-traduccion-interpretacion .translation-services,.layout-traduccion-interpretacion .translation-pair,.layout-ingenierias .hero,.layout-ingenierias .engineering-specialty>div,.layout-prevencion-riesgos-laborales .prevention-service,.layout-prevencion-riesgos-laborales .prevention-timing,.layout-prevencion-riesgos-laborales .prevention-edition,.layout-transporte-logistica .logistics-capacity>div,.layout-transporte-logistica .logistics-replies,.layout-informatica-soporte-tecnico .it-service,.layout-informatica-soporte-tecnico .it-slides,.layout-imprentas-rotulacion .print-purpose>div,.layout-imprentas-rotulacion .print-material>div,.layout-imprentas-rotulacion .print-samples{grid-template-columns:1fr;gap:26px}
+ .layout-prevencion-riesgos-laborales .hero figure,.layout-imprentas-rotulacion .hero figure{order:0}
+ .layout-traduccion-interpretacion .translation-live,.layout-imprentas-rotulacion .print-sign{margin-top:0}
+ .layout-prevencion-riesgos-laborales .prevention-service aside{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}
+}
+@media(max-width:540px){
+ .layout-traduccion-interpretacion .translation-written,.layout-ingenierias .engineering-caption,.layout-prevencion-riesgos-laborales .prevention-timing article,.layout-transporte-logistica .logistics-post,.layout-informatica-soporte-tecnico .it-service-note,.layout-informatica-soporte-tecnico .it-slides li,.layout-informatica-soporte-tecnico .it-caption,.layout-imprentas-rotulacion .print-label,.layout-imprentas-rotulacion .print-sign{padding:24px}
+ .layout-ingenierias .engineering-frames li{grid-template-columns:1fr;gap:14px}
+}
+
+/* Flowers: a composition in three views, followed by two kinds of enquiry. */
+.layout-floristerias .hero{grid-template-columns:.9fr 1.1fr}
+.layout-floristerias .hero figure{order:-1}
+.layout-floristerias h1{font-size:clamp(2.3rem,3.6vw,3.7rem);max-width:18ch}
+.layout-floristerias .flowers-style{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:end}
+.layout-floristerias .flowers-style p,.layout-floristerias .flowers-material p{color:var(--muted)}
+.layout-floristerias .flowers-style .kicker{color:var(--orange)}
+.layout-floristerias .flowers-views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:34px 0}
+.layout-floristerias .flowers-views>div{border-top:3px solid var(--orange);padding-top:20px}
+.layout-floristerias .flowers-views dt{font-size:1.2rem;font-weight:750;margin-bottom:10px}
+.layout-floristerias .flowers-views dd{margin:0;color:var(--muted)}
+.layout-floristerias .flowers-caption{background:var(--paper);color:#251d17;padding:34px;border-radius:28px 0 28px 0}
+.layout-floristerias .flowers-caption p{color:#46372c;margin-bottom:0}
+.layout-floristerias .flowers-replies{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:36px}
+.layout-floristerias .flowers-replies article{padding-left:24px;border-left:1px solid var(--orange)}
+.layout-floristerias .flowers-replies p{color:var(--muted);margin-bottom:0}
+.layout-floristerias .flowers-material,.layout-floristerias .flowers-contact{max-width:980px}
+
+/* Jewellery: two separate product stories, with a restrained display treatment. */
+.layout-joyerias-relojerias .hero{grid-template-columns:1.15fr .85fr}
+.layout-joyerias-relojerias h1{font-size:clamp(2.3rem,3.6vw,3.7rem);max-width:23ch}
+.layout-joyerias-relojerias .jewellery-detail>div{display:grid;grid-template-columns:1fr 1fr;gap:48px;color:var(--muted)}
+.layout-joyerias-relojerias .jewellery-two-pieces>article{display:grid;grid-template-columns:.65fr 1.35fr;gap:44px;padding:34px 0;margin-top:30px;border-top:1px solid #8c6f4f}
+.layout-joyerias-relojerias .jewellery-two-pieces>article span{display:block;color:var(--orange);font-size:.8rem;letter-spacing:.12em;margin-bottom:18px}
+.layout-joyerias-relojerias .jewellery-two-pieces>article h3{font-size:1.6rem}
+.layout-joyerias-relojerias .jewellery-two-pieces>article p{color:var(--muted);margin-bottom:0}
+.layout-joyerias-relojerias .jewellery-two-pieces .watch-piece{padding-left:36px;border-left:1px solid #8c6f4f;margin-left:56px}
+.layout-joyerias-relojerias .jewellery-authority,.layout-joyerias-relojerias .jewellery-service{max-width:960px}
+
+/* Furniture: a timed three-shot storyboard and a store enquiry checklist. */
+.layout-tiendas-muebles h1{font-size:clamp(2.3rem,3.7vw,3.9rem);max-width:21ch}
+.layout-tiendas-muebles .furniture-showroom{display:grid;grid-template-columns:1.25fr .75fr;gap:42px}
+.layout-tiendas-muebles .furniture-showroom aside{background:#18130f;padding:28px;border-top:3px solid var(--orange);align-self:start}
+.layout-tiendas-muebles .furniture-showroom p{color:var(--muted)}
+.layout-tiendas-muebles .furniture-showroom .kicker{color:var(--orange)}
+.layout-tiendas-muebles .furniture-shots{list-style:none;padding:0;margin:36px 0;border-bottom:1px solid var(--line)}
+.layout-tiendas-muebles .furniture-shots li{display:grid;grid-template-columns:110px 1fr;gap:28px;padding:26px 0;margin:0;border-top:1px solid var(--line)}
+.layout-tiendas-muebles .furniture-shots li>span{font-weight:800;color:var(--orange)}
+.layout-tiendas-muebles .furniture-shots p{color:var(--muted);margin-bottom:0}
+.layout-tiendas-muebles .furniture-caption{background:#21170f;padding:34px;border:1px solid #8d6545}
+.layout-tiendas-muebles .furniture-caption p{margin-bottom:0}
+.layout-tiendas-muebles .furniture-questions dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:32px 0}
+.layout-tiendas-muebles .furniture-questions dt{font-size:1.2rem;font-weight:750;color:var(--orange);margin-bottom:12px}
+.layout-tiendas-muebles .furniture-questions dd{margin:0;color:var(--muted)}
+.layout-tiendas-muebles .furniture-web{max-width:940px}
+
+/* Decoration and lighting: an object and a light keep their own editorial space. */
+.layout-decoracion-iluminacion .hero{grid-template-columns:1fr}
+.layout-decoracion-iluminacion .hero>div{max-width:1000px}
+.layout-decoracion-iluminacion .hero figure{max-width:750px;justify-self:center}
+.layout-decoracion-iluminacion h1{font-size:clamp(2.3rem,4.4vw,4.3rem);max-width:25ch}
+.layout-decoracion-iluminacion .decor-selection>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-decoracion-iluminacion .decor-editorials{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start;margin-top:34px}
+.layout-decoracion-iluminacion .decor-editorials article{padding:34px}
+.layout-decoracion-iluminacion .decor-editorials span{display:block;font-size:.8rem;letter-spacing:.1em;font-weight:750;margin-bottom:25px}
+.layout-decoracion-iluminacion .decor-editorials h3{font-size:1.65rem}
+.layout-decoracion-iluminacion .decor-editorials p{margin-bottom:0}
+.layout-decoracion-iluminacion .decor-object{background:var(--paper);color:#291e16}
+.layout-decoracion-iluminacion .decor-object span{color:#94350f}
+.layout-decoracion-iluminacion .decor-object p{color:#49392b}
+.layout-decoracion-iluminacion .decor-light{border:1px solid #a57950;margin-top:54px;background:#1c140d}
+.layout-decoracion-iluminacion .decor-light span{color:var(--orange)}
+.layout-decoracion-iluminacion .decor-reference,.layout-decoracion-iluminacion .decor-service{max-width:980px}
+
+/* Books: the bookseller's reading note and the programme notice read differently. */
+.layout-librerias .hero{grid-template-columns:1fr 1fr}
+.layout-librerias h1{font-size:clamp(2.5rem,3.7vw,3.9rem);max-width:20ch}
+.layout-librerias .bookseller-voice{display:grid;grid-template-columns:1.2fr .8fr;gap:46px;align-items:end}
+.layout-librerias .bookseller-voice p{color:var(--muted)}
+.layout-librerias .bookseller-voice .kicker{color:var(--orange)}
+.layout-librerias .books-reading-note{max-width:850px;margin:38px 0;padding:36px;background:var(--paper);color:#291e16;border-left:8px solid #b1562e}
+.layout-librerias .books-reading-note span{color:#94350f}
+.layout-librerias .books-reading-note p{color:#49392b;margin-bottom:0}
+.layout-librerias .books-programme-note{max-width:850px;margin-left:auto;padding:30px 0 0 32px;border-top:1px solid var(--orange);border-left:1px solid var(--orange)}
+.layout-librerias .books-programme-note span{color:var(--orange)}
+.layout-librerias .books-programme-note p{color:var(--muted);margin-bottom:0}
+.layout-librerias .bookseller-notes article span{display:block;font-size:.8rem;font-weight:750;letter-spacing:.08em;margin-bottom:24px}
+.layout-librerias .bookseller-notes article h3{font-size:1.65rem}
+.layout-librerias .books-material dl{margin:32px 0}
+.layout-librerias .books-material dl>div{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:22px 0;border-top:1px solid var(--line)}
+.layout-librerias .books-material dt{font-weight:750;color:var(--orange)}
+.layout-librerias .books-material dd{margin:0;color:var(--muted)}
+.layout-librerias .books-web{max-width:950px}
+@media(max-width:850px){
+ .layout-floristerias .hero,.layout-floristerias .flowers-style,.layout-floristerias .flowers-views,.layout-floristerias .flowers-replies,.layout-joyerias-relojerias .hero,.layout-joyerias-relojerias .jewellery-detail>div,.layout-joyerias-relojerias .jewellery-two-pieces>article,.layout-tiendas-muebles .furniture-showroom,.layout-tiendas-muebles .furniture-questions dl,.layout-decoracion-iluminacion .decor-selection>div,.layout-decoracion-iluminacion .decor-editorials,.layout-librerias .hero,.layout-librerias .bookseller-voice{grid-template-columns:1fr;gap:26px}
+ .layout-floristerias .hero figure{order:0}
+ .layout-joyerias-relojerias .jewellery-two-pieces .watch-piece{margin-left:0;padding-left:0;border-left:0}
+ .layout-decoracion-iluminacion .decor-light{margin-top:0}
+}
+@media(max-width:540px){
+ .layout-floristerias .flowers-caption,.layout-tiendas-muebles .furniture-showroom aside,.layout-tiendas-muebles .furniture-caption,.layout-decoracion-iluminacion .decor-editorials article,.layout-librerias .books-reading-note{padding:24px}
+ .layout-tiendas-muebles .furniture-shots li,.layout-librerias .books-material dl>div{grid-template-columns:1fr;gap:12px}
+ .layout-librerias .books-programme-note{padding-left:22px}
+}
+
+/* Toys: the adult buyer follows box, contents and the store conversation. */
+.layout-jugueterias h1{font-size:clamp(2.4rem,3.8vw,4rem);max-width:20ch}
+.layout-jugueterias .hero{grid-template-columns:1.05fr .95fr}
+.layout-jugueterias .toys-adult{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-jugueterias .toys-adult p{color:var(--muted)}
+.layout-jugueterias .toys-adult .kicker{color:var(--orange)}
+.layout-jugueterias .toys-adult aside{padding:26px;border-left:3px solid var(--orange);align-self:start;background:#17110c}
+.layout-jugueterias .toys-checkpoints{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:34px 0}
+.layout-jugueterias .toys-checkpoints>div{padding:26px;background:#19130e;border-radius:15px}
+.layout-jugueterias .toys-checkpoints dt{font-weight:750;font-size:1.15rem;color:var(--orange);margin-bottom:14px}
+.layout-jugueterias .toys-checkpoints dd{margin:0;color:var(--muted)}
+.layout-jugueterias .toys-caption{padding:34px;background:var(--paper);color:#2c2118}
+.layout-jugueterias .toys-caption p{margin-bottom:0;color:#4a392b}
+.layout-jugueterias .toys-reply{max-width:850px;padding:28px 0 0 28px;margin-top:32px;border-left:1px solid var(--orange)}
+.layout-jugueterias .toys-reply p{margin-bottom:0;color:var(--muted)}
+.layout-jugueterias .toys-material,.layout-jugueterias .toys-service{max-width:970px}
+
+/* Clothing: a look sequence and a separate practical sizing conversation. */
+.layout-ropa-complementos .hero{grid-template-columns:.85fr 1.15fr}
+.layout-ropa-complementos .hero figure{order:-1}
+.layout-ropa-complementos h1{font-size:clamp(2.2rem,3.3vw,3.45rem);max-width:24ch}
+.layout-ropa-complementos .fashion-reference>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-ropa-complementos .fashion-sequence{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;list-style:none;padding:0;margin:36px 0}
+.layout-ropa-complementos .fashion-sequence li{margin:0;padding:25px 26px 18px 0;border-top:4px solid var(--orange)}
+.layout-ropa-complementos .fashion-sequence li+li{padding-left:26px;border-left:1px solid var(--line)}
+.layout-ropa-complementos .fashion-sequence span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-ropa-complementos .fashion-sequence p{margin-bottom:0;color:var(--muted)}
+.layout-ropa-complementos .fashion-copy{display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:start}
+.layout-ropa-complementos .fashion-copy article:first-child{padding:34px;background:#21150e;border:1px solid #8b6145}
+.layout-ropa-complementos .fashion-copy article:last-child{padding:28px 0;border-top:1px solid var(--line)}
+.layout-ropa-complementos .fashion-copy p{margin-bottom:0}
+.layout-ropa-complementos .fashion-copy article:last-child p{color:var(--muted)}
+.layout-ropa-complementos .fashion-season,.layout-ropa-complementos .fashion-service{max-width:980px}
+
+/* Sports retail: a reference brief sits beside its product publication. */
+.layout-tiendas-deporte h1{font-size:clamp(2.3rem,3.6vw,3.8rem);max-width:22ch}
+.layout-tiendas-deporte .sports-retail{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-tiendas-deporte .sports-retail p{color:var(--muted)}
+.layout-tiendas-deporte .sports-retail .kicker{color:var(--orange)}
+.layout-tiendas-deporte .sports-retail aside{border-top:3px solid var(--orange);padding-top:24px;align-self:start}
+.layout-tiendas-deporte .sports-brief{display:grid;grid-template-columns:.85fr 1.15fr;gap:38px;align-items:start;margin-top:36px}
+.layout-tiendas-deporte .sports-brief dl{margin:0}
+.layout-tiendas-deporte .sports-brief dl>div{padding:20px 0;border-bottom:1px solid var(--line)}
+.layout-tiendas-deporte .sports-brief dt{font-weight:750;color:var(--orange);margin-bottom:8px}
+.layout-tiendas-deporte .sports-brief dd{margin:0;color:var(--muted)}
+.layout-tiendas-deporte .sports-caption{background:var(--paper);color:#2b2119;padding:34px}
+.layout-tiendas-deporte .sports-caption p{color:#49382c;margin-bottom:0}
+.layout-tiendas-deporte .sports-reply{max-width:850px;margin:36px 0 0 auto;padding:28px;border:1px solid #846047;border-radius:0 24px 0 24px}
+.layout-tiendas-deporte .sports-reply p{color:var(--muted);margin-bottom:0}
+.layout-tiendas-deporte .sports-material,.layout-tiendas-deporte .sports-service{max-width:970px}
+
+/* Pet shops: the product message and the store reply form a stacked dialogue. */
+.layout-tiendas-mascotas .hero{grid-template-columns:1fr 1fr}
+.layout-tiendas-mascotas .hero figure{order:-1}
+.layout-tiendas-mascotas h1{font-size:clamp(2.3rem,3.6vw,3.8rem);max-width:22ch}
+.layout-tiendas-mascotas .petshop-product>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-tiendas-mascotas .petshop-example article{padding:34px;margin-top:34px;max-width:900px}
+.layout-tiendas-mascotas .petshop-example article span{display:block;font-size:.8rem;font-weight:750;letter-spacing:.1em;margin-bottom:22px}
+.layout-tiendas-mascotas .petshop-example article h3{font-size:1.6rem}
+.layout-tiendas-mascotas .petshop-example article p{margin-bottom:0}
+.layout-tiendas-mascotas .petshop-post{background:#24180f;border-left:5px solid var(--orange)}
+.layout-tiendas-mascotas .petshop-post span{color:var(--orange)}
+.layout-tiendas-mascotas .petshop-answer{background:var(--paper);color:#2b2119;margin-left:auto;border-radius:24px 24px 0 24px}
+.layout-tiendas-mascotas .petshop-answer span{color:#94350f}
+.layout-tiendas-mascotas .petshop-answer p{color:#49382c}
+.layout-tiendas-mascotas .petshop-range dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:32px 0}
+.layout-tiendas-mascotas .petshop-range dt{color:var(--orange);font-weight:750;font-size:1.2rem;margin-bottom:12px}
+.layout-tiendas-mascotas .petshop-range dd{margin:0;color:var(--muted)}
+.layout-tiendas-mascotas .petshop-service{max-width:960px}
+
+/* Ecommerce: a product post branches into pre-purchase and order attention. */
+.layout-tiendas-online .hero{grid-template-columns:1.15fr .85fr}
+.layout-tiendas-online h1{font-size:clamp(2.4rem,3.7vw,3.9rem);max-width:22ch}
+.layout-tiendas-online .ecommerce-journey{display:grid;grid-template-columns:1.3fr .7fr;gap:42px}
+.layout-tiendas-online .ecommerce-journey p{color:var(--muted)}
+.layout-tiendas-online .ecommerce-journey .kicker{color:var(--orange)}
+.layout-tiendas-online .ecommerce-journey aside{background:#19110c;padding:28px;border:1px solid var(--line);align-self:start}
+.layout-tiendas-online .ecommerce-post{max-width:940px;padding:34px;background:#21150e;border-top:4px solid var(--orange);margin-top:34px}
+.layout-tiendas-online .ecommerce-post p{margin-bottom:0}
+.layout-tiendas-online .ecommerce-replies{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:36px;align-items:start}
+.layout-tiendas-online .ecommerce-replies article{padding:30px;border:1px solid #8a6246}
+.layout-tiendas-online .ecommerce-replies article:last-child{background:var(--paper);color:#2b2119;margin-top:45px;border-color:var(--paper)}
+.layout-tiendas-online .ecommerce-replies span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-tiendas-online .ecommerce-replies article:last-child span{color:#94350f}
+.layout-tiendas-online .ecommerce-replies p{color:var(--muted);margin-bottom:0}
+.layout-tiendas-online .ecommerce-replies article:last-child p{color:#49382c}
+.layout-tiendas-online .ecommerce-destinations,.layout-tiendas-online .ecommerce-growth{max-width:980px}
+@media(max-width:850px){
+ .layout-jugueterias .hero,.layout-jugueterias .toys-adult,.layout-jugueterias .toys-checkpoints,.layout-ropa-complementos .hero,.layout-ropa-complementos .fashion-reference>div,.layout-ropa-complementos .fashion-sequence,.layout-ropa-complementos .fashion-copy,.layout-tiendas-deporte .sports-retail,.layout-tiendas-deporte .sports-brief,.layout-tiendas-mascotas .hero,.layout-tiendas-mascotas .petshop-product>div,.layout-tiendas-mascotas .petshop-range dl,.layout-tiendas-online .hero,.layout-tiendas-online .ecommerce-journey,.layout-tiendas-online .ecommerce-replies{grid-template-columns:1fr;gap:26px}
+ .layout-ropa-complementos .hero figure,.layout-tiendas-mascotas .hero figure{order:0}
+ .layout-ropa-complementos .fashion-sequence li+li{padding-left:0;border-left:0}
+ .layout-tiendas-online .ecommerce-replies article:last-child{margin-top:0}
+}
+@media(max-width:540px){
+ .layout-jugueterias .toys-adult aside,.layout-jugueterias .toys-checkpoints>div,.layout-jugueterias .toys-caption,.layout-ropa-complementos .fashion-copy article:first-child,.layout-tiendas-deporte .sports-caption,.layout-tiendas-deporte .sports-reply,.layout-tiendas-mascotas .petshop-example article,.layout-tiendas-online .ecommerce-journey aside,.layout-tiendas-online .ecommerce-post,.layout-tiendas-online .ecommerce-replies article{padding:24px}
+}
+
+/* Organisers: a first conversation branches towards couples and companies. */
+.layout-organizadores-bodas-eventos .hero{grid-template-columns:1fr}
+.layout-organizadores-bodas-eventos .hero>div{max-width:1050px}
+.layout-organizadores-bodas-eventos .hero figure{max-width:740px;justify-self:end}
+.layout-organizadores-bodas-eventos h1{font-size:clamp(2.4rem,4.1vw,4.2rem);max-width:27ch}
+.layout-organizadores-bodas-eventos .planner-scope{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-organizadores-bodas-eventos .planner-scope p{color:var(--muted)}
+.layout-organizadores-bodas-eventos .planner-scope .kicker{color:var(--orange)}
+.layout-organizadores-bodas-eventos .planner-scope aside{padding:26px;border-top:3px solid var(--orange);background:#17110c;align-self:start}
+.layout-organizadores-bodas-eventos .planner-publication{background:var(--paper);color:#2b2018;padding:34px;margin-top:34px}
+.layout-organizadores-bodas-eventos .planner-publication p{color:#49392b;margin-bottom:0}
+.layout-organizadores-bodas-eventos .planner-two-routes{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:36px}
+.layout-organizadores-bodas-eventos .planner-two-routes article{padding:26px;border:1px solid #826048;border-radius:18px}
+.layout-organizadores-bodas-eventos .planner-two-routes span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-organizadores-bodas-eventos .planner-two-routes p{margin-bottom:0;color:var(--muted)}
+.layout-organizadores-bodas-eventos .planner-material,.layout-organizadores-bodas-eventos .planner-web{max-width:980px}
+
+/* Photography: a reading of the image selection precedes the enquiry note. */
+.layout-fotografos .hero{grid-template-columns:.95fr 1.05fr}
+.layout-fotografos .hero figure{order:-1}
+.layout-fotografos h1{font-size:clamp(2.4rem,3.8vw,4rem);max-width:21ch}
+.layout-fotografos .photo-intention>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-fotografos .photo-reading{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:34px 0}
+.layout-fotografos .photo-reading>div{border-bottom:3px solid var(--orange);padding-bottom:24px}
+.layout-fotografos .photo-reading dt{color:var(--orange);font-weight:750;font-size:1.2rem;margin-bottom:14px}
+.layout-fotografos .photo-reading dd{margin:0;color:var(--muted)}
+.layout-fotografos .photo-caption{padding:34px;background:#22170f;border:1px solid #7d5941;max-width:940px}
+.layout-fotografos .photo-caption p{margin-bottom:0}
+.layout-fotografos .photo-contact-note{max-width:820px;margin:36px 0 0 auto;border-left:1px solid var(--orange);padding:12px 0 12px 30px}
+.layout-fotografos .photo-contact-note p{margin-bottom:0;color:var(--muted)}
+.layout-fotografos .photo-portfolio,.layout-fotografos .photo-service{max-width:980px}
+
+/* Production: two editorial cuts are compared before the written publication. */
+.layout-productoras-audiovisuales h1{font-size:clamp(2.2rem,3.2vw,3.5rem);max-width:24ch}
+.layout-productoras-audiovisuales .film-business{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-productoras-audiovisuales .film-business p{color:var(--muted)}
+.layout-productoras-audiovisuales .film-business .kicker{color:var(--orange)}
+.layout-productoras-audiovisuales .film-business aside{align-self:start;padding-left:28px;border-left:3px solid var(--orange)}
+.layout-productoras-audiovisuales .film-two-cuts{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:36px 0}
+.layout-productoras-audiovisuales .film-two-cuts article{padding:32px;background:#17110c;border-top:4px solid var(--orange)}
+.layout-productoras-audiovisuales .film-two-cuts span{display:block;font-size:.8rem;letter-spacing:.1em;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-productoras-audiovisuales .film-two-cuts h3{font-size:1.55rem}
+.layout-productoras-audiovisuales .film-two-cuts p{margin-bottom:0;color:var(--muted)}
+.layout-productoras-audiovisuales .film-caption{padding:36px;background:var(--paper);color:#2c2118}
+.layout-productoras-audiovisuales .film-caption p{color:#49392b;margin-bottom:0}
+.layout-productoras-audiovisuales .film-credit,.layout-productoras-audiovisuales .film-service{max-width:980px}
+
+/* Event rentals: the enquiry fields stay distinct from the rental conditions. */
+.layout-alquiler-material-eventos .hero{grid-template-columns:.9fr 1.1fr}
+.layout-alquiler-material-eventos .hero figure{order:-1}
+.layout-alquiler-material-eventos h1{font-size:clamp(2.2rem,3.2vw,3.5rem);max-width:25ch}
+.layout-alquiler-material-eventos .rental-catalogue>div{display:grid;grid-template-columns:1fr 1fr;gap:42px;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-enquiry{margin:34px 0}
+.layout-alquiler-material-eventos .rental-enquiry>div{display:grid;grid-template-columns:180px 1fr;gap:30px;padding:22px 0;border-top:1px solid var(--line)}
+.layout-alquiler-material-eventos .rental-enquiry dt{font-weight:750;color:var(--orange);font-size:1.15rem}
+.layout-alquiler-material-eventos .rental-enquiry dd{margin:0;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-caption{background:var(--paper);color:#2c2118;padding:34px;max-width:920px}
+.layout-alquiler-material-eventos .rental-caption p{margin-bottom:0;color:#49392b}
+.layout-alquiler-material-eventos .rental-reply{max-width:850px;margin:34px 0 0 auto;padding:28px;border:1px solid #8d6648}
+.layout-alquiler-material-eventos .rental-reply p{margin-bottom:0;color:var(--muted)}
+.layout-alquiler-material-eventos .rental-conditions,.layout-alquiler-material-eventos .rental-service{max-width:980px}
+
+/* Live AV: format, intervention and contact run as three editorial rows. */
+.layout-sonido-iluminacion .hero{grid-template-columns:1.15fr .85fr}
+.layout-sonido-iluminacion h1{font-size:clamp(2.2rem,3.3vw,3.6rem);max-width:25ch}
+.layout-sonido-iluminacion .av-intervention{display:grid;grid-template-columns:1.3fr .7fr;gap:42px}
+.layout-sonido-iluminacion .av-intervention p{color:var(--muted)}
+.layout-sonido-iluminacion .av-intervention .kicker{color:var(--orange)}
+.layout-sonido-iluminacion .av-intervention aside{align-self:start;padding:28px;background:#18110c;border-bottom:3px solid var(--orange)}
+.layout-sonido-iluminacion .av-explanation{margin:34px 0}
+.layout-sonido-iluminacion .av-explanation article{display:grid;grid-template-columns:110px .8fr 1.2fr;gap:28px;padding:26px 0;border-top:1px solid var(--line)}
+.layout-sonido-iluminacion .av-explanation span{font-size:.8rem;font-weight:750;color:var(--orange)}
+.layout-sonido-iluminacion .av-explanation p{margin-bottom:0;color:var(--muted)}
+.layout-sonido-iluminacion .av-caption{padding:34px;background:#24170f;border:1px solid #8c6448}
+.layout-sonido-iluminacion .av-caption p{margin-bottom:0}
+.layout-sonido-iluminacion .av-reply{max-width:850px;padding:28px 0 0 30px;margin:34px 0 0 auto;border-left:1px solid var(--orange)}
+.layout-sonido-iluminacion .av-reply p{margin-bottom:0;color:var(--muted)}
+.layout-sonido-iluminacion .av-material,.layout-sonido-iluminacion .av-service{max-width:980px}
+@media(max-width:850px){
+ .layout-organizadores-bodas-eventos .planner-scope,.layout-organizadores-bodas-eventos .planner-two-routes,.layout-fotografos .hero,.layout-fotografos .photo-intention>div,.layout-fotografos .photo-reading,.layout-productoras-audiovisuales .film-business,.layout-productoras-audiovisuales .film-two-cuts,.layout-alquiler-material-eventos .hero,.layout-alquiler-material-eventos .rental-catalogue>div,.layout-sonido-iluminacion .hero,.layout-sonido-iluminacion .av-intervention,.layout-sonido-iluminacion .av-explanation article{grid-template-columns:1fr;gap:26px}
+ .layout-fotografos .hero figure,.layout-alquiler-material-eventos .hero figure{order:0}
+ .layout-productoras-audiovisuales .film-business aside{padding:24px 0 0;border-left:0;border-top:1px solid var(--line)}
+}
+@media(max-width:540px){
+ .layout-organizadores-bodas-eventos .planner-scope aside,.layout-organizadores-bodas-eventos .planner-publication,.layout-organizadores-bodas-eventos .planner-two-routes article,.layout-fotografos .photo-caption,.layout-productoras-audiovisuales .film-two-cuts article,.layout-productoras-audiovisuales .film-caption,.layout-alquiler-material-eventos .rental-caption,.layout-alquiler-material-eventos .rental-reply,.layout-sonido-iluminacion .av-intervention aside,.layout-sonido-iluminacion .av-caption{padding:24px}
+ .layout-alquiler-material-eventos .rental-enquiry>div{grid-template-columns:1fr;gap:12px}
+}
+
+/* Dance: a teaching introduction branches by previous experience. */
+.layout-escuelas-danza .hero{grid-template-columns:1.1fr .9fr}
+.layout-escuelas-danza h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-escuelas-danza .dance-class>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-escuelas-danza .dance-caption{padding:34px;background:var(--paper);color:#2b2119;margin-top:34px}
+.layout-escuelas-danza .dance-caption p{color:#49382c;margin-bottom:0}
+.layout-escuelas-danza .dance-routes{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:36px}
+.layout-escuelas-danza .dance-routes article{border-top:3px solid var(--orange);padding-top:26px}
+.layout-escuelas-danza .dance-routes span{display:block;color:var(--orange);font-size:.8rem;font-weight:750;margin-bottom:24px}
+.layout-escuelas-danza .dance-routes p{color:var(--muted);margin-bottom:0}
+.layout-escuelas-danza .dance-material,.layout-escuelas-danza .dance-service{max-width:980px}
+
+/* Martial arts: two long-form posts separate school identity and introduction. */
+.layout-artes-marciales .hero{grid-template-columns:1fr}
+.layout-artes-marciales .hero>div{max-width:1050px}
+.layout-artes-marciales .hero figure{max-width:700px;justify-self:end}
+.layout-artes-marciales h1{font-size:clamp(2.4rem,4.1vw,4.2rem);max-width:26ch}
+.layout-artes-marciales .martial-intro{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-artes-marciales .martial-intro p{color:var(--muted)}
+.layout-artes-marciales .martial-intro .kicker{color:var(--orange)}
+.layout-artes-marciales .martial-intro aside{padding:28px;border-left:3px solid var(--orange);align-self:start}
+.layout-artes-marciales .martial-posts{margin-top:34px}
+.layout-artes-marciales .martial-posts article{padding:32px;background:#21160f;max-width:950px;border:1px solid #805d43}
+.layout-artes-marciales .martial-posts article+article{margin:34px 0 0 auto;background:var(--paper);color:#2b2119}
+.layout-artes-marciales .martial-posts span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-artes-marciales .martial-posts p{margin-bottom:0}
+.layout-artes-marciales .martial-posts article+article span{color:#94350f}
+.layout-artes-marciales .martial-posts article+article p{color:#49382c}
+.layout-artes-marciales .martial-community,.layout-artes-marciales .martial-service{max-width:980px}
+
+/* Padel: stable information and temporary notices use different editorial rows. */
+.layout-clubes-padel .hero{grid-template-columns:.95fr 1.05fr}
+.layout-clubes-padel .hero figure{order:-1}
+.layout-clubes-padel h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-clubes-padel .padel-club>div{display:grid;grid-template-columns:1fr 1fr;gap:40px;color:var(--muted)}
+.layout-clubes-padel .padel-example article{display:grid;grid-template-columns:.7fr 1.3fr;gap:44px;padding:32px 0;border-top:1px solid #866045;margin-top:34px}
+.layout-clubes-padel .padel-example article span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-clubes-padel .padel-example article p{margin-bottom:0;color:var(--muted)}
+.layout-clubes-padel .padel-currency{max-width:800px;margin:34px 0 0 auto;border-left:3px solid var(--orange);padding-left:28px}
+.layout-clubes-padel .padel-check,.layout-clubes-padel .padel-service{max-width:980px}
+
+/* Tattoo studio: the graphic plate remains separate from the enquiry response. */
+.layout-estudios-tatuajes .hero{grid-template-columns:1.1fr .9fr}
+.layout-estudios-tatuajes h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:23ch}
+.layout-estudios-tatuajes .tattoo-language>div{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;color:var(--muted)}
+.layout-estudios-tatuajes .tattoo-caption{padding:36px;background:var(--paper);color:#2b2119;max-width:940px;margin-top:34px}
+.layout-estudios-tatuajes .tattoo-caption p{margin-bottom:0;color:#49382c}
+.layout-estudios-tatuajes .tattoo-enquiry{padding:30px;border:1px solid #886348;border-radius:20px;max-width:820px;margin:36px 0 0 auto}
+.layout-estudios-tatuajes .tattoo-enquiry span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-estudios-tatuajes .tattoo-enquiry p{margin-bottom:0;color:var(--muted)}
+.layout-estudios-tatuajes .tattoo-material,.layout-estudios-tatuajes .tattoo-service{max-width:980px}
+
+/* Coworking: the two uses receive two parallel, self-contained publications. */
+.layout-coworking .hero{grid-template-columns:.9fr 1.1fr}
+.layout-coworking .hero figure{order:-1}
+.layout-coworking h1{font-size:clamp(2.4rem,3.7vw,4rem);max-width:22ch}
+.layout-coworking .cowork-use{display:grid;grid-template-columns:1.3fr .7fr;gap:44px}
+.layout-coworking .cowork-use p{color:var(--muted)}
+.layout-coworking .cowork-use .kicker{color:var(--orange)}
+.layout-coworking .cowork-use aside{align-self:start;padding:28px;background:#1c130d;border-bottom:3px solid var(--orange)}
+.layout-coworking .cowork-posts{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:34px}
+.layout-coworking .cowork-posts article{padding:30px;border:1px solid #856148}
+.layout-coworking .cowork-posts article:last-child{margin-top:48px;background:var(--paper);color:#2b2119;border-color:var(--paper)}
+.layout-coworking .cowork-posts span{display:block;font-size:.8rem;font-weight:750;color:var(--orange);margin-bottom:24px}
+.layout-coworking .cowork-posts p{margin-bottom:0;color:var(--muted)}
+.layout-coworking .cowork-posts article:last-child span{color:#94350f}
+.layout-coworking .cowork-posts article:last-child p{color:#49382c}
+.layout-coworking .cowork-operator,.layout-coworking .cowork-service{max-width:980px}
+@media(max-width:850px){
+ .layout-escuelas-danza .hero,.layout-escuelas-danza .dance-class>div,.layout-escuelas-danza .dance-routes,.layout-artes-marciales .martial-intro,.layout-clubes-padel .hero,.layout-clubes-padel .padel-club>div,.layout-clubes-padel .padel-example article,.layout-estudios-tatuajes .hero,.layout-estudios-tatuajes .tattoo-language>div,.layout-coworking .hero,.layout-coworking .cowork-use,.layout-coworking .cowork-posts{grid-template-columns:1fr;gap:26px}
+ .layout-clubes-padel .hero figure,.layout-coworking .hero figure{order:0}
+ .layout-coworking .cowork-posts article:last-child{margin-top:0}
+}
+@media(max-width:540px){
+ .layout-escuelas-danza .dance-caption,.layout-artes-marciales .martial-intro aside,.layout-artes-marciales .martial-posts article,.layout-estudios-tatuajes .tattoo-caption,.layout-estudios-tatuajes .tattoo-enquiry,.layout-coworking .cowork-use aside,.layout-coworking .cowork-posts article{padding:24px}
+}
