@@ -27,3 +27,11 @@ La evidencia de rendimiento utilizada para priorizar permanece en el registro pr
 Evidencias privadas: pricing-guide-validation.json, pricing-guide-browser-checks.json, pricing-guide-resource-http-check.json y capturas de escritorio y móvil en outputs/seo-visibility-20261103.
 
 Pendiente de aprobación específica antes de publicar.
+
+## Ampliación del 5 de noviembre
+
+Se conserva la ficha y la aclaración de Growth preparadas el 3 de noviembre. La ampliación añade un ejemplo ficticio de lectura de un presupuesto con la cuota oficial de Growth y partidas adicionales sin confirmar. Evita convertir una cantidad desconocida en cero o presentar 297 €/mes como un total que ya incluye anuncios y grabación presencial. No inventa precios para esos trabajos ni aplica un impuesto supuesto.
+
+La página comercial enlaza al ejemplo desde las condiciones de Growth. El ejemplo se incorpora al índice de la guía y remite a su ficha, que ahora recoge el estado del importe total. Se mantienen títulos, H1, metadescripciones, canonical, precios y FAQ. Se actualizan las fechas de modificación por esta ampliación real de contenido.
+
+La PR se ha sincronizado con main y su sitemap de 121 URL. La fecha de publicación original de la guía permanece igual. Esta revisión no significa que el contenido ya esté publicado.

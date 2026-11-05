@@ -1,5 +1,5 @@
 ﻿FICHA PARA COMPARAR PRESUPUESTOS DE GESTIÓN DE REDES SOCIALES
-Dania360 · Recurso editable · Revisado el 3 de noviembre de 2026
+Dania360 · Recurso editable · Revisado el 5 de noviembre de 2026
 
 Completa una copia por proveedor y utiliza las mismas preguntas. Este archivo se edita en tu equipo y no recoge ni envía datos.
 
@@ -35,6 +35,9 @@ Gestión de campañas, si se ofrece, y coste confirmado:
 Otros trabajos o extras, con importe confirmado:
 Permanencia, cancelación y acceso a las cuentas:
 Puntos pendientes de confirmar por escrito:
+Importe total confirmado o pendiente de completar:
+
+Antes de cerrar el total, separa la cuota, el presupuesto de medios, la gestión de campañas, la producción y los impuestos. Un importe pendiente no equivale a cero euros. No des por incluidos anuncios o grabación presencial dentro de los 297 €/mes de Growth.
 
 REFERENCIA OFICIAL DE DANIA360: GROWTH
 Cuota publicada: 297 €/mes. Las condiciones e impuestos aplicables se comunican antes de contratar. Sin permanencia.
