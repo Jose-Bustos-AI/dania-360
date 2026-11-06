@@ -145,15 +145,19 @@ function Hero() {
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Gestión de redes sociales{' '}<em>para restaurantes.</em></h1>
-      <p>Tu carta, tus platos y una forma clara de reservar. Growth gestiona redes, mensajes y Google por 297 €/mes e incluye una web con bot de IA. Tú confirmas la carta y la disponibilidad; nosotros preparamos y publicamos el contenido y derivamos las consultas.</p>
+      <p>Carta vigente, platos reales y una vía clara para reservar. Preparamos el contenido, atendemos los mensajes y derivamos las consultas a tu restaurante.</p>
+      <div className="hero-offer"><span>Growth</span><strong>297 <small>€/mes</small></strong><p>Redes, web con carta y bot de IA incluidos.</p></div>
       <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#growth">Qué incluye Growth por 297 €/mes</a></div>
       <small className="cta-note">Revisamos tu presencia actual · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
-    </div><div className="hero-panel" aria-label="Resumen del servicio de Dania360 para restaurantes">
-      <div className="panel-head"><span>Tu presencia digital</span><b>En marcha</b></div>
-      <div className="panel-goal"><small>Objetivo</small><strong>Que puedan elegir tu restaurante</strong><p>Carta clara, contenido real y una vía sencilla para contactar o reservar.</p></div>
-      <div className="panel-grid"><div><Globe2 /><small>Web con bot de IA</small><b>Incluida</b></div><div><CalendarDays /><small>Publicaciones</small><b>30 al mes</b></div><div><MapPin /><small>Google y reseñas</small><b>Incluidos</b></div><div><MessageCircle /><small>Consultas</small><b>A tu contacto</b></div></div>
-    </div></div>
+    </div><aside className="hero-panel" aria-labelledby="plate-preview-title">
+      <div className="panel-head"><span>Muestra editorial</span><b>De cocina a redes</b></div>
+      <div className="plate-preview"><span className="plate-preview__label">Antes de publicar un plato</span><h2 id="plate-preview-title">El plato abre el apetito. La información ayuda a elegir.</h2><dl>
+        <div><dt>Qué servimos</dt><dd>Ingredientes y descripción que confirma cocina.</dd></div>
+        <div><dt>Cuándo se ofrece</dt><dd>Días, turnos y condiciones vigentes.</dd></div>
+        <div><dt>Cómo consultar</dt><dd>El canal que atiende el restaurante para preguntas y reservas.</dd></div>
+      </dl><a href="/recursos/que-publicar-redes-sociales-restaurante/#cambios-carta">Ver cómo corregimos un menú publicado</a><p className="plate-preview__note">Propuesta visual de Dania360. No corresponde a un restaurante real.</p></div>
+    </aside></div>
   </section>
 }
 
@@ -164,7 +168,7 @@ function GrowthSummary() {
       <div><dt>Publicaciones y atención de mensajes</dt><dd>1 publicación al día (30 al mes) en Instagram, Facebook, TikTok y Pinterest, con vídeos de 15 segundos. Comentarios y mensajes de los canales incluidos, derivados a tu contacto.</dd></div>
       <div><dt>Web profesional con bot de IA incluido</dt><dd>Chat automático cuando no estás disponible y respuesta desde el móvil con la app DANIA. Dominio .com, hosting, una actualización web mensual y kit QR de reseñas.</dd></div>
       <div><dt>Perfil de Empresa en Google y reseñas</dt><dd>Gestión de la ficha y respuesta a reseñas, con informe mensual de actividad y visibilidad local.</dd></div>
-    </dl><p className="sector-offer__scope">No incluye inversión en anuncios, una sesión de fotografía presencial ni un motor de reservas a medida. El restaurante confirma reservas, disponibilidad y alérgenos; el chat no sustituye esa confirmación.</p><a href="#planes">Ver los planes y el alcance completo →</a></div>
+    </dl><p className="sector-offer__scope">No incluye inversión en anuncios, una sesión de fotografía presencial ni un motor de reservas a medida. El restaurante confirma reservas, disponibilidad y alérgenos; el chat no sustituye esa confirmación.</p><a href="#planes">Ver los planes y el alcance completo</a></div>
   </div></section>
 }
 
@@ -191,7 +195,7 @@ function RestaurantContentExample() {
 
 function PlanCard({ plan }) {
   const message = `Hola, tengo un restaurante en [ciudad] y quiero solicitar la auditoría gratuita. Me interesa el plan ${plan.name} de Dania360. ¿Podéis revisar mi situación y orientarme?`
-  return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Más elegido</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
+  return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Redes, web y bot de IA</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
 }
 
 function Pricing() {
@@ -199,7 +203,7 @@ function Pricing() {
 }
 
 function Resources() {
-  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Qué publicar y qué revisar antes de contratar redes para tu restaurante.</h2><p>Una carta actualizada, horarios fiables y contenido real ayudan a evitar dudas antes de reservar. Consulta <a href="/recursos/que-publicar-redes-sociales-restaurante/">qué publicar en las redes sociales de un restaurante</a> y <a href="/quienes-somos/">quién atiende tu cuenta en Dania360</a>.</p></div><div className="seo-resources__links"><a href="/recursos/que-publicar-redes-sociales-restaurante/">Guía de contenido para restaurantes</a><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-veterinarias/">Clínicas veterinarias</a><a href="/gestion-redes-sociales-inmobiliarias/">Inmobiliarias</a></nav></section>
+  return <section className="seo-resources" aria-labelledby="restaurant-resources-title"><div className="seo-resources__inner"><div><span className="eyebrow">GUÍAS PARA DECIDIR</span><h2 id="restaurant-resources-title">Qué publicar y qué revisar antes de contratar redes para tu restaurante.</h2><p>Una carta actualizada, horarios fiables y contenido real ayudan a evitar dudas antes de reservar. Consulta <a href="/recursos/que-publicar-redes-sociales-restaurante/">qué publicar en las redes sociales de un restaurante</a> y <a href="/quienes-somos/">quién atiende tu cuenta en Dania360</a>.</p></div><div className="seo-resources__links"><a href="/recursos/que-publicar-redes-sociales-restaurante/">Guía de contenido para restaurantes</a><a href="/recursos/cuanto-cuesta-gestion-redes-sociales-espana/">Cuánto cuesta gestionar las redes sociales</a><a href="/recursos/que-incluye-servicio-gestion-redes-sociales/">Qué incluye un servicio profesional</a><a href="/recursos/redes-sociales-negocio-local/">Redes sociales para un negocio local</a></div></div><nav className="seo-related" aria-label="Otros sectores relacionados"><strong>También trabajamos con:</strong><a href="/gestion-redes-sociales-comercios/">Comercios</a><a href="/gestion-redes-sociales-cafeterias/">Cafeterías</a><a href="/gestion-redes-sociales-catering/">Catering</a></nav></section>
 }
 
 function FAQ() {
@@ -207,7 +211,7 @@ function FAQ() {
 }
 
 function Footer() {
-  return <><section className="final-cta"><span><i /> ¿Hablamos de tu restaurante?</span><h2>Pide una auditoría gratuita de la web, redes y ficha de Google de tu restaurante.</h2><p>Te diremos qué información falta, qué contenido conviene priorizar y qué plan encaja con tu situación.</p><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a></section><footer className="footer"><div className="footer-top"><Brand /><p>Servicio especializado de Dania360 para la gestión de redes sociales, web, Google y reputación digital de restaurantes.</p><div><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: 631 105 772</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Dania 360</span><nav aria-label="Información legal"><a href="/gestion-redes-sociales/">Servicios</a><a href="/quienes-somos/">Quiénes somos</a><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav></div></footer><a className="whatsapp-float" href={waLink()} target="_blank" rel="noreferrer" aria-label="Hablar con Dania360 por WhatsApp"><WhatsAppIcon size={25} /><span>¿Hablamos?</span></a></>
+  return <><section className="final-cta"><span><i /> ¿Hablamos de tu restaurante?</span><h2>Pide una auditoría gratuita de la web, redes y ficha de Google de tu restaurante.</h2><p>Te diremos qué información falta, qué contenido conviene priorizar y qué plan encaja con tu situación.</p><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a></section><footer className="footer"><div className="footer-top"><Brand /><p>Servicio especializado de Dania360 para la gestión de redes sociales, web, Google y reputación digital de restaurantes.</p><div><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: 631 105 772</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Dania 360</span><nav aria-label="Información legal"><a href="/gestion-redes-sociales/">Servicios</a><a href="/sectores/">Sectores</a><a href="/quienes-somos/">Quiénes somos</a><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a></nav></div></footer><a className="whatsapp-float" href={waLink()} target="_blank" rel="noreferrer" aria-label="Hablar con Dania360 por WhatsApp"><WhatsAppIcon size={25} /><span>¿Hablamos?</span></a></>
 }
 
 const pending = <strong className="pending">DATO PENDIENTE DE COMPLETAR</strong>
