@@ -1,0 +1,51 @@
+﻿FICHA DE ZONA DE SERVICIO Y CONTACTO
+Dania360 · Recurso editable
+
+Completa esta ficha con información real del negocio. No es una solicitud
+de datos ni se envía automáticamente a Dania360. Guarda la copia de trabajo
+de forma privada y no incluyas datos de clientes.
+
+1. CÓMO SE PRESTA EL SERVICIO
+Actividad que se ofrece:
+¿Se recibe a clientes en una dirección o se trabaja a domicilio?:
+Si existe atención al público, condiciones reales de acceso:
+No publiques una dirección administrativa como punto de visita si allí
+no se atiende. Comprueba los requisitos del Perfil de Empresa en Google.
+
+2. COBERTURA CONFIRMADA
+Municipios, códigos postales o áreas atendidas:
+Solicitudes fuera de esas zonas: quién decide si se aceptan:
+Condiciones pendientes de confirmar antes de concertar el servicio:
+No conviertas una zona pendiente en cobertura garantizada.
+
+3. CONTACTO Y RESPONSABLES
+Canal de contacto que se publicará:
+Persona responsable de revisar las solicitudes, solo para uso interno:
+Datos mínimos para valorar una consulta: municipio y tipo de servicio:
+Cuándo sería necesario pedir información adicional de forma privada:
+No prometas disponibilidad ni una visita antes de su confirmación.
+
+4. MENSAJE Y DESTINO
+Texto aprobado para biografía o información de cobertura:
+Enlace de destino:
+Acción que debe permitir: consultar, llamar u otra acción confirmada:
+¿Hay botones para llegar o visitar que no corresponden al servicio?:
+Respuesta aprobada para una solicitud fuera de cobertura:
+
+5. REVISIÓN ANTES DE PUBLICAR
+[ ] Cobertura y tipo de atención confirmados por el negocio.
+[ ] Perfil de Google revisado conforme a sus requisitos actuales.
+[ ] Web y biografías con información coherente.
+[ ] Publicaciones activas que remiten a datos anteriores revisadas.
+[ ] Enlace abierto y comprobado desde un móvil.
+[ ] Sin oficinas, horarios, plazos ni desplazamientos inventados.
+
+Validado por, para uso interno:
+Fecha real de validación:
+Próxima revisión o cambio que la activaría:
+
+Guía y ejemplo ficticio:
+https://dania360.com/recursos/redes-sociales-negocio-local/#zona-servicio
+
+Referencia oficial de Google:
+https://support.google.com/business/answer/9157481?hl=es
