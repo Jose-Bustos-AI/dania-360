@@ -23,7 +23,7 @@ test('Rechaza duplicados, cierres de style, imports y URL relativas', async () =
 })
 
 test('HTML generado sin CSS local bloqueante y sincronizado con las fuentes', () => {
-  const html = readFileSync(new URL('../../gestion-redes-sociales-restaurantes/index.html', import.meta.url), 'utf8')
+  const html = readFileSync(new URL('../../gestion-redes-sociales-restaurantes/index.html', import.meta.url), 'utf8').replace(/\r\n/g, '\n')
   const styles = [...html.matchAll(/<style data-source="([^"]+)">\n([\s\S]*?)\n<\/style>/g)]
   assert.equal(styles.length, 4)
   assert.deepEqual(styles.map(([, href]) => href.split('?')[0]).filter((href) => !href.includes('/assets/')), ['/sector-seo.css', '/sector-offer.css', '/brand-orange.css'])
