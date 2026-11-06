@@ -228,6 +228,16 @@ const schemaFaq = {
   })),
 };
 
+const schemaBreadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${sitio.origen}/` },
+    { '@type': 'ListItem', position: 2, name: 'Sectores', item: `${sitio.origen}/sectores/` },
+    { '@type': 'ListItem', position: 3, name: 'Peluquerías y estética', item: sitio.landing.canonical },
+  ],
+};
+
 /* ---------------------------------------------------------------- landing */
 
 /*
@@ -298,8 +308,12 @@ const landing = versionarAssets(aplicarFotos(rellenar(leerTexto('src/templates/s
   OG_IMAGE_W: String(sitio.landing.og.imagenAncho),
   OG_IMAGE_H: String(sitio.landing.og.imagenAlto),
   OG_IMAGE_ALT: esc(sitio.landing.og.imagenAlt),
+  HERO_IMAGE: fotos.huecos['hero-salon'].disponible
+    ? `<img src="${esc(fotos.carpeta)}hero-salon.${esc(fotos.extension)}" width="1200" height="1500" alt="Imagen de ambientación de un salón con una profesional atendiendo a una clienta" fetchpriority="high" decoding="async" />`
+    : '<div class="hero__foto-pendiente" role="img" aria-label="Espacio visual de la landing de peluquerías"></div>',
   JSONLD_SERVICE: jsonLd(schemaService),
   JSONLD_FAQ: jsonLd(schemaFaq),
+  JSONLD_BREADCRUMB: jsonLd(schemaBreadcrumb),
   WA_GENERAL: esc(waGeneral),
   PLANES: planes.planes.map(renderPlan).join('\n\n'),
   PLANES_MICROCOPY: esc(planes.microcopy),

@@ -20,6 +20,7 @@
   function cerrarMenu() {
     if (!boton || !menu) return;
     boton.setAttribute('aria-expanded', 'false');
+    boton.setAttribute('aria-label', 'Abrir el menú de navegación');
     menu.setAttribute('data-abierto', 'false');
   }
 
@@ -27,6 +28,7 @@
     boton.addEventListener('click', function () {
       var abierto = boton.getAttribute('aria-expanded') === 'true';
       boton.setAttribute('aria-expanded', String(!abierto));
+      boton.setAttribute('aria-label', abierto ? 'Abrir el menú de navegación' : 'Cerrar el menú de navegación');
       menu.setAttribute('data-abierto', String(!abierto));
     });
 

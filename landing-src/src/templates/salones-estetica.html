@@ -36,6 +36,9 @@
     <script type="application/ld+json">
 {{JSONLD_FAQ}}
     </script>
+    <script type="application/ld+json">
+{{JSONLD_BREADCRUMB}}
+    </script>
     <link rel="stylesheet" href="/brand-orange.css?v=20261003-1" />
   </head>
 
@@ -58,7 +61,7 @@
     <!-- ===================== Cabecera ===================== -->
     <header class="cabecera">
       <div class="contenedor cabecera__fila">
-        <a class="marca" href="{{CANONICAL}}" aria-label="Dania360, inicio de la pagina para centros de estetica">
+        <a class="marca" href="{{ORIGEN}}/" aria-label="Dania360, página principal">
           <img class="marca__simbolo" src="/logo-dania360-orange-black.webp" width="32" height="32" alt="" />
           <span class="marca__texto">Dania<span>360</span></span>
         </a>
@@ -119,6 +122,11 @@
     </header>
 
     <main id="contenido">
+      <nav class="contenedor migas-salon" aria-label="Migas de pan">
+        <a href="/">Inicio</a><span aria-hidden="true">/</span>
+        <a href="/sectores/">Sectores</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Peluquerías y estética</span>
+      </nav>
       <!-- ===================== Hero ===================== -->
       <section class="hero">
         <div class="contenedor hero__rejilla">
@@ -129,11 +137,15 @@
               <span class="destacado-serif">peluquerías y centros de estética</span>
             </h1>
             <p class="hero__parrafo">
-              Gestionamos las redes sociales, la web y la presencia en Google
-              de tu peluquería, salón de belleza o centro de estética para
-              aumentar su visibilidad, transmitir confianza y generar más
-              oportunidades de contacto y reserva.
+              Cortes, color y tratamientos explicados con claridad.
+              Nos encargamos del contenido y de atender las consultas;
+              tu salón valida los servicios, el material y cómo se pide cita.
             </p>
+
+            <div class="hero__growth" aria-label="Resumen del plan Growth">
+              <div><span>Plan Growth</span><strong>297 €<small>/mes</small></strong></div>
+              <p>Gestión de redes, web profesional y bot de IA incluidos.</p>
+            </div>
 
             <div class="cta-bloque">
               <a
@@ -147,31 +159,28 @@
                 <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
                 Pide tu auditoría gratis
               </a>
-              <a class="boton boton--contorno" href="#planes">Ver los planes</a>
+              <a class="boton boton--contorno" href="#plan-growth">Ver qué incluye Growth</a>
             </div>
 
             <p class="microcopy hero__microcopy">
-              Te orientamos por WhatsApp · Sin compromiso · Sin permanencia
-            </p>
-
-            <p class="hero__canales">
-              <strong>Web · Redes sociales · Google</strong> · Todo gestionado
-              para tu salón
+              Consulta por WhatsApp. Servicio mensual sin permanencia.
             </p>
           </div>
 
-          <div class="hero__media">
-            <div
-              class="marco marco--arco marco--hero"
-              data-foto="hero-salon"
-              role="img"
-              aria-label="Interior luminoso de un centro de estética con una profesional atendiendo a una clienta"
-            ></div>
-            <span class="etiqueta etiqueta--1">Más visibilidad</span>
-            <span class="etiqueta etiqueta--2">Imagen profesional</span>
-            <span class="etiqueta etiqueta--3">Google, web y redes</span>
-            <span class="etiqueta etiqueta--4">Contacto directo</span>
-          </div>
+          <figure class="hero__media">
+            <div class="hero__foto">{{HERO_IMAGE}}</div>
+            <div class="hero__pieza">
+              <p class="hero__pieza-tipo">Una muestra del trabajo editorial</p>
+              <p class="hero__pieza-titulo">Antes de elegir<br>el próximo color.</p>
+              <ol class="hero__pieza-pasos" aria-label="Temas del ejemplo de color">
+                <li><span>01</span> Qué buscas</li>
+                <li><span>02</span> Qué valoramos</li>
+                <li><span>03</span> Cómo consultar</li>
+              </ol>
+              <a href="/recursos/calendario-redes-sociales-peluquerias/#carrusel-color">Ver el carrusel de ejemplo</a>
+            </div>
+            <figcaption>Imagen de ambientación. La pieza es una demostración, no un trabajo de cliente.</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -546,6 +555,11 @@
               </p>
             </div>
           </div>
+
+          <aside class="referencia-editorial" aria-label="Artículo publicado en un medio profesional">
+            <div><p class="antetitulo">Colaboración editorial</p><h3>Una pauta de contenido publicada en Tocado</h3></div>
+            <p>José Antonio Bustos García explica cómo organizar cuatro semanas de publicaciones para una peluquería en Professional Beauty. Puedes <a href="https://professionalbeauty.es/doce-publicaciones-para-explicar-el-trabajo-del-salon-y-facilitar-la-reserva" target="_blank" rel="noopener noreferrer">leer el artículo completo en Tocado</a> y adaptar su propuesta al trabajo real de tu salón.</p>
+          </aside>
 
           <!--
             Casos reales de salones.
