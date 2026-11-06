@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Documentar el alcance de carrocería</title>
+<desc id="art-desc">Tres encuadres sobre una misma superficie abstracta explican contexto, zona de trabajo y acabado. No son fotografías de una reparación.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#e8dcc8"/>
+<text x="40" y="56" fill="#3c3027" font-size="27" font-weight="700">DAR CONTEXTO AL TRABAJO</text>
+<rect x="40" y="84" width="560" height="352" rx="16" fill="#15120f"/>
+<rect x="62" y="110" width="220" height="300" rx="8" fill="#34261b"/>
+<path d="M95 297V179Q164 151 249 165V329H95Z" fill="#b8a38a" stroke="#eee5d5" stroke-width="4"/>
+<path d="M119 183V315M119 232H247" stroke="#6d5a45" stroke-width="3"/><rect x="205" y="229" width="28" height="8" rx="4" fill="#3c3027"/>
+<path d="M82 144V130H105M240 130H263V144M82 369V385H105M240 385H263V369" fill="none" stroke="#FF7139" stroke-width="5"/>
+<text x="106" y="373" fill="#eee5d5" font-size="23">Contexto</text>
+<rect x="307" y="110" width="269" height="136" rx="8" fill="#b8a38a"/><path d="M342 142H546M342 164H546M342 142V207" stroke="#6d5a45" stroke-width="4"/>
+<path d="M322 126H345M322 126V149M559 126H536M559 126V149" stroke="#FF7139" stroke-width="4"/>
+<text x="340" y="224" fill="#3c3027" font-size="23">Zona de trabajo</text>
+<rect x="307" y="271" width="269" height="139" rx="8" fill="#b8a38a"/>
+<path d="M342 299H546M342 323H546M342 299V369" stroke="#6d5a45" stroke-width="4"/>
+<text x="377" y="386" fill="#3c3027" font-size="23">Acabado</text>
+
+</g>
+</svg>

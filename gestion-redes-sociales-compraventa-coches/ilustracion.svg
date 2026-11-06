@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">La vigencia de una unidad de ocasión</title>
+<desc id="art-desc">Ficha editorial conceptual con un vehículo abstracto y una indicación de consultar su estado. No simula un inventario ni una unidad a la venta.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#e8dcc8"/>
+<rect x="45" y="38" width="365" height="402" rx="16" fill="#15120f"/>
+<rect x="67" y="64" width="321" height="202" rx="8" fill="#b8a38a"/>
+<path d="M93 189L128 178L158 132H267L306 167L358 185V220H93Z" fill="#eee5d5" stroke="#3c3027" stroke-width="4"/>
+<path d="M169 145H259L284 171H151Z" fill="#79624c"/>
+<circle cx="150" cy="217" r="19" fill="#3c3027"/><circle cx="306" cy="217" r="19" fill="#3c3027"/>
+<rect x="67" y="290" width="209" height="10" rx="5" fill="#eee5d5"/><rect x="67" y="315" width="278" height="9" rx="4" fill="#79624c"/>
+<rect x="67" y="357" width="321" height="55" rx="8" fill="#FF7139"/>
+<text x="90" y="391" fill="#15120f" font-size="23" font-weight="700">Consultar esta unidad</text>
+<path d="M410 168H476V218" fill="none" stroke="#3c3027" stroke-width="4"/>
+<rect x="434" y="222" width="161" height="108" rx="14" fill="#FF7139"/>
+<text x="458" y="267" fill="#15120f" font-size="25" font-weight="700">Estado</text><text x="451" y="302" fill="#15120f" font-size="22">por confirmar</text>
+
+</g>
+</svg>

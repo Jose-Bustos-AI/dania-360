@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Luz y encuadre al explicar detailing</title>
+<desc id="art-desc">Una luz curva y un marco de encuadre sobre una superficie conceptual ilustran la preparación del contenido. No muestran el resultado de un tratamiento.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#15120f"/>
+<text x="40" y="58" fill="#eee5d5" font-size="27" font-weight="700">LA IMAGEN NECESITA CONTEXTO</text>
+<path d="M80 380Q189 198 506 165L580 365Q317 340 178 419Z" fill="#34261b" stroke="#b8a38a" stroke-width="3"/>
+<path d="M103 296Q258 129 509 123" fill="none" stroke="#eee5d5" stroke-width="14" stroke-linecap="round"/>
+<path d="M137 318Q281 167 512 160" fill="none" stroke="#b8a38a" stroke-width="5" stroke-linecap="round"/>
+<path d="M270 218H309M270 218V257M459 218H420M459 218V257M270 355H309M270 355V316M459 355H420M459 355V316" fill="none" stroke="#FF7139" stroke-width="7"/>
+<path d="M462 287H565V232" fill="none" stroke="#FF7139" stroke-width="3"/>
+<text x="63" y="159" fill="#eee5d5" font-size="25">Luz</text><text x="286" y="392" fill="#FF7139" font-size="25">Encuadre</text><text x="479" y="214" fill="#eee5d5" font-size="25">Servicio</text>
+
+</g>
+</svg>
