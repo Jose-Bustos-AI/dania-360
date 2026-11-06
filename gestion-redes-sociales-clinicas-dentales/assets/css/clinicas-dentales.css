@@ -65,7 +65,7 @@ h2 {
 h1 {
   max-width: 760px;
   margin-bottom: 26px;
-  font-size: clamp(2.7rem, 5.4vw, 5.8rem);
+  font-size: clamp(2.7rem, 4.6vw, 5rem);
   font-weight: 700;
 }
 
@@ -139,21 +139,21 @@ h3 {
   color: var(--coral);
 }
 
-.site-header nav {
+.site-header > nav {
   display: flex;
   gap: 28px;
   align-items: center;
 }
 
-.site-header nav a {
+.site-header > nav a {
   color: var(--ink-soft);
   font-size: 0.92rem;
   font-weight: 600;
   text-decoration: none;
 }
 
-.site-header nav a:hover,
-.site-header nav a:focus-visible {
+.site-header > nav a:hover,
+.site-header > nav a:focus-visible {
   color: var(--teal);
 }
 
@@ -221,7 +221,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px clamp(28px, 6vw, 100px) 72px max(24px, calc((100vw - 1180px) / 2));
+  padding: 54px clamp(28px, 4vw, 70px) 48px max(24px, calc((100vw - 1180px) / 2));
   background:
     radial-gradient(circle at 15% 15%, rgba(216, 232, 223, 0.8), transparent 33%),
     var(--paper);
@@ -238,7 +238,7 @@ h3 {
 
 .hero__lead {
   max-width: 640px;
-  margin-bottom: 34px;
+  margin-bottom: 22px;
   color: var(--ink-soft);
   font-size: clamp(1.08rem, 1.4vw, 1.3rem);
 }
@@ -294,34 +294,28 @@ h3 {
 
 .hero__visual {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 680px;
   margin: 0;
   overflow: hidden;
+  background: #e9f0eb;
 }
 
 .hero__visual img {
   width: 100%;
-  height: 100%;
+  height: clamp(280px, 28vw, 410px);
   object-fit: cover;
   object-position: 59% center;
 }
 
 .hero__visual figcaption {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  max-width: 330px;
-  padding: 18px 22px;
-  color: var(--ink);
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: 18px;
-  backdrop-filter: blur(14px);
-  font-weight: 600;
-  line-height: 1.35;
+  position: static;
+  flex: 1;
+  padding: 30px 38px;
+  border-top: 4px solid #FF7139;
+  color: #18302d;
+  background: #edf3ef;
 }
 
 .hero__visual figcaption span {
@@ -1003,7 +997,7 @@ h3 {
 }
 
 @media (max-width: 1040px) {
-  .site-header nav {
+  .site-header > nav {
     display: none;
   }
 
@@ -1078,11 +1072,11 @@ h3 {
 
   .hero__copy {
     min-height: 0;
-    padding: 70px 18px 56px;
+    padding: 44px 18px 40px;
   }
 
   h1 {
-    font-size: clamp(2.5rem, 13vw, 4.2rem);
+    font-size: clamp(2.5rem, 11.5vw, 4.2rem);
   }
 
   .hero__lead {
@@ -1238,6 +1232,27 @@ h3 {
     padding-right: 9px;
   }
 }
+
+
+.dental-offer { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 3px 15px; padding: 15px 18px; margin: 0 0 24px; border-left: 3px solid #FF7139; background: #fff0e8; }
+.dental-offer p { margin: 0; font-size: .78rem; font-weight: 750; text-transform: uppercase; letter-spacing: .08em; }
+.dental-offer strong { color: #8c3616; font-size: 1.9rem; line-height: 1.1; }
+.dental-offer small { font-size: .85rem; }
+.dental-offer > span { grid-column: 1 / -1; font-size: .85rem; color: #4c625e; }
+.dental-review__label { margin: 0 0 12px; color: #87401f; font-size: .7rem; font-weight: 750; text-transform: uppercase; letter-spacing: .08em; }
+.dental-review h2 { margin: 0 0 20px; max-width: 22ch; font-size: 1.8rem; line-height: 1.15; letter-spacing: -.025em; }
+.dental-review dl { margin: 0 0 18px; }
+.dental-review dl > div { display: grid; grid-template-columns: 108px 1fr; gap: 14px; padding: 11px 0; border-top: 1px solid #becfc4; }
+.dental-review dt { font-weight: 750; font-size: .8rem; }
+.dental-review dd { margin: 0; font-size: .82rem; color: #455d55; line-height: 1.5; }
+.dental-review > a { color: #87401f; font-weight: 750; font-size: .85rem; text-underline-offset: 4px; }
+.dental-review__note { margin: 14px 0 0; color: #566b61; font-size: .68rem; }
+.dental-nav { display: none; }
+.dental-nav summary { min-height: 44px; padding: 9px 15px; border: 1px solid #bdccc3; border-radius: 8px; cursor: pointer; font-size: .82rem; font-weight: 750; }
+.dental-nav__links { position: absolute; top: calc(100% - 1px); right: 16px; display: flex; flex-direction: column; width: min(320px, calc(100vw - 32px)); gap: 0; padding: 10px 18px; border: 1px solid #bdccc3; border-radius: 10px; background: #fbfcf9; box-shadow: 0 12px 28px #18302d20; }
+.dental-nav__links a { display: block; min-height: 44px; padding: 10px 0; font-size: .87rem; font-weight: 600; text-underline-offset: 4px; }
+@media (max-width: 1040px) { .dental-nav { display: block; margin-left: auto; margin-right: 14px; } }
+@media (max-width: 760px) { .site-header > .button { display: none; } .dental-nav { margin-right: 0; } .hero__visual figcaption { padding: 28px 23px; } .dental-review dl > div { grid-template-columns: 1fr; gap: 3px; } }
 
 @media (prefers-reduced-motion: reduce) {
   html {
