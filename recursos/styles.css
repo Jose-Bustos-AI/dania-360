@@ -93,3 +93,15 @@
   .article-body p, .article-body li { font-size: 15px; }
   .answer-box, .article-cta, .checklist { padding: 21px; }
 }
+/* Keep the handoff to the service readable inside the two sector guides. */
+.article-body .article-cta--contract {
+  padding: clamp(20px, 4vw, 32px);
+}
+.article-body .article-cta--contract > h2 {
+  margin-top: 0;
+}
+.article-body .article-cta--contract .button {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
