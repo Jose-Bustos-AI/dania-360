@@ -38,7 +38,7 @@ h1, h2, h3 { line-height: 1.05; }
 h1 em, h2 em { color: var(--coral); font-style: normal; }
 .hero { min-height: 44rem; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); background: var(--paper); }
 .hero__copy { display: flex; flex-direction: column; justify-content: center; padding: 4.5rem clamp(1.4rem, 4vw, 4.5rem); }
-.hero h1 { max-width: 12ch; margin-bottom: 1.5rem; font-size: clamp(3.3rem, 5.5vw, 5.6rem); letter-spacing: -.065em; }
+.hero h1 { max-width: 15ch; margin-bottom: 1.5rem; font-size: clamp(2.8rem, 4.6vw, 5.1rem); letter-spacing: -.065em; }
 .hero h1 em { display: block; }
 .hero__lead { max-width: 38rem; margin-bottom: 2rem; color: var(--ink-soft); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.1rem, 1.55vw, 1.45rem); }
 .hero__actions { display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap; }
@@ -51,8 +51,8 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
 .enrolment-card span { margin-bottom: .25rem; color: #ffb2a8; font-size: .68rem; font-weight: 900; letter-spacing: .14em; }
 .enrolment-card strong { display: block; font-size: 1.25rem; }
 .enrolment-card small { opacity: .78; }
-.lesson-badge { position: absolute; right: 2rem; top: 2rem; display: flex; align-items: center; gap: .8rem; padding: .9rem 1rem; background: var(--white); border-radius: 1rem; box-shadow: var(--shadow); font-size: .78rem; line-height: 1.25; }
-.lesson-badge b { display: grid; place-items: center; width: 2.2rem; height: 2.2rem; color: var(--white); background: var(--coral); border-radius: 50%; }
+
+
 .academy-types { display: flex; justify-content: center; gap: .7rem; flex-wrap: wrap; padding: 1.2rem clamp(1.2rem, 5vw, 5rem); color: var(--paper); background: var(--ink); }
 .academy-types span { padding: .25rem .7rem; border: 1px solid rgba(255,255,255,.2); border-radius: 999px; font-size: .75rem; font-weight: 800; }
 .section { padding: clamp(4.5rem, 8vw, 8rem) clamp(1.25rem, 7vw, 8rem); }
@@ -153,6 +153,22 @@ details p { margin: 0; padding: 0 2.5rem 1.4rem 0; color: var(--ink-soft); }
 .whatsapp-float span { display: grid; place-items: center; width: 2rem; height: 2rem; color: var(--white); background: var(--ink); border-radius: 50%; font-size: .7rem; font-weight: 900; }
 .whatsapp-float b { font-size: .82rem; }
 
+
+.academy-offer { display: grid; grid-template-columns: auto 1fr; gap: .2rem 1rem; align-items: center; margin: 0 0 1.5rem; padding: 1rem 1.1rem; border-left: 4px solid #FF7139; background: #fff0e6; }
+.academy-offer p { margin: 0; font-size: .76rem; font-weight: 850; text-transform: uppercase; letter-spacing: .07em; }
+.academy-offer strong { color: #8a3515; font-size: 1.85rem; line-height: 1.15; }
+.academy-offer small { font-size: .88rem; }
+.academy-offer > span { grid-column: 1 / -1; font-size: .84rem; color: #554255; }
+.enrolment-card { width: min(23rem, calc(100% - 4rem)); padding: 1.6rem; border-top: 4px solid #FF7139; border-radius: .3rem; }
+.enrolment-card h2 { margin: .7rem 0 1rem; color: #fff; font-size: 1.65rem; line-height: 1.12; letter-spacing: -.025em; }
+.enrolment-card dl { margin: 0 0 1rem; }
+.enrolment-card dl > div { padding: .65rem 0; border-top: 1px solid #ffffff30; }
+.enrolment-card dt { font-size: .78rem; font-weight: 800; }
+.enrolment-card dd { margin: .15rem 0 0; color: #e8dfea; font-size: .78rem; line-height: 1.5; }
+.enrolment-card > a { display: block; color: #ffc5a8; font-size: .8rem; font-weight: 800; text-underline-offset: 4px; }
+.enrolment-card small { margin-top: .8rem; font-size: .65rem; }
+#growth { scroll-margin-top: 32px; }
+
 @media (max-width: 980px) {
   .site-header nav { display: none; }
   .hero { min-height: auto; grid-template-columns: 1fr; }
@@ -170,11 +186,11 @@ details p { margin: 0; padding: 0 2.5rem 1.4rem 0; color: var(--ink-soft); }
   .brand { font-size: .8rem; }
   .brand img { width: 2.1rem; height: 2.1rem; }
   .button--header { min-height: 2.6rem; padding: .6rem .8rem; font-size: .73rem; }
-  .hero__copy { padding: 3.8rem 1.15rem 3rem; }
-  .hero h1 { font-size: clamp(3.2rem, 15vw, 4.8rem); }
+  .hero__copy { padding: 2.7rem 1.15rem 2.5rem; }
+  .hero h1 { font-size: clamp(2.65rem, 11.5vw, 4.2rem); }
   .hero__visual { min-height: 28rem; }
   .hero__visual > img { object-position: 52% center; }
-  .lesson-badge { right: 1rem; top: 1rem; }
+
   .enrolment-card { left: 1rem; bottom: 1rem; width: calc(100% - 2rem); }
   .academy-types { justify-content: flex-start; overflow: hidden; }
   .section { padding: 4.5rem 1.15rem; }
