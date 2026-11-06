@@ -198,6 +198,19 @@ function PlanCard({ plan }) {
   return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Redes, web y bot de IA</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
 }
 
+function RestaurantContract() {
+  return <section className="section services" id="contratar-marketing-restaurante" aria-labelledby="restaurant-contract-title">
+    <div className="section-heading"><span>Marketing para restaurantes</span><h2 id="restaurant-contract-title">Qué delegas y qué confirma tu restaurante.</h2><p>Al comparar una agencia de marketing para restaurantes, pide que la propuesta distinga contenido, atención de mensajes y publicidad. Growth reúne redes sociales, web con bot de IA y Google por 297 €/mes. La inversión y gestión de campañas de pago se confirman aparte.</p></div>
+    <div className="service-grid">
+      <article><CalendarDays /><h3>Carta, horarios y novedades</h3><p>Tu equipo confirma platos disponibles, precios, turnos y cambios de carta. Con esa información preparamos el contenido y revisamos dónde debe actualizarse. Las imágenes deben corresponder al material autorizado del negocio.</p></article>
+      <article><MessageCircle /><h3>Consultas y solicitudes de reserva</h3><p>Atendemos mensajes de los canales incluidos y derivamos la solicitud al contacto del restaurante. Sala confirma mesas, grupos, disponibilidad y condiciones. Una conversación o un clic todavía no es una reserva.</p></article>
+      <article><Search /><h3>Revisión del trabajo realizado</h3><p>El informe mensual permite revisar actividad y visibilidad local. Contrasta las consultas recibidas con las reservas que registra tu equipo para decidir qué información falta explicar en el siguiente calendario.</p></article>
+    </div>
+    <p className="currency-note">Revisa el <a href="/precios-gestion-redes-sociales/#growth">precio y alcance de Growth</a> y el <a href="/recursos/que-publicar-redes-sociales-restaurante/#mensajes-reservas">ejemplo de respuesta a una solicitud de reserva</a>. Para estudiar tu caso, comparte ciudad, carta vigente y canal de contacto.</p>
+    <a className="button button-primary" href={waLink('Hola, quiero delegar las redes de mi restaurante. Mi ciudad, enlace de carta y canal de reservas son:')} target="_blank" rel="noopener noreferrer" data-cta="restaurant-contract">Revisar el marketing de mi restaurante</a>
+  </section>
+}
+
 function Pricing() {
   return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Precios de gestión de redes sociales para restaurantes: desde 297 €/mes.</h2><p>Growth (297 €) y Scale (497 €) gestionan tus redes. Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales. Sin permanencia.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
 }
@@ -247,5 +260,5 @@ export default function App({ initialPath }) {
   const currentPath = initialPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/gestion-redes-sociales-restaurantes/')
   const path = currentPath.replace(/^\/+|\/+$/g, '')
   if (['aviso-legal', 'privacidad', 'cookies'].includes(path)) return <LegalPage type={path} />
-  return <main><Navbar /><Hero /><GrowthSummary /><HowItWorks /><Services /><RestaurantContentExample /><Pricing /><Resources /><FAQ /><Footer /></main>
+  return <main><Navbar /><Hero /><GrowthSummary /><HowItWorks /><Services /><RestaurantContentExample /><RestaurantContract /><Pricing /><Resources /><FAQ /><Footer /></main>
 }
