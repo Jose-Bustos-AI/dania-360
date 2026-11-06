@@ -33,11 +33,11 @@ footer .brand span { color: #fff; }
 .hero__photo, .hero__shade { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero__photo { object-fit: cover; object-position: center; }
 .hero__shade { background: linear-gradient(90deg, rgba(32, 8, 16, .96) 0%, rgba(52, 13, 28, .9) 31%, rgba(52, 13, 28, .28) 63%, rgba(17, 13, 13, .08) 100%); }
-.hero__content { width: min(700px, 52vw); position: relative; z-index: 2; padding: 6rem 0 7rem clamp(1.25rem, 7vw, 7rem); }
+.hero__content { width: min(700px, 52vw); position: relative; z-index: 2; padding: 4rem 0 5rem clamp(1.25rem, 7vw, 7rem); }
 .eyebrow, .kicker { margin: 0 0 1.1rem; color: var(--brass); font-size: .72rem; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; }
-.hero h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: clamp(3.4rem, 6.7vw, 7.5rem); line-height: .92; letter-spacing: -.055em; }
+.hero h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: clamp(3rem, 5vw, 5.3rem); line-height: .92; letter-spacing: -.055em; }
 .hero h1 em { display: block; color: #e1b985; font-style: italic; font-weight: 400; }
-.hero__lead { max-width: 610px; margin: 2rem 0 2.5rem; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.2rem, 1.65vw, 1.65rem); line-height: 1.5; }
+.hero__lead { max-width: 610px; margin: 1.5rem 0 1.5rem; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.05rem, 1.4vw, 1.3rem); line-height: 1.5; }
 .hero__actions { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; }
 .button { display: inline-flex; justify-content: center; align-items: center; min-height: 50px; padding: .85rem 1.3rem; border: 1px solid transparent; text-decoration: none; text-align: center; font-size: .82rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; transition: transform .2s ease, background .2s ease, color .2s ease; }
 .button:hover, .button:focus-visible { transform: translateY(-2px); }
@@ -187,8 +187,8 @@ footer nav a:hover, footer nav a:focus-visible { color: #fff; }
   .hero { min-height: 760px; align-items: flex-start; }
   .hero__photo { object-position: 62% center; }
   .hero__shade { background: linear-gradient(180deg, rgba(40,10,21,.88) 0%, rgba(40,10,21,.8) 61%, rgba(40,10,21,.92) 100%); }
-  .hero__content { width: 100%; padding: 5.5rem 1.2rem 7rem; }
-  .hero h1 { font-size: clamp(3rem, 15vw, 4.2rem); }
+  .hero__content { width: 100%; padding: 3rem 1.2rem 3rem; }
+  .hero h1 { font-size: clamp(2.65rem, 11.5vw, 4rem); }
   .hero__lead { font-size: 1.13rem; }
   .hero__actions { align-items: flex-start; flex-direction: column; }
   .hero__note { left: 1.2rem; right: 4.5rem; bottom: 1rem; }
@@ -225,3 +225,10 @@ footer nav a:hover, footer nav a:focus-visible { color: #fff; }
   text-underline-offset: 4px;
 }
 .sector-brief__example a:hover { color: #17222b; text-decoration-thickness: 2px; }
+
+.hero__photo{z-index:0}.hero__shade{z-index:1}
+.legal-offer{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:.25rem 1rem;padding:1rem 0;margin:0 0 1.5rem;border-block:1px solid #ffffff50}.legal-offer>span{font-size:.75rem;font-weight:750;text-transform:uppercase;letter-spacing:.08em}.legal-offer strong{color:#FF7139;font-size:2rem;line-height:1.1}.legal-offer small{color:#fff;font-size:.9rem}.legal-offer p{grid-column:1/-1;margin:0;color:#f6e6e9;font-size:.88rem}
+.hero__actions>.button{color:#201510;background:#FF7139;border-color:#FF7139}
+.legal-routing{position:absolute;z-index:2;right:clamp(1.25rem,5vw,5rem);bottom:4.5rem;width:min(25rem,35vw);padding:1.8rem;color:#351c27;background:#fff7ef;border-top:4px solid #FF7139;box-shadow:0 18px 48px #18091340}.legal-routing>p{margin:0 0 1rem;color:#82401d;font-size:.7rem;font-weight:750;text-transform:uppercase;letter-spacing:.1em}.legal-routing h2{margin:0 0 1.3rem;font-family:Georgia,serif;font-size:1.8rem;line-height:1.1;letter-spacing:-.03em}.legal-routing dl{margin:0 0 1.2rem}.legal-routing dl>div{padding:.7rem 0;border-top:1px solid #d6c7bd}.legal-routing dt{font-size:.8rem;font-weight:750}.legal-routing dd{margin:.2rem 0 0;color:#66505a;font-size:.79rem;line-height:1.55}.legal-routing>a{color:#82401d;font-size:.82rem;font-weight:750;text-underline-offset:4px}.legal-routing small{display:block;margin-top:.9rem;color:#715c64;font-size:.67rem;line-height:1.5}
+#growth{scroll-margin-top:32px}
+@media(max-width:1040px){.hero{display:block}.hero__content{width:100%;padding-right:clamp(1.25rem,7vw,7rem)}.legal-routing{position:relative;right:auto;bottom:auto;width:calc(100% - 2.4rem);margin:0 1.2rem 2rem}.hero__note{position:relative;inset:auto;margin:0;padding:0 1.2rem 1.5rem}.hero__shade{background:linear-gradient(180deg,#280a15ed,#280a15d9)}}

@@ -108,13 +108,23 @@ const bloques = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*
   (coincidencia) => JSON.parse(coincidencia[1]),
 );
 
-comprobar('Hay dos bloques JSON-LD y ambos son JSON válido', bloques.length === 2);
+comprobar('Hay tres bloques JSON-LD y todos son JSON válido', bloques.length === 3);
 
 const service = bloques.find((b) => b['@type'] === 'Service');
 const faqPage = bloques.find((b) => b['@type'] === 'FAQPage');
+const breadcrumb = bloques.find((b) => b['@type'] === 'BreadcrumbList');
 
 comprobar('Existe un bloque Service', Boolean(service));
 comprobar('Existe un bloque FAQPage', Boolean(faqPage));
+comprobar(
+  'Las migas describen la navegación visible desde Inicio y Sectores hasta la landing',
+  breadcrumb?.itemListElement?.length === 3 &&
+    breadcrumb.itemListElement.every((item, index) => item.position === index + 1) &&
+    breadcrumb.itemListElement[0].item === `${sitio.origen}/` &&
+    breadcrumb.itemListElement[1].item === `${sitio.origen}/sectores/` &&
+    breadcrumb.itemListElement[2].item === sitio.landing.canonical &&
+    /aria-label="Migas de pan"[\s\S]*?href="\/sectores\/"/.test(html),
+);
 comprobar(
   'Service declara a Dania360 como proveedor',
   service?.provider?.name === 'Dania360',
@@ -269,18 +279,12 @@ comprobar(
 
 grupo('Recursos y dependencias');
 
-const externos = [...html.matchAll(/(?:src|href)="(https?:\/\/[^"]+)"/g)].map((c) => c[1]);
-const permitidos = ['wa.me'];
+// Los enlaces editoriales se abren al pulsarlos; no cargan dependencias.
+const externos = [...html.matchAll(/<(?:script|img|link|iframe|source|video|audio)\b[^>]*\b(?:src|href)="(https?:\/\/[^"]+)"/g)].map((c) => c[1]);
 comprobar(
   'No se carga ningún recurso de un tercero',
-  externos.every(
-    (url) =>
-      url.startsWith(sitio.origen) || permitidos.some((dominio) => url.includes(dominio)),
-  ),
-  externos.filter(
-    (url) =>
-      !url.startsWith(sitio.origen) && !permitidos.some((dominio) => url.includes(dominio)),
-  ).join(', '),
+  externos.every((url) => new URL(url).origin === new URL(sitio.origen).origin),
+  externos.filter((url) => new URL(url).origin !== new URL(sitio.origen).origin).join(', '),
 );
 comprobar('No hay fuentes remotas', !/fonts\.(googleapis|gstatic)\.com/.test(html));
 comprobar(
