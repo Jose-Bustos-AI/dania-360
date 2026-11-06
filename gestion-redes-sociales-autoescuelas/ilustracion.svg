@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Conocer la formación y hablar con el centro</title>
+<desc id="art-desc">Panel de información y vehículo de formación abstractos. No aparecen alumnos, resultados de exámenes ni plazas disponibles.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#15120f"/>
+<text x="39" y="57" fill="#eee5d5" font-size="27" font-weight="700">ANTES DE LA MATRÍCULA</text>
+<rect x="40" y="94" width="317" height="223" rx="12" fill="#eee5d5"/>
+<rect x="63" y="119" width="270" height="43" rx="6" fill="#FF7139"/>
+<text x="88" y="148" fill="#15120f" font-size="24" font-weight="700">Conocer el centro</text>
+<path d="M68 194H290M68 221H262M68 249H306" stroke="#b8a38a" stroke-width="9"/>
+<path d="M357 165H390" stroke="#FF7139" stroke-width="4"/>
+<rect x="401" y="114" width="199" height="104" rx="14" fill="#34261b" stroke="#b8a38a" stroke-width="2"/>
+<path d="M430 218L417 244L466 218" fill="#34261b" stroke="#b8a38a" stroke-width="2"/>
+<text x="431" y="156" fill="#eee5d5" font-size="24">Pedir</text><text x="423" y="187" fill="#eee5d5" font-size="24">información</text>
+<path d="M287 370L322 357L351 315H466L508 352L561 370V408H287Z" fill="#b8a38a" stroke="#eee5d5" stroke-width="4"/>
+<path d="M362 329H457L484 356H343Z" fill="#34261b"/>
+<circle cx="348" cy="405" r="22" fill="#15120f" stroke="#eee5d5" stroke-width="5"/><circle cx="509" cy="405" r="22" fill="#15120f" stroke="#eee5d5" stroke-width="5"/>
+
+</g>
+</svg>

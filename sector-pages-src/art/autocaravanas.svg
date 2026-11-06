@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">El espacio habitable y la decisión de compra o alquiler</title>
+<desc id="art-desc">Vehículo vivienda abstracto con zonas conceptuales y dos motivos comerciales. No es un plano, modelo, capacidad o equipamiento real.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="640" height="480" rx="24" fill="#eee5d5"/>
+<text x="39" y="57" fill="#3c3027" font-size="27" font-weight="700">CONTAR EL ESPACIO INTERIOR</text>
+<path d="M69 148H429V210H493L551 277V345H69Z" fill="#d4c0a4" stroke="#3c3027" stroke-width="5"/>
+<path d="M447 226H485L523 274H447Z" fill="#eee5d5" stroke="#3c3027" stroke-width="4"/>
+<rect x="96" y="177" width="304" height="134" rx="8" fill="#eee5d5" stroke="#b8a38a" stroke-width="3"/>
+<path d="M198 177V311M302 177V311" stroke="#b8a38a" stroke-width="3" stroke-dasharray="7 7"/>
+<rect x="112" y="220" width="66" height="59" rx="7" fill="#b8a38a"/><rect x="216" y="201" width="68" height="22" rx="5" fill="#FF7139"/><rect x="225" y="231" width="50" height="47" rx="5" fill="#b8a38a"/>
+<path d="M320 215H383M320 235H383M320 255H383" stroke="#b8a38a" stroke-width="12"/>
+<circle cx="146" cy="343" r="31" fill="#3c3027"/><circle cx="459" cy="343" r="31" fill="#3c3027"/>
+<path d="M300 350V382M300 382H160M300 382H452" fill="none" stroke="#FF7139" stroke-width="4"/>
+<text x="100" y="424" fill="#3c3027" font-size="27" font-weight="700">Comprar</text><text x="395" y="424" fill="#3c3027" font-size="27" font-weight="700">Alquilar</text>
+
+</g>
+</svg>
