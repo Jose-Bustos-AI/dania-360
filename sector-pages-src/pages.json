@@ -7,7 +7,7 @@
     "description": "Redes sociales para fontaneros: trabajos, zona de servicio, mensajes y Google. Growth por 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para fontaneros",
     "eyebrow": "Tu oficio, bien explicado",
-    "lead": "Mostramos los servicios de tu empresa de fontanería y atendemos sus redes para que quien revise tu negocio entienda qué haces, dónde trabajas y cómo pedirte presupuesto. Tú confirmas cada trabajo y su disponibilidad.",
+    "lead": "Gestionamos tus redes y presentamos tus servicios de fontanería. Separamos los avisos de las solicitudes de presupuesto y dirigimos cada consulta al canal que indiques.",
     "promise": "La confianza empieza antes de que suene el teléfono.",
     "layout": "fontaneros",
     "artAlt": "Esquema de comunicación de fontanería: servicio, zona y contacto conectados alrededor de una tubería",
@@ -75,7 +75,8 @@
       ],
       "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver guion de fontanería"
   },
   {
     "id": 12,
@@ -85,7 +86,7 @@
     "description": "Gestión de redes sociales para constructoras: obras, fases y consultas profesionales. Growth 297 €/mes con web y bot de IA. Auditoría gratuita.",
     "h1": "Gestión de redes sociales para empresas de construcción",
     "eyebrow": "Una obra merece algo más que una foto",
-    "lead": "Organizamos la comunicación de tu constructora alrededor de los proyectos que puedes mostrar y del trabajo que realmente ejecutas. Redes, web y mensajes conectados para presentar tu empresa antes de la primera reunión.",
+    "lead": "Gestionamos las redes de tu constructora y presentamos qué parte ejecutaste en cada obra. La web y la atención de mensajes ayudan a preparar la primera conversación.",
     "promise": "Que cada obra explique por qué contar con tu empresa.",
     "layout": "construccion",
     "artAlt": "Ilustración de un edificio y su comunicación en tres fases: contexto, desarrollo y entrega",
@@ -149,7 +150,8 @@
       ],
       "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de obra"
   },
   {
     "id": 13,
@@ -279,7 +281,7 @@
     "description": "Gestión de redes sociales para electricistas: explica tus servicios y orienta las consultas. Growth 297 €/mes, con web y bot de IA. Auditoría gratis.",
     "h1": "Gestión de redes sociales para electricistas",
     "eyebrow": "La especialidad tiene que verse",
-    "lead": "Damos continuidad a las redes de tu empresa instaladora con contenido sobre los servicios que realmente prestas. Publicaciones, mensajes y Google conectados con una web que ayuda a entender cuándo y cómo contactar contigo.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos tus especialidades. Las solicitudes se orientan según el trabajo y la zona que atiendes.",
     "promise": "Que se entienda qué instalas y para quién trabajas.",
     "layout": "electricistas",
     "artAlt": "Tres recorridos gráficos de instalaciones, mantenimiento y recarga hacia una consulta profesional",
@@ -345,7 +347,8 @@
       ],
       "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de cargador"
   },
   {
     "id": 15,
@@ -355,7 +358,7 @@
     "description": "Redes sociales para aire acondicionado y calefacción: contenido de temporada, mensajes y Google. Growth 297 €/mes con web y bot de IA incluidos.",
     "h1": "Gestión de redes sociales para empresas de climatización",
     "eyebrow": "El contenido también se planifica por temporada",
-    "lead": "Preparamos las redes de tu empresa de aire acondicionado y calefacción para explicar sus servicios durante todo el año. Unimos publicaciones, atención de mensajes, Google y una web con bot de IA dentro de Growth.",
+    "lead": "Gestionamos las redes de tu empresa de climatización y preparamos contenido para instalación, mantenimiento y renovación de equipos según la temporada.",
     "promise": "Estar presente antes, durante y después de la temporada.",
     "layout": "climatizacion",
     "artAlt": "Rueda editorial de climatización con preparar, atender, anticipar y mantener durante el año",
@@ -427,7 +430,8 @@
       ],
       "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de campaña"
   },
   {
     "id": 16,
@@ -437,7 +441,7 @@
     "description": "Gestión de redes sociales para empresas de placas solares: proyectos y consultas con criterio. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
     "h1": "Gestión de redes sociales para instaladores de placas solares",
     "eyebrow": "La propuesta solar, explicada con criterio",
-    "lead": "Convertimos tu oferta de autoconsumo en contenido comprensible para quien está valorando una instalación. Mostramos el proceso, atendemos las redes y dirigimos las consultas a tu equipo para estudiar cada proyecto.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos cómo empieza un estudio de autoconsumo. Las consultas llegan a tu equipo para valorar cada proyecto.",
     "promise": "Explica cómo trabajas antes de pedir que confíen en una cifra.",
     "layout": "solar",
     "artAlt": "Cubierta solar ilustrada con el recorrido entre necesidad, estudio y proyecto",
@@ -502,7 +506,8 @@
       ],
       "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver guion de autoconsumo"
   },
   {
     "id": 17,
@@ -512,7 +517,7 @@
     "description": "Gestión de redes para carpinterías: explica tus muebles, materiales y trabajos a medida. Growth 297 €/mes con web y bot de IA. Pide una auditoría gratis.",
     "h1": "Gestión de redes sociales para carpinterías de madera",
     "eyebrow": "El oficio se aprecia en los detalles",
-    "lead": "Preparamos contenido que explica el uso, los materiales y las decisiones de tus trabajos a medida. Mantenemos activas las redes de tu carpintería y orientamos las consultas hacia el taller para estudiar cada encargo.",
+    "lead": "Gestionamos las redes de tu carpintería y enseñamos cómo resuelves encargos a medida. Los mensajes llegan al taller con contexto para valorar el trabajo.",
     "promise": "De una imagen bonita a una pieza que el cliente entiende.",
     "layout": "madera",
     "artAlt": "Armario conceptual adaptado a una cubierta inclinada, con módulos interiores y detalles de acabado",
@@ -579,7 +584,8 @@
       ],
       "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de armario"
   },
   {
     "id": 18,
@@ -589,7 +595,7 @@
     "description": "Gestión de redes para carpinterías de aluminio y metal: ventanas, cerramientos y consultas. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
     "h1": "Gestión de redes sociales para carpinterías metálicas y de aluminio",
     "eyebrow": "Ventanas y cerramientos con contexto",
-    "lead": "Organizamos el contenido de tu carpintería metálica para explicar qué fabricas, qué instalas y qué proyecto puede estudiar tu empresa. Publicaciones y mensajes conectados con una web profesional y tu presencia en Google.",
+    "lead": "Gestionamos las redes de tu taller y explicamos qué fabricas, qué instalas y qué necesita saber el cliente para consultar por ventanas o cerramientos.",
     "promise": "Que el cliente vea una solución para su espacio.",
     "layout": "metal",
     "artAlt": "Cerramiento ilustrado con referencias al uso del espacio, apertura y acabado",
@@ -654,7 +660,8 @@
       ],
       "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de cerramiento"
   },
   {
     "id": 19,
@@ -664,7 +671,7 @@
     "description": "Redes sociales para cerrajerías: identidad, servicios, mensajes y Google coherentes. Growth 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para cerrajeros",
     "eyebrow": "Una empresa que el cliente puede reconocer",
-    "lead": "Presentamos tu cerrajería con servicios claros, datos de contacto coherentes y contenido que explica cómo solicitar una valoración. Atendemos las redes y orientamos cada consulta hacia el canal profesional que hayas definido.",
+    "lead": "Gestionamos las redes de tu cerrajería y ordenamos la información de contacto. La web distingue avisos y valoraciones programadas según tu disponibilidad real.",
     "promise": "Identidad, zona y disponibilidad: lo esencial debe estar claro.",
     "layout": "cerrajeros",
     "artAlt": "Tarjeta conceptual de cerrajería con un candado simbólico y campos de identidad, zona y horario",
@@ -731,7 +738,8 @@
       ],
       "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de ficha"
   },
   {
     "id": 20,
@@ -741,7 +749,7 @@
     "description": "Redes sociales para empresas de pintura: preparación, acabados y consultas de presupuesto. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
     "h1": "Gestión de redes sociales para pintores y empresas de pintura",
     "eyebrow": "El trabajo detrás del color",
-    "lead": "Preparamos contenido para mostrar tus acabados y explicar el servicio que hay detrás. Atendemos las redes de tu empresa de pintura y orientamos las consultas para que puedas estudiar cada espacio y presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de pintura y mostramos la preparación y el acabado de tus trabajos. Las consultas llegan con información para valorar el espacio.",
     "promise": "Que cada acabado cuente algo más que un cambio de tono.",
     "layout": "pintores",
     "artAlt": "Ilustración original de rodillo, pared y muestras de color para explicar el trabajo de pintura",
@@ -811,7 +819,8 @@
       ],
       "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver ejemplo de acabado"
   },
   {
     "id": 21,
