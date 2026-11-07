@@ -201,9 +201,9 @@ h3 {
 
 .hero {
   position: relative;
-  min-height: 780px;
+  min-height: 760px;
   display: flex;
-  align-items: end;
+  align-items: center;
   isolation: isolate;
 }
 
@@ -229,7 +229,7 @@ h3 {
 }
 
 .hero__content {
-  padding-block: 170px 86px;
+  padding-block: 120px 68px;
 }
 
 .eyebrow,
@@ -253,13 +253,13 @@ h3 {
 }
 
 .hero h1 {
-  max-width: 850px;
-  margin-bottom: 24px;
+  max-width: 760px;
+  margin-bottom: 22px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(3.6rem, 8vw, 7.8rem);
+  font-size: clamp(3.2rem, 6vw, 6rem);
   font-weight: 500;
   letter-spacing: -0.025em;
-  line-height: 0.9;
+  line-height: 0.98;
   text-transform: uppercase;
 }
 
@@ -270,10 +270,10 @@ h3 {
 }
 
 .hero__lead {
-  max-width: 670px;
-  margin-bottom: 28px;
+  max-width: 600px;
+  margin-bottom: 22px;
   color: #eef2ed;
-  font-size: clamp(1.08rem, 1.5vw, 1.3rem);
+  font-size: 1.08rem;
   line-height: 1.55;
 }
 
@@ -297,10 +297,30 @@ h3 {
 }
 
 .hero__proof li::before {
-  content: "✓";
-  margin-right: 8px;
-  color: var(--lime);
+  content: none;
 }
+
+
+.hero__layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, .9fr); gap: 64px; align-items: end; }
+.hero__copy { min-width: 0; }
+.hero__growth { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 4px 16px; margin: 0 0 24px; }
+.hero__growth > span { font-size: .8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.hero__growth strong { color: #FF7139; font-size: 2.1rem; line-height: 1.1; }
+.hero__growth small { font-size: 1rem; color: #fff; font-weight: 650; }
+.hero__growth > b { grid-column: 1 / -1; font-size: .95rem; color: #e9eeea; font-weight: 600; }
+.hero__proof { margin-top: 24px; font-size: .82rem; gap: 10px 16px; }
+.hero__proof li { border-left: 2px solid #FF7139; padding-left: 9px; }
+.first-visit { padding: 30px; background: #f2f5ef; color: #090c0f; border-top: 5px solid #FF7139; box-shadow: 0 20px 50px #0005; }
+.first-visit .kicker { color: #733015; margin-bottom: 14px; }
+.first-visit h2 { font-size: 2rem; letter-spacing: -.04em; line-height: 1.06; margin-bottom: 24px; }
+.first-visit ol { list-style: none; padding: 0; margin: 0 0 22px; counter-reset: visit; }
+.first-visit li { counter-increment: visit; padding: 15px 0 15px 36px; position: relative; border-top: 1px solid #c5cec6; }
+.first-visit li::before { content: counter(visit, decimal-leading-zero); position: absolute; left: 0; top: 16px; font: 700 .8rem ui-monospace, monospace; color: #733015; }
+.first-visit b, .first-visit span { display: block; }
+.first-visit b { font-size: .94rem; }
+.first-visit span { margin-top: 3px; font-size: .85rem; line-height: 1.5; color: #455047; }
+.first-visit > a { display: block; color: #733015; font-weight: 800; font-size: .9rem; text-underline-offset: 4px; }
+#plan-growth, #planes, #contenido-semanal, #preguntas { scroll-margin-top: 28px; }
 
 .scoreboard {
   border-block: 1px solid var(--line);
@@ -664,7 +684,7 @@ h3 {
 
 .plans {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1.2fr 1fr 1fr;
   gap: 16px;
   align-items: stretch;
 }
@@ -975,9 +995,8 @@ h3 {
     display: none;
   }
 
-  .hero {
-    min-height: 720px;
-  }
+  .hero { min-height: auto; }
+  .hero__layout { gap: 30px; grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr); }
 
   .split,
   .channels,
@@ -1067,9 +1086,9 @@ h3 {
     height: 38px;
   }
 
-  .hero {
-    min-height: 690px;
-  }
+  .hero { min-height: auto; }
+  .hero__layout { grid-template-columns: 1fr; gap: 38px; }
+  .first-visit { padding: 26px; }
 
   .hero__image {
     object-position: 62% center;
@@ -1082,7 +1101,7 @@ h3 {
   }
 
   .hero__content {
-    padding-block: 120px 55px;
+    padding-block: 100px 42px;
   }
 
   .breadcrumbs {
@@ -1091,7 +1110,7 @@ h3 {
   }
 
   .hero h1 {
-    font-size: clamp(3rem, 15vw, 5rem);
+    font-size: clamp(2.7rem, 12vw, 4rem);
   }
 
   .hero__actions {
@@ -1105,8 +1124,8 @@ h3 {
 
   .hero__proof {
     align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    gap: 8px 14px;
   }
 
   .scoreboard__grid {
