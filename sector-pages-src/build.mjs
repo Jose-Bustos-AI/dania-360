@@ -45,8 +45,12 @@ for (const p of pages) {
   const faq = {'@type':'FAQPage','@id':url+'#preguntas',mainEntity:p.faq.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))};
   const page = {'@type':'WebPage','@id':url+'#webpage',url,name:p.title,description:p.description,inLanguage:'es-ES',mainEntity:{'@id':service['@id']},breadcrumb:{'@id':crumbs['@id']},publisher:{'@id':organization['@id']}};
   const content = readFileSync(resolve(source, `content/${p.slug}.html`), 'utf8');
+  const priceLine = `<p class="price-line"><strong>Growth · 297 €/mes</strong> · Web y bot de IA incluidos</p>`;
+  const heroOffer = p.heroExampleLabel
+    ? `<p class="lead">${esc(p.lead)}</p><p class="price-line"><a href="#growth"><strong>Growth · 297 €/mes</strong></a> · Web y bot de IA incluidos</p>`
+    : `<p class="promise">${esc(p.promise)}</p><p class="lead">${esc(p.lead)}</p>`;
   const body = `<nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">${esc(p.name)}</span></nav>
-<section class="hero"><div><p class="kicker">${esc(p.eyebrow)}</p><h1>${esc(p.h1)}</h1><p class="promise">${esc(p.promise)}</p><p class="lead">${esc(p.lead)}</p><div class="actions"><a class="button" href="${whatsapp(p)}" data-cta="${p.slug}-hero">Pide tu auditoría gratis →</a><a class="button secondary" href="#ejemplo">Ver un ejemplo</a></div><p class="price-line"><strong>Growth · 297 €/mes</strong> · Web y bot de IA incluidos</p></div><figure><img src="${path}ilustracion.svg" width="640" height="480" alt="${esc(p.artAlt)}" fetchpriority="high"/><figcaption>${esc(p.artCaption)}</figcaption></figure></section>
+<section class="hero"><div><p class="kicker">${esc(p.eyebrow)}</p><h1>${esc(p.h1)}</h1>${heroOffer}<div class="actions"><a class="button" href="${whatsapp(p)}" data-cta="${p.slug}-hero">Pide tu auditoría gratis →</a><a class="button secondary" href="#ejemplo">${esc(p.heroExampleLabel ?? "Ver un ejemplo")}</a></div>${p.heroExampleLabel ? "" : priceLine}</div><figure><img src="${path}ilustracion.svg" width="640" height="480" alt="${esc(p.artAlt)}" fetchpriority="high"/><figcaption>${esc(p.artCaption)}</figcaption></figure></section>
 ${content}
 <section class="download" aria-labelledby="ficha-title"><div><p class="kicker">Un recurso para empezar</p><h2 id="ficha-title">${esc(p.resourceTitle)}</h2><p>${esc(resource.description)}</p></div><a class="button secondary" href="${path}ficha-editorial.txt" download>${esc(resource.linkLabel)}</a></section>
 ${offer(p)}

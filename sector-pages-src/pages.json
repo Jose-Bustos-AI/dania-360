@@ -159,7 +159,7 @@
     "description": "Redes sociales para empresas de reformas: transforma tus obras en contenido claro y consultas útiles. Growth 297 €/mes con web y bot de IA incluidos.",
     "h1": "Gestión de redes sociales para empresas de reformas",
     "eyebrow": "Que el cliente entienda el cambio",
-    "lead": "Preparamos contenido para mostrar las decisiones, el proceso y los acabados de tus reformas. Atendemos tus redes y conectamos el interés con tu empresa para que puedas estudiar cada solicitud de presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de reformas y mostramos cómo se decide cada cambio. Recogemos las solicitudes de presupuesto para que tu equipo pueda valorar la obra.",
     "promise": "Tu trabajo se ve mejor cuando se entiende.",
     "layout": "reformas",
     "artAlt": "Tablero ilustrado de una reforma de cocina con distribución, materiales y uso del espacio",
@@ -268,7 +268,8 @@
       ],
       "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado."
     },
-    "contentModified": "2026-11-04"
+    "contentModified": "2026-11-07",
+    "heroExampleLabel": "Ver carrusel de cocina"
   },
   {
     "id": 14,
