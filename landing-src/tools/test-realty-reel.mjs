@@ -36,9 +36,9 @@ test('muestra y descarga están conectadas con el contenido y la guía', () => {
   assert.match(guide, /href="\/gestion-redes-sociales-inmobiliarias\/#guion-reel"/);
   assert.match(reel, /aria-labelledby="reel-outline-title"/);
 });
-test('se conservan título, descripción, H1, canonical y precios', () => {
+test('los metadatos identifican el servicio y conservan URL y precios', () => {
   assert.match(landing, /<title>Gestión de redes sociales para inmobiliarias \| Dania360<\/title>/);
-  assert.match(landing, /Gestión de redes sociales para inmobiliarias por 297 €\/mes: inmuebles, propietarios y consultas\. Web con bot de IA incluida\. Pide una auditoría gratis\./);
+  assert.match(landing, /<meta name="description" content="Redes sociales para inmobiliarias por 297 €\/mes\. Publicaciones para propietarios y compradores, atención de consultas, web y bot de IA\.">/);
   assert.equal([...landing.matchAll(/<h1\b/gi)].length, 1);
   assert.match(landing, /<link rel="canonical" href="https:\/\/dania360.com\/gestion-redes-sociales-inmobiliarias\/">/);
   const graph = JSON.parse(landing.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
