@@ -2528,7 +2528,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para hoteles",
     "layout": "hoteles",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2554,7 +2554,7 @@
     "title": "Gestión de redes sociales para hoteles | Dania360",
     "description": "Presenta los espacios de tu hotel y facilita las consultas de estancia. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
     "eyebrow": "Lo que el viajero quiere conocer antes de alojarse",
-    "lead": "Gestionamos las redes de tu hotel para presentar sus espacios, explicar sus servicios y atender las consultas incluidas en Growth. Por 297 €/mes tienes también página web y bot de IA.",
+    "lead": "Gestionamos las redes de tu hotel para mostrar sus espacios y llevar las dudas de la estancia al equipo de recepción.",
     "promise": "Que una imagen de tu hotel ayude a preparar la siguiente conversación.",
     "artAlt": "Tarjeta conceptual de un espacio de hotel con tres anotaciones editoriales: imagen, dato y consulta",
     "artCaption": "Ilustración original para explicar el contenido. No representa una habitación, categoría o servicio de un hotel real.",
@@ -2602,7 +2602,8 @@
         "¿Qué incluye Growth para un hotel por 297 €/mes?",
         "Gestión de redes, atención de los canales incluidos en el plan e informe mensual de actividad y visibilidad local. Incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de llegada"
   },
   {
     "id": 42,
@@ -2611,7 +2612,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para casas rurales",
     "layout": "casas-rurales",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2637,7 +2638,7 @@
     "title": "Gestión de redes sociales para casas rurales | Dania360",
     "description": "Explica cómo es tu casa rural y cómo se utilizan sus espacios con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La casa, sus espacios y la forma de alojarse",
-    "lead": "Preparamos contenido de tu casa rural con imágenes autorizadas e información del anfitrión para explicar la estancia. Growth incluye gestión de redes, una página web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones que explican cómo se usa tu casa rural y qué necesita saber el anfitrión para atender una consulta.",
     "promise": "Ayuda al viajero a entender qué espacio está viendo y cómo se utiliza.",
     "artAlt": "Casa abstracta con anotaciones sobre el espacio mostrado y el uso que confirma el anfitrión",
     "artCaption": "Dibujo editorial original. No es un plano ni representa plazas, servicios o espacios de una casa rural cliente.",
@@ -2683,7 +2684,8 @@
         "¿Por 297 €/mes se incluyen redes, web y bot para la casa rural?",
         "Sí. Growth incluye gestión de redes, atención de los canales del plan e informe mensual, además de todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver dos ejemplos de estancia"
   },
   {
     "id": 43,
@@ -2692,7 +2694,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para campings",
     "layout": "campings",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-10",
     "resource": [
       "Una publicación y su respuesta, para adaptar",
       "",
@@ -2771,7 +2773,7 @@
     "title": "Gestión de redes sociales para campings | Dania360",
     "description": "Presenta las modalidades y zonas de tu camping con contenido claro y consultas bien orientadas. Gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Cada modalidad, sus servicios y su período",
-    "lead": "Gestionamos las redes de tu camping para presentar sus modalidades, zonas y servicios confirmados. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones para que se entienda qué ofrece cada parcela o alojamiento y qué debe confirmar tu camping para esas fechas.",
     "promise": "Aclara qué corresponde a la estancia y qué se consulta para cada fecha.",
     "artAlt": "Tienda de campaña y alojamiento conceptuales junto a modalidad, servicios y período, sin oferta real",
     "artCaption": "Dibujo editorial original. No anuncia zonas, servicios o plazas de un camping real.",
@@ -2793,7 +2795,8 @@
         "¿Qué incluye Growth para un camping por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de parcela"
   },
   {
     "id": 44,
@@ -2802,7 +2805,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para gestores de alojamientos turísticos",
     "layout": "gestion-alojamientos-turisticos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PRESENTACIÓN A PROPIETARIOS Y DOS RECORRIDOS DE CONSULTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -2860,7 +2863,7 @@
     "title": "Redes sociales para gestores de alojamientos | Dania360",
     "description": "Explica tu servicio de gestión a propietarios y distingue las consultas de viajeros. Growth incluye redes, página web y bot de IA por 297 €/mes.",
     "eyebrow": "La marca del gestor y sus dos públicos",
-    "lead": "Preparamos contenido para explicar tu servicio de gestión turística a propietarios y orientar las consultas de viajeros al canal adecuado. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa para presentar el servicio a propietarios y encaminar por separado las consultas de viajeros.",
     "promise": "Presenta tu alcance al propietario y diferencia su consulta de la estancia.",
     "artAlt": "Dos entradas conceptuales a la comunicación de un gestor turístico: propietario y viajero",
     "artCaption": "Esquema editorial original. No representa una cartera de alojamientos, contratos o rendimientos.",
@@ -2882,7 +2885,8 @@
         "¿Qué recibe la empresa gestora con Growth por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo para propietarios"
   },
   {
     "id": 45,
@@ -2891,7 +2895,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para agencias de viajes",
     "layout": "agencias-viajes",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PIEZA SOBRE EL COMIENZO DE UN VIAJE Y SU PRIMERA RESPUESTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -2955,7 +2959,7 @@
     "title": "Gestión de redes sociales para agencias de viajes | Dania360",
     "description": "Haz visible el asesoramiento de tu agencia y el comienzo de una propuesta de viaje. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Del deseo de viajar a una conversación con tu agencia",
-    "lead": "Creamos contenido para presentar cómo atiende tu agencia a quien prepara un viaje. Growth incluye gestión de redes, atención de los canales del plan, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu agencia para mostrar cómo asesoráis y ayudar al viajero a plantear la primera consulta.",
     "promise": "Muestra cómo empieza el asesoramiento, además de enseñar el destino.",
     "artAlt": "Cuaderno de planificación de viaje con una idea, un momento y un canal de consulta",
     "artCaption": "Composición editorial original. No anuncia un itinerario, paquete o presupuesto de viaje.",
@@ -2977,7 +2981,8 @@
         "¿Growth incorpora la web y el bot de IA de la agencia por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver cómo preparar la consulta"
   },
   {
     "id": 46,
@@ -2986,7 +2991,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para guías turísticos",
     "layout": "guias-turisticos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "GUION DE 15 SEGUNDOS PARA PRESENTAR UNA MIRADA DEL GUÍA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3056,7 +3061,7 @@
     "title": "Gestión de redes sociales para guías turísticos | Dania360",
     "description": "Presenta tu forma de contar el destino con contenido propio y consultas sobre tus visitas. Growth reúne redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "El detalle que invita a mirar con tu guía",
-    "lead": "Desarrollamos contenido para mostrar tu forma de explicar un lugar y cómo consultar tus visitas. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones que enseñan cómo cuentas un lugar y orientan a quien quiere consultar una visita guiada.",
     "promise": "Da a conocer la mirada del guía y la visita que puede explicar.",
     "artAlt": "Recorrido conceptual con una parada destacada y una pregunta para el visitante",
     "artCaption": "Ilustración editorial original. No representa un mapa, monumento o itinerario real.",
@@ -3078,7 +3083,8 @@
         "¿Qué incluye Growth para un guía turístico por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el guion de una visita"
   },
   {
     "id": 47,
@@ -3087,7 +3093,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para empresas de turismo activo",
     "layout": "turismo-activo",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA SECUENCIA SOBRE LA ATENCIÓN PREVIA A UNA ACTIVIDAD",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3151,7 +3157,7 @@
     "title": "Redes sociales para empresas de turismo activo | Dania360",
     "description": "Presenta tus actividades y al equipo que atiende las primeras consultas con contenido propio. Gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "El equipo y la conversación antes de la aventura",
-    "lead": "Preparamos contenido de tus actividades con información del operador y material autorizado. Growth reúne gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos contenido para que tu público entienda la actividad y sepa qué consultar al equipo antes de participar.",
     "promise": "Ayuda a conocer la actividad y cómo empezar a informarse con tu equipo.",
     "artAlt": "Tres momentos conceptuales de comunicación de una actividad: equipo, conversación y experiencia",
     "artCaption": "Esquema editorial original. No es una ruta técnica ni representa una actividad realizada por un cliente.",
@@ -3173,7 +3179,8 @@
         "¿Por 297 €/mes se incluyen redes, web y bot para la empresa de actividades?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de actividad"
   },
   {
     "id": 48,
@@ -3182,7 +3189,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para parques de ocio",
     "layout": "parques-ocio",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "PRESENTACIÓN DE UNA EXPERIENCIA Y AVISO DE PROGRAMACIÓN DEL PARQUE",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3240,7 +3247,7 @@
     "title": "Gestión de redes sociales para parques de ocio | Dania360",
     "description": "Presenta las experiencias de tu parque y comunica la programación con su contexto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La experiencia del parque y la información para visitarlo",
-    "lead": "Gestionamos las redes de tu parque con contenido sobre su oferta y programación confirmadas. Growth incluye atención en los canales del plan, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu parque para presentar sus experiencias y dirigir al visitante a la información vigente de su visita.",
     "promise": "Que el visitante entienda qué presenta la pieza y dónde informarse.",
     "artAlt": "Entrada conceptual de un parque junto a una pieza estable y un aviso temporal de programación",
     "artCaption": "Dibujo editorial original. No anuncia entradas, atracciones, horarios o condiciones de un parque real.",
@@ -3262,7 +3269,8 @@
         "¿Qué incluye Growth para un parque de ocio por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de programación"
   },
   {
     "id": 49,
@@ -3271,7 +3279,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para escuelas de buceo",
     "layout": "escuelas-buceo",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "DOS PRIMERAS RESPUESTAS PARA CONOCER UNA ESCUELA DE BUCEO",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3329,7 +3337,7 @@
     "title": "Gestión de redes sociales para escuelas de buceo | Dania360",
     "description": "Presenta tu escuela y orienta las consultas de información o formación con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Una conversación adecuada al interés por la escuela",
-    "lead": "Creamos contenido para presentar tu escuela de buceo y distinguir los motivos de consulta. Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos contenido para que tus seguidores distingan la primera toma de contacto de la formación y puedan hablar con tu escuela.",
     "promise": "Da a conocer el centro y facilita el primer contacto con su equipo.",
     "artAlt": "Máscara de buceo conceptual junto a dos entradas a la conversación: información y formación",
     "artCaption": "Ilustración editorial original. No acredita una certificación, una inmersión o un resultado de un alumno.",
@@ -3351,7 +3359,8 @@
         "¿Growth incluye web y bot de IA para la escuela por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver dos respuestas de la escuela"
   },
   {
     "id": 50,
@@ -3360,7 +3369,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para empresas de alquiler de barcos",
     "layout": "alquiler-barcos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PRESENTACIÓN NÁUTICA CON CIERRES PARA ALQUILER Y EXCURSIÓN",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3414,7 +3423,7 @@
     "title": "Redes sociales para alquiler de barcos y excursiones | Dania360",
     "description": "Distingue tus modalidades de alquiler de barcos y excursiones con contenido claro. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La embarcación y el servicio que quieres presentar",
-    "lead": "Preparamos contenido para explicar las modalidades de tu empresa náutica y orientar las consultas de alquiler o excursión. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa náutica para distinguir las consultas de alquiler de las preguntas sobre una excursión.",
     "promise": "Identifica el servicio de la pieza y cómo consultarlo con tu equipo.",
     "artAlt": "Embarcación abstracta con dos continuaciones comerciales: alquiler y excursión",
     "artCaption": "Composición editorial original. No representa un barco, equipamiento, capacidad o salida disponibles.",
@@ -3436,7 +3445,8 @@
         "¿Qué incluye Growth para la empresa náutica por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de alquiler y salida"
   },
   {
     "id": 51,
