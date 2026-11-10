@@ -11,7 +11,7 @@ const faqs = [...html.matchAll(/<details name="restaurant-faq"([^>]*)>([\s\S]*?)
 
 test('Contenido comercial y preguntas completas en HTML, sin hidratación', () => {
   assert.equal([...html.matchAll(/<h1\b/g)].length, 1)
-  assert.match(plain(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1]), /^Gestión de redes sociales para restaurantes\.$/)
+  assert.match(plain(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1]), /^Marketing para restaurantes en redes sociales$/)
   assert.match(html, /<details class="mobile-nav" data-mobile-nav="">/)
   assert.match(html, /<summary class="menu-button" aria-label="Menú de navegación">/)
   assert.equal(faqs.length, 11)

@@ -144,8 +144,8 @@ function Hero() {
     <div className="hero-inner"><div className="hero-copy">
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
-      <h1>Gestión de redes sociales{' '}<em>para restaurantes.</em></h1>
-      <p>Carta vigente, platos reales y una vía clara para reservar. Preparamos el contenido, atendemos los mensajes y derivamos las consultas a tu restaurante.</p>
+      <h1>Marketing para restaurantes{' '}<em>en redes sociales</em></h1>
+      <p>Gestionamos las redes sociales de tu restaurante. Preparamos publicaciones con tu carta vigente, atendemos los mensajes y enviamos las peticiones de reserva al canal que confirma tu equipo.</p>
       <div className="hero-offer"><span>Growth</span><strong>297 <small>€/mes</small></strong><p>Redes, web con carta y bot de IA incluidos.</p></div>
       <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#growth">Qué incluye Growth por 297 €/mes</a></div>
       <small className="cta-note">Revisamos tu presencia actual · Sin compromiso</small>
