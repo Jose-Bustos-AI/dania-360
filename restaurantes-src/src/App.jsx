@@ -200,7 +200,7 @@ function PlanCard({ plan }) {
 
 function RestaurantContract() {
   return <section className="section services" id="contratar-marketing-restaurante" aria-labelledby="restaurant-contract-title">
-    <div className="section-heading"><span>Marketing para restaurantes</span><h2 id="restaurant-contract-title">Qué delegas y qué confirma tu restaurante.</h2><p>Al comparar una agencia de marketing para restaurantes, pide que la propuesta distinga contenido, atención de mensajes y publicidad. Growth reúne redes sociales, web con bot de IA y Google por 297 €/mes. La inversión y gestión de campañas de pago se confirman aparte.</p></div>
+    <div className="section-heading"><span>Marketing para restaurantes</span><h2 id="restaurant-contract-title">Qué delegas y qué confirma tu restaurante.</h2><p>Al comparar una agencia de marketing para restaurantes, pide que la propuesta distinga contenido, atención de mensajes y publicidad. Por 297 €/mes, Growth reúne la gestión orgánica de redes sociales y del perfil de Google con una web y un bot de IA.</p></div>
     <div className="service-grid">
       <article><CalendarDays /><h3>Carta, horarios y novedades</h3><p>Tu equipo confirma platos disponibles, precios, turnos y cambios de carta. Con esa información preparamos el contenido y revisamos dónde debe actualizarse. Las imágenes deben corresponder al material autorizado del negocio.</p></article>
       <article><MessageCircle /><h3>Consultas y solicitudes de reserva</h3><p>Atendemos mensajes de los canales incluidos y derivamos la solicitud al contacto del restaurante. Sala confirma mesas, grupos, disponibilidad y condiciones. Una conversación o un clic todavía no es una reserva.</p></article>
