@@ -25,7 +25,7 @@
     <meta name="twitter:image:alt" content="Entrenamiento grupal en un gimnasio moderno" />
     <link rel="icon" href="/favicon-dania360-orange.png" sizes="any" />
     <link rel="preload" as="image" href="/gestion-redes-sociales-gimnasios/assets/img/gimnasio-entrenamiento-grupal.webp" fetchpriority="high" />
-    <link rel="stylesheet" href="/gestion-redes-sociales-gimnasios/assets/css/gimnasios.css?v=20261113-piloto" />
+    <link rel="stylesheet" href="/gestion-redes-sociales-gimnasios/assets/css/gimnasios.css?v=20261113-piloto2" />
 
     <script type="application/ld+json">
       {
@@ -164,6 +164,7 @@
   </head>
   <body class="brand-gym">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
 
     <header class="topbar">
       <a class="brand" href="/" aria-label="Dania360, página principal">
@@ -177,7 +178,7 @@
         <a href="#planes">Precio</a>
         <a href="#preguntas">Preguntas</a>
       </nav>
-      <a class="button button--compact" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20presencia%20digital." target="_blank" rel="noopener noreferrer" data-cta="gym-header-whatsapp">Auditoría gratis</a>
+      <a class="button button--compact button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20presencia%20digital." target="_blank" rel="noopener noreferrer" data-cta="gym-header-whatsapp">Auditoría gratis</a>
     </header>
 
     <main id="contenido">
@@ -197,7 +198,7 @@
           <p class="hero__lead">Publicamos cada día tus clases, tu equipo y tus novedades, respondemos mensajes y reseñas y llevamos cada consulta a recepción. Marketing digital para gimnasios con una cuota cerrada y sin permanencia.</p>
           <p class="hero__growth"><span>Plan Growth</span><strong>297 <small>€/mes</small></strong><b>Gestión de redes, web y bot de IA incluidos.</b></p>
           <div class="hero__actions">
-            <a class="button" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20web%2C%20redes%20y%20presencia%20en%20Google." target="_blank" rel="noopener noreferrer" data-cta="gym-hero-whatsapp">Pide tu auditoría gratis</a>
+            <a class="button button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20web%2C%20redes%20y%20presencia%20en%20Google." target="_blank" rel="noopener noreferrer" data-cta="gym-hero-whatsapp">Pide tu auditoría gratis</a>
             <a class="text-link" href="#plan-growth">Ver todo lo que incluye</a>
           </div>
           <ul class="hero__proof" aria-label="Ventajas principales">
@@ -206,16 +207,28 @@
             <li>Contenido revisado</li>
           </ul>
           </div>
-          <aside class="first-visit" aria-labelledby="first-visit-title">
-            <p class="kicker">De redes a recepción</p>
-            <p class="first-visit__title" id="first-visit-title">Antes de la primera clase.</p>
-            <ol>
-              <li><b>El contenido muestra</b><span>La actividad, el entrenador y el ambiente del centro.</span></li>
-              <li><b>La web y el bot orientan</b><span>Explican lo que el gimnasio ha confirmado y recogen la consulta.</span></li>
-              <li><b>Recepción confirma</b><span>Valida horario, plaza y condiciones antes de dar una reserva por hecha.</span></li>
-            </ol>
-            <a href="/recursos/calendario-redes-sociales-gimnasios/#consulta-clase-prueba">Ver un ejemplo de consulta de prueba</a>
-          </aside>
+          <figure class="phone" aria-label="Ejemplo ilustrativo: publicaciones de un gimnasio y una consulta por WhatsApp">
+            <div class="phone__frame">
+              <div class="phone__notch" aria-hidden="true"></div>
+              <div class="phone__bar" aria-hidden="true"><b>tu_gimnasio</b><span>Publicado hoy</span></div>
+              <div class="phone__feed" aria-hidden="true">
+                <div class="phone__track">
+                  <div class="post post--wod"><small>WOD del día</small><strong>21-15-9</strong><span>Escalado para quien empieza</span></div>
+                  <div class="post post--slots"><small>Hoy · 19:00</small><strong>HIIT</strong><span>Quedan 4 plazas</span></div>
+                  <div class="post post--coach"><small>Conoce a tu coach</small><strong>Fuerza y movilidad</strong><span>Clases de iniciación</span></div>
+                  <div class="post post--trial"><small>Semana de prueba</small><strong>Ven a probar</strong><span>Escríbenos por WhatsApp</span></div>
+                  <div class="post post--wod"><small>WOD del día</small><strong>21-15-9</strong><span>Escalado para quien empieza</span></div>
+                </div>
+              </div>
+              <div class="chat" aria-hidden="true">
+                <p class="chat__msg chat__msg--in">Hola, ¿puedo probar una clase?</p>
+                <p class="chat__msg chat__msg--out">¡Claro! Hoy a las 19:00 hay HIIT. ¿Te apuntamos?</p>
+                <p class="chat__msg chat__msg--in">Sí, porfa</p>
+                <p class="chat__msg chat__msg--sys">Consulta enviada a recepción ✓</p>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo de contenido y atención por WhatsApp</figcaption>
+          </figure>
           </div>
         </div>
       </section>
@@ -244,10 +257,10 @@
           <p>Quien busca gimnasio compara a pocos minutos de casa o del trabajo. Antes de escribirte mira tus clases, tus horarios, a tu equipo y lo que dicen otros socios. Nuestra estrategia de marketing para gimnasios cubre ese recorrido completo, no solo el número de seguidores.</p>
         </div>
         <div class="journey" role="list" aria-label="Recorrido de un potencial socio">
-          <article class="reveal" role="listitem"><span>Ve</span><h3>Una clase real</h3><p>Descubre cómo se entrena y quién puede participar.</p></article>
-          <article class="reveal" role="listitem"><span>Compara</span><h3>Tu propuesta</h3><p>Entiende qué te diferencia de otros centros cercanos.</p></article>
-          <article class="reveal" role="listitem"><span>Confía</span><h3>En el equipo y las reseñas</h3><p>Conoce a los entrenadores y lee qué opinan otros socios en Google.</p></article>
-          <article class="reveal" role="listitem"><span>Pregunta</span><h3>Por WhatsApp</h3><p>Encuentra una vía clara para pedir información o una clase de prueba.</p></article>
+          <article class="reveal tilt" role="listitem"><span>Ve</span><h3>Una clase real</h3><p>Descubre cómo se entrena y quién puede participar.</p></article>
+          <article class="reveal tilt" role="listitem"><span>Compara</span><h3>Tu propuesta</h3><p>Entiende qué te diferencia de otros centros cercanos.</p></article>
+          <article class="reveal tilt" role="listitem"><span>Confía</span><h3>En el equipo y las reseñas</h3><p>Conoce a los entrenadores y lee qué opinan otros socios en Google.</p></article>
+          <article class="reveal tilt" role="listitem"><span>Pregunta</span><h3>Por WhatsApp</h3><p>Encuentra una vía clara para pedir información o una clase de prueba.</p></article>
         </div>
       </section>
 
@@ -269,21 +282,25 @@
               <h3>Marketing para un box de CrossFit</h3>
               <p>El que busca box quiere saber si encajará en el grupo. Funcionan el WOD del día explicado, la escala para principiantes, los coaches y la comunidad en los retos.</p>
               <ul><li>WOD del día con escalado para quien empieza</li><li>Presentación de coaches y horarios de clase</li><li>Semana de prueba o clase de iniciación por WhatsApp</li></ul>
+              <a class="wa-link" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20box%20de%20CrossFit%20y%20quiero%20ideas%20para%20captar%20socios%20con%20redes%20sociales." target="_blank" rel="noopener noreferrer" data-cta="gym-type-box">Pide ideas para tu box por WhatsApp</a>
             </div>
             <div class="types__panel" role="tabpanel" id="panel-pilates" aria-labelledby="tab-pilates">
               <h3>Marketing para estudios de pilates y yoga</h3>
               <p>Pesan la confianza y el trato: grupos reducidos, nivel de cada clase, máquinas o suelo y quién imparte. El contenido explica la técnica con calma y resuelve dudas por lesiones o edad.</p>
               <ul><li>Diferencias entre pilates máquina y suelo</li><li>Plazas libres por clase y nivel recomendado</li><li>Primera sesión de valoración bien explicada</li></ul>
+              <a class="wa-link" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20estudio%20de%20pilates%20o%20yoga%20y%20quiero%20ideas%20para%20captar%20socios%20con%20redes%20sociales." target="_blank" rel="noopener noreferrer" data-cta="gym-type-pilates">Pide ideas para tu estudio por WhatsApp</a>
             </div>
             <div class="types__panel" role="tabpanel" id="panel-barrio" aria-labelledby="tab-barrio">
               <h3>Marketing para un gimnasio de barrio</h3>
               <p>Compites por cercanía, horario y precio con cadenas low cost. Ayudan las instalaciones vistas de verdad, la atención del equipo, las clases incluidas en la cuota y las reseñas en Google.</p>
               <ul><li>Visita guiada a sala, vestuarios y aparcamiento</li><li>Clases dirigidas incluidas y horario ampliado</li><li>Reseñas respondidas y ficha de Google al día</li></ul>
+              <a class="wa-link" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20de%20barrio%20y%20quiero%20ideas%20para%20captar%20socios%20con%20redes%20sociales." target="_blank" rel="noopener noreferrer" data-cta="gym-type-barrio">Pide ideas para tu gimnasio por WhatsApp</a>
             </div>
             <div class="types__panel" role="tabpanel" id="panel-club" aria-labelledby="tab-club">
               <h3>Marketing para clubes y centros deportivos</h3>
               <p>Hablas a familias, a socios de varias edades y a quien solo quiere una actividad. Funciona ordenar la oferta por edades y temporadas y anunciar inscripciones con tiempo.</p>
               <ul><li>Actividades por edad y nivel</li><li>Campañas de inscripción por temporada</li><li>Eventos, torneos y jornadas abiertas</li></ul>
+              <a class="wa-link" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20club%20o%20centro%20deportivo%20y%20quiero%20ideas%20para%20captar%20socios%20con%20redes%20sociales." target="_blank" rel="noopener noreferrer" data-cta="gym-type-club">Pide ideas para tu club por WhatsApp</a>
             </div>
           </div>
         </div>
@@ -313,10 +330,10 @@
           <h2>Marketing digital para gimnasios: Instagram, TikTok, Google y web.</h2>
         </div>
         <div class="channels__cards">
-          <article class="reveal"><span>IG</span><div><h3>Instagram</h3><p>Instalaciones, entrenadores, clases, carruseles útiles y llamadas a reservar una prueba.</p></div></article>
-          <article class="reveal"><span>TT</span><div><h3>TikTok</h3><p>Vídeos ágiles de técnica, retos, ambiente y formatos que acercan el centro a nuevas audiencias.</p></div></article>
-          <article class="reveal"><span>G</span><div><h3>Google</h3><p>Horarios, novedades, reseñas y publicaciones que refuerzan la confianza en búsquedas locales.</p></div></article>
-          <article class="reveal"><span>WEB</span><div><h3>Página web</h3><p>Una referencia estable para explicar servicios, resolver dudas y conducir la consulta a WhatsApp.</p></div></article>
+          <article class="reveal tilt"><span>IG</span><div><h3>Instagram</h3><p>Instalaciones, entrenadores, clases, carruseles útiles y llamadas a reservar una prueba.</p></div></article>
+          <article class="reveal tilt"><span>TT</span><div><h3>TikTok</h3><p>Vídeos ágiles de técnica, retos, ambiente y formatos que acercan el centro a nuevas audiencias.</p></div></article>
+          <article class="reveal tilt"><span>G</span><div><h3>Google</h3><p>Horarios, novedades, reseñas y publicaciones que refuerzan la confianza en búsquedas locales.</p></div></article>
+          <article class="reveal tilt"><span>WEB</span><div><h3>Página web</h3><p>Una referencia estable para explicar servicios, resolver dudas y conducir la consulta a WhatsApp.</p></div></article>
         </div>
       </section>
 
@@ -328,16 +345,16 @@
             <p>Son tres cosas distintas y conviene no mezclarlas. Así queda cada opción frente a lo que incluye Growth.</p>
           </div>
           <div class="compare">
-            <article class="reveal">
+            <article class="reveal tilt">
               <h3>Community manager</h3>
               <p>Suele encargarse de publicar y responder en las redes. La web, la ficha de Google y la atención fuera de horario quedan aparte.</p>
             </article>
-            <article class="compare__ours reveal">
+            <article class="compare__ours reveal tilt">
               <p class="compare__badge">Growth · 297 €/mes</p>
               <h3>Agencia de redes para gimnasios</h3>
               <p>Contenido diario, comentarios, mensajes, reseñas y Google Business Profile, más web, bot de IA, dominio y hosting en una sola cuota.</p>
             </article>
-            <article class="reveal">
+            <article class="reveal tilt">
               <h3>Publicidad para gimnasios</h3>
               <p>Los anuncios aceleran una campaña concreta, como una apertura o una matrícula de septiembre. La inversión publicitaria no está incluida en ningún plan.</p>
             </article>
@@ -353,7 +370,19 @@
             <h2>Cómo promocionar un gimnasio hasta la clase de prueba.</h2>
             <p>El marketing para gimnasios debe facilitar el siguiente paso. Por eso conectamos cada contenido con una información útil, una prueba de confianza y una vía de contacto clara.</p>
           </div>
-          <div class="conversion-flow" role="list" aria-label="Recorrido de captación para un gimnasio">
+          <aside class="first-visit first-visit--inline reveal" aria-labelledby="first-visit-title">
+            <div>
+              <p class="kicker">De redes a recepción</p>
+              <p class="first-visit__title" id="first-visit-title">Antes de la primera clase.</p>
+              <a href="/recursos/calendario-redes-sociales-gimnasios/#consulta-clase-prueba">Ver un ejemplo de consulta de prueba</a>
+            </div>
+            <ol>
+              <li><b>El contenido muestra</b><span>La actividad, el entrenador y el ambiente del centro.</span></li>
+              <li><b>La web y el bot orientan</b><span>Explican lo que el gimnasio ha confirmado y recogen la consulta.</span></li>
+              <li><b>Recepción confirma</b><span>Valida horario, plaza y condiciones antes de dar una reserva por hecha.</span></li>
+            </ol>
+          </aside>
+          <div class="conversion-flow stack" role="list" aria-label="Recorrido de captación para un gimnasio">
             <article class="reveal" role="listitem"><span>01</span><h3>Atraer</h3><p>Rutinas, clases y ambiente detienen el scroll de personas interesadas en entrenar.</p></article>
             <article class="reveal" role="listitem"><span>02</span><h3>Resolver</h3><p>Horarios, nivel, instalaciones y preguntas frecuentes reducen dudas antes del contacto. <a href="/recursos/calendario-redes-sociales-gimnasios/#consulta-clase-prueba">Consulta un ejemplo de respuesta y traspaso a recepción</a>.</p></article>
             <article class="reveal" role="listitem"><span>03</span><h3>Activar</h3><p>Una llamada concreta dirige a WhatsApp, la web o una solicitud de clase de prueba.</p></article>
@@ -408,7 +437,7 @@
               <li>Informe mensual de actividad y visibilidad local.</li>
               <li>Todo lo incluido en Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.</li>
             </ul>
-            <a class="button" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Growth%20de%20297%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-growth">Consultar Growth</a>
+            <a class="button button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Growth%20de%20297%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-growth">Consultar Growth</a>
           </article>
 
           <article class="plan">
@@ -425,7 +454,7 @@
               <li>Dominio .com incluido.</li>
               <li>Hosting incluido, sin gastos ocultos.</li>
             </ul>
-            <a class="button button--outline" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Starter%20de%2099%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-starter">Consultar Starter</a>
+            <a class="button button--outline button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Starter%20de%2099%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-starter">Consultar Starter</a>
           </article>
 
           <article class="plan">
@@ -444,7 +473,7 @@
               <li>Informe mensual de posicionamiento y visibilidad.</li>
               <li>Todo lo incluido en Growth y Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.</li>
             </ul>
-            <a class="button button--outline" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Scale%20de%20497%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-scale">Consultar Scale</a>
+            <a class="button button--outline button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20el%20plan%20Scale%20de%20497%20EUR%2Fmes." target="_blank" rel="noopener noreferrer" data-cta="gym-plan-scale">Consultar Scale</a>
           </article>
         </div>
         <p class="price-note">Precios en euros (EUR) · Servicio mensual · Sin permanencia · La inversión en anuncios no está incluida. Las condiciones e impuestos aplicables se comunicarán antes de contratar.</p>
@@ -498,12 +527,12 @@
             <p>Si tu centro combina actividades, estas páginas explican cómo trabajamos con negocios cercanos al tuyo. Todas forman parte de nuestro servicio de <a href="/gestion-redes-sociales/">gestión de redes sociales para empresas</a>.</p>
           </div>
           <div class="related">
-            <a href="/gestion-redes-sociales-clubes-padel/"><span>Pádel</span><b>Redes sociales para clubes de pádel</b></a>
-            <a href="/gestion-redes-sociales-artes-marciales/"><span>Contacto</span><b>Redes sociales para escuelas de artes marciales</b></a>
-            <a href="/gestion-redes-sociales-escuelas-danza/"><span>Baile</span><b>Redes sociales para escuelas de danza</b></a>
-            <a href="/gestion-redes-sociales-fisioterapia/"><span>Recuperación</span><b>Redes sociales para fisioterapeutas</b></a>
-            <a href="/gestion-redes-sociales-nutricionistas/"><span>Alimentación</span><b>Redes sociales para nutricionistas</b></a>
-            <a href="/gestion-redes-sociales-tiendas-deporte/"><span>Material</span><b>Redes sociales para tiendas de deporte</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-clubes-padel/"><span>Pádel</span><b>Redes sociales para clubes de pádel</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-artes-marciales/"><span>Contacto</span><b>Redes sociales para escuelas de artes marciales</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-escuelas-danza/"><span>Baile</span><b>Redes sociales para escuelas de danza</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-fisioterapia/"><span>Recuperación</span><b>Redes sociales para fisioterapeutas</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-nutricionistas/"><span>Alimentación</span><b>Redes sociales para nutricionistas</b></a>
+            <a class="tilt" href="/gestion-redes-sociales-tiendas-deporte/"><span>Material</span><b>Redes sociales para tiendas de deporte</b></a>
           </div>
           <p class="board__note"><a href="/sectores/">Ver todos los sectores</a> · <a href="/">Volver a Dania360</a></p>
         </div>
@@ -514,7 +543,7 @@
           <p class="kicker">Primer paso sin compromiso</p>
           <h2>Revisamos las redes, la web y Google de tu gimnasio.</h2>
           <p>Cuéntanos qué tipo de centro gestionas, qué clases impartes y qué quieres mejorar. Te explicaremos qué conviene ajustar con una auditoría gratuita.</p>
-          <a class="button" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20presencia%20digital." target="_blank" rel="noopener noreferrer" data-cta="gym-final-whatsapp">Pide tu auditoría gratis</a>
+          <a class="button button--wa" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20presencia%20digital." target="_blank" rel="noopener noreferrer" data-cta="gym-final-whatsapp">Pide tu auditoría gratis</a>
         </div>
       </section>
     </main>
@@ -553,8 +582,11 @@
       <p class="footer__bottom">© 2026 Dania360 · Franquicia oficial de <a href="https://dania.ai?via=360web-dania" target="_blank" rel="noopener noreferrer">Dania.ai</a></p>
     </footer>
 
-    <a class="mobile-cta" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20pedir%20una%20auditor%C3%ADa%20gratuita%20de%20mi%20presencia%20digital." target="_blank" rel="noopener noreferrer" data-cta="gym-mobile-whatsapp">Pide tu auditoría gratis</a>
-    <script src="/gestion-redes-sociales-gimnasios/assets/js/gimnasios.js?v=20261113-piloto" defer></script>
+    <a class="wa-float" href="https://wa.me/34631105772?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20informaci%C3%B3n%20sobre%20la%20gesti%C3%B3n%20de%20redes%20sociales." target="_blank" rel="noopener noreferrer" data-cta="gym-float-whatsapp" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.4-.5-2.6-1.6-1-.8-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+      <span class="wa-float__label">¿Hablamos por WhatsApp?</span>
+    </a>
+    <script src="/gestion-redes-sociales-gimnasios/assets/js/gimnasios.js?v=20261113-piloto2" defer></script>
     <script src="/analytics.js?v=20261103-snippet" defer></script>
   </body>
 </html>
