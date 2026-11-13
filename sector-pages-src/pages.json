@@ -4,10 +4,10 @@
     "slug": "fontaneros",
     "name": "Fontaneros",
     "title": "Gestión de redes sociales para fontaneros | Dania360",
-    "description": "Redes sociales para fontaneros: trabajos, zona de servicio, mensajes y Google. Growth por 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "description": "Marketing para fontaneros centrado en redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos ni avisos prometidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para fontaneros",
     "eyebrow": "Tu oficio, bien explicado",
-    "lead": "Mostramos los servicios de tu empresa de fontanería y atendemos sus redes para que quien revise tu negocio entienda qué haces, dónde trabajas y cómo pedirte presupuesto. Tú confirmas cada trabajo y su disponibilidad.",
+    "lead": "Gestionamos tus redes y presentamos tus servicios de fontanería. Separamos los avisos de las solicitudes de presupuesto y dirigimos cada consulta al canal que indiques.",
     "promise": "La confianza empieza antes de que suene el teléfono.",
     "layout": "fontaneros",
     "artAlt": "Esquema de comunicación de fontanería: servicio, zona y contacto conectados alrededor de una tubería",
@@ -59,7 +59,9 @@
       "queries": [
         "gestión de redes sociales para fontaneros",
         "community manager fontaneros",
-        "marketing para empresas de fontanería"
+        "marketing para empresas de fontanería",
+        "marketing para fontaneros",
+        "agencia redes sociales fontaneros"
       ],
       "intent": "El comprador es el profesional que quiere delegar su comunicación; no el particular que busca una reparación.",
       "distinctFrom": "Climatización se centra en equipos y estacionalidad; reformas en proyectos de espacios; esta página se centra en servicios de fontanería y en la entrada de consultas.",
@@ -73,19 +75,25 @@
           "observation": "La competencia diferencia avisos urgentes de trabajos planificados. La respuesta propia añade un guion y una ficha sin promesas de captación."
         }
       ],
-      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados."
+      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver guion de fontanería"
   },
   {
     "id": 12,
     "slug": "construccion",
     "name": "Empresas de construcción",
     "title": "Redes sociales para empresas de construcción | Dania360",
-    "description": "Gestión de redes sociales para constructoras: obras, fases y consultas profesionales. Growth 297 €/mes con web y bot de IA. Auditoría gratuita.",
+    "description": "Redes sociales y marketing para constructoras: obras explicadas por fases, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
     "h1": "Gestión de redes sociales para empresas de construcción",
     "eyebrow": "Una obra merece algo más que una foto",
-    "lead": "Organizamos la comunicación de tu constructora alrededor de los proyectos que puedes mostrar y del trabajo que realmente ejecutas. Redes, web y mensajes conectados para presentar tu empresa antes de la primera reunión.",
+    "lead": "Gestionamos las redes de tu constructora y presentamos qué parte ejecutaste en cada obra. La web y la atención de mensajes ayudan a preparar la primera conversación.",
     "promise": "Que cada obra explique por qué contar con tu empresa.",
     "layout": "construccion",
     "artAlt": "Ilustración de un edificio y su comunicación en tres fases: contexto, desarrollo y entrega",
@@ -137,7 +145,8 @@
       "queries": [
         "gestión de redes sociales para empresas de construcción",
         "redes sociales constructoras",
-        "marketing para constructoras"
+        "marketing para constructoras",
+        "agencia de marketing para empresas de construcción"
       ],
       "intent": "Contratar comunicación de una empresa ejecutora, con evaluación de proyectos y capacidad, no vender inmuebles ni contratar una reforma doméstica.",
       "distinctFrom": "Inmobiliarias comercializa activos; reformas documenta espacios habitados; construcción explica alcance de ejecución y fases de proyecto.",
@@ -147,25 +156,68 @@
           "observation": "El competidor da prioridad a cartera, interlocutores profesionales y evaluación previa. No se adoptan sus cifras, credenciales, SLA o promesas de licitación."
         }
       ],
-      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado."
+      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de obra"
   },
   {
     "id": 13,
     "slug": "reformas",
     "name": "Empresas de reformas",
-    "title": "Gestión de redes sociales para reformas | Dania360",
-    "description": "Redes sociales para empresas de reformas: transforma tus obras en contenido claro y consultas útiles. Growth 297 €/mes con web y bot de IA incluidos.",
+    "title": "Gestión de redes sociales para empresas de reformas | Dania360",
+    "description": "Marketing para empresas de reformas basado en redes, web y bot de IA por 297 €/mes. Obras explicadas y solicitudes de presupuesto ordenadas. Auditoría gratis.",
     "h1": "Gestión de redes sociales para empresas de reformas",
     "eyebrow": "Que el cliente entienda el cambio",
-    "lead": "Preparamos contenido para mostrar las decisiones, el proceso y los acabados de tus reformas. Atendemos tus redes y conectamos el interés con tu empresa para que puedas estudiar cada solicitud de presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de reformas y mostramos cómo se decide cada cambio. Recogemos las solicitudes de presupuesto para que tu equipo pueda valorar la obra.",
     "promise": "Tu trabajo se ve mejor cuando se entiende.",
     "layout": "reformas",
     "artAlt": "Tablero ilustrado de una reforma de cocina con distribución, materiales y uso del espacio",
     "artCaption": "Ilustración editorial propia. El croquis explica cómo contar una reforma; no es un proyecto ejecutado.",
-    "resourceTitle": "Ficha para documentar una reforma antes de publicar",
+    "resourceTitle": "Carrusel editable para redes de una empresa de reformas",
+    "resourcePresentation": {
+      "description": "Descarga los cuatro textos, su descripción y una ficha para adaptar la publicación a tu empresa. El archivo se edita en tu equipo y no recoge ni envía datos.",
+      "linkLabel": "Descargar carrusel y ficha editable · TXT",
+      "documentSubtitle": "Dania360 · Muestra editorial y ficha de preparación"
+    },
     "resource": [
+      "MUESTRA EDITORIAL",
+      "Propuesta creada por Dania360. No representa una obra ni un cliente real. Adaptar los textos al servicio y al material autorizado de la empresa antes de publicar.",
+      "",
+      "LÁMINA 1 / LA NECESIDAD",
+      "Más sitio para preparar, menos cosas por medio",
+      "Antes de elegir acabados, piensa qué te estorba al cocinar y qué necesitas tener a mano.",
+      "Imagen sugerida: un croquis de la zona de trabajo.",
+      "",
+      "LÁMINA 2 / LO QUE SE CONSERVA",
+      "Lo que funciona se queda",
+      "Un mueble, un electrodoméstico o parte de la distribución. Decidir qué quieres conservar también forma parte de la reforma.",
+      "Imagen sugerida: un detalle autorizado del elemento que se mantendrá.",
+      "",
+      "LÁMINA 3 / EL ESTUDIO",
+      "La propuesta empieza por las medidas",
+      "El espacio disponible y las instalaciones condicionan los cambios. Primero se estudia la cocina; después se concreta el alcance de la obra.",
+      "Imagen sugerida: una medición o un esquema revisado por la empresa.",
+      "",
+      "LÁMINA 4 / EL CONTACTO",
+      "Cuéntanos qué quieres cambiar",
+      "Escríbenos con tu municipio, lo que te gustaría mejorar y lo que quieres conservar. Revisaremos tu consulta para acordar el siguiente paso contigo.",
+      "Imagen sugerida: identidad y canal de contacto de la empresa.",
+      "",
+      "TEXTO QUE ACOMPAÑA AL CARRUSEL",
+      "Reformar una cocina empieza por decidir qué necesitas mejorar y qué merece la pena conservar. Puede faltarte sitio para preparar, almacenamiento o una distribución más cómoda.",
+      "Cuéntanos tu municipio, qué te gustaría cambiar y qué quieres mantener. Estudiaremos la solicitud para acordar el siguiente paso. La visita y el presupuesto se confirman después de revisar el alcance.",
+      "",
+      "ADAPTACIÓN A TU EMPRESA",
+      "Nombre y canal de contacto:",
+      "Zona real de trabajo:",
+      "Servicios que presta la empresa y que puede comunicar:",
+      "",
       "EL CAMBIO",
       "Espacio y necesidad inicial:",
       "Qué quería conservar la propiedad:",
@@ -183,7 +235,13 @@
       "Alcance previsto y estado de la vivienda:",
       "Canal para estudiar el encargo:",
       "Confirmación de visita y presupuesto por la empresa:",
+      "Resumen para el equipo: estancia, municipio, cambio solicitado y datos pendientes.",
+      "Si la persona ya facilitó un dato, pásalo al equipo para que no tenga que volver a pedirlo.",
       "",
+      "REVISIÓN ANTES DE PUBLICAR",
+      "Responsable que revisa el texto y los datos del trabajo:",
+      "Material autorizado y datos de la vivienda que hay que ocultar:",
+      "Persona y canal que recibirán las consultas:",
       "No usar el ejemplo como referencia de cliente ni publicar plazos o importes sin validar."
     ],
     "faq": [
@@ -209,7 +267,9 @@
       "queries": [
         "gestión de redes sociales para empresas de reformas",
         "community manager empresas reformas",
-        "redes sociales reformas"
+        "redes sociales reformas",
+        "marketing para empresas de reformas",
+        "community manager para empresas de reformas"
       ],
       "intent": "Empresa que quiere delegar comunicación visual y atención de consultas de reforma doméstica.",
       "distinctFrom": "Construcción explica ejecución y cartera B2B; reformas aborda espacios, decisiones del propietario y preparación de una visita.",
@@ -223,19 +283,25 @@
           "observation": "El resultado de búsqueda propone contenido más allá de la fotografía final. La apertura completa agotó el tiempo; no se usa como prueba de detalle."
         }
       ],
-      "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado."
+      "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver carrusel de cocina"
   },
   {
     "id": 14,
     "slug": "electricistas",
     "name": "Electricistas",
     "title": "Gestión de redes sociales para electricistas | Dania360",
-    "description": "Gestión de redes sociales para electricistas: explica tus servicios y orienta las consultas. Growth 297 €/mes, con web y bot de IA. Auditoría gratis.",
+    "description": "Marketing para electricistas con alcance cerrado: redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para electricistas",
     "eyebrow": "La especialidad tiene que verse",
-    "lead": "Damos continuidad a las redes de tu empresa instaladora con contenido sobre los servicios que realmente prestas. Publicaciones, mensajes y Google conectados con una web que ayuda a entender cuándo y cómo contactar contigo.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos tus especialidades. Las solicitudes se orientan según el trabajo y la zona que atiendes.",
     "promise": "Que se entienda qué instalas y para quién trabajas.",
     "layout": "electricistas",
     "artAlt": "Tres recorridos gráficos de instalaciones, mantenimiento y recarga hacia una consulta profesional",
@@ -285,7 +351,8 @@
       "queries": [
         "gestión de redes sociales para electricistas",
         "community manager electricistas",
-        "marketing digital electricistas"
+        "marketing digital electricistas",
+        "marketing para electricistas"
       ],
       "intent": "Instalador que busca delegar comunicación y explicar su oferta, distinto de la búsqueda doméstica de una reparación.",
       "distinctFrom": "La página de fontaneros explica avisos y agua; solar tratará evaluación de autoconsumo; esta se centra en especialidades eléctricas y revisión del contenido técnico.",
@@ -299,19 +366,25 @@
           "observation": "Agencia orientada a oficios: plantea falta de tiempo y coherencia de la presencia digital. Mercado bilingüe estadounidense, no referencia de demanda española."
         }
       ],
-      "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados."
+      "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de cargador"
   },
   {
     "id": 15,
     "slug": "climatizacion",
     "name": "Empresas de climatización",
     "title": "Redes sociales para empresas de climatización | Dania360",
-    "description": "Redes sociales para aire acondicionado y calefacción: contenido de temporada, mensajes y Google. Growth 297 €/mes con web y bot de IA incluidos.",
+    "description": "Marketing para empresas de climatización y aire acondicionado: redes por temporada, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para empresas de climatización",
     "eyebrow": "El contenido también se planifica por temporada",
-    "lead": "Preparamos las redes de tu empresa de aire acondicionado y calefacción para explicar sus servicios durante todo el año. Unimos publicaciones, atención de mensajes, Google y una web con bot de IA dentro de Growth.",
+    "lead": "Gestionamos las redes de tu empresa de climatización y preparamos contenido para instalación, mantenimiento y renovación de equipos según la temporada.",
     "promise": "Estar presente antes, durante y después de la temporada.",
     "layout": "climatizacion",
     "artAlt": "Rueda editorial de climatización con preparar, atender, anticipar y mantener durante el año",
@@ -367,7 +440,8 @@
       "queries": [
         "gestión de redes sociales climatización",
         "redes sociales aire acondicionado",
-        "marketing empresas calefacción"
+        "marketing empresas calefacción",
+        "marketing para empresas de aire acondicionado"
       ],
       "intent": "Empresa instaladora o mantenedora que busca comunicar servicios y atender consultas, no comprador que necesita elegir un aparato.",
       "distinctFrom": "Electricistas se centra en especialidades eléctricas y fontaneros en agua y avisos. Esta página organiza contenidos por temporada, tipo de equipo y motivo de consulta.",
@@ -381,19 +455,25 @@
           "observation": "Agrupa solar y climatización; se separan aquí sus necesidades. No se adoptan servicios de anuncios ni automatizaciones no confirmadas."
         }
       ],
-      "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado."
+      "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de campaña"
   },
   {
     "id": 16,
     "slug": "placas-solares",
     "name": "Instaladores de placas solares",
-    "title": "Redes sociales para instaladores solares | Dania360",
-    "description": "Gestión de redes sociales para empresas de placas solares: proyectos y consultas con criterio. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "title": "Gestión de redes sociales para placas solares | Dania360",
+    "description": "Marketing para instaladores de placas solares: redes, web y bot de IA por 297 €/mes, sin cifras de ahorro sin validar ni anuncios incluidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para instaladores de placas solares",
     "eyebrow": "La propuesta solar, explicada con criterio",
-    "lead": "Convertimos tu oferta de autoconsumo en contenido comprensible para quien está valorando una instalación. Mostramos el proceso, atendemos las redes y dirigimos las consultas a tu equipo para estudiar cada proyecto.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos cómo empieza un estudio de autoconsumo. Las consultas llegan a tu equipo para valorar cada proyecto.",
     "promise": "Explica cómo trabajas antes de pedir que confíen en una cifra.",
     "layout": "solar",
     "artAlt": "Cubierta solar ilustrada con el recorrido entre necesidad, estudio y proyecto",
@@ -446,7 +526,8 @@
       "queries": [
         "gestión de redes sociales empresas placas solares",
         "redes sociales instaladores solares",
-        "marketing empresas energía solar"
+        "marketing empresas energía solar",
+        "marketing para empresas de placas solares"
       ],
       "intent": "Empresa solar que busca comunicación y tratamiento de consultas, no particular que busca un precio de instalación.",
       "distinctFrom": "Se centra en prueba de las afirmaciones, explicación de la valoración y públicos de autoconsumo; no duplica la página general de electricistas ni el calendario de climatización.",
@@ -456,19 +537,25 @@
           "observation": "Se observa una oferta que mezcla solar, climatización y anuncios. La propuesta propia separa el proceso de estudio solar y añade una ficha de revisión de afirmaciones."
         }
       ],
-      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados."
+      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver guion de autoconsumo"
   },
   {
     "id": 17,
     "slug": "carpinterias-madera",
     "name": "Carpinterías de madera",
     "title": "Redes sociales para carpinterías de madera | Dania360",
-    "description": "Gestión de redes para carpinterías: explica tus muebles, materiales y trabajos a medida. Growth 297 €/mes con web y bot de IA. Pide una auditoría gratis.",
+    "description": "Marketing para carpinterías de madera: redes con tus encargos a medida, perfil de Google, web y bot de IA por 297 €/mes. Pide una auditoría gratis.",
     "h1": "Gestión de redes sociales para carpinterías de madera",
     "eyebrow": "El oficio se aprecia en los detalles",
-    "lead": "Preparamos contenido que explica el uso, los materiales y las decisiones de tus trabajos a medida. Mantenemos activas las redes de tu carpintería y orientamos las consultas hacia el taller para estudiar cada encargo.",
+    "lead": "Gestionamos las redes de tu carpintería y enseñamos cómo resuelves encargos a medida. Los mensajes llegan al taller con contexto para valorar el trabajo.",
     "promise": "De una imagen bonita a una pieza que el cliente entiende.",
     "layout": "madera",
     "artAlt": "Armario conceptual adaptado a una cubierta inclinada, con módulos interiores y detalles de acabado",
@@ -523,7 +610,9 @@
       "queries": [
         "gestión de redes sociales carpinterías madera",
         "community manager carpinteros",
-        "marketing carpinterías muebles a medida"
+        "marketing carpinterías muebles a medida",
+        "gestión de redes sociales para carpinterías",
+        "marketing para carpinterías"
       ],
       "intent": "Taller que quiere delegar la presentación visual y comunicación de sus encargos.",
       "distinctFrom": "No se centra en ventanas ni prestaciones de cerramientos metálicos. Se trabaja uso, material, detalle y estudio de muebles o carpintería de madera.",
@@ -533,19 +622,25 @@
           "observation": "Agencia especializada en madera con públicos industriales y profesionales. La respuesta propia para talleres desarrolla una ficha de pieza y la preparación de material de muebles a medida."
         }
       ],
-      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda."
+      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de armario"
   },
   {
     "id": 18,
     "slug": "carpinterias-metalicas",
     "name": "Carpinterías metálicas y de aluminio",
     "title": "Redes sociales para carpinterías metálicas | Dania360",
-    "description": "Gestión de redes para carpinterías de aluminio y metal: ventanas, cerramientos y consultas. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "description": "Marketing para carpinterías de aluminio y metálicas: ventanas y cerramientos en redes, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
     "h1": "Gestión de redes sociales para carpinterías metálicas y de aluminio",
     "eyebrow": "Ventanas y cerramientos con contexto",
-    "lead": "Organizamos el contenido de tu carpintería metálica para explicar qué fabricas, qué instalas y qué proyecto puede estudiar tu empresa. Publicaciones y mensajes conectados con una web profesional y tu presencia en Google.",
+    "lead": "Gestionamos las redes de tu taller y explicamos qué fabricas, qué instalas y qué necesita saber el cliente para consultar por ventanas o cerramientos.",
     "promise": "Que el cliente vea una solución para su espacio.",
     "layout": "metal",
     "artAlt": "Cerramiento ilustrado con referencias al uso del espacio, apertura y acabado",
@@ -598,7 +693,9 @@
       "queries": [
         "gestión redes sociales carpintería metálica aluminio",
         "marketing empresas cerramientos",
-        "redes sociales instaladores ventanas"
+        "redes sociales instaladores ventanas",
+        "gestión de redes sociales para carpinterías de aluminio",
+        "marketing para carpintería metálica"
       ],
       "intent": "Fabricante o instalador que busca presentar su oferta y convertir el interés en una consulta de proyecto.",
       "distinctFrom": "La madera se centra en muebles a medida y oficio de taller. Metal y aluminio abordan sistemas, aperturas y documentación de prestaciones de cerramientos.",
@@ -608,19 +705,25 @@
           "observation": "Oferta específica de cristalería y aluminio con cualificación de consultas. No se adoptan promesas económicas, automatizaciones de WhatsApp ni grabación presencial de ese competidor."
         }
       ],
-      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas."
+      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de cerramiento"
   },
   {
     "id": 19,
     "slug": "cerrajeros",
     "name": "Cerrajeros",
     "title": "Gestión de redes sociales para cerrajeros | Dania360",
-    "description": "Redes sociales para cerrajerías: identidad, servicios, mensajes y Google coherentes. Growth 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "description": "Marketing para cerrajeros sin anunciar guardias que no haces: redes, perfil de Google, web y bot de IA por 297 €/mes. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para cerrajeros",
     "eyebrow": "Una empresa que el cliente puede reconocer",
-    "lead": "Presentamos tu cerrajería con servicios claros, datos de contacto coherentes y contenido que explica cómo solicitar una valoración. Atendemos las redes y orientamos cada consulta hacia el canal profesional que hayas definido.",
+    "lead": "Gestionamos las redes de tu cerrajería y ordenamos la información de contacto. La web distingue avisos y valoraciones programadas según tu disponibilidad real.",
     "promise": "Identidad, zona y disponibilidad: lo esencial debe estar claro.",
     "layout": "cerrajeros",
     "artAlt": "Tarjeta conceptual de cerrajería con un candado simbólico y campos de identidad, zona y horario",
@@ -675,7 +778,8 @@
       "queries": [
         "gestión de redes sociales para cerrajeros",
         "marketing digital cerrajerías",
-        "redes sociales cerrajería"
+        "redes sociales cerrajería",
+        "marketing para cerrajeros"
       ],
       "intent": "Empresa que busca comunicar servicios e identidad. La búsqueda urgente de un particular requiere otros canales y no debe confundirse con contratar gestión de redes.",
       "distinctFrom": "Página centrada en identidad, disponibilidad y encaje comercial entre urgencias y servicios previstos; no reproduce la cartera de obras de construcción ni la presentación de productos de metal.",
@@ -685,19 +789,25 @@
           "observation": "La competencia señala la prioridad del contacto local en urgencias y el papel complementario de redes. La propuesta propia ofrece una ficha de identidad y un encaje honesto de Growth."
         }
       ],
-      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado."
+      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de ficha"
   },
   {
     "id": 20,
     "slug": "pintores",
     "name": "Pintores y empresas de pintura",
     "title": "Gestión de redes sociales para pintores | Dania360",
-    "description": "Redes sociales para empresas de pintura: preparación, acabados y consultas de presupuesto. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "description": "Redes sociales y marketing para empresas de pintura de viviendas, locales y comunidades: obras, acabados, web y bot de IA por 297 €/mes. Auditoría gratis.",
     "h1": "Gestión de redes sociales para pintores y empresas de pintura",
     "eyebrow": "El trabajo detrás del color",
-    "lead": "Preparamos contenido para mostrar tus acabados y explicar el servicio que hay detrás. Atendemos las redes de tu empresa de pintura y orientamos las consultas para que puedas estudiar cada espacio y presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de pintura y mostramos la preparación y el acabado de tus trabajos. Las consultas llegan con información para valorar el espacio.",
     "promise": "Que cada acabado cuente algo más que un cambio de tono.",
     "layout": "pintores",
     "artAlt": "Ilustración original de rodillo, pared y muestras de color para explicar el trabajo de pintura",
@@ -751,7 +861,8 @@
       "queries": [
         "gestión de redes sociales para pintores",
         "marketing redes sociales empresas pintura",
-        "community manager empresas pintura"
+        "community manager empresas pintura",
+        "marketing para empresas de pintura"
       ],
       "intent": "Profesional de pintura que quiere delegar su comunicación y presentar el valor del trabajo, no propietario que busca una tarifa de pintura.",
       "distinctFrom": "Se centra en preparación, luz, acabados y material comparable. Reformas trata decisiones de espacio y coordinación de una intervención más amplia.",
@@ -765,9 +876,15 @@
           "observation": "La oferta portuguesa observada en búsqueda trabaja pares de imágenes y contexto del oficio. No se extrapola su mercado a volúmenes españoles."
         }
       ],
-      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
+      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de acabado"
   },
   {
     "id": 21,
