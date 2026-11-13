@@ -24,7 +24,7 @@ for (const sector of sectors) {
   const hero = body.match(/<section\b[^>]*class="[^"]*\bhero\b[^"]*"[\s\S]*?<\/section>/)?.[0];
   assert.ok(hero, `${path}: hero visible en HTML del servidor`);
   assert.match(plain(hero), /Growth.*297\s*€\/mes/s, `${path}: precio y plan en la presentación`);
-  assert.match(plain(hero), /web con bot de IA|web y bot de IA/i, `${path}: web y bot incluidos en la presentación`);
+  assert.match(plain(hero), /\bweb\b[^.]{0,30}\bbot de IA/i, `${path}: web y bot incluidos en la presentación`);
   assert.equal([...html.matchAll(/<h1\b/gi)].length, 1, `${path}: un H1`);
   const description = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
   assert.match(description ?? '', /297 €\/mes/);

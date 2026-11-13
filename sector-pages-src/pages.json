@@ -4,10 +4,10 @@
     "slug": "fontaneros",
     "name": "Fontaneros",
     "title": "Gestión de redes sociales para fontaneros | Dania360",
-    "description": "Redes sociales para fontaneros: trabajos, zona de servicio, mensajes y Google. Growth por 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "description": "Marketing para fontaneros centrado en redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos ni avisos prometidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para fontaneros",
     "eyebrow": "Tu oficio, bien explicado",
-    "lead": "Mostramos los servicios de tu empresa de fontanería y atendemos sus redes para que quien revise tu negocio entienda qué haces, dónde trabajas y cómo pedirte presupuesto. Tú confirmas cada trabajo y su disponibilidad.",
+    "lead": "Gestionamos tus redes y presentamos tus servicios de fontanería. Separamos los avisos de las solicitudes de presupuesto y dirigimos cada consulta al canal que indiques.",
     "promise": "La confianza empieza antes de que suene el teléfono.",
     "layout": "fontaneros",
     "artAlt": "Esquema de comunicación de fontanería: servicio, zona y contacto conectados alrededor de una tubería",
@@ -59,7 +59,9 @@
       "queries": [
         "gestión de redes sociales para fontaneros",
         "community manager fontaneros",
-        "marketing para empresas de fontanería"
+        "marketing para empresas de fontanería",
+        "marketing para fontaneros",
+        "agencia redes sociales fontaneros"
       ],
       "intent": "El comprador es el profesional que quiere delegar su comunicación; no el particular que busca una reparación.",
       "distinctFrom": "Climatización se centra en equipos y estacionalidad; reformas en proyectos de espacios; esta página se centra en servicios de fontanería y en la entrada de consultas.",
@@ -73,19 +75,25 @@
           "observation": "La competencia diferencia avisos urgentes de trabajos planificados. La respuesta propia añade un guion y una ficha sin promesas de captación."
         }
       ],
-      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados."
+      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver guion de fontanería"
   },
   {
     "id": 12,
     "slug": "construccion",
     "name": "Empresas de construcción",
     "title": "Redes sociales para empresas de construcción | Dania360",
-    "description": "Gestión de redes sociales para constructoras: obras, fases y consultas profesionales. Growth 297 €/mes con web y bot de IA. Auditoría gratuita.",
+    "description": "Redes sociales y marketing para constructoras: obras explicadas por fases, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
     "h1": "Gestión de redes sociales para empresas de construcción",
     "eyebrow": "Una obra merece algo más que una foto",
-    "lead": "Organizamos la comunicación de tu constructora alrededor de los proyectos que puedes mostrar y del trabajo que realmente ejecutas. Redes, web y mensajes conectados para presentar tu empresa antes de la primera reunión.",
+    "lead": "Gestionamos las redes de tu constructora y presentamos qué parte ejecutaste en cada obra. La web y la atención de mensajes ayudan a preparar la primera conversación.",
     "promise": "Que cada obra explique por qué contar con tu empresa.",
     "layout": "construccion",
     "artAlt": "Ilustración de un edificio y su comunicación en tres fases: contexto, desarrollo y entrega",
@@ -137,7 +145,8 @@
       "queries": [
         "gestión de redes sociales para empresas de construcción",
         "redes sociales constructoras",
-        "marketing para constructoras"
+        "marketing para constructoras",
+        "agencia de marketing para empresas de construcción"
       ],
       "intent": "Contratar comunicación de una empresa ejecutora, con evaluación de proyectos y capacidad, no vender inmuebles ni contratar una reforma doméstica.",
       "distinctFrom": "Inmobiliarias comercializa activos; reformas documenta espacios habitados; construcción explica alcance de ejecución y fases de proyecto.",
@@ -147,25 +156,68 @@
           "observation": "El competidor da prioridad a cartera, interlocutores profesionales y evaluación previa. No se adoptan sus cifras, credenciales, SLA o promesas de licitación."
         }
       ],
-      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado."
+      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de obra"
   },
   {
     "id": 13,
     "slug": "reformas",
     "name": "Empresas de reformas",
-    "title": "Gestión de redes sociales para reformas | Dania360",
-    "description": "Redes sociales para empresas de reformas: transforma tus obras en contenido claro y consultas útiles. Growth 297 €/mes con web y bot de IA incluidos.",
+    "title": "Gestión de redes sociales para empresas de reformas | Dania360",
+    "description": "Marketing para empresas de reformas basado en redes, web y bot de IA por 297 €/mes. Obras explicadas y solicitudes de presupuesto ordenadas. Auditoría gratis.",
     "h1": "Gestión de redes sociales para empresas de reformas",
     "eyebrow": "Que el cliente entienda el cambio",
-    "lead": "Preparamos contenido para mostrar las decisiones, el proceso y los acabados de tus reformas. Atendemos tus redes y conectamos el interés con tu empresa para que puedas estudiar cada solicitud de presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de reformas y mostramos cómo se decide cada cambio. Recogemos las solicitudes de presupuesto para que tu equipo pueda valorar la obra.",
     "promise": "Tu trabajo se ve mejor cuando se entiende.",
     "layout": "reformas",
     "artAlt": "Tablero ilustrado de una reforma de cocina con distribución, materiales y uso del espacio",
     "artCaption": "Ilustración editorial propia. El croquis explica cómo contar una reforma; no es un proyecto ejecutado.",
-    "resourceTitle": "Ficha para documentar una reforma antes de publicar",
+    "resourceTitle": "Carrusel editable para redes de una empresa de reformas",
+    "resourcePresentation": {
+      "description": "Descarga los cuatro textos, su descripción y una ficha para adaptar la publicación a tu empresa. El archivo se edita en tu equipo y no recoge ni envía datos.",
+      "linkLabel": "Descargar carrusel y ficha editable · TXT",
+      "documentSubtitle": "Dania360 · Muestra editorial y ficha de preparación"
+    },
     "resource": [
+      "MUESTRA EDITORIAL",
+      "Propuesta creada por Dania360. No representa una obra ni un cliente real. Adaptar los textos al servicio y al material autorizado de la empresa antes de publicar.",
+      "",
+      "LÁMINA 1 / LA NECESIDAD",
+      "Más sitio para preparar, menos cosas por medio",
+      "Antes de elegir acabados, piensa qué te estorba al cocinar y qué necesitas tener a mano.",
+      "Imagen sugerida: un croquis de la zona de trabajo.",
+      "",
+      "LÁMINA 2 / LO QUE SE CONSERVA",
+      "Lo que funciona se queda",
+      "Un mueble, un electrodoméstico o parte de la distribución. Decidir qué quieres conservar también forma parte de la reforma.",
+      "Imagen sugerida: un detalle autorizado del elemento que se mantendrá.",
+      "",
+      "LÁMINA 3 / EL ESTUDIO",
+      "La propuesta empieza por las medidas",
+      "El espacio disponible y las instalaciones condicionan los cambios. Primero se estudia la cocina; después se concreta el alcance de la obra.",
+      "Imagen sugerida: una medición o un esquema revisado por la empresa.",
+      "",
+      "LÁMINA 4 / EL CONTACTO",
+      "Cuéntanos qué quieres cambiar",
+      "Escríbenos con tu municipio, lo que te gustaría mejorar y lo que quieres conservar. Revisaremos tu consulta para acordar el siguiente paso contigo.",
+      "Imagen sugerida: identidad y canal de contacto de la empresa.",
+      "",
+      "TEXTO QUE ACOMPAÑA AL CARRUSEL",
+      "Reformar una cocina empieza por decidir qué necesitas mejorar y qué merece la pena conservar. Puede faltarte sitio para preparar, almacenamiento o una distribución más cómoda.",
+      "Cuéntanos tu municipio, qué te gustaría cambiar y qué quieres mantener. Estudiaremos la solicitud para acordar el siguiente paso. La visita y el presupuesto se confirman después de revisar el alcance.",
+      "",
+      "ADAPTACIÓN A TU EMPRESA",
+      "Nombre y canal de contacto:",
+      "Zona real de trabajo:",
+      "Servicios que presta la empresa y que puede comunicar:",
+      "",
       "EL CAMBIO",
       "Espacio y necesidad inicial:",
       "Qué quería conservar la propiedad:",
@@ -183,7 +235,13 @@
       "Alcance previsto y estado de la vivienda:",
       "Canal para estudiar el encargo:",
       "Confirmación de visita y presupuesto por la empresa:",
+      "Resumen para el equipo: estancia, municipio, cambio solicitado y datos pendientes.",
+      "Si la persona ya facilitó un dato, pásalo al equipo para que no tenga que volver a pedirlo.",
       "",
+      "REVISIÓN ANTES DE PUBLICAR",
+      "Responsable que revisa el texto y los datos del trabajo:",
+      "Material autorizado y datos de la vivienda que hay que ocultar:",
+      "Persona y canal que recibirán las consultas:",
       "No usar el ejemplo como referencia de cliente ni publicar plazos o importes sin validar."
     ],
     "faq": [
@@ -209,7 +267,9 @@
       "queries": [
         "gestión de redes sociales para empresas de reformas",
         "community manager empresas reformas",
-        "redes sociales reformas"
+        "redes sociales reformas",
+        "marketing para empresas de reformas",
+        "community manager para empresas de reformas"
       ],
       "intent": "Empresa que quiere delegar comunicación visual y atención de consultas de reforma doméstica.",
       "distinctFrom": "Construcción explica ejecución y cartera B2B; reformas aborda espacios, decisiones del propietario y preparación de una visita.",
@@ -223,19 +283,25 @@
           "observation": "El resultado de búsqueda propone contenido más allá de la fotografía final. La apertura completa agotó el tiempo; no se usa como prueba de detalle."
         }
       ],
-      "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado."
+      "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver carrusel de cocina"
   },
   {
     "id": 14,
     "slug": "electricistas",
     "name": "Electricistas",
     "title": "Gestión de redes sociales para electricistas | Dania360",
-    "description": "Gestión de redes sociales para electricistas: explica tus servicios y orienta las consultas. Growth 297 €/mes, con web y bot de IA. Auditoría gratis.",
+    "description": "Marketing para electricistas con alcance cerrado: redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para electricistas",
     "eyebrow": "La especialidad tiene que verse",
-    "lead": "Damos continuidad a las redes de tu empresa instaladora con contenido sobre los servicios que realmente prestas. Publicaciones, mensajes y Google conectados con una web que ayuda a entender cuándo y cómo contactar contigo.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos tus especialidades. Las solicitudes se orientan según el trabajo y la zona que atiendes.",
     "promise": "Que se entienda qué instalas y para quién trabajas.",
     "layout": "electricistas",
     "artAlt": "Tres recorridos gráficos de instalaciones, mantenimiento y recarga hacia una consulta profesional",
@@ -285,7 +351,8 @@
       "queries": [
         "gestión de redes sociales para electricistas",
         "community manager electricistas",
-        "marketing digital electricistas"
+        "marketing digital electricistas",
+        "marketing para electricistas"
       ],
       "intent": "Instalador que busca delegar comunicación y explicar su oferta, distinto de la búsqueda doméstica de una reparación.",
       "distinctFrom": "La página de fontaneros explica avisos y agua; solar tratará evaluación de autoconsumo; esta se centra en especialidades eléctricas y revisión del contenido técnico.",
@@ -299,19 +366,25 @@
           "observation": "Agencia orientada a oficios: plantea falta de tiempo y coherencia de la presencia digital. Mercado bilingüe estadounidense, no referencia de demanda española."
         }
       ],
-      "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados."
+      "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de cargador"
   },
   {
     "id": 15,
     "slug": "climatizacion",
     "name": "Empresas de climatización",
     "title": "Redes sociales para empresas de climatización | Dania360",
-    "description": "Redes sociales para aire acondicionado y calefacción: contenido de temporada, mensajes y Google. Growth 297 €/mes con web y bot de IA incluidos.",
+    "description": "Marketing para empresas de climatización y aire acondicionado: redes por temporada, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para empresas de climatización",
     "eyebrow": "El contenido también se planifica por temporada",
-    "lead": "Preparamos las redes de tu empresa de aire acondicionado y calefacción para explicar sus servicios durante todo el año. Unimos publicaciones, atención de mensajes, Google y una web con bot de IA dentro de Growth.",
+    "lead": "Gestionamos las redes de tu empresa de climatización y preparamos contenido para instalación, mantenimiento y renovación de equipos según la temporada.",
     "promise": "Estar presente antes, durante y después de la temporada.",
     "layout": "climatizacion",
     "artAlt": "Rueda editorial de climatización con preparar, atender, anticipar y mantener durante el año",
@@ -367,7 +440,8 @@
       "queries": [
         "gestión de redes sociales climatización",
         "redes sociales aire acondicionado",
-        "marketing empresas calefacción"
+        "marketing empresas calefacción",
+        "marketing para empresas de aire acondicionado"
       ],
       "intent": "Empresa instaladora o mantenedora que busca comunicar servicios y atender consultas, no comprador que necesita elegir un aparato.",
       "distinctFrom": "Electricistas se centra en especialidades eléctricas y fontaneros en agua y avisos. Esta página organiza contenidos por temporada, tipo de equipo y motivo de consulta.",
@@ -381,19 +455,25 @@
           "observation": "Agrupa solar y climatización; se separan aquí sus necesidades. No se adoptan servicios de anuncios ni automatizaciones no confirmadas."
         }
       ],
-      "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado."
+      "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de campaña"
   },
   {
     "id": 16,
     "slug": "placas-solares",
     "name": "Instaladores de placas solares",
-    "title": "Redes sociales para instaladores solares | Dania360",
-    "description": "Gestión de redes sociales para empresas de placas solares: proyectos y consultas con criterio. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "title": "Gestión de redes sociales para placas solares | Dania360",
+    "description": "Marketing para instaladores de placas solares: redes, web y bot de IA por 297 €/mes, sin cifras de ahorro sin validar ni anuncios incluidos. Auditoría gratis.",
     "h1": "Gestión de redes sociales para instaladores de placas solares",
     "eyebrow": "La propuesta solar, explicada con criterio",
-    "lead": "Convertimos tu oferta de autoconsumo en contenido comprensible para quien está valorando una instalación. Mostramos el proceso, atendemos las redes y dirigimos las consultas a tu equipo para estudiar cada proyecto.",
+    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos cómo empieza un estudio de autoconsumo. Las consultas llegan a tu equipo para valorar cada proyecto.",
     "promise": "Explica cómo trabajas antes de pedir que confíen en una cifra.",
     "layout": "solar",
     "artAlt": "Cubierta solar ilustrada con el recorrido entre necesidad, estudio y proyecto",
@@ -446,7 +526,8 @@
       "queries": [
         "gestión de redes sociales empresas placas solares",
         "redes sociales instaladores solares",
-        "marketing empresas energía solar"
+        "marketing empresas energía solar",
+        "marketing para empresas de placas solares"
       ],
       "intent": "Empresa solar que busca comunicación y tratamiento de consultas, no particular que busca un precio de instalación.",
       "distinctFrom": "Se centra en prueba de las afirmaciones, explicación de la valoración y públicos de autoconsumo; no duplica la página general de electricistas ni el calendario de climatización.",
@@ -456,19 +537,25 @@
           "observation": "Se observa una oferta que mezcla solar, climatización y anuncios. La propuesta propia separa el proceso de estudio solar y añade una ficha de revisión de afirmaciones."
         }
       ],
-      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados."
+      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver guion de autoconsumo"
   },
   {
     "id": 17,
     "slug": "carpinterias-madera",
     "name": "Carpinterías de madera",
     "title": "Redes sociales para carpinterías de madera | Dania360",
-    "description": "Gestión de redes para carpinterías: explica tus muebles, materiales y trabajos a medida. Growth 297 €/mes con web y bot de IA. Pide una auditoría gratis.",
+    "description": "Marketing para carpinterías de madera: redes con tus encargos a medida, perfil de Google, web y bot de IA por 297 €/mes. Pide una auditoría gratis.",
     "h1": "Gestión de redes sociales para carpinterías de madera",
     "eyebrow": "El oficio se aprecia en los detalles",
-    "lead": "Preparamos contenido que explica el uso, los materiales y las decisiones de tus trabajos a medida. Mantenemos activas las redes de tu carpintería y orientamos las consultas hacia el taller para estudiar cada encargo.",
+    "lead": "Gestionamos las redes de tu carpintería y enseñamos cómo resuelves encargos a medida. Los mensajes llegan al taller con contexto para valorar el trabajo.",
     "promise": "De una imagen bonita a una pieza que el cliente entiende.",
     "layout": "madera",
     "artAlt": "Armario conceptual adaptado a una cubierta inclinada, con módulos interiores y detalles de acabado",
@@ -523,7 +610,9 @@
       "queries": [
         "gestión de redes sociales carpinterías madera",
         "community manager carpinteros",
-        "marketing carpinterías muebles a medida"
+        "marketing carpinterías muebles a medida",
+        "gestión de redes sociales para carpinterías",
+        "marketing para carpinterías"
       ],
       "intent": "Taller que quiere delegar la presentación visual y comunicación de sus encargos.",
       "distinctFrom": "No se centra en ventanas ni prestaciones de cerramientos metálicos. Se trabaja uso, material, detalle y estudio de muebles o carpintería de madera.",
@@ -533,19 +622,25 @@
           "observation": "Agencia especializada en madera con públicos industriales y profesionales. La respuesta propia para talleres desarrolla una ficha de pieza y la preparación de material de muebles a medida."
         }
       ],
-      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda."
+      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de armario"
   },
   {
     "id": 18,
     "slug": "carpinterias-metalicas",
     "name": "Carpinterías metálicas y de aluminio",
     "title": "Redes sociales para carpinterías metálicas | Dania360",
-    "description": "Gestión de redes para carpinterías de aluminio y metal: ventanas, cerramientos y consultas. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "description": "Marketing para carpinterías de aluminio y metálicas: ventanas y cerramientos en redes, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
     "h1": "Gestión de redes sociales para carpinterías metálicas y de aluminio",
     "eyebrow": "Ventanas y cerramientos con contexto",
-    "lead": "Organizamos el contenido de tu carpintería metálica para explicar qué fabricas, qué instalas y qué proyecto puede estudiar tu empresa. Publicaciones y mensajes conectados con una web profesional y tu presencia en Google.",
+    "lead": "Gestionamos las redes de tu taller y explicamos qué fabricas, qué instalas y qué necesita saber el cliente para consultar por ventanas o cerramientos.",
     "promise": "Que el cliente vea una solución para su espacio.",
     "layout": "metal",
     "artAlt": "Cerramiento ilustrado con referencias al uso del espacio, apertura y acabado",
@@ -598,7 +693,9 @@
       "queries": [
         "gestión redes sociales carpintería metálica aluminio",
         "marketing empresas cerramientos",
-        "redes sociales instaladores ventanas"
+        "redes sociales instaladores ventanas",
+        "gestión de redes sociales para carpinterías de aluminio",
+        "marketing para carpintería metálica"
       ],
       "intent": "Fabricante o instalador que busca presentar su oferta y convertir el interés en una consulta de proyecto.",
       "distinctFrom": "La madera se centra en muebles a medida y oficio de taller. Metal y aluminio abordan sistemas, aperturas y documentación de prestaciones de cerramientos.",
@@ -608,19 +705,25 @@
           "observation": "Oferta específica de cristalería y aluminio con cualificación de consultas. No se adoptan promesas económicas, automatizaciones de WhatsApp ni grabación presencial de ese competidor."
         }
       ],
-      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas."
+      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de cerramiento"
   },
   {
     "id": 19,
     "slug": "cerrajeros",
     "name": "Cerrajeros",
     "title": "Gestión de redes sociales para cerrajeros | Dania360",
-    "description": "Redes sociales para cerrajerías: identidad, servicios, mensajes y Google coherentes. Growth 297 €/mes con web y bot de IA. Pide tu auditoría gratis.",
+    "description": "Marketing para cerrajeros sin anunciar guardias que no haces: redes, perfil de Google, web y bot de IA por 297 €/mes. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para cerrajeros",
     "eyebrow": "Una empresa que el cliente puede reconocer",
-    "lead": "Presentamos tu cerrajería con servicios claros, datos de contacto coherentes y contenido que explica cómo solicitar una valoración. Atendemos las redes y orientamos cada consulta hacia el canal profesional que hayas definido.",
+    "lead": "Gestionamos las redes de tu cerrajería y ordenamos la información de contacto. La web distingue avisos y valoraciones programadas según tu disponibilidad real.",
     "promise": "Identidad, zona y disponibilidad: lo esencial debe estar claro.",
     "layout": "cerrajeros",
     "artAlt": "Tarjeta conceptual de cerrajería con un candado simbólico y campos de identidad, zona y horario",
@@ -675,7 +778,8 @@
       "queries": [
         "gestión de redes sociales para cerrajeros",
         "marketing digital cerrajerías",
-        "redes sociales cerrajería"
+        "redes sociales cerrajería",
+        "marketing para cerrajeros"
       ],
       "intent": "Empresa que busca comunicar servicios e identidad. La búsqueda urgente de un particular requiere otros canales y no debe confundirse con contratar gestión de redes.",
       "distinctFrom": "Página centrada en identidad, disponibilidad y encaje comercial entre urgencias y servicios previstos; no reproduce la cartera de obras de construcción ni la presentación de productos de metal.",
@@ -685,19 +789,25 @@
           "observation": "La competencia señala la prioridad del contacto local en urgencias y el papel complementario de redes. La propuesta propia ofrece una ficha de identidad y un encaje honesto de Growth."
         }
       ],
-      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado."
+      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de ficha"
   },
   {
     "id": 20,
     "slug": "pintores",
     "name": "Pintores y empresas de pintura",
     "title": "Gestión de redes sociales para pintores | Dania360",
-    "description": "Redes sociales para empresas de pintura: preparación, acabados y consultas de presupuesto. Growth 297 €/mes con web y bot de IA. Auditoría gratis.",
+    "description": "Redes sociales y marketing para empresas de pintura de viviendas, locales y comunidades: obras, acabados, web y bot de IA por 297 €/mes. Auditoría gratis.",
     "h1": "Gestión de redes sociales para pintores y empresas de pintura",
     "eyebrow": "El trabajo detrás del color",
-    "lead": "Preparamos contenido para mostrar tus acabados y explicar el servicio que hay detrás. Atendemos las redes de tu empresa de pintura y orientamos las consultas para que puedas estudiar cada espacio y presupuesto.",
+    "lead": "Gestionamos las redes de tu empresa de pintura y mostramos la preparación y el acabado de tus trabajos. Las consultas llegan con información para valorar el espacio.",
     "promise": "Que cada acabado cuente algo más que un cambio de tono.",
     "layout": "pintores",
     "artAlt": "Ilustración original de rodillo, pared y muestras de color para explicar el trabajo de pintura",
@@ -751,7 +861,8 @@
       "queries": [
         "gestión de redes sociales para pintores",
         "marketing redes sociales empresas pintura",
-        "community manager empresas pintura"
+        "community manager empresas pintura",
+        "marketing para empresas de pintura"
       ],
       "intent": "Profesional de pintura que quiere delegar su comunicación y presentar el valor del trabajo, no propietario que busca una tarifa de pintura.",
       "distinctFrom": "Se centra en preparación, luz, acabados y material comparable. Reformas trata decisiones de espacio y coordinación de una intervención más amplia.",
@@ -765,9 +876,15 @@
           "observation": "La oferta portuguesa observada en búsqueda trabaja pares de imágenes y contexto del oficio. No se extrapola su mercado a volúmenes españoles."
         }
       ],
-      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno."
+      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno.",
+      "commercialIntent": {
+        "date": "2026-11-12",
+        "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
+        "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      }
     },
-    "contentModified": "2026-11-02"
+    "contentModified": "2026-11-12",
+    "heroExampleLabel": "Ver ejemplo de acabado"
   },
   {
     "id": 21,
@@ -778,7 +895,7 @@
     "description": "Redes sociales para estudios de arquitectura: proyectos, criterio y consultas. Growth por 297 €/mes con web y bot de IA incluidos. Pide tu auditoría gratis.",
     "h1": "Gestión de redes sociales para arquitectos",
     "eyebrow": "El criterio de tu estudio, explicado",
-    "lead": "Preparamos contenido que presenta tus servicios y explica las decisiones de tus proyectos. Gestionamos las redes, los comentarios y los mensajes incluidos en Growth, con una web y un bot de IA para que las consultas puedan continuar con tu estudio.",
+    "lead": "Gestionamos las redes de tu estudio de arquitectura y convertimos decisiones de proyecto en contenido. La web y la atención de mensajes orientan cada encargo.",
     "promise": "Que quien vea tu proyecto entienda qué puede encargarte.",
     "layout": "arquitectos",
     "artAlt": "Croquis conceptual de arquitectura con anotaciones de intención, decisión y representación",
@@ -789,7 +906,7 @@
       "linkLabel": "Descargar el ejemplo de las tres láminas",
       "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de arquitectura. No representa un encargo real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -857,7 +974,8 @@
         "¿Growth incluye también la web del estudio y un bot de IA?",
         "Sí. Growth cuesta 297 €/mes e incluye la gestión de redes sociales y todo Starter: página web con chat y modo automático con IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El servicio también contempla atención de comentarios, mensajes y reseñas en los canales incluidos. El estudio conserva la valoración del encargo, la propuesta profesional y la confirmación de reuniones."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver carrusel de arquitectura"
   },
   {
     "id": 22,
@@ -868,7 +986,7 @@
     "description": "Presenta tus servicios de interiorismo con contenido sobre usos, materiales y ambiente. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
     "h1": "Gestión de redes sociales para interioristas",
     "eyebrow": "Diseño de interiores que se entiende",
-    "lead": "Organizamos el contenido de tu estudio para explicar qué servicio ofreces y cómo planteas cada espacio. Growth reúne gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu estudio de interiorismo y mostramos cómo diseñas cada espacio. La web orienta las consultas según el servicio que ofreces.",
     "promise": "Que guardar una imagen sea el comienzo de una conversación sobre tu servicio.",
     "layout": "interioristas",
     "artAlt": "Tablero conceptual de interiorismo con un espacio de trabajo y muestras dibujadas de color y textura",
@@ -879,7 +997,7 @@
       "linkLabel": "Descargar el ejemplo de interiorismo",
       "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de interiorismo. No corresponde a una vivienda o un cliente real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -942,7 +1060,8 @@
         "¿La web y el bot de IA del estudio están incluidos en los 297 €/mes?",
         "Sí. Growth incluye la gestión de redes y todo Starter: una página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot responde con la información configurada y permite orientar el contacto al estudio. Tu equipo prepara la valoración del espacio y la propuesta profesional."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver tablero de interiorismo"
   },
   {
     "id": 23,
@@ -953,7 +1072,7 @@
     "description": "Explica tus servicios de jardinería y el alcance del mantenimiento. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA. Auditoría gratis.",
     "h1": "Gestión de redes sociales para empresas de jardinería",
     "eyebrow": "El mantenimiento bien explicado",
-    "lead": "Presentamos los jardines que atiendes, tu zona de trabajo y los servicios que puede consultar cada cliente. Gestionamos contenido, comentarios y mensajes en Growth, con página web y bot de IA incluidos por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de jardinería y presentamos los jardines que atiendes, tu zona de trabajo y las tareas que puede consultar cada cliente.",
     "promise": "Que una comunidad entienda qué servicio puede contratar.",
     "layout": "jardineria",
     "artAlt": "Esquema conceptual de un jardín compartido con zonas de uso y anotaciones sobre espacio, servicio y consulta",
@@ -964,7 +1083,7 @@
       "linkLabel": "Descargar el ejemplo de jardinería",
       "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de jardinería. El ejemplo no corresponde a una propiedad o un cliente real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1027,7 +1146,8 @@
         "¿Growth incluye la web de jardinería y un bot de IA por 297 €/mes?",
         "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos Instagram, Facebook, TikTok, Pinterest y Google Business Profile según el alcance del plan, además de comentarios, mensajes y reseñas. La valoración del jardín y el presupuesto los prepara tu empresa."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de jardín comunitario"
   },
   {
     "id": 24,
@@ -1038,7 +1158,7 @@
     "description": "Comunica construcción, renovación y mantenimiento de piscinas con mensajes para cada servicio. Growth incluye redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para empresas de piscinas",
     "eyebrow": "Cada servicio, una consulta clara",
-    "lead": "Organizamos el contenido de tu empresa de piscinas para presentar los proyectos nuevos, las renovaciones y el mantenimiento que ofreces. Growth incluye gestión de redes, atención de mensajes y comentarios, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de piscinas y diferenciamos obra nueva, renovación y mantenimiento para que el cliente consulte por el servicio adecuado.",
     "promise": "Que quien contacte sepa qué servicio está consultando.",
     "layout": "piscinas",
     "artAlt": "Ilustración conceptual de una piscina con tres líneas de comunicación: proyecto, renovación y servicio",
@@ -1049,7 +1169,7 @@
       "linkLabel": "Descargar las tres propuestas de piscinas",
       "documentSubtitle": "Ejemplos editoriales originales de Dania360 para una empresa de piscinas. No representan proyectos ni clientes reales."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1117,7 +1237,8 @@
         "¿La web y el bot de IA están incluidos en Growth?",
         "Sí. Growth cuesta 297 €/mes e incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes, reseñas e informe mensual de actividad y visibilidad local. La empresa confirma las visitas, la propuesta profesional y el presupuesto."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplos de piscinas"
   },
   {
     "id": 25,
@@ -1128,7 +1249,7 @@
     "description": "Presenta tus servicios de limpieza y orienta cada solicitud de presupuesto. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
     "h1": "Gestión de redes sociales para empresas de limpieza",
     "eyebrow": "El servicio y su alcance, claros",
-    "lead": "Preparamos contenido que explica qué limpiezas puede contratar cada cliente y cómo pedir información a tu empresa. Growth reúne gestión de redes, atención de comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de limpieza. Explicamos qué servicios puede contratar cada cliente y orientamos sus consultas hacia el equipo adecuado.",
     "promise": "Que una solicitud de presupuesto llegue con una idea del servicio.",
     "layout": "empresas-limpieza",
     "artAlt": "Esquema editorial de una oficina y tres datos de un servicio de limpieza: espacio, frecuencia y alcance",
@@ -1139,7 +1260,7 @@
       "linkLabel": "Descargar el ejemplo de limpieza",
       "documentSubtitle": "Demostración editorial original de Dania360 para una empresa de limpieza. No representa un contrato o un cliente real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1202,7 +1323,8 @@
         "¿Los 297 €/mes de Growth incluyen la web y un bot de IA?",
         "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan gestiona Instagram, Facebook, TikTok, Pinterest y Google Business Profile según su alcance, además de comentarios, mensajes, reseñas e informe mensual. Tu empresa concreta cada servicio y presupuesto."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de una oficina"
   },
   {
     "id": 26,
@@ -1213,7 +1335,7 @@
     "description": "Presenta tu empresa de control de plagas y atiende las primeras consultas con discreción. Growth incluye redes, página web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para empresas de control de plagas",
     "eyebrow": "Una primera atención con criterio",
-    "lead": "Explicamos los servicios y el ámbito de atención de tu empresa, preparamos las publicaciones y orientamos los comentarios y mensajes hacia el canal adecuado. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de control de plagas. Presentamos su zona y servicios y trasladamos los mensajes al canal adecuado para valoración.",
     "promise": "Que el primer contacto pueda continuar con tu equipo profesional.",
     "layout": "control-plagas",
     "artAlt": "Diagrama editorial de una consulta de control de plagas con ficha protegida, valoración y seguimiento",
@@ -1224,7 +1346,7 @@
       "linkLabel": "Descargar el ejemplo de atención",
       "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de control de plagas. No reproduce conversaciones ni casos reales."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1292,7 +1414,8 @@
         "¿Growth incluye web y bot de IA por 297 €/mes?",
         "Sí. Growth incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos los comentarios, mensajes y reseñas de los canales incluidos en el plan. El bot utiliza la información configurada; la empresa conserva la valoración profesional y las condiciones del servicio."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de respuesta"
   },
   {
     "id": 27,
@@ -1303,7 +1426,7 @@
     "description": "Presenta el equipo y los servicios de tu empresa de mudanzas con contenido propio. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
     "h1": "Gestión de redes sociales para empresas de mudanzas",
     "eyebrow": "La preparación también comunica",
-    "lead": "Preparamos contenido sobre tu equipo, tu material y los servicios que ofrece tu empresa de mudanzas. Gestionamos publicaciones, comentarios y mensajes en Growth, con página web y bot de IA incluidos por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de mudanzas. Mostramos la preparación y el equipo, y orientamos las consultas para que puedas valorar cada traslado.",
     "promise": "Que tu forma de trabajar se conozca antes de la primera conversación.",
     "layout": "mudanzas",
     "artAlt": "Ilustración editorial de cajas vacías, material de preparación y una etiqueta sin datos de clientes",
@@ -1314,7 +1437,7 @@
       "linkLabel": "Descargar el guion de 15 segundos",
       "documentSubtitle": "Guion editorial original de Dania360 para una empresa de mudanzas. Es una propuesta, no un vídeo producido ni un servicio realizado."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1379,7 +1502,8 @@
         "¿Growth incluye la web de la empresa y un bot de IA por 297 €/mes?",
         "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla publicaciones con vídeos de 15 segundos, atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver guion de mudanzas"
   },
   {
     "id": 28,
@@ -1390,7 +1514,7 @@
     "description": "Explica el modelo de tu centro de trasteros o guardamuebles y atiende cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
     "h1": "Gestión de redes sociales para trasteros y guardamuebles",
     "eyebrow": "El modelo del centro, bien explicado",
-    "lead": "Presentamos cómo funciona tu servicio de almacenamiento y orientamos las consultas hacia el centro. Growth incluye contenido, gestión de comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu centro de trasteros o guardamuebles y explicamos cómo se guarda, consulta y recupera lo almacenado según el servicio que ofreces.",
     "promise": "Que quien pregunte por un espacio entienda cómo funciona tu servicio.",
     "layout": "trasteros-guardamuebles",
     "artAlt": "Comparación conceptual de acceso a una unidad y custodia de mobiliario, sin datos de un centro real",
@@ -1401,7 +1525,7 @@
       "linkLabel": "Descargar los dos ejemplos de almacenamiento",
       "documentSubtitle": "Demostración editorial original de Dania360 para un operador de trasteros o guardamuebles. No describe un centro o un cliente real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1469,7 +1593,8 @@
         "¿La web y el bot de IA están incluidos en los 297 €/mes?",
         "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. También contempla atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local. El centro conserva la confirmación de sus servicios y condiciones."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplos de almacenamiento"
   },
   {
     "id": 29,
@@ -1480,7 +1605,7 @@
     "description": "Presenta los servicios de tu administración de fincas y orienta cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
     "h1": "Gestión de redes sociales para administradores de fincas",
     "eyebrow": "Tu despacho, su servicio y su atención",
-    "lead": "Preparamos contenido para presentar tu administración de fincas a nuevas comunidades y atendemos los mensajes según los canales acordados con el despacho. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu administración de fincas. Presentamos tus servicios a nuevas comunidades y orientamos los mensajes por los canales de tu despacho.",
     "promise": "Que una comunidad entienda cómo empezar a hablar con tu despacho.",
     "layout": "administradores-fincas",
     "artAlt": "Mapa editorial de dos motivos de contacto: conocer el despacho y continuar un asunto de una comunidad gestionada",
@@ -1491,7 +1616,7 @@
       "linkLabel": "Descargar el ejemplo de atención del despacho",
       "documentSubtitle": "Ejemplo editorial original de Dania360 para una administración de fincas. No reproduce expedientes o conversaciones reales."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1558,7 +1683,8 @@
         "¿Growth incluye la web del despacho y un bot de IA por 297 €/mes?",
         "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes y reseñas en los canales incluidos, además de informe mensual de actividad y visibilidad local. El despacho conserva la atención profesional de sus comunidades."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver rutas de atención"
   },
   {
     "id": 30,
@@ -1569,7 +1695,7 @@
     "description": "Explica los servicios de tu empresa de seguridad y alarmas con un mensaje claro. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
     "h1": "Gestión de redes sociales para empresas de seguridad y alarmas",
     "eyebrow": "El servicio que tu empresa puede valorar",
-    "lead": "Presentamos los servicios de tu empresa de seguridad y alarmas con contenido sobre su ámbito y su forma de atención. Growth incluye gestión de redes, comentarios y mensajes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa de seguridad y alarmas. Explicamos sus servicios y dirigimos las consultas al equipo que puede valorarlas.",
     "promise": "Que el primer mensaje permita continuar con el profesional adecuado.",
     "layout": "seguridad-alarmas",
     "artAlt": "Dibujos conceptuales de vivienda y comercio para presentar el ámbito de una consulta de seguridad",
@@ -1580,7 +1706,7 @@
       "linkLabel": "Descargar el ejemplo de seguridad y alarmas",
       "documentSubtitle": "Guion editorial original de Dania360 para una empresa de seguridad o alarmas. No describe una instalación o un cliente real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-08",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1646,7 +1772,8 @@
         "¿Growth incluye web y bot de IA por 297 €/mes?",
         "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla atención de comentarios, mensajes y reseñas en los canales incluidos e informe mensual de actividad y visibilidad local. Tu empresa confirma las valoraciones, las visitas y las condiciones del servicio."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de consulta"
   },
   {
     "id": 31,
@@ -1657,7 +1784,7 @@
     "description": "Presenta los servicios de tu taller y facilita las consultas con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para talleres mecánicos",
     "eyebrow": "De la recepción al contenido",
-    "lead": "Gestionamos las redes de tu taller mecánico para presentar sus servicios y atender las consultas que generan. Tu equipo aporta la información del negocio; Dania360 prepara las publicaciones y la atención incluida en Growth. Por 297 €/mes tienes también web y bot de IA.",
+    "lead": "Gestionamos las redes de tu taller y explicamos sus servicios. Orientamos las consultas hacia recepción para que tu equipo pueda valorar el trabajo y confirmar la cita.",
     "promise": "Que el conductor entienda qué puede consultar y cómo empezar.",
     "layout": "talleres-mecanicos",
     "artAlt": "Dibujo conceptual de un vehículo y un punto de recepción para explicar el primer contacto con un taller",
@@ -1668,7 +1795,7 @@
       "linkLabel": "Descargar el ejemplo de recepción del taller",
       "documentSubtitle": "Publicación y respuesta originales de Dania360 para un taller mecánico. Ejemplo conceptual para adaptar al procedimiento real del negocio."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1736,7 +1863,8 @@
         "¿Podéis publicar precios o explicaciones técnicas del taller?",
         "Trabajamos con la información que tu equipo pueda confirmar y revisar. El responsable valida las explicaciones técnicas y las condiciones de cualquier precio o promoción antes de utilizarlas. Una publicación presenta el servicio; una reparación concreta puede requerir la valoración profesional del vehículo."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de recepción"
   },
   {
     "id": 32,
@@ -1747,7 +1875,7 @@
     "description": "Convierte el material de tu concesionario en contenido sobre modelos, centro y atención. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
     "h1": "Gestión de redes sociales para concesionarios",
     "eyebrow": "El centro detrás de cada modelo",
-    "lead": "La gestión de redes de tu concesionario conecta el material de cada modelo con la información y la atención del centro. Preparamos contenido y atendemos los comentarios y mensajes incluidos en Growth, con web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu concesionario y mostramos características que tu equipo haya confirmado. Las consultas llegan al centro para resolver dudas o valorar una prueba.",
     "promise": "Presenta el vehículo y facilita la conversación con tu equipo comercial.",
     "layout": "concesionarios",
     "artAlt": "Vehículo abstracto en una exposición con relaciones entre uso, detalle y conversación con el concesionario",
@@ -1758,7 +1886,7 @@
       "linkLabel": "Descargar el guion para presentar un modelo",
       "documentSubtitle": "Guion editorial original de Dania360 para un concesionario. Propuesta conceptual sin marca, modelo o condiciones comerciales asignados."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1820,7 +1948,8 @@
         "¿Qué incluye la gestión de redes con web y bot para un concesionario?",
         "Growth cuesta 297 €/mes y reúne gestión de redes, comentarios, mensajes y reseñas en los canales incluidos, con informe mensual de actividad y visibilidad local. También incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El equipo comercial del concesionario continúa la valoración de cada contacto."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de exposición"
   },
   {
     "id": 33,
@@ -1831,7 +1960,7 @@
     "description": "Comunica cada coche de ocasión con información revisada y una atención clara. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para compraventa de coches",
     "eyebrow": "Una unidad, su información y su vigencia",
-    "lead": "Preparamos el contenido de las unidades que selecciona tu compraventa y atendemos los mensajes incluidos en Growth. Tu equipo confirma los datos y los cambios de cada coche. El plan incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu compraventa y preparamos contenidos sobre cada unidad. El equipo confirma los datos del coche y recibe las consultas con su referencia.",
     "promise": "Que cada consulta se pueda relacionar con el coche que vio el comprador.",
     "layout": "compraventa-coches",
     "artAlt": "Ficha editorial conceptual de un coche con una indicación de consultar su estado antes de continuar con el vendedor",
@@ -1842,7 +1971,7 @@
       "linkLabel": "Descargar el ejemplo para una unidad de ocasión",
       "documentSubtitle": "Ejemplo editorial original de Dania360 para una compraventa. No contiene datos comerciales de un vehículo real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1904,7 +2033,8 @@
         "¿Qué incluye Growth para una compraventa por 297 €/mes?",
         "Incluye gestión de redes y la atención de comentarios, mensajes y reseñas en los canales del plan, con informe mensual de actividad y visibilidad local. También reúne todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El vendedor continúa la atención comercial de cada interesado."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de una unidad"
   },
   {
     "id": 34,
@@ -1915,7 +2045,7 @@
     "description": "Explica las modalidades de alquiler de tu empresa y orienta cada consulta al equipo. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
     "h1": "Gestión de redes sociales para empresas de alquiler de coches",
     "eyebrow": "Cada necesidad, su conversación",
-    "lead": "Gestionamos las redes de tu empresa de alquiler para presentar sus categorías, explicar sus modalidades y atender las consultas incluidas en Growth. Tu equipo confirma la oferta y la contratación. Por 297 €/mes se incluyen también web y bot de IA.",
+    "lead": "Gestionamos las redes de tu empresa de alquiler y explicamos sus modalidades. Las consultas llegan al equipo de reservas con información útil para valorar cada viaje.",
     "promise": "Contenido para explicar tus modalidades de alquiler y cómo consultarlas.",
     "layout": "alquiler-vehiculos",
     "artAlt": "Dos llaves y tarjetas conceptuales comparan un alquiler para un momento concreto y una necesidad durante más tiempo",
@@ -1926,7 +2056,7 @@
       "linkLabel": "Descargar los ejemplos de consultas de alquiler",
       "documentSubtitle": "Demostración editorial original de Dania360 para una empresa de alquiler. No asigna condiciones o disponibilidad a un operador real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -1991,7 +2121,8 @@
         "¿Qué incluye Growth para una empresa de alquiler por 297 €/mes?",
         "Incluye gestión de redes, atención de comentarios, mensajes y reseñas en los canales del plan e informe mensual de actividad y visibilidad local. También incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El operador conserva la confirmación de reservas y condiciones."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplos de consultas"
   },
   {
     "id": 35,
@@ -2002,7 +2133,7 @@
     "description": "Presenta la especialidad de tu negocio de motos con contenido para taller, venta o accesorios. Growth incluye redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para talleres y tiendas de motos",
     "eyebrow": "Taller, motos y accesorios con su propio espacio",
-    "lead": "Gestionamos las redes de tu negocio de motos para presentar sus actividades y dirigir cada consulta al equipo adecuado. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu negocio de motos y explicamos qué atienden el taller y la tienda. Cada consulta llega al equipo que conoce ese servicio.",
     "promise": "Haz reconocible qué ofrece cada área de tu negocio de motos.",
     "layout": "talleres-tiendas-motos",
     "artAlt": "Motocicleta conceptual con motor y escape junto a las áreas de taller, motos y accesorios",
@@ -2013,7 +2144,7 @@
       "linkLabel": "Descargar la propuesta de contenido para motos",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2080,7 +2211,8 @@
         "¿Qué incluye Growth para un taller o tienda de motos por 297 €/mes?",
         "Incluye gestión de redes y la atención de comentarios, mensajes y reseñas de los canales del plan, con informe mensual. También todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El negocio confirma el stock y las operaciones."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo del equipo"
   },
   {
     "id": 36,
@@ -2091,7 +2223,7 @@
     "description": "Haz comprensibles los servicios de tu centro de neumáticos y orienta las consultas. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para centros de neumáticos",
     "eyebrow": "Producto y servicio, con su referencia y su alcance",
-    "lead": "Preparamos contenido que explica los servicios de tu centro de neumáticos y atendemos las consultas incluidas en Growth. Redes sociales, web y bot de IA por 297 €/mes, con la valoración profesional en manos de tu equipo.",
+    "lead": "Gestionamos las redes de tu centro de neumáticos y diferenciamos referencias de producto y servicios de taller. Las consultas llegan al equipo que prepara el presupuesto.",
     "promise": "Distingue lo que se vende de los trabajos que se pueden consultar.",
     "layout": "centros-neumaticos",
     "artAlt": "Neumático conceptual junto a referencia, alcance y vigencia, sin marca, medida o precio",
@@ -2102,7 +2234,7 @@
       "linkLabel": "Descargar las publicaciones para neumáticos",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2172,7 +2304,8 @@
         "¿Por 297 €/mes se incluyen web y bot además de redes?",
         "Sí. Growth reúne gestión de redes, atención en los canales del plan e informe mensual con todo Starter: página web, chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplos de oferta"
   },
   {
     "id": 37,
@@ -2183,7 +2316,7 @@
     "description": "Explica el alcance de los trabajos de carrocería con material autorizado del taller. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para talleres de chapa y pintura",
     "eyebrow": "El trabajo de carrocería contado con contexto",
-    "lead": "Gestionamos las redes de tu taller de chapa y pintura con imágenes autorizadas y explicaciones revisadas del trabajo que quieras mostrar. Growth incorpora redes, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu taller de chapa y pintura. Explicamos el alcance de las intervenciones y orientamos las consultas hacia una valoración del taller.",
     "promise": "Muestra el alcance de tus trabajos y cómo solicitar una valoración.",
     "layout": "chapa-pintura",
     "artAlt": "Tres encuadres conceptuales de un panel de carrocería: contexto, zona de trabajo y acabado",
@@ -2194,7 +2327,7 @@
       "linkLabel": "Descargar la guía editorial de chapa y pintura",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2262,7 +2395,8 @@
         "¿Growth incluye la web del taller con bot de IA?",
         "Sí. Por 297 €/mes incluye gestión de redes y todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. También atención de los canales del plan e informe mensual de actividad y visibilidad local."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver secuencia de carrocería"
   },
   {
     "id": 38,
@@ -2273,7 +2407,7 @@
     "description": "Presenta los servicios de tu centro de detailing con contenido visual y explicaciones claras. Gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para detailing",
     "eyebrow": "Que el detalle visual explique el servicio",
-    "lead": "Desarrollamos contenido para presentar los servicios de tu centro de detailing con material propio autorizado y explicaciones claras. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu centro de detailing y explicamos qué se hace en cada tratamiento. El profesional recibe la consulta con el contexto necesario para valorarla.",
     "promise": "Relaciona cada imagen con el servicio que quieres dar a conocer.",
     "layout": "detailing",
     "artAlt": "Arco de luz sobre un panel conceptual y un encuadre de detalle para explicar un servicio de detailing",
@@ -2284,7 +2418,7 @@
       "linkLabel": "Descargar el guion editorial de detailing",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2346,7 +2480,8 @@
         "¿Qué recibe un centro de detailing con Growth por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual. Se incluye todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El centro confirma la valoración y contratación de sus servicios."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver guion de detailing"
   },
   {
     "id": 39,
@@ -2357,7 +2492,7 @@
     "description": "Comunica el espacio de tus vehículos y distingue consultas de compra y alquiler. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para empresas de autocaravanas",
     "eyebrow": "El vehículo, su espacio y el motivo de consulta",
-    "lead": "Preparamos contenido para explicar el espacio de tus autocaravanas y distinguir el interés de compra del de alquiler. Por 297 €/mes, Growth incluye gestión de redes, página web y bot de IA.",
+    "lead": "Gestionamos las redes de tu empresa de autocaravanas y explicamos cómo se usa cada espacio. Las consultas llegan al equipo según se trate de compra o alquiler.",
     "promise": "Presenta el vehículo con contexto y dirige la consulta a compra o alquiler.",
     "layout": "autocaravanas",
     "artAlt": "Autocaravana abstracta con su espacio interior y dos destinos de consulta: comprar o alquilar",
@@ -2368,7 +2503,7 @@
       "linkLabel": "Descargar los ejemplos de compra y alquiler",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2430,7 +2565,8 @@
         "¿Qué incorpora Growth por 297 €/mes para nuestra empresa?",
         "Gestión de redes, atención de los canales incluidos e informe mensual, además de todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de distribución"
   },
   {
     "id": 40,
@@ -2441,7 +2577,7 @@
     "description": "Presenta la formación, el equipo y la atención de tu autoescuela con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
     "h1": "Gestión de redes sociales para autoescuelas",
     "eyebrow": "Del perfil del centro a una consulta sobre formación",
-    "lead": "Gestionamos las redes de tu autoescuela para presentar su formación, su equipo y cómo pedir información. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu autoescuela y presentamos la formación y el equipo de cada centro. Orientamos las consultas hacia quien puede informar sobre el curso.",
     "promise": "Explica cómo informarse sobre tu centro antes de una matrícula.",
     "layout": "autoescuelas",
     "artAlt": "Panel de información de una autoescuela junto a un vehículo de aprendizaje conceptual",
@@ -2452,7 +2588,7 @@
       "linkLabel": "Descargar los textos de presentación de la autoescuela",
       "documentSubtitle": "Ejemplo editorial original de Dania360. Se adapta con información y material autorizado del negocio; no representa un cliente o resultado real."
     },
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-09",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2519,7 +2655,8 @@
         "¿Qué incluye Growth para una autoescuela por 297 €/mes?",
         "Gestión de redes, atención en los canales del plan e informe mensual, con todo Starter incluido: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No se garantizan matrículas ni resultados de examen."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver ejemplo de primera consulta"
   },
   {
     "id": 41,
@@ -2528,7 +2665,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para hoteles",
     "layout": "hoteles",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2554,7 +2691,7 @@
     "title": "Gestión de redes sociales para hoteles | Dania360",
     "description": "Presenta los espacios de tu hotel y facilita las consultas de estancia. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
     "eyebrow": "Lo que el viajero quiere conocer antes de alojarse",
-    "lead": "Gestionamos las redes de tu hotel para presentar sus espacios, explicar sus servicios y atender las consultas incluidas en Growth. Por 297 €/mes tienes también página web y bot de IA.",
+    "lead": "Gestionamos las redes de tu hotel para mostrar sus espacios y llevar las dudas de la estancia al equipo de recepción.",
     "promise": "Que una imagen de tu hotel ayude a preparar la siguiente conversación.",
     "artAlt": "Tarjeta conceptual de un espacio de hotel con tres anotaciones editoriales: imagen, dato y consulta",
     "artCaption": "Ilustración original para explicar el contenido. No representa una habitación, categoría o servicio de un hotel real.",
@@ -2602,7 +2739,8 @@
         "¿Qué incluye Growth para un hotel por 297 €/mes?",
         "Gestión de redes, atención de los canales incluidos en el plan e informe mensual de actividad y visibilidad local. Incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de llegada"
   },
   {
     "id": 42,
@@ -2611,7 +2749,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para casas rurales",
     "layout": "casas-rurales",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "research": {
       "date": "2026-11-02",
       "queries": [
@@ -2637,7 +2775,7 @@
     "title": "Gestión de redes sociales para casas rurales | Dania360",
     "description": "Explica cómo es tu casa rural y cómo se utilizan sus espacios con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La casa, sus espacios y la forma de alojarse",
-    "lead": "Preparamos contenido de tu casa rural con imágenes autorizadas e información del anfitrión para explicar la estancia. Growth incluye gestión de redes, una página web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones que explican cómo se usa tu casa rural y qué necesita saber el anfitrión para atender una consulta.",
     "promise": "Ayuda al viajero a entender qué espacio está viendo y cómo se utiliza.",
     "artAlt": "Casa abstracta con anotaciones sobre el espacio mostrado y el uso que confirma el anfitrión",
     "artCaption": "Dibujo editorial original. No es un plano ni representa plazas, servicios o espacios de una casa rural cliente.",
@@ -2683,7 +2821,8 @@
         "¿Por 297 €/mes se incluyen redes, web y bot para la casa rural?",
         "Sí. Growth incluye gestión de redes, atención de los canales del plan e informe mensual, además de todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver dos ejemplos de estancia"
   },
   {
     "id": 43,
@@ -2692,7 +2831,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para campings",
     "layout": "campings",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-10",
     "resource": [
       "Una publicación y su respuesta, para adaptar",
       "",
@@ -2771,7 +2910,7 @@
     "title": "Gestión de redes sociales para campings | Dania360",
     "description": "Presenta las modalidades y zonas de tu camping con contenido claro y consultas bien orientadas. Gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Cada modalidad, sus servicios y su período",
-    "lead": "Gestionamos las redes de tu camping para presentar sus modalidades, zonas y servicios confirmados. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones para que se entienda qué ofrece cada parcela o alojamiento y qué debe confirmar tu camping para esas fechas.",
     "promise": "Aclara qué corresponde a la estancia y qué se consulta para cada fecha.",
     "artAlt": "Tienda de campaña y alojamiento conceptuales junto a modalidad, servicios y período, sin oferta real",
     "artCaption": "Dibujo editorial original. No anuncia zonas, servicios o plazas de un camping real.",
@@ -2793,7 +2932,8 @@
         "¿Qué incluye Growth para un camping por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de parcela"
   },
   {
     "id": 44,
@@ -2802,7 +2942,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para gestores de alojamientos turísticos",
     "layout": "gestion-alojamientos-turisticos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PRESENTACIÓN A PROPIETARIOS Y DOS RECORRIDOS DE CONSULTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -2860,7 +3000,7 @@
     "title": "Redes sociales para gestores de alojamientos | Dania360",
     "description": "Explica tu servicio de gestión a propietarios y distingue las consultas de viajeros. Growth incluye redes, página web y bot de IA por 297 €/mes.",
     "eyebrow": "La marca del gestor y sus dos públicos",
-    "lead": "Preparamos contenido para explicar tu servicio de gestión turística a propietarios y orientar las consultas de viajeros al canal adecuado. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa para presentar el servicio a propietarios y encaminar por separado las consultas de viajeros.",
     "promise": "Presenta tu alcance al propietario y diferencia su consulta de la estancia.",
     "artAlt": "Dos entradas conceptuales a la comunicación de un gestor turístico: propietario y viajero",
     "artCaption": "Esquema editorial original. No representa una cartera de alojamientos, contratos o rendimientos.",
@@ -2882,7 +3022,8 @@
         "¿Qué recibe la empresa gestora con Growth por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo para propietarios"
   },
   {
     "id": 45,
@@ -2891,7 +3032,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para agencias de viajes",
     "layout": "agencias-viajes",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PIEZA SOBRE EL COMIENZO DE UN VIAJE Y SU PRIMERA RESPUESTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -2955,7 +3096,7 @@
     "title": "Gestión de redes sociales para agencias de viajes | Dania360",
     "description": "Haz visible el asesoramiento de tu agencia y el comienzo de una propuesta de viaje. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Del deseo de viajar a una conversación con tu agencia",
-    "lead": "Creamos contenido para presentar cómo atiende tu agencia a quien prepara un viaje. Growth incluye gestión de redes, atención de los canales del plan, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu agencia para mostrar cómo asesoráis y ayudar al viajero a plantear la primera consulta.",
     "promise": "Muestra cómo empieza el asesoramiento, además de enseñar el destino.",
     "artAlt": "Cuaderno de planificación de viaje con una idea, un momento y un canal de consulta",
     "artCaption": "Composición editorial original. No anuncia un itinerario, paquete o presupuesto de viaje.",
@@ -2977,7 +3118,8 @@
         "¿Growth incorpora la web y el bot de IA de la agencia por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver cómo preparar la consulta"
   },
   {
     "id": 46,
@@ -2986,7 +3128,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para guías turísticos",
     "layout": "guias-turisticos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "GUION DE 15 SEGUNDOS PARA PRESENTAR UNA MIRADA DEL GUÍA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3056,7 +3198,7 @@
     "title": "Gestión de redes sociales para guías turísticos | Dania360",
     "description": "Presenta tu forma de contar el destino con contenido propio y consultas sobre tus visitas. Growth reúne redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "El detalle que invita a mirar con tu guía",
-    "lead": "Desarrollamos contenido para mostrar tu forma de explicar un lugar y cómo consultar tus visitas. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos publicaciones que enseñan cómo cuentas un lugar y orientan a quien quiere consultar una visita guiada.",
     "promise": "Da a conocer la mirada del guía y la visita que puede explicar.",
     "artAlt": "Recorrido conceptual con una parada destacada y una pregunta para el visitante",
     "artCaption": "Ilustración editorial original. No representa un mapa, monumento o itinerario real.",
@@ -3078,7 +3220,8 @@
         "¿Qué incluye Growth para un guía turístico por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el guion de una visita"
   },
   {
     "id": 47,
@@ -3087,7 +3230,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para empresas de turismo activo",
     "layout": "turismo-activo",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA SECUENCIA SOBRE LA ATENCIÓN PREVIA A UNA ACTIVIDAD",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3151,7 +3294,7 @@
     "title": "Redes sociales para empresas de turismo activo | Dania360",
     "description": "Presenta tus actividades y al equipo que atiende las primeras consultas con contenido propio. Gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "El equipo y la conversación antes de la aventura",
-    "lead": "Preparamos contenido de tus actividades con información del operador y material autorizado. Growth reúne gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos contenido para que tu público entienda la actividad y sepa qué consultar al equipo antes de participar.",
     "promise": "Ayuda a conocer la actividad y cómo empezar a informarse con tu equipo.",
     "artAlt": "Tres momentos conceptuales de comunicación de una actividad: equipo, conversación y experiencia",
     "artCaption": "Esquema editorial original. No es una ruta técnica ni representa una actividad realizada por un cliente.",
@@ -3173,7 +3316,8 @@
         "¿Por 297 €/mes se incluyen redes, web y bot para la empresa de actividades?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de actividad"
   },
   {
     "id": 48,
@@ -3182,7 +3326,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para parques de ocio",
     "layout": "parques-ocio",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "PRESENTACIÓN DE UNA EXPERIENCIA Y AVISO DE PROGRAMACIÓN DEL PARQUE",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3240,7 +3384,7 @@
     "title": "Gestión de redes sociales para parques de ocio | Dania360",
     "description": "Presenta las experiencias de tu parque y comunica la programación con su contexto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La experiencia del parque y la información para visitarlo",
-    "lead": "Gestionamos las redes de tu parque con contenido sobre su oferta y programación confirmadas. Growth incluye atención en los canales del plan, página web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu parque para presentar sus experiencias y dirigir al visitante a la información vigente de su visita.",
     "promise": "Que el visitante entienda qué presenta la pieza y dónde informarse.",
     "artAlt": "Entrada conceptual de un parque junto a una pieza estable y un aviso temporal de programación",
     "artCaption": "Dibujo editorial original. No anuncia entradas, atracciones, horarios o condiciones de un parque real.",
@@ -3262,7 +3406,8 @@
         "¿Qué incluye Growth para un parque de ocio por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de programación"
   },
   {
     "id": 49,
@@ -3271,7 +3416,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para escuelas de buceo",
     "layout": "escuelas-buceo",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "DOS PRIMERAS RESPUESTAS PARA CONOCER UNA ESCUELA DE BUCEO",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3329,7 +3474,7 @@
     "title": "Gestión de redes sociales para escuelas de buceo | Dania360",
     "description": "Presenta tu escuela y orienta las consultas de información o formación con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "Una conversación adecuada al interés por la escuela",
-    "lead": "Creamos contenido para presentar tu escuela de buceo y distinguir los motivos de consulta. Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Preparamos contenido para que tus seguidores distingan la primera toma de contacto de la formación y puedan hablar con tu escuela.",
     "promise": "Da a conocer el centro y facilita el primer contacto con su equipo.",
     "artAlt": "Máscara de buceo conceptual junto a dos entradas a la conversación: información y formación",
     "artCaption": "Ilustración editorial original. No acredita una certificación, una inmersión o un resultado de un alumno.",
@@ -3351,7 +3496,8 @@
         "¿Growth incluye web y bot de IA para la escuela por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver dos respuestas de la escuela"
   },
   {
     "id": 50,
@@ -3360,7 +3506,7 @@
     "hubGroup": "turismo",
     "h1": "Gestión de redes sociales para empresas de alquiler de barcos",
     "layout": "alquiler-barcos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-10",
     "resource": [
       "UNA PRESENTACIÓN NÁUTICA CON CIERRES PARA ALQUILER Y EXCURSIÓN",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3414,7 +3560,7 @@
     "title": "Redes sociales para alquiler de barcos y excursiones | Dania360",
     "description": "Distingue tus modalidades de alquiler de barcos y excursiones con contenido claro. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
     "eyebrow": "La embarcación y el servicio que quieres presentar",
-    "lead": "Preparamos contenido para explicar las modalidades de tu empresa náutica y orientar las consultas de alquiler o excursión. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "lead": "Gestionamos las redes de tu empresa náutica para distinguir las consultas de alquiler de las preguntas sobre una excursión.",
     "promise": "Identifica el servicio de la pieza y cómo consultarlo con tu equipo.",
     "artAlt": "Embarcación abstracta con dos continuaciones comerciales: alquiler y excursión",
     "artCaption": "Composición editorial original. No representa un barco, equipamiento, capacidad o salida disponibles.",
@@ -3436,7 +3582,8 @@
         "¿Qué incluye Growth para la empresa náutica por 297 €/mes?",
         "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
-    ]
+    ],
+    "heroExampleLabel": "Ver el ejemplo de alquiler y salida"
   },
   {
     "id": 51,
