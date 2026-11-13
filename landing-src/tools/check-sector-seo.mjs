@@ -93,9 +93,11 @@ for (const path of ['gestion-redes-sociales-murcia']) {
   const html = read(`${path}/index.html`);
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
   const meta = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
-  if (!title?.includes('desde 297 €')) errors.push(`${path}: título con precio inicial de redes incorrecto`);
-  if (!meta?.includes('297 €/mes') || !meta.includes('99 €')) {
-    errors.push(`${path}: la descripción debe distinguir redes desde 297 € de Starter 99 €`);
+  if (!/(?:Gestión|Agencia) de redes sociales en Murcia/.test(title ?? '') || /(?:desde|por)\s*99\s*€/i.test(title ?? '')) {
+    errors.push(`${path}: el título debe identificar el servicio local sin atribuir redes a Starter`);
+  }
+  if (!meta?.includes('297 €/mes') || !/web.*bot de IA/i.test(meta) || /redes sociales[^.]{0,30}(?:desde|por)\s*99\s*€/i.test(meta)) {
+    errors.push(`${path}: la descripción debe explicar Growth por 297 €/mes con web y bot de IA`);
   }
 }
 
