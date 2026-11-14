@@ -891,12 +891,12 @@
     "slug": "arquitectos",
     "name": "Arquitectos y estudios de arquitectura",
     "hubGroup": "proyectos-espacios",
-    "title": "Gestión de redes sociales para arquitectos | Dania360",
-    "description": "Redes sociales para estudios de arquitectura: proyectos, criterio y consultas. Growth por 297 €/mes con web y bot de IA incluidos. Pide tu auditoría gratis.",
-    "h1": "Gestión de redes sociales para arquitectos",
-    "eyebrow": "El criterio de tu estudio, explicado",
-    "lead": "Gestionamos las redes de tu estudio de arquitectura y convertimos decisiones de proyecto en contenido. La web y la atención de mensajes orientan cada encargo.",
-    "promise": "Que quien vea tu proyecto entienda qué puede encargarte.",
+    "title": "Marketing para arquitectos y redes sociales | Dania360",
+    "description": "Marketing para arquitectos y estudios: publicaciones de tus proyectos, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para arquitectos y estudios de arquitectura",
+    "eyebrow": "Marketing digital para estudios de arquitectura",
+    "lead": "Llevamos el marketing en redes sociales de tu estudio: convertimos decisiones de proyecto en publicaciones, atendemos mensajes y reseñas y orientamos cada consulta hacia el encargo que quieres recibir.",
+    "promise": "Marketing para arquitectos que explica qué encargos puedes asumir.",
     "layout": "arquitectos",
     "artAlt": "Croquis conceptual de arquitectura con anotaciones de intención, decisión y representación",
     "artCaption": "Lámina editorial original. Es un esquema conceptual, no el plano de un edificio o un proyecto de un cliente.",
@@ -906,16 +906,19 @@
       "linkLabel": "Descargar el ejemplo de las tres láminas",
       "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de arquitectura. No representa un encargo real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para arquitectos",
-        "redes sociales estudios de arquitectura",
-        "community manager arquitectura",
-        "comunicación estudios arquitectura"
+        "marketing para arquitectos",
+        "marketing digital para arquitectos",
+        "agencia de marketing para arquitectos",
+        "estrategias de marketing para arquitectos",
+        "redes sociales para arquitectos",
+        "marketing para estudios de arquitectura",
+        "como conseguir clientes como arquitecto"
       ],
-      "intent": "Servicio para el responsable de un estudio que quiere delegar su comunicación y explicar qué encargos acepta.",
+      "intent": "Responsable de un estudio de arquitectura que busca marketing para arquitectos: delegar redes sociales, web y atención de consultas y explicar qué encargos acepta. El autocompletado sugiere marketing para arquitectos, marketing digital, agencia, estrategias y redes sociales para arquitectos; se descartan las variantes de libro, PDF y curso.",
       "distinctFrom": "Arquitectura presenta el razonamiento y la autoría del proyecto. Construcción presenta la ejecución, reformas la intervención y alcance de los trabajos, e interiorismo la relación entre uso, materiales y ambiente.",
       "sources": [
         {
@@ -931,7 +934,7 @@
           "observation": "Referencia secundaria del estudio previo, con acceso limitado al resultado indexado. No se usa como evidencia de demanda cuantitativa ni para atribuir renders o visualización arquitectónica a Growth."
         }
       ],
-      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -971,23 +974,44 @@
         "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. LinkedIn pertenece a Scale. En la auditoría gratuita revisamos a qué tipo de cliente quiere dirigirse el estudio y qué canales encajan con esa relación comercial, para que conozcas el alcance antes de contratar."
       ],
       [
-        "¿Growth incluye también la web del estudio y un bot de IA?",
-        "Sí. Growth cuesta 297 €/mes e incluye la gestión de redes sociales y todo Starter: página web con chat y modo automático con IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El servicio también contempla atención de comentarios, mensajes y reseñas en los canales incluidos. El estudio conserva la valoración del encargo, la propuesta profesional y la confirmación de reuniones."
+        "¿Qué hace una agencia de marketing para arquitectos?",
+        "Prepara y publica el contenido del estudio, mantiene los perfiles y atiende comentarios, mensajes y reseñas. En Dania360 trabajamos con croquis, obras autorizadas y el proceso del equipo para explicar qué encargos asumís, y lo conectamos con una web con bot de IA que recoge las consultas. El estudio valida lo que se publica; no producimos renders ni documentación arquitectónica."
+      ],
+      [
+        "¿Cómo conseguir clientes como arquitecto con las redes sociales?",
+        "Las redes ayudan cuando dejan claro para quién trabajas, qué tipo de encargo aceptas y cómo empieza una conversación con el estudio. Decisiones de proyecto explicadas, obras terminadas con permiso y el proceso del equipo dan contexto a quien compara arquitectos. La web y la atención de mensajes recogen esas consultas. No garantizamos encargos: el seguimiento del estudio confirma qué contactos avanzan."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de un estudio de arquitectura?",
+        "Una mezcla de decisiones de proyecto contadas en pocas láminas, proceso y equipo, obras terminadas con sus créditos y piezas que explican cómo se plantea un encargo. Pinterest e Instagram encajan con el material visual y los vídeos de 15 segundos sirven para contar una idea concreta. Cada imagen indica si es una propuesta o una obra construida."
+      ],
+      [
+        "¿Cuánto cuesta el marketing en redes sociales para un estudio de arquitectura?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Si el estudio trabaja sobre todo con empresas o administraciones, Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. El estudio conserva la valoración del encargo, la propuesta profesional y la confirmación de reuniones."
       ]
     ],
-    "heroExampleLabel": "Ver carrusel de arquitectura"
+    "heroExampleLabel": "Ver carrusel de arquitectura",
+    "heroPosts": [
+      "Una entrada también se proyecta: así pensamos el recorrido desde el acceso.",
+      "Propuesta o obra terminada: te contamos qué estás viendo en cada imagen.",
+      "¿Quieres transformar un local? Cuéntanos qué actividad vas a desarrollar en él."
+    ],
+    "heroChat": {
+      "question": "Hola, tenemos una parcela y queremos hacer una vivienda unifamiliar. ¿Cómo empezamos con vosotros?",
+      "answer": "Gracias por escribir. Indícanos el municipio y si ya tienes documentación de la parcela. El estudio te contacta para plantear una primera reunión."
+    }
   },
   {
     "id": 22,
     "slug": "interioristas",
     "name": "Interioristas y estudios de diseño de interiores",
     "hubGroup": "proyectos-espacios",
-    "title": "Gestión de redes sociales para interioristas | Dania360",
-    "description": "Presenta tus servicios de interiorismo con contenido sobre usos, materiales y ambiente. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
-    "h1": "Gestión de redes sociales para interioristas",
-    "eyebrow": "Diseño de interiores que se entiende",
-    "lead": "Gestionamos las redes de tu estudio de interiorismo y mostramos cómo diseñas cada espacio. La web orienta las consultas según el servicio que ofreces.",
-    "promise": "Que guardar una imagen sea el comienzo de una conversación sobre tu servicio.",
+    "title": "Marketing para interioristas y redes sociales | Dania360",
+    "description": "Marketing para interioristas: publicaciones de tus espacios, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para interioristas y estudios de diseño de interiores",
+    "eyebrow": "Marketing digital para interiorismo",
+    "lead": "Llevamos el marketing en redes sociales de tu estudio de interiorismo: publicaciones que explican cómo diseñas cada espacio, atención de mensajes y reseñas y una web que orienta la consulta según el servicio.",
+    "promise": "Que guardar una imagen de tu estudio lleve a preguntar por tu servicio.",
     "layout": "interioristas",
     "artAlt": "Tablero conceptual de interiorismo con un espacio de trabajo y muestras dibujadas de color y textura",
     "artCaption": "Tablero original de ambiente. No muestra una vivienda, un proyecto realizado ni productos de una marca.",
@@ -997,16 +1021,17 @@
       "linkLabel": "Descargar el ejemplo de interiorismo",
       "documentSubtitle": "Demostración editorial original de Dania360 para un estudio de interiorismo. No corresponde a una vivienda o un cliente real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para interioristas",
-        "redes sociales diseño de interiores",
-        "community manager interiorismo",
-        "marketing estudios interiorismo"
+        "marketing para interioristas",
+        "marketing para diseño de interiores",
+        "redes sociales interiorismo",
+        "como conseguir clientes interiorismo",
+        "marketing para estudios de interiorismo"
       ],
-      "intent": "Servicio para un interiorista o responsable de estudio que quiere presentar su oferta y delegar la comunicación con posibles clientes.",
+      "intent": "Interiorista o responsable de estudio que busca marketing para interioristas: delegar redes, web y atención de consultas sin perder el criterio de diseño. El autocompletado confirma marketing para interioristas y marketing para diseño de interiores; las variantes con redes sociales no devuelven sugerencias.",
       "distinctFrom": "El ejemplo explica un tablero de ambiente, su uso y el estado de las imágenes. No repite la cocina de reformas, la fabricación de muebles de carpintería ni el razonamiento del acceso al espacio cultural de arquitectura.",
       "sources": [
         {
@@ -1016,7 +1041,7 @@
           "observation": "La oferta consultada diferencia gestión de redes y producción presencial de imágenes. Se contrasta ese alcance para explicar el servicio propio, sin trasladar precios, credenciales, clientes o sesiones de ese proveedor a Dania360."
         }
       ],
-      "demand": "Intención comercial y oferta contrastadas cualitativamente. Volumen, dificultad y posiciones de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1057,23 +1082,44 @@
         "Growth incluye Instagram, Facebook, TikTok y Pinterest, además de la gestión de Google Business Profile. El plan contempla una publicación al día, 30 al mes, con vídeos de 15 segundos y la atención de comentarios y mensajes en las plataformas incluidas. LinkedIn, X y YouTube forman parte de Scale. En la auditoría revisamos el alcance que encaja con el estudio."
       ],
       [
-        "¿La web y el bot de IA del estudio están incluidos en los 297 €/mes?",
-        "Sí. Growth incluye la gestión de redes y todo Starter: una página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot responde con la información configurada y permite orientar el contacto al estudio. Tu equipo prepara la valoración del espacio y la propuesta profesional."
+        "¿Qué hace una agencia de marketing para interioristas?",
+        "Convierte el trabajo del estudio en contenido que se entiende: tableros, propuestas y espacios terminados con su contexto y sus créditos. En Dania360 redactamos y publicamos las piezas, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA que orienta la consulta según el servicio. El criterio de diseño y la propuesta siguen siendo del estudio."
+      ],
+      [
+        "¿Cómo conseguir clientes de interiorismo con redes sociales?",
+        "Explicando qué servicio puede contratarse y cómo empieza: una asesoría para una estancia no se pide igual que un proyecto de varias estancias. Cada publicación termina con una pregunta concreta, el perfil de Google y la web recogen a quien busca interiorista en tu zona y las reseñas respondidas dan confianza. El seguimiento del estudio confirma qué consultas avanzan; no prometemos un número de proyectos."
+      ],
+      [
+        "¿Qué publicar en Instagram y Pinterest si eres interiorista?",
+        "Tableros de materiales y ambiente que se guardan y se vuelven a consultar, decisiones explicadas en vídeos de 15 segundos, el proceso desde la primera visita y espacios terminados con permiso. Cada imagen indica si es una referencia, una propuesta del estudio o un trabajo realizado, para que nadie confunda una inspiración con un proyecto propio."
+      ],
+      [
+        "¿Cuánto cuesta el marketing en redes sociales para un interiorista?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. El bot responde con la información configurada; tu equipo prepara la valoración del espacio y la propuesta de diseño."
       ]
     ],
-    "heroExampleLabel": "Ver tablero de interiorismo"
+    "heroExampleLabel": "Ver tablero de interiorismo",
+    "heroPosts": [
+      "Un rincón de trabajo en casa empieza por saber qué más ocurre en esa habitación.",
+      "Referencia, propuesta o espacio terminado: así te contamos qué estás viendo.",
+      "Asesoría para una estancia o proyecto completo: cuéntanos qué quieres cambiar."
+    ],
+    "heroChat": {
+      "question": "Hola, me encanta vuestro estilo. Quiero renovar el salón sin hacer obra, ¿hacéis asesorías?",
+      "answer": "Gracias por escribir. Cuéntanos el municipio, cómo usas hoy el salón y qué muebles quieres conservar. El estudio te explica qué asesoría encaja y cómo seguimos."
+    }
   },
   {
     "id": 23,
     "slug": "jardineria",
     "name": "Empresas de jardinería y paisajismo",
     "hubGroup": "proyectos-espacios",
-    "title": "Redes sociales para empresas de jardinería | Dania360",
-    "description": "Explica tus servicios de jardinería y el alcance del mantenimiento. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para empresas de jardinería",
-    "eyebrow": "El mantenimiento bien explicado",
-    "lead": "Gestionamos las redes de tu empresa de jardinería y presentamos los jardines que atiendes, tu zona de trabajo y las tareas que puede consultar cada cliente.",
-    "promise": "Que una comunidad entienda qué servicio puede contratar.",
+    "title": "Marketing para empresas de jardinería y redes sociales | Dania360",
+    "description": "Marketing para empresas de jardinería: publicaciones de tus jardines, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para empresas de jardinería y paisajismo",
+    "eyebrow": "Más visibilidad para tu servicio de jardinería",
+    "lead": "Llevamos el marketing en redes sociales de tu empresa de jardinería: publicaciones sobre los jardines que atiendes y tu zona, mensajes y reseñas al día y una web que recoge cada solicitud de mantenimiento o proyecto.",
+    "promise": "Que una comunidad o un particular entienda qué servicio de jardinería puede contratarte.",
     "layout": "jardineria",
     "artAlt": "Esquema conceptual de un jardín compartido con zonas de uso y anotaciones sobre espacio, servicio y consulta",
     "artCaption": "Dibujo original de un jardín imaginado para explicar el contenido. No representa una propiedad o un trabajo realizado.",
@@ -1083,16 +1129,18 @@
       "linkLabel": "Descargar el ejemplo de jardinería",
       "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de jardinería. El ejemplo no corresponde a una propiedad o un cliente real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de jardinería",
-        "redes sociales jardinería paisajismo",
-        "community manager jardineros",
-        "marketing empresas jardinería"
+        "marketing para empresas de jardinería",
+        "marketing para jardineros",
+        "como conseguir clientes de jardineria",
+        "como conseguir clientes para mi negocio de jardineria",
+        "publicidad jardineria",
+        "publicidad servicio de jardineria"
       ],
-      "intent": "Servicio para una empresa que quiere delegar la comunicación de mantenimiento o paisajismo. La página comercial se distingue de una guía de cuidado de plantas.",
+      "intent": "Responsable de una empresa de jardinería o paisajismo que busca marketing y redes sociales para conseguir clientes de mantenimiento o proyecto. El autocompletado no sugiere marketing para jardinería, pero sí cómo conseguir clientes de jardinería y publicidad de servicio de jardinería; se usa el patrón de marketing para empresas de jardinería con esas preguntas.",
       "distinctFrom": "El ejemplo explica el alcance del mantenimiento de un jardín compartido. No reproduce consejos estacionales de climatización, la atención de una comunidad desde una administración de fincas ni los servicios específicos de piscinas.",
       "sources": [
         {
@@ -1102,7 +1150,7 @@
           "observation": "Se contrasta la oferta de comunicación del sector. La pieza propia desarrolla un ejemplo de alcance para una comunidad; no adopta calendarios de actuaciones, estadísticas, promesas comerciales ni la estructura de la guía consultada."
         }
       ],
-      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1143,23 +1191,44 @@
         "Las grabaciones presenciales no figuran en la cuota oficial de Growth. Revisamos las fotos, vídeos y explicaciones que tu empresa pueda aportar y publicar, y acordamos cómo preparar las piezas con ese material. Las comparaciones entre estados de un jardín deben mostrar el trabajo real y permitir entender qué actuación se está explicando."
       ],
       [
-        "¿Growth incluye la web de jardinería y un bot de IA por 297 €/mes?",
-        "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos Instagram, Facebook, TikTok, Pinterest y Google Business Profile según el alcance del plan, además de comentarios, mensajes y reseñas. La valoración del jardín y el presupuesto los prepara tu empresa."
+        "¿Cómo conseguir clientes de jardinería con las redes sociales?",
+        "Haciendo visible tu zona de trabajo, explicando un servicio en cada publicación y facilitando el contacto. Una comunidad que busca mantenimiento y un particular que quiere un jardín nuevo necesitan mensajes distintos. El perfil de Google, las reseñas respondidas y el kit QR para pedirlas al terminar un trabajo refuerzan la confianza. El seguimiento de tu empresa confirma qué consultas se convierten en encargos."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de jardinería?",
+        "Planifica y publica el contenido, mantiene los perfiles y atiende comentarios, mensajes y reseñas para que tu equipo pueda seguir en el jardín. En Dania360 eso incluye 30 publicaciones al mes, la gestión de tu perfil de Google y una web con bot de IA que recoge las solicitudes. Tu empresa revisa las explicaciones técnicas y decide qué trabajos se muestran."
+      ],
+      [
+        "¿Qué publicar en redes sociales si tienes una empresa de jardinería?",
+        "Trabajos reales con permiso y explicados, tareas de cada temporada que tu empresa realiza, presentaciones del equipo y piezas que aclaran cómo se pide una valoración. Las comparaciones de antes y después muestran el trabajo real con un punto de vista parecido. También conviene separar el contenido de mantenimiento del de paisajismo."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de jardinería?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. La valoración del jardín y el presupuesto los prepara tu empresa."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplo de jardín comunitario"
+    "heroExampleLabel": "Ver ejemplo de jardín comunitario",
+    "heroPosts": [
+      "Antes de proponer el mantenimiento de tu comunidad, conocemos sus zonas y cómo se usan.",
+      "Mantener un jardín o diseñar uno nuevo: dos servicios distintos, dos formas de empezar.",
+      "¿Buscas quien cuide tu jardín? Indícanos el municipio y el tipo de espacio."
+    ],
+    "heroChat": {
+      "question": "Hola, soy de la junta de una comunidad. ¿Os encargáis del mantenimiento del jardín comunitario?",
+      "answer": "Gracias por escribir. Indícanos el municipio y qué zonas tiene el jardín. El responsable os contacta para concertar una visita de valoración y hablar de la frecuencia."
+    }
   },
   {
     "id": 24,
     "slug": "piscinas",
     "name": "Empresas de piscinas",
     "hubGroup": "proyectos-espacios",
-    "title": "Gestión de redes sociales para piscinas | Dania360",
-    "description": "Comunica construcción, renovación y mantenimiento de piscinas con mensajes para cada servicio. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "h1": "Gestión de redes sociales para empresas de piscinas",
-    "eyebrow": "Cada servicio, una consulta clara",
-    "lead": "Gestionamos las redes de tu empresa de piscinas y diferenciamos obra nueva, renovación y mantenimiento para que el cliente consulte por el servicio adecuado.",
-    "promise": "Que quien contacte sepa qué servicio está consultando.",
+    "title": "Marketing para empresas de piscinas y redes sociales | Dania360",
+    "description": "Marketing para empresas de piscinas: publicaciones por servicio, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para empresas de piscinas, de la obra al mantenimiento",
+    "eyebrow": "Construcción, renovación y mantenimiento",
+    "lead": "Llevamos el marketing en redes sociales de tu empresa de piscinas: separamos obra nueva, renovación y mantenimiento, atendemos mensajes y reseñas y la web orienta a cada cliente hacia el servicio que consulta.",
+    "promise": "Que quien contacte sepa qué servicio de piscinas está consultando.",
     "layout": "piscinas",
     "artAlt": "Ilustración conceptual de una piscina con tres líneas de comunicación: proyecto, renovación y servicio",
     "artCaption": "Composición editorial original para distinguir servicios. Es un esquema conceptual, no una instalación real.",
@@ -1169,16 +1238,18 @@
       "linkLabel": "Descargar las tres propuestas de piscinas",
       "documentSubtitle": "Ejemplos editoriales originales de Dania360 para una empresa de piscinas. No representan proyectos ni clientes reales."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de piscinas",
-        "redes sociales constructores piscinas",
-        "marketing mantenimiento piscinas",
-        "community manager piscinas"
+        "marketing para piscinas",
+        "marketing para empresas de piscinas",
+        "publicidad piscinas",
+        "publicidad para piscinas",
+        "publicidad mantenimiento de piscinas",
+        "marketing para mantenimiento de piscinas"
       ],
-      "intent": "Servicio para el responsable de un negocio de piscinas que quiere presentar sus líneas de actividad y delegar su comunicación.",
+      "intent": "Responsable de una empresa de construcción, renovación o mantenimiento de piscinas que busca marketing y redes sociales para conseguir clientes. El autocompletado sugiere marketing para piscinas y publicidad para piscinas y de mantenimiento de piscinas; la página se orienta a marketing para empresas de piscinas por líneas de servicio.",
       "distinctFrom": "Tres publicaciones se distinguen por el encargo que inicia la consulta. No repiten las fases de una obra general ni el alcance del mantenimiento de jardines y no desarrollan instrucciones de tratamiento del agua.",
       "sources": [
         {
@@ -1194,7 +1265,7 @@
           "observation": "Se contrasta una oferta editorial del sector. Las promesas de captación, viralidad y plazos que utiliza el competidor no son compromisos de Dania360. Los tres mensajes y el alcance comercial de esta página son propios."
         }
       ],
-      "demand": "Consultas candidatas y oferta comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1234,23 +1305,44 @@
         "Revisamos qué fotografías y vídeos puedes publicar y qué servicio permite explicar cada pieza. Podemos combinar ese material con una presentación del equipo, una explicación del proceso de consulta o esquemas conceptuales claramente identificados. Se conserva la autoría del material y se confirma el permiso de publicación. Las grabaciones presenciales no figuran en la cuota de Growth."
       ],
       [
-        "¿La web y el bot de IA están incluidos en Growth?",
-        "Sí. Growth cuesta 297 €/mes e incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes, reseñas e informe mensual de actividad y visibilidad local. La empresa confirma las visitas, la propuesta profesional y el presupuesto."
+        "¿Qué hace una agencia de marketing para empresas de piscinas?",
+        "Organiza el contenido por líneas de negocio, publica de forma constante y atiende comentarios, mensajes y reseñas para que ninguna consulta se quede sin respuesta en plena temporada. En Dania360 lo completamos con una web con bot de IA y la gestión de tu perfil de Google. Tu equipo valida la información técnica y decide qué intervenciones se enseñan."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de piscinas o de mantenimiento?",
+        "Diferenciando a quién te diriges: un particular que quiere construir, una comunidad que necesita mantenimiento o un propietario que piensa en renovar. Cada uno recibe un mensaje y una pregunta de contacto distintos. Las reseñas respondidas, el perfil de Google y una web que explica tus servicios ayudan a que te elijan. El seguimiento de la empresa confirma qué contactos se convierten en encargos."
+      ],
+      [
+        "¿Qué publicar en redes sociales fuera de la temporada de baño?",
+        "Es el momento de explicar cómo se estudia un proyecto de piscina nueva o una renovación, presentar al equipo y mostrar intervenciones terminadas con permiso. Antes de la apertura, el contenido se centra en la puesta a punto y en las comunidades; en verano, en el servicio periódico y en responder rápido a los mensajes."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de piscinas?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. La empresa confirma las visitas, la propuesta técnica y el presupuesto."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplos de piscinas"
+    "heroExampleLabel": "Ver ejemplos de piscinas",
+    "heroPosts": [
+      "Una piscina nueva empieza por entender el espacio y el uso que quieres darle.",
+      "¿Abre pronto la piscina de tu comunidad? Prepara la temporada con tiempo.",
+      "Renovar una piscina existente: cuéntanos qué te gustaría cambiar y dónde está."
+    ],
+    "heroChat": {
+      "question": "Hola, la piscina de nuestra comunidad abre en junio. ¿Os encargáis del mantenimiento?",
+      "answer": "Gracias por escribir. Indícanos el municipio, si ya tenéis empresa mantenedora y la fecha prevista de apertura. El equipo revisa qué trabajos puede asumir y os contacta."
+    }
   },
   {
     "id": 25,
     "slug": "empresas-limpieza",
     "name": "Empresas de limpieza",
     "hubGroup": "servicios-inmuebles",
-    "title": "Redes sociales para empresas de limpieza | Dania360",
-    "description": "Presenta tus servicios de limpieza y orienta cada solicitud de presupuesto. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
-    "h1": "Gestión de redes sociales para empresas de limpieza",
-    "eyebrow": "El servicio y su alcance, claros",
-    "lead": "Gestionamos las redes de tu empresa de limpieza. Explicamos qué servicios puede contratar cada cliente y orientamos sus consultas hacia el equipo adecuado.",
-    "promise": "Que una solicitud de presupuesto llegue con una idea del servicio.",
+    "title": "Marketing para empresas de limpieza y redes sociales | Dania360",
+    "description": "Marketing para empresas de limpieza: publicaciones, mensajes, reseñas y presupuestos, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para empresas de limpieza en redes sociales",
+    "eyebrow": "Clientes de limpieza con el servicio claro",
+    "lead": "Llevamos el marketing en redes sociales de tu empresa de limpieza: explicamos qué servicios puede contratar cada cliente, atendemos mensajes y reseñas y separamos las solicitudes de presupuesto de las candidaturas.",
+    "promise": "Que una solicitud de presupuesto de limpieza llegue con una idea del servicio.",
     "layout": "empresas-limpieza",
     "artAlt": "Esquema editorial de una oficina y tres datos de un servicio de limpieza: espacio, frecuencia y alcance",
     "artCaption": "Ilustración original de una oficina imaginada. Sirve para explicar el contenido de un servicio; no documenta un trabajo de un cliente.",
@@ -1260,16 +1352,19 @@
       "linkLabel": "Descargar el ejemplo de limpieza",
       "documentSubtitle": "Demostración editorial original de Dania360 para una empresa de limpieza. No representa un contrato o un cliente real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de limpieza",
-        "community manager empresas limpieza",
-        "marketing empresas limpieza",
-        "redes sociales limpieza oficinas"
+        "marketing para empresas de limpieza",
+        "marketing para empresa de limpieza",
+        "como conseguir clientes para empresa de limpieza",
+        "como conseguir clientes de limpieza de casas",
+        "como conseguir clientes para limpieza de oficinas",
+        "como conseguir clientes para limpieza comercial",
+        "publicidad para empresa de limpieza"
       ],
-      "intent": "Servicio para el responsable de una empresa de limpieza que quiere explicar su oferta y delegar su comunicación; no es una oferta de empleo ni una página para contratar limpieza directamente.",
+      "intent": "Responsable de una empresa de limpieza que busca marketing y redes sociales para conseguir clientes de hogares, oficinas o comunidades. El autocompletado confirma marketing para empresas de limpieza y muchas variantes de cómo conseguir clientes de limpieza; no es una oferta de empleo ni una página para contratar limpieza.",
       "distinctFrom": "La tabla editorial explica un servicio periódico de oficina y la atención diferencia presupuestos y empleo. No reproduce una demostración de reformas, un contrato de mantenimiento de jardín ni una consulta sobre control de plagas.",
       "sources": [
         {
@@ -1279,7 +1374,7 @@
           "observation": "Oferta comercial sectorial contrastada. La página propia aporta una tabla editorial y dos recorridos de atención con el alcance confirmado de Growth. No asume casos, experiencia, publicidad, servicios de adquisición o datos de analítica del proveedor consultado."
         }
       ],
-      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1320,23 +1415,44 @@
         "La relación de servicios, la zona de trabajo y fotografías, vídeos o explicaciones que puedas aportar y publicar. Revisamos qué servicio muestra cada imagen y qué información privada debe quedar fuera. Las descripciones técnicas parten de lo que tu empresa pueda justificar. Las sesiones presenciales de foto y vídeo no figuran en la cuota oficial de Growth."
       ],
       [
-        "¿Los 297 €/mes de Growth incluyen la web y un bot de IA?",
-        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan gestiona Instagram, Facebook, TikTok, Pinterest y Google Business Profile según su alcance, además de comentarios, mensajes, reseñas e informe mensual. Tu empresa concreta cada servicio y presupuesto."
+        "¿Cómo conseguir clientes para una empresa de limpieza?",
+        "Con una oferta fácil de entender, una zona de trabajo visible y una forma sencilla de pedir presupuesto. En redes conviene separar servicios para hogares, oficinas, comunidades o limpiezas puntuales y cerrar cada publicación con los datos que necesitas para valorar. Las reseñas respondidas y el perfil de Google ayudan a que te elijan. No garantizamos contratos: el seguimiento de tu empresa confirma qué solicitudes avanzan."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de una empresa de limpieza?",
+        "El alcance de cada servicio explicado, al equipo con su permiso, trabajos reales sin datos de clientes y respuestas a las dudas que más se repiten al pedir presupuesto. Los vídeos de 15 segundos sirven para enseñar un proceso concreto. Lo que se publica sobre productos o técnicas parte de lo que tu empresa pueda justificar."
+      ],
+      [
+        "¿Sirve para conseguir clientes de limpieza de oficinas y comunidades?",
+        "Sí, si es el cliente que quieres priorizar. Para oficinas y locales el contenido explica la frecuencia, el horario de acceso y quién coordina el servicio; para comunidades, las zonas comunes y la coordinación con la junta o el administrador. Cada consulta llega con esos datos para que tu equipo prepare la visita."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de limpieza?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. Tu empresa concreta cada servicio, la disponibilidad y el presupuesto."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplo de una oficina"
+    "heroExampleLabel": "Ver ejemplo de una oficina",
+    "heroPosts": [
+      "Limpieza periódica de oficinas: qué zonas incluye y cómo se acuerda la frecuencia.",
+      "Fin de obra, cristales o una limpieza puntual: cada servicio se consulta distinto.",
+      "¿Quieres trabajar con nosotros? Te indicamos el canal de selección por privado."
+    ],
+    "heroChat": {
+      "question": "Hola, necesitamos limpieza para una oficina tres días a la semana. ¿Me pasáis precio?",
+      "answer": "Gracias por escribir. Indícanos el municipio, los metros aproximados y en qué horario se puede acceder. El equipo te contacta para valorar el servicio y prepararte el presupuesto."
+    }
   },
   {
     "id": 26,
     "slug": "control-plagas",
     "name": "Empresas de control de plagas",
     "hubGroup": "servicios-inmuebles",
-    "title": "Gestión de redes sociales para control de plagas | Dania360",
-    "description": "Presenta tu empresa de control de plagas y atiende las primeras consultas con discreción. Growth incluye redes, página web y bot de IA por 297 €/mes.",
-    "h1": "Gestión de redes sociales para empresas de control de plagas",
-    "eyebrow": "Una primera atención con criterio",
-    "lead": "Gestionamos las redes de tu empresa de control de plagas. Presentamos su zona y servicios y trasladamos los mensajes al canal adecuado para valoración.",
-    "promise": "Que el primer contacto pueda continuar con tu equipo profesional.",
+    "title": "Marketing y gestión de redes sociales para control de plagas | Dania360",
+    "description": "Gestión de redes sociales para control de plagas: publicaciones, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing y gestión de redes sociales para control de plagas",
+    "eyebrow": "Marketing digital con discreción",
+    "lead": "Llevamos el marketing y la gestión de redes sociales de tu empresa de control de plagas: presentamos tu zona y tus servicios, atendemos mensajes y reseñas con discreción y pasamos cada consulta a tu equipo para valorarla.",
+    "promise": "Que el primer contacto pueda continuar con tu equipo técnico.",
     "layout": "control-plagas",
     "artAlt": "Diagrama editorial de una consulta de control de plagas con ficha protegida, valoración y seguimiento",
     "artCaption": "Esquema conceptual original del recorrido de una consulta. No contiene datos de clientes ni representa una intervención real.",
@@ -1346,16 +1462,18 @@
       "linkLabel": "Descargar el ejemplo de atención",
       "documentSubtitle": "Propuesta editorial original de Dania360 para una empresa de control de plagas. No reproduce conversaciones ni casos reales."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de control de plagas",
-        "marketing control plagas",
-        "community manager control plagas",
-        "redes sociales empresas fumigación"
+        "gestión de redes sociales para control de plagas",
+        "marketing para control de plagas",
+        "marketing para empresas de control de plagas",
+        "redes sociales control de plagas",
+        "publicidad control de plagas",
+        "como conseguir clientes control de plagas"
       ],
-      "intent": "Servicio comercial para una empresa profesional de control de plagas que quiere delegar su comunicación y orientar las consultas con discreción.",
+      "intent": "Empresa profesional de control de plagas que busca gestión de redes sociales y marketing con discreción. La landing sale 1.ª en Google España para gestión de redes sociales para control de plagas (2026-11-14), por lo que la frase se conserva literal en el title. El autocompletado solo devuelve publicidad control de plagas; marketing para control de plagas no tiene sugerencias.",
       "distinctFrom": "La demostración desarrolla una respuesta pública y su continuación privada. No es una guía de tratamientos, una muestra de limpieza ni un calendario de cuidado de jardines.",
       "sources": [
         {
@@ -1371,9 +1489,13 @@
           "observation": "La reapertura muestra un encabezado del sector y contenido mayoritariamente genérico de agencia. No se considera evidencia sustantiva de especialización técnica, demanda o resultados para control de plagas. Sus cifras y promesas no se utilizan."
         }
       ],
-      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": {
+        "query": "gestión de redes sociales para control de plagas",
+        "position": 1,
+        "checked": "2026-11-14"
+      }
     },
     "resource": [
       "DE UN COMENTARIO A UNA CONSULTA PROFESIONAL",
@@ -1411,23 +1533,44 @@
         "Acordamos con tu empresa una primera respuesta y el canal para continuar. El ejemplo de esta página muestra cómo pasar del comentario público a una conversación privada con el municipio y el tipo de inmueble. Tu equipo confirma el siguiente paso profesional; la respuesta inicial no da una visita por concertada."
       ],
       [
-        "¿Growth incluye web y bot de IA por 297 €/mes?",
-        "Sí. Growth incluye gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. Gestionamos los comentarios, mensajes y reseñas de los canales incluidos en el plan. El bot utiliza la información configurada; la empresa conserva la valoración profesional y las condiciones del servicio."
+        "¿Cómo conseguir clientes de control de plagas con las redes sociales?",
+        "Siendo fácil de encontrar y de contactar cuando alguien tiene un problema, y transmitiendo profesionalidad antes de que llame. El perfil de Google con reseñas respondidas, una web clara y respuestas rápidas por privado ayudan cuando alguien necesita una solución pronto. El contenido presenta servicios, equipo y forma de trabajar sin exponer a ningún cliente. El seguimiento de tu empresa confirma qué consultas terminan en servicio."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de control de plagas?",
+        "Cómo se pide una valoración, qué servicios ofrece la empresa y para qué tipo de inmueble, quién forma el equipo y qué acreditaciones puede comunicar, y consejos generales de prevención que el técnico haya revisado. No se publican direcciones, negocios identificables ni imágenes que comprometan a un cliente."
+      ],
+      [
+        "¿Hacéis publicidad para empresas de control de plagas?",
+        "La cuota de Growth cubre el contenido orgánico, la atención de mensajes y reseñas, el perfil de Google y la web con bot de IA. La inversión en anuncios no está incluida. Si decides anunciarte, el contenido y la web preparados con Dania360 sirven de base, y las consultas que lleguen se atienden por el mismo canal."
+      ],
+      [
+        "¿Cuánto cuesta la gestión de redes sociales para control de plagas?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. El bot utiliza la información configurada; la empresa conserva la valoración profesional y las condiciones del servicio."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplo de respuesta"
+    "heroExampleLabel": "Ver ejemplo de respuesta",
+    "heroPosts": [
+      "¿Cómo pedir una valoración? Indica el municipio y si es vivienda, local u otro espacio.",
+      "Conoce al equipo que atenderá tu consulta y cómo organiza cada visita.",
+      "Tu consulta, por privado: no hace falta contar los detalles en un comentario."
+    ],
+    "heroChat": {
+      "question": "Hola, creo que tengo cucarachas en la cocina del bar. ¿Podéis venir esta semana?",
+      "answer": "Gracias por escribir. Indícanos el municipio y el tipo de local. Un técnico revisa tu consulta, te llama para valorar la situación y confirma la disponibilidad."
+    }
   },
   {
     "id": 27,
     "slug": "mudanzas",
     "name": "Empresas de mudanzas",
     "hubGroup": "servicios-inmuebles",
-    "title": "Gestión de redes sociales para mudanzas | Dania360",
-    "description": "Presenta el equipo y los servicios de tu empresa de mudanzas con contenido propio. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
-    "h1": "Gestión de redes sociales para empresas de mudanzas",
-    "eyebrow": "La preparación también comunica",
-    "lead": "Gestionamos las redes de tu empresa de mudanzas. Mostramos la preparación y el equipo, y orientamos las consultas para que puedas valorar cada traslado.",
-    "promise": "Que tu forma de trabajar se conozca antes de la primera conversación.",
+    "title": "Marketing para empresas de mudanzas y redes sociales | Dania360",
+    "description": "Marketing para empresas de mudanzas: vídeos del equipo, publicaciones, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para empresas de mudanzas en redes sociales",
+    "eyebrow": "Marketing digital para mudanzas",
+    "lead": "Llevamos el marketing en redes sociales de tu empresa de mudanzas: mostramos la preparación y el equipo, atendemos mensajes y reseñas y recogemos los datos que necesitas para valorar cada traslado.",
+    "promise": "Que tu forma de trabajar se conozca antes de pedir presupuesto de mudanza.",
     "layout": "mudanzas",
     "artAlt": "Ilustración editorial de cajas vacías, material de preparación y una etiqueta sin datos de clientes",
     "artCaption": "Composición original con material imaginado para explicar un guion. No representa pertenencias ni una mudanza realizada.",
@@ -1437,16 +1580,18 @@
       "linkLabel": "Descargar el guion de 15 segundos",
       "documentSubtitle": "Guion editorial original de Dania360 para una empresa de mudanzas. Es una propuesta, no un vídeo producido ni un servicio realizado."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de mudanzas",
-        "redes sociales mudanzas",
-        "marketing empresas mudanzas",
-        "community manager mudanzas"
+        "marketing para empresas de mudanzas",
+        "marketing para mudanzas",
+        "como conseguir clientes de mudanzas",
+        "publicidad mudanzas",
+        "publicidad para mudanzas",
+        "redes sociales mudanzas"
       ],
-      "intent": "Servicio para una empresa que quiere delegar su comunicación y presentar sus especialidades de mudanza. No es una calculadora de traslado para particulares.",
+      "intent": "Empresa de mudanzas que busca marketing y redes sociales para conseguir clientes particulares y de empresa. El autocompletado no sugiere marketing para mudanzas, pero sí cómo conseguir clientes de mudanzas y publicidad para mudanzas; la página combina marketing para empresas de mudanzas con esas preguntas. No es una calculadora de traslado para particulares.",
       "distinctFrom": "El guion muestra preparación, material propio y equipo en 15 segundos. No utiliza rutas, estimaciones de volumen o presupuestos simulados; el almacenamiento se trata en su página correspondiente.",
       "sources": [
         {
@@ -1456,7 +1601,7 @@
           "observation": "Se contrasta una oferta sectorial de marketing. El guion de tres tomas es propio y no reproduce el sistema de rutas, el formulario, las simulaciones o las afirmaciones normativas de ese proveedor. Tampoco se atribuye su experiencia a Dania360."
         }
       ],
-      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1499,23 +1644,44 @@
         "Sí, cuando forme parte de tu actividad. Presentamos cada servicio con su alcance real y explicamos cómo se consulta. El contenido de mudanzas se centra en el traslado; el enfoque de trasteros y guardamuebles desarrolla el modelo de almacenamiento, el acceso y la atención del centro. La empresa confirma sus condiciones."
       ],
       [
-        "¿Growth incluye la web de la empresa y un bot de IA por 297 €/mes?",
-        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla publicaciones con vídeos de 15 segundos, atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local."
+        "¿Cómo conseguir clientes de mudanzas con las redes sociales?",
+        "Generando confianza antes de la primera llamada: quién forma el equipo, cómo se prepara un traslado y qué opinan otros clientes. Una mudanza se decide con poco margen y comparando varias empresas, así que ayudan las reseñas respondidas, el perfil de Google y una respuesta rápida a los mensajes con las preguntas correctas. El seguimiento de tu empresa confirma qué presupuestos se aceptan."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de mudanzas?",
+        "Vídeos de 15 segundos sobre preparación, embalaje y equipo; explicaciones de cada servicio, como mudanzas de empresa, guardamuebles o montaje cuando los ofrezcas; consejos para organizar un traslado y respuestas a dudas frecuentes sobre el presupuesto. Nunca se muestran direcciones, etiquetas ni pertenencias de clientes sin permiso."
+      ],
+      [
+        "¿Hacéis publicidad para empresas de mudanzas?",
+        "La cuota de Growth incluye el contenido orgánico, la atención de mensajes y reseñas, el perfil de Google y la web con bot de IA, pero no la inversión en anuncios. Si quieres anunciarte en temporadas concretas, el contenido y la web ya preparados sirven de base, y las solicitudes que lleguen se atienden igual."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de mudanzas?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. La disponibilidad de fechas, las condiciones del traslado y el presupuesto los confirma tu empresa."
       ]
     ],
-    "heroExampleLabel": "Ver guion de mudanzas"
+    "heroExampleLabel": "Ver guion de mudanzas",
+    "heroPosts": [
+      "Así preparamos el material antes de cada traslado: cajas, protecciones y equipo.",
+      "¿Entregas las llaves antes de poder entrar en tu casa nueva? Pregúntanos por la custodia.",
+      "Para un presupuesto orientativo, cuéntanos origen, destino y si hay ascensor."
+    ],
+    "heroChat": {
+      "question": "Hola, me mudo a otra ciudad a final de mes. Es un piso de tres habitaciones sin ascensor, ¿cuánto costaría?",
+      "answer": "Gracias por escribir. Indícanos los municipios de origen y destino, la fecha aproximada y los muebles más voluminosos. El equipo te contacta para valorar el traslado y darte presupuesto."
+    }
   },
   {
     "id": 28,
     "slug": "trasteros-guardamuebles",
     "name": "Trasteros y guardamuebles",
     "hubGroup": "servicios-inmuebles",
-    "title": "Redes sociales para trasteros y guardamuebles | Dania360",
-    "description": "Explica el modelo de tu centro de trasteros o guardamuebles y atiende cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
-    "h1": "Gestión de redes sociales para trasteros y guardamuebles",
-    "eyebrow": "El modelo del centro, bien explicado",
-    "lead": "Gestionamos las redes de tu centro de trasteros o guardamuebles y explicamos cómo se guarda, consulta y recupera lo almacenado según el servicio que ofreces.",
-    "promise": "Que quien pregunte por un espacio entienda cómo funciona tu servicio.",
+    "title": "Marketing y redes sociales para trasteros y guardamuebles | Dania360",
+    "description": "Marketing para trasteros y guardamuebles: publicaciones, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para trasteros, guardamuebles y self storage",
+    "eyebrow": "Marketing digital para centros de almacenamiento",
+    "lead": "Llevamos el marketing en redes sociales de tu centro de trasteros o guardamuebles: explicamos cómo se guarda, se accede y se recupera lo almacenado, atendemos mensajes y reseñas y orientamos cada consulta de espacio.",
+    "promise": "Que quien pregunte por un trastero entienda cómo funciona tu centro.",
     "layout": "trasteros-guardamuebles",
     "artAlt": "Comparación conceptual de acceso a una unidad y custodia de mobiliario, sin datos de un centro real",
     "artCaption": "Dibujo original para explicar dos modelos de servicio. No anuncia espacios, precios o disponibilidad de un centro.",
@@ -1525,17 +1691,17 @@
       "linkLabel": "Descargar los dos ejemplos de almacenamiento",
       "documentSubtitle": "Demostración editorial original de Dania360 para un operador de trasteros o guardamuebles. No describe un centro o un cliente real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para trasteros y guardamuebles",
-        "gestión de redes sociales para trasteros",
-        "marketing centros trasteros",
-        "redes sociales self storage",
-        "marketing guardamuebles"
+        "marketing para trasteros",
+        "marketing para self storage",
+        "publicidad trasteros",
+        "marketing para guardamuebles",
+        "como conseguir clientes trasteros"
       ],
-      "intent": "Servicio de comunicación para un operador de almacenamiento que quiere explicar su oferta y atender consultas. Se distingue de contratar un espacio o comprar software para el centro.",
+      "intent": "Operador de trasteros, guardamuebles o self storage que busca marketing y redes sociales para su centro. El autocompletado solo sugiere marketing para self storage y publicidad trasteros; se combina trasteros y guardamuebles, las palabras que usa el cliente en España, con self storage en el H1. No es contratar un espacio ni comprar software.",
       "distinctFrom": "Compara dos necesidades de almacenamiento y qué debe confirmar el operador. No repite el guion de mudanzas, simula inventario ni ofrece intermediación inmobiliaria.",
       "sources": [
         {
@@ -1551,7 +1717,7 @@
           "observation": "Referencia secundaria del estudio previo sobre una solución de software. No se utiliza como prueba de demanda ni se atribuyen a Growth disponibilidad en tiempo real, inventario o reservas integradas."
         }
       ],
-      "demand": "Consultas candidatas e intención contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1590,22 +1756,43 @@
         "El modelo de servicio, las condiciones que se puedan comunicar y material autorizado del centro o del equipo. Revisamos qué puede explicar cada imagen y qué datos debe confirmar el operador. No se atribuyen horarios, acceso automatizado, vigilancia o seguros por pertenecer al sector. Las grabaciones presenciales no figuran en la cuota de Growth."
       ],
       [
-        "¿La web y el bot de IA están incluidos en los 297 €/mes?",
-        "Sí. Growth incluye gestión de redes sociales y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. También contempla atención de comentarios, mensajes y reseñas en los canales incluidos, e informe mensual de actividad y visibilidad local. El centro conserva la confirmación de sus servicios y condiciones."
+        "¿Cómo conseguir clientes para un centro de trasteros?",
+        "Apareciendo cuando alguien busca dónde guardar sus cosas cerca de casa y resolviendo sus dudas rápido. El perfil de Google con horarios confirmados, fotos y reseñas respondidas, una web que explica tamaños y acceso, y un bot de IA que recoge la consulta fuera de horario ayudan a no perder esos contactos. Las mudanzas y las reformas son momentos clave que el contenido puede acompañar."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de un centro de self storage?",
+        "Cómo es el acceso y quién atiende, referencias visibles del tamaño de cada unidad con medidas confirmadas, usos habituales como guardar muebles durante una reforma o stock de un negocio, y respuestas a dudas sobre contratación. No se muestran objetos de clientes ni detalles de seguridad del centro que no deban ser públicos."
+      ],
+      [
+        "¿Hacéis publicidad para trasteros y guardamuebles?",
+        "Growth incluye el contenido orgánico, la atención de mensajes y reseñas, tu perfil de Google y la web con bot de IA; la inversión en anuncios no está incluida. Si decides anunciarte, el contenido y la web preparados con Dania360 sirven de base y las consultas que lleguen se atienden por el mismo canal."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para un centro de trasteros o guardamuebles?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. El centro conserva la confirmación de disponibilidad, precios y condiciones de contratación."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplos de almacenamiento"
+    "heroExampleLabel": "Ver ejemplos de almacenamiento",
+    "heroPosts": [
+      "¿Cabe tu sofá? Envíanos las medidas del mueble más grande y te orientamos.",
+      "Entregas las llaves antes de entrar en tu casa nueva: así funciona la custodia de muebles.",
+      "Cómo es el acceso a tu trastero: horarios y condiciones, explicados antes de contratar."
+    ],
+    "heroChat": {
+      "question": "Hola, necesito guardar los muebles de un piso tres meses mientras hago obra. ¿Tenéis sitio?",
+      "answer": "Gracias por escribir. Cuéntanos qué muebles son, las medidas del más voluminoso y desde cuándo lo necesitas. El centro te confirma las opciones disponibles y sus condiciones."
+    }
   },
   {
     "id": 29,
     "slug": "administradores-fincas",
     "name": "Administradores de fincas",
     "hubGroup": "servicios-inmuebles",
-    "title": "Gestión de redes sociales para administradores de fincas",
-    "description": "Presenta los servicios de tu administración de fincas y orienta cada consulta. Growth por 297 €/mes incluye gestión de redes, web y bot de IA.",
-    "h1": "Gestión de redes sociales para administradores de fincas",
-    "eyebrow": "Tu despacho, su servicio y su atención",
-    "lead": "Gestionamos las redes de tu administración de fincas. Presentamos tus servicios a nuevas comunidades y orientamos los mensajes por los canales de tu despacho.",
+    "title": "Gestión de redes sociales para administradores de fincas | Dania360",
+    "description": "Gestión de redes sociales para administradores de fincas: publicaciones, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing y gestión de redes sociales para administradores de fincas",
+    "eyebrow": "Marketing digital para despachos de administración",
+    "lead": "Llevamos el marketing y la gestión de redes sociales de tu administración de fincas: presentamos tus servicios a nuevas comunidades, atendemos mensajes y reseñas y separamos las consultas comerciales de las incidencias.",
     "promise": "Que una comunidad entienda cómo empezar a hablar con tu despacho.",
     "layout": "administradores-fincas",
     "artAlt": "Mapa editorial de dos motivos de contacto: conocer el despacho y continuar un asunto de una comunidad gestionada",
@@ -1616,16 +1803,17 @@
       "linkLabel": "Descargar el ejemplo de atención del despacho",
       "documentSubtitle": "Ejemplo editorial original de Dania360 para una administración de fincas. No reproduce expedientes o conversaciones reales."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
         "gestión de redes sociales para administradores de fincas",
-        "marketing administradores fincas",
-        "redes sociales administración comunidades",
-        "community manager administradores fincas"
+        "marketing para administradores de fincas",
+        "redes sociales administradores de fincas",
+        "como conseguir clientes administrador de fincas",
+        "como conseguir comunidades administrador de fincas"
       ],
-      "intent": "Servicio de comunicación para un despacho de administración de comunidades. Se distingue de cursos de marketing y de la intermediación inmobiliaria que también aparecen en resultados relacionados.",
+      "intent": "Despacho de administración de fincas que busca gestión de redes sociales y marketing para captar comunidades. La landing sale 5.ª en Google España para gestión de redes sociales para administradores de fincas (2026-11-14), por lo que la frase se conserva literal al principio del title. El autocompletado no devuelve sugerencias para marketing ni para cómo conseguir comunidades; marketing se usa en el H1 y en la descripción. Se distingue de cursos de marketing y de la intermediación inmobiliaria.",
       "distinctFrom": "El ejemplo separa una nueva comunidad que solicita información y una incidencia de una comunidad gestionada. No ofrece asesoramiento jurídico individual, anuncia viviendas ni utiliza expedientes como prueba de resultados.",
       "sources": [
         {
@@ -1641,9 +1829,13 @@
           "observation": "Oferta comercial de web y marketing dirigida a administradores contrastada. No se adoptan sus promesas de posiciones, especialización exclusiva, afirmaciones legales ni resultados. El ejemplo de dos recorridos y el alcance de Growth son propios."
         }
       ],
-      "demand": "Intención y oferta contrastadas cualitativamente. La mezcla de servicios y formación en resultados no acredita volumen, dificultad o puesto de Google.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": {
+        "query": "gestión de redes sociales para administradores de fincas",
+        "position": 5,
+        "checked": "2026-11-14"
+      }
     },
     "resource": [
       "CADA CONSULTA, SU CANAL",
@@ -1680,23 +1872,44 @@
         "Este enfoque presenta la administración de comunidades y su forma de atención. La comunicación de una agencia inmobiliaria se centra en servicios como la intermediación y su relación con propietarios o interesados. Si tu negocio desarrolla ambas actividades, revisamos cómo explicar cada una con claridad."
       ],
       [
-        "¿Growth incluye la web del despacho y un bot de IA por 297 €/mes?",
-        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla comentarios, mensajes y reseñas en los canales incluidos, además de informe mensual de actividad y visibilidad local. El despacho conserva la atención profesional de sus comunidades."
+        "¿Cómo conseguir comunidades nuevas como administrador de fincas?",
+        "Una comunidad que valora cambiar de administrador quiere saber cómo la atenderán, así que el contenido debe mostrar cómo trabaja tu despacho: quién responde, cómo se comunican las incidencias y cómo se prepara una junta. Las reseñas respondidas y el perfil de Google pesan cuando un presidente compara despachos de su zona. No garantizamos altas: el seguimiento del despacho confirma qué contactos llegan a reunión."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de un administrador de fincas?",
+        "Presentaciones del equipo, cómo se solicita información para una comunidad, cómo se comunica una incidencia, explicaciones generales sobre juntas, obras o derramas revisadas por el profesional y avisos sobre los canales del despacho. Los asuntos particulares, las actas y los datos de vecinos nunca se publican."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para administradores de fincas?",
+        "Prepara y publica el contenido, mantiene los perfiles y atiende comentarios, mensajes y reseñas, distinguiendo una nueva comunidad interesada de un vecino con una incidencia. En Dania360 incluye también la web del despacho con bot de IA y la gestión del perfil de Google. Las explicaciones normativas las valida el profesional responsable."
+      ],
+      [
+        "¿Cuánto cuesta la gestión de redes sociales para administradores de fincas?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Si quieres presencia también en LinkedIn, Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. El despacho conserva la atención profesional de sus comunidades."
       ]
     ],
-    "heroExampleLabel": "Ver rutas de atención"
+    "heroExampleLabel": "Ver rutas de atención",
+    "heroPosts": [
+      "¿Tu comunidad quiere cambiar de administrador? Así preparamos la primera reunión.",
+      "Una incidencia de tu comunidad se comunica por el canal del despacho, no en comentarios.",
+      "Conoce al equipo que atiende a tu comunidad y cómo responde a cada consulta."
+    ],
+    "heroChat": {
+      "question": "Hola, soy presidente de una comunidad de 24 vecinos y queremos cambiar de administrador. ¿Cómo trabajáis?",
+      "answer": "Gracias por escribir. Indícanos el municipio y qué os gustaría aclarar. El despacho os contacta para explicar sus servicios y preparar una reunión con la junta."
+    }
   },
   {
     "id": 30,
     "slug": "seguridad-alarmas",
     "name": "Empresas de seguridad y alarmas",
     "hubGroup": "servicios-inmuebles",
-    "title": "Gestión de redes sociales para seguridad y alarmas | Dania360",
-    "description": "Explica los servicios de tu empresa de seguridad y alarmas con un mensaje claro. Growth por 297 €/mes incluye gestión de redes, página web y bot de IA.",
-    "h1": "Gestión de redes sociales para empresas de seguridad y alarmas",
-    "eyebrow": "El servicio que tu empresa puede valorar",
-    "lead": "Gestionamos las redes de tu empresa de seguridad y alarmas. Explicamos sus servicios y dirigimos las consultas al equipo que puede valorarlas.",
-    "promise": "Que el primer mensaje permita continuar con el profesional adecuado.",
+    "title": "Marketing y redes sociales para empresas de seguridad | Dania360",
+    "description": "Marketing para empresas de seguridad y alarmas: publicaciones, mensajes y reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para empresas de seguridad y alarmas",
+    "eyebrow": "Seguridad, alarmas y confianza",
+    "lead": "Llevamos el marketing en redes sociales de tu empresa de seguridad y alarmas: explicamos tus servicios con información confirmada, atendemos mensajes y reseñas y dirigimos cada consulta al equipo que puede valorarla.",
+    "promise": "Que el primer mensaje sobre seguridad continúe con el profesional adecuado.",
     "layout": "seguridad-alarmas",
     "artAlt": "Dibujos conceptuales de vivienda y comercio para presentar el ámbito de una consulta de seguridad",
     "artCaption": "Composición editorial original. No muestra una instalación, un sistema de seguridad o una propiedad real.",
@@ -1706,17 +1919,18 @@
       "linkLabel": "Descargar el ejemplo de seguridad y alarmas",
       "documentSubtitle": "Guion editorial original de Dania360 para una empresa de seguridad o alarmas. No describe una instalación o un cliente real."
     },
-    "contentModified": "2026-11-08",
+    "contentModified": "2026-11-14",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
-        "gestión de redes sociales para empresas de seguridad y alarmas",
-        "gestión de redes sociales para empresas de seguridad",
-        "redes sociales empresas alarmas",
-        "marketing empresas seguridad alarmas",
-        "community manager seguridad privada"
+        "marketing para empresas de seguridad",
+        "marketing para empresas de seguridad y vigilancia",
+        "cómo conseguir clientes para una empresa de seguridad privada",
+        "publicidad para empresa de seguridad",
+        "publicidad de alarmas de seguridad",
+        "marketing para empresas de alarmas"
       ],
-      "intent": "Servicio comercial para una empresa que quiere delegar la comunicación de su oferta de seguridad o alarmas. No es una página para contratar vigilancia o instalar un sistema directamente.",
+      "intent": "Empresa de seguridad o instaladora de alarmas que busca marketing y redes sociales para conseguir clientes. El autocompletado sugiere marketing para empresas de seguridad y vigilancia, cómo conseguir clientes para una empresa de seguridad privada y publicidad para empresa de seguridad. El contenido respeta la habilitación y la normativa de seguridad privada y no expone instalaciones. No es una página para contratar vigilancia.",
       "distinctFrom": "El ejemplo presenta el ámbito y el primer contacto de un servicio confirmado. No reproduce aperturas de cerrajería, trabajos eléctricos ni recorridos de una instalación de seguridad.",
       "sources": [
         {
@@ -1726,7 +1940,7 @@
           "observation": "La agencia presenta servicios de redes y relaciones propias con entidades del sector de seguridad. Se contrasta una oferta profesional; sus colaboraciones, descuentos, credenciales y precios no se atribuyen a Dania360. El mensaje y el alcance comercial de esta página son propios."
         }
       ],
-      "demand": "Consultas candidatas y oferta profesional contrastadas cualitativamente. Volumen de búsqueda, dificultad y posición de Google no verificados.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-14 (hl=es, gl=es) para las consultas indicadas. Volumen de búsqueda y dificultad no verificados.",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -1769,11 +1983,32 @@
         "Podemos preparar contenido con presentaciones del equipo, esquemas conceptuales y explicaciones del servicio. Cuando se utiliza material de una intervención, tu empresa confirma qué puede mostrarse y qué permisos tiene. Las imágenes se seleccionan para explicar la actividad; la producción presencial de foto y vídeo no figura en la cuota oficial de Growth."
       ],
       [
-        "¿Growth incluye web y bot de IA por 297 €/mes?",
-        "Sí. Growth incluye la gestión de redes y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El plan contempla atención de comentarios, mensajes y reseñas en los canales incluidos e informe mensual de actividad y visibilidad local. Tu empresa confirma las valoraciones, las visitas y las condiciones del servicio."
+        "¿Cómo conseguir clientes para una empresa de seguridad privada?",
+        "Transmitiendo confianza sin exponer a nadie: equipo identificado, servicios explicados, forma de valorar cada espacio y reseñas respondidas. Comunicamos solo los servicios para los que tu empresa esté habilitada y los datos de autorización que nos confirme, porque la normativa de seguridad privada fija quién puede prestar y anunciar estos servicios. El seguimiento de tu empresa confirma qué consultas se convierten en contratos."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de una empresa de alarmas?",
+        "Cómo se pide una valoración, diferencias entre proteger una vivienda, un comercio o una nave, presentaciones del equipo, consejos generales de prevención revisados por tu empresa y respuestas a dudas frecuentes. Nunca se publican ubicaciones de clientes, posiciones de dispositivos, paneles en uso ni horarios de un local."
+      ],
+      [
+        "¿Hacéis publicidad para empresas de seguridad?",
+        "Growth incluye el contenido orgánico, la atención de mensajes y reseñas, tu perfil de Google y la web con bot de IA; la inversión en anuncios no está incluida. Si decides anunciarte, el contenido preparado con Dania360 sirve de base y debe respetar los mismos requisitos de información que tu empresa aplica en su publicidad."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de seguridad y alarmas?",
+        "Growth cuesta 297 €/mes, sin permanencia. Incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, la gestión de tu perfil de Google, la atención de comentarios, mensajes y reseñas, el informe mensual y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Scale cuesta 497 €/mes y añade LinkedIn, X y YouTube con vídeos de 30 segundos. La inversión en anuncios no está incluida. Tu empresa confirma las valoraciones, las visitas y las condiciones del servicio."
       ]
     ],
-    "heroExampleLabel": "Ver ejemplo de consulta"
+    "heroExampleLabel": "Ver ejemplo de consulta",
+    "heroPosts": [
+      "Antes de proponer un sistema, necesitamos saber qué espacio quieres proteger.",
+      "Vivienda, comercio o nave: cada valoración empieza con preguntas distintas.",
+      "No publicamos instalaciones de clientes. Te lo explicamos todo por privado."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo una tienda y quiero poner alarma con cámaras. ¿Cuánto me costaría?",
+      "answer": "Gracias por escribir. Indícanos el municipio y el tipo de local. Un técnico de la empresa te contacta para valorar el espacio y prepararte una propuesta."
+    }
   },
   {
     "id": 31,
