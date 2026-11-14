@@ -1,7 +1,9 @@
 import './index.css'
+import './motion.js'
 
 // El HTML se genera completo en el prerender. Menú y FAQ funcionan con
-// <details> nativos incluso sin JS; solo se añade cierre cómodo del menú.
+// <details> nativos incluso sin JS; aquí se añade el cierre cómodo del menú y
+// motion.js añade el movimiento ligero (sin React ni librerías).
 const mobileMenu = document.querySelector('[data-mobile-nav]')
 
 mobileMenu?.addEventListener('click', (event) => {

@@ -71,9 +71,15 @@ comprobar(
   (html.match(/<img\b(?![^>]*\balt=)/g) || []).length === 0,
 );
 comprobar(
-  'Los huecos de fotografía se anuncian con role e etiqueta accesible',
-  (html.match(/class="marco[^"]*"/g) || []).length ===
-    (html.match(/class="marco[^"]*"[\s\S]{0,220}?aria-label="/g) || []).length,
+  'Cada fotografía lleva un alt descriptivo o es decorativa (alt vacío)',
+  [...html.matchAll(/<img\b[^>]*\balt="([^"]*)"/g)].every(([, alt]) => alt === '' || alt.length >= 15) &&
+    /<img\b[^>]*hero-salon[^>]*alt="[^"]{15,}"/.test(html),
+);
+comprobar(
+  'Las fotografías decorativas no se anuncian a los lectores de pantalla',
+  [...html.matchAll(/<img\b[^>]*src="\/salones-estetica\/[^"]+"[^>]*alt=""[^>]*>/g)].length ===
+    (html.match(/aria-hidden="true">\s*<img\b[^>]*alt=""/g) || []).length +
+      (html.match(/class="sl-idea sl-idea--foto">\s*<img\b[^>]*alt=""/g) || []).length,
 );
 
 /* -------------------------------------------------------------------- SEO */
@@ -97,6 +103,22 @@ comprobar('La landing es indexable', /name="robots" content="index, follow/.test
 for (const propiedad of ['og:type', 'og:url', 'og:title', 'og:description', 'og:image', 'og:image:alt']) {
   comprobar(`Open Graph declara ${propiedad}`, html.includes(`property="${propiedad}"`));
 }
+comprobar(
+  'og:title y twitter:title repiten el title; og:description y twitter:description repiten la description',
+  html.includes(`property="og:title" content="${sitio.landing.title}"`) &&
+    html.includes(`name="twitter:title" content="${sitio.landing.title}"`) &&
+    html.includes(`property="og:description" content="${sitio.landing.description}"`) &&
+    html.includes(`name="twitter:description" content="${sitio.landing.description}"`) &&
+    sitio.landing.og.title === sitio.landing.title &&
+    sitio.landing.og.description === sitio.landing.description,
+);
+comprobar(
+  'La description tiene entre 140 y 160 caracteres e indica Growth por 297 €/mes, sin permanencia y auditoría gratis',
+  sitio.landing.description.length >= 140 && sitio.landing.description.length <= 160 &&
+    sitio.landing.description.includes('297 €/mes') &&
+    /sin permanencia/i.test(sitio.landing.description) && /auditoría gratis/i.test(sitio.landing.description) &&
+    !/99\s*€/.test(sitio.landing.description),
+);
 comprobar('Twitter Card en formato summary_large_image', html.includes('name="twitter:card" content="summary_large_image"'));
 comprobar('Twitter Card declara imagen', html.includes('name="twitter:image"'));
 
@@ -108,22 +130,39 @@ const bloques = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*
   (coincidencia) => JSON.parse(coincidencia[1]),
 );
 
-comprobar('Hay tres bloques JSON-LD y todos son JSON válido', bloques.length === 3);
-
-const service = bloques.find((b) => b['@type'] === 'Service');
-const faqPage = bloques.find((b) => b['@type'] === 'FAQPage');
-const breadcrumb = bloques.find((b) => b['@type'] === 'BreadcrumbList');
-
-comprobar('Existe un bloque Service', Boolean(service));
-comprobar('Existe un bloque FAQPage', Boolean(faqPage));
 comprobar(
-  'Las migas describen la navegación visible desde Inicio y Sectores hasta la landing',
+  'Hay un único bloque JSON-LD, es JSON válido y agrupa las entidades en @graph',
+  bloques.length === 1 && Array.isArray(bloques[0]?.['@graph']) && bloques[0]['@context'] === 'https://schema.org',
+);
+
+const entidades = bloques.flatMap((b) => b['@graph'] ?? [b]);
+const deTipo = (tipo) => entidades.filter((e) => e['@type'] === tipo);
+const service = deTipo('Service')[0];
+const faqPage = deTipo('FAQPage')[0];
+const breadcrumb = deTipo('BreadcrumbList')[0];
+const webPage = deTipo('WebPage')[0];
+
+for (const tipo of ['Organization', 'WebSite', 'ImageObject', 'WebPage', 'BreadcrumbList', 'Service', 'FAQPage']) {
+  comprobar(`El grafo contiene exactamente una entidad ${tipo}`, deTipo(tipo).length === 1);
+}
+comprobar(
+  'WebPage repite la meta description, declara dateModified y enlaza migas, imagen y Service',
+  webPage?.description === sitio.landing.description &&
+    webPage?.url === sitio.landing.canonical &&
+    webPage?.dateModified === sitio.landing.fechaModificacion &&
+    /^\d{4}-\d{2}-\d{2}$/.test(webPage?.dateModified ?? '') &&
+    webPage?.breadcrumb?.['@id'] === breadcrumb?.['@id'] &&
+    webPage?.mainEntity?.['@id'] === service?.['@id'] &&
+    webPage?.primaryImageOfPage?.['@id'] === deTipo('ImageObject')[0]?.['@id'],
+);
+comprobar(
+  'Las migas describen la navegación visible desde Inicio y el pilar de gestión de redes hasta la landing',
   breadcrumb?.itemListElement?.length === 3 &&
     breadcrumb.itemListElement.every((item, index) => item.position === index + 1) &&
     breadcrumb.itemListElement[0].item === `${sitio.origen}/` &&
-    breadcrumb.itemListElement[1].item === `${sitio.origen}/sectores/` &&
+    breadcrumb.itemListElement[1].item === `${sitio.origen}/gestion-redes-sociales/` &&
     breadcrumb.itemListElement[2].item === sitio.landing.canonical &&
-    /aria-label="Migas de pan"[\s\S]*?href="\/sectores\/"/.test(html),
+    /aria-label="Migas de pan"[\s\S]*?href="\/"[\s\S]*?href="\/gestion-redes-sociales\/"[\s\S]*?aria-current="page">[^<]+</.test(html),
 );
 comprobar(
   'Service declara a Dania360 como proveedor',
@@ -152,6 +191,21 @@ comprobar(
   }),
 );
 
+const desescapar = (texto) =>
+  texto.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+const faqVisible = [...html.matchAll(/<details class="sl-faq__item"[^>]*><summary><span>([^<]+)<\/span><i aria-hidden="true"><\/i><\/summary><p>([^<]+)<\/p><\/details>/g)]
+  .map(([, pregunta, respuesta]) => ({ pregunta: desescapar(pregunta), respuesta: desescapar(respuesta) }));
+comprobar(
+  'El acordeón visible muestra literalmente las preguntas y respuestas de config/faq.json',
+  faqVisible.length === faq.preguntas.length &&
+    faq.preguntas.every((p, i) => faqVisible[i]?.pregunta === p.pregunta && faqVisible[i]?.respuesta === p.respuesta),
+  `${faqVisible.length} visibles frente a ${faq.preguntas.length} en config`,
+);
+comprobar(
+  'El acordeón es nativo (details/summary), sin depender de JavaScript',
+  (html.match(/<details class="sl-faq__item"/g) || []).length === faq.preguntas.length,
+);
+
 /* ------------------------------------------------------------------ planes */
 
 grupo('Planes');
@@ -174,6 +228,13 @@ for (const plan of planes.planes) {
   );
 }
 
+const ordenPlanes = [...html.matchAll(/<h3 class="sl-plan__nombre" id="plan-([a-z]+)">/g)].map((m) => m[1]);
+comprobar(
+  'El plan destacado (Growth) aparece el primero y una sola vez cada plan',
+  ordenPlanes[0] === planes.planes.find((p) => p.destacado)?.id &&
+    ordenPlanes.length === planes.planes.length && new Set(ordenPlanes).size === planes.planes.length,
+  ordenPlanes.join(', '),
+);
 comprobar('Se muestra el microcopy de condiciones', html.includes(planes.microcopy));
 
 /* ---------------------------------------------------------------- WhatsApp */
@@ -218,7 +279,7 @@ const ubicaciones = [
   'faq',
   'cierre',
   'pie',
-  'barra_movil',
+  'flotante',
 ];
 
 for (const ubicacion of ubicaciones) {
@@ -231,6 +292,16 @@ for (const ubicacion of ubicaciones) {
 comprobar(
   'La navegación lleva directamente a los servicios, sin anclas de bloques eliminados',
   html.includes('href="#servicios"') && html.includes('id="servicios"') && !html.includes('href="#resultados"'),
+);
+const anclas = [...new Set([...html.matchAll(/href="#([^"]+)"/g)].map((m) => m[1]))];
+comprobar(
+  'Cada ancla interna apunta a un id que existe',
+  anclas.every((id) => html.includes(`id="${id}"`)),
+  anclas.filter((id) => !html.includes(`id="${id}"`)).join(', '),
+);
+comprobar(
+  'El botón flotante de WhatsApp existe, es el CTA "flotante" y tiene mensaje propio',
+  /<a class="wa-float" href="https:\/\/wa\.me\/[^"]+\?text=[^"]+"[^>]*data-cta-location="flotante"/.test(html),
 );
 comprobar(
   'La auditoría gratuita aparece en el CTA y en el mensaje de WhatsApp',
@@ -333,10 +404,18 @@ comprobar(
 const css = leer('site/salones-estetica/assets/css/salones-estetica.css');
 comprobar('El CSS respeta prefers-reduced-motion', css.includes('prefers-reduced-motion'));
 comprobar('El CSS define un foco visible', css.includes(':focus-visible'));
-comprobar('Hay barra fija de WhatsApp en móvil', css.includes('.barra-movil'));
+comprobar(
+  'Hay botón flotante de WhatsApp fijo y no se oculta en ninguna anchura',
+  /\.wa-float\s*\{[^}]*position:\s*fixed/.test(css) && !/\.wa-float[^{]*\{[^}]*display:\s*none/.test(css),
+);
+const alturasBotones = [...css.matchAll(/([^{}]*(?:sl-btn|sl-wa-enlace|sl-tipos__pestanas button|sl-ideas__flecha)[^{}]*)\{([^}]*)\}/g)]
+  .filter(([, selector]) => !/svg|::|icono/.test(selector))
+  .flatMap(([, selector, cuerpo]) => [...cuerpo.matchAll(/(?<![\w-])(?:min-)?height:\s*(\d+)px/g)].map((m) => [selector.trim(), Number(m[1])]));
 comprobar(
   'Los botones tienen altura cómoda para el pulgar',
-  /\.boton\s*\{[\s\S]*?min-height:\s*52px/.test(css),
+  /\.sl-btn\s*\{[\s\S]*?min-height:\s*52px/.test(css) &&
+    alturasBotones.length >= 4 && alturasBotones.every(([, px]) => px >= 44),
+  alturasBotones.filter(([, px]) => px < 44).map(([s, px]) => `${s} ${px}px`).join(', '),
 );
 comprobar('El cuerpo evita el desplazamiento horizontal', /body\s*\{[\s\S]*?overflow-x:\s*hidden/.test(css));
 

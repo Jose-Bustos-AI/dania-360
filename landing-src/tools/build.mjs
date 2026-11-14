@@ -99,45 +99,34 @@ function mensajePlan(plan) {
   );
 }
 
-function renderPlan(plan) {
-  const clases = plan.destacado ? "plan plan--destacado" : "plan";
-  const cinta = plan.etiqueta
-    ? `\n              <p class="plan__cinta">${esc(plan.etiqueta)}</p>`
-    : '';
+const iconoCheck = '<svg aria-hidden="true" focusable="false"><use href="#i-check" /></svg>';
 
+/*
+ * Orden de lectura: el plan destacado (Growth, el que incluye la gestión de
+ * redes con web y bot de IA) va primero; el resto conserva el orden de
+ * config/planes.json. El Service del JSON-LD sigue sin publicar Starter.
+ */
+const planesEnPagina = [...planes.planes].sort((a, b) => Number(b.destacado) - Number(a.destacado));
+
+function renderPlan(plan) {
+  const clases = plan.destacado ? 'sl-plan sl-plan--destacado' : 'sl-plan';
+  const claseBoton = plan.destacado ? 'sl-btn sl-btn--accion sl-btn--ancho' : 'sl-btn sl-btn--linea sl-btn--ancho';
+  const cinta = plan.etiqueta
+    ? `\n              <p class="sl-plan__cinta">${esc(plan.etiqueta)}</p>`
+    : '';
   const incluye = plan.incluye
-    .map(
-      (linea) =>
-        '                <li>\n' +
-        '                  <svg class="marca-lista" style="color: var(--terracota)" aria-hidden="true" focusable="false"><use href="#i-check" /></svg>\n' +
-        `                  ${esc(linea)}\n` +
-        '                </li>',
-    )
+    .map((linea) => `                <li>${iconoCheck}${esc(linea)}</li>`)
     .join('\n');
 
   return `            <article class="${clases}" aria-labelledby="plan-${plan.id}">${cinta}
-              <h3 class="plan__nombre" id="plan-${plan.id}">${esc(plan.nombre)}</h3>
-              <p class="plan__descripcion">${esc(plan.descripcion)}</p>
-
-              <p class="plan__precio">
-                <span class="plan__importe">${plan.precio}</span>
-                <span class="plan__periodo">${esc(planes.moneda)} / ${esc(planes.periodo)}</span>
-              </p>
-              <p class="plan__canales">${esc(plan.canales)}</p>
-
-              <ul class="plan__incluye">
+              <h3 class="sl-plan__nombre" id="plan-${plan.id}">${esc(plan.nombre)}</h3>
+              <p class="sl-plan__descripcion">${esc(plan.descripcion)}</p>
+              <p class="sl-plan__precio"><span class="sl-plan__importe">${plan.precio}</span><span class="sl-plan__periodo">${esc(planes.moneda)} / ${esc(planes.periodo)}</span></p>
+              <p class="sl-plan__canales">${esc(plan.canales)}</p>
+              <ul class="sl-plan__incluye">
 ${incluye}
               </ul>
-
-              <a
-                class="boton boton--wa boton--ancho"
-                href="${esc(enlaceWhatsapp(mensajePlan(plan)))}"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-cta-location="plan"
-                data-plan="${esc(plan.id)}"
-                aria-label="Escribir por WhatsApp a Dania360 para pedir información del plan ${esc(plan.nombre)} de ${plan.precio} ${esc(planes.moneda)} al mes"
-              >
+              <a class="${claseBoton}" href="${esc(enlaceWhatsapp(mensajePlan(plan)))}" target="_blank" rel="noopener noreferrer" data-cta-location="plan" data-plan="${esc(plan.id)}" aria-label="Escribir por WhatsApp a Dania360 para pedir información del plan ${esc(plan.nombre)} de ${plan.precio} ${esc(planes.moneda)} al mes">
                 <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
                 ${esc(plan.boton)}
               </a>
@@ -147,94 +136,137 @@ ${incluye}
 /* -------------------------------------------------------------------- faq */
 
 /**
- * El acordeón visible y el bloque FAQPage se generan de la misma fuente. Un
- * schema que no coincide con lo que ve la persona es motivo de penalización, y
- * mantener dos copias a mano garantiza que antes o después dejen de coincidir.
+ * El acordeón visible (details/summary nativos, accesibles sin JavaScript) y
+ * el FAQPage del JSON-LD se generan de la misma fuente, config/faq.json. Un
+ * schema que no coincide con lo que ve la persona es motivo de penalización.
  */
 function renderFaq() {
   return faq.preguntas
-    .map((item, indice) => {
-      const id = `faq-${indice + 1}`;
-      return `            <div class="faq__item">
-              <h3>
-                <button
-                  class="faq__pregunta"
-                  type="button"
-                  data-faq-pregunta
-                  aria-expanded="false"
-                  aria-controls="${id}"
-                  id="${id}-boton"
-                >
-                  <span>${esc(item.pregunta)}</span>
-                  <span class="faq__signo" aria-hidden="true"></span>
-                </button>
-              </h3>
-              <div class="faq__respuesta" id="${id}" role="region" aria-labelledby="${id}-boton">
-                <p>${esc(item.respuesta)}</p>
-              </div>
-            </div>`;
-    })
+    .map(
+      (item, indice) =>
+        `            <details class="sl-faq__item"${indice === 0 ? ' open' : ''}><summary><span>${esc(item.pregunta)}</span><i aria-hidden="true"></i></summary><p>${esc(item.respuesta)}</p></details>`,
+    )
     .join('\n');
 }
 
 /* ----------------------------------------------------------------- schema */
 
-const schemaService = {
+/*
+ * Un único bloque JSON-LD con @graph: Organization, WebSite, imagen principal,
+ * WebPage (con la misma description que la meta), migas con el pilar
+ * /gestion-redes-sociales/, Service con Growth y Scale, y FAQPage.
+ */
+const base = sitio.landing.canonical;
+const ofertaPlan = (plan) => ({
+  '@type': 'Offer',
+  name: plan.nombre,
+  description: plan.descripcion,
+  price: String(plan.precio),
+  priceCurrency: planes.moneda,
+  availability: 'https://schema.org/InStock',
+  url: `${base}#planes`,
+  priceSpecification: {
+    '@type': 'UnitPriceSpecification',
+    price: String(plan.precio),
+    priceCurrency: planes.moneda,
+    billingIncrement: 1,
+    unitCode: 'MON',
+  },
+});
+
+const schemaGrafo = {
   '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Gestión de redes sociales para peluquerías y centros de estética',
-  serviceType: 'Gestión de redes sociales para peluquerías',
-  description: sitio.landing.description,
-  url: sitio.landing.canonical,
-  provider: {
-    '@type': 'Organization',
-    name: 'Dania360',
-    url: `${sitio.origen}/`,
-    telephone: contacto.telefonoE164,
-  },
-  audience: {
-    '@type': 'BusinessAudience',
-    name: 'Centros de estética, salones de belleza, centros de uñas, estudios de pestañas y cejas, centros de depilación y peluquerías con servicios de estética',
-  },
-  areaServed: { '@type': 'Country', name: 'España' },
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Planes de gestión de presencia digital',
-    itemListElement: planes.planes.filter((plan) => plan.id !== 'starter').map((plan) => ({
-      '@type': 'Offer',
-      name: plan.nombre,
-      description: plan.descripcion,
-      price: String(plan.precio),
-      priceCurrency: planes.moneda,
-      url: `${sitio.landing.canonical}#planes`,
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: String(plan.precio),
-        priceCurrency: planes.moneda,
-        billingIncrement: 1,
-        unitCode: 'MON',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${sitio.origen}/#organization`,
+      name: sitio.marca,
+      url: `${sitio.origen}/`,
+      logo: `${sitio.origen}/logo-dania360-orange-black.webp`,
+      telephone: contacto.telefonoE164,
+      email: 'hola@dania360.com',
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${sitio.origen}/#website`,
+      url: `${sitio.origen}/`,
+      name: sitio.marca,
+      inLanguage: sitio.landing.idioma,
+      publisher: { '@id': `${sitio.origen}/#organization` },
+    },
+    {
+      '@type': 'ImageObject',
+      '@id': `${base}#primaryimage`,
+      url: `${base}assets/img/hero-salon.webp`,
+      width: fotos.huecos['hero-salon'].anchoRecomendado,
+      height: fotos.huecos['hero-salon'].altoRecomendado,
+      caption: 'Profesional atendiendo a una clienta en un salón de estética',
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `${base}#webpage`,
+      url: base,
+      name: sitio.landing.title.replace(/\s*\|\s*Dania360$/, ''),
+      description: sitio.landing.description,
+      inLanguage: sitio.landing.idioma,
+      dateModified: sitio.landing.fechaModificacion,
+      isPartOf: { '@id': `${sitio.origen}/#website` },
+      primaryImageOfPage: { '@id': `${base}#primaryimage` },
+      breadcrumb: { '@id': `${base}#breadcrumb` },
+      about: { '@id': `${base}#service` },
+      mainEntity: { '@id': `${base}#service` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${base}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${sitio.origen}/` },
+        { '@type': 'ListItem', position: 2, name: 'Gestión de redes sociales', item: `${sitio.origen}/gestion-redes-sociales/` },
+        { '@type': 'ListItem', position: 3, name: 'Peluquerías y estética', item: base },
+      ],
+    },
+    {
+      '@type': 'Service',
+      '@id': `${base}#service`,
+      name: 'Marketing y gestión de redes sociales para peluquerías y centros de estética',
+      serviceType: 'Gestión de redes sociales para peluquerías',
+      alternateName: [
+        'Marketing para peluquerías',
+        'Marketing para centros de estética',
+        'Marketing para salones de belleza',
+        'Marketing digital para peluquerías',
+        'Agencia de marketing para peluquerías',
+      ],
+      description:
+        'Servicio online de contenido diario en redes sociales, atención de mensajes y reseñas, Google Business Profile, web y bot de IA para peluquerías, barberías, centros de estética y centros de uñas, cejas y pestañas.',
+      url: base,
+      provider: {
+        '@type': 'Organization',
+        '@id': `${sitio.origen}/#organization`,
+        name: sitio.marca,
+        url: `${sitio.origen}/`,
+        telephone: contacto.telefonoE164,
       },
-    })),
-  },
-};
-
-const schemaFaq = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faq.preguntas.map((item) => ({
-    '@type': 'Question',
-    name: item.pregunta,
-    acceptedAnswer: { '@type': 'Answer', text: item.respuesta },
-  })),
-};
-
-const schemaBreadcrumb = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${sitio.origen}/` },
-    { '@type': 'ListItem', position: 2, name: 'Sectores', item: `${sitio.origen}/sectores/` },
-    { '@type': 'ListItem', position: 3, name: 'Peluquerías y estética', item: sitio.landing.canonical },
+      audience: {
+        '@type': 'BusinessAudience',
+        name: 'Centros de estética, salones de belleza, peluquerías, barberías, centros de uñas, estudios de pestañas y cejas y centros de depilación',
+      },
+      areaServed: { '@type': 'Country', name: 'España' },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Planes de gestión de presencia digital',
+        itemListElement: planes.planes.filter((plan) => plan.id !== 'starter').map(ofertaPlan),
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${base}#faq`,
+      mainEntity: faq.preguntas.map((item) => ({
+        '@type': 'Question',
+        name: item.pregunta,
+        acceptedAnswer: { '@type': 'Answer', text: item.respuesta },
+      })),
+    },
   ],
 };
 
@@ -311,11 +343,9 @@ const landing = versionarAssets(aplicarFotos(rellenar(leerTexto('src/templates/s
   HERO_IMAGE: fotos.huecos['hero-salon'].disponible
     ? `<img src="${esc(fotos.carpeta)}hero-salon.${esc(fotos.extension)}" width="1200" height="1500" alt="Imagen de ambientación de un salón con una profesional atendiendo a una clienta" fetchpriority="high" decoding="async" />`
     : '<div class="hero__foto-pendiente" role="img" aria-label="Espacio visual de la landing de peluquerías"></div>',
-  JSONLD_SERVICE: jsonLd(schemaService),
-  JSONLD_FAQ: jsonLd(schemaFaq),
-  JSONLD_BREADCRUMB: jsonLd(schemaBreadcrumb),
+  JSONLD: jsonLd(schemaGrafo),
   WA_GENERAL: esc(waGeneral),
-  PLANES: planes.planes.map(renderPlan).join('\n\n'),
+  PLANES: planesEnPagina.map(renderPlan).join('\n\n'),
   PLANES_MICROCOPY: esc(planes.microcopy),
   FAQ: renderFaq(),
   TELEFONO: esc(contacto.telefono),

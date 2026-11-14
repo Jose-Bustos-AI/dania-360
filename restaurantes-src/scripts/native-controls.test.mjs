@@ -14,7 +14,7 @@ test('Contenido comercial y preguntas completas en HTML, sin hidratación', () =
   assert.match(plain(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1]), /^Marketing para restaurantes en redes sociales$/)
   assert.match(html, /<details class="mobile-nav" data-mobile-nav="">/)
   assert.match(html, /<summary class="menu-button" aria-label="Menú de navegación">/)
-  assert.equal(faqs.length, 11)
+  assert.equal(faqs.length, 15)
   assert.equal(faqs.filter(([, attributes]) => /\bopen(?:=|\s|$)/.test(attributes)).length, 1)
   const graph = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph']
   const faqSchema = graph.find((entity) => entity['@type'] === 'FAQPage')
