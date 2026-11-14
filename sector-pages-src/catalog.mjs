@@ -41,7 +41,7 @@ export function prepareCatalog(pages, groups) {
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(page.slug ?? '') || slugs.has(page.slug)) {
       throw new Error('Ruta sectorial incorrecta o duplicada');
     }
-    const groupId = page.hubGroup ?? (page.id <= 20 ? 'oficios' : undefined);
+    const groupId = groupOf(page);
     const group = grouped.find(group => group.id === groupId);
     if (!group) throw new Error(`${page.slug}: asigna un grupo sectorial existente`);
     const date = page.contentModified;
@@ -50,9 +50,56 @@ export function prepareCatalog(pages, groups) {
       throw new Error(`${page.slug}: falta una fecha de contenido válida`);
     }
     resourcePresentation(page);
+    heroLive(page);
     ids.add(page.id);
     slugs.add(page.slug);
     group.pages.push(page);
   }
   return grouped.filter(group => group.pages.length);
+}
+
+// Grupo de una página: el declarado o, para las diez primeras ampliaciones, el de oficios.
+export const groupOf = page => page.hubGroup ?? (page.id <= 20 ? 'oficios' : undefined);
+
+// Grupos con menos de cinco páginas se completan hasta cuatro relacionadas con estas rutas afines,
+// en este orden. Una ruta que empieza por / es una landing hecha a mano; si no, es un slug generado.
+export const relatedFallback = {
+  'proyectos-espacios': ['reformas', 'construccion'],
+  'escuelas-clubes': ['/gestion-redes-sociales-gimnasios/', '/gestion-redes-sociales-academias/'],
+};
+
+const heroPostFormats = ['Instagram · Vídeo de 15 s', 'Facebook · Publicación', 'TikTok · Vídeo de 15 s'];
+const noAngleQuotes = (slug, value) => {
+  if (/[«»]/.test(value)) throw new Error(`${slug}: usa comillas normales en el ejemplo del hero`);
+  return value.trim();
+};
+
+// Textos del móvil del hero. Son un ejemplo ilustrativo: nunca un cliente, un mensaje real ni un resultado.
+export function heroLive(page) {
+  const {slug} = page;
+  let posts = [page.promise, page.resourceTitle, 'Cómo pedirnos información en un solo mensaje'];
+  if (page.heroPosts !== undefined) {
+    if (!Array.isArray(page.heroPosts) || page.heroPosts.length !== 3
+        || page.heroPosts.some(text => typeof text !== 'string' || !text.trim() || text.length > 110)) {
+      throw new Error(`${slug}: heroPosts debe tener tres textos cortos (máximo 110 caracteres)`);
+    }
+    posts = page.heroPosts;
+  }
+  let chat = {
+    question: 'Hola, he visto vuestra publicación. ¿Me dais información?',
+    answer: 'Hola, gracias por escribir. Cuéntanos qué necesitas y te pasamos la información. Si lo prefieres, te llamamos.',
+  };
+  if (page.heroChat !== undefined) {
+    const supplied = page.heroChat;
+    if (!supplied || typeof supplied !== 'object' || Array.isArray(supplied)
+        || Object.keys(supplied).some(key => key !== 'question' && key !== 'answer')
+        || ['question', 'answer'].some(key => typeof supplied[key] !== 'string' || !supplied[key].trim() || supplied[key].length > 200)) {
+      throw new Error(`${slug}: heroChat necesita question y answer (máximo 200 caracteres cada uno)`);
+    }
+    chat = supplied;
+  }
+  return {
+    posts: posts.map((text, i) => ({format: heroPostFormats[i], text: noAngleQuotes(slug, text)})),
+    chat: {question: noAngleQuotes(slug, chat.question), answer: noAngleQuotes(slug, chat.answer)},
+  };
 }
