@@ -3,11 +3,11 @@
     "id": 11,
     "slug": "fontaneros",
     "name": "Fontaneros",
-    "title": "Gestión de redes sociales para fontaneros | Dania360",
-    "description": "Marketing para fontaneros centrado en redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos ni avisos prometidos. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para fontaneros",
-    "eyebrow": "Tu oficio, bien explicado",
-    "lead": "Gestionamos tus redes y presentamos tus servicios de fontanería. Separamos los avisos de las solicitudes de presupuesto y dirigimos cada consulta al canal que indiques.",
+    "title": "Marketing para fontaneros y gestión de redes sociales | Dania360",
+    "description": "Marketing para fontaneros: publicaciones con tus trabajos, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "h1": "Marketing para fontaneros: redes sociales que separan avisos y presupuestos",
+    "eyebrow": "Marketing y redes sociales para fontanería",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu fontanería. Explicamos tus servicios y tu zona, y separamos los avisos de las solicitudes de presupuesto.",
     "promise": "La confianza empieza antes de que suene el teléfono.",
     "layout": "fontaneros",
     "artAlt": "Esquema de comunicación de fontanería: servicio, zona y contacto conectados alrededor de una tubería",
@@ -52,18 +52,33 @@
       [
         "¿Vais a grabar los trabajos en mi domicilio o en la obra?",
         "Las visitas de grabación y la producción presencial no figuran en el alcance oficial de Growth. Antes de contratar revisamos el material disponible y cómo preparar tus fotos y vídeos. Tampoco se incluye inversión en anuncios en la cuota mostrada."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para fontaneros?",
+        "Organiza cómo se presenta tu fontanería donde te buscan: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día tus trabajos en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No compramos avisos ni incluimos campañas de anuncios."
+      ],
+      [
+        "¿Cómo conseguir clientes de fontanería con las redes sociales?",
+        "Enseñando trabajos reales con su contexto, dejando claros la zona, el horario y el canal de contacto, y respondiendo rápido. Quien tiene una urgencia suele buscar en Google, así que cuidamos también el perfil de empresa y las reseñas. No garantizamos un número de avisos: revisamos contigo qué consultas encajaban con tu servicio."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para fontaneros?",
+        "Una cuota fija, sin pagar por aviso. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para fontaneros",
+        "publicidad fontanero",
+        "publicidad fontanería",
+        "cómo conseguir clientes de fontanería",
         "gestión de redes sociales para fontaneros",
         "community manager fontaneros",
         "marketing para empresas de fontanería",
-        "marketing para fontaneros",
         "agencia redes sociales fontaneros"
       ],
-      "intent": "El comprador es el profesional que quiere delegar su comunicación; no el particular que busca una reparación.",
+      "intent": "Fontanero o empresa de fontanería que busca marketing para conseguir clientes y valora delegarlo en una agencia o un community manager; no el particular que busca una reparación.",
       "distinctFrom": "Climatización se centra en equipos y estacionalidad; reformas en proyectos de espacios; esta página se centra en servicios de fontanería y en la entrada de consultas.",
       "sources": [
         {
@@ -75,25 +90,40 @@
           "observation": "La competencia diferencia avisos urgentes de trabajos planificados. La respuesta propia añade un guion y una ficha sin promesas de captación."
         }
       ],
-      "demand": "Consultas e intención contrastadas cualitativamente. Volúmenes y posiciones no verificados.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: solo sugiere marketing para fontaneros (también desde fontanero y marketing fontaneros) y, aparte, publicidad fontanero y publicidad fontanería; sin sugerencias para redes sociales, agencia ni cómo conseguir clientes. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para fontaneros, única variante con sugerencia, y queda literal al inicio del title, el H1 y la description. Se mantienen la separación entre avisos y trabajos programados y el apartado de comparación de proveedores del 12 de noviembre."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver guion de fontanería"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver guion de fontanería",
+    "heroPosts": [
+      "Cambio de grifería en un baño: qué se sustituye, qué se aprovecha y cuánto se tarda en dejarlo listo.",
+      "¿Aviso o trabajo programado? Te explicamos por qué canal escribirnos en cada caso.",
+      "Trabajamos en tu municipio y alrededores. Escríbenos con el servicio que necesitas y te respondemos."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero cambiar el plato de ducha por uno más bajo. ¿Trabajáis por mi zona?",
+      "answer": "Hola, sí lo hacemos. Mándanos una foto del baño y las medidas aproximadas. El fontanero lo revisa y te propone día para la visita y el presupuesto."
+    }
   },
   {
     "id": 12,
     "slug": "construccion",
     "name": "Empresas de construcción",
-    "title": "Redes sociales para empresas de construcción | Dania360",
-    "description": "Redes sociales y marketing para constructoras: obras explicadas por fases, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
-    "h1": "Gestión de redes sociales para empresas de construcción",
-    "eyebrow": "Una obra merece algo más que una foto",
-    "lead": "Gestionamos las redes de tu constructora y presentamos qué parte ejecutaste en cada obra. La web y la atención de mensajes ayudan a preparar la primera conversación.",
+    "title": "Marketing para constructoras y redes sociales | Dania360",
+    "description": "Marketing para constructoras y empresas de construcción: obras en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para constructoras: obras explicadas en redes sociales y en tu web",
+    "eyebrow": "Marketing y redes sociales para empresas de construcción",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu constructora. Contamos qué parte ejecutaste en cada obra para que promotores, estudios y particulares lleguen a la primera reunión con contexto.",
     "promise": "Que cada obra explique por qué contar con tu empresa.",
     "layout": "construccion",
     "artAlt": "Ilustración de un edificio y su comunicación en tres fases: contexto, desarrollo y entrega",
@@ -138,17 +168,33 @@
       [
         "¿Podéis publicar planos y fotografías de las obras?",
         "Solo el material cuya publicación esté autorizada y que no exponga información reservada. Antes de usarlo se confirma tu papel en el proyecto y qué datos pueden difundirse. La grabación presencial y la inversión en anuncios no forman parte de la cuota mostrada."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para constructoras?",
+        "Presenta tu empresa y tus obras donde te van a revisar antes de llamarte: redes sociales, perfil de Google y web. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest a partir de material autorizado, atendemos mensajes y reseñas y mantenemos una web con bot de IA. Las licitaciones, los anuncios y LinkedIn quedan fuera de esa cuota."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de construcción?",
+        "La recomendación sigue pesando mucho, y por eso importa lo que encuentra quien te busca después: obras explicadas, especialidades claras y una forma sencilla de contactar. Las redes y la web ayudan a llegar a esa conversación; no garantizan encargos. Si tu cliente principal son promotores y estudios, valoramos también LinkedIn en Scale."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una constructora?",
+        "Sin coste por proyecto ni por contacto. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Si trabajas sobre todo con promotores y estudios, Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para constructoras",
+        "estrategias de marketing para constructoras",
+        "agencia de marketing para constructoras",
+        "marketing para empresas de construcción",
+        "cómo conseguir clientes para una constructora",
         "gestión de redes sociales para empresas de construcción",
         "redes sociales constructoras",
-        "marketing para constructoras",
         "agencia de marketing para empresas de construcción"
       ],
-      "intent": "Contratar comunicación de una empresa ejecutora, con evaluación de proyectos y capacidad, no vender inmuebles ni contratar una reforma doméstica.",
+      "intent": "Constructora o empresa de construcción que busca marketing para presentar obras y conseguir proyectos; compara agencia, community manager y canales profesionales como LinkedIn.",
       "distinctFrom": "Inmobiliarias comercializa activos; reformas documenta espacios habitados; construcción explica alcance de ejecución y fases de proyecto.",
       "sources": [
         {
@@ -156,25 +202,40 @@
           "observation": "El competidor da prioridad a cartera, interlocutores profesionales y evaluación previa. No se adoptan sus cifras, credenciales, SLA o promesas de licitación."
         }
       ],
-      "demand": "Señales cualitativas de intención y oferta especializada; sin volumen verificado.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: marketing para constructoras es la familia con más variantes (marketing digital, agencia de marketing y estrategias de marketing para constructoras, marketing para empresas constructoras); también marketing para empresas de construcción, publicidad para constructoras y cómo conseguir clientes de construcción o para una constructora. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para constructoras para title y H1, con estrategias, marketing digital y agencia en los H2 y empresas de construcción en la description. Se conservan la cartera explicada por alcance y la diferencia entre Growth y Scale con LinkedIn."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de obra"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de obra",
+    "heroPosts": [
+      "Estructura terminada en una vivienda unifamiliar: qué ejecutamos y qué fase empieza ahora.",
+      "Una obra se entiende mejor por fases. Hoy, el replanteo y la cimentación explicados en 15 segundos.",
+      "¿Tienes un proyecto y buscas quién lo ejecute? Cuéntanos el tipo de obra y en qué fase está."
+    ],
+    "heroChat": {
+      "question": "Buenas, tenemos licencia para una nave pequeña y buscamos constructora. ¿Trabajáis obra industrial?",
+      "answer": "Hola, sí. Indícanos la ubicación general, la superficie aproximada y si el proyecto está cerrado. El responsable de obra te llama para concretar una reunión."
+    }
   },
   {
     "id": 13,
     "slug": "reformas",
     "name": "Empresas de reformas",
-    "title": "Gestión de redes sociales para empresas de reformas | Dania360",
-    "description": "Marketing para empresas de reformas basado en redes, web y bot de IA por 297 €/mes. Obras explicadas y solicitudes de presupuesto ordenadas. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para empresas de reformas",
-    "eyebrow": "Que el cliente entienda el cambio",
-    "lead": "Gestionamos las redes de tu empresa de reformas y mostramos cómo se decide cada cambio. Recogemos las solicitudes de presupuesto para que tu equipo pueda valorar la obra.",
+    "title": "Marketing para empresas de reformas y redes sociales | Dania360",
+    "description": "Marketing para empresas de reformas: tus obras en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "h1": "Marketing para empresas de reformas: obras que se entienden y presupuestos ordenados",
+    "eyebrow": "Marketing y redes sociales para reformas",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de reformas. Explicamos cómo se decide cada cambio y ordenamos las solicitudes de presupuesto para que tu equipo valore la obra.",
     "promise": "Tu trabajo se ve mejor cuando se entiende.",
     "layout": "reformas",
     "artAlt": "Tablero ilustrado de una reforma de cocina con distribución, materiales y uso del espacio",
@@ -260,18 +321,34 @@
       [
         "¿Sirve si solo hago reformas de baños o cocinas?",
         "Sí. El contenido puede centrarse en tu especialidad y tu zona real de trabajo. Elegimos preguntas y ejemplos relacionados con esos espacios, sin anunciar una reforma integral si tu empresa no presta ese servicio."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de reformas?",
+        "Convierte tus obras en contenido que explica el cambio y ordena las consultas que llegan. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, gestionamos el perfil de Google, los comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No vendemos solicitudes de presupuesto ni compramos contactos."
+      ],
+      [
+        "¿Cómo conseguir clientes de reformas con las redes sociales?",
+        "Mostrando obras propias con su explicación, especializando el contenido en lo que más quieres vender, como baños o cocinas, y facilitando que el interesado cuente su caso. Las redes ayudan a que te elijan quienes ya te conocen o te comparan; no garantizan obras. Medimos contigo qué consultas llegaron a visita."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de reformas?",
+        "No pagas por solicitud de presupuesto. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para empresas de reformas",
+        "marketing digital para empresas de reformas",
+        "agencia de marketing para reformas",
+        "publicidad para reformas",
+        "cómo conseguir clientes para empresa de reformas",
         "gestión de redes sociales para empresas de reformas",
         "community manager empresas reformas",
         "redes sociales reformas",
-        "marketing para empresas de reformas",
         "community manager para empresas de reformas"
       ],
-      "intent": "Empresa que quiere delegar comunicación visual y atención de consultas de reforma doméstica.",
+      "intent": "Empresa de reformas que busca marketing digital y redes para conseguir clientes de baños, cocinas o viviendas, y compara agencias, community manager y venta de contactos.",
       "distinctFrom": "Construcción explica ejecución y cartera B2B; reformas aborda espacios, decisiones del propietario y preparación de una visita.",
       "sources": [
         {
@@ -283,25 +360,40 @@
           "observation": "El resultado de búsqueda propone contenido más allá de la fotografía final. La apertura completa agotó el tiempo; no se usa como prueba de detalle."
         }
       ],
-      "demand": "Intención y presencia de ofertas sectoriales observadas; no hay volumen verificado.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing para empresas de reformas, marketing para reformas, marketing digital para empresas de reformas, agencia de marketing para reformas, publicidad para reformas y cómo conseguir clientes de reformas o para mi empresa de reformas. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para empresas de reformas (la variante más completa) para title, H1 y description, y se cubren agencia, marketing digital y cómo conseguir clientes en H2 y FAQ. Se conserva el carrusel de cocina y la ficha de consulta."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver carrusel de cocina"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver carrusel de cocina",
+    "heroPosts": [
+      "Antes de elegir azulejo, decide qué te estorba en la cocina y qué quieres conservar.",
+      "Reforma de baño: plato a ras de suelo, mampara fija y más espacio de paso. Te contamos cómo se planificó.",
+      "¿Pensando en reformar? Dinos tu municipio y qué quieres cambiar, y te explicamos el siguiente paso."
+    ],
+    "heroChat": {
+      "question": "Hola, queremos reformar la cocina pero conservar los muebles altos. ¿Os encargáis de algo así?",
+      "answer": "Hola, sí. Mándanos fotos de la cocina, el municipio y qué queréis cambiar. Lo revisamos y te proponemos una visita para medir antes del presupuesto."
+    }
   },
   {
     "id": 14,
     "slug": "electricistas",
     "name": "Electricistas",
-    "title": "Gestión de redes sociales para electricistas | Dania360",
-    "description": "Marketing para electricistas con alcance cerrado: redes, perfil de Google, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Pide tu auditoría gratis.",
-    "h1": "Gestión de redes sociales para electricistas",
-    "eyebrow": "La especialidad tiene que verse",
-    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos tus especialidades. Las solicitudes se orientan según el trabajo y la zona que atiendes.",
+    "title": "Marketing para electricistas y redes sociales | Dania360",
+    "description": "Marketing para electricistas y empresas instaladoras: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para electricistas: tu especialidad, visible en redes sociales y en Google",
+    "eyebrow": "Marketing digital y redes sociales para electricistas",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa instaladora. Explicamos tus especialidades y orientamos cada consulta según el trabajo y la zona que atiendes.",
     "promise": "Que se entienda qué instalas y para quién trabajas.",
     "layout": "electricistas",
     "artAlt": "Tres recorridos gráficos de instalaciones, mantenimiento y recarga hacia una consulta profesional",
@@ -344,17 +436,32 @@
       [
         "¿Incluye anuncios o una sesión de grabación?",
         "La inversión publicitaria y las grabaciones presenciales no forman parte de la cuota mostrada. Revisamos los materiales que tienes disponibles y el alcance que necesitas antes de contratar."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para electricistas?",
+        "Explica tus servicios donde te buscan y te comparan: redes sociales, perfil de Google y web. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Tu empresa valida la parte técnica; no incluimos campañas de anuncios."
+      ],
+      [
+        "¿Cómo conseguir clientes como electricista con las redes sociales?",
+        "Dando a conocer una especialidad concreta, como recarga, domótica o mantenimiento de locales, con trabajos reales y una forma clara de pedir valoración. Las redes y las reseñas refuerzan la confianza de quien ya te ha encontrado; no garantizamos un número de encargos. Revisamos contigo qué consultas encajaban."
+      ],
+      [
+        "¿Cuánto cuesta el marketing digital para electricistas?",
+        "Una cuota fija para toda la comunicación de tu empresa instaladora. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para electricistas",
+        "marketing digital para electricistas",
+        "publicidad para electricistas",
+        "cómo conseguir clientes como electricista",
         "gestión de redes sociales para electricistas",
         "community manager electricistas",
-        "marketing digital electricistas",
-        "marketing para electricistas"
+        "marketing digital electricistas"
       ],
-      "intent": "Instalador que busca delegar comunicación y explicar su oferta, distinto de la búsqueda doméstica de una reparación.",
+      "intent": "Electricista o empresa instaladora que busca marketing digital para conseguir clientes y explicar especialidades; distinto de la búsqueda doméstica de una reparación.",
       "distinctFrom": "La página de fontaneros explica avisos y agua; solar tratará evaluación de autoconsumo; esta se centra en especialidades eléctricas y revisión del contenido técnico.",
       "sources": [
         {
@@ -366,25 +473,40 @@
           "observation": "Agencia orientada a oficios: plantea falta de tiempo y coherencia de la presencia digital. Mercado bilingüe estadounidense, no referencia de demanda española."
         }
       ],
-      "demand": "Intención comercial y oferta observadas; volumen y dificultad no cuantificados.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing para electricistas, marketing digital para electricistas, publicidad para electricistas y cómo conseguir clientes como electricista o siendo electricista; nada para redes sociales. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para electricistas para title y H1; marketing digital para electricistas va en un H2 y en la FAQ de precio, y cómo conseguir clientes como electricista en otra FAQ. Se conserva la revisión técnica por el instalador y el ejemplo de punto de recarga."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de cargador"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de cargador",
+    "heroPosts": [
+      "¿Cargar el coche en tu plaza de garaje? Esto es lo que revisamos antes de proponerte un punto de recarga.",
+      "Cambio de cuadro eléctrico en una vivienda antigua: por qué se hace y qué incluye el trabajo.",
+      "Instalaciones, reformas y mantenimiento de locales en tu zona. Escríbenos y te decimos si podemos ayudarte."
+    ],
+    "heroChat": {
+      "question": "Hola, en mi casa salta el diferencial cada vez que pongo el horno. ¿Podéis venir a mirarlo?",
+      "answer": "Hola, gracias por escribir. Dinos tu municipio y desde cuándo pasa. El electricista te llama para darte cita y revisarlo. Mientras, no manipules el cuadro."
+    }
   },
   {
     "id": 15,
     "slug": "climatizacion",
     "name": "Empresas de climatización",
-    "title": "Redes sociales para empresas de climatización | Dania360",
-    "description": "Marketing para empresas de climatización y aire acondicionado: redes por temporada, web y bot de IA por 297 €/mes. Sin anuncios incluidos. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para empresas de climatización",
-    "eyebrow": "El contenido también se planifica por temporada",
-    "lead": "Gestionamos las redes de tu empresa de climatización y preparamos contenido para instalación, mantenimiento y renovación de equipos según la temporada.",
+    "title": "Marketing para aire acondicionado y redes sociales | Dania360",
+    "description": "Marketing para aire acondicionado y climatización: redes por temporada, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para aire acondicionado y climatización: redes sociales para todo el año",
+    "eyebrow": "Aire acondicionado, calefacción y redes sociales",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de climatización. Preparamos contenido de instalación, mantenimiento y renovación de equipos según la temporada y lo que puedes atender.",
     "promise": "Estar presente antes, durante y después de la temporada.",
     "layout": "climatizacion",
     "artAlt": "Rueda editorial de climatización con preparar, atender, anticipar y mantener durante el año",
@@ -433,17 +555,33 @@
       [
         "¿Prometeréis ahorros o instalación inmediata en las publicaciones?",
         "Solo se anuncian prestaciones, condiciones y disponibilidades que tu empresa haya confirmado y pueda justificar. La publicidad pagada y las grabaciones presenciales no están incluidas en la cuota mostrada."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de aire acondicionado?",
+        "Planifica tu comunicación por temporadas y la mantiene todo el año: instalación antes del calor, mantenimiento, calefacción antes del frío. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos mensajes y reseñas, gestionamos el perfil de Google y mantenemos una web con bot de IA."
+      ],
+      [
+        "¿Hacéis publicidad de instalación y mantenimiento de aire acondicionado?",
+        "Preparamos publicaciones de instalación, mantenimiento y calefacción en las redes de Growth, también en los meses tranquilos, para no depender solo del pico de calor. Las campañas de pago no están incluidas: si las contratas aparte, alineamos el mensaje con la agenda real de tu equipo. No garantizamos instalaciones."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una empresa de climatización?",
+        "La misma cuota en temporada alta y en temporada baja. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para aire acondicionado",
+        "publicidad para aire acondicionado",
+        "publicidad mantenimiento de aire acondicionado",
+        "marketing para empresas de climatización",
         "gestión de redes sociales climatización",
         "redes sociales aire acondicionado",
         "marketing empresas calefacción",
         "marketing para empresas de aire acondicionado"
       ],
-      "intent": "Empresa instaladora o mantenedora que busca comunicar servicios y atender consultas, no comprador que necesita elegir un aparato.",
+      "intent": "Empresa instaladora o mantenedora de climatización que busca marketing y redes para todo el año, no comprador que necesita elegir un aparato.",
       "distinctFrom": "Electricistas se centra en especialidades eléctricas y fontaneros en agua y avisos. Esta página organiza contenidos por temporada, tipo de equipo y motivo de consulta.",
       "sources": [
         {
@@ -455,25 +593,40 @@
           "observation": "Agrupa solar y climatización; se separan aquí sus necesidades. No se adoptan servicios de anuncios ni automatizaciones no confirmadas."
         }
       ],
-      "demand": "Consultas y oferta comercial observadas cualitativamente; sin volumen verificado.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: no hay sugerencias para climatización con ninguna fórmula; sí marketing para aire acondicionado, marketing aire acondicionado y una familia amplia de publicidad aire acondicionado (instalación, mantenimiento, servicio técnico). Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para aire acondicionado para el title porque es la única variante con demanda, y climatización se mantiene en H1 y description. Se añade una FAQ sobre publicidad de instalación y mantenimiento. Se conserva el calendario por temporadas."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de campaña"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de campaña",
+    "heroPosts": [
+      "Antes del calor: revisa tu equipo de aire acondicionado y pide cita de mantenimiento con tiempo.",
+      "Instalar un split empieza por el espacio: estancia, orientación y dónde irá la unidad exterior.",
+      "¿Bomba de calor para este invierno? Cuéntanos tu vivienda y te explicamos cómo es la valoración."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero poner aire acondicionado en dos habitaciones. ¿Cuánto tardaríais en instalarlo?",
+      "answer": "Hola, gracias. Dinos el municipio, los metros aproximados y si hay preinstalación. El técnico revisa la agenda y te propone visita y presupuesto."
+    }
   },
   {
     "id": 16,
     "slug": "placas-solares",
     "name": "Instaladores de placas solares",
-    "title": "Gestión de redes sociales para placas solares | Dania360",
-    "description": "Marketing para instaladores de placas solares: redes, web y bot de IA por 297 €/mes, sin cifras de ahorro sin validar ni anuncios incluidos. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para instaladores de placas solares",
-    "eyebrow": "La propuesta solar, explicada con criterio",
-    "lead": "Gestionamos las redes de tu empresa instaladora y explicamos cómo empieza un estudio de autoconsumo. Las consultas llegan a tu equipo para valorar cada proyecto.",
+    "title": "Marketing para placas solares y redes sociales | Dania360",
+    "description": "Marketing para placas solares y energía solar: redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "h1": "Marketing para placas solares: redes sociales sin ahorros inventados",
+    "eyebrow": "Marketing solar con criterio",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa instaladora. Explicamos cómo empieza un estudio de autoconsumo y derivamos cada consulta a tu equipo para valorar el proyecto.",
     "promise": "Explica cómo trabajas antes de pedir que confíen en una cifra.",
     "layout": "solar",
     "artAlt": "Cubierta solar ilustrada con el recorrido entre necesidad, estudio y proyecto",
@@ -517,19 +670,35 @@
         "Sí. Por 297 €/mes reúne gestión de redes sociales y todo Starter: web, chat con modo automático de IA, kit QR de reseñas, una actualización web mensual, dominio .com y hosting. El bot explica información general; tu equipo realiza el estudio del proyecto."
       ],
       [
-        "¿El plan incluye campañas para captar instalaciones?",
-        "La cuota mostrada corresponde a los servicios de Growth. La inversión en anuncios, la producción presencial y los estudios técnicos de instalaciones no forman parte de ese alcance. Revisamos tus necesidades antes de contratar."
+        "¿El plan incluye publicidad de placas solares?",
+        "La cuota mostrada corresponde a los servicios de Growth: contenido en redes, mensajes, reseñas, perfil de Google y web. La inversión en anuncios, la producción presencial y los estudios técnicos de instalaciones no forman parte de ese alcance. Revisamos tus necesidades antes de contratar."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para energía solar?",
+        "Explica tu forma de trabajar y mantiene tu presencia en redes, Google y web. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No vendemos contactos de autoconsumo compartidos ni publicamos ahorros que tu equipo no haya validado."
+      ],
+      [
+        "¿Cómo conseguir clientes de placas solares con las redes sociales?",
+        "Respondiendo a las dudas reales antes de la venta: cuánto se ahorra según el caso, qué se revisa del tejado, cuándo tienen sentido las baterías. El contenido que explica el estudio genera más confianza que una cifra genérica. No garantizamos instalaciones: medimos contigo qué consultas pidieron estudio."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para instaladores de placas solares?",
+        "Sin pagar por contacto de autoconsumo. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing placas solares",
+        "publicidad placas solares",
+        "marketing para energía solar",
+        "agencia de marketing para energía solar",
         "gestión de redes sociales empresas placas solares",
         "redes sociales instaladores solares",
         "marketing empresas energía solar",
         "marketing para empresas de placas solares"
       ],
-      "intent": "Empresa solar que busca comunicación y tratamiento de consultas, no particular que busca un precio de instalación.",
+      "intent": "Empresa instaladora de autoconsumo que busca marketing y publicidad para conseguir clientes, a menudo comparando con la compra de contactos; no particular que busca precio de instalación.",
       "distinctFrom": "Se centra en prueba de las afirmaciones, explicación de la valoración y públicos de autoconsumo; no duplica la página general de electricistas ni el calendario de climatización.",
       "sources": [
         {
@@ -537,25 +706,40 @@
           "observation": "Se observa una oferta que mezcla solar, climatización y anuncios. La propuesta propia separa el proceso de estudio solar y añade una ficha de revisión de afirmaciones."
         }
       ],
-      "demand": "Consultas comerciales exploradas cualitativamente; volúmenes, CPC y dificultad no verificados.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing placas solares, publicidad placas solares y la familia marketing para energía solar (digital, agencia, empresas de energía solar); sin sugerencias para instaladores de placas solares ni cómo conseguir clientes. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para placas solares para title y H1, con energía solar en description, en el H2 de agencia y en la FAQ de agencia; la FAQ de campañas pasa a preguntar por publicidad de placas solares. Se conserva la revisión de cifras de ahorro."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver guion de autoconsumo"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver guion de autoconsumo",
+    "heroPosts": [
+      "¿Cuántas placas necesita tu casa? Depende del consumo y del tejado. Te contamos qué miramos en el estudio.",
+      "Autoconsumo en una nave: qué revisamos de la cubierta y del consumo antes de hacer una propuesta.",
+      "Baterías, sí o no: la respuesta depende de cuándo consumes. Escríbenos y lo estudiamos contigo."
+    ],
+    "heroChat": {
+      "question": "Hola, ¿cuánto me ahorraría con placas solares? Tengo un chalet y pago bastante de luz.",
+      "answer": "Hola, para darte una cifra seria necesitamos ver tu consumo y el tejado. Escríbenos por privado el municipio y te explicamos cómo empezar el estudio."
+    }
   },
   {
     "id": 17,
     "slug": "carpinterias-madera",
     "name": "Carpinterías de madera",
-    "title": "Redes sociales para carpinterías de madera | Dania360",
-    "description": "Marketing para carpinterías de madera: redes con tus encargos a medida, perfil de Google, web y bot de IA por 297 €/mes. Pide una auditoría gratis.",
-    "h1": "Gestión de redes sociales para carpinterías de madera",
-    "eyebrow": "El oficio se aprecia en los detalles",
-    "lead": "Gestionamos las redes de tu carpintería y enseñamos cómo resuelves encargos a medida. Los mensajes llegan al taller con contexto para valorar el trabajo.",
+    "title": "Marketing para carpintería de madera y redes sociales | Dania360",
+    "description": "Marketing para carpinterías de madera: tus muebles a medida en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para carpinterías de madera: tus trabajos a medida en redes sociales",
+    "eyebrow": "Marketing y redes sociales para carpinteros",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu carpintería. Enseñamos cómo resuelves encargos a medida y los mensajes llegan al taller con contexto para valorar el trabajo.",
     "promise": "De una imagen bonita a una pieza que el cliente entiende.",
     "layout": "madera",
     "artAlt": "Armario conceptual adaptado a una cubierta inclinada, con módulos interiores y detalles de acabado",
@@ -603,18 +787,33 @@
       [
         "¿Incluye fotografía o grabación presencial?",
         "La producción presencial no forma parte de la cuota mostrada de Growth, ni tampoco la inversión en anuncios. Acordamos cómo trabajar con tu material disponible y las explicaciones que puedas aportar."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para carpinterías?",
+        "Convierte el trabajo del taller en contenido constante y ordena las consultas que llegan. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas, gestionamos el perfil de Google y mantenemos una web con bot de IA. No incluye fotografía presencial ni anuncios."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de una carpintería?",
+        "Encargos explicados, no solo la foto final: la necesidad del cliente, el material, un detalle de ensamblaje o acabado y el mueble en su sitio. También funcionan las piezas en proceso en el taller y las preguntas frecuentes sobre medidas, maderas y plazos. Para los textos, mejor el uso y el detalle que las frases hechas. Pinterest encaja bien con mobiliario a medida."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una carpintería?",
+        "Una cuota fija, con Pinterest incluido. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para carpintería",
+        "publicidad de carpintería de madera",
+        "frases para publicidad de carpintería",
+        "marketing para carpinterías",
         "gestión de redes sociales carpinterías madera",
         "community manager carpinteros",
         "marketing carpinterías muebles a medida",
-        "gestión de redes sociales para carpinterías",
-        "marketing para carpinterías"
+        "gestión de redes sociales para carpinterías"
       ],
-      "intent": "Taller que quiere delegar la presentación visual y comunicación de sus encargos.",
+      "intent": "Carpintería o carpintero de muebles a medida que busca marketing y redes para conseguir encargos y delegar su comunicación.",
       "distinctFrom": "No se centra en ventanas ni prestaciones de cerramientos metálicos. Se trabaja uso, material, detalle y estudio de muebles o carpintería de madera.",
       "sources": [
         {
@@ -622,25 +821,40 @@
           "observation": "Agencia especializada en madera con públicos industriales y profesionales. La respuesta propia para talleres desarrolla una ficha de pieza y la preparación de material de muebles a medida."
         }
       ],
-      "demand": "Señales cualitativas de oferta y consultas sectoriales. No se afirma volumen de búsqueda.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing para carpintería y marketing de carpintería en singular, y publicidad carpintería con variantes de madera, aluminio, textos y frases para publicidad; sin sugerencias para carpinteros ni cómo conseguir clientes. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para carpintería de madera en el title, en singular como sugiere Google, y carpinterías de madera en H1; publicidad entra en el H2 de contratación y en la FAQ de qué publicar. Se conserva el ejemplo del armario bajo cubierta."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de armario"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de armario",
+    "heroPosts": [
+      "Armario bajo cubierta inclinada: cómo aprovechamos la altura que pierde un mueble de catálogo.",
+      "Roble, haya o tablero chapado: qué cambia en el acabado y en el precio de un mueble a medida.",
+      "¿Tienes un hueco que no encaja con ningún mueble? Mándanos una foto y las medidas aproximadas."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero una librería a medida para un hueco del salón. ¿Hacéis muebles así?",
+      "answer": "Hola, sí. Envíanos una foto del hueco, las medidas aproximadas y el municipio. El carpintero lo revisa y te propone ir a medir antes del presupuesto."
+    }
   },
   {
     "id": 18,
     "slug": "carpinterias-metalicas",
     "name": "Carpinterías metálicas y de aluminio",
-    "title": "Redes sociales para carpinterías metálicas | Dania360",
-    "description": "Marketing para carpinterías de aluminio y metálicas: ventanas y cerramientos en redes, web y bot de IA por 297 €/mes. Sin anuncios incluidos.",
-    "h1": "Gestión de redes sociales para carpinterías metálicas y de aluminio",
-    "eyebrow": "Ventanas y cerramientos con contexto",
-    "lead": "Gestionamos las redes de tu taller y explicamos qué fabricas, qué instalas y qué necesita saber el cliente para consultar por ventanas o cerramientos.",
+    "title": "Marketing para carpintería de aluminio y redes sociales | Dania360",
+    "description": "Marketing para carpintería de aluminio: ventanas y cerramientos en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para carpinterías de aluminio y metálicas: ventanas y cerramientos con contexto",
+    "eyebrow": "Marketing para ventanas y cerramientos",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu taller. Explicamos qué fabricas, qué instalas y qué necesita saber el cliente para consultar por ventanas o cerramientos.",
     "promise": "Que el cliente vea una solución para su espacio.",
     "layout": "metal",
     "artAlt": "Cerramiento ilustrado con referencias al uso del espacio, apertura y acabado",
@@ -686,18 +900,33 @@
       [
         "¿Growth incluye LinkedIn para contactar con arquitectos?",
         "No. LinkedIn pertenece a Scale. Growth incluye Instagram, Facebook, TikTok, Pinterest y gestión de Google Business Profile. Si tu actividad depende principalmente de prescriptores profesionales, revisamos esa necesidad antes de recomendarte el plan."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para carpinterías de aluminio?",
+        "Presenta tus ventanas, puertas y cerramientos con el contexto que necesita el cliente para consultar. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas, gestionamos el perfil de Google y mantenemos una web con bot de IA. LinkedIn para prescriptores está en Scale."
+      ],
+      [
+        "¿Hacéis publicidad de ventanas y carpintería de aluminio?",
+        "Publicamos cada día tus ventanas, puertas y cerramientos explicados por decisiones: uso del espacio, tipo de apertura y acabado, con antes y después autorizados. Es contenido en redes, no campañas de pago, que se contratan aparte. Los datos de aislamiento o seguridad solo se publican con la documentación del sistema."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una carpintería de aluminio?",
+        "Una cuota fija para tus ventanas y cerramientos. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. LinkedIn, útil para llegar a arquitectos y constructoras, está en Scale, por 497 €/mes. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "publicidad de carpintería de aluminio",
+        "publicidad de ventanas de aluminio",
+        "marketing para carpintería de aluminio",
+        "marketing para carpintería metálica",
         "gestión redes sociales carpintería metálica aluminio",
         "marketing empresas cerramientos",
         "redes sociales instaladores ventanas",
-        "gestión de redes sociales para carpinterías de aluminio",
-        "marketing para carpintería metálica"
+        "gestión de redes sociales para carpinterías de aluminio"
       ],
-      "intent": "Fabricante o instalador que busca presentar su oferta y convertir el interés en una consulta de proyecto.",
+      "intent": "Taller de aluminio, PVC o metal que fabrica e instala ventanas y cerramientos y busca marketing y redes para convertir el interés en consultas de proyecto.",
       "distinctFrom": "La madera se centra en muebles a medida y oficio de taller. Metal y aluminio abordan sistemas, aperturas y documentación de prestaciones de cerramientos.",
       "sources": [
         {
@@ -705,25 +934,40 @@
           "observation": "Oferta específica de cristalería y aluminio con cualificación de consultas. No se adoptan promesas económicas, automatizaciones de WhatsApp ni grabación presencial de ese competidor."
         }
       ],
-      "demand": "Se observa oferta comercial específica; sin métricas de volumen ni dificultad verificadas.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sin sugerencias para marketing de carpintería metálica, de aluminio ni de ventanas; solo publicidad de carpintería de aluminio y publicidad de ventanas de aluminio. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para carpintería de aluminio, la forma con la que se nombra el oficio en las únicas sugerencias, y se añade una FAQ sobre publicidad de ventanas y carpintería de aluminio. Se conservan el porche de ejemplo y la ficha de prestaciones."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de cerramiento"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de cerramiento",
+    "heroPosts": [
+      "Cerramiento de porche con hojas correderas: cómo se abre, cuánto paso deja y qué acabado elegimos.",
+      "Cambiar ventanas sin obra: qué medimos antes de proponerte un sistema y un acabado.",
+      "¿Ventanas, puertas o cerramiento? Cuéntanos qué quieres cambiar y en qué municipio estás."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero cerrar la terraza del piso con aluminio. ¿Necesito permiso de la comunidad?",
+      "answer": "Hola, depende de tu comunidad y del ayuntamiento, y conviene consultarlo antes. Mándanos fotos de la terraza y el municipio y te explicamos cómo hacemos la medición."
+    }
   },
   {
     "id": 19,
     "slug": "cerrajeros",
     "name": "Cerrajeros",
-    "title": "Gestión de redes sociales para cerrajeros | Dania360",
-    "description": "Marketing para cerrajeros sin anunciar guardias que no haces: redes, perfil de Google, web y bot de IA por 297 €/mes. Pide tu auditoría gratis.",
-    "h1": "Gestión de redes sociales para cerrajeros",
-    "eyebrow": "Una empresa que el cliente puede reconocer",
-    "lead": "Gestionamos las redes de tu cerrajería y ordenamos la información de contacto. La web distingue avisos y valoraciones programadas según tu disponibilidad real.",
+    "title": "Marketing para cerrajeros y gestión de redes sociales | Dania360",
+    "description": "Marketing para cerrajeros sin anunciar guardias que no haces: redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "h1": "Marketing para cerrajeros: una empresa reconocible en redes sociales y en Google",
+    "eyebrow": "Marketing y redes sociales para cerrajerías",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu cerrajería. Ordenamos la información de contacto y distinguimos los avisos de los trabajos programados según tu disponibilidad real.",
     "promise": "Identidad, zona y disponibilidad: lo esencial debe estar claro.",
     "layout": "cerrajeros",
     "artAlt": "Tarjeta conceptual de cerrajería con un candado simbólico y campos de identidad, zona y horario",
@@ -771,17 +1015,32 @@
       [
         "¿Publicaréis trabajos realizados en viviendas?",
         "Solo material autorizado que resulte adecuado para mostrar el servicio. No se difunden datos sensibles del inmueble ni procedimientos de apertura. Las visitas de grabación y la inversión en anuncios no figuran en la cuota mostrada."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para cerrajeros?",
+        "Hace que tu cerrajería se reconozca y se encuentre igual en todos los canales: redes sociales, perfil de Google, reseñas y web. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios y mensajes y mantenemos una web con bot de IA. No incluye campañas de anuncios para urgencias."
+      ],
+      [
+        "¿Cómo conseguir clientes de cerrajería además de las urgencias?",
+        "Dando a conocer los trabajos que se pueden programar: cambios de cerradura, puertas de seguridad, amaestramientos o mantenimiento para comunidades y negocios. Para las urgencias pesa más el perfil de Google, el teléfono visible y las reseñas. No garantizamos llamadas ni posiciones."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para cerrajeros?",
+        "Una cuota fija, sin pagar por llamada. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para cerrajeros",
+        "publicidad para cerrajeros",
+        "publicidad cerrajería",
+        "cómo conseguir clientes cerrajero",
         "gestión de redes sociales para cerrajeros",
         "marketing digital cerrajerías",
-        "redes sociales cerrajería",
-        "marketing para cerrajeros"
+        "redes sociales cerrajería"
       ],
-      "intent": "Empresa que busca comunicar servicios e identidad. La búsqueda urgente de un particular requiere otros canales y no debe confundirse con contratar gestión de redes.",
+      "intent": "Cerrajería que busca marketing para conseguir clientes y valora redes, Google y anuncios; distinto del particular que busca una urgencia.",
       "distinctFrom": "Página centrada en identidad, disponibilidad y encaje comercial entre urgencias y servicios previstos; no reproduce la cartera de obras de construcción ni la presentación de productos de metal.",
       "sources": [
         {
@@ -789,25 +1048,40 @@
           "observation": "La competencia señala la prioridad del contacto local en urgencias y el papel complementario de redes. La propuesta propia ofrece una ficha de identidad y un encaje honesto de Growth."
         }
       ],
-      "demand": "Oferta e intención observadas; volumen de las consultas de agencia no cuantificado.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing para cerrajeros, publicidad para cerrajeros y publicidad cerrajería; nada para cómo conseguir clientes ni redes sociales. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para cerrajeros, literal al inicio del title, H1 y description, y publicidad entra en el H2 de contratación. Se conserva el criterio de no anunciar guardias ni procedimientos de apertura."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de ficha"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de ficha",
+    "heroPosts": [
+      "Cambio de bombín tras una mudanza: por qué conviene hacerlo y qué tipos de cilindro instalamos.",
+      "Comunidades de vecinos: revisamos el portal y te proponemos mantenimiento de la cerradura y el cierre.",
+      "Somos cerrajeros de tu zona. Horario, teléfono y servicios, en un solo sitio y sin letra pequeña."
+    ],
+    "heroChat": {
+      "question": "Hola, acabo de comprar un piso y quiero cambiar la cerradura. ¿Cuándo podríais venir?",
+      "answer": "Hola, enhorabuena. Dinos el municipio y una foto de la puerta por dentro. El cerrajero te confirma por teléfono el día y el presupuesto."
+    }
   },
   {
     "id": 20,
     "slug": "pintores",
     "name": "Pintores y empresas de pintura",
-    "title": "Gestión de redes sociales para pintores | Dania360",
-    "description": "Redes sociales y marketing para empresas de pintura de viviendas, locales y comunidades: obras, acabados, web y bot de IA por 297 €/mes. Auditoría gratis.",
-    "h1": "Gestión de redes sociales para pintores y empresas de pintura",
-    "eyebrow": "El trabajo detrás del color",
-    "lead": "Gestionamos las redes de tu empresa de pintura y mostramos la preparación y el acabado de tus trabajos. Las consultas llegan con información para valorar el espacio.",
+    "title": "Marketing para pintores y gestión de redes sociales | Dania360",
+    "description": "Marketing para pintores y empresas de pintura: trabajos en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "h1": "Marketing para pintores y empresas de pintura: el trabajo detrás del color",
+    "eyebrow": "Marketing para pintores de viviendas, locales y comunidades",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de pintura. Mostramos la preparación y el acabado de tus trabajos, y las consultas llegan con información para valorar el espacio.",
     "promise": "Que cada acabado cuente algo más que un cambio de tono.",
     "layout": "pintores",
     "artAlt": "Ilustración original de rodillo, pared y muestras de color para explicar el trabajo de pintura",
@@ -854,17 +1128,33 @@
       [
         "¿Publicaréis precios por metro cuadrado?",
         "Solo si tu empresa confirma el importe y las condiciones en las que se aplica. Si no existe una oferta suficientemente definida, invitamos a solicitar una valoración del espacio. La cuota mostrada no incluye inversión publicitaria ni grabaciones presenciales."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para pintores?",
+        "Presenta tus trabajos de pintura con contexto y mantiene tu presencia en redes, Google y web. Con Growth publicamos cada día en Instagram, Facebook, TikTok y Pinterest, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Esta página es para empresas y autónomos que pintan viviendas, locales y comunidades, no para artistas plásticos."
+      ],
+      [
+        "¿Cómo conseguir clientes de pintura con las redes sociales?",
+        "Enseñando la preparación además del acabado, dejando claros la zona y los tipos de trabajo, y facilitando que el interesado mande fotos y medidas. Las reseñas y el perfil de Google pesan cuando alguien compara pintores cerca de casa. No garantizamos encargos: revisamos contigo qué consultas llegaron a visita."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para pintores?",
+        "Una cuota fija, sin pagar por presupuesto pedido. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, mensajes, reseñas, perfil de Google y web con hosting, una actualización al mes y bot de IA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. La inversión en anuncios se paga aparte y la auditoría inicial es gratuita."
       ]
     ],
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-14",
       "queries": [
+        "marketing para pintores",
+        "marketing digital para pintores",
+        "publicidad para pintores de casas",
+        "cómo conseguir clientes de pintura",
         "gestión de redes sociales para pintores",
         "marketing redes sociales empresas pintura",
         "community manager empresas pintura",
         "marketing para empresas de pintura"
       ],
-      "intent": "Profesional de pintura que quiere delegar su comunicación y presentar el valor del trabajo, no propietario que busca una tarifa de pintura.",
+      "intent": "Pintor autónomo o empresa de pintura de viviendas, locales y comunidades que busca marketing para conseguir clientes; la búsqueda se mezcla con la de artistas plásticos y la página lo aclara.",
       "distinctFrom": "Se centra en preparación, luz, acabados y material comparable. Reformas trata decisiones de espacio y coordinación de una intervención más amplia.",
       "sources": [
         {
@@ -876,15 +1166,30 @@
           "observation": "La oferta portuguesa observada en búsqueda trabaja pares de imágenes y contexto del oficio. No se extrapola su mercado a volúmenes españoles."
         }
       ],
-      "demand": "Investigación cualitativa sin cifras de volumen, tráfico o retorno.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 14/11/2026, con expansión a-z: sugiere marketing para pintores, marketing digital para pintores, publicidad para pintores (de casas) y cómo conseguir clientes de pintura o para trabajos de pintura; marketing para empresas de pintura no tiene sugerencias. Sin volúmenes verificados.",
       "commercialIntent": {
         "date": "2026-11-12",
         "evidence": "outputs/seo-intencion-20261112-bloque-02/research.json",
         "observation": "Google España, 12 de noviembre de 2026: Dania360 no aparece en la primera página para las variantes de marketing o agencia del oficio, ocupadas por agencias de SEO local y anuncios y por guías. Se añade un apartado que delimita qué cubre Growth y qué conviene preguntar al comparar proveedores."
+      },
+      "titleRewrite": {
+        "date": "2026-11-14",
+        "evidence": "outputs/seo-piloto-20261113/autocompletado-oficios.json y autocompletado-oficios-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda1.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para pintores, que convive con búsquedas de artistas plásticos; la página lo aclara en la FAQ y en el apartado de contratación, y nombra empresas de pintura en H1 y description. Se conservan la preparación y la muestra de color."
       }
     },
-    "contentModified": "2026-11-12",
-    "heroExampleLabel": "Ver ejemplo de acabado"
+    "contentModified": "2026-11-14",
+    "heroExampleLabel": "Ver ejemplo de acabado",
+    "heroPosts": [
+      "Antes de pintar, protegemos suelos y muebles y reparamos grietas. Así queda el salón al terminar.",
+      "El mismo blanco junto a la ventana y en la pared del fondo: por qué te pedimos ver la muestra en casa.",
+      "Pintamos viviendas, locales y escaleras de comunidad. Cuéntanos qué estancias y en qué municipio."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero pintar el piso entero, unos 80 metros. ¿Me podéis dar un precio aproximado?",
+      "answer": "Hola, gracias. Mándanos el municipio, fotos de las paredes y si está amueblado. El pintor lo revisa y te propone una visita para darte el presupuesto cerrado."
+    }
   },
   {
     "id": 21,
