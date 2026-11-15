@@ -8030,15 +8030,23 @@
   {
     "id": 81,
     "slug": "floristerias",
-    "title": "Gestión de redes sociales para floristerías | Dania360",
-    "description": "Muestra el estilo de tu floristería y orienta consultas de regalos y eventos. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La composición se ve; el encargo se conversa",
-    "promise": "Presenta tu estilo floral y facilita una consulta con tu equipo.",
-    "lead": "Preparamos contenido para explicar las composiciones y los servicios de tu floristería. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para floristerías y redes sociales | Dania360",
+    "description": "Marketing para floristerías: publicaciones con tus ramos y composiciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para floristerías: regalos, fechas señaladas y eventos",
+    "promise": "Que tus ramos se vean cada día y los encargos lleguen a tu equipo.",
+    "lead": "Publicamos cada día ramos, composiciones y fechas señaladas de tu floristería, respondemos mensajes y reseñas y llevamos tu ficha de Google. Los encargos pasan a tu equipo, que confirma flores, precio y entrega. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Ramo conceptual con flores y envoltura geométricas que relaciona forma, detalle y consulta",
     "artCaption": "Ilustración editorial original. No representa un ramo disponible, un pedido o un evento real.",
     "resourceTitle": "Una composición floral y dos motivos de consulta",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para floristerías?",
+        "Publicamos cada día ramos, composiciones, plantas de temporada y el trabajo de tu taller en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las peticiones de un ramo o de un evento pasan a tu equipo, que confirma flores, precio y entrega. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir más clientes para una floristería con las redes sociales?",
+        "Ayuda preparar con semanas de margen las fechas que más mueven el oficio, como San Valentín, el Día de la Madre o Todos los Santos, enseñar ramos reales con una forma clara de encargarlos y tener la ficha de Google con horario, fotos y reseñas contestadas. Pinterest y los vídeos cortos sirven para inspirar regalos y decoraciones de eventos. No garantizamos ventas: la floristería confirma qué consultas acaban en encargo."
+      ],
       [
         "¿Podéis mostrar una composición anterior sin anunciar que está disponible?",
         "Sí. Se identifica como muestra del estilo o de un trabajo autorizado y se aclara cómo consultar otras opciones. El florista confirma qué materiales y composiciones puede ofrecer en ese momento."
@@ -8052,25 +8060,33 @@
         "Servicios, información del negocio y fotografías, vídeos o explicaciones que puedas aportar y publicar. Podemos utilizar un ejemplo conceptual identificado para explicar un enfoque. Las grabaciones presenciales no figuran en la cuota de Growth."
       ],
       [
+        "¿Cuánto cuesta el marketing para una floristería?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago y las grabaciones presenciales no están incluidas. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para floristerías por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Floristerías",
-    "h1": "Gestión de redes sociales para floristerías",
+    "h1": "Marketing para floristerías: redes sociales, Google y web para tus ramos y encargos",
     "layout": "floristerias",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para floristerías",
-        "community manager floristerías",
-        "redes sociales floristería",
-        "marketing floristerías"
+        "marketing para floristerías",
+        "marketing floristeria",
+        "publicidad para floristeria",
+        "marketing para flores",
+        "marketing para vender flores",
+        "ideas para floristería",
+        "como atraer clientes a una floristería",
+        "redes sociales floristería"
       ],
-      "intent": "Florista que quiere mostrar su estilo y orientar peticiones de composiciones sin anunciar disponibilidad o entrega no confirmadas.",
-      "distinctFrom": "Tres vistas de una composición conceptual, una publicación y dos respuestas distintas para un regalo y un evento. La página general de comercios trata el escaparate local; esta explica el estilo floral y cómo se estudia un encargo. No sustituye la página de organización de bodas.",
+      "intent": "Floristería que busca marketing para floristerías: quién le lleva redes, Google y web para que se vean sus ramos y composiciones y lleguen encargos de regalos, fechas señaladas y eventos. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende flores ni un sistema de pedidos.",
+      "distinctFrom": "Tres vistas de una composición conceptual, una publicación y dos respuestas distintas para un regalo y un evento. La página general de comercios trata el escaparate local; esta explica el estilo floral y cómo se estudia un encargo. No sustituye la página de organización de bodas. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en el calendario floral y en el encargo de un ramo o un evento.",
       "sources": [
         {
           "url": "https://floristas-por-el-mundo.com/servicios",
@@ -8079,7 +8095,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para floristerías y marketing floristeria tienen sugerencia; publicidad para floristeria también; marketing para flores sugiere marketing para vender flores; ideas para floristería sugiere ideas para montar una floristería. Redes sociales floristería, marketing digital para floristerías, cómo vender más en una floristería y cómo atraer clientes a una floristería no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8119,20 +8135,37 @@
       "",
       "Para estudiar una propuesta floral, continúa por el contacto del perfil y sitúa el tipo de evento, su fecha y el ámbito general del espacio. Nuestro equipo te indicará qué necesita conocer para preparar la conversación. La propuesta y la disponibilidad se confirman después de revisar el encargo; este mensaje no reserva una fecha.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Un ramo de temporada en 15 segundos: así lo preparamos en el taller antes de que salga por la puerta",
+      "Día de la Madre: escríbenos con tiempo y te contamos qué ramos podemos preparar y cómo entregarlos",
+      "Flores para bodas y eventos: cuéntanos la fecha y el espacio y estudiamos contigo la propuesta"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿podéis hacerme un ramo como el del vídeo para el sábado? Es para un cumpleaños.",
+      "answer": "Hola, gracias por escribir. Pasamos tu mensaje a la floristería, que te confirma qué flores tiene esta semana, el precio y si puede entregarlo o lo recoges tú."
+    }
   },
   {
     "id": 82,
     "slug": "joyerias-relojerias",
-    "title": "Redes sociales para joyerías y relojerías | Dania360",
-    "description": "Presenta piezas y referencias de tu joyería o relojería con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El detalle merece una explicación de tu tienda",
-    "promise": "Haz reconocible cada pieza y facilita la conversación con tu equipo.",
-    "lead": "Gestionamos contenido para presentar las piezas, las colecciones y la atención de tu joyería o relojería. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para joyerías y relojerías en redes sociales | Dania360",
+    "description": "Marketing para joyería y relojería: publicaciones de tus piezas, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para joyería y relojería con tienda propia",
+    "promise": "Piezas que se reconocen en el móvil y consultas que atiende tu equipo.",
+    "lead": "Publicamos cada día joyas, relojes y novedades de tu tienda, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre una pieza pasan a tu equipo, que confirma materiales, precio y disponibilidad. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Dos piezas conceptuales sin marca, un aro y un reloj, con detalles gráficos que no acreditan materiales o mecanismos",
     "artCaption": "Composición original sin marcas ni referencias comerciales. No representa piezas disponibles o de clientes.",
     "resourceTitle": "Dos publicaciones para una joya y un reloj",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para joyerías?",
+        "Publicamos cada día piezas, colecciones, relojes y novedades de tu joyería en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre una pieza, una talla o un encargo pasan a tu equipo, que confirma materiales, precio y disponibilidad. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo vender más joyas desde las redes sociales de una joyería?",
+        "Ayuda enseñar piezas concretas con buen detalle, explicar qué se puede consultar, como tallas, grabados o ajustes si la tienda los ofrece, preparar con tiempo fechas de regalo como San Valentín, el Día de la Madre, las comuniones o la Navidad y responder pronto a quien pregunta por una pieza. Las reseñas contestadas y la ficha de Google dan confianza antes de entrar. No garantizamos ventas: la joyería confirma qué consultas acaban en compra."
+      ],
       [
         "¿Quién confirma materiales, mecanismos o características de una pieza?",
         "El equipo de la tienda valida la referencia y los datos que se comunican. No se deducen certificados, materiales, procedencia o propiedades a partir de una imagen ni se presentan como comprobados por Dania360."
@@ -8146,25 +8179,35 @@
         "No se le atribuyen esas funciones. Se configura con información del negocio para orientar el contacto. La valoración, la autenticidad, las existencias y cualquier encargo se revisan con el equipo de la tienda."
       ],
       [
+        "¿Cuánto cuesta el marketing para una joyería?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las sesiones de fotos de producto y el material de las marcas no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para joyerías y relojerías por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Joyerías y relojerías",
-    "h1": "Gestión de redes sociales para joyerías y relojerías",
+    "h1": "Marketing para joyerías y relojerías: redes sociales para presentar tus piezas",
     "layout": "joyerias-relojerias",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para joyerías y relojerías",
-        "redes sociales joyerías",
-        "community manager relojerías",
-        "marketing joyerías"
+        "marketing para joyerías",
+        "marketing para joyería",
+        "marketing joyeria",
+        "marketing para joyas",
+        "marketing para vender joyas",
+        "marketing de joyería",
+        "publicidad para joyas",
+        "como vender en una joyeria",
+        "marketing relojes",
+        "redes sociales joyería"
       ],
-      "intent": "Comercio que necesita presentar piezas y colecciones con detalle y facilitar la consulta con su equipo.",
-      "distinctFrom": "Dos publicaciones completas: lectura visual de una pieza de joyería y presentación de una referencia de reloj, con características por confirmar. Se comunica venta y atención de producto; no inversión en metales, autenticación ni reparación atribuida por pertenecer al sector.",
+      "intent": "Joyería o relojería con tienda que busca marketing para joyería: quién le lleva redes, Google y web para presentar piezas y relojes con detalle y que las consultas lleguen a su equipo. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no tasa, autentica ni vende joyas.",
+      "distinctFrom": "Dos publicaciones completas: lectura visual de una pieza de joyería y presentación de una referencia de reloj, con características por confirmar. Se comunica venta y atención de producto; no inversión en metales, autenticación ni reparación atribuida por pertenecer al sector. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en la pieza, el regalo y la confianza propia de la joyería.",
       "sources": [
         {
           "url": "https://www.alioze.com/es/agencia-comunicacion-relojes",
@@ -8179,7 +8222,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para joyerías sugiere marketing para joyas; marketing para joyería, marketing joyeria y marketing de joyería tienen sugerencia, con frases de marketing para joyería y frases para vender joyas; marketing para joyas sugiere marketing para vender joyas; publicidad para joyas tiene variantes; cómo vender más en una joyería sugiere como vender en una joyeria; marketing relojes tiene sugerencia. Marketing para relojerías, marketing digital para joyerías y redes sociales joyería no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8207,20 +8250,37 @@
       "",
       "Para conocer un reloj conviene saber qué referencia se está mostrando y qué información puede explicar la tienda. Una vista completa presenta su diseño; los acercamientos ayudan a observar los detalles que el equipo haya confirmado. Esta ilustración no corresponde a una marca o un modelo comercial. Si quieres consultar una referencia de nuestro catálogo, indica la pieza por el canal de contacto. Nuestro equipo revisará contigo sus características y las opciones disponibles. Los servicios adicionales, los ajustes y cualquier condición se confirman según la oferta real del establecimiento.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Una pieza en tres planos: vista general, detalle del acabado y cómo consultarla con nuestro equipo",
+      "Relojes para regalar estas fiestas: pregúntanos por las referencias que tenemos en tienda",
+      "Novedades de la semana en el escaparate: anillos, pendientes y un reloj que puedes ver en tienda"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿el anillo del último vídeo lo tenéis en otra talla? Es para un regalo.",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al equipo de la joyería, que comprueba las tallas disponibles y te confirma el precio y si se puede ajustar."
+    }
   },
   {
     "id": 83,
     "slug": "tiendas-muebles",
-    "title": "Redes sociales para tiendas de muebles | Dania360",
-    "description": "Presenta modelos de tu tienda de muebles y facilita consultas sobre sus opciones. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Un modelo, un detalle y una consulta con tu tienda",
-    "promise": "Que la imagen de ambiente permita reconocer qué mueble vendes.",
-    "lead": "Preparamos contenido para mostrar los muebles de tu tienda y explicar cómo consultar una referencia. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para tiendas de muebles y redes sociales | Dania360",
+    "description": "Marketing para tiendas de muebles: publicaciones de tu exposición, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing digital para mueblerías y tiendas de mobiliario",
+    "promise": "Que cada mueble se vea en su ambiente y la consulta llegue a tu tienda.",
+    "lead": "Publicamos cada día modelos, ambientes y novedades de tu exposición, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre medidas, acabados o plazos pasan a tu equipo, que las confirma. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Mueble geométrico conceptual con una vista de conjunto y un detalle ampliado sin dimensiones o marcas",
     "artCaption": "Dibujo editorial original. No es un modelo comercial, un encargo de fabricación o una estancia de un cliente.",
     "resourceTitle": "Guion de 15 segundos para un mueble de exposición",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para tiendas de muebles?",
+        "Publicamos cada día muebles, ambientes y novedades de tu exposición en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre medidas, acabados, transporte o plazos pasan a tu equipo, que las confirma. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo vender más muebles con las redes sociales?",
+        "Un mueble se decide con calma, así que ayuda enseñarlo en su ambiente y en detalle, identificar cada pieza para que se pueda preguntar por ella, invitar a enviar las medidas de la estancia por mensaje y usar Pinterest como escaparate de inspiración. La ficha de Google con ubicación, horario y reseñas contestadas lleva a quien ya quiere visitar la exposición. No garantizamos ventas: la tienda confirma qué consultas acaban en compra."
+      ],
       [
         "¿Quién confirma medidas, acabados y disponibilidad de los muebles?",
         "Tu tienda valida el modelo y sus opciones antes de publicarlos o preparar una propuesta. No se anuncian transporte, montaje, personalización o plazos sin confirmar que forman parte de la oferta."
@@ -8234,25 +8294,34 @@
         "No se presupone esa integración. El bot informa sobre el negocio y orienta al contacto. La tienda confirma el producto, las opciones y la compra. La fabricación a medida necesita una explicación diferente de la venta de mobiliario."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda de muebles?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las grabaciones en la exposición y un configurador o catálogo conectado no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas de muebles por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas de muebles",
-    "h1": "Gestión de redes sociales para tiendas de muebles",
+    "h1": "Marketing para tiendas de muebles: redes sociales para vender los muebles de tu exposición",
     "layout": "tiendas-muebles",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para tiendas de muebles",
-        "community manager tiendas muebles",
-        "redes sociales mobiliario",
-        "marketing tiendas muebles"
+        "marketing para tiendas de muebles",
+        "marketing para mueblerías",
+        "marketing muebles",
+        "marketing para muebles",
+        "marketing para vender muebles",
+        "marketing digital para muebles",
+        "publicidad para muebles",
+        "ideas para vender muebles",
+        "como vender más en una tienda de muebles"
       ],
-      "intent": "Tienda de mobiliario que quiere explicar referencias de su exposición y orientar la visita o la consulta sobre un modelo.",
-      "distinctFrom": "Guion de 15 segundos sobre vista general, detalle y consulta de un mueble, con publicación completa y preguntas sobre medidas y condiciones. Se presenta mobiliario que comercializa la tienda; la página de carpintería comunica fabricación y la de interiorismo un servicio de diseño.",
+      "intent": "Tienda de muebles o mueblería que busca marketing para vender muebles: quién le lleva redes, Google y web para enseñar su exposición y que las consultas sobre medidas y modelos lleguen a su equipo. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no fabrica ni vende muebles.",
+      "distinctFrom": "Guion de 15 segundos sobre vista general, detalle y consulta de un mueble, con publicación completa y preguntas sobre medidas y condiciones. Se presenta mobiliario que comercializa la tienda; la página de carpintería comunica fabricación y la de interiorismo un servicio de diseño. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en la exposición, el ambiente y la consulta de medidas de un mueble.",
       "sources": [
         {
           "url": "https://www.arimetrics.com/sectores/agencia-marketing-muebles",
@@ -8261,7 +8330,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para tiendas de muebles no tiene sugerencias; marketing muebles y marketing para muebles sugieren marketing para vender muebles y marketing digital para muebles; marketing para mueblerías tiene sugerencia; publicidad para muebles sugiere publicidad para vender muebles; ideas para vender muebles tiene sugerencia. Cómo vender más en una tienda de muebles y cómo atraer clientes a una tienda de muebles no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8299,20 +8368,37 @@
       "",
       "Un mueble se entiende mejor cuando podemos verlo en conjunto y observar un detalle. En esta demostración conceptual presentamos ese recorrido: primero la pieza, después una parte de su diseño y finalmente la consulta con la tienda. Para una referencia de nuestro catálogo, el equipo te explicará las medidas, los acabados y las opciones que puede ofrecer. Si quieres informarte, indica la publicación y cuéntanos qué estás buscando. La disponibilidad y las condiciones de la propuesta se confirman antes de acordar la compra.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Un sofá de la exposición en 15 segundos: de la vista general al detalle del tejido",
+      "¿Cabe en tu salón? Mándanos las medidas por mensaje y te decimos qué modelos pueden encajar",
+      "Nuevos ambientes de dormitorio en la exposición: ven a verlos o pregúntanos por mensaje"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿la mesa del vídeo la tenéis en 180 cm? ¿Y cuánto tarda en llegar?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a la tienda, que te confirma las medidas disponibles, los acabados y el plazo de entrega antes de que decidas."
+    }
   },
   {
     "id": 84,
     "slug": "decoracion-iluminacion",
-    "title": "Redes sociales para decoración e iluminación | Dania360",
-    "description": "Da contexto a los productos de tu tienda de decoración e iluminación. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "Inspiración con una referencia que se pueda consultar",
-    "promise": "Une el ambiente de la imagen con el producto que ofrece tu tienda.",
-    "lead": "Preparamos contenido para presentar objetos decorativos y luminarias con información confirmada por tu tienda. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "title": "Marketing y redes sociales para tiendas de decoración | Dania360",
+    "description": "Marketing para tiendas de decoración e iluminación: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing de decoración: inspiración con un producto que se pueda consultar",
+    "promise": "Une el ambiente de la imagen con el producto que vende tu tienda.",
+    "lead": "Publicamos cada día objetos, lámparas y ambientes de tu tienda, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre una referencia pasan a tu equipo, que confirma medidas, datos técnicos y disponibilidad. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Dos escenas conceptuales muestran un objeto decorativo y una luminaria sin marcas ni datos de instalación",
     "artCaption": "Ilustración editorial propia. No representa productos disponibles, una estancia realizada o un proyecto de iluminación.",
     "resourceTitle": "Dos publicaciones para decoración e iluminación",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para tiendas de decoración?",
+        "Publicamos cada día objetos decorativos, lámparas, ambientes y novedades de tu tienda en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre una referencia, sus medidas o sus datos técnicos pasan a tu equipo, que los confirma. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Qué publicar en las redes de una tienda de decoración e iluminación?",
+        "Ambientes en los que cada pieza está identificada, la misma lámpara encendida y apagada, rincones de la tienda, novedades y temas de temporada como la renovación de primavera o la mesa de Navidad. Pinterest sirve para que esas ideas se guarden y lleven a tu web. Cada publicación indica cómo consultar el producto, y la tienda valida los datos antes de publicarlos."
+      ],
       [
         "¿Cómo diferenciáis una composición de inspiración y un producto real?",
         "La pieza indica qué está mostrando y la tienda confirma la referencia y sus datos. Una muestra conceptual o una imagen de ambiente no se anuncia como producto disponible ni como proyecto ejecutado."
@@ -8326,25 +8412,33 @@
         "Se revisa que la tienda tenga permiso para ese uso y se conserva la atribución que corresponda. También podemos preparar contenido con material propio autorizado o demostraciones claramente identificadas."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda de decoración?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las sesiones de fotos de producto y los proyectos de interiorismo no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas de decoración e iluminación por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas de decoración e iluminación",
-    "h1": "Gestión de redes sociales para tiendas de decoración e iluminación",
+    "h1": "Marketing para tiendas de decoración e iluminación: redes sociales para tu producto",
     "layout": "decoracion-iluminacion",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para tiendas de decoración e iluminación",
-        "redes sociales tiendas iluminación",
-        "community manager decoración",
-        "marketing tiendas decoración"
+        "marketing para tiendas de decoración",
+        "marketing tienda de decoración",
+        "marketing decoración",
+        "marketing para tiendas de iluminación",
+        "marketing iluminación",
+        "publicidad para tiendas de decoración",
+        "como vender más en una tienda de decoración",
+        "redes sociales tiendas de decoración e iluminación"
       ],
-      "intent": "Comercio que quiere presentar objetos y luminarias en un contexto reconocible y explicar cómo consultar sus características.",
-      "distinctFrom": "Dos textos sobre una composición decorativa y una luminaria, distinguiendo intención visual, referencia y condiciones de consulta. La tienda vende productos; no se atribuye un proyecto de interiorismo, instalación eléctrica o asesoramiento técnico a la agencia.",
+      "intent": "Tienda de decoración e iluminación que busca marketing para su comercio: quién le lleva redes, Google y web para convertir la inspiración en consultas sobre productos concretos. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende decoración, no diseña interiores ni instala luminarias.",
+      "distinctFrom": "Dos textos sobre una composición decorativa y una luminaria, distinguiendo intención visual, referencia y condiciones de consulta. La tienda vende productos; no se atribuye un proyecto de interiorismo, instalación eléctrica o asesoramiento técnico a la agencia. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en el ambiente, la luz y la referencia de producto de una tienda de decoración.",
       "sources": [
         {
           "url": "https://pentamium.es/como-las-tiendas-de-iluminacion-pueden-transformar-sus-ventas-con-una-estrategia-digital-sencilla-pero-efectiva/",
@@ -8353,7 +8447,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. Solo marketing decoración tiene sugerencia. Marketing para tiendas de decoración, marketing tienda de decoración, marketing para tiendas de iluminación, marketing iluminación, publicidad para tiendas de decoración y cómo vender más en una tienda de decoración no tienen sugerencias. El title prioriza tiendas de decoración y deja iluminación para el H1 y la descripción por longitud. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8381,20 +8475,37 @@
       "",
       "Una imagen de una lámpara en una estancia ayuda a situar su diseño, pero no responde por sí sola a todas las preguntas sobre el producto. Este dibujo es una demostración editorial. Al mostrar una referencia real, nuestro equipo confirma los datos que la acompañan y lo que puedes consultar. Si estás valorando una luminaria, explica qué pieza te interesa y el espacio donde la estás planteando. La tienda revisará contigo sus características y condiciones; las cuestiones técnicas o de instalación se confirman con el profesional correspondiente.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "La misma lámpara apagada y encendida: así cambia el rincón. Pregúntanos por esta referencia",
+      "Ideas para vestir la mesa en Navidad con piezas que tienes en nuestra tienda",
+      "Tres objetos para dar luz a una entrada pequeña. Consulta medidas y acabados por mensaje"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿la lámpara colgante del vídeo sirve para un techo bajo? ¿La tenéis en negro?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a la tienda, que te confirma las medidas, los acabados disponibles y los datos técnicos de esa lámpara."
+    }
   },
   {
     "id": 85,
     "slug": "librerias",
-    "title": "Gestión de redes sociales para librerías | Dania360",
-    "description": "Haz visible el criterio y la actividad de tu librería con contenido propio. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "La voz de tu librería, también antes de la visita",
+    "title": "Marketing y gestión de redes sociales para librerías | Dania360",
+    "description": "Marketing para librerías: publicaciones con tu selección y tus actividades, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para librerías independientes",
     "promise": "Convierte la selección de tu equipo en una conversación con lectores.",
-    "lead": "Gestionamos contenido para presentar tu librería, su selección y las actividades que confirmes. Growth incluye redes sociales, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día recomendaciones, novedades y actividades de tu librería, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre un libro o un encargo pasan a tu equipo, que confirma ejemplares y reservas. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Libros conceptuales sin títulos y una tarjeta editorial diferencian conversación lectora y programación",
     "artCaption": "Composición gráfica original. No reproduce portadas, obras, reseñas ni una actividad anunciada.",
     "resourceTitle": "Dos publicaciones para lectores y programación",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para librerías?",
+        "Publicamos cada día recomendaciones del equipo, novedades, la agenda de actividades y el ambiente de tu librería en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas por un título o un encargo pasan a tu equipo, que confirma ejemplares y plazos. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo atraer lectores a una librería con las redes sociales?",
+        "Ayuda que el perfil tenga la voz de quien recomienda: lecturas elegidas con criterio propio, presentaciones y clubes de lectura confirmados, fechas como el Día del Libro o Sant Jordi, la vuelta al cole si trabajas libros de texto y las ideas de regalo de Navidad. La ficha de Google con horario, fotos y reseñas contestadas ayuda a quien busca una librería cerca. No garantizamos ventas: la librería confirma qué consultas acaban en compra."
+      ],
       [
         "¿Podéis comunicar nuestra selección sin copiar reseñas o fragmentos?",
         "Sí. Partimos del criterio y la información que confirme el equipo y redactamos una explicación propia. Los títulos, ediciones e imágenes se revisan antes de publicar; no se inventan obras ni valoraciones de lectores."
@@ -8408,25 +8519,34 @@
         "El bot orienta con información configurada del negocio y del contacto. Las existencias, los encargos y las reservas los confirma la librería. Growth no presupone una conexión con un catálogo o sistema de venta de libros."
       ],
       [
+        "¿Cuánto cuesta el marketing para una librería?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago y la grabación de presentaciones no están incluidas. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para librerías por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Librerías",
-    "h1": "Gestión de redes sociales para librerías",
+    "h1": "Marketing para librerías: redes sociales con la voz y la selección de tu equipo",
     "layout": "librerias",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para librerías",
-        "community manager librerías",
-        "redes sociales librerías",
-        "marketing librerías"
+        "marketing para librerías",
+        "marketing libreria",
+        "marketing para librerias",
+        "marketing digital para librerías",
+        "publicidad para librerías",
+        "ideas para librerías",
+        "como vender más en una librería",
+        "como atraer clientes a una librería",
+        "redes sociales librería"
       ],
-      "intent": "Librería que quiere mostrar su criterio de selección y orientar preguntas de lectores además de presentar actividades confirmadas.",
-      "distinctFrom": "Un comentario original sobre La vuelta al mundo en ochenta días, con autor y título contrastados, y otra pieza para consultar programación confirmada. No se anuncia stock, una reseña de un cliente o un evento ficticio. La propuesta comunica una librería, no un servicio de edición o publicación de libros.",
+      "intent": "Librería independiente que busca marketing para librerías: quién le lleva redes, Google y web para mostrar su criterio, su agenda y sus encargos y atraer lectores. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende libros ni ofrece servicios editoriales.",
+      "distinctFrom": "Un comentario original sobre La vuelta al mundo en ochenta días, con autor y título contrastados, y otra pieza para consultar programación confirmada. No se anuncia stock, una reseña de un cliente o un evento ficticio. La propuesta comunica una librería, no un servicio de edición o publicación de libros. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en la recomendación lectora, la agenda y el encargo de un libro.",
       "sources": [
         {
           "url": "https://www.seonetdigital.com/es/blog/marketing-para-librerias",
@@ -8459,7 +8579,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo específico con límites de lectura registrados. Sin volumen, dificultad, tendencia o puesto actual verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para librerías tiene sugerencia; marketing libreria sugiere marketing para librerias y marketing libros; publicidad para librerías tiene sugerencia; ideas para librerías mezcla muebles y papelerías. Marketing digital para librerías, redes sociales librería, cómo vender más en una librería y cómo atraer clientes a una librería no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null,
       "editorialRevision": "La recomendación genérica se convierte en un comentario concreto, escrito de nuevo sobre una obra real documentada, con referencia bibliográfica visible. No se reproducen fragmentos, reseñas ajenas o portadas ni se atribuyen existencias."
@@ -8490,20 +8610,37 @@
       "",
       "Si nuestra librería publica una nueva actividad, encontrarás el tema, a quién se dirige y cómo consultar sus condiciones. Antes de organizar tu visita, confirma con el equipo la convocatoria vigente, la fecha, el formato y la disponibilidad. El aviso informa sobre una actividad concreta; no convierte cualquier fecha en una reserva. Cuando una publicación anterior ya no corresponda a la programación actual, utiliza el contacto de la librería para conocer qué está previsto y cómo puedes informarte.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "La recomendación de la semana: por qué este libro se ha ganado un sitio en nuestra mesa de novedades",
+      "Club de lectura de este mes: escríbenos y te contamos fecha, libro y cómo apuntarte",
+      "Día del Libro: pídenos tu encargo con tiempo y te avisamos cuando llegue a la librería"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿tenéis el libro que recomendasteis ayer? Si no, ¿me lo podéis pedir?",
+      "answer": "Hola, gracias por escribir. Pasamos tu mensaje a la librería, que comprueba si hay ejemplares y, si no, te confirma cómo encargarlo y cuándo llegaría."
+    }
   },
   {
     "id": 86,
     "slug": "jugueterias",
-    "title": "Gestión de redes sociales para jugueterías | Dania360",
-    "description": "Explica productos de tu juguetería y atiende las consultas de compradores adultos. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La caja despierta interés; la información ayuda a elegir",
-    "promise": "Presenta cada referencia con información que tu equipo pueda explicar.",
-    "lead": "Preparamos contenido para mostrar los juguetes y la atención de tu tienda a compradores adultos. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "title": "Marketing y gestión de redes sociales para jugueterías | Dania360",
+    "description": "Marketing para jugueterías y tiendas de juguetes: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing para juguetes pensado para madres, padres y quien regala",
+    "promise": "Presenta cada juguete con información que tu equipo pueda explicar.",
+    "lead": "Publicamos cada día juguetes, novedades y fechas de regalo de tu tienda para compradores adultos, respondemos mensajes y reseñas y llevamos tu ficha de Google. Tu equipo confirma edades, existencias y precio. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Caja conceptual abierta con piezas geométricas sin marca, sin indicaciones de edad o características comerciales",
     "artCaption": "Ilustración original para explicar un enfoque editorial. No representa un juguete a la venta ni una recomendación de edad.",
     "resourceTitle": "Una caja, su contenido y la conversación con el comprador",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para jugueterías?",
+        "Publicamos cada día juguetes, juegos de mesa, novedades y fechas de regalo de tu tienda en Instagram, Facebook, TikTok y Pinterest para compradores adultos, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas por un juguete o una reserva pasan a tu equipo, que confirma edades, existencias y precio. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo vender más juguetes desde las redes de una juguetería?",
+        "Ayuda empezar la campaña de Navidad y Reyes en octubre, enseñar qué trae cada caja en vídeos cortos, indicar la edad que marca el fabricante, invitar a consultar la carta por mensaje y no olvidar el resto del año: cumpleaños, verano y juegos de mesa. La ficha de Google con horario ampliado, si lo tienes, y reseñas contestadas ayuda en las semanas fuertes. No garantizamos ventas: la tienda confirma qué consultas acaban en compra."
+      ],
       [
         "¿El contenido se dirige a menores?",
         "Esta propuesta presenta la oferta de la tienda a compradores adultos. No pide a menores datos o imágenes para continuar una consulta y no atribuye a una muestra conceptual una recomendación de compra."
@@ -8517,25 +8654,33 @@
         "Sí, con material autorizado y datos revisados por la tienda. La publicación distingue la referencia real de una muestra conceptual. La cuota de Growth no incluye grabaciones presenciales ni un sistema de pedidos conectado."
       ],
       [
+        "¿Cuánto cuesta el marketing para una juguetería?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las grabaciones presenciales y un sistema de reservas conectado no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para jugueterías por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Jugueterías",
-    "h1": "Gestión de redes sociales para jugueterías",
+    "h1": "Marketing para jugueterías: redes sociales para tu tienda de juguetes y quien compra",
     "layout": "jugueterias",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para jugueterías",
-        "community manager jugueterías",
-        "redes sociales tiendas juguetes",
-        "marketing jugueterías"
+        "marketing para jugueterías",
+        "marketing jugueteria",
+        "marketing para tiendas de juguetes",
+        "marketing para juguetes",
+        "marketing para vender juguetes",
+        "publicidad para jugueterías",
+        "como vender más en una juguetería",
+        "como atraer clientes a una juguetería"
       ],
-      "intent": "Tienda de juguetes que necesita explicar productos a compradores adultos con información del fabricante confirmada.",
-      "distinctFrom": "Demostración editorial de qué muestra una caja, qué incluye y qué debe consultar el adulto antes de comprar. Frente a librerías o ropa, el contenido trata producto de juguetería y compra adulta. No se inventan edades, seguridad o beneficios del desarrollo.",
+      "intent": "Juguetería o tienda de juguetes que busca marketing para vender juguetes: quién le lleva redes, Google y web para llegar a madres, padres y quien regala, sobre todo en Navidad y Reyes. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA dirigidos a compradores adultos; no vende juguetes ni se dirige a menores.",
+      "distinctFrom": "Demostración editorial de qué muestra una caja, qué incluye y qué debe consultar el adulto antes de comprar. Frente a librerías o ropa, el contenido trata producto de juguetería y compra adulta. No se inventan edades, seguridad o beneficios del desarrollo. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en el calendario de Navidad y Reyes y en el comprador adulto de juguetes.",
       "sources": [
         {
           "url": "https://babycare.agency/es/servicios/social-media/",
@@ -8544,7 +8689,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para jugueterías, marketing jugueteria, marketing para tiendas de juguetes y cómo vender más en una juguetería no tienen sugerencias; marketing para juguetes y marketing juguetes sugieren marketing para vender juguetes; publicidad para jugueterías solo devuelve una variante mal escrita. El title usa jugueterías, el nombre del negocio, y el H1 añade tienda de juguetes. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8580,20 +8725,41 @@
       "",
       "Gracias por consultar. Indícanos qué referencia has visto y qué información necesitas conocer antes de comprar. Nuestro equipo revisará el contenido de la caja y las indicaciones del fabricante que correspondan a ese producto. Las opciones disponibles y las condiciones de la compra se confirman con la juguetería. No hace falta publicar datos o imágenes de menores en el comentario; podemos continuar por el contacto de la tienda con la persona adulta que realiza la consulta.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Qué trae la caja: abrimos este juego de construcción y te enseñamos todas las piezas en 15 segundos",
+      "Carta a los Reyes: escríbenos con tiempo y te decimos qué juguetes de la lista tenemos en tienda",
+      "Ideas de regalo para un cumpleaños, con la edad que indica el fabricante en cada caja"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿os queda el juego del vídeo? Es para un niño de 6 años, ¿me lo podéis guardar?",
+      "answer": "Hola, gracias por escribir. Pasamos tu mensaje a la juguetería, que comprueba si queda, te indica la edad que marca el fabricante y te confirma si puede reservarlo."
+    }
   },
   {
     "id": 87,
     "slug": "ropa-complementos",
-    "title": "Redes sociales para ropa y complementos | Dania360",
-    "description": "Presenta las prendas de tu tienda y orienta consultas sobre referencias, tallas y colores. Growth incluye redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "Del conjunto a la prenda que quieres presentar",
-    "promise": "Que el detalle de la imagen lleve a una consulta sobre tu producto.",
-    "lead": "Gestionamos contenido para presentar prendas y complementos con datos confirmados por tu tienda. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para tiendas de ropa y redes sociales | Dania360",
+    "description": "Marketing para tiendas de ropa y complementos: publicaciones de prendas, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para tiendas de ropa y complementos",
+    "promise": "Que tus prendas se vean cada día y las dudas de talla lleguen a tu equipo.",
+    "lead": "Publicamos cada día prendas, conjuntos y novedades de tu tienda de ropa y complementos, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas de talla, color o disponibilidad pasan a tu equipo, que las confirma. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Prenda geométrica en una percha y un recuadro de detalle sin marca, talla o composición de tejido",
     "artCaption": "Muestra gráfica original sin prendas comerciales o modelos reales. No anuncia una colección disponible.",
     "resourceTitle": "Secuencia de una prenda y respuesta a una consulta de talla",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para tiendas de ropa?",
+        "Publicamos cada día prendas, conjuntos, complementos y novedades de tu tienda en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas de talla, color o disponibilidad pasan a tu equipo, que las confirma. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo vender más en una tienda de ropa con las redes sociales?",
+        "Ayuda publicar las novedades el día que llegan, enseñar una misma prenda en varios conjuntos, mostrar en vídeo cómo cae el tejido, responder pronto a las dudas de talla y preparar el cambio de temporada y las rebajas con condiciones confirmadas. La ficha de Google con horario, fotos de la tienda y reseñas contestadas lleva a quien prefiere probarse la ropa. No garantizamos ventas: la tienda confirma qué consultas acaban en compra."
+      ],
+      [
+        "¿Qué publicar en el Instagram de una tienda de ropa?",
+        "Ideas de contenido que funcionan en moda sin inventar nada: novedades recién llegadas, una prenda en tres conjuntos, el detalle de un tejido o un cierre, complementos que combinan con la colección, el probador o el escaparate y avisos de temporada. Cada publicación indica cómo preguntar por tallas y colores, y la tienda valida la información antes de publicarla."
+      ],
       [
         "¿Cómo se confirman tallas, colores y disponibilidad?",
         "Tu tienda valida la referencia y las opciones que ofrece. Las publicaciones y respuestas utilizan esa información. Una fotografía del conjunto no confirma que todas las piezas sigan disponibles ni cómo queda una prenda a una persona."
@@ -8607,25 +8773,34 @@
         "Acordamos con el negocio qué dato o contenido necesita revisarse. El equipo confirma el cambio y las condiciones que se pueden comunicar. La atención inicial no consulta un inventario conectado por defecto."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda de ropa?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las sesiones con modelos y las colaboraciones con creadores no están incluidas. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas de ropa y complementos por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas de ropa y complementos",
-    "h1": "Gestión de redes sociales para tiendas de ropa y complementos",
+    "h1": "Marketing para tiendas de ropa: estrategias e ideas para vender en redes sociales",
     "layout": "ropa-complementos",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para tiendas de ropa y complementos",
-        "community manager tiendas ropa",
-        "redes sociales boutiques",
-        "marketing moda complementos"
+        "marketing para tiendas de ropa",
+        "marketing tienda de ropa",
+        "estrategias de marketing para tiendas de ropa",
+        "ideas de marketing para tienda de ropa",
+        "publicidad para tienda de ropa",
+        "como vender más en una tienda de ropa",
+        "como atraer clientes a una tienda de ropa",
+        "contenido para instagram tienda de ropa",
+        "ideas de contenido para tienda de ropa"
       ],
-      "intent": "Comercio de moda que quiere mostrar una prenda y sus detalles y responder sobre referencias y tallas sin inventar existencias.",
-      "distinctFrom": "Secuencia editorial original de conjunto, detalle y cierre para consultar una prenda, con respuesta sobre talla y disponibilidad. Se presenta el producto de una tienda, no un servicio de estilismo ni un catálogo sincronizado o sesión profesional incluida.",
+      "intent": "Tienda de ropa y complementos que busca marketing para tiendas de ropa: estrategias e ideas para vender más con redes, Google y web, y quién se las lleva. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende ropa ni incluye sesiones con modelos, anuncios o tienda online con carrito.",
+      "distinctFrom": "Secuencia editorial original de conjunto, detalle y cierre para consultar una prenda, con respuesta sobre talla y disponibilidad. Se presenta el producto de una tienda, no un servicio de estilismo ni un catálogo sincronizado o sesión profesional incluida. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en moda: novedades, tallas, conjuntos y temporadas. La de tiendas online trata la compra por internet.",
       "sources": [
         {
           "url": "https://avantys.com/academia/marketing/redes-sociales-tiendas-ropa/",
@@ -8634,7 +8809,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. Es el sector del grupo con más demanda: marketing para tiendas de ropa sugiere estrategias de marketing para tiendas de ropa; marketing tienda de ropa sugiere marketing digital, ideas, estrategias y plan de marketing para tienda de ropa; publicidad para tienda de ropa sugiere ideas, frases y ejemplos; como vender más en una tienda de ropa y como atraer clientes a una tienda de ropa tienen sugerencia; instagram para tienda de ropa sugiere contenido, feed y descripción para Instagram. Redes sociales tienda de ropa y marketing para boutiques no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8676,20 +8851,37 @@
       "",
       "Gracias por escribir. Para localizar el artículo, envíanos la referencia o la publicación que has visto y la talla o el color por el que quieres preguntar. La tienda confirmará qué opciones tiene y qué información de medidas puede facilitar. Una fotografía no permite asegurar cómo queda una prenda a una persona. Si necesitas conocer las condiciones de compra o de cambio, el equipo te indicará las que correspondan al artículo y al canal por el que vayas a comprar.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Una camisa, tres conjuntos: para la oficina, para el fin de semana y para una cena",
+      "Recién llegado a tienda: así cae este vestido en movimiento. Pregúntanos por tallas y colores",
+      "Nueva temporada: los complementos que combinan con los abrigos que acaban de llegar"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿el abrigo del vídeo lo tenéis en talla M? ¿En qué colores?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a la tienda, que comprueba tallas y colores disponibles y te dice si te lo puede apartar para probártelo."
+    }
   },
   {
     "id": 88,
     "slug": "tiendas-deporte",
-    "title": "Gestión de redes sociales para tiendas de deporte | Dania360",
-    "description": "Da contexto al material de tu tienda de deporte y facilita consultas sobre cada referencia. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La actividad sitúa el producto; tu equipo explica el detalle",
+    "title": "Marketing y gestión de redes sociales para tiendas de deporte | Dania360",
+    "description": "Gestión de redes sociales para tiendas de deporte: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Para tiendas de running, pádel, montaña, ciclismo o deporte en general",
     "promise": "Presenta el material que vendes con un camino claro hacia tu tienda.",
-    "lead": "Preparamos contenido para mostrar productos y orientar consultas con tu comercio deportivo. Growth reúne gestión de redes sociales, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día material, novedades y la actividad de tu tienda de deporte, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre tallas, modelos o disponibilidad pasan a tu equipo, que las confirma. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Raqueta y pelota conceptuales junto a tres etiquetas de actividad, referencia y consulta, sin marca o prestaciones",
     "artCaption": "Composición editorial original. No representa material probado, disponible o recomendado para una persona.",
     "resourceTitle": "Actividad, referencia y consulta en una publicación deportiva",
     "faq": [
+      [
+        "¿Qué incluye la gestión de redes sociales para tiendas de deporte?",
+        "Publicamos cada día material, novedades y temporadas de tu tienda de deporte en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre tallas, modelos o disponibilidad pasan a tu equipo, que las confirma. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo atraer clientes a una tienda de deporte con las redes sociales?",
+        "Ayuda seguir el calendario de cada disciplina: zapatillas antes de las carreras populares de tu zona, palas y raquetas al empezar la temporada, material de montaña o nieve cuando toca y equipaciones en la vuelta al cole. Enseñar el producto con datos confirmados, contestar pronto las dudas de talla y tener la ficha de Google con horario y reseñas contestadas lleva a quien quiere probarse algo. No garantizamos ventas: la tienda confirma qué consultas acaban en compra."
+      ],
       [
         "¿Es el mismo enfoque que el de gimnasios o clubes?",
         "No. Aquí se presenta el producto y la atención de una tienda de material deportivo. Las clases, entrenamientos e inscripciones requieren explicar otro servicio y tienen páginas propias cuando corresponde."
@@ -8703,25 +8895,33 @@
         "Se revisan el permiso y el contexto de uso. No se anuncian acuerdos, patrocinios o colaboraciones sin confirmarlos. La cuota de Growth no incorpora grabaciones presenciales o campañas publicitarias por asociación con el sector."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda de deporte?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las grabaciones presenciales y el material de las marcas no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas de deporte por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas de deporte",
-    "h1": "Gestión de redes sociales para tiendas de deporte",
+    "h1": "Marketing y gestión de redes sociales para tiendas de deporte",
     "layout": "tiendas-deporte",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
         "gestión de redes sociales para tiendas de deporte",
-        "community manager tiendas deporte",
-        "redes sociales material deportivo",
-        "marketing retail deportivo"
+        "marketing para tiendas de deporte",
+        "marketing tienda de deporte",
+        "marketing para tiendas de deportes",
+        "marketing para tiendas deportivas",
+        "redes sociales tienda de deporte",
+        "como vender más en una tienda de deporte",
+        "como atraer clientes a una tienda de deportes"
       ],
-      "intent": "Comercio deportivo que quiere mostrar material y sus características confirmadas sin prometer prestaciones físicas.",
-      "distinctFrom": "Una demostración de producto desde disciplina, uso y dato de referencia, diferenciada del servicio de entrenamiento de un gimnasio. Se vende comunicación de productos, no clases, entrenamiento, rehabilitación o asesoramiento clínico.",
+      "intent": "Tienda de deporte que busca gestión de redes sociales y marketing para su comercio: quién le lleva redes, Google y web para presentar material por disciplina y temporada y que las consultas de talla y modelo lleguen a su equipo. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende material, no da clases ni recomienda entrenamientos.",
+      "distinctFrom": "Una demostración de producto desde disciplina, uso y dato de referencia, diferenciada del servicio de entrenamiento de un gimnasio. Se vende comunicación de productos, no clases, entrenamiento, rehabilitación o asesoramiento clínico. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en el material deportivo por disciplina y temporada.",
       "sources": [
         {
           "url": "https://www.digitalmarketers.es/es-es/",
@@ -8742,9 +8942,13 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. Ninguna variante del sector tiene sugerencias: marketing para tiendas de deporte, marketing para tiendas de deportes, marketing para tiendas deportivas, redes sociales tienda de deporte, gestión de redes sociales para tiendas de deporte, cómo vender más en una tienda de deporte y cómo atraer clientes a una tienda de deportes vuelven vacías; marketing deportivo se refiere a estudios y empleo. La landing sale 5.ª en Google España para gestión de redes sociales para tiendas de deporte (2026-11-15), así que esa frase se mantiene literal en el title, el H1 y la descripción, y se añade marketing al principio.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": {
+        "query": "gestión de redes sociales para tiendas de deporte",
+        "position": 5,
+        "checked": "2026-11-15"
+      }
     },
     "resourcePresentation": {
       "description": "Ficha de enfoque, publicación y primera respuesta completas para presentar material deportivo con datos del comercio.",
@@ -8780,20 +8984,37 @@
       "",
       "Gracias por consultar. Dinos qué referencia has visto y para qué actividad estás buscando información. El equipo revisará los datos del modelo y las opciones que puede ofrecerte, sin deducir sus características por una imagen. Las medidas, las versiones, la disponibilidad y las condiciones de compra se confirman con la tienda. Si tu pregunta necesita una valoración de entrenamiento o de salud, esa decisión corresponde al profesional adecuado; esta conversación comercial no sustituye ese asesoramiento.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Zapatillas nuevas para la temporada de carreras: pregúntanos por modelos y tallas en tienda",
+      "Tres preguntas que te hacemos antes de recomendarte una pala de pádel",
+      "Vuelve la temporada de montaña: mochilas, bastones y ropa técnica que ya tienes en tienda"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿tenéis las zapatillas del vídeo en un 43? ¿Puedo pasar a probármelas?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a la tienda, que comprueba si hay un 43 y te confirma cuándo puedes pasar a probártelas."
+    }
   },
   {
     "id": 89,
     "slug": "tiendas-mascotas",
-    "title": "Redes sociales para tiendas de mascotas | Dania360",
-    "description": "Presenta accesorios y productos de tu tienda de mascotas con información clara. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Un producto identificable y una tienda a la que preguntar",
-    "promise": "Relaciona la imagen del accesorio con información que tu equipo pueda confirmar.",
-    "lead": "Gestionamos contenido para presentar productos y atención de tu tienda de mascotas. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "title": "Marketing para tiendas de mascotas y redes sociales | Dania360",
+    "description": "Marketing para tiendas de mascotas y pet shops: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing digital para pet shops y tiendas de animales",
+    "promise": "Relaciona cada producto con información que tu equipo pueda confirmar.",
+    "lead": "Publicamos cada día productos, novedades y la atención de tu tienda de mascotas, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las preguntas sobre una referencia pasan a tu equipo, que confirma producto, disponibilidad y precio. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Transportín geométrico conceptual sin animal, marca o dimensiones, con un detalle de su representación",
     "artCaption": "Ilustración original sin referencia comercial. No recomienda un accesorio para un animal ni presenta existencias.",
     "resourceTitle": "Presentación de un accesorio y respuesta sobre su referencia",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para tiendas de mascotas?",
+        "Publicamos cada día accesorios, alimentación, juguetes y novedades de tu pet shop en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre un producto o un encargo pasan a tu equipo, que confirma disponibilidad y precio. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Qué publicar en las redes de una tienda de mascotas?",
+        "Novedades con su referencia y sus tallas, cómo encargar por mensaje el pienso o la arena de siempre, temas de temporada como el calor del verano o los viajes, regalos de Navidad y fotos de mascotas de tus clientes solo con su permiso. Las publicaciones no dan consejos de salud: esas dudas se derivan al veterinario. La tienda valida cada información antes de publicarla."
+      ],
       [
         "¿Es la misma propuesta que la de una clínica veterinaria?",
         "No. Esta página comunica productos y atención comercial de una tienda. La landing de veterinarias trata los servicios de una clínica. No se atribuyen recomendaciones clínicas al contenido o al bot de esta propuesta."
@@ -8807,25 +9028,34 @@
         "Sí, si tu negocio confirma que los presta y su alcance real. No se añaden peluquería, asesoramiento u otras actividades por pertenecer al sector. La tienda confirma cada información, encargo y condición comercial."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda de mascotas?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, las grabaciones presenciales y un sistema de pedidos conectado no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas de mascotas por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas de mascotas",
-    "h1": "Gestión de redes sociales para tiendas de mascotas",
+    "h1": "Marketing para tiendas de mascotas: redes sociales, Google y web para tu pet shop",
     "layout": "tiendas-mascotas",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para tiendas de mascotas",
-        "community manager tiendas mascotas",
-        "redes sociales pet shop",
-        "marketing tiendas mascotas"
+        "marketing para tiendas de mascotas",
+        "marketing tienda de mascotas",
+        "marketing para pet shop",
+        "marketing para petshop",
+        "marketing para mascotas",
+        "publicidad para tiendas de mascotas",
+        "ideas para tienda de mascotas",
+        "como vender más en una tienda de mascotas",
+        "redes sociales tienda de mascotas"
       ],
-      "intent": "Tienda de productos para animales que quiere explicar referencias de su catálogo y orientar preguntas de compra.",
-      "distinctFrom": "Dos mensajes editoriales para presentar un accesorio y continuar una consulta sobre una referencia, sin consejo veterinario ni inventar existencias. Se comunica venta de producto y atención de tienda; la landing de veterinarias trata servicios de una clínica.",
+      "intent": "Tienda de mascotas o pet shop que busca marketing para su comercio: quién le lleva redes, Google y web para presentar productos, recordar compras que se repiten y atender consultas. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no vende productos ni da consejo veterinario.",
+      "distinctFrom": "Dos mensajes editoriales para presentar un accesorio y continuar una consulta sobre una referencia, sin consejo veterinario ni inventar existencias. Se comunica venta de producto y atención de tienda; la landing de veterinarias trata servicios de una clínica. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en el producto para animales y la compra recurrente. La de veterinarias trata los servicios de una clínica.",
       "sources": [
         {
           "url": "https://www.ignarapets.com/servicios",
@@ -8834,7 +9064,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para tiendas de mascotas y marketing tienda de mascotas no tienen sugerencias; publicidad para tiendas de mascotas sí; marketing para pet shop sugiere marketing digital y agencia de marketing para pet shop; marketing para petshop y marketing para mascotas tienen sugerencia; ideas para tienda de mascotas sugiere decoración, nombres y logo. Cómo vender más en una tienda de mascotas y redes sociales tienda de mascotas no tienen sugerencias. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8862,20 +9092,37 @@
       "",
       "Gracias por escribir. Dinos qué referencia has visto y qué aspecto del accesorio quieres consultar. Nuestro equipo revisará contigo la información del fabricante y las opciones que puede ofrecer la tienda. Las medidas, las condiciones de uso, la disponibilidad y la compra se confirman sobre el modelo real. No es posible asegurar la adecuación de un producto a partir de esta ilustración. Si la pregunta se relaciona con la salud o una necesidad clínica del animal, conviene tratarla con su profesional veterinario; por este canal podemos continuar la información comercial del artículo.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Nuevo en tienda: un arnés acolchado en tres tallas. Pregúntanos cuál corresponde a tu perro",
+      "¿Siempre compras el mismo pienso? Escríbenos y te contamos cómo encargarlo y recogerlo",
+      "Juguetes y camas para gatos recién llegados: ven a verlos o consúltanos por mensaje"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿el comedero del vídeo sirve para un gato grande? ¿Os queda alguno?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a la tienda, que comprueba si queda y te explica medidas y uso según las indicaciones del fabricante."
+    }
   },
   {
     "id": 90,
     "slug": "tiendas-online",
-    "title": "Gestión de redes sociales para tiendas online | Dania360",
-    "description": "Conecta las publicaciones de tu tienda online con la información y atención de compra. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Del producto al destino correcto de cada conversación",
+    "title": "Marketing para tiendas online y redes sociales | Dania360",
+    "description": "Marketing para tiendas online y ecommerce: publicaciones de producto, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para tiendas online con catálogo propio",
     "promise": "Distingue la duda antes de comprar de la consulta sobre un pedido.",
-    "lead": "Preparamos contenido de producto y gestionamos la atención de los canales del plan para tu comercio electrónico. Growth incluye redes, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día productos y novedades de tu tienda online, respondemos comentarios, mensajes y reseñas y separamos las dudas antes de comprar de las consultas sobre pedidos, que pasan a tu equipo. Web y bot de IA incluidos en Growth por 297 €/mes; el desarrollo de la tienda va aparte.",
     "artAlt": "Esquema conceptual de una publicación de producto y dos rutas de información y atención sin pedidos o datos personales",
     "artCaption": "Diagrama editorial original. No muestra una venta, datos de clientes o una integración con una tienda real.",
     "resourceTitle": "Una publicación y dos respuestas para tu comercio electrónico",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para ecommerce?",
+        "En Growth publicamos cada día productos, novedades y temporadas de tu tienda online en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y llevamos tu ficha de Google si tu negocio la tiene. Las dudas antes de comprar se contestan con la información que confirma tu equipo y las consultas de pedidos pasan a tu canal de atención. No desarrollamos la tienda ni gestionamos campañas de pago o email marketing."
+      ],
+      [
+        "¿Cómo vender más en una tienda online con las redes sociales?",
+        "Ayuda enseñar cada producto en uso con un destino que lleve a su ficha, responder pronto las dudas de talla, compatibilidad o envío, contestar las reseñas, publicar con constancia las novedades y reposiciones y usar Pinterest como escaparate de producto. Las campañas de pago aceleran, pero van aparte de la cuota. No garantizamos ventas: la tienda mide qué visitas acaban en pedido."
+      ],
       [
         "¿La web de Growth equivale a desarrollar una tienda con catálogo, carrito y pagos?",
         "No. Growth incluye la web profesional y el chat de Starter. No se presenta como desarrollo o migración de un comercio electrónico con carrito, cobros o integraciones. Ese alcance se tendría que estudiar por separado, sin añadirlo a la cuota mostrada."
@@ -8889,25 +9136,36 @@
         "No se presupone esa conexión. El bot informa con datos configurados y orienta hacia el equipo. La tienda confirma el estado del pedido, pagos, entregas y devoluciones por su canal de atención, sin pedir datos privados en comentarios públicos."
       ],
       [
+        "¿Cuánto cuesta el marketing para una tienda online?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago, el email marketing y el desarrollo o la migración de la tienda no están incluidos. Lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para tiendas online y negocios de comercio electrónico por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Tiendas online y negocios de comercio electrónico",
-    "h1": "Gestión de redes sociales para tiendas online",
+    "h1": "Marketing para tiendas online y ecommerce: redes sociales que acompañan la compra",
     "layout": "tiendas-online",
     "hubGroup": "comercio-especializado",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para tiendas online",
-        "gestión redes sociales ecommerce",
+        "marketing para tiendas online",
+        "marketing digital para tiendas online",
+        "estrategias de marketing para tiendas online",
+        "marketing ecommerce",
+        "marketing para ecommerce",
+        "marketing digital para ecommerce",
+        "agencia marketing ecommerce",
+        "redes sociales para ecommerce",
         "community manager ecommerce",
-        "redes sociales comercio electrónico"
+        "como vender más en tu tienda online",
+        "como atraer clientes a mi tienda online"
       ],
-      "intent": "Comercio electrónico con tienda propia que quiere preparar contenido de producto y separar preguntas previas a compra de consultas de un pedido.",
-      "distinctFrom": "Publicación de producto y dos respuestas distintas para información antes de comprar y atención de un pedido, sin pedir datos en comentarios. Esta landing comunica ecommerce; la genérica de comercios prioriza la visita a la tienda física. La web profesional de Growth no se presenta como desarrollo de tienda, checkout o conexión a inventario.",
+      "intent": "Tienda online o ecommerce con catálogo propio que busca marketing para tiendas online: quién le lleva redes, mensajes y reseñas para llevar tráfico a sus fichas y resolver dudas antes de comprar. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, web y bot de IA; no desarrolla tiendas, no gestiona anuncios ni email marketing.",
+      "distinctFrom": "Publicación de producto y dos respuestas distintas para información antes de comprar y atención de un pedido, sin pedir datos en comentarios. Esta landing comunica ecommerce; la genérica de comercios prioriza la visita a la tienda física. La web profesional de Growth no se presenta como desarrollo de tienda, checkout o conexión a inventario. Frente a la landing de comercios, que trabaja marketing para tiendas y comercios, tiendas físicas y de barrio, esta se centra en la venta por internet y en separar dudas de compra y consultas de pedidos.",
       "sources": [
         {
           "url": "https://morganmedia.es/redes-sociales-ecommerce",
@@ -8916,7 +9174,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Contraste cualitativo con límites de lectura y geografía registrados. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas, en singular y con cómo vender más o cómo atraer clientes. Volumen de búsqueda y dificultad no verificados. marketing para tiendas online sugiere marketing digital para tiendas online y estrategias de marketing para tiendas online; marketing ecommerce y marketing para ecommerce sugieren marketing digital para ecommerce, agencia marketing para ecommerce y email marketing para ecommerce; agencia marketing ecommerce, redes sociales para ecommerce y community manager ecommerce tienen sugerencia; cómo vender más en una tienda online sugiere como vender más en tu tienda online; cómo atraer clientes a una tienda online sugiere como atraer clientes a mi tienda online. Redes sociales para tienda online y publicidad para tiendas online no tienen sugerencias. El title usa tiendas online y el H1 y la descripción añaden ecommerce. Con el title anterior la landing no salía en la primera página de Google España (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -8948,7 +9206,16 @@
       "",
       "Gracias por avisarnos. Para revisar un pedido, utiliza el canal de atención que indica nuestra tienda. Evita publicar el número de pedido, tu dirección o datos de pago en comentarios. El equipo te explicará qué información necesita por su canal privado y confirmará el estado de la gestión. Este mensaje orienta el contacto; no consulta el pedido automáticamente ni confirma su entrega o devolución.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Así es la mochila por dentro en 15 segundos. Tienes la ficha del producto en el enlace del perfil",
+      "¿Dudas con la talla antes de comprar? Escríbenos y te ayudamos a elegir antes de hacer el pedido",
+      "Novedades de la semana en la tienda online: tres productos recién llegados al catálogo"
+    ],
+    "heroChat": {
+      "question": "Hola, antes de comprar: ¿esta funda vale para mi modelo de móvil? ¿Cuánto tarda el envío?",
+      "answer": "Hola, gracias por escribir. Pasamos tu duda al equipo de la tienda, que te confirma la compatibilidad y el plazo de envío. Si ya hiciste un pedido, escríbenos por privado."
+    }
   },
   {
     "id": 91,
