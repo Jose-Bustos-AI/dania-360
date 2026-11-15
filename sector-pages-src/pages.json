@@ -9528,11 +9528,11 @@
   {
     "id": 91,
     "slug": "organizadores-bodas-eventos",
-    "title": "Redes sociales para organizadores de bodas y eventos | Dania360",
-    "description": "Explica qué coordina tu empresa de bodas y eventos y orienta cada consulta. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El trabajo de organizar también necesita una explicación",
-    "promise": "Que una pareja o una empresa entienda qué puede confiar a tu equipo.",
-    "lead": "Preparamos contenido para presentar tu servicio de organización y atender las consultas de sus canales. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para wedding planners y redes sociales | Dania360",
+    "description": "Marketing para wedding planners y organizadores de eventos: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para organizadores de bodas y eventos",
+    "promise": "Que se vea el trabajo de organizar, no solo la foto del gran día.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de organización de bodas y eventos. Explicamos qué coordina tu equipo y facilitamos que parejas y empresas pidan una primera reunión con los datos necesarios.",
     "artAlt": "Tablero conceptual de organización con notas y dos recorridos para una pareja y una empresa, sin fechas o proveedores",
     "artCaption": "Esquema editorial original. No representa un evento realizado, una agenda disponible o acuerdos con proveedores.",
     "resourceTitle": "Una publicación y dos respuestas para empezar a organizar",
@@ -9550,24 +9550,42 @@
         "Las grabaciones presenciales y la cobertura en directo no figuran en la cuota de Growth. Trabajamos con material que se pueda utilizar y con información confirmada por tu equipo, conservando el contexto y las atribuciones."
       ],
       [
-        "¿Qué incluye Growth para organizadores de bodas y eventos por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para wedding planners y organizadores de eventos?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye cuotas de portales de bodas, ferias ni la cobertura fotográfica o en vídeo de las celebraciones. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para wedding planners?",
+        "Se ocupa de que la cuenta propia de tu empresa explique cómo trabajas: qué modalidades de organización ofreces, cómo es la preparación y qué papel tiene tu equipo el día del evento. Con Growth publicamos a diario con material autorizado, respondemos mensajes y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge fecha, invitados y tipo de celebración antes de la primera reunión."
+      ],
+      [
+        "¿Cómo conseguir clientes para eventos y bodas con las redes sociales?",
+        "Enseñando el trabajo que no sale en la foto final: la planificación, la coordinación con proveedores y la respuesta ante imprevistos. Publicar con constancia, contestar rápido a quien pregunta por una fecha y pedir reseña a cada pareja o empresa satisfecha ayuda a que te elijan. No garantizamos contrataciones: revisamos contigo cuántas consultas acabaron en reunión."
+      ],
+      [
+        "¿Qué publicar en las redes de una wedding planner o una empresa de eventos?",
+        "Fases de preparación, decisiones de diseño y coordinación explicadas, presentaciones del equipo, preguntas frecuentes de las parejas y, con autorización, detalles de celebraciones en las que participasteis indicando qué parte organizó tu empresa. Las publicaciones de bodas y las de eventos de empresa se plantean por separado porque responden a dudas distintas."
       ]
     ],
     "name": "Organizadores de bodas y eventos",
-    "h1": "Gestión de redes sociales para organizadores de bodas y eventos",
+    "h1": "Marketing para wedding planners y organizadores de eventos",
     "layout": "organizadores-bodas-eventos",
     "hubGroup": "creatividad-eventos",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para organizadores de bodas y eventos",
-        "redes sociales wedding planners",
-        "community manager organizadores eventos",
-        "marketing organización de bodas"
+        "marketing para wedding planner",
+        "marketing wedding planner",
+        "marketing para wedding planners",
+        "marketing para organizadores de eventos",
+        "marketing para organizadores de bodas",
+        "marketing para eventos",
+        "marketing para bodas",
+        "agencia de marketing para eventos",
+        "como conseguir clientes para eventos",
+        "redes sociales para eventos"
       ],
-      "intent": "Organizador que quiere explicar qué coordina y cómo empieza una propuesta para parejas o empresas.",
+      "intent": "Wedding planner u organizador de bodas y eventos de empresa que busca marketing para conseguir clientes y valora delegar redes, perfil de Google y atención de consultas sin confundir su servicio con el del espacio o el catering.",
       "distinctFrom": "Publicación sobre el comienzo de la organización y dos respuestas: una pareja y un encargo de empresa. La organización se diferencia de contratar una finca, un catering, mobiliario o cobertura del evento. No se incluyen esos servicios en Growth.",
       "sources": [
         {
@@ -9577,9 +9595,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para wedding planner, marketing wedding planner, marketing para bodas, marketing para eventos (con estrategias, agencias y plan de marketing para eventos), agencia de marketing para eventos, como conseguir clientes para eventos y redes sociales para eventos; sin sugerencias para marketing para wedding planners (plural), organizadores de eventos, organizadores de bodas ni empresas de organización de eventos. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para wedding planner, la única variante del oficio con sugerencia, en plural al inicio del title y del H1, que añade organizadores de eventos para conservar el sector. Marketing para eventos tiene más sugerencias pero la intención mayoritaria es promocionar un evento, no a quien lo organiza, y se usa en H2 y FAQ. No se usa salones de eventos, que es la landing de salones-bodas."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para presentar la primera conversación y distinguir una pareja de un encargo de empresa.",
@@ -9609,16 +9633,25 @@
       "",
       "Gracias por contactar. Indicad qué tipo de encuentro estáis preparando, a quién se dirige y qué necesitáis coordinar. Con una referencia general de fecha y ubicación, el equipo podrá situar la consulta y explicar el siguiente paso. El formato, los proveedores, los tiempos y el alcance se revisan en la propuesta; no se dan por incluidos antes de estudiar el encargo.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Tres meses antes de la boda: lo que revisamos con la pareja en la reunión de seguimiento.",
+      "Detrás de un evento de empresa: horarios, proveedores y un plan B por si llueve.",
+      "Organización completa o coordinación del día: en qué se diferencian y cuándo conviene cada una."
+    ],
+    "heroChat": {
+      "question": "Hola, nos casamos en junio del año que viene y ya tenemos la finca. ¿Podéis ayudarnos con todo lo demás?",
+      "answer": "Hola, enhorabuena. Contadnos la fecha, el número aproximado de invitados y qué tenéis ya cerrado. Os proponemos una primera reunión para ver cómo podemos ayudaros."
+    }
   },
   {
     "id": 92,
     "slug": "fotografos",
-    "title": "Gestión de redes sociales para fotógrafos | Dania360",
-    "description": "Presenta el criterio y las sesiones de tu estudio de fotografía con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Tu imagen, con una intención y un servicio reconocibles",
-    "promise": "Relaciona la selección de tu portfolio con la sesión que quieres presentar.",
-    "lead": "Gestionamos contenido y consultas para hacer comprensibles los servicios de tu estudio fotográfico. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "title": "Marketing para fotógrafos y gestión de redes sociales | Dania360",
+    "description": "Marketing para fotógrafos y estudios: publicaciones con tu trabajo, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para fotógrafos",
+    "promise": "Que quien ve tu portfolio sepa qué sesión puede pedirte.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu estudio de fotografía. Presentamos tu especialidad con tu propio trabajo y facilitamos que quien busca una sesión te escriba con lo que necesitas saber para proponerla.",
     "artAlt": "Tres encuadres dibujados de una taza junto a una ventana, un detalle del borde y una composición con espacio para texto",
     "artCaption": "Esquema editorial original de una escena de producto. No corresponde a fotografías ni a una sesión real.",
     "resourceTitle": "Encuadres de producto, publicación y consulta de sesión",
@@ -9636,24 +9669,41 @@
         "Puede explicarse mediante una demostración gráfica identificada o una propuesta del estudio autorizada para ese uso. No se presenta como sesión realizada, fotografía de cliente o prueba de resultados."
       ],
       [
-        "¿Qué incluye Growth para fotógrafos y estudios de fotografía por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para fotógrafos?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye sesiones fotográficas, edición de tus archivos ni cuotas de directorios. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para fotógrafos?",
+        "Organiza la comunicación de tu estudio para que tu trabajo se entienda: qué especialidad ofreces, cómo es una sesión y cómo pedir presupuesto. Con Growth publicamos a diario con tus fotografías autorizadas, respondemos mensajes, comentarios y reseñas, cuidamos tu perfil de Google y mantenemos una web con bot de IA. Las fotos, la edición y la entrega siguen siendo tuyas."
+      ],
+      [
+        "¿Qué estrategias de marketing para fotógrafos funcionan en Instagram?",
+        "Centrar el perfil en una o dos especialidades, explicar cada imagen con su contexto, enseñar cómo se prepara una sesión con vídeos cortos y responder pronto a quien pregunta por fechas o precios. Un portfolio sin explicación atrae me gusta; uno explicado ayuda a que te escriban para encargar. No prometemos seguidores ni contrataciones."
+      ],
+      [
+        "¿Cómo conseguir clientes como fotógrafo con las redes sociales?",
+        "Haciendo fácil el paso de la imagen a la consulta: indicar qué tipo de sesión estás mostrando, dejar claro cómo se pide presupuesto y contestar con preguntas útiles sobre uso, fecha y número de imágenes. Las reseñas respondidas y un perfil de Google completo ayudan a quien compara estudios cerca de casa."
       ]
     ],
     "name": "Fotógrafos y estudios de fotografía",
-    "h1": "Gestión de redes sociales para fotógrafos",
+    "h1": "Marketing para fotógrafos: redes sociales que explican tu especialidad",
     "layout": "fotografos",
     "hubGroup": "creatividad-eventos",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para fotógrafos",
-        "redes sociales estudios fotografía",
-        "community manager fotógrafos",
-        "marketing estudios fotográficos"
+        "marketing para fotógrafos",
+        "marketing para fotografos",
+        "marketing digital para fotógrafos",
+        "marketing para fotografos instagram",
+        "estrategias de marketing para fotografos",
+        "agencia de marketing para fotografos",
+        "como conseguir clientes fotografía",
+        "publicidad para fotografos",
+        "redes sociales para fotógrafos"
       ],
-      "intent": "Fotógrafo que necesita presentar una especialidad y orientar consultas sin convertir todo el portfolio en una galería sin contexto.",
+      "intent": "Fotógrafo o estudio de fotografía que busca marketing para conseguir más sesiones y valora delegar redes, perfil de Google y atención de consultas sin perder la autoría de su trabajo.",
       "distinctFrom": "Tres encuadres dibujados de una taza junto a una ventana: contexto, borde y espacio para el mensaje, con una publicación específica de fotografía de producto y respuesta para consultar una sesión. No simula fotografías, una sesión realizada o un portfolio de clientes.",
       "sources": [
         {
@@ -9663,10 +9713,16 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para fotógrafos (con pdf, instagram, digital, curso, estrategias, frases y agencia), marketing digital para fotógrafos, agencia de marketing para fotografos, publicidad para fotografos, como conseguir clientes fotografía y mejores redes sociales para fotografos; sin sugerencias para marketing para fotógrafos de bodas ni agencia marketing fotógrafos. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
-      "editorialRevision": "El ejemplo genérico de conjunto y detalle se concreta mediante una escena de producto y tres decisiones de encuadre legibles en dibujo, texto y descargable. Se revisa la ilustración existente; no se añade una imagen de cliente ni una especialidad real no confirmada."
+      "editorialRevision": "El ejemplo genérico de conjunto y detalle se concreta mediante una escena de producto y tres decisiones de encuadre legibles en dibujo, texto y descargable. Se revisa la ilustración existente; no se añade una imagen de cliente ni una especialidad real no confirmada.",
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para fotógrafos, la variante con más sugerencias del grupo, literal al inicio del title y del H1, y se conserva gestión de redes sociales. Instagram, estrategias, agencia y conseguir clientes se cubren en H2 y FAQ."
+      }
     },
     "resourcePresentation": {
       "description": "Esquema de tres encuadres y textos completos para presentar una especialidad fotográfica sin simular un trabajo realizado.",
@@ -9700,16 +9756,25 @@
       "",
       "Gracias por escribir. Cuéntanos qué tipo de sesión estás valorando, qué necesitas obtener y si tienes un momento o un uso previsto para las imágenes. El estudio te indicará qué información necesita y cómo continuar. La disponibilidad, la propuesta y las condiciones de entrega se confirman con el fotógrafo. No hace falta compartir imágenes personales en comentarios públicos; el equipo te dirá por qué canal puede revisar el material que corresponda.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Así preparamos una sesión de producto: luz de ventana, fondo neutro y tres encuadres por pieza.",
+      "¿Qué ropa llevar a una sesión de retrato? Colores lisos, sin logotipos y algo que te represente.",
+      "Antes y después de la edición: lo que cambia en una foto de producto y lo que no tocamos."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo una tienda online y necesito fotos de unas 20 piezas. ¿Cómo trabajáis y cuánto cuesta?",
+      "answer": "Hola, gracias por escribir. Cuéntanos qué tipo de piezas son, dónde vas a usar las fotos y para cuándo las necesitas. El fotógrafo te prepara una propuesta."
+    }
   },
   {
     "id": 93,
     "slug": "productoras-audiovisuales",
-    "title": "Redes sociales para productoras audiovisuales | Dania360",
-    "description": "Presenta los servicios y el papel de tu productora en cada encargo audiovisual. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "La pieza atrae; el contexto explica qué puede encargarse",
-    "promise": "Haz comprensible el trabajo que asume tu productora audiovisual.",
-    "lead": "Preparamos contenido para explicar los servicios de tu productora y orientar consultas de marcas y agencias. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para productoras audiovisuales y redes sociales | Dania360",
+    "description": "Marketing para productoras audiovisuales: publicaciones con tus piezas, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para productoras audiovisuales",
+    "promise": "Que una marca entienda qué puede encargarte antes de pedir presupuesto.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu productora. Explicamos qué parte de cada pieza asume tu equipo y facilitamos que marcas y agencias te escriban con el encargo bien planteado.",
     "artAlt": "Storyboard conceptual con dos órdenes de formas abstractas para explicar continuidad y progresión, sin fotogramas de una película real",
     "artCaption": "Secuencia gráfica original. No es un vídeo producido, una campaña o un trabajo de cliente.",
     "resourceTitle": "Dos decisiones de montaje contadas en una publicación",
@@ -9727,24 +9792,40 @@
         "LinkedIn pertenece al alcance de Scale. Growth conserva sus canales oficiales y no incluye rodajes presenciales por tratarse de una actividad audiovisual. El proyecto de producción de tu cliente lo estudia y ejecuta tu productora."
       ],
       [
-        "¿Qué incluye Growth para productoras audiovisuales por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una productora audiovisual?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye rodajes, montaje de tus piezas ni LinkedIn, que forma parte de Scale. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para productoras audiovisuales?",
+        "Convierte tu trabajo en contenido que explique el servicio: qué tipo de piezas produces, cómo es el proceso y qué papel tuvo tu equipo en cada proyecto. Con Growth publicamos a diario con material autorizado, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge objetivo, plazos y formato del encargo."
+      ],
+      [
+        "¿Cómo conseguir clientes para una productora audiovisual con las redes sociales?",
+        "Mostrando el proceso además del resultado: preparación, rodaje, montaje y entrega, con la función de tu equipo clara. Ayuda separar las piezas para marcas de las de eventos o contenidos propios, contestar rápido a cada consulta y pedir reseña al terminar un proyecto. No garantizamos encargos: revisamos contigo qué consultas llegaron y de dónde."
+      ],
+      [
+        "¿Qué publicar en las redes de una productora audiovisual?",
+        "Fragmentos autorizados con su contexto, explicaciones de decisiones de guion o montaje, días de rodaje vistos desde dentro, presentaciones del equipo y respuestas a dudas habituales de las marcas, como formatos, plazos o derechos de uso. Cuando un proyecto no puede enseñarse todavía, se explica el proceso con una demostración identificada."
       ]
     ],
     "name": "Productoras audiovisuales",
-    "h1": "Gestión de redes sociales para productoras audiovisuales",
+    "h1": "Marketing para productoras audiovisuales: que se entienda qué produces",
     "layout": "productoras-audiovisuales",
     "hubGroup": "creatividad-eventos",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para productoras audiovisuales",
-        "redes sociales productora audiovisual",
-        "community manager productoras",
-        "marketing productoras audiovisuales"
+        "marketing para productoras audiovisuales",
+        "marketing productora audiovisual",
+        "productora audiovisual marketing",
+        "marketing para productoras",
+        "marketing para productora audiovisual",
+        "marketing audiovisual",
+        "como conseguir clientes productora audiovisual",
+        "redes sociales productora audiovisual"
       ],
-      "intent": "Productora que quiere presentar qué parte del trabajo audiovisual asume y recibir un encargo con contexto.",
+      "intent": "Productora audiovisual que busca marketing para conseguir encargos de marcas y agencias y valora delegar redes, perfil de Google y atención de consultas.",
       "distinctFrom": "Dos decisiones de montaje explicadas mediante un storyboard conceptual y una publicación sobre el encargo, sin producir o atribuir una película. Se comunica el negocio audiovisual de un cliente, no se vende un rodaje incluido en Growth ni un servicio de fotógrafo. El bot no define presupuestos o entregas de producción.",
       "sources": [
         {
@@ -9754,9 +9835,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere productora audiovisual marketing a partir de marketing productora audiovisual; marketing audiovisual devuelve cursos, carreras y másteres, otra intención. Sin sugerencias para marketing para productoras audiovisuales, marketing para productoras, como conseguir clientes productora audiovisual ni redes sociales productora audiovisual. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Con la única sugerencia en forma productora audiovisual marketing, se mantiene el patrón marketing para productoras audiovisuales al inicio del title y del H1 (68 caracteres con la marca; el catálogo ya tiene titles de hasta 71) y se conserva redes sociales. Se descarta marketing audiovisual porque busca formación."
+      }
     },
     "resourcePresentation": {
       "description": "Storyboard explicado y publicación completos para presentar el criterio audiovisual sin atribuir una película realizada.",
@@ -9786,16 +9873,25 @@
       "",
       "El montaje también explica qué queremos contar. En esta propuesta conceptual, una versión mantiene un motivo para observarlo y otra relaciona varias ideas mediante su orden. Son dos puntos de partida editoriales, no una campaña realizada. Cuando compartimos un trabajo real, situamos el objetivo de la pieza y la parte que ha asumido nuestro equipo. Si estás preparando un encargo audiovisual, cuéntanos qué necesitas comunicar, dónde se utilizará y en qué fase está. La productora revisará contigo el planteamiento, los recursos y las entregas que puede proponer. El alcance y las condiciones se acuerdan después de estudiar el proyecto.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Un día de rodaje en 15 segundos: preparación, toma y revisión del plano con el equipo.",
+      "Del guion al montaje: las fases de un vídeo corporativo y qué decide la marca en cada una.",
+      "¿Vídeo vertical u horizontal? Depende de dónde se va a ver. Así lo planteamos antes de grabar."
+    ],
+    "heroChat": {
+      "question": "Hola, somos una marca de cosmética y queremos un vídeo para lanzar un producto. ¿Os encargáis de todo?",
+      "answer": "Hola, gracias por escribir. Cuéntanos dónde se va a publicar, para cuándo lo necesitáis y si tenéis guion. El equipo os explica cómo trabajamos y os prepara una propuesta."
+    }
   },
   {
     "id": 94,
     "slug": "alquiler-material-eventos",
-    "title": "Redes sociales para alquiler de material de eventos | Dania360",
-    "description": "Muestra el material que alquilas para eventos y orienta consultas por referencia y fecha. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Del material que se ve a una propuesta por confirmar",
-    "promise": "Presenta las piezas y facilita que la consulta llegue con contexto.",
-    "lead": "Gestionamos contenido para explicar tu catálogo de alquiler y cómo consultar sus condiciones. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para alquiler de mobiliario y redes sociales | Dania360",
+    "description": "Marketing para alquiler de mobiliario para eventos: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para empresas de alquiler para eventos",
+    "promise": "Que la consulta llegue con referencia, fecha y cantidades.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de alquiler. Mostramos tu mobiliario y material con referencias claras y facilitamos que organizadores, empresas y particulares pidan presupuesto con fecha y cantidades.",
     "artAlt": "Composición conceptual de una mesa y dos sillas con etiquetas de pieza, fecha y propuesta, sin cantidades de inventario",
     "artCaption": "Dibujo editorial original. No representa material disponible, un montaje realizado o una reserva.",
     "resourceTitle": "Publicación de material y respuesta a una solicitud de alquiler",
@@ -9813,24 +9909,39 @@
         "No se presupone esa conexión. Informa con datos configurados del negocio y orienta el contacto. Tu empresa confirma disponibilidad, propuesta, logística y condiciones antes de cerrar el alquiler."
       ],
       [
-        "¿Qué incluye Growth para empresas de alquiler de mobiliario y material para eventos por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una empresa de alquiler de mobiliario para eventos?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye sesiones de fotos del catálogo, un sistema de reservas ni la conexión con tu inventario. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de alquiler para eventos?",
+        "Presenta tu catálogo para que se entienda qué se alquila y cómo se pide: composiciones con sus referencias, temporadas, logística que ofreces y forma de solicitar presupuesto. Con Growth publicamos a diario con tus fotos autorizadas, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge fecha, lugar y cantidades."
+      ],
+      [
+        "¿Qué publicar en redes si alquilas mobiliario para eventos?",
+        "Composiciones identificadas pieza a pieza, ideas por tipo de evento, el proceso de carga, montaje y recogida si lo ofreces, novedades del catálogo y recordatorios de temporada para reservar con tiempo. Cada publicación indica cómo consultar, sin dar por disponible un material que el equipo no ha confirmado para esa fecha."
+      ],
+      [
+        "¿Cómo conseguir más clientes para una empresa de alquiler para eventos?",
+        "Siendo fácil de encontrar y de consultar para quien organiza: wedding planners, empresas de eventos, caterings y particulares. Un perfil de Google completo, reseñas respondidas, un catálogo visible en la web y respuestas rápidas con las preguntas de fecha, lugar y cantidades ayudan a que la consulta acabe en presupuesto. No garantizamos pedidos."
       ]
     ],
     "name": "Empresas de alquiler de mobiliario y material para eventos",
-    "h1": "Gestión de redes sociales para alquiler de material para eventos",
+    "h1": "Marketing para alquiler de mobiliario y material para eventos",
     "layout": "alquiler-material-eventos",
     "hubGroup": "creatividad-eventos",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para alquiler de material para eventos",
-        "redes sociales alquiler mobiliario eventos",
-        "community manager alquiler material eventos",
-        "marketing alquiler mobiliario eventos"
+        "marketing para alquiler de mobiliario para eventos",
+        "marketing para alquiler de mobiliario",
+        "marketing para empresas de alquiler de mobiliario",
+        "marketing para empresas de alquiler",
+        "marketing para alquiler de material",
+        "marketing para empresas de eventos",
+        "como promocionar alquiler de mobiliario para eventos"
       ],
-      "intent": "Empresa de alquiler que quiere presentar las piezas y situar una consulta por fecha y uso antes de confirmar condiciones.",
+      "intent": "Empresa de alquiler de mobiliario y material para eventos que busca marketing para recibir más peticiones de presupuesto de organizadores, empresas y particulares y valora delegar redes, perfil de Google y consultas.",
       "distinctFrom": "Publicación de una composición de alquiler y primera respuesta que distingue referencia, fechas y logística por confirmar. La comunicación del alquiler se diferencia de vender muebles, fabricar piezas o coordinar el evento. No se supone stock conectado, montaje incluido o una reserva automática.",
       "sources": [
         {
@@ -9840,9 +9951,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sin sugerencias para marketing para alquiler de mobiliario para eventos, alquiler de mobiliario, empresas de alquiler, alquiler de material ni alquiler de equipos; marketing para empresas de eventos solo devuelve empresas de marketing para eventos, otra intención. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia, se usa el nombre más habitual del oficio, marketing para alquiler de mobiliario, al inicio del title (65 caracteres con la marca, conservando redes sociales) y se completa con material para eventos en el H1, la description y la FAQ. Se mantiene la diferencia con la venta de muebles."
+      }
     },
     "resourcePresentation": {
       "description": "Textos y datos de contexto completos para pasar de una referencia a la conversación de alquiler.",
@@ -9876,16 +9993,25 @@
       "",
       "Gracias por escribir. Indícanos qué piezas has visto, las fechas que estás valorando y el tipo de evento o producción. Con una ubicación general y una idea del uso, el equipo podrá explicar qué información necesita para estudiar la solicitud. La primera respuesta no bloquea material ni confirma una reserva. Las cantidades, la logística, las condiciones de uso y el presupuesto se revisan después con el proveedor.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Sillas crossback, mesa imperial y menaje en tonos naturales: una composición para inspirarte.",
+      "Temporada de bodas: consulta con tiempo el mobiliario que necesitas y las opciones de transporte.",
+      "Así cargamos, montamos y recogemos un pedido de mobiliario para un evento de empresa."
+    ],
+    "heroChat": {
+      "question": "Hola, necesitamos 80 sillas y 10 mesas redondas para una comunión el 16 de mayo. ¿Tenéis y cuánto sería?",
+      "answer": "Hola, gracias por escribir. Dinos el lugar del evento y si necesitáis transporte y montaje. El equipo revisa la disponibilidad para esa fecha y os prepara el presupuesto."
+    }
   },
   {
     "id": 95,
     "slug": "sonido-iluminacion",
-    "title": "Redes sociales para empresas de sonido e iluminación | Dania360",
-    "description": "Explica la intervención de tu empresa de sonido e iluminación en eventos. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "Que el montaje explique el servicio que ofrece tu empresa",
-    "promise": "Presenta tu intervención y dirige cada consulta al equipo adecuado.",
-    "lead": "Preparamos contenido para explicar tus servicios técnicos y orientar consultas de eventos e instalaciones. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "title": "Empresas de sonido e iluminación: marketing y redes sociales | Dania360",
+    "description": "Marketing para empresas de sonido e iluminación: publicaciones de montajes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para empresas de sonido e iluminación",
+    "promise": "Que el montaje explique tu servicio y la consulta llegue con los datos del acto.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de sonido e iluminación. Explicamos qué aporta tu equipo en cada montaje y facilitamos que organizadores, salas y empresas te escriban con fecha, espacio y formato del acto.",
     "artAlt": "Escena abstracta con un altavoz y haces de luz, sin medidas, potencias o diseño de instalación",
     "artCaption": "Ilustración editorial original. No es un montaje real, una propuesta técnica o una instalación validada.",
     "resourceTitle": "Una intervención explicada desde el formato, la función y el contacto",
@@ -9903,24 +10029,41 @@
         "No figuran en la cuota de Growth. Esta propuesta gestiona la comunicación y la atención de los canales del plan con información y material que se puedan utilizar. Tu equipo estudia y ejecuta el servicio técnico."
       ],
       [
-        "¿Qué incluye Growth para empresas de sonido e iluminación por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una empresa de sonido e iluminación?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye grabación de eventos, fichas técnicas ni la conexión con tu inventario de equipos. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de sonido e iluminación?",
+        "Traduce tu trabajo técnico a contenido que entienda quien organiza: qué tipo de actos atiendes, qué resuelve tu equipo y cómo se pide una propuesta. Con Growth publicamos a diario con material autorizado, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge fecha, lugar y formato del evento."
+      ],
+      [
+        "¿Sirve también para DJ con equipo propio de sonido e iluminación?",
+        "Sí, si el servicio es para eventos: bodas, fiestas privadas o actos de empresa. El contenido presenta tu forma de trabajar, el montaje y la coordinación con el resto de proveedores, con material autorizado. No se inventan actuaciones, salas ni artistas, y el repertorio y las condiciones los confirmas tú."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de sonido e iluminación?",
+        "Montajes explicados por tipo de acto, la preparación y la prueba de sonido, cambios de ambiente con la iluminación, presentaciones del equipo técnico y respuestas a dudas frecuentes, como plazos para reservar o qué datos del espacio hacen falta. Siempre con el papel de tu empresa claro y sin atribuirle capacidades no confirmadas."
       ]
     ],
     "name": "Empresas de sonido e iluminación",
-    "h1": "Gestión de redes sociales para empresas de sonido e iluminación",
+    "h1": "Marketing para empresas de sonido e iluminación para eventos",
     "layout": "sonido-iluminacion",
     "hubGroup": "creatividad-eventos",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de sonido e iluminación",
-        "redes sociales empresas audiovisuales eventos",
-        "community manager sonido iluminación",
-        "marketing sonido iluminación profesional"
+        "marketing para empresas de sonido",
+        "marketing para empresas de sonido e iluminación",
+        "marketing para empresa de sonido",
+        "marketing para empresas de iluminacion",
+        "marketing para sonido",
+        "marketing para djs",
+        "agencia de marketing para djs",
+        "marketing para empresas de alquiler de sonido",
+        "como promocionar una empresa de sonido"
       ],
-      "intent": "Proveedor técnico que necesita explicar su papel en un evento sin reducir la publicación a una foto de equipos o prometer prestaciones sin revisar.",
+      "intent": "Empresa de sonido e iluminación para eventos e instalaciones que busca marketing para recibir consultas de organizadores, salas y empresas y valora delegar redes, perfil de Google y atención de mensajes.",
       "distinctFrom": "Una intervención conceptual se cuenta desde el formato del acto, la función del equipo y el contacto técnico, con publicación y respuesta inicial. El servicio técnico para eventos se diferencia de la venta de lámparas, del alquiler de muebles y de organizar una celebración. Dania360 no diseña ni certifica un montaje.",
       "sources": [
         {
@@ -9930,9 +10073,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sin sugerencias para marketing para empresas de sonido, sonido e iluminación, empresas de iluminacion, técnicos de sonido ni alquiler de sonido; sí sugiere marketing para djs (con agencia, curso, marketing digital y academia de marketing para djs). Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia, el title empieza por el nombre completo del oficio, empresas de sonido e iluminación, con marketing y redes sociales (70 caracteres con la marca; el catálogo ya tiene titles de hasta 71), y el H1 usa marketing para empresas de sonido e iluminación. Marketing para djs tiene demanda pero es otro perfil; se cubre con una FAQ para DJ con equipo propio."
+      }
     },
     "resourcePresentation": {
       "description": "Esquema, publicación y respuesta completos para presentar el servicio técnico antes de enumerar equipos.",
@@ -9972,17 +10121,26 @@
       "",
       "Gracias por contactar. Indícanos de forma general qué tipo de acto o instalación estás preparando, su fecha o período y qué parte del servicio quieres consultar. El equipo te explicará qué documentación necesita y por qué canal puede revisarla. Esta primera orientación no confirma equipos, disponibilidad o una solución técnica. La propuesta se estudia con los profesionales de la empresa.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Montaje de sonido para una boda al aire libre: así preparamos la ceremonia y el baile.",
+      "Iluminación ambiental para una cena de empresa: el mismo salón, antes y después de encender.",
+      "Prueba de sonido a media tarde: lo que revisamos antes de que entre el primer invitado."
+    ],
+    "heroChat": {
+      "question": "Hola, organizamos una cena de empresa para 150 personas en marzo. ¿Ponéis sonido, micrófonos e iluminación?",
+      "answer": "Hola, gracias por escribir. Indícanos el lugar, la fecha y si habrá discursos, música o actuación. El equipo técnico lo revisa y te prepara una propuesta."
+    }
   },
   {
     "id": 96,
     "slug": "escuelas-danza",
     "hubGroup": "escuelas-clubes",
-    "title": "Gestión de redes sociales para escuelas de danza | Dania360",
-    "description": "Presenta las clases de tu escuela de danza y orienta las consultas por experiencia. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Que la clase se entienda antes de entrar en el aula",
-    "promise": "Explica qué se aprende y facilita el primer contacto con la escuela.",
-    "lead": "Preparamos contenido para presentar las clases y orientar las consultas de tu escuela de danza. Growth reúne redes sociales, página web y bot de IA por 297 €/mes.",
+    "title": "Marketing para academias de baile y redes sociales | Dania360",
+    "description": "Marketing para academias de baile y escuelas de danza: clases en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para escuelas de danza",
+    "promise": "Que quien quiere bailar sepa por dónde empezar en tu escuela.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu escuela de danza o academia de baile. Explicamos qué se aprende en cada clase y facilitamos que quien quiere empezar pregunte por el grupo adecuado.",
     "artAlt": "Líneas curvas abstractas y dos tarjetas de primera experiencia y continuidad, sin bailarines reales",
     "artCaption": "Composición editorial original. No representa una clase realizada, alumnado o una oferta de matrícula.",
     "resourceTitle": "Una presentación de clase y dos respuestas por experiencia",
@@ -10000,23 +10158,40 @@
         "Growth no incluye grabación presencial o cobertura de espectáculos. Gestionamos el contenido y los canales del plan con información y material que se puedan utilizar, revisando su contexto con la escuela."
       ],
       [
-        "¿Qué incluye Growth para escuelas de danza por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una academia de baile?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye grabar clases o festivales ni un sistema de matrícula conectado a tu gestión. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo conseguir más alumnos en una escuela de danza?",
+        "Explicando cada estilo y cada nivel para que nadie descarte la escuela por pensar que no sabe bailar, aprovechando los momentos en los que se decide apuntarse, como el inicio de curso o enero, y contestando rápido con la pregunta clave: qué quieres aprender y si has bailado antes. Las reseñas de familias y alumnado ayudan a quien compara. No garantizamos inscripciones."
+      ],
+      [
+        "¿Qué publicidad funciona para una academia de baile?",
+        "Primero, un perfil que explique las clases y responda; después, si quieres, anuncios para jornadas de puertas abiertas o nuevos grupos. Growth prepara las publicaciones y atiende los mensajes que generan, pero los anuncios no están incluidos y su presupuesto se paga aparte. Con menores, solo se publican imágenes autorizadas por sus familias."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para escuelas de danza?",
+        "Presenta la escuela a quien todavía no la conoce: estilos, niveles, profesorado confirmado y cómo empezar. Con Growth publicamos a diario con material autorizado, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge estilo, edad y experiencia para que el equipo docente oriente."
       ]
     ],
     "name": "Escuelas de danza",
-    "h1": "Gestión de redes sociales para escuelas de danza",
+    "h1": "Marketing para escuelas de danza y academias de baile",
     "layout": "escuelas-danza",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para escuelas de danza",
-        "redes sociales academias baile",
-        "community manager escuelas danza",
-        "marketing escuelas baile"
+        "marketing para escuelas de danza",
+        "marketing para academias de baile",
+        "marketing para academia de baile",
+        "marketing para escuelas de baile",
+        "publicidad para academia de baile",
+        "marketing para bailarines",
+        "redes sociales academia de baile",
+        "como conseguir alumnos de baile",
+        "como promocionar una escuela de danza"
       ],
-      "intent": "Escuela que necesita presentar una clase y facilitar una conversación sobre nivel y oferta confirmada.",
+      "intent": "Escuela de danza o academia de baile que busca marketing para conseguir más alumnos y valora delegar redes, perfil de Google y atención de consultas sin publicar al alumnado sin permiso.",
       "distinctFrom": "Una publicación de presentación de una clase y dos respuestas para quien empieza y quien quiere conocer la continuidad de su formación. El enfoque trata la enseñanza de danza, no la academia genérica, entrenamiento de gimnasio o una actuación contratada. No se inventan estilos, docentes, horarios, alumnos o matrículas.",
       "sources": [
         {
@@ -10026,9 +10201,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere publicidad para academia de baile, marketing para bailarines y danza marketing; sin sugerencias para marketing para escuelas de danza, academias de baile, escuelas de baile, academias de danza, como conseguir alumnos de baile ni como promocionar una escuela de danza. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "La única sugerencia del negocio nombra academia de baile, así que el title empieza por marketing para academias de baile con redes sociales y el H1 une escuelas de danza y academias de baile. La FAQ cubre publicidad para academia de baile y cómo conseguir más alumnos. Se mantiene la diferencia con la landing de academias de formación."
+      }
     },
     "resourcePresentation": {
       "description": "Publicación completa y mensajes para quien empieza y para quien quiere continuar aprendiendo.",
@@ -10058,17 +10239,26 @@
       "",
       "Gracias por contactar. Indícanos qué has practicado y qué te gustaría seguir aprendiendo, de forma general. La escuela te dirá con quién puedes hablar para valorar las opciones de su oferta. La publicación no asigna un nivel ni confirma una plaza; esa orientación corresponde al equipo docente.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Nuevo grupo de danza contemporánea para adultos que empiezan desde cero. Pregunta por horarios.",
+      "Así es una clase de ballet infantil: calentamiento, barra y un juego final con música.",
+      "Semana de clases abiertas: ven a probar salsa, urbano o flamenco y consulta tu nivel con el equipo."
+    ],
+    "heroChat": {
+      "question": "Hola, nunca he bailado y tengo 40 años. ¿Hay algún grupo de iniciación para adultos?",
+      "answer": "Hola, gracias por escribir. Cuéntanos qué estilo te gustaría aprender y qué días te vienen mejor. El equipo te dice qué grupo encaja y cómo empezar."
+    }
   },
   {
     "id": 97,
     "slug": "artes-marciales",
     "hubGroup": "escuelas-clubes",
-    "title": "Redes sociales para escuelas de artes marciales | Dania360",
-    "description": "Explica la enseñanza de tu escuela de artes marciales y cómo consultar para empezar. Growth incluye gestión de redes, web y bot por 297 €/mes.",
-    "eyebrow": "La enseñanza también debe entenderse desde fuera",
-    "promise": "Acerca la propuesta de tu escuela a quien todavía no conoce la disciplina.",
-    "lead": "Gestionamos contenido y consultas para presentar la enseñanza de tu escuela de artes marciales. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para escuelas de artes marciales y redes sociales | Dania360",
+    "description": "Marketing para escuelas de artes marciales: publicaciones de clases, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para escuelas de artes marciales y dojos",
+    "promise": "Que quien nunca ha pisado un tatami sepa cómo empezar en tu escuela.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu escuela de artes marciales. Explicamos tu disciplina y tu forma de enseñar a quien no la conoce y facilitamos que adultos y familias pregunten por el grupo adecuado.",
     "artAlt": "Dos paneles gráficos con un círculo abierto y líneas de conversación, sin técnicas o personas practicando",
     "artCaption": "Esquema editorial original sobre escuela y primer contacto. No muestra una técnica o sesión real.",
     "resourceTitle": "Dos publicaciones para explicar la escuela y cómo empezar",
@@ -10086,23 +10276,41 @@
         "No realiza valoraciones profesionales. Orienta con la información configurada del centro y dirige al equipo. La escuela confirma el proceso de incorporación y responde las cuestiones que requieran su criterio."
       ],
       [
-        "¿Qué incluye Growth para escuelas de artes marciales por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una escuela de artes marciales?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye grabar clases, exámenes o competiciones ni un sistema de inscripción conectado a tu gestión. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo conseguir más alumnos en una escuela de artes marciales?",
+        "Explicando qué se aprende y cómo es empezar, porque muchas personas no se apuntan por no saber si encajarán. Ayuda separar los mensajes para familias con niños y para adultos que empiezan, contestar rápido con edad, disciplina y horario, y pedir reseña a quien ya entrena. No garantizamos inscripciones ni prometemos resultados físicos."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para escuelas de artes marciales?",
+        "Presenta la escuela a quien todavía no practica: disciplina, valores de la enseñanza, grupos y cómo hacer la primera consulta. Con Growth publicamos a diario con material autorizado, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge edad, experiencia y disciplina para que el equipo oriente."
+      ],
+      [
+        "¿Qué publicar en las redes de un dojo o una escuela de artes marciales?",
+        "Cómo es una clase de iniciación, el sentido de la disciplina, presentaciones del profesorado con sus grados confirmados, actividades y exámenes que la escuela haya validado, y respuestas a dudas frecuentes de familias. Sin enseñar técnicas como tutorial ni prometer beneficios físicos o de defensa personal."
       ]
     ],
     "name": "Escuelas de artes marciales",
-    "h1": "Gestión de redes sociales para escuelas de artes marciales",
+    "h1": "Marketing para escuelas de artes marciales: que se entienda cómo empezar",
     "layout": "artes-marciales",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para escuelas de artes marciales",
-        "redes sociales dojos",
-        "community manager artes marciales",
-        "marketing academias artes marciales"
+        "marketing para escuelas de artes marciales",
+        "marketing para escuela de artes marciales",
+        "marketing para gimnasios de artes marciales",
+        "marketing para artes marciales",
+        "marketing artes marciales",
+        "marketing para dojos",
+        "marketing para karate",
+        "publicidad para escuela de artes marciales",
+        "como promocionar una escuela de artes marciales",
+        "como conseguir alumnos de artes marciales"
       ],
-      "intent": "Escuela que quiere explicar su propuesta a quien no conoce la disciplina y orientar la primera consulta.",
+      "intent": "Escuela de artes marciales o dojo que busca marketing para conseguir más alumnos, adultos y familias, y valora delegar redes, perfil de Google y atención de consultas.",
       "distinctFrom": "Dos publicaciones diferentes para conocer la forma de enseñanza y consultar el comienzo, sin una demostración de combate o consejo de salud. Se comunica la oferta formativa y el equipo, no se enseñan técnicas ni se añaden clases de prueba, grados o credenciales inexistentes.",
       "sources": [
         {
@@ -10112,9 +10320,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sin sugerencias para marketing para escuelas de artes marciales, gimnasios de artes marciales, artes marciales, dojos, karate, publicidad para escuela de artes marciales ni como promocionar o conseguir alumnos; como conseguir alumnos de artes marciales solo devuelve un videojuego. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia, se mantiene el nombre del sector en el patrón marketing para escuelas de artes marciales con redes sociales (70 caracteres con la marca; el catálogo ya tiene titles de hasta 71) y se añade dojos en el eyebrow y la FAQ. No se usa gimnasios para no competir con la landing de gimnasios."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos que distinguen el enfoque de enseñanza de la primera consulta al centro.",
@@ -10140,17 +10354,26 @@
       "",
       "No necesitas decidir un grupo solo por lo que has visto en redes. Si estás valorando aprender en nuestra escuela, puedes empezar por una consulta sencilla: qué disciplina te interesa, si has practicado antes y qué necesitas saber de la oferta. El equipo explicará las opciones que tenga confirmadas y cómo se valora el encaje. Este ejemplo no anuncia una plaza o una clase de prueba. Los horarios, las condiciones y el proceso de incorporación se confirman con la escuela. Evita dejar información personal sensible en comentarios; te indicaremos un canal adecuado para la conversación que corresponda.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Así es una clase infantil de judo: saludo, calentamiento, juegos de equilibrio y práctica por parejas.",
+      "¿Nunca has practicado karate? Te contamos cómo es la primera semana en el grupo de adultos.",
+      "Horarios del nuevo trimestre: grupos infantiles, de iniciación y avanzados. Pregúntanos por el tuyo."
+    ],
+    "heroChat": {
+      "question": "Hola, mi hijo tiene 7 años y le gustaría probar artes marciales. ¿Desde qué edad admitís y qué días hay clase?",
+      "answer": "Hola, gracias por escribir. Dinos la edad y la disciplina que os interesa. El equipo os indica el grupo, los horarios y cómo venir a conocer la escuela."
+    }
   },
   {
     "id": 98,
     "slug": "clubes-padel",
     "hubGroup": "escuelas-clubes",
-    "title": "Gestión de redes sociales para clubes de pádel | Dania360",
-    "description": "Presenta tu club de pádel y diferencia la oferta estable de los avisos de actividad. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La oferta del club y los avisos, cada uno con su contexto",
-    "promise": "Haz comprensible qué puede consultar una persona a tu club de pádel.",
-    "lead": "Preparamos contenido del club y atendemos consultas en los canales del plan. Growth incluye gestión de redes sociales, página web y bot de IA por 297 €/mes.",
+    "title": "Marketing para clubes de pádel y redes sociales | Dania360",
+    "description": "Marketing para clubes de pádel: publicaciones de pistas, clases y torneos, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing deportivo y redes sociales para clubes de pádel",
+    "promise": "Que se sepa qué ofrece el club además de alquilar pista.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu club de pádel. Separamos la oferta estable del club de los avisos de ligas, torneos y clases, y facilitamos que cada consulta llegue al equipo con lo necesario.",
     "artAlt": "Esquema abstracto de pista junto a una ficha de información y una tarjeta de aviso sin fecha",
     "artCaption": "Ilustración conceptual original. No representa un club, pistas disponibles o una actividad convocada.",
     "resourceTitle": "Presentación del club y aviso temporal para validar",
@@ -10168,23 +10391,40 @@
         "La organización, los patrocinios y la cobertura presencial no figuran en la cuota de Growth. Podemos comunicar actividades confirmadas con información y material que el club pueda compartir."
       ],
       [
-        "¿Qué incluye Growth para clubes de pádel por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para un club de pádel?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye la conexión con tu programa de reservas, la organización de torneos ni su cobertura presencial. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing de pádel para un club?",
+        "Ordena la comunicación del club para que se entienda qué ofrece y cómo se consulta: pistas, clases, ligas, torneos y servicios confirmados. Con Growth publicamos a diario con material autorizado, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que deriva cada consulta al equipo. Las reservas siguen en tu programa."
+      ],
+      [
+        "¿Cómo conseguir más jugadores y socios para un club de pádel?",
+        "Hablando a cada tipo de jugador: quien busca pista, quien quiere aprender y quien ya compite y busca liga o torneo. Ayuda publicar las actividades con sus datos confirmados, responder rápido a quien pregunta por horarios o niveles y pedir reseña a quienes vuelven. No garantizamos altas ni ocupación de pistas."
+      ],
+      [
+        "¿Sirve también para otros clubes deportivos?",
+        "Sí, el enfoque vale para clubes con varias instalaciones o deportes de raqueta: separar la oferta estable de los avisos con fecha y dirigir cada consulta al equipo. Si tu negocio es un centro de entrenamiento con sala y clases dirigidas, la propuesta para gimnasios encaja mejor."
       ]
     ],
     "name": "Clubes de pádel",
-    "h1": "Gestión de redes sociales para clubes de pádel",
+    "h1": "Marketing para clubes de pádel: que se sepa todo lo que ofrece el club",
     "layout": "clubes-padel",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para clubes de pádel",
-        "redes sociales club pádel",
-        "community manager pádel",
-        "marketing clubes pádel"
+        "marketing para clubes de pádel",
+        "marketing para club de padel",
+        "marketing padel",
+        "padel marketing",
+        "agencia marketing padel",
+        "marketing para clubes deportivos",
+        "plan de marketing para un club deportivo",
+        "redes sociales club de padel",
+        "como promocionar un club de padel"
       ],
-      "intent": "Club que quiere mostrar su ambiente y oferta y distinguir una consulta de juego de un aviso de actividad confirmada.",
+      "intent": "Club de pádel que busca marketing para atraer jugadores, alumnos y socios y valora delegar redes, perfil de Google y atención de consultas sin conectar el programa de reservas.",
       "distinctFrom": "Publicación permanente de presentación y aviso temporal adaptable, con criterios distintos de vigencia y contacto. Se comunica un club, no una tienda de palas ni la carrera de un deportista. No se inventan torneos, pistas libres, socios, entrenadores o integraciones de reserva.",
       "sources": [
         {
@@ -10194,9 +10434,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing padel (con agencia marketing padel), padel marketing y padel club marketing, marketing para clubes deportivos y plan de marketing para un club deportivo; sin sugerencias para marketing para clubes de pádel, club de padel, pistas de padel, publicidad para club de padel ni como promocionar un club de padel. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para clubes de pádel, que contiene marketing y pádel, las palabras de las sugerencias, literal al inicio del title y del H1. Agencia de marketing de pádel y clubes deportivos se cubren en la FAQ. No se usa gimnasios para no competir con la landing de gimnasios."
+      }
     },
     "resourcePresentation": {
       "description": "Dos publicaciones completas con controles de vigencia diferentes, sin inventar una actividad.",
@@ -10224,17 +10470,26 @@
       "",
       "La presentación se revisa cuando cambia la oferta del club. El aviso necesita además una fecha y condiciones vigentes antes de difundirse. Preparar una pieza no confirma que la actividad vaya a celebrarse.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Liga interna de otoño: inscripciones por parejas y niveles. Pregunta las condiciones en recepción.",
+      "Clases de iniciación para adultos en grupos reducidos, por la mañana y por la tarde.",
+      "Así quedan las pistas tras el cambio de césped. Reserva y pruébalas esta semana."
+    ],
+    "heroChat": {
+      "question": "Hola, somos cuatro de nivel medio y buscamos pista fija los jueves por la tarde. ¿Hay hueco?",
+      "answer": "Hola, gracias por escribir. Dinos la hora que preferís y desde cuándo. El equipo revisa la disponibilidad de pistas y os confirma la reserva fija y sus condiciones."
+    }
   },
   {
     "id": 99,
     "slug": "estudios-tatuajes",
     "hubGroup": "creatividad-eventos",
-    "title": "Gestión de redes sociales para estudios de tatuajes | Dania360",
-    "description": "Presenta el trabajo de tu estudio de tatuajes con autoría y contexto y orienta consultas. Growth incluye gestión de redes, web y bot por 297 €/mes.",
-    "eyebrow": "Que cada pieza conserve su autoría y su contexto",
-    "promise": "Abre una conversación sobre la idea antes de confirmar un encargo.",
-    "lead": "Gestionamos contenido y consultas para presentar el trabajo de tu estudio de tatuajes. Growth incluye redes sociales, página web y bot de IA por 297 €/mes.",
+    "title": "Marketing para tatuadores y redes sociales del estudio | Dania360",
+    "description": "Marketing para tatuadores y estudios de tatuajes: tus piezas en redes, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para estudios de tatuajes",
+    "promise": "Que cada idea llegue al artista adecuado antes de pedir cita.",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu estudio de tatuajes. Presentamos el trabajo de cada artista con su autoría y ordenamos las consultas para que lleguen con la idea, la zona y el tamaño.",
     "artAlt": "Lámina abstracta de curvas y puntos sobre papel, sin piel o simulación de un tatuaje",
     "artCaption": "Dibujo editorial original. No es un tatuaje realizado, una pieza de portfolio o un diseño disponible.",
     "resourceTitle": "Una idea presentada y una respuesta para continuar",
@@ -10252,23 +10507,41 @@
         "El bot orienta con información configurada y dirige al estudio. Las decisiones sobre el encargo y las preguntas profesionales o sanitarias corresponden a los profesionales adecuados; no se resuelven mediante una valoración automática de imágenes."
       ],
       [
-        "¿Qué incluye Growth para estudios de tatuajes por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para un estudio de tatuajes?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye sesiones de fotos, diseño de piezas ni un sistema de citas conectado a la agenda de los artistas. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para tatuadores?",
+        "Ordena la comunicación del estudio para que se reconozca el estilo de cada artista y se sepa cómo consultar. Con Growth publicamos a diario con piezas autorizadas y su autoría, respondemos mensajes, comentarios y reseñas, cuidamos el perfil de Google y mantenemos una web con bot de IA que recoge idea, zona y tamaño. El diseño, el precio y la cita los decide el artista."
+      ],
+      [
+        "¿Cómo promocionar un estudio de tatuajes en redes sociales?",
+        "Separando el trabajo de cada artista, explicando cada pieza con su estilo y su proceso, anunciando el flash y la agenda solo cuando estén confirmados y respondiendo rápido con las preguntas que el artista necesita. Las reseñas respondidas y un perfil de Google completo ayudan a quien busca estudio cerca. No garantizamos citas."
+      ],
+      [
+        "¿Qué estrategias de marketing digital funcionan para tatuadores?",
+        "Mostrar un estilo reconocible, publicar el proceso del boceto a la pieza curada, aclarar cómo se pide presupuesto y qué no se responde por mensaje, y cuidar la publicidad: los anuncios se pagan aparte y Growth no los incluye. Las preguntas sobre cuidados o salud se derivan siempre al estudio."
       ]
     ],
     "name": "Estudios de tatuajes",
-    "h1": "Gestión de redes sociales para estudios de tatuajes",
+    "h1": "Marketing para tatuadores y estudios de tatuajes: cada pieza con su autoría",
     "layout": "estudios-tatuajes",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para estudios de tatuajes",
-        "redes sociales tatuadores",
-        "community manager estudios tatuajes",
-        "marketing estudios tatuajes"
+        "marketing para tatuadores",
+        "marketing para estudios de tatuajes",
+        "marketing para estudio de tatuajes",
+        "marketing para tatuajes",
+        "marketing tatuajes",
+        "estrategias de marketing para tatuadores",
+        "agencia de marketing para tatuadores",
+        "como promocionar un estudio de tatuajes",
+        "publicidad para estudio de tatuajes",
+        "redes sociales para tatuadores"
       ],
-      "intent": "Estudio que necesita mostrar la autoría y el estado de una pieza y orientar una idea hacia el artista adecuado.",
+      "intent": "Tatuador o estudio de tatuajes que busca marketing para recibir más consultas de encargos y valora delegar redes, perfil de Google y mensajes sin perder la autoría de cada artista.",
       "distinctFrom": "Una lámina gráfica original y una publicación sobre cómo iniciar una idea, con una respuesta que evita convertir una referencia ajena en un encargo confirmado. La comunicación presenta al estudio y su proceso de contacto. No simula tatuajes realizados, inventa artistas o agenda, ni da valoración médica o indicaciones clínicas.",
       "sources": [
         {
@@ -10278,9 +10551,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para tatuadores (con pdf, estrategias, marketing digital, curso y agencia), marketing para tatuajes, marketing digital tatuajes, marketing para tattoo, como promocionar un estudio de tatuajes, publicidad para estudio de tatuajes y redes sociales para tatuadores; sin sugerencias para marketing para estudios de tatuajes ni estudio de tatuaje. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-creatividad-escuelas.json, -2 y -3",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para tatuadores, la variante con más sugerencias, literal al inicio del title y del H1, y se añade estudio para cubrir como promocionar y publicidad para estudio de tatuajes. No se usan términos de estética ni peluquería para no competir con salones-estetica."
+      }
     },
     "resourcePresentation": {
       "description": "Publicación y respuesta completas para distinguir una referencia visual de un encargo confirmado.",
@@ -10304,7 +10583,16 @@
       "",
       "Gracias por compartir lo que estás pensando. Podemos trasladar tu consulta al estudio para que indique cómo continuar. Cuéntanos de forma general qué quieres desarrollar y si buscas información sobre el trabajo de algún artista del equipo. No publiques datos sensibles o imágenes personales en comentarios. El estudio te dirá por qué canal puede revisar las referencias necesarias. Una primera respuesta no confirma el diseño, una cita o un presupuesto; esos puntos se concretan con el profesional que valore el encargo.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Del boceto a la piel: cómo se adapta un diseño de línea fina a la zona elegida.",
+      "Flash del mes: diseños de la artista pensados para tatuarse tal cual. Pregunta por mensaje.",
+      "Antes de tu cita: revisa la referencia que acordaste con el artista y llega con tiempo."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero tatuarme una frase pequeña en el antebrazo. ¿Cuánto costaría y cuándo tenéis hueco?",
+      "answer": "Hola, gracias por escribir. Mándanos la frase, el tamaño aproximado y la tipografía que te gusta. El artista lo revisa y te confirmamos precio y fecha por aquí."
+    }
   },
   {
     "id": 100,
