@@ -7101,11 +7101,11 @@
   {
     "id": 71,
     "slug": "asesorias-gestorias",
-    "title": "Gestión de redes sociales para asesorías | Dania360",
-    "description": "Explica los servicios y la forma de trabajar de tu asesoría o gestoría con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El despacho se conoce mejor cuando explica cómo trabaja",
-    "promise": "Haz comprensible tu servicio antes de que te pidan una propuesta.",
-    "lead": "Preparamos contenido para presentar los servicios, el equipo y la atención de tu asesoría o gestoría. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para asesorías y gestorías: redes sociales | Dania360",
+    "description": "Marketing para asesorías y gestorías: publicaciones, mensajes, reseñas, web y bot de IA para recibir consultas. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para asesorías",
+    "promise": "Que autónomos y empresas entiendan tu servicio antes de pedirte una propuesta.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu asesoría o gestoría. Explicamos a quién atiende el despacho y cómo se contrata, y llevamos cada consulta a tu equipo.",
     "artAlt": "Expediente editorial conceptual con tres separadores sobre alcance, contacto y comienzo del servicio de una asesoría",
     "artCaption": "Ilustración original de una miniserie editorial. No representa documentación, clientes o trámites reales.",
     "resourceTitle": "Tres publicaciones para quien valora cambiar de asesoría",
@@ -7120,27 +7120,43 @@
       ],
       [
         "¿Growth incluye LinkedIn o asesoramiento del bot?",
-        "LinkedIn no está incluido. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. El bot se configura con información del despacho y del contacto; no presta asesoramiento fiscal, laboral o jurídico."
+        "LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. El bot se configura con información del despacho y del contacto; no presta asesoramiento fiscal, laboral o jurídico."
       ],
       [
-        "¿Qué incluye Growth para asesorías y gestorías por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para asesorías con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, gestión de LinkedIn en Growth ni asesoramiento profesional del bot. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para asesorías?",
+        "Ordena cómo se presenta el despacho donde lo busca un autónomo o una empresa: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día sobre servicios, equipo y forma de trabajar con información que valida la asesoría, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No resolvemos consultas fiscales ni laborales en público."
+      ],
+      [
+        "¿Cómo conseguir clientes para una asesoría con las redes sociales?",
+        "Con publicaciones que expliquen a quién atiendes y cómo se empieza, un perfil de Google completo con reseñas respondidas y una respuesta rápida a quien escribe para cambiar de gestoría. Pasamos al equipo cada consulta con el tipo de actividad del interesado. No garantizamos un número de clientes: revisamos contigo qué consultas llegaron y cuáles se convirtieron en propuesta."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de una gestoría?",
+        "Piezas sobre los servicios que puede contratar un autónomo o una empresa, quién del equipo atiende cada área, cómo se organiza el contacto y avisos generales de campañas que el despacho confirme y retire cuando dejen de estar vigentes. Nada de casos de clientes ni respuestas a situaciones particulares en los comentarios."
       ]
     ],
     "name": "Asesorías y gestorías",
-    "h1": "Gestión de redes sociales para asesorías y gestorías",
+    "h1": "Marketing para asesorías y gestorías: redes sociales que explican tu despacho",
     "layout": "asesorias-gestorias",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para asesorías y gestorías",
-        "community manager asesorías",
-        "redes sociales gestorías",
-        "marketing asesorías"
+        "marketing para asesorías",
+        "marketing para gestorías",
+        "cómo conseguir clientes para una asesoría",
+        "cómo captar clientes para asesoría",
+        "publicidad para gestorías",
+        "publicidad para asesorías",
+        "marketing digital para asesorías",
+        "redes sociales para asesorías"
       ],
-      "intent": "Asesoría o gestoría que quiere explicar a qué tipo de cliente atiende y cómo se contrata su servicio sin publicar consejos individualizados.",
+      "intent": "Titular de una asesoría o gestoría que busca marketing para asesorías: quién le lleva redes, perfil de Google, reseñas y web para que autónomos y empresas entiendan el servicio y consulten. La landing vende la gestión de Dania360; no presta asesoramiento ni promete clientes.",
       "distinctFrom": "Una miniserie de tres textos sobre alcance, interlocución y comienzo del servicio antes de cambiar de asesoría.",
       "sources": [
         {
@@ -7150,9 +7166,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para asesorías tiene sugerencia propia; marketing para gestorías no la tiene, pero sí publicidad para gestorías y publicidad para asesorías; cómo conseguir clientes para una asesoría sugiere variantes (para mi asesoría, asesoría contable) y cómo captar clientes para asesoría también. Marketing para despachos deriva a abogados, que cubre otra landing hecha a mano, por lo que no se usa. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para asesorías y gestorías, literal al inicio del title, el H1 y la description, sin usar marketing para despachos ni marketing jurídico (landing de abogados). Se añaden FAQ de agencia, cómo conseguir clientes y qué publicar en una gestoría, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos sobre alcance, interlocución y comienzo del servicio, para adaptar con el equipo del despacho.",
@@ -7184,16 +7206,25 @@
       "",
       "Si quieres informarte sobre empezar con nuestra asesoría, el primer paso es conocer qué necesitas contratar y cómo se puede estudiar tu petición. El equipo te explicará qué información debe revisar y las condiciones de la propuesta. Los pasos del cambio y sus plazos se confirman para cada situación; una publicación no sustituye esa conversación con el despacho.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "¿Empiezas como autónomo? Te contamos qué servicios puedes contratar con el despacho y cómo empezar.",
+      "Así trabajamos: quién lleva tu caso, por qué canal nos escribes y cómo te avisamos.",
+      "¿Cambiar de gestoría a mitad de año? Escríbenos y te explicamos qué revisamos para estudiarlo."
+    ],
+    "heroChat": {
+      "question": "Hola, soy autónomo y quiero cambiar de gestoría. ¿Cuánto cobráis por llevar la contabilidad y los impuestos?",
+      "answer": "Hola, gracias por escribir. Depende de tu actividad y del volumen de facturas. Te llama un asesor del despacho, revisa tu caso y te prepara una propuesta."
+    }
   },
   {
     "id": 72,
     "slug": "corredurias-seguros",
-    "title": "Redes sociales para corredurías de seguros | Dania360",
-    "description": "Presenta el equipo y el trabajo de tu correduría y orienta cada motivo de contacto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Cada consulta con el contexto que necesita tu equipo",
-    "promise": "Da a conocer tu correduría y facilita la continuación de las consultas.",
-    "lead": "Gestionamos contenido para explicar tu correduría de seguros, el equipo y cómo informarse. Growth reúne redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para seguros: redes sociales para corredurías | Dania360",
+    "description": "Marketing para seguros en tu correduría: publicaciones, mensajes, reseñas, web y bot de IA para recibir consultas. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para corredurías y agentes de seguros",
+    "promise": "Un equipo reconocible y consultas que llegan con su motivo claro.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu correduría de seguros. Presentamos al equipo y los ramos que confirmes, y separamos las peticiones nuevas de las gestiones de pólizas.",
     "artAlt": "Dos bandejas conceptuales distinguen una nueva petición de información de un asunto ya iniciado con una correduría",
     "artCaption": "Composición editorial original. No contiene pólizas, documentos ni datos de asegurados.",
     "resourceTitle": "Una publicación y dos respuestas para la correduría",
@@ -7211,24 +7242,41 @@
         "Su responsable valida ramos, servicios, afirmaciones de su especialidad y condiciones de los avisos comerciales. Preparamos el contenido con material autorizado y sin inventar clientes, pólizas o resultados."
       ],
       [
-        "¿Qué incluye Growth para corredurías de seguros por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para corredurías de seguros con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, comparadores de pólizas ni asesoramiento asegurador del bot. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para seguros?",
+        "Se ocupa de cómo se presenta la correduría donde la buscan: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día sobre el equipo, la forma de trabajar y los ramos que confirme el responsable, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No recomendamos coberturas ni comparamos pólizas."
+      ],
+      [
+        "¿Cómo conseguir clientes de seguros con las redes sociales?",
+        "Dando a conocer a las personas que atienden, explicando cómo se estudia una propuesta y respondiendo rápido a quien pregunta. Un perfil de Google con reseñas respondidas y una web clara ayudan a que el interesado escriba a la correduría y no a un comparador. No garantizamos pólizas contratadas: revisamos contigo qué consultas llegaron."
+      ],
+      [
+        "¿Sirve también para agentes de seguros?",
+        "Sí, siempre que el contenido refleje la figura con la que trabajas y lo que puedes ofrecer. Un agente vinculado a una compañía y una correduría se presentan de forma distinta, y el responsable valida cada afirmación sobre productos o entidades antes de publicarla."
       ]
     ],
     "name": "Corredurías de seguros",
-    "h1": "Gestión de redes sociales para corredurías de seguros",
+    "h1": "Marketing para seguros: redes sociales que llevan cada consulta a tu correduría",
     "layout": "corredurias-seguros",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para corredurías de seguros",
-        "community manager corredurías",
-        "redes sociales seguros",
-        "marketing corredurías seguros"
+        "marketing para seguros",
+        "marketing para corredurías de seguros",
+        "marketing de seguros",
+        "agencia de marketing para seguros",
+        "marketing para agentes de seguros",
+        "marketing digital para seguros",
+        "cómo conseguir clientes de seguros",
+        "cómo captar clientes de seguros",
+        "redes sociales seguros"
       ],
-      "intent": "Correduría que necesita presentar su trabajo y orientar consultas de información y asuntos de pólizas existentes hacia su equipo.",
+      "intent": "Corredor o agente de seguros que busca marketing para seguros: quién le lleva redes, perfil de Google, reseñas y web para dar a conocer al equipo y recibir peticiones de propuesta. La landing vende la gestión de Dania360; no recomienda coberturas ni promete pólizas.",
       "distinctFrom": "Distinguir una nueva petición de información de una gestión ya iniciada, con publicación y dos respuestas completas sin recomendar coberturas desde la agencia.",
       "sources": [
         {
@@ -7250,9 +7298,15 @@
           ]
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para corredurías de seguros no tiene sugerencias; marketing para seguros sí, con muchas variantes (agentes de seguros, digital, vender seguros, agencia de marketing para seguros); marketing de seguros y cómo conseguir o captar clientes de seguros también sugieren; redes sociales seguros tiene sugerencia. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para seguros, literal al inicio del title, el H1 y la description, con corredurías en el mismo title. Se añaden FAQ de agencia, cómo conseguir clientes y agentes de seguros, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para presentar el contacto y distinguir información nueva de una gestión sobre una póliza existente.",
@@ -7278,16 +7332,25 @@
       "",
       "Para una gestión relacionada con una póliza, continúa por el canal de atención que tengas acordado con la correduría. Su equipo podrá indicarte el procedimiento que corresponda. No publiques números de póliza, documentos ni datos personales en los comentarios de esta cuenta.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Conoce a quien te atiende: así trabajamos en la correduría y así puedes escribirnos.",
+      "¿Seguro de hogar, de coche o para tu negocio? Cuéntanos qué necesitas revisar y te orientamos.",
+      "¿Ya eres cliente y tienes un parte? Usa tu canal de atención y no publiques datos de la póliza aquí."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo un pequeño comercio y quiero revisar el seguro del local. ¿Me podéis hacer una propuesta?",
+      "answer": "Hola, gracias por escribirnos. Te llama una persona del equipo para conocer tu actividad y lo que tienes contratado, y después te prepara la propuesta."
+    }
   },
   {
     "id": 73,
     "slug": "consultorias-empresariales",
-    "title": "Redes sociales para consultorías empresariales | Dania360",
-    "description": "Explica la propuesta y los entregables de tu consultoría con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Del conocimiento a una propuesta que se pueda entender",
-    "promise": "Muestra en qué se concreta el trabajo que una empresa puede encargarte.",
-    "lead": "Damos forma al contenido de tu consultoría para explicar su propuesta, equipo y servicios. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes; LinkedIn no está incluido.",
+    "title": "Marketing para consultoras y gestión de redes sociales | Dania360",
+    "description": "Marketing para consultoras: publicaciones, mensajes, reseñas, web y bot de IA para explicar tu propuesta. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para consultorías",
+    "promise": "Que una empresa vea qué puede encargarte antes de la primera reunión.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu consultoría empresarial. Explicamos tu método y tus entregables sin inventar casos, y llevamos el interés de cada empresa a tu equipo.",
     "artAlt": "Mapa editorial conceptual con contexto, entregable y alcance para presentar un encargo de consultoría",
     "artCaption": "Esquema original de comunicación. No representa un proyecto de un cliente ni resultados empresariales.",
     "resourceTitle": "Un mapa editorial para presentar un encargo de consultoría",
@@ -7298,31 +7361,47 @@
       ],
       [
         "¿Growth incluye LinkedIn para mi consultoría?",
-        "No. Incluye publicaciones en Instagram, Facebook, TikTok y Pinterest y gestión de Google Business Profile. Si LinkedIn es prioritario para tu negocio, se debe valorar el alcance adecuado en la auditoría antes de contratar."
+        "No. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. LinkedIn forma parte de Scale, por 497 €/mes, junto con X y YouTube. Si es tu canal prioritario, lo valoramos en la auditoría antes de contratar."
       ],
       [
         "¿El bot de IA prepara diagnósticos o propuestas de consultoría?",
         "Se configura con información del negocio para orientar sobre el servicio y el contacto. El estudio del encargo, su alcance y la propuesta corresponden al equipo de tu consultoría."
       ],
       [
-        "¿Qué incluye Growth para consultorías empresariales por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para consultoras con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, gestión de LinkedIn en Growth ni la preparación de diagnósticos o propuestas de consultoría. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para consultoras?",
+        "Convierte lo que sabe la consultoría en contenido que una empresa pueda entender: el problema que estudia, el entregable y la forma de empezar. Con Growth publicamos cada día, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA que orienta el contacto. El consultor valida cómo se describe su trabajo."
+      ],
+      [
+        "¿Cómo conseguir clientes para una consultoría empresarial?",
+        "Explicando con constancia los asuntos que resuelves y en qué se concreta un encargo, con una web y un perfil de Google que respalden lo que publicas y una respuesta rápida al primer mensaje. No inventamos casos ni cifras para aparentar experiencia, y no garantizamos encargos: revisamos contigo qué conversaciones llegaron."
+      ],
+      [
+        "¿Sirve para consultores independientes?",
+        "Sí. Un consultor que trabaja solo suele no tener tiempo para publicar cada día, y una cuota fija evita contratar horas sueltas. El contenido parte de tu especialidad y tu método, y tú validas cada afirmación sobre tu trabajo antes de publicarla."
       ]
     ],
     "name": "Consultorías empresariales",
-    "h1": "Gestión de redes sociales para consultorías empresariales",
+    "h1": "Marketing para consultoras: contenido que explica en qué se concreta tu trabajo",
     "layout": "consultorias-empresariales",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para consultorías empresariales",
-        "redes sociales consultoras",
-        "community manager consultorías",
-        "marketing consultores"
+        "marketing para consultoras",
+        "marketing para consultorías",
+        "marketing para consultores",
+        "marketing digital para consultores",
+        "marketing para empresas de consultoría",
+        "cómo conseguir clientes para consultoría empresarial",
+        "linkedin para consultores",
+        "marketing para empresas de servicios"
       ],
-      "intent": "Consultoría que necesita hacer comprensible su propuesta y lo que puede estudiar con una empresa antes de preparar un encargo.",
+      "intent": "Socio de una consultoría o consultor independiente que busca marketing para consultoras: quién le lleva redes, perfil de Google, reseñas y web para que una empresa entienda qué puede encargarle. La landing vende la gestión de Dania360; no prepara diagnósticos ni promete encargos.",
       "distinctFrom": "Un mapa editorial de un encargo didáctico sobre reuniones y decisiones, con contexto, entregable y alcance sin atribuir resultados a un cliente.",
       "sources": [
         {
@@ -7338,10 +7417,16 @@
           ]
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para consultorías empresariales no tiene sugerencias; marketing para consultoras sí (marketing para consultorías se reescribe como consultoras); marketing para consultores, marketing digital para consultores, marketing para empresas de consultoría, cómo conseguir clientes para consultoría empresarial y linkedin para consultores también sugieren. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
-      "editorialRevision": "Se añade un acuerdo didáctico concreto con lo acordado, quién continúa y qué falta revisar dentro del ejemplo existente. No representa un cliente o resultado ni añade un servicio a Growth."
+      "editorialRevision": "Se añade un acuerdo didáctico concreto con lo acordado, quién continúa y qué falta revisar dentro del ejemplo existente. No representa un cliente o resultado ni añade un servicio a Growth.",
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para consultoras, literal al inicio del title, el H1 y la description. LinkedIn se explica como parte de Scale. Se añaden FAQ de agencia, cómo conseguir clientes y consultores independientes, y H2 de estrategias, qué publicar, marketing digital para consultores, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Contexto, entregable, alcance y texto de presentación completos de una demostración didáctica, para adaptar a tu servicio real.",
@@ -7386,16 +7471,25 @@
       "",
       "La consultoría debe sustituir el asunto y el entregable por los que realmente trabaja. Un ejemplo conceptual no acredita experiencia con un cliente ni un resultado económico.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Antes del encargo, el contexto: qué preguntamos a una empresa en la primera conversación.",
+      "Un entregable por dentro: el mapa de decisiones que preparamos y para qué sirve.",
+      "¿Diagnóstico, propuesta o acompañamiento? Te explicamos qué alcance tiene cada servicio."
+    ],
+    "heroChat": {
+      "question": "Hola, somos una empresa de 20 personas y queremos ordenar los procesos internos. ¿Trabajáis con empresas de nuestro tamaño?",
+      "answer": "Hola, gracias por contactar. Cuéntanos brevemente qué queréis revisar y un consultor del equipo os propone una primera llamada para estudiar el alcance."
+    }
   },
   {
     "id": 74,
     "slug": "seleccion-personal",
-    "title": "Redes sociales para empresas de selección | Dania360",
-    "description": "Explica tu servicio de selección y separa el contacto de empresas y candidatos. Growth incluye redes, web y bot de IA por 297 €/mes, sin LinkedIn.",
-    "eyebrow": "Dos públicos, una presentación clara del servicio",
-    "promise": "Haz reconocible tu servicio para empresas y el canal de información de candidatos.",
-    "lead": "Preparamos contenido para presentar tu empresa de selección y orientar cada motivo de contacto. Growth incluye redes sociales, atención de sus canales, web y bot de IA por 297 €/mes; LinkedIn no está incluido.",
+    "title": "Marketing de reclutamiento y redes sociales para selección | Dania360",
+    "description": "Marketing de reclutamiento para empresas de selección: publicaciones, mensajes, reseñas, web y bot de IA. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Redes sociales para reclutamiento y selección de personal",
+    "promise": "Empresas que entienden tu servicio y candidatos que encuentran su canal.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu empresa de selección. Presentamos tu servicio a las empresas y orientamos a los candidatos hacia su canal, sin mezclar los dos recorridos.",
     "artAlt": "Dos recorridos editoriales conceptuales para empresa empleadora y candidato hacia el equipo de selección",
     "artCaption": "Diagrama original de comunicación. No representa personas, vacantes ni procesos de clientes reales.",
     "resourceTitle": "Dos publicaciones para empresas y candidatos",
@@ -7406,31 +7500,47 @@
       ],
       [
         "¿Growth incluye LinkedIn o los portales de empleo?",
-        "LinkedIn no está incluido y no se presupone gestión de portales de empleo. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. Revisamos los canales prioritarios en la auditoría antes de contratar."
+        "LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes. No se presupone gestión de portales de empleo. Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. Revisamos los canales prioritarios en la auditoría antes de contratar."
       ],
       [
         "¿La atención del perfil o el bot evalúan o eligen candidatos?",
         "No. Su función es orientar con información del negocio y dirigir cada consulta al canal acordado. La evaluación, las decisiones de selección y los sistemas de candidaturas corresponden a la empresa."
       ],
       [
-        "¿Qué incluye Growth para empresas de selección de personal por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing de reclutamiento con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, publicación en portales de empleo, gestión de LinkedIn en Growth ni evaluación de candidatos. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué es el marketing de reclutamiento y qué parte hacéis vosotros?",
+        "Es comunicar para atraer a dos públicos: empresas que necesitan cubrir puestos y personas que buscan empleo. Nosotros nos ocupamos de las redes sociales, el perfil de Google, las reseñas, la web y los mensajes. La redacción de cada oferta la confirma tu equipo, y la evaluación de candidatos y las decisiones de selección siguen siendo tuyas."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de selección de personal?",
+        "Contando el servicio y no solo las vacantes: cómo se estudia un encargo, quién lo lleva y cómo se trabaja con la empresa. Un perfil de Google con reseñas respondidas, una web clara y una respuesta rápida al responsable que escribe hacen el resto. No garantizamos encargos: revisamos contigo qué consultas de empresas llegaron."
+      ],
+      [
+        "¿Qué redes sociales sirven para reclutamiento de personal?",
+        "Depende del perfil que buscas. Instagram, Facebook y TikTok, incluidas en Growth, llegan bien a puestos de comercio, hostelería, logística o atención al público. Para perfiles técnicos o directivos suele pesar más LinkedIn, que está en Scale. Lo valoramos contigo en la auditoría."
       ]
     ],
     "name": "Empresas de selección de personal",
-    "h1": "Gestión de redes sociales para empresas de selección de personal",
+    "h1": "Marketing de reclutamiento: redes sociales para tu empresa de selección de personal",
     "layout": "seleccion-personal",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de selección de personal",
-        "community manager selección personal",
-        "redes sociales empresas recursos humanos",
-        "marketing empresas selección"
+        "marketing de reclutamiento",
+        "recruitment marketing",
+        "redes sociales para reclutamiento de personal",
+        "redes sociales para reclutamiento",
+        "linkedin para reclutadores",
+        "marketing para empresas de selección de personal",
+        "marketing para rrhh",
+        "employer branding y marketing de reclutamiento"
       ],
-      "intent": "Empresa de selección que quiere explicar su servicio a empresas empleadoras y separar ese recorrido de los contactos de candidatos.",
+      "intent": "Empresa de selección de personal que busca marketing de reclutamiento: quién le lleva redes, perfil de Google, reseñas y web para captar empresas clientes y orientar a candidatos. La landing vende la gestión de Dania360; no evalúa candidatos ni promete encargos.",
       "distinctFrom": "Una pieza para presentar el encargo de selección a la empresa y otra para orientar a candidatos, sin inventar una vacante ni atribuir selección de personas al bot.",
       "sources": [
         {
@@ -7452,9 +7562,15 @@
           ]
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de acceso registrados. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para empresas de selección de personal, marketing para headhunters y marketing para ETT no tienen sugerencias; marketing de reclutamiento sí (también con employer branding), recruitment marketing tiene muchas variantes en inglés, redes sociales para reclutamiento (de personal) y linkedin para reclutadores también sugieren, y marketing para rrhh tiene sugerencia propia. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing de reclutamiento, literal al inicio del title, el H1 y la description, con redes sociales y selección en el title; redes sociales para reclutamiento queda en el eyebrow, un H2 y una FAQ. Se añaden FAQ de qué es el marketing de reclutamiento, cómo conseguir clientes y qué redes sirven, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para presentar el encargo de selección y orientar sobre el canal de candidatura, sin anunciar una vacante real.",
@@ -7484,16 +7600,25 @@
       "",
       "Qué servicios se ofrecen a empresas, cómo se solicita información comercial y qué canal existe para candidatos. Las ofertas, su estado y el procedimiento de participación deben corresponder a la información vigente de la organización.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "¿Tu empresa necesita incorporar a alguien? Te explicamos cómo estudiamos un encargo de selección.",
+      "¿Buscas empleo? Las ofertas vigentes y el canal para candidaturas están en el enlace del perfil.",
+      "Conoce al equipo: quién atiende a las empresas y quién responde las dudas de los candidatos."
+    ],
+    "heroChat": {
+      "question": "Hola, tenemos una tienda y necesitamos contratar a dos dependientes antes de Navidad. ¿Nos podéis ayudar?",
+      "answer": "Hola, gracias por escribirnos. Cuéntanos el puesto y la fecha de incorporación. Una persona del equipo te llama para explicarte cómo trabajamos y preparar la propuesta."
+    }
   },
   {
     "id": 75,
     "slug": "traduccion-interpretacion",
-    "title": "Redes sociales para agencias de traducción | Dania360",
-    "description": "Presenta traducción e interpretación con contenido propio para tu agencia. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Cada servicio lingüístico tiene su propia conversación",
-    "promise": "Haz que el cliente entienda qué encargo puede consultar a tu agencia.",
-    "lead": "Preparamos contenido para explicar los servicios de tu agencia de traducción e interpretación y orientar las consultas. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para traductores y agencias: redes sociales | Dania360",
+    "description": "Marketing para traductores y agencias: publicaciones, mensajes, reseñas, web y bot de IA para recibir encargos. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para servicios lingüísticos",
+    "promise": "Que el cliente sepa qué encargo puede consultarte y cómo pedirlo.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu agencia de traducción o de tu actividad como traductor. Explicamos cada servicio lingüístico y llevamos la consulta a tu equipo.",
     "artAlt": "Composición editorial original que diferencia un texto escrito y una intervención oral mediante una hoja y un micrófono esquemáticos",
     "artCaption": "Ilustración conceptual propia. No muestra documentos, eventos ni encargos de clientes.",
     "resourceTitle": "Dos publicaciones para traducción e interpretación",
@@ -7508,27 +7633,42 @@
       ],
       [
         "¿En qué redes se publica y está incluido LinkedIn?",
-        "Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. LinkedIn no está incluido. La auditoría sirve para valorar si ese alcance encaja con tu agencia."
+        "Growth publica en Instagram, Facebook, TikTok y Pinterest y gestiona Google Business Profile. LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes. La auditoría sirve para valorar qué alcance encaja con tu agencia."
       ],
       [
-        "¿Qué incluye Growth para agencias de traducción e interpretación por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para traductores con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, gestión de LinkedIn en Growth ni traducciones profesionales del contenido. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para traductores?",
+        "Explica los servicios lingüísticos de forma que un cliente entienda qué puede encargar: traducción, interpretación, subtítulos o revisión, según lo que ofrezcas. Con Growth publicamos cada día, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA que orienta el contacto. Los idiomas y especialidades se publican solo si los confirmas."
+      ],
+      [
+        "¿Cómo conseguir clientes de traducción con las redes sociales?",
+        "Mostrando especialidades con ejemplos propios, explicando qué datos necesitas para presupuestar y respondiendo rápido a quien escribe. Una ficha de Google y una web claras ayudan a que una empresa te encuentre cuando busca un servicio concreto. No garantizamos encargos: revisamos contigo qué consultas llegaron."
+      ],
+      [
+        "¿Sirve para traductores autónomos o solo para agencias?",
+        "Para los dos. Un traductor autónomo suele presentar su combinación de idiomas y su especialidad; una agencia, varios servicios y un equipo. El contenido parte de lo que tú confirmes y nunca atribuye credenciales, acreditaciones o idiomas que no estén verificados."
       ]
     ],
     "name": "Agencias de traducción e interpretación",
-    "h1": "Gestión de redes sociales para agencias de traducción e interpretación",
+    "h1": "Marketing para traductores y agencias de traducción e interpretación",
     "layout": "traduccion-interpretacion",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para agencias de traducción e interpretación",
-        "redes sociales agencias de traducción",
-        "community manager traductores",
-        "marketing agencias de traducción"
+        "marketing para traductores",
+        "marketing para agencias de traducción",
+        "marketing traducción",
+        "marketing para traductores freelance",
+        "cómo conseguir clientes de traducción",
+        "redes sociales para traductores",
+        "marketing para intérpretes"
       ],
-      "intent": "Agencia de servicios lingüísticos que necesita explicar sus especialidades y diferenciar un encargo de traducción escrita de una consulta de interpretación para eventos.",
+      "intent": "Traductor autónomo o agencia de traducción e interpretación que busca marketing para traductores: quién le lleva redes, perfil de Google, reseñas y web para explicar sus servicios y recibir encargos. La landing vende la gestión de Dania360; no traduce ni promete encargos.",
       "distinctFrom": "Dos publicaciones completas y diferentes: qué contexto permite estudiar un texto y qué información sitúa una intervención oral, sin pedir documentos privados en comentarios.",
       "sources": [
         {
@@ -7544,9 +7684,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para traductores es la única frase del sector con sugerencia propia; marketing para agencias de traducción, para intérpretes, para traductores freelance, redes sociales para traductores y cómo conseguir clientes de traducción no tienen sugerencias; marketing traducción sugiere sobre todo traducciones del término. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para traductores, literal al inicio del title, el H1 y la description, con agencias en el mismo title. Se añaden FAQ de agencia, cómo conseguir clientes y traductores autónomos, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para presentar un encargo escrito y una consulta de interpretación, adaptables al servicio real de la agencia.",
@@ -7572,16 +7718,25 @@
       "",
       "Una reunión y una presentación no plantean el mismo encargo de interpretación. Para estudiar tu consulta, nuestro equipo necesita situar el tipo de encuentro, las lenguas y cómo se desarrollará la comunicación. Escríbenos por el canal indicado y explica de forma general qué estás organizando. La modalidad, los medios, las condiciones y la disponibilidad se confirman después de revisar la petición. El perfil presenta el servicio; la propuesta se acuerda con el equipo de la agencia.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "¿Tu web en otro idioma? Antes de traducir, te preguntamos quién la va a leer y dónde se publicará.",
+      "Una reunión con intérprete se prepara antes: te contamos qué datos necesitamos para estudiarla.",
+      "Subtítulos, una web o un contrato: tres encargos distintos y lo que conviene contarnos de cada uno."
+    ],
+    "heroChat": {
+      "question": "Hola, necesito traducir al inglés la documentación de una licitación. ¿En cuánto tiempo podríais tenerla?",
+      "answer": "Hola, gracias por escribir. Envíanos el material por el canal privado que te indicamos. El equipo revisa la extensión y los idiomas y te confirma plazo y precio."
+    }
   },
   {
     "id": 76,
     "slug": "ingenierias",
-    "title": "Gestión de redes sociales para ingenierías | Dania360",
-    "description": "Haz comprensible la especialidad y el trabajo de tu ingeniería con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La capacidad técnica necesita una explicación comprensible",
-    "promise": "Presenta la especialidad de tu ingeniería antes de recibir una solicitud.",
-    "lead": "Convertimos información aprobada por tu equipo en contenido para explicar tu ingeniería y sus servicios. Growth reúne gestión de redes, web y bot de IA por 297 €/mes; LinkedIn no está incluido.",
+    "title": "Marketing industrial para ingenierías y redes sociales | Dania360",
+    "description": "Marketing industrial para ingenierías: publicaciones, mensajes, reseñas, web y bot de IA para consultas técnicas. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing para ingenierías y empresas industriales",
+    "promise": "Una especialidad técnica explicada para quien tiene que encargarla.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu ingeniería. Convertimos información aprobada por tu equipo en contenido comprensible y llevamos cada consulta técnica a la persona adecuada.",
     "artAlt": "Dos disposiciones espaciales didácticas conectadas con una pregunta, una comparación y una revisión, sin dimensiones o cálculos técnicos",
     "artCaption": "Esquema editorial original. No es un plano de proyecto ni una solución técnica validada.",
     "resourceTitle": "Guion de 15 segundos para explicar una decisión técnica",
@@ -7596,27 +7751,43 @@
       ],
       [
         "¿El guion es un vídeo producido y Growth incluye LinkedIn?",
-        "El ejemplo es un guion editable, no un vídeo ya producido ni una grabación presencial. Growth incluye vídeos de 15 segundos en los canales de publicación del plan. LinkedIn no está incluido."
+        "El ejemplo es un guion editable, no un vídeo ya producido ni una grabación presencial. Growth incluye vídeos de 15 segundos en los canales de publicación del plan. LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes, con vídeos de 30 segundos."
       ],
       [
-        "¿Qué incluye Growth para ingenierías por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing industrial para ingenierías con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, ferias, gestión de LinkedIn en Growth ni cálculos, certificaciones o proyectos de ingeniería. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué es el marketing industrial y qué parte hace Dania360?",
+        "Es el marketing de empresas que venden a otras empresas productos o servicios técnicos, con decisiones de compra largas y varias personas implicadas. Nosotros nos ocupamos de redes sociales, perfil de Google, reseñas, web con bot de IA y mensajes. Las afirmaciones técnicas las valida tu equipo."
+      ],
+      [
+        "¿Cómo conseguir clientes para una ingeniería con las redes?",
+        "Publicando con constancia cómo trabaja la oficina y qué tipo de consulta puede estudiar, con una web y una ficha de Google que expliquen las especialidades y una respuesta rápida que derive al técnico. No inventamos proyectos ni adjudicaciones, y no garantizamos encargos: revisamos contigo qué consultas llegaron."
+      ],
+      [
+        "¿Sirve para empresas industriales además de oficinas de ingeniería?",
+        "Sí, si venden un servicio o un producto técnico que necesita explicarse antes de pedir presupuesto. El enfoque es el mismo: material propio autorizado, un destinatario claro en cada pieza y la revisión técnica de tu equipo antes de publicar."
       ]
     ],
     "name": "Ingenierías",
-    "h1": "Gestión de redes sociales para ingenierías",
+    "h1": "Marketing industrial para ingenierías: redes sociales que explican tu especialidad",
     "layout": "ingenierias",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para ingenierías",
-        "redes sociales ingenierías",
-        "community manager ingeniería",
-        "marketing empresas ingeniería"
+        "marketing industrial",
+        "marketing para ingenierías",
+        "marketing para ingeniería",
+        "marketing para ingenieros",
+        "marketing para empresas industriales",
+        "marketing industrial b2b",
+        "agencia de marketing industrial",
+        "linkedin para ingenieros"
       ],
-      "intent": "Oficina de ingeniería que quiere que un comprador entienda la especialidad y el trabajo que puede consultar antes de compartir documentación técnica.",
+      "intent": "Oficina de ingeniería o empresa industrial que busca marketing industrial: quién le lleva redes, perfil de Google, reseñas y web para que un comprador entienda su especialidad y consulte. La landing vende la gestión de Dania360; no hace ingeniería ni promete adjudicaciones.",
       "distinctFrom": "Guion original de 15 segundos para explicar una decisión técnica desde pregunta, comparación y revisión del equipo, usando un dibujo didáctico sin cálculos ni proyecto real.",
       "sources": [
         {
@@ -7632,10 +7803,16 @@
           ]
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para ingenierías no tiene sugerencias; marketing para ingeniería y marketing para ingenieros sí; marketing industrial es la familia con más sugerencias (ejemplos, b2b, pdf y libros con intención informativa), con agencia de marketing industrial, marketing para empresas industriales y su versión digital; linkedin para ingenieros también sugiere. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
-      "editorialRevision": "Se acorta el primer texto de pantalla del guion y se conecta con la página de prevención para oficinas que también presten ese servicio, sin atribuir funciones preventivas a Dania360."
+      "editorialRevision": "Se acorta el primer texto de pantalla del guion y se conecta con la página de prevención para oficinas que también presten ese servicio, sin atribuir funciones preventivas a Dania360.",
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing industrial, literal al inicio del title, el H1 y la description, con ingenierías en el mismo title. Se añaden FAQ de qué es el marketing industrial, cómo conseguir clientes y empresas industriales, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Secuencia completa de tres planos, textos de pantalla y publicación para adaptar a la especialidad real de tu oficina.",
@@ -7671,16 +7848,25 @@
       "",
       "Una decisión técnica se entiende mejor cuando se explica qué se compara y qué información necesita el equipo para revisarla. Este esquema es didáctico: no representa un proyecto ejecutado ni permite elegir una solución para una instalación real. En nuestra oficina estudiamos cada consulta desde la especialidad y el alcance que podemos ofrecer. Si quieres conocer el servicio, contacta con el equipo y sitúa la necesidad antes de compartir documentación técnica.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Antes de calcular, entender el uso: así empezamos a estudiar una consulta en la oficina.",
+      "Dos alternativas sobre un esquema: qué comparamos y qué datos necesitamos revisar.",
+      "Conoce al equipo: qué especialidades cubre la ingeniería y cómo hacernos llegar tu consulta."
+    ],
+    "heroChat": {
+      "question": "Hola, vamos a ampliar una nave y necesitamos el proyecto de instalaciones. ¿Os encargáis de eso?",
+      "answer": "Hola, gracias por contactar. Cuéntanos de forma general la actividad y el alcance. Un técnico del equipo revisa la consulta y os propone cómo seguir."
+    }
   },
   {
     "id": 77,
     "slug": "prevencion-riesgos-laborales",
-    "title": "Gestión de redes sociales para empresas PRL | Dania360",
-    "description": "Explica los servicios y actividades de tu empresa de prevención con contenido revisado. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El servicio y sus avisos deben contar lo que está vigente",
-    "promise": "Presenta tu servicio de prevención con contenido preciso y revisado.",
-    "lead": "Gestionamos contenido sobre tu equipo, los servicios de prevención y las actividades que confirmes. Growth incluye redes sociales, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para empresas de PRL y redes sociales | Dania360",
+    "description": "Marketing para empresas de PRL: publicaciones, mensajes, reseñas, web y bot de IA con contenido revisado. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para prevención de riesgos laborales",
+    "promise": "Un servicio de prevención explicado con precisión y avisos siempre vigentes.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu servicio de prevención de riesgos laborales. Presentamos el equipo, el alcance y las actividades que confirmes, con revisión profesional antes de publicar.",
     "artAlt": "Tablero conceptual con una página de presentación permanente y una tarjeta temporal de actividad pendiente de confirmar",
     "artCaption": "Composición editorial original. No acredita obligaciones, formación o convocatorias reales.",
     "resourceTitle": "Presentación del servicio y aviso de actividad para PRL",
@@ -7695,27 +7881,42 @@
       ],
       [
         "¿Growth incluye LinkedIn o asesoramiento preventivo del bot?",
-        "LinkedIn no está incluido. El bot orienta con información del negocio y del contacto; no evalúa riesgos, determina medidas preventivas ni sustituye la intervención del profesional."
+        "LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes. El bot orienta con información del negocio y del contacto; no evalúa riesgos, determina medidas preventivas ni sustituye la intervención del profesional."
       ],
       [
-        "¿Qué incluye Growth para servicios de prevención de riesgos laborales por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para empresas de PRL con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, gestión de LinkedIn en Growth ni asesoramiento preventivo, formación o evaluación de riesgos. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de PRL?",
+        "Presenta el servicio de prevención donde lo busca una empresa: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día sobre el equipo, el alcance y las actividades que confirme el responsable, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Las referencias normativas las valida tu equipo técnico."
+      ],
+      [
+        "¿Cómo conseguir clientes para un servicio de prevención de riesgos laborales?",
+        "Explicando con claridad qué servicio presta tu organización y cómo empieza una empresa a trabajar contigo, con una ficha de Google completa, reseñas respondidas y una respuesta rápida que pase la consulta al técnico. No garantizamos contratos: revisamos contigo qué consultas llegaron."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de prevención?",
+        "La presentación del equipo y de las áreas que atendéis, cómo se consulta el servicio, actividades formativas confirmadas con su vigencia y recordatorios generales revisados por el técnico. Nada que interprete la situación concreta de una empresa ni fotografías de trabajadores sin autorización."
       ]
     ],
     "name": "Servicios de prevención de riesgos laborales",
-    "h1": "Gestión de redes sociales para servicios de prevención de riesgos laborales",
+    "h1": "Marketing para empresas de PRL: tu servicio de prevención explicado con precisión",
     "layout": "prevencion-riesgos-laborales",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para servicios de prevención de riesgos laborales",
-        "redes sociales empresas PRL",
-        "community manager prevención riesgos laborales",
-        "marketing servicios de prevención"
+        "marketing para empresas de PRL",
+        "marketing PRL",
+        "marketing para prevención de riesgos laborales",
+        "marketing para servicios de prevención",
+        "marketing para servicios de prevención ajenos",
+        "cómo conseguir clientes prevención de riesgos laborales",
+        "redes sociales prevención de riesgos laborales"
       ],
-      "intent": "Servicio de prevención que quiere presentar su alcance a empresas y comunicar actividades confirmadas con revisión de su equipo profesional.",
+      "intent": "Servicio de prevención ajeno o empresa de PRL que busca marketing para empresas de PRL: quién le lleva redes, perfil de Google, reseñas y web para presentar su servicio a empresas con contenido revisado. La landing vende la gestión de Dania360; no presta asesoramiento preventivo ni promete contratos.",
       "distinctFrom": "Una publicación permanente del servicio y un aviso temporal editable, con criterios distintos de revisión y retirada. No se explica normativa ni se inventa una convocatoria.",
       "sources": [
         {
@@ -7725,9 +7926,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: el sector casi no tiene demanda visible. Solo marketing prl devuelve sugerencia; marketing para empresas de PRL, para prevención de riesgos laborales, para servicios de prevención (ajenos), redes sociales prevención de riesgos laborales y cómo conseguir clientes de prevención no tienen sugerencias. Se usa la sigla PRL, que es la forma corta con la que se busca. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para empresas de PRL, con la sigla literal en el title, el H1 y la description, y prevención de riesgos laborales completo en el eyebrow, la entradilla y los H2. Se añaden FAQ de agencia, cómo conseguir clientes y qué publicar, y H2 de estrategias, qué publicar, marketing digital, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Dos textos completos y sus criterios de revisión para diferenciar información permanente y avisos temporales, sin inventar una convocatoria.",
@@ -7761,16 +7968,25 @@
       "",
       "Se revisa la pieza y su cierre. Un aviso vencido no continúa presentándose como actividad abierta.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "¿Vas a contratar a tu primer trabajador? Te explicamos cómo se consulta nuestro servicio de prevención.",
+      "Nueva actividad formativa: tema, a quién va dirigida y dónde consultar fechas y condiciones vigentes.",
+      "Conoce al equipo técnico: qué áreas atendemos y cómo contactar sin enviar documentos por aquí."
+    ],
+    "heroChat": {
+      "question": "Hola, tenemos un taller con seis trabajadores y queremos cambiar de servicio de prevención. ¿Qué necesitáis para darnos precio?",
+      "answer": "Hola, gracias por escribirnos. Indícanos la actividad y el número de centros. Un técnico del equipo os llama para conocer vuestra situación y preparar la propuesta."
+    }
   },
   {
     "id": 78,
     "slug": "transporte-logistica",
-    "title": "Redes sociales para transporte y logística | Dania360",
-    "description": "Presenta tu servicio de transporte y diferencia nuevas solicitudes de consultas sobre envíos. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Servicio confirmado y consultas con el contexto adecuado",
-    "promise": "Explica qué transporte ofreces y cómo continuar cada consulta.",
-    "lead": "Preparamos y gestionamos contenido para tu empresa de transporte o logística con información confirmada por tu equipo. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para empresas de transporte y redes sociales | Dania360",
+    "description": "Marketing para empresas de transporte y logística: publicaciones, mensajes, reseñas, web y bot de IA. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para transporte y logística",
+    "promise": "Tu servicio de transporte explicado y cada consulta en su canal.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu empresa de transporte o logística. Presentamos el servicio que confirmes y separamos las solicitudes nuevas de las consultas sobre envíos.",
     "artAlt": "Esquema conceptual de origen y destino con dos canales diferenciados para nueva solicitud y envío iniciado",
     "artCaption": "Diagrama editorial propio. No muestra rutas, expediciones o estados de entrega reales.",
     "resourceTitle": "Una publicación y dos respuestas para transporte",
@@ -7785,27 +8001,43 @@
       ],
       [
         "¿Growth incluye LinkedIn y cotización automática de portes?",
-        "LinkedIn no está incluido y no se atribuye al bot una función de cotización o reserva de transporte. Growth gestiona la comunicación de sus canales y presenta el negocio con web y bot de IA."
+        "LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes. Tampoco se atribuye al bot una función de cotización o reserva de transporte. Growth gestiona la comunicación de sus canales y presenta el negocio con web y bot de IA."
       ],
       [
-        "¿Qué incluye Growth para empresas de transporte y logística por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para empresas de transporte con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, bolsas de carga, gestión de LinkedIn en Growth ni integración con sistemas de expediciones. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué estrategias de marketing sirven a una empresa de transporte?",
+        "Las que ayudan a que un cargador entienda qué servicio ofreces y te escriba: publicar con material real de la flota y las instalaciones que autorices, tener un perfil de Google con la zona de trabajo y reseñas respondidas, una web que explique servicios y una atención que separe solicitudes nuevas de envíos en curso."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de transportes con las redes?",
+        "Mostrando con constancia el tipo de transporte que haces y explicando qué datos necesitas para estudiar una petición, como origen, destino, tipo de carga y frecuencia. Respondemos los mensajes y pasamos la solicitud a tu área comercial. No garantizamos contratos: revisamos contigo qué solicitudes llegaron."
+      ],
+      [
+        "¿Sirve también para empresas de logística y almacenaje?",
+        "Sí. Un operador logístico necesita explicar servicios distintos, como almacenaje, preparación de pedidos o distribución, y cada pieza se centra en uno de ellos. Las capacidades, zonas y condiciones se publican solo si tu equipo las confirma."
       ]
     ],
     "name": "Empresas de transporte y logística",
-    "h1": "Gestión de redes sociales para empresas de transporte y logística",
+    "h1": "Marketing para empresas de transporte y logística: redes que ordenan cada solicitud",
     "layout": "transporte-logistica",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de transporte y logística",
-        "redes sociales transporte logística",
-        "community manager empresas transporte",
-        "marketing operadores logísticos"
+        "marketing para empresas de transporte",
+        "marketing digital para empresas de transporte",
+        "estrategias de marketing para empresas de transporte",
+        "marketing para empresas de logística",
+        "marketing para transporte",
+        "marketing para logística",
+        "cómo conseguir clientes para empresa de transportes",
+        "cómo conseguir clientes de transporte"
       ],
-      "intent": "Transportista u operador logístico que necesita presentar su servicio confirmado y diferenciar una nueva solicitud comercial de la consulta sobre un envío existente.",
+      "intent": "Empresa de transporte u operador logístico que busca marketing para empresas de transporte: quién le lleva redes, perfil de Google, reseñas y web para presentar su servicio y recibir solicitudes de cargadores. La landing vende la gestión de Dania360; no cotiza portes ni promete contratos.",
       "distinctFrom": "Un ejemplo completo de publicación sobre cómo consultar un transporte, una respuesta para nueva solicitud y otra para un envío ya iniciado, sin inventar rutas, cargas, precios o seguimiento.",
       "sources": [
         {
@@ -7815,9 +8047,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para empresas de transporte tiene sugerencias propias (marketing digital y estrategias de marketing para empresas de transporte); marketing para empresas de logística, marketing para logística y marketing para transporte también; cómo conseguir clientes para empresa de transportes y cómo conseguir clientes de transporte sugieren; marketing logístico sugiere sobre todo contenido académico. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para empresas de transporte, literal al inicio del title, el H1 y la description; logística entra en el H1, la description y un H2 para no pasar de 65 caracteres en el title. Se añaden FAQ de estrategias, cómo conseguir clientes y logística, y H2 de estrategias, qué publicar, marketing digital para logística, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Ejemplo completo para presentar cómo consultar un servicio y diferenciar una nueva solicitud de una expedición iniciada.",
@@ -7847,16 +8085,25 @@
       "",
       "Si tu consulta corresponde a un envío ya iniciado, utiliza la vía de atención que te haya facilitado la empresa para esa expedición. Allí el equipo podrá revisar la información y continuar contigo. No publiques referencias de envío, direcciones o datos de destinatarios en los comentarios. Este perfil no muestra el estado en tiempo real ni sustituye el canal de atención acordado.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "¿Necesitas mover mercancía de forma regular? Cuéntanos origen, destino y tipo de carga y te orientamos.",
+      "Conoce la flota con la que trabajamos y qué servicios puedes consultar a nuestro equipo comercial.",
+      "¿Preguntas por un envío en curso? Usa tu canal de atención y no publiques referencias aquí."
+    ],
+    "heroChat": {
+      "question": "Hola, tenemos un almacén en Valencia y necesitamos transporte semanal a Madrid. ¿Hacéis esa ruta?",
+      "answer": "Hola, gracias por escribirnos. Pasa al equipo comercial el tipo de carga y la frecuencia. Revisan si encaja con nuestro servicio y te envían la propuesta."
+    }
   },
   {
     "id": 79,
     "slug": "informatica-soporte-tecnico",
-    "title": "Redes sociales para empresas de informática | Dania360",
-    "description": "Explica tu soporte informático y orienta contratación e incidencias por sus canales. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Que el servicio se entienda sin una lista de siglas",
-    "promise": "Presenta tu soporte informático con un mensaje que el cliente pueda reconocer.",
-    "lead": "Damos forma al contenido de tu empresa informática para explicar servicios, equipo y contacto. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para empresas de tecnología y redes sociales | Dania360",
+    "description": "Marketing para empresas de informática y tecnología: publicaciones, mensajes, reseñas, web y bot de IA. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para empresas IT",
+    "promise": "Un servicio informático que el cliente reconoce sin una lista de siglas.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu empresa de informática o soporte técnico. Explicamos tus servicios sin siglas y separamos la contratación de las incidencias de clientes.",
     "artAlt": "Monitor conceptual con tres pantallas editoriales sobre necesidad, alcance y contacto del servicio informático",
     "artCaption": "Ilustración editorial propia. No muestra sistemas, accesos ni incidencias de clientes.",
     "resourceTitle": "Carrusel para consultar soporte informático",
@@ -7871,27 +8118,43 @@
       ],
       [
         "¿Cómo evitáis mezclar contratación y soporte en el perfil?",
-        "Preparamos respuestas distintas según el motivo y los canales que confirme tu empresa. No se solicitan credenciales o datos de acceso en comentarios. Growth no incluye LinkedIn."
+        "Preparamos respuestas distintas según el motivo y los canales que confirme tu empresa. No se solicitan credenciales o datos de acceso en comentarios. LinkedIn no está incluido en Growth: forma parte de Scale, por 497 €/mes."
       ],
       [
-        "¿Qué incluye Growth para empresas de informática y soporte técnico por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para empresas de tecnología con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, gestión de LinkedIn en Growth ni integración con tu mesa de soporte. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de tecnología?",
+        "Traduce los servicios técnicos a la necesidad del cliente: qué puede contratar, cómo se trabaja y cómo se pide ayuda. Con Growth publicamos cada día, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA que orienta el contacto. Tu equipo valida la terminología y las capacidades que se mencionan."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de informática?",
+        "Con una ficha de Google que muestre la zona y los servicios, reseñas respondidas, publicaciones que expliquen el soporte con situaciones cotidianas de una pyme y una respuesta rápida que derive al técnico. No garantizamos contratos de mantenimiento: revisamos contigo qué consultas llegaron."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de soporte técnico?",
+        "Qué modalidades de servicio ofreces, preguntas que conviene hacer antes de contratar, presentaciones del equipo y recordatorios generales de buenas prácticas. Nunca capturas de sistemas de clientes, datos de acceso ni promesas de tiempos de resolución que no estén acordados."
       ]
     ],
     "name": "Empresas de informática y soporte técnico",
-    "h1": "Gestión de redes sociales para empresas de informática y soporte técnico",
+    "h1": "Marketing para empresas de informática y tecnología: soporte técnico que se entiende",
     "layout": "informatica-soporte-tecnico",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de informática y soporte técnico",
-        "redes sociales empresas informática",
-        "community manager soporte informático",
-        "marketing empresas IT"
+        "marketing para empresas de tecnología",
+        "marketing para empresas tecnológicas",
+        "marketing para empresas de informática",
+        "marketing informática",
+        "marketing para empresas de software",
+        "agencia de marketing para empresas de tecnología",
+        "estrategias de marketing para empresas de tecnología",
+        "marketing para empresas de soporte técnico"
       ],
-      "intent": "Empresa de informática y soporte que quiere comunicar su alcance en lenguaje comprensible y distinguir contratación de una petición de ayuda del cliente existente.",
+      "intent": "Empresa de informática o soporte técnico que busca marketing para empresas de tecnología: quién le lleva redes, perfil de Google, reseñas y web para explicar su servicio a pymes y separar contratación de incidencias. La landing vende la gestión de Dania360; no presta soporte ni promete contratos.",
       "distinctFrom": "Carrusel de tres pantallas sobre qué consultar antes de contratar soporte, texto de publicación y respuesta de continuidad sin solicitar credenciales ni prometer resolución técnica por IA.",
       "sources": [
         {
@@ -7901,9 +8164,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para empresas de informática, para empresas IT, para servicios informáticos y para empresas de soporte técnico no tienen sugerencias; marketing para empresas de tecnología sí (estrategias, digital y agencia), igual que marketing para empresas tecnológicas y para empresas de software; marketing informática sugiere sobre todo formación. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para empresas de tecnología, literal al inicio del title, con informática y soporte técnico en el H1, la description y los H2. Se añaden FAQ de agencia, cómo conseguir clientes y qué publicar, y H2 de estrategias, qué publicar, marketing digital para empresas IT, captación y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Tres pantallas, texto de publicación y primera respuesta completos para diferenciar contratación y atención de un cliente existente.",
@@ -7943,16 +8212,25 @@
       "",
       "Gracias por avisar. Si eres cliente, utiliza la vía de soporte que tienes acordada para que el equipo pueda revisar tu petición. Si quieres informarte sobre contratar el servicio, continúa por el contacto comercial del perfil. No publiques credenciales ni datos de tus equipos aquí. La valoración y los pasos de la intervención los confirma el responsable técnico.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Soporte puntual o mantenimiento mensual: qué incluye cada modalidad y cómo se contrata.",
+      "¿Tu oficina va a renovar ordenadores? Te contamos qué preguntar antes de pedir presupuesto.",
+      "Si ya eres cliente y tienes una incidencia, usa tu canal de soporte. Aquí no compartas contraseñas."
+    ],
+    "heroChat": {
+      "question": "Hola, somos una oficina con ocho ordenadores y queremos que alguien nos lleve el mantenimiento. ¿Cómo funciona?",
+      "answer": "Hola, gracias por escribirnos. Te llama un técnico para conocer vuestros equipos y lo que necesitáis, y te explica las modalidades y el precio."
+    }
   },
   {
     "id": 80,
     "slug": "imprentas-rotulacion",
-    "title": "Redes sociales para imprentas y rotulación | Dania360",
-    "description": "Muestra qué se puede pedir a tu imprenta o rotulista con contenido e imágenes propios. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La muestra necesita un uso, una explicación y una consulta",
-    "promise": "Convierte el material de tu taller en contenido que explique qué vendes.",
-    "lead": "Gestionamos contenido para presentar los productos de tu imprenta o empresa de rotulación y orientar las consultas. Growth reúne redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para imprentas y rotulación: redes sociales | Dania360",
+    "description": "Marketing para imprentas y rotulistas: publicaciones con tus muestras, mensajes, reseñas, web y bot de IA. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para imprentas y rotulistas",
+    "promise": "Muestras propias con uso, explicación y una consulta al taller.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu imprenta o empresa de rotulación. Damos contexto a tus muestras y llevamos cada petición de presupuesto a tu taller.",
     "artAlt": "Muestra conceptual sin marcas con una hoja de etiquetas y un rótulo geométrico para explicar aplicaciones distintas",
     "artCaption": "Composición original de muestras conceptuales. No representa un encargo ni una instalación realizada.",
     "resourceTitle": "Dos publicaciones para una etiqueta y un rótulo",
@@ -7970,24 +8248,39 @@
         "El bot orienta con información del negocio y del contacto. No se presupone un presupuestador, una revisión técnica automática de archivos o una integración con producción y pedidos."
       ],
       [
-        "¿Qué incluye Growth para imprentas y empresas de rotulación por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para imprentas con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, sesiones de fotografía presencial ni un presupuestador automático de impresión. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo promocionar una imprenta en redes sociales?",
+        "Enseñando muestras propias con su uso explicado, como una etiqueta en el producto, un vinilo en un escaparate o una lona en un evento, y diciendo qué necesita saber el taller para presupuestar. Con una ficha de Google completa y mensajes respondidos a tiempo, la petición llega a tu equipo con los datos básicos."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de rotulación?",
+        "Muestras de composición identificadas, el proceso desde el boceto hasta la colocación con material autorizado, materiales y sus usos y avisos de temporada que confirme el taller. Las medidas, permisos y condiciones de montaje se tratan en cada presupuesto, no en la publicación."
+      ],
+      [
+        "¿Hacéis publicidad para imprentas en Google o en Meta?",
+        "La cuota de Growth cubre la gestión orgánica: publicaciones, comentarios, mensajes, reseñas, perfil de Google, web y bot de IA. La inversión en anuncios no está incluida. Si más adelante quieres campañas, la auditoría ayuda a decidir si tiene sentido y con qué producto empezar."
       ]
     ],
     "name": "Imprentas y empresas de rotulación",
-    "h1": "Gestión de redes sociales para imprentas y empresas de rotulación",
+    "h1": "Marketing para imprentas y empresas de rotulación: muestras que explican qué pedir",
     "layout": "imprentas-rotulacion",
     "hubGroup": "servicios-empresas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para imprentas y empresas de rotulación",
-        "redes sociales imprentas",
-        "community manager rotulación",
-        "marketing imprentas rotulistas"
+        "marketing para imprentas",
+        "marketing imprenta",
+        "publicidad para imprentas",
+        "cómo promocionar una imprenta",
+        "redes sociales de imprentas",
+        "marketing para gráficas",
+        "marketing para empresas de rotulación"
       ],
-      "intent": "Imprenta o rotulista que necesita que su muestra visual explique uso, soporte y alcance de la petición sin limitarse a enseñar maquinaria o una imagen sin contexto.",
+      "intent": "Imprenta o empresa de rotulación que busca marketing para imprentas: quién le lleva redes, perfil de Google, reseñas y web para enseñar sus muestras con contexto y recibir peticiones de presupuesto. La landing vende la gestión de Dania360; no imprime ni promete pedidos.",
       "distinctFrom": "Dos composiciones de publicación para una muestra de etiqueta y una muestra de rótulo, con enfoques y llamadas a consulta diferentes. No representan encargos, marcas o resultados de clientes.",
       "sources": [
         {
@@ -7997,9 +8290,15 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas y contexto comercial contrastados cualitativamente, con límites de geografía y lectura registrados. Sin medición de volumen, dificultad, tendencia o puesto actual en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para imprentas tiene sugerencia propia (también desde marketing para imprenta y marketing imprenta); publicidad para imprentas, cómo promocionar una imprenta, redes sociales de imprentas y marketing para gráficas también sugieren; marketing para empresas de rotulación, para rotulistas y para artes gráficas no tienen sugerencias. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para imprentas, literal al inicio del title, el H1 y la description, con rotulación en el mismo title. Se añaden FAQ de cómo promocionar una imprenta, qué publicar en rotulación y publicidad, y H2 de estrategias, qué publicar, marketing digital, promoción y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para acompañar muestras propias de impresión y rotulación con un uso, contexto y llamada a consulta diferentes.",
@@ -8025,7 +8324,16 @@
       "",
       "Un rótulo se presenta mejor cuando sabemos qué mensaje debe comunicar y dónde se quiere utilizar. Este dibujo es una muestra de composición, no una instalación realizada. Si tu negocio quiere consultar un trabajo de rotulación, explica el tipo de aplicación y el espacio de forma general. Nuestro equipo revisará contigo la información, el material y el alcance que puede ofrecer. Las medidas, el montaje, los permisos que correspondan y las condiciones se confirman para cada trabajo; no se dan por incluidos desde una publicación.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Etiquetas para tu producto: cuéntanos dónde irán pegadas y te recomendamos papel y acabado.",
+      "Vinilo para el escaparate: así preparamos una muestra antes de rotular el local.",
+      "¿Tarjetas, flyers o lonas para un evento? Escríbenos cantidad y fecha y te pasamos presupuesto."
+    ],
+    "heroChat": {
+      "question": "Hola, abrimos una cafetería en enero y queremos rotular la fachada y hacer las cartas. ¿Hacéis las dos cosas?",
+      "answer": "Hola, enhorabuena por la apertura. Envíanos por privado fotos de la fachada y el logo. El taller revisa medidas y materiales y te prepara el presupuesto."
+    }
   },
   {
     "id": 81,
@@ -9735,11 +10043,11 @@
     "id": 100,
     "slug": "coworking",
     "hubGroup": "servicios-empresas",
-    "title": "Gestión de redes sociales para coworking | Dania360",
-    "description": "Explica los usos y las modalidades de tu coworking y orienta consultas de visita. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "Presenta el espacio desde la forma de utilizarlo",
-    "promise": "Diferencia trabajar en un puesto de consultar una sala para reunirse.",
-    "lead": "Preparamos contenido para explicar las modalidades de tu coworking y atender sus consultas. Growth reúne gestión de redes sociales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para coworking y gestión de redes sociales | Dania360",
+    "description": "Marketing para coworking: publicaciones de tus espacios, mensajes, reseñas, web y bot de IA para recibir visitas. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para espacios de coworking",
+    "promise": "Puestos y salas explicados por su uso, y visitas que llegan a tu equipo.",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu coworking. Explicamos los puestos, salas y servicios que confirmes, y llevamos cada petición de visita a tu equipo.",
     "artAlt": "Vista conceptual con un puesto individual y una mesa de reunión separada, sin local real o disponibilidad",
     "artCaption": "Esquema original de usos de un espacio. No representa un coworking real, puestos libres o una reserva.",
     "resourceTitle": "Dos publicaciones para un puesto y una sala de reunión",
@@ -9757,23 +10065,38 @@
         "Orienta con los datos configurados y dirige al equipo. El operador confirma visitas, disponibilidad y condiciones. No se presupone conexión con programas de reservas, contratación o control de accesos."
       ],
       [
-        "¿Qué incluye Growth para espacios de coworking por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para coworking con Dania360?",
+        "Una cuota fija, sin permanencia. Growth cuesta 297 €/mes: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, organización de eventos ni conexión con programas de reservas o control de accesos. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo promocionar un coworking en redes sociales?",
+        "Explicando cada modalidad por su uso, como el puesto flexible, el fijo o la sala de reuniones, mostrando el espacio con imágenes autorizadas y proponiendo una visita en cada publicación. Una ficha de Google con fotos y reseñas respondidas ayuda a quien busca coworking en su zona."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para coworking?",
+        "Se encarga de que el espacio se entienda y se pueda visitar: publica cada día, responde comentarios, mensajes y reseñas, mantiene el perfil de Google y una web con bot de IA que orienta sobre modalidades y visitas. El operador confirma disponibilidad, precios y condiciones."
+      ],
+      [
+        "¿Qué publicar en las redes de un coworking?",
+        "Las modalidades de uso con su información confirmada, salas y servicios incluidos, el día a día del espacio con autorización de quien aparece, actividades confirmadas y cómo pedir una visita. Nada de plazas libres por suposición ni de empresas usuarias presentadas sin su permiso."
       ]
     ],
     "name": "Espacios de coworking",
-    "h1": "Gestión de redes sociales para coworking",
+    "h1": "Marketing para coworking: redes sociales que explican cada forma de usar tu espacio",
     "layout": "coworking",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-03",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para coworking",
-        "redes sociales espacios coworking",
-        "community manager coworking",
-        "marketing espacios coworking"
+        "marketing para coworking",
+        "marketing coworking",
+        "coworking marketing digital",
+        "cómo promocionar un coworking",
+        "publicidad coworking",
+        "marketing para espacios de coworking",
+        "redes sociales coworking"
       ],
-      "intent": "Operador que quiere explicar modalidades de uso y atender una visita o una consulta sobre un espacio sin anunciar plazas ficticias.",
+      "intent": "Operador de un coworking que busca marketing para coworking: quién le lleva redes, perfil de Google, reseñas y web para explicar sus modalidades y recibir visitas. La landing vende la gestión de Dania360; no anuncia plazas ficticias ni promete ocupación.",
       "distinctFrom": "Dos publicaciones completas para un puesto de trabajo y una sala de reunión, con confirmación de condiciones por el operador. Se presenta el uso de un espacio de trabajo, no una oferta inmobiliaria ni la promesa de crear una comunidad o celebrar eventos incluidos en Growth.",
       "sources": [
         {
@@ -9783,9 +10106,15 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de oferta y necesidades por sector. Sin volumen, dificultad, tendencia o puesto verificados en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para coworking tiene sugerencia propia (también desde marketing para coworkings); marketing coworking sugiere variantes, en parte en inglés; cómo promocionar un coworking y publicidad coworking también sugieren; marketing para espacios de coworking, redes sociales coworking y cómo atraer clientes a un coworking no tienen sugerencias. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json, autocompletado-servicios-empresas.json y autocompletado-servicios-empresas-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda3.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para coworking, literal al inicio del title, el H1 y la description. Se añaden FAQ de cómo promocionar un coworking, agencia y qué publicar, y H2 de estrategias, qué publicar, marketing digital, promoción y agencia con precio."
+      }
     },
     "resourcePresentation": {
       "description": "Textos completos para presentar modalidades de uso y situar las condiciones que confirma el operador.",
@@ -9811,6 +10140,15 @@
       "",
       "Una reunión necesita una información distinta de la de un puesto de trabajo. Antes de consultar, interesa saber para qué uso se presenta la sala y cómo hablar con el espacio. Este ejemplo no ofrece una sala concreta ni confirma una fecha. En una publicación real, el operador revisa las características que pueden comunicarse y qué está incluido en esa modalidad. Si necesitas valorar una reunión, indica su uso general, el número previsto de asistentes y el momento que estás considerando. El equipo revisará contigo las opciones, las condiciones y la forma de continuar; una consulta no equivale a una reserva.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Un día en el espacio: puesto fijo, puesto flexible y dónde preguntar por las condiciones.",
+      "¿Necesitas una sala para reunirte con clientes? Cuéntanos fecha y asistentes y te respondemos.",
+      "¿Quieres conocer el coworking antes de decidir? Escríbenos y te proponemos una visita."
+    ],
+    "heroChat": {
+      "question": "Hola, trabajo en remoto y busco un puesto tres días a la semana. ¿Puedo pasar a ver el espacio?",
+      "answer": "Hola, claro. Dinos qué días te vienen bien y el equipo te confirma la visita y te explica las modalidades y su precio."
+    }
   }
 ]
