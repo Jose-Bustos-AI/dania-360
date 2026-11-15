@@ -4360,9 +4360,9 @@
     "slug": "cafeterias",
     "name": "Cafeterías",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para cafeterías",
+    "h1": "Marketing para cafeterías: redes sociales que llevan de la taza a la visita",
     "layout": "cafeterias",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PIEZA DE CAFETERÍA EN TRES ESCENAS",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4396,14 +4396,19 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para cafeterías",
-        "community manager cafeterías",
-        "redes sociales cafetería",
-        "marketing cafeterías"
+        "marketing para cafeterías",
+        "estrategias de marketing para cafeterías",
+        "ideas de marketing para cafetería",
+        "marketing digital para cafeterías",
+        "agencia de marketing para cafeterías",
+        "cómo atraer clientes a una cafetería",
+        "cómo promocionar una cafetería",
+        "community manager cafetería",
+        "cafetería redes sociales"
       ],
-      "intent": "Cafetería que quiere presentar su producto, el momento de servicio y la experiencia del local sin mezclarlo con reservas de restaurante.",
+      "intent": "Dueño o gerente de una cafetería que busca marketing para atraer clientes del entorno y valora delegar redes, perfil de Google y reseñas en una agencia o un community manager; no el cliente que busca dónde tomar café.",
       "distinctFrom": "Una bebida se entiende en su contexto de servicio: qué se presenta, cómo forma parte de la visita y dónde puede consultarse la oferta vigente.",
       "sources": [
         {
@@ -4413,15 +4418,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para cafeterías, estrategias e ideas de marketing para cafetería, marketing digital para cafeterías, agencia de marketing para cafeterías, cómo atraer clientes a una cafetería, cómo promocionar una cafetería y community manager cafetería; redes sociales para cafeterías solo aparece como cafetería redes sociales. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para cafeterías, la variante con más sugerencias relacionadas, literal al inicio del title, el H1 y la description. Los H2 cubren estrategias, ideas, cómo atraer clientes, marketing digital y agencia, sin perder la secuencia de producto, servicio y espacio."
+      }
     },
-    "title": "Gestión de redes sociales para cafeterías | Dania360",
-    "description": "Presenta el producto, el servicio y el espacio de tu cafetería con contenido propio. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La bebida, el servicio y el momento de visita",
-    "lead": "Preparamos contenido para mostrar la oferta y el servicio de tu cafetería con información de tu equipo. Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Relaciona el producto con el servicio y el espacio de tu cafetería.",
+    "title": "Marketing para cafeterías y redes sociales | Dania360",
+    "description": "Marketing para cafeterías: publicaciones de tu carta y tu local, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia y auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para cafeterías",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu cafetería. Presentamos tu oferta, tu servicio y tu espacio con información del equipo para que quien pasa cerca sepa por qué entrar.",
+    "promise": "Que tu cafetería se reconozca antes de cruzar la puerta.",
     "artAlt": "Taza conceptual junto a dos anotaciones de contenido sobre servicio y espacio de una cafetería",
     "artCaption": "Ilustración editorial original. No representa una bebida, receta o cafetería cliente.",
     "resourceTitle": "Una pieza de cafetería en tres escenas",
@@ -4435,23 +4446,44 @@
         "Trabajamos con material autorizado e información del equipo. La fotografía o grabación presencial no se presupone incluida en Growth. La secuencia de esta página es una propuesta editorial, no un vídeo producido."
       ],
       [
-        "¿Quién confirma ingredientes y modalidades de servicio?",
-        "La cafetería valida la información de producto, disponibilidad y forma de servir. Las consultas se dirigen al equipo para responder con su información vigente."
+        "¿Quién confirma ingredientes, alérgenos y modalidades de servicio?",
+        "La cafetería valida la información de producto, alérgenos, disponibilidad y forma de servir. Las consultas se dirigen al equipo para responder con su información vigente."
       ],
       [
-        "¿Qué incluye Growth para una cafetería por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para cafeterías?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Es una cuota fija, sin pagar por visita ni por cliente. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para cafeterías?",
+        "Se ocupa de que tu cafetería se vea bien donde la buscan: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día tu oferta, tu equipo y tu espacio, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No incluye campañas de anuncios ni sesiones de fotos en el local."
+      ],
+      [
+        "¿Cómo atraer clientes a una cafetería con redes sociales?",
+        "Mostrando lo que la diferencia en cada franja del día, manteniendo al día horario y ubicación en Google y respondiendo a las reseñas. Las ofertas puntuales atraen visitas sueltas; lo que hace volver es saber qué se va a encontrar. No garantizamos un número de clientes: revisamos contigo cada mes qué piezas generaron consultas."
+      ],
+      [
+        "¿Qué ideas de marketing para cafeterías funcionan en Instagram y TikTok?",
+        "Vídeos cortos de cómo se prepara una bebida, novedades de la vitrina, la persona que está detrás de la barra, el ambiente a distintas horas y respuestas a preguntas frecuentes. Siempre con productos y datos que confirme el local."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Así preparamos un flat white en barra: la leche, la temperatura y la taza en la que lo servimos.",
+      "Desayunos entre semana: te contamos qué incluye cada opción y hasta qué hora los servimos.",
+      "Nuevo en la vitrina esta semana: bizcocho de la casa. Pregunta en barra por sus alérgenos."
+    ],
+    "heroChat": {
+      "question": "Hola, ¿tenéis bebida vegetal y algún sitio tranquilo para trabajar con el portátil por la mañana?",
+      "answer": "Hola, gracias por escribir. Tenemos bebida de avena y mesas con enchufe al fondo. Si venís varios, dinos la hora y el equipo te confirma si hay sitio."
+    }
   },
   {
     "id": 52,
     "slug": "panaderias",
     "name": "Panaderías",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para panaderías",
+    "h1": "Marketing para panaderías: el obrador y el mostrador en redes sociales",
     "layout": "panaderias",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "FICHA EDITORIAL DE UNA PIEZA DE PAN Y RESPUESTA DE DISPONIBILIDAD",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4489,14 +4521,18 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para panaderías",
-        "community manager panadería",
-        "contenido redes panaderías",
-        "marketing panaderías"
+        "marketing para panaderías",
+        "marketing panadería",
+        "ideas de marketing para panadería",
+        "cómo atraer clientes a una panadería",
+        "cómo promocionar una panadería",
+        "redes sociales panadería",
+        "plan de marketing panadería",
+        "community manager panadería"
       ],
-      "intent": "Panadería que quiere mostrar sus piezas y el trabajo del obrador y orientar consultas sobre producto o encargos que confirme el negocio.",
+      "intent": "Panadería con obrador o despacho de pan que busca marketing para atraer clientes del barrio y ordenar encargos, y valora delegar redes y perfil de Google; no el consumidor que busca pan.",
       "distinctFrom": "Relacionar una pieza reconocible con el detalle del obrador que el panadero pueda explicar. Separar contenido de elaboración y disponibilidad en mostrador.",
       "sources": [
         {
@@ -4512,7 +4548,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para panaderías, marketing para panadería, ideas de marketing para panadería, plan de marketing panadería, cómo atraer clientes a una panadería, cómo promocionar una panadería y redes sociales panadería; sin sugerencias para marketing digital para panaderías ni agencia. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "sourceRecheckAttempts": [
@@ -4522,13 +4558,19 @@
           "result": "direct_open_timeout_again",
           "consequence": "Conservar como lectura parcial; no atribuir contenido completo o demanda española al resultado."
         }
-      ]
+      ],
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para panaderías, literal al inicio del title, el H1 y la description. Se añaden cómo atraer clientes y cómo promocionar una panadería en un bloque propio de obrador, mostrador, encargos y barrio, y se mantiene la ficha de pieza y disponibilidad."
+      }
     },
-    "title": "Gestión de redes sociales para panaderías | Dania360",
-    "description": "Da a conocer tus piezas y el trabajo del obrador con material e información de la panadería. Gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La pieza que se ve y el trabajo que puede explicar el panadero",
-    "lead": "Gestionamos las redes de tu panadería con contenido sobre sus productos y el trabajo del equipo. Growth reúne publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Muestra una pieza reconocible y el detalle que tu panadería puede contar.",
+    "title": "Marketing para panaderías y redes sociales | Dania360",
+    "description": "Marketing para panaderías: publicaciones del obrador y del mostrador, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para panaderías",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu panadería. Contamos el trabajo del obrador y lo que hay en el mostrador con información del panadero, y ordenamos las consultas de encargos.",
+    "promise": "El pan se vende de cerca: que el barrio sepa qué sale de tu horno.",
     "artAlt": "Pan abstracto junto a un corte y una nota editorial para presentar la pieza y su explicación",
     "artCaption": "Dibujo editorial original. No acredita ingredientes, elaboración, disponibilidad o producto de una panadería cliente.",
     "resourceTitle": "Ficha editorial de una pieza de pan y respuesta de disponibilidad",
@@ -4546,19 +4588,40 @@
         "El chat orienta con la información configurada. Growth no presupone integración con pedidos, inventario o el sistema de venta del negocio. El equipo confirma cada petición por su canal."
       ],
       [
-        "¿Qué recibe una panadería con Growth por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para panaderías?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Tu parte se limita a enviar material del obrador y confirmar los datos de producto. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para panaderías?",
+        "Convierte el trabajo diario del obrador en publicaciones constantes y atiende lo que llega por redes y Google. Con Growth publicamos cada día, respondemos comentarios, mensajes y reseñas, mantenemos el perfil de Google con horario y ubicación y una web con bot de IA. Precios, alérgenos y encargos los decide siempre la panadería."
+      ],
+      [
+        "¿Cómo atraer clientes a una panadería?",
+        "Haciendo visible lo que la distingue: el obrador propio, las piezas del día y cómo encargar con tiempo. Ayuda tener el perfil de Google completo, responder reseñas y publicar las hornadas o novedades que el equipo confirme. No garantizamos ventas: revisamos contigo qué contenidos generaron consultas y visitas."
+      ],
+      [
+        "¿Cómo promocionar una panadería en redes sociales sin tiempo para grabar?",
+        "Con vídeos cortos hechos con el móvil durante el trabajo: el amasado, la salida del horno o el mostrador recién montado. Nos los envías y nosotros escribimos, editamos y publicamos. No hace falta una sesión profesional para empezar."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Masa madre, harina y horas de fermentación: lo que hay detrás de nuestra hogaza de cada día.",
+      "Encargos para el fin de semana: escríbenos antes del jueves y te lo dejamos apartado.",
+      "A mediodía sale la segunda hornada de barras. ¿Te guardamos una para la comida?"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿hacéis pan sin gluten o algo apto para celíacos?",
+      "answer": "Hola, gracias por preguntar. Tenemos algunas piezas sin gluten por encargo; el equipo te explica cómo se elaboran y qué garantías puede darte. ¿Para qué día lo necesitas?"
+    }
   },
   {
     "id": 53,
     "slug": "pastelerias",
     "name": "Pastelerías y obradores",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para pastelerías",
+    "h1": "Marketing para pastelerías y obradores: del escaparate al encargo",
     "layout": "pastelerias",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PUBLICACIÓN DE PASTELERÍA Y SU PRIMERA CONSULTA DE ENCARGO",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4596,14 +4659,17 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para pastelerías",
-        "redes sociales obrador pastelería",
-        "community manager pastelería",
-        "marketing pastelerías"
+        "marketing para pastelerías",
+        "marketing pastelería",
+        "marketing digital pastelería",
+        "plan de marketing pastelería",
+        "cómo promocionar una pastelería",
+        "redes sociales pastelería",
+        "community manager pastelería"
       ],
-      "intent": "Pastelería u obrador que quiere presentar su trabajo y convertir una imagen en una consulta de encargo que pueda estudiar el equipo.",
+      "intent": "Pastelería u obrador que busca marketing para vender en escaparate y conseguir encargos de celebraciones, y valora delegar redes y atención; no el consumidor que busca una tarta.",
       "distinctFrom": "La persona ve un acabado y necesita preguntar por un encargo propio. Identificar formato, ocasión y consulta sin presentar la imagen como disponibilidad o presupuesto.",
       "sources": [
         {
@@ -4613,15 +4679,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para pastelerías, marketing pastelería, marketing digital pastelería, plan de marketing pastelería, cómo promocionar una pastelería y redes sociales pastelería; sin sugerencias para agencia ni para cómo atraer clientes a una pastelería. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para pastelerías, literal al inicio del title, el H1 y la description. Se añade un calendario de fechas señaladas como bloque de marketing digital y se mantiene el ejemplo de publicación y primera respuesta de encargo."
+      }
     },
-    "title": "Gestión de redes sociales para pastelerías | Dania360",
-    "description": "Presenta el trabajo de tu obrador y orienta las consultas de encargo con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Una imagen que permite empezar a explicar el encargo",
-    "lead": "Preparamos contenido para presentar tu pastelería y situar las peticiones que llegan al obrador. Por 297 €/mes, Growth incluye gestión de redes, atención en los canales del plan, web y bot de IA.",
-    "promise": "Conecta el trabajo que muestras con una consulta que el obrador pueda estudiar.",
+    "title": "Marketing para pastelerías y redes sociales | Dania360",
+    "description": "Marketing para pastelerías: publicaciones del obrador, mensajes de encargos, reseñas, web y bot de IA por 297 €/mes. Sin permanencia y auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para pastelerías",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu pastelería. Presentamos el trabajo del obrador, nos adelantamos a las fechas señaladas y recogemos los datos de cada consulta de encargo.",
+    "promise": "Que el encargo llegue con la ocasión, la fecha y las raciones claras.",
     "artAlt": "Caja de pastelería conceptual con una ficha de ocasión, formato y fecha a estudiar",
     "artCaption": "Composición editorial original. No representa un diseño, una celebración o un encargo real.",
     "resourceTitle": "Una publicación de pastelería y su primera consulta de encargo",
@@ -4631,27 +4703,44 @@
         "Sí, con los productos y servicios que confirme el obrador. La publicación puede mostrar el trabajo y explicar cómo empezar una consulta. El equipo estudia la petición y confirma sus posibilidades."
       ],
       [
-        "¿Quién confirma el diseño, la fecha y el precio de un encargo?",
-        "El obrador revisa la información y confirma los detalles y condiciones. Atender un primer mensaje en redes no equivale a aceptar un encargo ni a fijar su presupuesto."
+        "¿Quién confirma el diseño, la fecha, los alérgenos y el precio de un encargo?",
+        "El obrador revisa la información y confirma los detalles, los alérgenos y las condiciones. Atender un primer mensaje en redes no equivale a aceptar un encargo ni a fijar su presupuesto."
       ],
       [
         "¿Hace falta publicar fotografías de las celebraciones?",
         "Se puede presentar producto y trabajo del equipo con material autorizado. Los nombres o fotos personales de una celebración necesitan autorización específica para su uso; los ejemplos de esta página no representan clientes."
       ],
       [
-        "¿Por 297 €/mes se incluyen redes, web y bot para la pastelería?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para pastelerías?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Incluye la atención de las consultas de encargo en los canales del plan. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para pastelerías?",
+        "Planifica el contenido del obrador con antelación a las fechas con más encargos, publica cada día y atiende las consultas recogiendo ocasión, fecha, raciones y alergias antes de pasarlas al equipo. Con Growth también gestionamos reseñas, el perfil de Google y una web con bot de IA. No incluye anuncios ni sesiones de fotos presenciales."
+      ],
+      [
+        "¿Cómo conseguir más encargos en una pastelería con redes sociales?",
+        "Publicando lo que se puede encargar antes de que llegue la fecha, recordando el plazo límite y respondiendo rápido con preguntas concretas. Un perfil con trabajos recientes y reseñas respondidas da confianza a quien compara. No garantizamos un número de encargos: medimos contigo qué consultas encajaban."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Tartas de cumpleaños por encargo: cuéntanos la ocasión, las raciones y la fecha que necesitas.",
+      "Así montamos una tarta de tres pisos en el obrador, de la base a la decoración final.",
+      "Esta semana en el escaparate: milhojas, palmeras de chocolate y tarta de queso."
+    ],
+    "heroChat": {
+      "question": "Hola, quiero una tarta para unas 20 personas el sábado que viene. ¿Llego a tiempo?",
+      "answer": "Hola, gracias por escribir. Dinos el sabor que te interesa y si hay alguna alergia. El obrador revisa la agenda de encargos y te confirma hoy si puede prepararla y su precio."
+    }
   },
   {
     "id": 54,
     "slug": "heladerias",
     "name": "Heladerías",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para heladerías",
+    "h1": "Marketing para heladerías: tu vitrina y tu temporada en redes sociales",
     "layout": "heladerias",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PRESENTACIÓN DE HELADERÍA Y UNA RESPUESTA SOBRE LA OFERTA VIGENTE",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4689,14 +4778,16 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para heladerías",
-        "community manager heladería",
-        "contenido redes heladerías",
-        "marketing heladerías"
+        "marketing para heladerías",
+        "marketing helados",
+        "cómo promocionar una heladería",
+        "ideas de marketing para heladería",
+        "redes sociales heladería",
+        "community manager heladería"
       ],
-      "intent": "Heladería que quiere mostrar su producto y explicar cómo consultar la oferta que el equipo tenga vigente.",
+      "intent": "Heladería artesana o de temporada que busca marketing para atraer clientes en verano y mantener la marca el resto del año, y valora delegar redes y perfil de Google.",
       "distinctFrom": "Distinguir una presentación de sabor o formato de la disponibilidad que puede consultar el visitante. La imagen no es una carta sincronizada.",
       "sources": [
         {
@@ -4706,15 +4797,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para heladerías, marketing helados y cómo promocionar una heladería; sin sugerencias para redes sociales heladería ni para ideas de marketing para heladería. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para heladerías, literal al inicio del title, el H1 y la description. Se añade un bloque de temporada alta y resto del año como estrategia propia del sector y se mantiene la presentación de producto y la respuesta sobre la oferta vigente."
+      }
     },
-    "title": "Gestión de redes sociales para heladerías | Dania360",
-    "description": "Presenta los productos y formatos de tu heladería y orienta las consultas al equipo. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El producto que presentas y la oferta que confirma tu equipo",
-    "lead": "Desarrollamos contenido para mostrar lo que ofrece tu heladería con imágenes y datos del negocio. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Identifica el producto de la pieza y facilita la consulta sobre tu oferta.",
+    "title": "Marketing para heladerías y redes sociales | Dania360",
+    "description": "Marketing para heladerías: publicaciones de tus sabores y tu temporada, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para heladerías",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu heladería. Presentamos tus productos con datos del equipo y adaptamos el ritmo a la temporada, de la vitrina llena a los meses tranquilos.",
+    "promise": "Que te encuentren en verano y no te olviden el resto del año.",
     "artAlt": "Helado conceptual con dos notas editoriales que distinguen presentación y consulta de la oferta",
     "artCaption": "Ilustración original. No anuncia sabores, ingredientes, formatos o existencias de una heladería real.",
     "resourceTitle": "Una presentación de heladería y una respuesta sobre la oferta vigente",
@@ -4724,27 +4821,44 @@
         "La heladería identifica el producto o formato y valida su explicación. Preparamos el contenido con material autorizado y una información que corresponda a lo que aparece."
       ],
       [
-        "¿Quién responde las dudas sobre ingredientes y características?",
-        "El negocio confirma la información del producto. La atención de redes identifica el motivo de consulta y lo dirige al equipo; no se deducen ingredientes o características de un color o una textura."
+        "¿Quién responde las dudas sobre ingredientes, alérgenos y características?",
+        "El negocio confirma la información del producto y de alérgenos. La atención de redes identifica el motivo de consulta y lo dirige al equipo; no se deducen ingredientes o características de un color o una textura."
       ],
       [
         "¿La publicación o el bot confirman la disponibilidad de sabores?",
         "El equipo de la heladería confirma su oferta vigente. El bot orienta con la información configurada; Growth no presupone una carta o un inventario sincronizados."
       ],
       [
-        "¿Qué incluye Growth para una heladería por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para heladerías?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Al ser mensual y sin permanencia, se adapta a los meses de apertura de tu heladería. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para heladerías?",
+        "Planifica la comunicación según la temporada: más ritmo cuando la vitrina está llena y piezas para mantener la cuenta viva cuando baja la actividad. Con Growth publicamos cada día, respondemos comentarios, mensajes y reseñas, mantenemos el perfil de Google y una web con bot de IA. No incluye anuncios."
+      ],
+      [
+        "¿Cómo promocionar una heladería fuera de temporada?",
+        "Contando la reapertura, los formatos para llevar a casa, los encargos para celebraciones o el producto de invierno, si la heladería lo ofrece. Si el local cierra unos meses, se anuncia con claridad y se avisa de la vuelta para no perder a quien te sigue."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Sabor de la semana: pistacho. Así lo preparamos en el obrador antes de llevarlo a la vitrina.",
+      "Abrimos también por las noches: horario de verano y sabores que vuelven esta temporada.",
+      "Tarrinas para llevar de medio kilo y de un kilo. Pregunta por los sabores del día."
+    ],
+    "heroChat": {
+      "question": "Hola, ¿tenéis helados sin lactosa o sorbetes? Es para mi hija.",
+      "answer": "Hola, sí: los sorbetes de fruta se elaboran sin leche. En el mostrador te enseñamos la información de alérgenos de cada sabor y el equipo te orienta."
+    }
   },
   {
     "id": 55,
     "slug": "catering",
     "name": "Empresas de catering",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para empresas de catering",
+    "h1": "Marketing para catering: redes sociales que preparan la consulta del evento",
     "layout": "catering",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA CONSULTA DE CATERING CON OCASIÓN, LUGAR Y SERVICIO",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4782,14 +4896,17 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de catering",
+        "marketing para catering",
+        "marketing de catering",
+        "cómo promocionar un servicio de catering",
+        "marketing digital catering",
+        "estrategias de marketing para catering",
         "community manager catering",
-        "redes sociales catering eventos",
-        "marketing catering"
+        "agencia de marketing para catering"
       ],
-      "intent": "Empresa de catering que quiere explicar su servicio y recibir consultas sobre eventos con contexto comercial suficiente para su equipo.",
+      "intent": "Empresa de catering que busca marketing para conseguir eventos de particulares y empresas y valora delegar redes, perfil de Google y atención de consultas.",
       "distinctFrom": "El plato es una parte de un servicio para un evento. Presentar el alcance que presta la empresa y situar ocasión, lugar y formato antes de preparar una propuesta.",
       "sources": [
         {
@@ -4799,20 +4916,26 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para catering, marketing de catering y cómo promocionar un servicio de catering; marketing catering devuelve sobre todo sugerencias en inglés y no hay sugerencias para marketing para empresas de catering ni redes sociales catering. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "editorialRevision": {
         "dateMadrid": "2026-11-03",
         "change": "Enlace contextual para distinguir el servicio de catering de la presentación del recinto.",
         "newPage": false
+      },
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para catering, más corta y con sugerencia propia, literal al inicio del title, el H1 y la description. Se añade un bloque que separa particulares y empresas y se mantiene el ejemplo de consulta con ocasión, lugar y servicio."
       }
     },
-    "title": "Gestión de redes sociales para catering | Dania360",
-    "description": "Explica el servicio de tu catering y recibe consultas de eventos con contexto comercial. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El servicio gastronómico dentro del evento",
-    "lead": "Gestionamos las redes de tu catering para presentar su alcance y orientar las consultas de eventos. Growth incluye publicaciones, atención en los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Presenta el servicio y ayuda a situar la petición antes de una propuesta.",
+    "title": "Marketing para catering y redes sociales | Dania360",
+    "description": "Marketing para catering: publicaciones de tus servicios y eventos, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para empresas de catering",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu empresa de catering. Explicamos tu servicio a particulares y empresas y recogemos fecha, lugar e invitados antes de pasar cada consulta a tu equipo.",
+    "promise": "Que la primera consulta llegue con fecha, lugar e invitados.",
     "artAlt": "Bandeja y mesa conceptuales junto a una ficha editorial de ocasión, lugar y servicio de catering",
     "artCaption": "Dibujo editorial original. No representa un menú, un montaje o un evento de un cliente.",
     "resourceTitle": "Una consulta de catering con ocasión, lugar y servicio",
@@ -4822,27 +4945,44 @@
         "Sí. El contenido puede explicar una parte del alcance, al equipo o la forma de consultar un evento, con información que confirme el catering. Se identifica qué servicio se muestra."
       ],
       [
-        "¿Quién confirma los menús y las condiciones de un evento?",
-        "La empresa valida su oferta y estudia cada petición. El primer contacto permite situar el contexto; no confirma fecha, capacidad, menú o presupuesto."
+        "¿Quién confirma los menús, los alérgenos y las condiciones de un evento?",
+        "La empresa valida su oferta, la información de alérgenos y estudia cada petición. El primer contacto permite situar el contexto; no confirma fecha, capacidad, menú o presupuesto."
       ],
       [
         "¿Growth incluye grabación presencial de bodas o eventos?",
         "La producción presencial no se presupone incluida. Preparamos las piezas con material autorizado y datos del negocio. Las fotografías de asistentes o eventos privados necesitan la autorización correspondiente."
       ],
       [
-        "¿Growth incluye web y bot de IA para el catering por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para catering?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. La atención de los canales del plan recoge los datos del evento antes de pasarlos a tu equipo comercial. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para catering?",
+        "Mantiene la presencia constante de la empresa y ordena las consultas. Con Growth publicamos cada día montajes, equipo y producto con material autorizado, separamos el contenido para empresas y para celebraciones, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No incluye anuncios, portales de eventos ni grabación en servicios."
+      ],
+      [
+        "¿Cómo conseguir clientes para un catering con redes sociales?",
+        "Enseñando cómo es el servicio de verdad, dejando claro a qué tipo de eventos y zonas llegas y respondiendo pronto con las preguntas que necesita tu equipo para presupuestar. El perfil de Google y las reseñas respondidas pesan mucho cuando alguien compara. No garantizamos eventos: revisamos contigo qué consultas encajaban."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Cóctel de empresa: así organizamos el montaje, el servicio y la recogida en el espacio.",
+      "Menús para comuniones y bautizos: pide tu propuesta con la fecha, el lugar y los invitados.",
+      "Detrás de un buffet: quién cocina, quién monta y quién atiende a los invitados ese día."
+    ],
+    "heroChat": {
+      "question": "Hola, buscamos catering para una comida de empresa de unas 50 personas en junio. ¿Trabajáis en nuestra zona?",
+      "answer": "Hola, gracias por contactar. Dinos la fecha, el lugar y si buscáis cóctel o comida sentada. El equipo comercial revisa la disponibilidad y os envía una propuesta."
+    }
   },
   {
     "id": 56,
     "slug": "salones-bodas",
     "name": "Salones de bodas y celebraciones",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para salones de bodas",
+    "h1": "Marketing para salones de eventos y bodas: tu espacio, antes de la visita",
     "layout": "salones-bodas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "TRES ENCUADRES PARA PRESENTAR UN SALÓN ANTES DE LA VISITA",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4882,14 +5022,18 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para salones de bodas",
-        "redes sociales salones celebraciones",
-        "community manager salón bodas",
-        "marketing salones eventos"
+        "marketing para salones de eventos",
+        "marketing para salón de eventos",
+        "cómo promocionar un salón de eventos",
+        "marketing para bodas",
+        "marketing para eventos",
+        "marketing para salones de boda",
+        "marketing para fincas de bodas",
+        "redes sociales salón de eventos"
       ],
-      "intent": "Un salón que quiere presentar su espacio y facilitar que una pareja o una empresa plantee una visita o consulta de celebración.",
+      "intent": "Salón, finca o espacio de celebraciones que busca marketing para conseguir visitas de parejas y empresas y valora delegar redes, perfil de Google y atención de consultas.",
       "distinctFrom": "Explicar el espacio en relación con una celebración y preparar una conversación sobre su uso. El recinto y el servicio de catering son ofertas distintas.",
       "sources": [
         {
@@ -4899,15 +5043,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para salones de eventos, marketing para salón de eventos, cómo promocionar un salón de eventos, marketing para bodas y marketing para eventos; sin sugerencias para marketing para salones de boda, marketing para fincas de bodas, espacios de bodas ni salones de celebraciones. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para salones de eventos, la única variante del espacio con sugerencia, literal al inicio del title y del H1, que añade bodas para conservar el sector de la página. Se añade el recorrido descubrir, comparar y visitar y se mantienen los tres encuadres del ejemplo."
+      }
     },
-    "title": "Redes sociales para salones de bodas | Dania360",
-    "description": "Presenta los espacios de tu salón y facilita las consultas sobre visitas y celebraciones. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
-    "eyebrow": "Del espacio que se muestra a la conversación sobre una celebración",
-    "lead": "Preparamos contenido para dar a conocer tu salón y cómo consultar una visita con su equipo. Growth reúne gestión de redes, atención en los canales del plan, página web y bot de IA por 297 €/mes.",
-    "promise": "Ayuda a situar el espacio antes de plantear una visita o una celebración.",
+    "title": "Marketing para salones de eventos y redes sociales | Dania360",
+    "description": "Marketing para salones de eventos y bodas: publicaciones del espacio, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para salones y fincas de bodas",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu salón o finca. Presentamos los espacios con material autorizado y facilitamos que parejas y empresas pidan una visita con los datos necesarios.",
+    "promise": "Una boda se decide visitando el espacio: que pedir cita sea fácil.",
     "artAlt": "Recorrido editorial abstracto por un espacio de celebración con entrada, zona y detalle",
     "artCaption": "Esquema original. No es un plano ni acredita aforo, servicios o instalaciones de un salón real.",
     "resourceTitle": "Tres encuadres para presentar un salón antes de la visita",
@@ -4925,19 +5075,36 @@
         "El bot orienta con la información configurada. Growth no presupone una agenda sincronizada ni contratación automática del recinto. La confirmación corresponde al salón."
       ],
       [
-        "¿Qué incluye Growth para un salón de bodas por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para salones de eventos y bodas?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye cuotas de portales de bodas ni grabación de celebraciones. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para salones de bodas?",
+        "Cuida la cuenta propia del salón o la finca para que quien te descubre en un portal, una feria o una recomendación encuentre un perfil al día. Con Growth publicamos cada día los espacios y montajes con material autorizado, respondemos mensajes y reseñas, mantenemos el perfil de Google y una web con bot de IA que recoge los datos de la visita."
+      ],
+      [
+        "¿Cómo promocionar un salón de eventos o una finca de bodas?",
+        "Mostrando el espacio en distintos montajes y momentos del día, respondiendo con claridad qué incluye la propuesta y facilitando la visita. Las reseñas respondidas y un perfil de Google completo ayudan a quien compara opciones. No garantizamos reservas: revisamos contigo cuántas consultas acabaron en visita."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Así queda el salón principal montado para una boda: mesas, pista de baile y zona de cóctel.",
+      "Jornada de puertas abiertas para parejas: visita el espacio y resuelve tus dudas con el equipo.",
+      "Del aperitivo en el jardín a la cena en el salón: un recorrido por los espacios de la finca."
+    ],
+    "heroChat": {
+      "question": "Hola, nos casamos en septiembre del año que viene. ¿Tenéis fechas libres y podemos ir a verlo?",
+      "answer": "Hola, enhorabuena. Dinos el número aproximado de invitados y las fechas que barajáis. El equipo revisa la disponibilidad y os propone un día para la visita."
+    }
   },
   {
     "id": 57,
     "slug": "bodegas",
     "name": "Bodegas y productores de vino",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para bodegas",
+    "h1": "Marketing para bodegas: tus vinos y tu relato en redes sociales y en tu web",
     "layout": "bodegas",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA REFERENCIA DE BODEGA Y SU CONSULTA PROFESIONAL",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -4975,14 +5142,18 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para bodegas",
-        "redes sociales bodegas vino",
-        "community manager bodega",
-        "marketing bodegas"
+        "marketing para bodegas",
+        "marketing digital para bodegas",
+        "marketing del vino",
+        "marketing para vinos",
+        "bodegas redes sociales",
+        "marketing enoturismo",
+        "cómo promocionar una bodega",
+        "community manager bodega"
       ],
-      "intent": "Bodega que quiere explicar su marca y sus referencias a un público adulto o profesional con información confirmada del productor.",
+      "intent": "Bodega o productor de vino que busca marketing para dar a conocer su marca a consumidores adultos, hostelería y visitantes, y valora delegar redes y atención.",
       "distinctFrom": "Una referencia de vino se relaciona con la historia verificable que la bodega quiera contar y con su información comercial. Separar producto y visita si ofrece enoturismo.",
       "sources": [
         {
@@ -4992,20 +5163,26 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para bodegas, marketing digital para bodegas, bodegas redes sociales, marketing del vino, marketing para vinos y marketing enoturismo; sin sugerencias para community manager bodega. Marketing del vino mezcla sugerencias de cursos y libros. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "editorialRevision": {
         "dateMadrid": "2026-11-03",
         "change": "Corrección gramatical de nuestra área comercial en el ejemplo y el descargable.",
         "newPage": false
+      },
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para bodegas, literal al inicio del title, el H1 y la description, con marketing del vino en el eyebrow, un H2 y una FAQ. Se añade el año de la bodega como hilo del contenido y se refuerza la normativa de bebidas alcohólicas sin retirar lo que ya decía sobre salud y público adulto."
       }
     },
-    "title": "Gestión de redes sociales para bodegas | Dania360",
-    "description": "Presenta tu marca y tus referencias de vino con información confirmada de la bodega. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Una referencia reconocible y un relato verificable",
-    "lead": "Desarrollamos contenido de tu bodega con material autorizado e información revisada por el productor. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Relaciona cada referencia con la explicación que tu bodega puede confirmar.",
+    "title": "Marketing para bodegas y redes sociales | Dania360",
+    "description": "Marketing para bodegas: publicaciones de tus vinos y tu viñedo, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing del vino y redes sociales para bodegas",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu bodega. Contamos el año del viñedo y cada referencia con información del productor, para públicos adultos y profesionales, y respetando la normativa de bebidas alcohólicas.",
+    "promise": "Cada vino con la historia que tu bodega puede contar y demostrar.",
     "artAlt": "Botella conceptual junto a una nota editorial de referencia, relato y canal profesional",
     "artCaption": "Ilustración original. No acredita marca, añada, origen, premio o denominación de un vino real.",
     "resourceTitle": "Una referencia de bodega y su consulta profesional",
@@ -5020,22 +5197,39 @@
       ],
       [
         "¿A qué público se orienta la comunicación de la bodega?",
-        "El contenido se plantea para públicos adultos o profesionales, con material e información revisados por el negocio. Las consultas comerciales se continúan con el equipo de la bodega."
+        "El contenido se plantea para públicos adultos o profesionales, con material e información revisados por el negocio, sin asociar el consumo con la salud, el rendimiento o el éxito social y respetando la normativa y los códigos de autorregulación de la publicidad de bebidas alcohólicas. Las consultas comerciales se continúan con el equipo de la bodega."
       ],
       [
-        "¿Qué recibe la bodega con Growth por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para bodegas?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. La inversión publicitaria no está incluida y, en bebidas alcohólicas, cada plataforma aplica sus propias restricciones. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para bodegas?",
+        "Se encarga de la comunicación diaria de la bodega: publicaciones sobre viñedo, elaboración y referencias, atención a consumidores, restaurantes, tiendas y visitantes, reseñas y perfil de Google, y una web con bot de IA. Growth no incluye diseño de etiquetas, distribución, ferias ni tienda online conectada."
+      ],
+      [
+        "¿Qué es el marketing del vino y cómo se aplica en redes sociales?",
+        "Es la forma de presentar una bodega y sus vinos a cada público: consumidor adulto, profesional de la hostelería y visitante. En redes se traduce en contar el calendario del viñedo y la bodega, presentar cada referencia con datos verificables y ofrecer un canal claro para comprar, pedir condiciones o reservar una visita."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Vendimia en la parcela de arriba: así seleccionamos la uva antes de que entre en bodega.",
+      "Visita guiada y cata los sábados por la mañana. Reserva por mensaje y te confirmamos plaza.",
+      "Nuestro crianza, explicado por quien lo elabora: barrica, tiempo y el porqué de cada decisión."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo un restaurante y me interesa vuestro blanco para la carta. ¿Cómo trabajáis con hostelería?",
+      "answer": "Hola, gracias por escribir. Dinos tu zona y qué referencias te interesan. El equipo comercial te envía la ficha técnica y las condiciones para hostelería."
+    }
   },
   {
     "id": 58,
     "slug": "cerveceras-artesanales",
     "name": "Cerveceras artesanales",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para cerveceras artesanales",
+    "h1": "Marketing para cerveza artesanal: redes sociales para tu cervecera",
     "layout": "cerveceras-artesanales",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PUBLICACIÓN DE FORMATO Y DOS RESPUESTAS DE LA CERVECERA",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -5065,14 +5259,17 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para cerveceras artesanales",
-        "redes sociales marca cerveza artesanal",
-        "community manager cervecera",
-        "marketing cerveceras"
+        "marketing cerveza artesanal",
+        "marketing para cerveza artesanal",
+        "cómo vender cerveza artesanal",
+        "marketing para cervecerías artesanales",
+        "marketing cervecera",
+        "redes sociales cerveza artesanal",
+        "community manager cervecera"
       ],
-      "intent": "Productor de cerveza artesanal que quiere comunicar su marca y orientar consultas de hostelería o distribución con sus formatos confirmados.",
+      "intent": "Cervecera artesanal o microcervecería que busca marketing para dar a conocer su marca y entrar en bares y tiendas, y valora delegar redes y atención.",
       "distinctFrom": "Presentar un formato del catálogo y separar una pregunta de disponibilidad de una petición profesional para un establecimiento. No repetir el relato de bodega cambiando la bebida.",
       "sources": [
         {
@@ -5082,15 +5279,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing cerveza artesanal, marketing para cerveza artesanal y cómo vender cerveza artesanal; sin sugerencias para marketing para cervecerías artesanales, marketing cervecera ni redes sociales cerveza artesanal. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para cerveza artesanal, la variante con sugerencia, literal al inicio del title, el H1 y la description. Se añade cómo vender cerveza artesanal a hostelería y tiendas y se refuerza la normativa de bebidas alcohólicas sin retirar lo que ya decía sobre salud y público adulto."
+      }
     },
-    "title": "Redes sociales para cerveceras artesanales | Dania360",
-    "description": "Presenta los formatos de tu marca y orienta las consultas de producto o de hostelería. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La referencia, el formato y el contacto profesional",
-    "lead": "Preparamos contenido de tu cervecera para dar a conocer su catálogo confirmado y atender consultas de producto o profesionales. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "promise": "Explica el formato que presentas y cómo consultar con el equipo de la marca.",
+    "title": "Marketing para cerveza artesanal y redes sociales | Dania360",
+    "description": "Marketing para cerveza artesanal: publicaciones de tu cervecera, mensajes de bares, reseñas, web y bot de IA por 297 €/mes. Sin permanencia y auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para cerveceras artesanales",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu cervecera. Presentamos tu catálogo a públicos adultos y profesionales y separamos las preguntas del consumidor de los contactos de bares y tiendas.",
+    "promise": "Que el bar que te descubre sepa qué haces, en qué formato y con quién hablar.",
     "artAlt": "Envase y barril conceptuales junto a una tarjeta de consulta profesional de una cervecera",
     "artCaption": "Dibujo editorial original. No representa una marca, una receta, un formato disponible o una certificación.",
     "resourceTitle": "Una publicación de formato y dos respuestas de la cervecera",
@@ -5105,22 +5308,39 @@
       ],
       [
         "¿Qué criterio sigue la presentación de la marca?",
-        "Trabajamos con material autorizado y datos revisados, para públicos adultos o profesionales. No se inventan ingredientes, graduación, sellos o beneficios saludables a partir del envase."
+        "Trabajamos con material autorizado y datos revisados, para públicos adultos o profesionales. No se inventan ingredientes, graduación, sellos o beneficios saludables a partir del envase, ni se asocia el consumo con el rendimiento o el éxito social. Se respetan la normativa y los códigos de autorregulación de la publicidad de bebidas alcohólicas."
       ],
       [
-        "¿Por 297 €/mes se incluyen redes, web y bot para la cervecera?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para cerveza artesanal?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Los anuncios no están incluidos y, en bebidas alcohólicas, tienen restricciones propias en cada plataforma. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para cerveceras artesanales?",
+        "Mantiene activa la cuenta mientras el equipo elabora, embotella y reparte. Con Growth publicamos cada día el catálogo, los lotes y el trabajo de la fábrica, atendemos a consumidores, bares y tiendas por su canal, respondemos reseñas, gestionamos el perfil de Google y una web con bot de IA."
+      ],
+      [
+        "¿Cómo vender cerveza artesanal a bares y tiendas con redes sociales?",
+        "Dejando claro qué estilos y formatos ofreces, dónde se puede probar tu cerveza y con quién hablar para pedir condiciones. Muchos compradores miran el perfil de la marca antes de responder a una visita comercial. No garantizamos puntos de venta: revisamos contigo qué contactos profesionales encajaban."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Nueva tirada de nuestra IPA: lúpulos, amargor y por qué esta vez la hicimos más seca.",
+      "Visita a la fábrica y cata los viernes por la tarde. Solo para mayores de 18 años.",
+      "Barril de 20 litros y botella de 33 cl: formatos para bares y restaurantes. Escríbenos."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo un bar y me gustaría poner vuestra cerveza de grifo. ¿Servís barril?",
+      "answer": "Hola, gracias por contactar. Dinos tu zona y qué referencias te interesan. El equipo comercial te explica formatos, tirador y condiciones para hostelería."
+    }
   },
   {
     "id": 59,
     "slug": "almazaras",
     "name": "Almazaras y marcas de aceite de oliva",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para almazaras",
+    "h1": "Marketing de aceite de oliva para almazaras y marcas en redes sociales",
     "layout": "almazaras",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PIEZA QUE CONECTA ENVASE, DATO Y TRABAJO DE LA ALMAZARA",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -5156,14 +5376,18 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para almazaras",
-        "redes sociales marcas aceite oliva",
-        "community manager almazara",
-        "marketing aceite oliva"
+        "marketing aceite de oliva",
+        "aceite de oliva marketing",
+        "marketing del aceite de oliva",
+        "cómo vender aceite de oliva",
+        "vender aceite de oliva por internet",
+        "marketing para almazaras",
+        "marketing almazara",
+        "redes sociales aceite de oliva"
       ],
-      "intent": "Almazara o marca que quiere relacionar su producto con información de elaboración y origen que pueda confirmar el productor.",
+      "intent": "Almazara, cooperativa o marca de aceite de oliva que busca marketing para vender su producto a consumidores, tiendas y hostelería, y valora delegar redes y atención.",
       "distinctFrom": "Convertir una etiqueta y una explicación del productor en contenido comprensible. Distinguir información del producto, material del proceso y canal de consulta.",
       "sources": [
         {
@@ -5179,7 +5403,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing aceite de oliva y marketing del aceite de oliva sugieren aceite de oliva marketing; cómo vender aceite de oliva sugiere también vender aceite de oliva por internet y al extranjero. Sin sugerencias para marketing para almazaras, marketing almazara ni redes sociales aceite de oliva. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "sourceReviewHistory": [
@@ -5190,13 +5414,19 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "sourceRecheckedDateMadrid": "2026-11-03"
+      "sourceRecheckedDateMadrid": "2026-11-03",
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing de aceite de oliva, la forma con demanda, al inicio del title, el H1 y la description, y se conserva almazaras en el H1. Se añade cómo vender aceite de oliva por público y una FAQ sobre declaraciones de salud reguladas, sin retirar lo que ya decía sobre información nutricional."
+      }
     },
-    "title": "Gestión de redes sociales para almazaras | Dania360",
-    "description": "Explica tu aceite con información de producto y elaboración confirmada por la almazara. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El envase y la explicación que aporta el productor",
-    "lead": "Desarrollamos contenido para presentar tu almazara y sus referencias con información revisada del negocio. Growth reúne gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Une el producto que muestras con información que el productor pueda explicar.",
+    "title": "Marketing de aceite de oliva y redes sociales | Dania360",
+    "description": "Marketing de aceite de oliva para almazaras y marcas: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para almazaras",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu almazara o marca de aceite. Contamos la campaña y cada referencia con datos del productor y sin declaraciones de salud que no se puedan acreditar.",
+    "promise": "Tu aceite, con la historia verificable que no tienen los demás.",
     "artAlt": "Envase y rama de olivo conceptuales junto a notas editoriales de producto, dato y elaboración",
     "artCaption": "Ilustración original. No acredita categoría, variedad, origen, certificación o propiedades de un aceite real.",
     "resourceTitle": "Una pieza que conecta envase, dato y trabajo de la almazara",
@@ -5214,19 +5444,40 @@
         "El chat orienta con la información configurada y permite continuar con el equipo. Growth no presupone conexión con inventario o pedidos. La empresa confirma los datos del producto y las operaciones."
       ],
       [
-        "¿Qué incluye Growth para una almazara por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Podéis hablar de los beneficios para la salud del aceite de oliva?",
+        "Solo de lo que la empresa pueda acreditar para esa referencia y en los términos autorizados. Las declaraciones nutricionales y de propiedades saludables están reguladas en la Unión Europea; no las añadimos por iniciativa propia ni damos recomendaciones nutricionales."
+      ],
+      [
+        "¿Cuánto cuesta el marketing para una almazara?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. No incluye tienda online conectada a pedidos ni sesiones de fotos en el olivar. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para almazaras?",
+        "Mantiene la comunicación de la almazara durante la campaña y el resto del año: cuenta la recogida y la molienda mientras ocurren, presenta después las referencias y atiende a consumidores, tiendas y restaurantes. Con Growth también gestionamos reseñas, el perfil de Google y una web con bot de IA."
+      ],
+      [
+        "¿Cómo vender aceite de oliva con redes sociales?",
+        "Diferenciando a quién te diriges: al consumidor le explicas el producto y dónde comprarlo, a la tienda o el restaurante le ofreces fichas y un canal profesional, y al visitante, si la almazara lo ofrece, una visita en campaña. No garantizamos ventas: revisamos contigo qué consultas encajaban."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Primeros días de molienda: así llega la aceituna a la almazara y se convierte en aceite.",
+      "Aceite de cosecha temprana: qué significa y cuándo lo envasamos en nuestra almazara.",
+      "Formatos de 500 ml, 2 y 5 litros. Pregunta por pedidos para tiendas y restaurantes."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo una tienda gourmet y me gustaría vender vuestro aceite. ¿Trabajáis con tiendas?",
+      "answer": "Hola, gracias por escribir. Dinos tu zona y los formatos que te interesan. El equipo comercial te pasa la ficha de producto y las condiciones para tiendas."
+    }
   },
   {
     "id": 60,
     "slug": "food-trucks",
     "name": "Food trucks",
     "hubGroup": "alimentacion",
-    "h1": "Gestión de redes sociales para food trucks",
+    "h1": "Marketing para food trucks: tu propuesta y tu agenda en redes sociales",
     "layout": "food-trucks",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PUBLICACIÓN DE PRODUCTO Y UNA RESPUESTA SOBRE UNA UBICACIÓN ANTERIOR",
       "Propuesta editorial original de Dania360 para adaptar al servicio y a la información confirmada del negocio.",
@@ -5260,14 +5511,16 @@
       "documentSubtitle": "Ejemplo editorial original. No representa un cliente, un producto disponible ni un resultado comercial real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para food trucks",
-        "community manager food truck",
+        "marketing para food trucks",
+        "marketing para food truck",
+        "marketing food truck",
+        "cómo promocionar un food truck",
         "redes sociales food truck",
-        "marketing food trucks"
+        "community manager food truck"
       ],
-      "intent": "Negocio gastronómico móvil que quiere presentar su propuesta y comunicar dónde se puede consultar su agenda o un servicio para eventos.",
+      "intent": "Negocio gastronómico móvil que busca marketing para que lo encuentren en cada ubicación y para conseguir eventos, y valora delegar redes y atención.",
       "distinctFrom": "La ubicación y la agenda pueden cambiar mientras la pieza de producto sigue circulando. Separar presentación estable, información de presencia y consulta de contratación.",
       "sources": [
         {
@@ -5283,7 +5536,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, con límites de acceso y mercado registrados. Sin medición de volumen, dificultad o posición en Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: sugiere marketing para food trucks, marketing food truck y marketing para food truck, con el resto de sugerencias en inglés; sin sugerencias para cómo promocionar un food truck ni redes sociales food truck. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "sourceRecheckAttempts": [
@@ -5293,13 +5546,19 @@
           "result": "direct_open_timeout_again",
           "consequence": "Conservar como lectura parcial; no atribuir contenido completo o demanda española al resultado."
         }
-      ]
+      ],
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado-alimentacion.json y autocompletado-alimentacion-2.json",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para food trucks, literal al inicio del title, el H1 y la description. Se añade un reparto semanal de agenda, producto, equipo y eventos y se mantiene el ejemplo de publicación y respuesta sobre una ubicación anterior."
+      }
     },
-    "title": "Gestión de redes sociales para food trucks | Dania360",
-    "description": "Comunica tu propuesta gastronómica y distingue agenda, presencias y consultas de eventos. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El producto, la agenda y el motivo de consulta",
-    "lead": "Gestionamos las redes de tu food truck con contenido de producto y agenda confirmados por el equipo. Growth incluye publicaciones, atención de los canales del plan, web y bot de IA por 297 €/mes.",
-    "promise": "Separa la presentación gastronómica de la información vigente sobre dónde estarás.",
+    "title": "Marketing para food trucks y redes sociales | Dania360",
+    "description": "Marketing para food trucks: publicaciones de tu agenda y tu cocina, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para food trucks",
+    "lead": "Gestionamos las redes sociales, el perfil de Google, los mensajes y la web de tu food truck. Publicamos la agenda que confirmas, presentamos tu cocina y separamos a quien quiere encontrarte de quien quiere contratarte para un evento.",
+    "promise": "Que sepan dónde estás hoy y se acuerden de ti cuando organicen una fiesta.",
     "artAlt": "Vehículo gastronómico conceptual junto a un panel de agenda sin fechas y un canal de consulta",
     "artCaption": "Composición editorial original. No anuncia ubicaciones, horarios, permisos o eventos de un food truck real.",
     "resourceTitle": "Una publicación de producto y una respuesta sobre una ubicación anterior",
@@ -5317,10 +5576,27 @@
         "El servicio es digital. El negocio confirma su agenda, condiciones y contratación. Growth no incorpora desplazamientos, permisos o la operación del food truck."
       ],
       [
-        "¿Qué recibe un food truck con Growth por 297 €/mes?",
-        "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para food trucks?",
+        "Growth cuesta 297 €/mes, sin permanencia, e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, perfil de Google, comentarios, mensajes y reseñas, y todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. Tú nos pasas la agenda confirmada y el material del día; nosotros publicamos y atendemos. Scale cuesta 497 €/mes. Los anuncios se pagan aparte y la auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para food trucks?",
+        "Te quita de encima la parte digital mientras conduces, montas y cocinas: publica la agenda confirmada, presenta los platos y al equipo, responde comentarios y mensajes, cuida las reseñas y mantiene una web con bot de IA. Las peticiones de eventos se recogen con fecha, lugar y asistentes y se pasan a tu equipo."
+      ],
+      [
+        "¿Qué publicar en las redes de un food truck?",
+        "Un reparto semanal entre agenda, producto, equipo y eventos: dónde estaréis, qué sale de la cocina, quién está detrás y qué tipo de eventos podéis cubrir. La agenda se publica cuando está confirmada y se corrige si cambia."
       ]
-    ]
+    ],
+    "heroPosts": [
+      "Este fin de semana estamos en el mercado de la plaza: sábado y domingo de 12:00 a 17:00.",
+      "Así preparamos nuestra hamburguesa de la casa, del pan a la salsa, dentro del camión.",
+      "¿Boda, fiesta o evento de empresa? Llevamos el food truck: cuéntanos fecha y lugar."
+    ],
+    "heroChat": {
+      "question": "Hola, ¿dónde vais a estar este domingo? Os vimos en las fiestas del barrio.",
+      "answer": "Hola, gracias por escribir. Este domingo estamos en el mercado de la plaza. La agenda actualizada está en la web; si buscas el camión para un evento, dinos fecha y lugar."
+    }
   },
   {
     "id": 61,
