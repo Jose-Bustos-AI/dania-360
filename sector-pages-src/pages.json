@@ -3433,18 +3433,22 @@
     "slug": "hoteles",
     "name": "Hoteles",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para hoteles",
+    "h1": "Marketing para hoteles: redes sociales que llevan la consulta a recepción",
     "layout": "hoteles",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para hoteles",
-        "community manager hoteles",
-        "redes sociales hotel",
-        "agencia redes sociales hoteles"
+        "marketing para hoteles",
+        "marketing digital para hoteles",
+        "agencia de marketing digital para hoteles",
+        "marketing para hoteles pequeños",
+        "redes sociales para hoteles",
+        "community manager para hoteles",
+        "estrategias de marketing digital para hoteles",
+        "marketing hotelero"
       ],
-      "intent": "Un hotel que quiere delegar contenido y atención de sus redes, conservando la confirmación de las condiciones y la estancia en su equipo.",
+      "intent": "Director o propietario de un hotel que busca marketing para hoteles: quién le lleva redes, perfil de Google, reseñas y web para que el viajero consulte su estancia. La landing vende la gestión de Dania360; no vende habitaciones ni promete ocupación.",
       "distinctFrom": "Relacionar una habitación o un espacio con la información que el viajero necesita antes de consultar una estancia. No tratar a todos los hoteles como un escaparate de paisajes.",
       "sources": [
         {
@@ -3454,15 +3458,21 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para hoteles es la familia con más sugerencias del grupo (marketing para hoteles pequeños, marketing digital para hoteles, agencia marketing para hoteles, marketing para hoteles y turismo); marketing hotelero sugiere sobre todo cursos y pdf; redes sociales para hoteles y community manager para hoteles también tienen sugerencia. Cómo conseguir más reservas en un hotel no tiene sugerencias. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para hoteles, literal al inicio del title, el H1 y la description. Se añaden FAQ de agencia, reservas directas y hoteles pequeños, y H2 de estrategias, qué publicar, marketing digital, reservas directas y agencia con precio."
+      }
     },
-    "title": "Gestión de redes sociales para hoteles | Dania360",
-    "description": "Presenta los espacios de tu hotel y facilita las consultas de estancia. Growth incluye gestión de redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "Lo que el viajero quiere conocer antes de alojarse",
-    "lead": "Gestionamos las redes de tu hotel para mostrar sus espacios y llevar las dudas de la estancia al equipo de recepción.",
-    "promise": "Que una imagen de tu hotel ayude a preparar la siguiente conversación.",
+    "title": "Marketing para hoteles y gestión de redes sociales | Dania360",
+    "description": "Marketing para hoteles: publicaciones, mensajes, reseñas, web y bot de IA para recibir consultas de estancia. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para hoteles",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas de Google y la web de tu hotel. Enseñamos sus espacios con información confirmada y llevamos las dudas de la estancia a recepción.",
+    "promise": "Espacios reales del hotel y dudas de estancia que llegan a recepción.",
     "artAlt": "Tarjeta conceptual de un espacio de hotel con tres anotaciones editoriales: imagen, dato y consulta",
     "artCaption": "Ilustración original para explicar el contenido. No representa una habitación, categoría o servicio de un hotel real.",
     "resourceTitle": "Una publicación de hotel que relaciona imagen, información y consulta",
@@ -3506,29 +3516,52 @@
         "El chat orienta con la información configurada y permite continuar con el hotel. Growth no presupone una integración con un PMS, un channel manager o un motor de reservas. El establecimiento confirma la estancia por su canal."
       ],
       [
-        "¿Qué incluye Growth para un hotel por 297 €/mes?",
-        "Gestión de redes, atención de los canales incluidos en el plan e informe mensual de actividad y visibilidad local. Incorpora todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para hoteles con Dania360?",
+        "Una cuota fija, sin comisión por reserva. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, comisiones de portales ni producción presencial de fotografía o vídeo. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para hoteles?",
+        "Ordena cómo se presenta el hotel donde el viajero lo busca: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos cada día espacios, servicios y entorno con información confirmada, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. No gestionamos tarifas, el channel manager ni campañas de anuncios."
+      ],
+      [
+        "¿Cómo conseguir más reservas directas con las redes del hotel?",
+        "Con publicaciones que resuelvan las dudas previas a reservar, como la habitación, la llegada o el entorno, un canal de contacto claro en cada perfil y respuestas rápidas a los mensajes. La web y el bot orientan fuera de horario y derivan a recepción. No garantizamos un número de reservas: revisamos contigo qué consultas llegaron y cuáles confirmó el hotel."
+      ],
+      [
+        "¿Este marketing sirve para hoteles pequeños?",
+        "Sí. Un hotel pequeño suele no tener a nadie dedicado a las redes, y una cuota fija evita contratar horas sueltas. Partimos de lo que distingue a tu establecimiento, como el trato, el edificio o la zona. Tu equipo valida la información y sigue confirmando las reservas por su canal."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo de llegada"
+    "heroExampleLabel": "Ver el ejemplo de llegada",
+    "heroPosts": [
+      "Una habitación por dentro: lo que ves en la foto y lo que conviene preguntar antes de elegir fechas.",
+      "¿Llegas tarde? Escríbenos la hora aproximada y recepción te explica cómo hacer la entrada.",
+      "Tres planes a pie desde el hotel para una tarde libre durante tu estancia."
+    ],
+    "heroChat": {
+      "question": "Hola, ¿os queda habitación doble para el puente de diciembre? Llegaríamos el viernes por la noche.",
+      "answer": "Hola, gracias por escribir. Indícanos las fechas exactas y cuántos sois. Recepción revisa la disponibilidad y te responde con precio y condiciones."
+    }
   },
   {
     "id": 42,
     "slug": "casas-rurales",
     "name": "Casas rurales",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para casas rurales",
+    "h1": "Marketing para casas rurales: cómo promocionar tu casa en redes sociales",
     "layout": "casas-rurales",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para casas rurales",
-        "redes sociales alojamientos rurales",
-        "community manager casa rural",
-        "marketing casa rural"
+        "marketing para casas rurales",
+        "cómo promocionar una casa rural",
+        "marketing turismo rural",
+        "redes sociales casa rural",
+        "marketing casa rural",
+        "cómo conseguir más reservas casa rural"
       ],
-      "intent": "Un alojamiento rural que quiere comunicar cómo es la casa y cómo se utiliza antes de atender una petición de estancia.",
+      "intent": "Propietario o anfitrión de una casa rural que busca marketing para promocionar su alojamiento en redes y Google y recibir consultas directas. La landing vende la gestión de Dania360; no vende estancias.",
       "distinctFrom": "Aclarar la modalidad y el uso de los espacios: qué se está mostrando y qué debe confirmar el anfitrión. El entorno se cuenta con información real, sin inventar distancias o actividades.",
       "sources": [
         {
@@ -3538,14 +3571,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para casas rurales tiene sugerencia (también con expansión a-z, sin variantes largas) y cómo promocionar una casa rural también; marketing turismo rural sugiere la frase. Marketing casa rural, redes sociales casa rural y cómo conseguir clientes o reservas para casa rural no tienen sugerencias. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para casas rurales, literal al inicio del title, el H1 y la description, y cómo promocionar una casa rural en el H1 y la FAQ."
+      }
     },
-    "title": "Gestión de redes sociales para casas rurales | Dania360",
-    "description": "Explica cómo es tu casa rural y cómo se utilizan sus espacios con contenido propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La casa, sus espacios y la forma de alojarse",
-    "lead": "Preparamos publicaciones que explican cómo se usa tu casa rural y qué necesita saber el anfitrión para atender una consulta.",
+    "title": "Marketing para casas rurales y redes sociales | Dania360",
+    "description": "Marketing para casas rurales: publicaciones, mensajes, reseñas, web y bot de IA para promocionar tu alojamiento. 297 €/mes, sin permanencia y auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para alojamientos rurales",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu casa rural. Explicamos cómo es la casa y cómo se usan sus espacios; el anfitrión confirma fechas y condiciones.",
     "promise": "Ayuda al viajero a entender qué espacio está viendo y cómo se utiliza.",
     "artAlt": "Casa abstracta con anotaciones sobre el espacio mostrado y el uso que confirma el anfitrión",
     "artCaption": "Dibujo editorial original. No es un plano ni representa plazas, servicios o espacios de una casa rural cliente.",
@@ -3588,20 +3627,41 @@
         "La web presenta el alojamiento y el chat orienta con la información configurada. Growth no presupone sincronización de calendarios, un channel manager o un motor de reservas. El anfitrión confirma fechas y condiciones por su canal."
       ],
       [
-        "¿Por 297 €/mes se incluyen redes, web y bot para la casa rural?",
-        "Sí. Growth incluye gestión de redes, atención de los canales del plan e informe mensual, además de todo Starter: web con chat y modo automático de IA, kit QR de reseñas, una actualización mensual de la web, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para casas rurales?",
+        "Una cuota fija al mes, sin comisión por estancia. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye anuncios, comisiones de portales ni sincronización de calendarios. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo promocionar una casa rural en redes sociales?",
+        "Mostrando la casa por espacios y explicando cómo se usan, contando el entorno con información comprobada y dejando claro cómo consultar fechas. Publicamos cada día en Instagram, Facebook, TikTok y Pinterest y respondemos los mensajes para que el anfitrión reciba la consulta con fechas y número de personas."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para casas rurales?",
+        "Se ocupa de lo que el anfitrión no tiene tiempo de hacer: preparar publicaciones con el material de la casa, atender comentarios, mensajes y reseñas de Google y mantener una web con bot de IA. Con Growth todo eso entra en la cuota; la limpieza, las llaves y las reservas siguen siendo cosa del alojamiento."
+      ],
+      [
+        "¿Sirve para depender menos de los portales de reservas?",
+        "Ayuda a que el viajero conozca la casa y pueda escribirte directamente, pero no sustituye a los portales ni garantiza reservas. Growth no se conecta a calendarios ni a un channel manager: el anfitrión decide por qué canal confirma cada estancia."
       ]
     ],
-    "heroExampleLabel": "Ver dos ejemplos de estancia"
+    "heroExampleLabel": "Ver dos ejemplos de estancia",
+    "heroPosts": [
+      "El comedor de la casa preparado para un grupo: así se organiza la mesa en una escapada de fin de semana.",
+      "Otoño en el pueblo: planes cercanos para completar tu escapada rural.",
+      "¿Venís con niños o con mascota? Pregúntanos antes y te contamos las condiciones de la casa."
+    ],
+    "heroChat": {
+      "question": "Hola, somos ocho adultos y dos niños. ¿Está libre la casa el primer fin de semana de marzo?",
+      "answer": "Hola, gracias por escribir. El anfitrión revisa el calendario y te contesta con disponibilidad, precio y condiciones. ¿Llegaríais el viernes?"
+    }
   },
   {
     "id": 43,
     "slug": "campings",
     "name": "Campings",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para campings",
+    "h1": "Marketing para campings: cómo promocionar parcelas y alojamientos en redes",
     "layout": "campings",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "Una publicación y su respuesta, para adaptar",
       "",
@@ -3636,14 +3696,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para campings",
-        "community manager camping",
+        "marketing para campings",
+        "cómo promocionar un camping",
+        "publicidad para camping",
+        "publicidad camping",
+        "redes sociales camping",
         "marketing campings",
-        "redes sociales camping"
+        "agencia marketing camping"
       ],
-      "intent": "Un camping que quiere explicar sus modalidades y zonas sin que una publicación lleve a consultar un alojamiento distinto del mostrado.",
+      "intent": "Gerente de un camping que busca cómo promocionarlo y quién le lleva redes, Google, reseñas y web. La landing vende la gestión de Dania360; no vende parcelas ni promete ocupación.",
       "distinctFrom": "La publicación y su respuesta separan modalidad de estancia, servicios asociados y período. Evita repetir la secuencia genérica de imagen, detalle y consulta de hotel y no atribuye inclusión o apertura a partir de una fotografía.",
       "sources": [
         {
@@ -3659,7 +3722,7 @@
           "checkedDateMadrid": "2026-11-03"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para campings, marketing campings, redes sociales camping y agencia marketing camping no tienen sugerencias en español (marketing camping devuelve sugerencias en inglés). Sí sugiere cómo promocionar un camping, publicidad camping y publicidad para camping. Sin volúmenes verificados.",
       "searchVolume": null,
       "googlePosition": null,
       "sourceReviewHistory": [
@@ -3675,12 +3738,18 @@
         "reason": "Reforzar la distinción frente a la presentación genérica de hotel, centrando el ejemplo en modalidad, servicios y período.",
         "sourceRecheck": "https://articagency.com/agencia-de-marketing-para-campings/",
         "historicalSourceLimit": "La guía de Turisme Comunitat Valenciana utiliza diagnóstico de 2021; no se usan sus cifras como demanda actual."
+      },
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se mantiene el patrón marketing para campings en el title, por coherencia con el resto del catálogo, y se lleva la frase con sugerencia, cómo promocionar, al H1 y a la FAQ; la publicidad se trata en una FAQ propia que aclara que los anuncios van aparte."
       }
     },
-    "title": "Gestión de redes sociales para campings | Dania360",
-    "description": "Presenta las modalidades y zonas de tu camping con contenido claro y consultas bien orientadas. Gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Cada modalidad, sus servicios y su período",
-    "lead": "Preparamos publicaciones para que se entienda qué ofrece cada parcela o alojamiento y qué debe confirmar tu camping para esas fechas.",
+    "title": "Marketing para campings y gestión de redes sociales | Dania360",
+    "description": "Marketing para campings: publicaciones de parcelas y alojamientos, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing, publicidad y redes sociales para campings",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu camping. Explicamos qué ofrece cada parcela o alojamiento y qué debe confirmar tu equipo para esas fechas.",
     "promise": "Aclara qué corresponde a la estancia y qué se consulta para cada fecha.",
     "artAlt": "Tienda de campaña y alojamiento conceptuales junto a modalidad, servicios y período, sin oferta real",
     "artCaption": "Dibujo editorial original. No anuncia zonas, servicios o plazas de un camping real.",
@@ -3699,20 +3768,41 @@
         "El bot orienta con la información configurada. Growth no presupone conexión con un motor de reservas, un channel manager o la ocupación del camping. El establecimiento confirma disponibilidad y contratación."
       ],
       [
-        "¿Qué incluye Growth para un camping por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para campings?",
+        "Una cuota fija, igual en temporada alta y baja. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, motor de reservas ni producción presencial de fotografía o vídeo. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo promocionar un camping en redes sociales?",
+        "Separando lo que ofrece cada modalidad, como parcela, bungaló o zona de acampada, de los servicios comunes del recinto, y situando cada pieza en su temporada. Publicamos a diario en Instagram, Facebook, TikTok y Pinterest con el material autorizado del camping y respondemos los mensajes pidiendo fechas, medidas y número de personas."
+      ],
+      [
+        "¿La publicidad para el camping está incluida?",
+        "La cuota de Growth cubre el contenido diario, la atención de mensajes y reseñas y la web con bot de IA, pero no la inversión en anuncios. Si quieres campañas de pago en Meta o en Google para la temporada, se presupuestan y se miden aparte."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para campings?",
+        "Organiza cómo se presenta el camping en redes, en Google y en su web, y atiende las preguntas antes de la reserva. Con Growth lo hacemos por una cuota fija; las tarifas, la ocupación y la contratación siguen en manos de recepción."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo de parcela"
+    "heroExampleLabel": "Ver el ejemplo de parcela",
+    "heroPosts": [
+      "¿Vienes con caravana? Indícanos las medidas del conjunto y te decimos qué parcela encaja con tus fechas.",
+      "Parcela o alojamiento: qué incluye cada opción y qué servicios del recinto se consultan aparte.",
+      "Cambia la temporada: revisa en la web qué servicios están disponibles para tus fechas."
+    ],
+    "heroChat": {
+      "question": "Hola, vamos con una autocaravana de 7 metros y un perro. ¿Tenéis parcela con luz del 12 al 15 de abril?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta a recepción con medidas, fechas y mascota. Te confirman la parcela disponible, las condiciones y el precio."
+    }
   },
   {
     "id": 44,
     "slug": "gestion-alojamientos-turisticos",
     "name": "Empresas de gestión de alojamientos turísticos",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para gestores de alojamientos turísticos",
+    "h1": "Marketing para alojamientos turísticos: redes sociales para empresas gestoras",
     "layout": "gestion-alojamientos-turisticos",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PRESENTACIÓN A PROPIETARIOS Y DOS RECORRIDOS DE CONSULTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3746,14 +3836,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para gestores de alojamientos turísticos",
-        "marketing gestores alquiler vacacional",
-        "redes sociales empresa gestión turística",
-        "captación propietarios alojamientos turísticos"
+        "marketing para alojamientos turísticos",
+        "marketing alojamientos turísticos",
+        "marketing para apartamentos turísticos",
+        "cómo promocionar un apartamento turístico",
+        "marketing para airbnb",
+        "marketing para gestores de alojamientos",
+        "gestión de alojamientos turísticos"
       ],
-      "intent": "Una empresa gestora que quiere explicar su servicio a propietarios y diferenciar esas conversaciones de las peticiones de huéspedes.",
+      "intent": "Empresa gestora de apartamentos y viviendas de uso turístico que busca marketing para alojamientos turísticos: captar propietarios y dar a conocer los alojamientos que comercializa. La landing vende la gestión digital de Dania360; no gestiona inmuebles ni reservas.",
       "distinctFrom": "Dos públicos en una marca: propietarios que valoran delegar y viajeros que preguntan por una estancia. Dar prioridad comercial al servicio del gestor y a su alcance confirmado.",
       "sources": [
         {
@@ -3763,14 +3856,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para alojamientos turísticos tiene sugerencia (también desde marketing alojamientos turísticos y con expansión a-z); marketing para airbnb y cómo promocionar un apartamento turístico también. Marketing para apartamentos turísticos, marketing para viviendas turísticas y marketing para gestores de alojamientos no tienen sugerencias. Gestión de alojamientos turísticos sugiere sobre todo el ciclo de FP. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para alojamientos turísticos, la única variante con sugerencia, literal al inicio del title (66 caracteres), del H1 y de la description; el H1 aclara que la página es para empresas gestoras y la FAQ recoge la promoción de apartamentos turísticos."
+      }
     },
-    "title": "Redes sociales para gestores de alojamientos | Dania360",
-    "description": "Explica tu servicio de gestión a propietarios y distingue las consultas de viajeros. Growth incluye redes, página web y bot de IA por 297 €/mes.",
-    "eyebrow": "La marca del gestor y sus dos públicos",
-    "lead": "Gestionamos las redes de tu empresa para presentar el servicio a propietarios y encaminar por separado las consultas de viajeros.",
+    "title": "Marketing para alojamientos turísticos y redes sociales | Dania360",
+    "description": "Marketing para alojamientos turísticos y gestoras: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing para apartamentos turísticos y su gestora",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu empresa gestora. Presentamos tu servicio a propietarios y encaminamos por separado las consultas de viajeros.",
     "promise": "Presenta tu alcance al propietario y diferencia su consulta de la estancia.",
     "artAlt": "Dos entradas conceptuales a la comunicación de un gestor turístico: propietario y viajero",
     "artCaption": "Esquema editorial original. No representa una cartera de alojamientos, contratos o rendimientos.",
@@ -3789,20 +3888,41 @@
         "El servicio de Dania360 es digital. La empresa gestora confirma qué ofrece a propietarios y viajeros y continúa sus acuerdos y estancias por su canal. No se incorporan mantenimiento, liquidaciones o gestión de reservas por inferencia."
       ],
       [
-        "¿Qué recibe la empresa gestora con Growth por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para una gestora de alojamientos turísticos?",
+        "Una cuota fija para la marca de la gestora, sin porcentaje sobre las reservas. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye anuncios, conexión con portales o channel manager ni gestión operativa de los alojamientos. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para alojamientos turísticos?",
+        "Da a conocer la gestora y sus alojamientos donde la buscan propietarios y viajeros: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos a diario, atendemos comentarios, mensajes y reseñas de Google y mantenemos una web con bot de IA, separando siempre la conversación con propietarios de la consulta de estancia."
+      ],
+      [
+        "¿Cómo conseguir más propietarios para mi gestora con las redes?",
+        "Explicando con hechos qué hace tu empresa: llegadas, limpieza, atención al huésped o mantenimiento, solo lo que confirmes. El propietario que valora delegar necesita ver el proceso y saber cómo empezar a hablar contigo. No prometemos rentabilidad ni ocupación, ni publicamos datos de inmuebles sin permiso."
+      ],
+      [
+        "¿Sirve para promocionar apartamentos turísticos y recibir reservas directas?",
+        "Sí, si la gestora quiere comunicar los alojamientos que comercializa además de su servicio. Cada pieza indica a quién se dirige y por qué canal se continúa. Growth no se conecta a Airbnb, Booking ni al channel manager, y las reservas siguen por los canales de la gestora."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo para propietarios"
+    "heroExampleLabel": "Ver el ejemplo para propietarios",
+    "heroPosts": [
+      "¿Tienes un apartamento turístico y no llegas a todo? Te contamos qué parte de la gestión puedes delegar.",
+      "Entre una salida y la siguiente llegada: cómo trabaja nuestro equipo en cada cambio de huésped.",
+      "¿Buscas alojamiento en la zona? Escríbenos con fechas y número de personas y te orientamos."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo un piso con licencia turística y no puedo atender las llegadas. ¿Qué incluye vuestra gestión?",
+      "answer": "Hola, gracias por escribir. Indícanos la zona y qué parte quieres delegar. El responsable de propietarios te explica el servicio y sus condiciones."
+    }
   },
   {
     "id": 45,
     "slug": "agencias-viajes",
     "name": "Agencias de viajes",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para agencias de viajes",
+    "h1": "Marketing para agencias de viajes: redes sociales que empiezan la consulta",
     "layout": "agencias-viajes",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PIEZA SOBRE EL COMIENZO DE UN VIAJE Y SU PRIMERA RESPUESTA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3836,14 +3956,18 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para agencias de viajes",
-        "community manager agencia viajes",
-        "contenido redes agencias de viajes",
-        "marketing agencias de viajes"
+        "marketing para agencias de viajes",
+        "marketing digital para agencias de viajes",
+        "estrategias de marketing para agencias de viajes",
+        "agencia de marketing para agencias de viajes",
+        "redes sociales para agencias de viajes",
+        "cómo conseguir clientes para mi agencia de viajes",
+        "cómo promocionar una agencia de viajes",
+        "publicidad para agencias de viajes"
       ],
-      "intent": "Una agencia que quiere hacer visible su asesoramiento y recibir consultas que permitan estudiar una propuesta de viaje.",
+      "intent": "Titular de una agencia de viajes que busca marketing para conseguir clientes y valora delegar redes, Google y web en una agencia. La landing vende la gestión de Dania360; no vende viajes.",
       "distinctFrom": "Pasar de una imagen de destino a una conversación sobre el viaje que se quiere preparar. Mostrar criterio de atención sin publicar supuestos paquetes ni precios no confirmados.",
       "sources": [
         {
@@ -3859,14 +3983,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para agencias de viajes sugiere marketing digital, estrategias de marketing y curso; también tienen sugerencia agencia de marketing para agencias de viajes, redes sociales para agencias de viajes, cómo conseguir clientes para mi agencia de viajes, cómo promocionar una agencia de viajes y publicidad para agencias de viajes. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para agencias de viajes, literal al inicio del title, el H1 y la description. Las FAQ nuevas responden a la agencia de marketing, cómo conseguir clientes y qué publicar; un H2 recoge la publicidad de ofertas."
+      }
     },
-    "title": "Gestión de redes sociales para agencias de viajes | Dania360",
-    "description": "Haz visible el asesoramiento de tu agencia y el comienzo de una propuesta de viaje. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Del deseo de viajar a una conversación con tu agencia",
-    "lead": "Gestionamos las redes de tu agencia para mostrar cómo asesoráis y ayudar al viajero a plantear la primera consulta.",
+    "title": "Marketing para agencias de viajes y redes sociales | Dania360",
+    "description": "Marketing para agencias de viajes: publicaciones, mensajes, reseñas, web y bot de IA para recibir más consultas. 297 €/mes, sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital y redes sociales para agencias de viajes",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu agencia de viajes. Mostramos cómo asesoráis y ayudamos al viajero a plantear la primera consulta.",
     "promise": "Muestra cómo empieza el asesoramiento, además de enseñar el destino.",
     "artAlt": "Cuaderno de planificación de viaje con una idea, un momento y un canal de consulta",
     "artCaption": "Composición editorial original. No anuncia un itinerario, paquete o presupuesto de viaje.",
@@ -3885,20 +4015,41 @@
         "El chat orienta con la información configurada y permite continuar con la agencia. La propuesta, el presupuesto y la contratación corresponden a su equipo; Growth no presupone conexión con sistemas de reservas."
       ],
       [
-        "¿Growth incorpora la web y el bot de IA de la agencia por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para agencias de viajes?",
+        "Una cuota fija, sin comisión por viaje vendido. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios ni conexión con sistemas de reservas. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para agencias de viajes?",
+        "Se encarga de que tu agencia se vea y se entienda en redes, en Google y en su web: qué tipo de viajes preparáis, quién asesora y cómo empezar una consulta. Con Growth publicamos cada día, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. La propuesta y la venta del viaje siguen siendo de tu equipo."
+      ],
+      [
+        "¿Cómo conseguir clientes para mi agencia de viajes con las redes?",
+        "Dejando ver vuestra especialidad y vuestra forma de asesorar, no solo destinos que cualquiera puede enseñar. Las publicaciones invitan a contar origen, fechas y tipo de viaje, y los mensajes se derivan a la asesora con esos datos. No garantizamos un número de clientes: revisamos contigo qué consultas acabaron en propuesta."
+      ],
+      [
+        "¿Qué publicar en las redes sociales de una agencia de viajes?",
+        "Cómo preparáis un viaje, quién forma el equipo, dudas frecuentes antes de salir, ideas por temporada y ofertas solo cuando la agencia confirme su contenido y vigencia. Evitamos publicar precios o paquetes que no estén confirmados por escrito."
       ]
     ],
-    "heroExampleLabel": "Ver cómo preparar la consulta"
+    "heroExampleLabel": "Ver cómo preparar la consulta",
+    "heroPosts": [
+      "¿Tienes fechas flexibles? Dinos desde dónde sales y cuántas noches tienes y te proponemos alternativas.",
+      "Viaje de novios: lo que te preguntamos en la primera reunión para preparar una propuesta a tu medida.",
+      "Antes de viajar fuera de Europa: lo que revisamos contigo sobre documentación y plazos."
+    ],
+    "heroChat": {
+      "question": "Hola, somos una pareja y queremos ir dos semanas a Japón en octubre. ¿Nos podéis preparar algo?",
+      "answer": "Hola, gracias por escribir. Cuéntanos desde dónde salís, el presupuesto aproximado y qué os gustaría ver. Una asesora os contacta para preparar la propuesta."
+    }
   },
   {
     "id": 46,
     "slug": "guias-turisticos",
     "name": "Guías turísticos y empresas de visitas guiadas",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para guías turísticos",
+    "h1": "Marketing para guías turísticos: cómo promocionar tus tours en redes sociales",
     "layout": "guias-turisticos",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "GUION DE 15 SEGUNDOS PARA PRESENTAR UNA MIRADA DEL GUÍA",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -3944,14 +4095,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para guías turísticos",
-        "redes sociales visitas guiadas",
+        "marketing para guías turísticos",
         "marketing guías turísticos",
-        "community manager tours"
+        "cómo promocionar un tour",
+        "cómo promocionar mis tours",
+        "marketing para tours",
+        "redes sociales para guías turísticos",
+        "marketing turístico"
       ],
-      "intent": "Un guía o una empresa de visitas que quiere presentar su forma de contar un lugar y explicar cómo consultar sus recorridos.",
+      "intent": "Guía oficial o empresa de visitas guiadas que busca cómo promocionar sus tours y quién le lleva redes, Google y web. La landing vende la gestión de Dania360; no vende visitas.",
       "distinctFrom": "Una pregunta sobre una parada como entrada al relato del guía. Conectar el interés cultural con información de la visita sin fabricar hechos históricos o condiciones.",
       "sources": [
         {
@@ -3961,14 +4115,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing para guías turísticos, marketing guías turísticos, marketing para tours, marketing para free tours y redes sociales para guías turísticos no tienen sugerencias. Cómo promocionar un tour sí la tiene. Marketing turístico sugiere sobre todo libros y pdf, intención académica. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia del oficio, se mantiene el patrón marketing para guías turísticos en el title y se lleva cómo promocionar tus tours al H1, a un H2 y a la FAQ, que es la frase con sugerencia."
+      }
     },
-    "title": "Gestión de redes sociales para guías turísticos | Dania360",
-    "description": "Presenta tu forma de contar el destino con contenido propio y consultas sobre tus visitas. Growth reúne redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El detalle que invita a mirar con tu guía",
-    "lead": "Preparamos publicaciones que enseñan cómo cuentas un lugar y orientan a quien quiere consultar una visita guiada.",
+    "title": "Marketing para guías turísticos y redes sociales | Dania360",
+    "description": "Marketing para guías turísticos y visitas guiadas: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis.",
+    "eyebrow": "Marketing y redes sociales para guías y visitas guiadas",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu servicio de visitas guiadas. Enseñamos cómo cuentas un lugar y orientamos a quien quiere consultar un tour.",
     "promise": "Da a conocer la mirada del guía y la visita que puede explicar.",
     "artAlt": "Recorrido conceptual con una parada destacada y una pregunta para el visitante",
     "artCaption": "Ilustración editorial original. No representa un mapa, monumento o itinerario real.",
@@ -3987,20 +4147,41 @@
         "El equipo del guía confirma la información práctica y comunica los cambios que afecten a la publicación. Los mensajes se dirigen al canal acordado; una consulta no confirma una reserva."
       ],
       [
-        "¿Qué incluye Growth para un guía turístico por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para guías turísticos?",
+        "Una cuota fija, sin comisión por plaza vendida. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye anuncios, conexión con plataformas de tours ni grabación presencial de las visitas. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Cómo promocionar un tour en redes sociales?",
+        "Con detalles reales del recorrido que despierten curiosidad, información práctica clara sobre punto de encuentro, duración e idiomas confirmados y una forma sencilla de consultar. Publicamos cada día en Instagram, Facebook, TikTok y Pinterest con el relato que valida el guía y respondemos los mensajes con fecha y tamaño del grupo."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para guías turísticos?",
+        "Da visibilidad a tu nombre y a tu forma de guiar más allá de las plataformas de tours: redes sociales, perfil de Google, web y mensajes. Con Growth publicamos a diario, atendemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Tú sigues confirmando cada visita."
+      ],
+      [
+        "¿Me sirve si ya vendo mis visitas en plataformas de tours?",
+        "Sí. Las plataformas dan visibilidad a cambio de comisión; tus redes, tu perfil de Google y tu web permiten que te conozcan por tu nombre y te escriban directamente. Growth no se conecta a esas plataformas ni gestiona su calendario."
       ]
     ],
-    "heroExampleLabel": "Ver el guion de una visita"
+    "heroExampleLabel": "Ver el guion de una visita",
+    "heroPosts": [
+      "¿En qué te fijarías al pasar por esta portada? En la visita te enseñamos lo que suele pasar desapercibido.",
+      "Punto de encuentro, duración e idiomas: lo que conviene saber antes de reservar tu visita guiada.",
+      "Visitas para grupos y colegios: cuéntanos fecha y número de personas y preparamos el recorrido."
+    ],
+    "heroChat": {
+      "question": "Hola, somos un grupo de 12 y llegamos el sábado. ¿Hacéis visita privada por el casco antiguo en inglés?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al guía con fecha, grupo e idioma. Te confirma disponibilidad, punto de encuentro y precio."
+    }
   },
   {
     "id": 47,
     "slug": "turismo-activo",
     "name": "Empresas de turismo activo y aventura",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para empresas de turismo activo",
+    "h1": "Marketing para empresas de turismo activo: actividades y equipo en redes",
     "layout": "turismo-activo",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA SECUENCIA SOBRE LA ATENCIÓN PREVIA A UNA ACTIVIDAD",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -4040,14 +4221,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de turismo activo",
-        "redes sociales turismo aventura",
+        "marketing para empresas de turismo activo",
         "marketing turismo activo",
-        "community manager actividades aventura"
+        "marketing para empresas de turismo",
+        "marketing digital para empresas de turismo",
+        "marketing turismo de aventura",
+        "marketing para empresas de aventura",
+        "como promocionar una empresa de turismo activo"
       ],
-      "intent": "Un operador de actividades que quiere comunicar qué experiencia ofrece y cómo empezar una consulta con su equipo.",
+      "intent": "Operador de turismo activo o aventura que busca marketing para su empresa: quién le lleva redes, Google, reseñas y web para recibir consultas de grupos y particulares. La landing vende la gestión de Dania360; no vende actividades.",
       "distinctFrom": "Además del momento espectacular, explicar cómo se desarrolla la atención previa. Las condiciones de participación y la decisión operativa pertenecen al operador.",
       "sources": [
         {
@@ -4057,14 +4241,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: ninguna variante con turismo activo o aventura tiene sugerencias. Sí las tienen marketing para empresas de turismo y marketing digital para empresas de turismo, que el title contiene literal al empezar por marketing para empresas de turismo activo. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing para empresas de turismo activo (69 caracteres con la marca; el catálogo ya tiene titles de hasta 71) porque empieza por la frase con sugerencia marketing para empresas de turismo y conserva el sector y redes sociales."
+      }
     },
-    "title": "Redes sociales para empresas de turismo activo | Dania360",
-    "description": "Presenta tus actividades y al equipo que atiende las primeras consultas con contenido propio. Gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El equipo y la conversación antes de la aventura",
-    "lead": "Preparamos contenido para que tu público entienda la actividad y sepa qué consultar al equipo antes de participar.",
+    "title": "Marketing para empresas de turismo activo y redes sociales | Dania360",
+    "description": "Marketing para empresas de turismo activo y aventura: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing de turismo activo y aventura",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu empresa de actividades. Explicamos cada experiencia y qué consultar al equipo antes de participar.",
     "promise": "Ayuda a conocer la actividad y cómo empezar a informarse con tu equipo.",
     "artAlt": "Tres momentos conceptuales de comunicación de una actividad: equipo, conversación y experiencia",
     "artCaption": "Esquema editorial original. No es una ruta técnica ni representa una actividad realizada por un cliente.",
@@ -4083,20 +4273,41 @@
         "La producción presencial no se presupone incluida. Trabajamos con el material autorizado disponible y las explicaciones del operador. La secuencia de esta página es una propuesta editorial."
       ],
       [
-        "¿Por 297 €/mes se incluyen redes, web y bot para la empresa de actividades?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para empresas de turismo activo?",
+        "Una cuota fija, también fuera de temporada. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, sistema de reservas ni grabación presencial de las actividades. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para empresas de turismo activo?",
+        "Presenta tus actividades y a tu equipo en redes, en Google y en la web, y atiende las preguntas antes de la reserva. Con Growth publicamos a diario con tu material autorizado, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Las condiciones de participación y la seguridad siguen siendo decisión del operador."
+      ],
+      [
+        "¿Cómo conseguir más grupos y reservas con las redes sociales?",
+        "Hablando a cada tipo de grupo, como empresas, colegios o celebraciones, y explicando qué datos necesitas para proponer una actividad. Respondemos los mensajes pidiendo fecha, número de personas y experiencia y los pasamos a tu equipo. No garantizamos reservas: revisamos contigo qué consultas encajaron."
+      ],
+      [
+        "¿Qué publicar en las redes de una empresa de aventura?",
+        "Además de los momentos espectaculares, quién guía, cómo se prepara una salida, qué se pregunta antes de participar y qué actividades hay en cada temporada. Nunca instrucciones técnicas ni requisitos que no haya revisado el responsable."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo de actividad"
+    "heroExampleLabel": "Ver el ejemplo de actividad",
+    "heroPosts": [
+      "Ruta en kayak para grupos con distinta experiencia: cómo la adaptamos y qué te preguntamos antes.",
+      "Conoce a quien te guía: así explicamos la actividad antes de salir y qué conviene llevar ese día.",
+      "¿Despedida, cumpleaños o empresa? Cuéntanos fecha y número de personas y te proponemos actividad."
+    ],
+    "heroChat": {
+      "question": "Hola, somos 15 compañeros de trabajo y queremos hacer barranquismo en junio. Ninguno lo ha probado, ¿es posible?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al equipo con fecha, grupo y experiencia. El guía te explica qué actividad encaja, requisitos y precio."
+    }
   },
   {
     "id": 48,
     "slug": "parques-ocio",
     "name": "Parques de ocio y atracciones",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para parques de ocio",
+    "h1": "Marketing para parques de ocio: experiencias y programación en redes sociales",
     "layout": "parques-ocio",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "PRESENTACIÓN DE UNA EXPERIENCIA Y AVISO DE PROGRAMACIÓN DEL PARQUE",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -4130,14 +4341,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para parques de ocio",
-        "redes sociales parques atracciones",
-        "marketing parques ocio",
-        "community manager parque temático"
+        "marketing para parques de ocio",
+        "marketing parques de ocio",
+        "marketing ocio",
+        "agencia marketing ocio",
+        "marketing para parques de atracciones",
+        "marketing para parques temáticos",
+        "marketing para centros de ocio"
       ],
-      "intent": "Un parque que quiere presentar su oferta de ocio y ayudar a preparar la consulta de una visita.",
+      "intent": "Gerente o responsable de marketing de un parque de ocio o atracciones que busca quién le lleva redes, Google, reseñas y web. La landing vende la gestión de Dania360; no vende entradas.",
       "distinctFrom": "Dar contexto a una experiencia del parque y distinguir la programación de las condiciones de acceso. No reducir el contenido a promociones genéricas.",
       "sources": [
         {
@@ -4147,14 +4361,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: ninguna variante con parque de ocio, atracciones, temático o acuático tiene sugerencias. Marketing ocio sugiere ocio marketing y agencia marketing ocio. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia, se mantiene el patrón marketing para parques de ocio en el title y se recoge agencia de marketing de ocio en una FAQ y en el último H2."
+      }
     },
-    "title": "Gestión de redes sociales para parques de ocio | Dania360",
-    "description": "Presenta las experiencias de tu parque y comunica la programación con su contexto. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La experiencia del parque y la información para visitarlo",
-    "lead": "Gestionamos las redes de tu parque para presentar sus experiencias y dirigir al visitante a la información vigente de su visita.",
+    "title": "Marketing para parques de ocio y redes sociales | Dania360",
+    "description": "Marketing para parques de ocio y atracciones: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis hoy.",
+    "eyebrow": "Marketing de ocio y redes sociales para parques",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu parque de ocio. Presentamos sus experiencias y llevamos al visitante a la información vigente de su visita.",
     "promise": "Que el visitante entienda qué presenta la pieza y dónde informarse.",
     "artAlt": "Entrada conceptual de un parque junto a una pieza estable y un aviso temporal de programación",
     "artCaption": "Dibujo editorial original. No anuncia entradas, atracciones, horarios o condiciones de un parque real.",
@@ -4173,20 +4393,37 @@
         "El bot orienta con la información configurada. Growth no presupone integración con venta de entradas, taquilla o control de aforo. El parque indica dónde continuar la información y la contratación."
       ],
       [
-        "¿Qué incluye Growth para un parque de ocio por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para parques de ocio?",
+        "Una cuota fija, sin comisión por entrada. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, venta de entradas ni producción presencial de fotografía o vídeo. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing de ocio para un parque?",
+        "Mantiene vivas las redes del parque con experiencias, novedades y avisos de programación, atiende comentarios, mensajes y reseñas y cuida la web y el perfil de Google. Con Growth lo hacemos por una cuota fija y con información que confirma el recinto; la taquilla y el aforo siguen en manos del parque."
+      ],
+      [
+        "¿Cómo conseguir más visitas y grupos con las redes del parque?",
+        "Preparando con antelación el contenido de vacaciones escolares, puentes y eventos propios, hablando a familias, colegios y empresas por separado y respondiendo rápido a quien pregunta por una fecha. No garantizamos visitas: revisamos contigo qué consultas llegaron y cuáles se confirmaron."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo de programación"
+    "heroExampleLabel": "Ver el ejemplo de programación",
+    "heroPosts": [
+      "Este fin de semana en el parque: lo que está previsto y dónde consultar horarios antes de venir.",
+      "Cumpleaños en el parque: qué incluye la celebración y cómo pedir fecha para tu grupo.",
+      "¿Primera visita con niños pequeños? Te contamos qué zonas están pensadas para ellos."
+    ],
+    "heroChat": {
+      "question": "Hola, queremos celebrar el cumpleaños de mi hija con 15 niños un sábado de mayo. ¿Cómo funciona?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al equipo de grupos con la fecha y el número de niños. Te explican opciones, horarios y precio."
+    }
   },
   {
     "id": 49,
     "slug": "escuelas-buceo",
     "name": "Escuelas de buceo",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para escuelas de buceo",
+    "h1": "Marketing para escuelas de buceo: cursos e inmersiones en redes sociales",
     "layout": "escuelas-buceo",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "DOS PRIMERAS RESPUESTAS PARA CONOCER UNA ESCUELA DE BUCEO",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -4220,14 +4457,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para escuelas de buceo",
-        "redes sociales centros buceo",
-        "marketing escuela buceo",
-        "community manager buceo"
+        "marketing para escuelas de buceo",
+        "marketing para centros de buceo",
+        "marketing centro de buceo",
+        "marketing buceo",
+        "marketing para buceo",
+        "como promocionar un centro de buceo",
+        "redes sociales escuelas de buceo"
       ],
-      "intent": "Una escuela o centro de buceo que necesita explicar su oferta de formación y experiencias y orientar cada consulta al profesional.",
+      "intent": "Escuela o centro de buceo que busca quién le lleva redes, Google, reseñas y web para recibir consultas de cursos y salidas. La landing vende la gestión de Dania360; no vende cursos ni da instrucciones de buceo.",
       "distinctFrom": "Distinguir la persona que se informa por primera vez de quien consulta una formación o experiencia según su recorrido. No evaluar aptitud desde redes.",
       "sources": [
         {
@@ -4237,14 +4477,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: ninguna variante con escuela, centro o buceo tiene sugerencias (marketing buceo, marketing para centros de buceo, como promocionar un centro de buceo, marketing para dive center). Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Sin demanda propia, se mantiene el nombre del sector en el patrón marketing para escuelas de buceo y se añade centros de buceo en la description, el eyebrow y la FAQ para cubrir las dos formas de nombrarlo."
+      }
     },
-    "title": "Gestión de redes sociales para escuelas de buceo | Dania360",
-    "description": "Presenta tu escuela y orienta las consultas de información o formación con contenido propio. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Una conversación adecuada al interés por la escuela",
-    "lead": "Preparamos contenido para que tus seguidores distingan la primera toma de contacto de la formación y puedan hablar con tu escuela.",
+    "title": "Marketing para escuelas de buceo y redes sociales | Dania360",
+    "description": "Marketing para escuelas y centros de buceo: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Pide tu auditoría gratis hoy.",
+    "eyebrow": "Marketing para escuelas y centros de buceo",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu escuela o centro de buceo. Presentamos cursos y experiencias y llevamos cada consulta al instructor.",
     "promise": "Da a conocer el centro y facilita el primer contacto con su equipo.",
     "artAlt": "Máscara de buceo conceptual junto a dos entradas a la conversación: información y formación",
     "artCaption": "Ilustración editorial original. No acredita una certificación, una inmersión o un resultado de un alumno.",
@@ -4263,20 +4509,37 @@
         "La producción presencial o de imágenes de inmersión no se presupone incluida. Trabajamos el contenido con el material autorizado y la información de la escuela."
       ],
       [
-        "¿Growth incluye web y bot de IA para la escuela por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing para escuelas de buceo?",
+        "Una cuota fija, sin comisión por alumno. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios ni grabación presencial o imágenes de inmersión. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing para centros de buceo?",
+        "Presenta la escuela, sus cursos y su equipo en redes, en Google y en la web, y atiende las primeras preguntas. Con Growth publicamos a diario con tu material autorizado, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Requisitos, aptitud e instrucciones siguen siendo cosa del instructor."
+      ],
+      [
+        "¿Cómo conseguir más alumnos para una escuela de buceo?",
+        "Explicando con claridad cómo empieza quien nunca ha buceado y qué puede hacer después quien ya tiene una titulación, y estando visible en Google cuando alguien planifica sus vacaciones. Derivamos cada consulta al equipo con los datos que necesita. No garantizamos inscripciones."
       ]
     ],
-    "heroExampleLabel": "Ver dos respuestas de la escuela"
+    "heroExampleLabel": "Ver dos respuestas de la escuela",
+    "heroPosts": [
+      "¿Nunca has buceado? Así es una primera toma de contacto con nuestro equipo antes de entrar al agua.",
+      "Ya tienes una titulación y quieres seguir: cuéntanos cuál y te explicamos el siguiente curso.",
+      "Salidas de fin de semana: cómo consultar plazas y qué te pedimos antes de reservar."
+    ],
+    "heroChat": {
+      "question": "Hola, tengo la titulación básica desde hace tres años y no he vuelto a bucear. ¿Puedo apuntarme a una salida en julio?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al instructor con tu titulación y la fecha. Te explicará si conviene un repaso antes y cómo reservar."
+    }
   },
   {
     "id": 50,
     "slug": "alquiler-barcos",
     "name": "Empresas de alquiler de embarcaciones y excursiones náuticas",
     "hubGroup": "turismo",
-    "h1": "Gestión de redes sociales para empresas de alquiler de barcos",
+    "h1": "Marketing náutico para alquiler de barcos y excursiones en redes sociales",
     "layout": "alquiler-barcos",
-    "contentModified": "2026-11-10",
+    "contentModified": "2026-11-15",
     "resource": [
       "UNA PRESENTACIÓN NÁUTICA CON CIERRES PARA ALQUILER Y EXCURSIÓN",
       "Ejemplo editorial original de Dania360. Se adapta al servicio y a la información que confirme el negocio.",
@@ -4306,14 +4569,17 @@
       "documentSubtitle": "Demostración editorial original de Dania360. No representa un cliente, una reserva ni un resultado real."
     },
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de alquiler de barcos",
-        "redes sociales charter náutico",
-        "marketing excursiones náuticas",
-        "community manager alquiler barcos"
+        "marketing náutico",
+        "marketing nautico",
+        "marketing alquiler de barcos",
+        "marketing para alquiler de barcos",
+        "marketing para empresas náuticas",
+        "como promocionar alquiler de barcos",
+        "publicidad alquiler de barcos"
       ],
-      "intent": "Una empresa náutica que quiere explicar sus modalidades y distinguir una consulta de alquiler de una excursión organizada.",
+      "intent": "Empresa de alquiler de embarcaciones o excursiones náuticas que busca marketing náutico: quién le lleva redes, Google, reseñas y web para recibir consultas de alquiler y salidas. La landing vende la gestión de Dania360; no alquila barcos.",
       "distinctFrom": "La misma imagen de una embarcación puede representar servicios diferentes. Identificar qué se presenta y qué confirma el operador antes de continuar.",
       "sources": [
         {
@@ -4323,14 +4589,20 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Investigación cualitativa de consultas candidatas, sin medición de volumen, dificultad o posición de Google España.",
+      "demand": "Autocompletado de Google España (hl=es, gl=es) del 15/11/2026: marketing náutico tiene sugerencia (también sin tilde; con expansión a-z solo añade el nombre de una agencia). Marketing alquiler de barcos, marketing para empresas náuticas, marketing digital náutico, publicidad alquiler de barcos y cómo promocionar alquiler de barcos no tienen sugerencias. Sin volúmenes verificados.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": null,
+      "titleRewrite": {
+        "date": "2026-11-15",
+        "evidence": "outputs/seo-generador-20261114/autocompletado.json y autocompletado-turismo.json, -2, -3 (con expansión a-z) y -4",
+        "serp": "outputs/seo-generador-20261114/serp-ronda2.json: fuera de la primera página con el title anterior.",
+        "observation": "Se elige marketing náutico, la única variante con sugerencia, literal al inicio del title (68 caracteres, como otros del catálogo), del H1 y de la description, y se conserva alquiler de barcos para el sector."
+      }
     },
-    "title": "Redes sociales para alquiler de barcos y excursiones | Dania360",
-    "description": "Distingue tus modalidades de alquiler de barcos y excursiones con contenido claro. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La embarcación y el servicio que quieres presentar",
-    "lead": "Gestionamos las redes de tu empresa náutica para distinguir las consultas de alquiler de las preguntas sobre una excursión.",
+    "title": "Marketing náutico: redes sociales para alquiler de barcos | Dania360",
+    "description": "Marketing náutico para alquiler de barcos y excursiones: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing náutico y redes sociales",
+    "lead": "Gestionamos las redes sociales, los mensajes, las reseñas y la web de tu empresa náutica. Distinguimos las consultas de alquiler de las preguntas sobre una excursión y las derivamos a tu equipo.",
     "promise": "Identifica el servicio de la pieza y cómo consultarlo con tu equipo.",
     "artAlt": "Embarcación abstracta con dos continuaciones comerciales: alquiler y excursión",
     "artCaption": "Composición editorial original. No representa un barco, equipamiento, capacidad o salida disponibles.",
@@ -4349,11 +4621,28 @@
         "La web presenta la actividad y el chat orienta con la información configurada. Growth no presupone sincronización de flota o motor de reservas. La empresa confirma disponibilidad y contratación por su canal."
       ],
       [
-        "¿Qué incluye Growth para la empresa náutica por 297 €/mes?",
-        "Incluye gestión de redes y atención de los canales del plan, con informe mensual. También todo Starter: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
+        "¿Cuánto cuesta el marketing náutico para una empresa de alquiler de barcos?",
+        "Una cuota fija, sin comisión por alquiler ni por salida. Growth cuesta 297 €/mes, sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes y reseñas de Google, perfil de empresa en Google, web con hosting y una actualización al mes, y bot de IA que puedes atender desde la app DANIA. Scale, por 497 €/mes, añade LinkedIn, X, YouTube y posicionamiento SEO continuo. No incluye inversión en anuncios, sistema de reservas de flota ni grabación presencial a bordo. La auditoría inicial es gratuita."
+      ],
+      [
+        "¿Qué hace una agencia de marketing náutico?",
+        "Da a conocer tu flota, tus excursiones y tu equipo en redes, en Google y en la web, y atiende las preguntas antes de reservar. Con Growth publicamos a diario con material autorizado, respondemos comentarios, mensajes y reseñas y mantenemos una web con bot de IA. Las decisiones sobre la navegación siguen siendo del operador."
+      ],
+      [
+        "¿Cómo conseguir más reservas de barcos y excursiones con las redes?",
+        "Preparando el contenido antes de la temporada, explicando bien la diferencia entre alquiler con o sin patrón y excursión, y respondiendo rápido a quien pregunta por una fecha concreta, porque suele estar comparando varias empresas. No garantizamos reservas: revisamos contigo qué consultas se confirmaron."
       ]
     ],
-    "heroExampleLabel": "Ver el ejemplo de alquiler y salida"
+    "heroExampleLabel": "Ver el ejemplo de alquiler y salida",
+    "heroPosts": [
+      "¿Alquiler con patrón o sin patrón? Te explicamos qué necesitas en cada caso antes de pedir fecha.",
+      "Salida al atardecer: cuánto dura, dónde embarcamos y cómo consultar plazas para tu grupo.",
+      "Antes de embarcar: qué llevar y qué pasa si el estado del mar obliga a cambiar la salida."
+    ],
+    "heroChat": {
+      "question": "Hola, somos seis amigos y queremos un barco con patrón para el 10 de agosto, todo el día. ¿Tenéis algo?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al equipo con fecha, grupo y modalidad. Te confirman la embarcación disponible, las condiciones y el precio."
+    }
   },
   {
     "id": 51,
