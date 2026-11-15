@@ -5325,12 +5325,12 @@
   {
     "id": 61,
     "slug": "psicologos",
-    "h1": "Gestión de redes sociales para psicólogos",
-    "title": "Gestión de redes sociales para psicólogos | Dania360",
-    "description": "Da a conocer tu consulta de psicología con contenido propio y atención al primer contacto. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "La consulta empieza a conocerse antes de la primera cita",
-    "promise": "Presenta tu forma de trabajar y facilita el primer contacto con tu centro.",
-    "lead": "Gestionamos las redes de psicólogos y centros de psicología con contenido sobre su equipo, servicio y funcionamiento. Growth reúne publicaciones, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "h1": "Marketing para psicólogos: redes sociales y web con criterio profesional",
+    "title": "Marketing para psicólogos y redes sociales | Dania360",
+    "description": "Marketing para psicólogos con criterio deontológico: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para psicólogos y centros de psicología",
+    "promise": "Que quien busca psicólogo conozca tu forma de trabajar y sepa cómo pedir cita.",
+    "lead": "Publicamos cada día contenido revisado por ti sobre tu consulta, tu enfoque y cómo pedir cita, y atendemos mensajes y reseñas sin tratar ningún caso en público. Growth incluye además web y bot de IA por 297 €/mes.",
     "artAlt": "Composición original con tres motivos de contacto de una consulta de psicología: información, situación personal y cita existente",
     "artCaption": "Ilustración conceptual del recorrido de atención. No representa un centro ni mensajes de pacientes.",
     "resourceTitle": "Una publicación y tres respuestas para el primer contacto",
@@ -5340,6 +5340,18 @@
       "documentSubtitle": "Propuesta editorial original para adaptar al centro. No contiene pacientes ni conversaciones reales."
     },
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para psicólogos?",
+        "En Dania360 el marketing para psicólogos parte de las redes sociales y de Google: preparamos y publicamos un contenido al día sobre tu consulta, tu equipo, tus modalidades y los temas que quieras divulgar, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Tú revisas todo lo que trata de tu especialidad. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes de psicología con las redes sociales?",
+        "Lo que más ayuda es que quien busca psicólogo entienda cómo trabajas, en qué modalidades atiendes y cómo pedir una primera cita sin tener que contar su historia en público. Combinamos publicaciones claras, una ficha de Google cuidada, reseñas respondidas con discreción y mensajes atendidos a tiempo. No garantizamos un número de pacientes ni usamos testimonios: tu centro confirma qué consultas acaban en cita."
+      ],
+      [
+        "¿Qué puede publicar un psicólogo en redes sin saltarse su código deontológico?",
+        "Presentación del profesional y del centro, modalidades de atención, forma de pedir cita y contenido divulgativo que tú revisas. Evitamos testimonios de pacientes, promesas de resultados, casos reconocibles y cualquier dato de salud de quien escribe. Las normas de tu colegio profesional y, si tu centro está autorizado como sanitario, las de publicidad sanitaria de tu comunidad autónoma marcan el límite; tú validas cada pieza antes de publicarla."
+      ],
       [
         "¿Podéis mantener la voz de mi consulta de psicología?",
         "Partimos de cómo presentas tu trabajo, a quién atiende el centro y qué temas quieres comunicar. El profesional revisa el contenido de su especialidad y el material autorizado antes de publicar. La demostración de esta página se adapta a ese criterio."
@@ -5353,6 +5365,10 @@
         "Podemos presentar al equipo, explicar el funcionamiento de la consulta y desarrollar temas revisados por el profesional. No hace falta utilizar historias ni imágenes de pacientes para trabajar esas piezas."
       ],
       [
+        "¿Cuánto cuesta el marketing para psicólogos?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía canales y SEO continuo. La inversión en anuncios no está incluida en ningún plan; si quieres valorarla, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para psicólogos por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting. El bot se configura para orientar sobre el centro y sus canales; no realiza una valoración clínica."
       ]
@@ -5360,16 +5376,20 @@
     "name": "Centros de psicología",
     "hubGroup": "salud-cuidados",
     "layout": "psicologos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para psicólogos",
-        "gestión de redes sociales centros de psicología",
-        "community manager psicólogos",
-        "marketing para psicólogos"
+        "marketing para psicólogos",
+        "marketing digital para psicólogos",
+        "redes sociales para psicólogos",
+        "community manager para psicólogos",
+        "agencia marketing psicólogos",
+        "como conseguir pacientes psicología",
+        "publicidad para psicólogos",
+        "instagram para psicólogos"
       ],
-      "intent": "Psicólogo o centro que quiere delegar publicaciones y atención administrativa conservando la voz y el criterio de sus profesionales.",
+      "intent": "Psicólogo o centro de psicología que busca marketing para psicólogos: quién le lleva redes, Google y web para que las personas que buscan terapia le conozcan y pidan cita, sin romper la confidencialidad ni su código deontológico. La landing vende la gestión de Dania360 con publicaciones revisadas por el profesional, mensajes, reseñas, ficha de Google, web y bot de IA; no vende terapia ni promete pacientes.",
       "distinctFrom": "Una publicación explica el primer contacto y tres respuestas diferencian información del centro, situación personal y gestión de una cita existente.",
       "sources": [
         {
@@ -5379,7 +5399,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. No hay datos de volumen, dificultad, tendencia ni puesto puntual en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para psicólogos devuelve diez sugerencias (pdf, instagram, cursos, reseñas) y marketing digital para psicólogos sugiere agencia marketing digital para psicologos; redes sociales para psicólogos y community manager para psicólogos tienen sugerencia; como conseguir pacientes psicologia devuelve ocho variantes (online, particulares, más pacientes). Con el title anterior, gestión de redes sociales para psicólogos, la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -5412,17 +5432,26 @@
       "",
       "Para una gestión de tu cita, utiliza el canal de atención que tengas acordado con el centro. Así el equipo podrá atender tu petición en el lugar adecuado, sin tratar información de tu consulta en el perfil público.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Cómo es la primera consulta en nuestro centro y qué puedes preguntar antes de reservar",
+      "Te presentamos al equipo: quién atiende, en qué modalidades y cómo pedir información",
+      "Presencial u online: te contamos qué modalidades ofrecemos y cómo solicitar la primera cita"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿hacéis terapia online? Me gustaría saber cómo funciona la primera sesión y cuánto cuesta.",
+      "answer": "Hola, gracias por escribir. Te pasamos con el equipo del centro, que te explicará modalidades, tarifas y cómo reservar. No hace falta que nos cuentes tu caso por aquí."
+    }
   },
   {
     "id": 62,
     "slug": "nutricionistas",
-    "h1": "Gestión de redes sociales para nutricionistas",
-    "title": "Gestión de redes sociales para nutricionistas | Dania360",
-    "description": "Explica tu consulta y seguimiento con contenido de nutrición revisado por ti. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Haz visible el servicio que hay detrás de la consulta",
-    "promise": "Explica cómo trabajas antes de que te pregunten solo por una dieta.",
-    "lead": "Preparamos contenido para nutricionistas que quieren dar a conocer su servicio, equipo y acompañamiento. Con Growth tienes gestión de redes, atención en los canales del plan, web y bot de IA por 297 €/mes.",
+    "h1": "Marketing para nutricionistas: redes sociales y web para tu consulta",
+    "title": "Marketing para nutricionistas y redes sociales | Dania360",
+    "description": "Marketing para nutricionistas: publicaciones revisadas por ti, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para nutricionistas y centros de nutrición",
+    "promise": "Que se entienda tu consulta y tu seguimiento, no solo tus recetas.",
+    "lead": "Publicamos cada día contenido revisado por ti sobre tu consulta, el seguimiento y tus temas de divulgación, y atendemos mensajes y reseñas. Growth incluye web y bot de IA por 297 €/mes; las pautas siempre las das tú en consulta.",
     "artAlt": "Cuatro tarjetas editoriales originales sobre primer contacto, consulta, seguimiento y canal de información de un nutricionista",
     "artCaption": "Composición conceptual de un carrusel. No muestra una dieta, un paciente ni un resultado clínico.",
     "resourceTitle": "Un carrusel sobre consulta y seguimiento nutricional",
@@ -5432,6 +5461,14 @@
       "documentSubtitle": "Ejemplo editorial original para explicar el servicio. No es una pauta nutricional ni un caso de un paciente."
     },
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para nutricionistas?",
+        "Preparamos y publicamos un contenido al día sobre tu consulta, el seguimiento, tu equipo y la divulgación que tú revises; respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las consultas llegan al canal que elijas para que tu equipo dé la cita. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes como nutricionista con las redes sociales?",
+        "Una receta atrae miradas, pero lo que lleva a pedir cita es entender qué incluye tu consulta, cómo es el seguimiento y si atiendes online o presencial. Por eso combinamos divulgación revisada por ti con publicaciones que explican el servicio, reseñas respondidas y mensajes atendidos a tiempo. No prometemos pérdidas de peso ni resultados de salud, ni garantizamos un número de pacientes."
+      ],
       [
         "¿El contenido tiene que limitarse a recetas y consejos de alimentación?",
         "También podemos explicar quién atiende, las áreas del servicio, cómo informarse sobre la primera visita y cómo consultar el seguimiento. Los temas divulgativos se desarrollan con el criterio y la revisión del nutricionista."
@@ -5445,6 +5482,10 @@
         "En este servicio se configura con información de la consulta para orientar sobre su funcionamiento y sus formas de contacto. Las dietas, los informes y las valoraciones individuales corresponden al profesional en el entorno de consulta."
       ],
       [
+        "¿Cuánto cuesta el marketing para nutricionistas?",
+        "Growth cuesta 297 €/mes sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale, por 497 €/mes, suma más redes y SEO continuo. Los anuncios de pago no están incluidos en ningún plan; si quieres valorarlos, lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para nutricionistas por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
@@ -5452,16 +5493,19 @@
     "name": "Nutricionistas y centros de nutrición",
     "hubGroup": "salud-cuidados",
     "layout": "nutricionistas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para nutricionistas",
-        "community manager nutricionistas",
-        "redes sociales centros de nutrición",
-        "marketing nutricionistas"
+        "marketing para nutricionistas",
+        "marketing digital para nutricionistas",
+        "agencia de marketing para nutricionistas",
+        "redes sociales para nutricionistas",
+        "instagram para nutricionistas",
+        "como conseguir pacientes nutricionista",
+        "como conseguir clientes nutricionista"
       ],
-      "intent": "Nutricionista o centro de nutrición que necesita hacer comprensible su consulta y el seguimiento, además de publicar contenido divulgativo.",
+      "intent": "Nutricionista o centro de nutrición que busca marketing para nutricionistas: quién le gestiona redes, Google y web para que se entienda su consulta y su seguimiento y le pidan cita. La landing vende la gestión de Dania360 con divulgación revisada por el profesional, mensajes, reseñas, ficha de Google, web y bot de IA; no da pautas nutricionales ni promete resultados de salud.",
       "distinctFrom": "Un carrusel de cuatro pantallas presenta preguntas de contratación sobre atención inicial, modalidad y seguimiento, con texto y primera respuesta completos.",
       "sources": [
         {
@@ -5483,7 +5527,7 @@
           ]
         }
       ],
-      "demand": "Consultas candidatas e intención comercial contrastadas cualitativamente. No hay datos de volumen, dificultad, tendencia ni puesto puntual en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para nutricionistas sugiere marketing digital, curso y agencia de marketing para nutricionistas; redes sociales para nutricionistas, instagram para nutricionistas, como conseguir pacientes nutricionista y como conseguir clientes nutricionista tienen sugerencia. Community manager nutricionista y estrategias de marketing para nutricionistas no tienen sugerencias. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -5526,20 +5570,37 @@
       "",
       "Gracias por escribir. Podemos explicarte cómo se organiza el servicio de seguimiento y cómo consultar con el profesional. Contacta por el canal privado de la consulta e indica que quieres información sobre ese servicio. El equipo te orientará sobre su funcionamiento y las condiciones que corresponda confirmar antes de una cita.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Qué incluye la primera consulta de nutrición y qué conviene preguntar antes de reservar",
+      "Cómo organizamos el seguimiento: frecuencia, modalidad y canal para hablar con tu nutricionista",
+      "Un mito de alimentación explicado por el equipo, con criterio profesional y sin pautas individuales"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿hacéis consultas online? Quería saber cómo funciona el seguimiento y cada cuánto son las revisiones.",
+      "answer": "Hola, gracias por escribir. El equipo te explica por privado modalidades, seguimiento y tarifas y te propone cita. Las pautas se ven siempre en consulta con el profesional."
+    }
   },
   {
     "id": 63,
     "slug": "opticas",
-    "title": "Gestión de redes sociales para ópticas | Dania360",
-    "description": "Da a conocer las monturas, el equipo y el asesoramiento de tu óptica. Growth incluye gestión de redes sociales, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El interés por una montura continúa en tu centro",
-    "promise": "Relaciona el producto que muestras con el asesoramiento de tu óptica.",
-    "lead": "Preparamos contenido para presentar las monturas, el equipo y la atención de tu óptica. Growth incluye gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para ópticas y redes sociales | Dania360",
+    "description": "Marketing para ópticas: publicaciones con tus monturas y tu equipo, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para ópticas independientes y asociadas",
+    "promise": "Que tus monturas lleven a conocer el asesoramiento de tu óptica.",
+    "lead": "Publicamos cada día monturas, equipo y servicios de tu óptica, respondemos mensajes y reseñas y llevamos tu ficha de Google. Las consultas llegan a tu equipo, que confirma producto, disponibilidad y cita. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Montura frontal y perfil abstractos junto a una tarjeta que identifica el asesoramiento de la óptica",
     "artCaption": "Ilustración editorial original. No representa un modelo, una marca ni existencias de una óptica real.",
     "resourceTitle": "Tres vistas de una montura con publicación y primera respuesta",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para ópticas?",
+        "Publicamos cada día monturas, novedades, equipo y servicios de tu óptica en Instagram, Facebook, TikTok y Pinterest, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las preguntas sobre un modelo o una cita pasan a tu equipo, que confirma disponibilidad y asesoramiento. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo atraer clientes a una óptica con las redes sociales?",
+        "Ayuda que quien pasa por tu perfil reconozca modelos concretos, vea al equipo que asesora y sepa cómo ir a probarse unas gafas o pedir cita. Combinamos piezas de producto, temporadas como la vuelta al cole o el verano, una ficha de Google con horario y fotos reales y reseñas contestadas. No garantizamos ventas: la óptica confirma qué consultas acaban en visita."
+      ],
       [
         "¿Podéis mostrar monturas y explicar el asesoramiento en la misma cuenta?",
         "Sí. La pieza puede partir del producto y continuar con la información del centro. Identificamos qué se está mostrando y cómo puede consultarse con el equipo, sin atribuir prestaciones a partir de una imagen."
@@ -5553,24 +5614,32 @@
         "Se configura con información del centro y sus formas de contacto. No se presenta como un inventario sincronizado ni realiza una valoración visual. El equipo de la óptica confirma el producto y el asesoramiento."
       ],
       [
+        "¿Cuánto cuesta el marketing para una óptica?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y añade más redes y SEO continuo. Las campañas de pago y los materiales de las marcas no están incluidos; lo vemos contigo en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para ópticas por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Ópticas",
-    "h1": "Gestión de redes sociales para ópticas",
+    "h1": "Marketing para ópticas: redes sociales, Google y web para tu centro",
     "hubGroup": "salud-cuidados",
     "layout": "opticas",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para ópticas",
-        "community manager ópticas",
-        "redes sociales para ópticas",
-        "marketing ópticas"
+        "marketing para ópticas",
+        "marketing optica",
+        "marketing digital para opticas",
+        "estrategias de marketing para opticas",
+        "publicidad para ópticas",
+        "ideas de publicidad para ópticas",
+        "como atraer clientes a una óptica",
+        "redes sociales para ópticas"
       ],
-      "intent": "Óptica que necesita una presentación propia del centro, su equipo y el asesoramiento junto al producto.",
+      "intent": "Óptica independiente o asociada que busca marketing para ópticas: quién le lleva redes, Google y web para que sus monturas y su asesoramiento se conozcan y la gente vaya a probarse gafas. La landing vende la gestión de Dania360 con publicaciones de producto y equipo, mensajes, reseñas, ficha de Google, web y bot de IA; no vende gafas ni revisiones visuales.",
       "distinctFrom": "Relacionar tres vistas de una montura con información de producto y una invitación a conocer el asesoramiento del centro.",
       "sources": [
         {
@@ -5580,7 +5649,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para ópticas tiene sugerencia; marketing optica sugiere marketing publicidad para opticas, marketing digital para opticas y estrategias de marketing para opticas; publicidad para ópticas sugiere ideas e imágenes de publicidad para ópticas; como atraer clientes a una óptica tiene sugerencia. Redes sociales ópticas y redes sociales para ópticas no tienen sugerencias. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -5616,20 +5685,37 @@
       "",
       "Gracias por preguntar. Indícanos a qué publicación o modelo te refieres por el canal de contacto de la óptica. El equipo comprobará la información y te explicará cómo consultar sus características y disponibilidad en el centro.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Una montura nueva en tres vistas: de frente, de perfil y en la óptica para que vengas a probártela",
+      "Te presentamos al equipo que te asesora cuando eliges gafas en nuestra óptica",
+      "Gafas de sol para este verano: pregúntanos qué modelos tenemos y cuándo puedes venir a verlos"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿todavía tenéis la montura del vídeo de ayer? ¿Puedo pasar a probármela esta tarde?",
+      "answer": "Hola, gracias por escribir. Pasamos tu consulta al equipo de la óptica, que comprueba si está disponible y te confirma cuándo puedes venir a verla."
+    }
   },
   {
     "id": 64,
     "slug": "centros-auditivos",
-    "title": "Gestión de redes sociales para centros auditivos | Dania360",
-    "description": "Presenta tu centro auditivo con contenido claro y mensajes que también se entiendan en pantalla. Gestión de redes, web y bot de IA en Growth: 297 €/mes.",
-    "eyebrow": "Conocer el centro también a través de lo que se lee",
-    "promise": "Presenta tu atención con un mensaje que pueda seguirse sin sonido.",
-    "lead": "Gestionamos las redes de tu centro auditivo con contenido sobre el equipo, el servicio y cómo informarse de una visita. Growth incluye publicaciones, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para centros auditivos y redes sociales | Dania360",
+    "description": "Marketing para centros auditivos: publicaciones que se leen sin sonido, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para centros auditivos y de audiología",
+    "promise": "Presenta tu centro auditivo con mensajes que se siguen también sin sonido.",
+    "lead": "Publicamos cada día contenido sobre tu equipo, tus servicios y cómo pedir cita, con textos en pantalla para que se entienda sin sonido. Atendemos mensajes y reseñas y llevamos tu ficha de Google. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Vídeo conceptual de quince segundos con textos en pantalla y una tarjeta de contacto del centro auditivo",
     "artCaption": "Esquema editorial original de un guion. No es un vídeo producido ni una prueba de audición.",
     "resourceTitle": "Guion legible de 15 segundos para un centro auditivo",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para centros auditivos?",
+        "Preparamos y publicamos un contenido al día sobre tu centro, tu equipo, las revisiones y el mantenimiento de audífonos, con textos en pantalla para que se entienda sin sonido. Respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Las peticiones de cita llegan a tu equipo. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir clientes para un centro auditivo con las redes sociales?",
+        "Muchas consultas las inicia un familiar, así que el contenido se dirige a la persona interesada y a quien la acompaña: quién atiende, cómo es una primera visita y cómo pedir cita. Sumamos una ficha de Google cuidada, reseñas respondidas y mensajes atendidos a tiempo. No prometemos resultados auditivos ni un número de clientes; el centro confirma las visitas."
+      ],
       [
         "¿Por qué el ejemplo incluye texto en todos los planos?",
         "El mensaje principal está escrito para que la pieza pueda seguirse sin depender de una locución. Antes de publicarla se revisan contraste, cantidad de texto y tiempo de lectura."
@@ -5643,24 +5729,31 @@
         "Su responsable revisa los servicios, productos y condiciones presentados. La atención del perfil orienta sobre funcionamiento y contacto; las valoraciones y pruebas continúan con los profesionales del centro."
       ],
       [
+        "¿Cuánto cuesta el marketing para un centro auditivo?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía canales y SEO continuo. La inversión en anuncios no está incluida en ningún plan; si quieres valorarla, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para centros auditivos por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Centros auditivos",
-    "h1": "Gestión de redes sociales para centros auditivos",
+    "h1": "Marketing para centros auditivos: redes sociales y web que se entienden leyendo",
     "hubGroup": "salud-cuidados",
     "layout": "centros-auditivos",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para centros auditivos",
-        "redes sociales centros auditivos",
-        "community manager audiología",
-        "marketing centros auditivos"
+        "marketing para centros auditivos",
+        "marketing centros auditivos",
+        "marketing audiología",
+        "marketing audífonos",
+        "marketing para audioprotesistas",
+        "publicidad centros auditivos",
+        "centros auditivos redes sociales"
       ],
-      "intent": "Centro auditivo que quiere explicar su atención y facilitar el contacto con información clara que también pueda leerse en pantalla.",
+      "intent": "Centro auditivo que busca marketing para centros auditivos: quién le lleva redes, Google y web para que la persona interesada y su familia conozcan el centro y pidan cita, con mensajes que se entienden sin sonido. La landing vende la gestión de Dania360 con publicaciones legibles, mensajes, reseñas, ficha de Google, web y bot de IA; no vende audífonos ni pruebas auditivas.",
       "distinctFrom": "Un guion de quince segundos cuyo mensaje se entiende mediante texto en pantalla, desde el centro y su recepción hasta el canal de consulta.",
       "sources": [
         {
@@ -5670,7 +5763,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para centros auditivos es la única variante con sugerencia (también desde marketing centros auditivos). Marketing audiología, marketing audífonos, marketing para audioprotesistas, publicidad centros auditivos y centros auditivos redes sociales no tienen sugerencias. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -5722,20 +5815,37 @@
       "",
       "Conocer el centro es una forma de empezar a informarte. En esta pieza presentamos nuestro espacio y cómo contactar con el equipo. Si quieres consultar nuestros servicios o saber cómo preparar una visita, utiliza el canal del perfil. Te explicaremos el funcionamiento del centro y cómo continuar la consulta con su profesional.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Conoce nuestro centro auditivo: quién te atiende y cómo pedir cita, con todo el texto en pantalla",
+      "Qué ocurre en una primera visita al centro auditivo, explicado paso a paso y con subtítulos",
+      "Mantenimiento de audífonos: pregunta al equipo cada cuánto conviene pasar por el centro"
+    ],
+    "heroChat": {
+      "question": "Hola, mi madre usa audífonos y querría que se los revisaran. ¿Hace falta cita o podemos pasar sin avisar?",
+      "answer": "Hola, gracias por escribir. Te pasamos con el equipo del centro para darte cita y explicarte qué traer. Si lo preferís, os llaman o escriben por WhatsApp."
+    }
   },
   {
     "id": 65,
     "slug": "podologia",
-    "title": "Gestión de redes sociales para podólogos | Dania360",
-    "description": "Explica tu clínica de podología y orienta el primer contacto con contenido revisado por tu equipo. Growth incluye redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El gabinete se conoce mejor cuando se explica",
-    "promise": "Ayuda a conocer tu consulta antes de pedir una primera cita.",
-    "lead": "Desarrollamos contenido para presentar tu clínica de podología, al equipo y cómo informarse. Growth reúne gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "title": "Marketing y gestión de redes sociales para podólogos | Dania360",
+    "description": "Gestión de redes sociales para podólogos: publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing para podólogos y clínicas de podología",
+    "promise": "Ayuda a conocer tu clínica de podología antes de pedir la primera cita.",
+    "lead": "Gestionamos las redes sociales de tu clínica con contenido revisado por el podólogo: equipo, gabinete, servicios y cómo pedir cita. Respondemos mensajes y reseñas sin valorar casos por redes. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Gabinete conceptual y tarjeta de información sobre una cita en una clínica de podología",
     "artCaption": "Ilustración conceptual original. No representa una clínica, equipamiento o paciente reales.",
     "resourceTitle": "Publicación de primera visita y respuesta sobre fotografías",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para podólogos?",
+        "En la gestión de redes sociales para podólogos preparamos y publicamos un contenido al día sobre tu clínica, tu equipo, el gabinete y los servicios que confirmes, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. El podólogo revisa todo lo que trata de su especialidad. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes en una clínica de podología con las redes sociales?",
+        "Quien busca podólogo quiere saber quién le va a atender, qué servicios tiene la clínica, dónde está y cómo pedir cita. Respondemos a eso con publicaciones claras, una ficha de Google con horario y fotos reales, reseñas contestadas sin hablar de casos y mensajes derivados a la clínica. No valoramos fotografías por redes ni garantizamos un número de pacientes."
+      ],
       [
         "¿Necesitáis imágenes de tratamientos para crear contenido de podología?",
         "Podemos presentar al equipo, el gabinete y el funcionamiento del centro con material autorizado. El profesional revisa las explicaciones de su especialidad; no hace falta construir una historia de un paciente para esas piezas."
@@ -5749,24 +5859,32 @@
         "El centro valida el alcance y las afirmaciones de su especialidad antes de publicar. Partimos de sus servicios confirmados y de la información que quiera presentar de su equipo y funcionamiento."
       ],
       [
+        "¿Cuánto cuesta la gestión de redes sociales para podólogos?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía canales y SEO continuo. Los anuncios de pago no están incluidos en ningún plan; si quieres valorarlos, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para clínicas de podología por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Clínicas de podología",
-    "h1": "Gestión de redes sociales para clínicas de podología",
+    "h1": "Marketing y gestión de redes sociales para podólogos",
     "hubGroup": "salud-cuidados",
     "layout": "podologia",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para clínicas de podología",
-        "gestión redes sociales podólogos",
-        "community manager podología",
-        "marketing clínicas podológicas"
+        "gestión de redes sociales para podólogos",
+        "marketing para podólogos",
+        "marketing podología",
+        "marketing digital podología",
+        "publicidad podología",
+        "instagram podología",
+        "redes sociales para podólogos",
+        "como conseguir pacientes podología"
       ],
-      "intent": "Clínica podológica que quiere mostrar su equipo y funcionamiento y orientar consultas sin valorar fotografías o síntomas desde redes.",
+      "intent": "Podólogo o clínica de podología que busca gestión de redes sociales y marketing para su consulta. La landing sale 1.ª en Google España para gestión de redes sociales para podólogos (2026-11-15), por lo que la frase se conserva literal en el title y el H1, y se añade marketing, que es la variante con sugerencias. Vende la gestión de Dania360 con publicaciones revisadas por el podólogo, mensajes, reseñas, ficha de Google, web y bot de IA; no valora fotografías ni presta servicios sanitarios.",
       "distinctFrom": "Una publicación para la primera visita y una respuesta completa a quien propone enviar una fotografía del pie para obtener una valoración.",
       "sources": [
         {
@@ -5776,9 +5894,13 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para podólogos sugiere marketing para podologos; marketing podología, marketing digital para podologia, publicidad podologia (siete variantes) e instagram podologia tienen sugerencias. Gestión de redes sociales para podólogos, redes sociales para podólogos y como conseguir pacientes podología no tienen sugerencias, pero la primera es la frase en la que la landing ya sale 1.ª.",
       "searchVolume": null,
-      "googlePosition": null
+      "googlePosition": {
+        "query": "gestión de redes sociales para podólogos",
+        "position": 1,
+        "checked": "2026-11-15"
+      }
     },
     "resourcePresentation": {
       "description": "Texto completo para presentar el contacto con la clínica y orientar una petición de valoración por fotografía.",
@@ -5812,20 +5934,37 @@
       "",
       "El responsable confirma el canal de atención y qué peticiones debe recibir directamente su equipo.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Primera visita al podólogo: qué preguntar al pedir cita y qué traer el día de la consulta",
+      "Te presentamos el gabinete: así es el espacio donde te atiende nuestro equipo de podología",
+      "Esta semana te presentamos uno a uno los servicios de la clínica y cómo pedir cita para cada uno"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿os puedo mandar una foto de la uña para que me digáis qué es?",
+      "answer": "Hola, gracias por escribir. Por aquí no valoramos fotos: lo ve el podólogo en consulta. Te pasamos con la clínica para darte cita lo antes posible."
+    }
   },
   {
     "id": 66,
     "slug": "medicina-estetica",
-    "title": "Gestión de redes sociales para medicina estética | Dania360",
-    "description": "Presenta tu clínica de medicina estética y su forma de consulta con contenido revisado. Growth incluye redes sociales, web y bot de IA por 297 €/mes.",
-    "eyebrow": "El equipo y la consulta dan sentido al perfil",
-    "promise": "Presenta el criterio del equipo y cómo empieza una consulta.",
-    "lead": "Preparamos la comunicación de tu clínica de medicina estética con información revisada por su responsable. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para medicina estética y redes sociales | Dania360",
+    "description": "Marketing para medicina estética: publicaciones revisadas por el médico, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para clínicas de medicina estética",
+    "promise": "Presenta el criterio médico de tu equipo y cómo empieza una consulta.",
+    "lead": "Publicamos cada día contenido revisado por tu responsable médico sobre el equipo, la consulta y los servicios de la clínica, y atendemos mensajes y reseñas sin recomendar tratamientos. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Dos espacios conceptuales para la información del perfil y el contacto con la consulta de medicina estética",
     "artCaption": "Composición editorial original. No muestra pacientes, tratamientos ni resultados de una intervención.",
     "resourceTitle": "Una publicación de consulta y una respuesta informativa",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para clínicas estéticas?",
+        "En una clínica de medicina estética preparamos y publicamos un contenido al día sobre el equipo médico, la consulta y los servicios que confirmes, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. El responsable médico revisa cada pieza antes de publicarla. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes en una clínica de medicina estética con las redes sociales?",
+        "La confianza nace de ver quién te va a atender y cómo es la consulta previa, no de una promesa de resultado. Combinamos presentación del equipo médico, explicación de la valoración, reseñas respondidas sin datos de salud y mensajes que se derivan a la clínica en lugar de recomendar técnicas. No publicamos resultados inventados ni garantizamos pacientes."
+      ],
       [
         "¿Esta página tiene el mismo enfoque que la de salones de estética?",
         "Aquí se presenta la comunicación de una clínica de medicina estética y el comienzo de la consulta con sus profesionales. El contenido se prepara desde el alcance médico que confirme el centro."
@@ -5839,24 +5978,32 @@
         "La clínica valida sus servicios, datos profesionales y afirmaciones de su especialidad. Trabajamos con material autorizado, sin crear pacientes, testimonios o resultados ficticios."
       ],
       [
+        "¿Cuánto cuesta el marketing para medicina estética?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía canales y SEO continuo. La inversión en anuncios no está incluida en ningún plan; si quieres valorarla, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para clínicas de medicina estética por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Clínicas de medicina estética",
-    "h1": "Gestión de redes sociales para clínicas de medicina estética",
+    "h1": "Marketing para medicina estética: redes sociales y web para tu clínica",
     "hubGroup": "salud-cuidados",
     "layout": "medicina-estetica",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para clínicas de medicina estética",
-        "community manager medicina estética",
-        "redes sociales clínicas medicina estética",
-        "marketing medicina estética"
+        "marketing medicina estética",
+        "marketing para medicina estética",
+        "marketing clínica estética",
+        "marketing para clínicas estéticas",
+        "agencia de marketing para clínicas estéticas",
+        "publicidad medicina estética",
+        "instagram medicina estética",
+        "redes sociales medicina estética"
       ],
-      "intent": "Clínica de medicina estética que necesita presentar al equipo, la consulta y su valoración profesional con información revisada.",
+      "intent": "Clínica de medicina estética que busca marketing para medicina estética: quién le lleva redes, Google y web para presentar a su equipo médico y la consulta de valoración, con publicidad sanitaria responsable. La landing vende la gestión de Dania360 con publicaciones revisadas por el responsable médico, mensajes, reseñas, ficha de Google, web y bot de IA; no recomienda tratamientos ni publica resultados. Se distingue de la landing de salones de estética.",
       "distinctFrom": "Separar la información comercial del perfil de la decisión sobre una técnica, mediante un texto de consulta y una respuesta a la petición de recomendación por mensaje.",
       "sources": [
         {
@@ -5866,7 +6013,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing medicina estética y marketing para medicina estética tienen sugerencia; marketing para clínicas estéticas sugiere marketing digital y agencia de marketing para clínicas estéticas; publicidad medicina estética e instagram medicina estetica tienen sugerencia. Redes sociales medicina estética, community manager medicina estética y como conseguir pacientes medicina estética no tienen sugerencias. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -5898,20 +6045,37 @@
       "",
       "Gracias por escribir. Podemos facilitarte información sobre la clínica y cómo consultar con su equipo. Para estudiar qué opción puede corresponder a tu situación, debe atenderte el profesional por el canal del centro. Si quieres conocer cómo solicitar esa consulta, te indicaremos el procedimiento de contacto.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Así es la primera consulta en nuestra clínica: valoración médica antes de decidir nada",
+      "Te presentamos al equipo médico: quién te atiende y qué hace cada profesional en la clínica",
+      "Preguntas que conviene hacer antes de cualquier tratamiento, respondidas por nuestro equipo"
+    ],
+    "heroChat": {
+      "question": "Hola, ¿qué me recomendáis para las ojeras? ¿Cuánto cuesta?",
+      "answer": "Hola, gracias por escribir. Para recomendarte algo te tiene que valorar el médico en consulta. Te pasamos con la clínica para explicarte cómo pedir cita y su precio."
+    }
   },
   {
     "id": 67,
     "slug": "residencias-mayores",
-    "title": "Redes sociales para residencias de mayores | Dania360",
-    "description": "Acerca el centro, el equipo y la visita a quienes buscan una residencia de mayores. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Un centro que se pueda conocer y consultar",
+    "title": "Marketing para residencias de mayores y redes sociales | Dania360",
+    "description": "Marketing para residencias de mayores: publicaciones del centro, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing y publicidad para residencias de mayores",
     "promise": "Muestra la residencia con claridad y prepara la conversación sobre una visita.",
-    "lead": "Gestionamos contenido para presentar tu residencia de mayores y cómo informarse con su equipo. Growth incorpora redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día los espacios, el equipo y la organización del centro que podáis mostrar, atendemos mensajes y reseñas y llevamos la ficha de Google. Las consultas sobre plazas y visitas llegan a la residencia. Web y bot de IA incluidos en Growth por 297 €/mes.",
     "artAlt": "Plano conceptual con tres paradas editoriales de una residencia: situar, conocer un espacio y conversar con el equipo",
     "artCaption": "Plano editorial original. No representa una residencia, servicios asistenciales o residentes reales.",
     "resourceTitle": "Un recorrido de tres paradas para presentar la residencia",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para residencias de mayores?",
+        "Preparamos y publicamos un contenido al día sobre los espacios, el equipo y la organización del centro que podáis mostrar, respondemos comentarios, mensajes y reseñas y gestionamos vuestra ficha de Google Business Profile. Las consultas sobre plazas y visitas llegan a la persona que indique la residencia. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo dar a conocer una residencia de mayores en redes sociales y Google?",
+        "Las familias suelen comparar varias residencias antes de visitar ninguna. Ayuda que encuentren fotos reales de los espacios, al equipo que informa, cómo se organiza el día y cómo pedir una visita, además de una ficha de Google cuidada y reseñas contestadas con respeto. No usamos a los residentes como reclamo ni prometemos ocupación."
+      ],
       [
         "¿Hay que mostrar residentes para dar a conocer el centro?",
         "Podemos presentar espacios, equipo y funcionamiento con material autorizado. La propuesta de esta página permite explicar la residencia sin convertir la vida privada de quienes residen en contenido promocional."
@@ -5925,24 +6089,32 @@
         "Se orientan hacia el canal que indique el responsable, sin tratar esa situación en comentarios públicos ni revelar la relación con la residencia. Acordamos con el equipo cómo continuar cada motivo de contacto."
       ],
       [
+        "¿Cuánto cuesta el marketing y la publicidad para una residencia de mayores?",
+        "Growth es publicidad orgánica por 297 €/mes sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía redes y SEO continuo. Las campañas de anuncios de pago y su inversión no están incluidas; si queréis valorarlas, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para residencias de mayores por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Residencias de mayores",
-    "h1": "Gestión de redes sociales para residencias de mayores",
+    "h1": "Marketing para residencias de mayores: redes sociales y web para preparar la visita",
     "hubGroup": "salud-cuidados",
     "layout": "residencias-mayores",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para residencias de mayores",
+        "marketing para residencias de mayores",
+        "marketing residencias",
+        "marketing residencias de ancianos",
+        "publicidad residencias",
+        "publicidad residencias de mayores",
         "redes sociales residencias de mayores",
-        "community manager residencias mayores",
-        "marketing residencias"
+        "marketing sociosanitario",
+        "como captar clientes residencia"
       ],
-      "intent": "Residencia que quiere que la persona interesada y quienes la acompañen conozcan el centro y cómo preparar una visita.",
+      "intent": "Residencia de mayores que busca marketing y publicidad para que las familias conozcan el centro y pidan una visita, sin exponer a quienes residen. La landing vende la gestión de Dania360 con publicaciones de espacios y equipo, mensajes, reseñas, ficha de Google, web y bot de IA; no gestiona plazas ni incluye anuncios de pago.",
       "distinctFrom": "Un recorrido editorial por espacios y equipo, con información para consultar una visita y sin utilizar residentes como material promocional.",
       "sources": [
         {
@@ -5952,7 +6124,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. Solo publicidad residencias devuelve sugerencias (publicidad residencias de mayores y publicidad de residencias). Marketing para residencias de mayores, marketing residencias, marketing residencias de ancianos, redes sociales residencias de mayores, marketing sociosanitario y como captar clientes residencia no tienen sugerencias. Se mantiene el patrón marketing para, con publicidad en el eyebrow, una FAQ y un H2. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null,
       "editorialRevision": "Añadida una conexión contextual que distingue el centro residencial del servicio de ayuda a domicilio, solo cuando la empresa también lo preste."
@@ -5993,20 +6165,37 @@
       "",
       "Al adaptar la pieza, el responsable confirma qué espacio se presenta, quién puede aparecer y cómo se solicita información. Las plazas disponibles y las condiciones de atención se revisan con la residencia.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Así es el día a día en nuestra residencia: horarios, espacios comunes y cómo organizar una visita",
+      "Te presentamos al equipo que atiende a las familias y resuelve dudas sobre plazas y visitas",
+      "Preguntas que conviene llevar a la primera visita a una residencia, preparadas por el equipo"
+    ],
+    "heroChat": {
+      "question": "Hola, buscamos residencia para mi padre. ¿Tenéis plazas y podemos ir a verla este fin de semana?",
+      "answer": "Hola, gracias por escribir. Te pasamos con el equipo de la residencia, que te informa sobre plazas y condiciones y te propone un día para la visita."
+    }
   },
   {
     "id": 68,
     "slug": "ayuda-domicilio",
-    "title": "Gestión de redes sociales para ayuda a domicilio | Dania360",
-    "description": "Explica el alcance y la zona de tu empresa de ayuda a domicilio con contenido propio. Gestión de redes, web y bot de IA en Growth por 297 €/mes.",
-    "eyebrow": "La confianza empieza por entender el servicio",
-    "promise": "Deja claro qué se puede consultar y con quién continuar.",
-    "lead": "Presentamos tu empresa de ayuda a domicilio, su zona y cómo solicitar información con contenido propio. Growth reúne gestión de redes, atención de sus canales, web y bot de IA por 297 €/mes.",
+    "title": "Marketing para ayuda a domicilio y redes sociales | Dania360",
+    "description": "Marketing para empresas de ayuda a domicilio: publicaciones, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para empresas de ayuda a domicilio",
+    "promise": "Deja claro qué servicio prestas, en qué zona y con quién hablar.",
+    "lead": "Publicamos cada día qué servicio ofrece tu empresa, en qué zona trabaja y cómo pedir información, y atendemos mensajes y reseñas. Separamos las consultas de familias de las candidaturas. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Casa conceptual con dos rutas diferenciadas para información del servicio de ayuda a domicilio y candidaturas profesionales",
     "artCaption": "Esquema editorial original. No representa un domicilio, una familia ni una oferta de empleo reales.",
     "resourceTitle": "Presentación del servicio y dos rutas de contacto",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para empresas de ayuda a domicilio?",
+        "Preparamos y publicamos un contenido al día sobre el servicio, la zona en la que trabajáis y cómo pedir información, respondemos comentarios, mensajes y reseñas y gestionamos vuestra ficha de Google Business Profile. Separamos las consultas de familias de las candidaturas y las derivamos al canal que indiquéis. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir clientes para una empresa de ayuda a domicilio con las redes sociales?",
+        "Quien busca ayuda a domicilio necesita saber pronto si llegáis a su municipio, qué tipo de apoyo prestáis y con quién hablar. Publicaciones claras sobre zona y servicio, una ficha de Google con reseñas respondidas y mensajes atendidos a tiempo ayudan a que esa familia os escriba. No garantizamos contratos: la empresa confirma cada servicio."
+      ],
       [
         "¿Cómo evitamos mezclar consultas de servicio y solicitudes de empleo?",
         "Identificamos el motivo del mensaje y lo dirigimos al canal que confirme la empresa. El ejemplo incluye respuestas completas para ambos recorridos, sin pedir datos personales en público."
@@ -6020,24 +6209,31 @@
         "Se configura con información del negocio para orientar sobre el servicio y el contacto. La contratación, los profesionales y la organización asistencial corresponden a la empresa; no se atribuyen esas funciones al bot."
       ],
       [
+        "¿Cuánto cuesta el marketing para una empresa de ayuda a domicilio?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía redes y SEO continuo. Los anuncios de pago, incluidos los de captación de personal, no están en ningún plan; lo vemos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para empresas de ayuda a domicilio por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Empresas de ayuda a domicilio",
-    "h1": "Gestión de redes sociales para empresas de ayuda a domicilio",
+    "h1": "Marketing para empresas de ayuda a domicilio: redes sociales y web",
     "hubGroup": "salud-cuidados",
     "layout": "ayuda-domicilio",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para empresas de ayuda a domicilio",
-        "redes sociales ayuda a domicilio",
-        "marketing empresas ayuda a domicilio",
-        "community manager servicios asistenciales"
+        "marketing para empresas de ayuda a domicilio",
+        "marketing ayuda a domicilio",
+        "empresa de ayuda a domicilio",
+        "como conseguir clientes ayuda a domicilio",
+        "publicidad ayuda a domicilio",
+        "marketing para cuidadores",
+        "como conseguir clientes cuidado de mayores"
       ],
-      "intent": "Empresa de ayuda a domicilio que necesita explicar qué servicio ofrece y en qué zona, y separar una consulta de contratación de una candidatura.",
+      "intent": "Empresa de ayuda a domicilio que busca marketing para que las familias de su zona sepan qué servicio presta y cómo pedir información, separando esas consultas de las candidaturas. La landing vende la gestión de Dania360 con publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA; no organiza cuidados ni asigna profesionales.",
       "distinctFrom": "Dos rutas de contacto completas para familia o persona interesada y profesional que busca empleo, sin solicitar información personal del domicilio en público.",
       "sources": [
         {
@@ -6047,7 +6243,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. Ninguna variante de marketing o publicidad para ayuda a domicilio tiene sugerencias (marketing para empresas de ayuda a domicilio, marketing ayuda a domicilio, publicidad ayuda a domicilio, como conseguir clientes ayuda a domicilio, marketing para cuidadores). Empresa de ayuda a domicilio sí devuelve diez sugerencias, casi todas de marcas y ciudades. Se usa el patrón marketing para, abreviado en el title para no pasar de 65 caracteres y completo en el H1 y la descripción. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -6079,20 +6275,37 @@
       "",
       "Gracias por tu interés en trabajar con la empresa. Para informarte sobre candidaturas, utiliza el canal de selección que indique el equipo. Desde allí podrán explicarte el procedimiento. No necesitas publicar un currículum ni datos personales en los comentarios del perfil.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Qué incluye nuestro servicio de ayuda a domicilio y en qué municipios lo prestamos",
+      "Así es la primera visita para conocer qué necesita la persona y organizar el servicio",
+      "¿Quieres trabajar con nosotros como auxiliar? Te contamos cómo enviar tu candidatura"
+    ],
+    "heroChat": {
+      "question": "Hola, buscamos a alguien que ayude a mi madre por las mañanas. ¿Llegáis a nuestro pueblo?",
+      "answer": "Hola, gracias por escribir. Dinos el municipio por privado y el equipo comprueba la zona y te explica el servicio y sus condiciones. Sin datos personales en comentarios."
+    }
   },
   {
     "id": 69,
     "slug": "logopedia",
-    "title": "Gestión de redes sociales para logopedas | Dania360",
-    "description": "Da a conocer las áreas y el equipo de tu centro de logopedia con contenido revisado. Growth incluye gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Que cada público reconozca el servicio que ofreces",
+    "title": "Marketing para logopedas y redes sociales | Dania360",
+    "description": "Marketing para logopedas: publicaciones revisadas por tu equipo, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para logopedas y centros de logopedia",
     "promise": "Haz reconocibles los servicios de logopedia que ofrece tu centro.",
-    "lead": "Desarrollamos contenido para explicar tu centro de logopedia, sus áreas y cómo informarse con el equipo. Growth incluye gestión de redes, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día contenido revisado por el logopeda sobre las áreas que atiende tu centro, su equipo y cómo pedir cita, y atendemos mensajes y reseñas sin valorar casos por redes. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Dos piezas editoriales conceptuales para presentar servicios de logopedia a público infantil y adulto",
     "artCaption": "Ilustración editorial original. No representa menores, pacientes ni resultados de una intervención.",
     "resourceTitle": "Dos publicaciones de presentación para un centro de logopedia",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para logopedas?",
+        "Preparamos y publicamos un contenido al día sobre las áreas que atiende tu centro, el equipo y cómo pedir cita, respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. El logopeda revisa la terminología y todo lo que trata de su especialidad. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes en un centro de logopedia con las redes sociales?",
+        "Familias y adultos quieren saber si el centro atiende lo que necesitan, quién lo hace y cómo es la primera cita. Publicaciones por áreas, una ficha de Google cuidada, reseñas respondidas sin datos de salud y mensajes derivados al centro responden a esas dudas. No hacemos valoraciones por redes ni garantizamos un número de pacientes."
+      ],
       [
         "¿Podéis comunicar áreas infantiles y adultas sin mezclarlas?",
         "Cada pieza sitúa el servicio y el público al que se dirige. El centro confirma qué áreas ofrece y quién las atiende; no se le atribuye toda la amplitud de la profesión por defecto."
@@ -6106,24 +6319,30 @@
         "Podemos presentar al equipo, el funcionamiento del centro y sus servicios con material autorizado. Los ejemplos de esta página son textos originales, no conversaciones ni casos de familias reales."
       ],
       [
+        "¿Cuánto cuesta el marketing para logopedas?",
+        "Growth cuesta 297 €/mes sin permanencia: 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale, por 497 €/mes, suma más redes y SEO continuo. Los anuncios de pago no están incluidos en ningún plan; si quieres valorarlos, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para centros de logopedia por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Centros de logopedia",
-    "h1": "Gestión de redes sociales para centros de logopedia",
+    "h1": "Marketing para logopedas: redes sociales y web para tu centro de logopedia",
     "hubGroup": "salud-cuidados",
     "layout": "logopedia",
-    "contentModified": "2026-11-02",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para centros de logopedia",
-        "community manager logopedas",
+        "marketing para logopedas",
+        "marketing logopedas",
+        "marketing logopedia",
         "redes sociales logopedia",
-        "marketing logopedas"
+        "instagram logopedia",
+        "como conseguir pacientes logopedia"
       ],
-      "intent": "Centro de logopedia que necesita explicar a qué públicos atiende y qué áreas ofrece, con la revisión del logopeda.",
+      "intent": "Logopeda o centro de logopedia que busca marketing para logopedas: quién le lleva redes, Google y web para que familias y adultos sepan qué áreas atiende y pidan cita. La landing vende la gestión de Dania360 con publicaciones revisadas por el logopeda, mensajes, reseñas, ficha de Google, web y bot de IA; no hace valoraciones ni propone ejercicios desde redes.",
       "distinctFrom": "Dos publicaciones adaptables a atención infantil y adulta para mostrar el alcance del centro sin reducirlo a clases ni sugerir diagnósticos desde redes.",
       "sources": [
         {
@@ -6139,7 +6358,7 @@
           "checkedDateMadrid": "2026-11-02"
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para logopedas tiene sugerencia (también desde marketing logopedas) e instagram logopedia devuelve sugerencias. Marketing logopedia, redes sociales logopedia, redes sociales logopedas y como conseguir pacientes logopedia no tienen sugerencias. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null
     },
@@ -6171,20 +6390,37 @@
       "",
       "El centro confirma el área que quiere presentar, el profesional que la atiende y su forma de contacto. Publicar ambas piezas tiene sentido cuando ambas describen servicios reales. La imagen puede mostrar al equipo o material autorizado del centro, sin necesitar fotografías de pacientes.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Logopedia infantil y de adultos: te contamos qué áreas atiende nuestro centro y quién las lleva",
+      "Cómo es la primera cita en el centro de logopedia y qué puedes preguntar al reservar",
+      "Te presentamos al equipo de logopedas: áreas de trabajo y cómo contactar con cada una"
+    ],
+    "heroChat": {
+      "question": "Hola, mi hijo tiene 4 años y le cuesta pronunciar algunos sonidos. ¿Podéis verlo?",
+      "answer": "Hola, gracias por escribir. Eso lo valora el logopeda en consulta, no por aquí. Te pasamos con el centro para explicarte cómo es la primera cita y darte hora."
+    }
   },
   {
     "id": 70,
     "slug": "terapia-ocupacional",
-    "title": "Gestión de redes sociales para terapia ocupacional | Dania360",
-    "description": "Explica el trabajo de tu centro de terapia ocupacional con contenido claro y propio. Growth reúne gestión de redes, web y bot de IA por 297 €/mes.",
-    "eyebrow": "Un trabajo que merece una explicación comprensible",
+    "title": "Marketing para terapia ocupacional y redes sociales | Dania360",
+    "description": "Marketing para terapia ocupacional: publicaciones que explican tu centro, mensajes, reseñas, web y bot de IA por 297 €/mes. Sin permanencia. Auditoría gratis.",
+    "eyebrow": "Marketing digital para centros de terapia ocupacional",
     "promise": "Explica tu servicio con palabras que permitan empezar una conversación.",
-    "lead": "Preparamos contenido para que se entienda el trabajo de tu centro de terapia ocupacional y cómo informarse. Growth incluye redes sociales, atención de los canales del plan, web y bot de IA por 297 €/mes.",
+    "lead": "Publicamos cada día contenido revisado por tus terapeutas que explica la terapia ocupacional con ejemplos cotidianos, quién atiende y cómo pedir información. Atendemos mensajes y reseñas. Growth incluye web y bot de IA por 297 €/mes.",
     "artAlt": "Diagrama editorial original que relaciona persona, actividad y entorno para explicar un centro de terapia ocupacional",
     "artCaption": "Composición conceptual original. No es un caso clínico, una evaluación ni un ejercicio terapéutico.",
     "resourceTitle": "Persona, actividad y entorno en una publicación de presentación",
     "faq": [
+      [
+        "¿Qué hace una agencia de marketing para terapeutas ocupacionales?",
+        "Preparamos y publicamos un contenido al día que explica la terapia ocupacional con ejemplos cotidianos, presenta al equipo y cuenta cómo pedir información; respondemos comentarios, mensajes y reseñas y gestionamos tu ficha de Google Business Profile. Tus terapeutas revisan el alcance y el vocabulario. Growth incluye además web con chat y modo automático de IA."
+      ],
+      [
+        "¿Cómo conseguir pacientes en un centro de terapia ocupacional?",
+        "Mucha gente no sabe qué hace un terapeuta ocupacional hasta que alguien se lo recomienda. Por eso el contenido explica la profesión con actividades de la vida diaria, presenta al equipo y deja claro cómo pedir información, apoyado en una ficha de Google cuidada y reseñas respondidas. No prometemos resultados de intervención ni un número de pacientes."
+      ],
       [
         "¿Cómo explicáis el servicio a quien no conoce la terapia ocupacional?",
         "Partimos de una idea que el equipo quiera hacer comprensible y del alcance real del centro. El ejemplo relaciona persona, actividad y entorno para presentar su trabajo sin exigir vocabulario técnico al lector."
@@ -6198,24 +6434,30 @@
         "Los profesionales revisan el alcance y el vocabulario de su especialidad. La agencia da forma al contenido con material autorizado, sin crear valoraciones, ejercicios o resultados de intervención."
       ],
       [
+        "¿Cuánto cuesta el marketing para un centro de terapia ocupacional?",
+        "Growth cuesta 297 €/mes sin permanencia e incluye 30 publicaciones al mes con vídeos de 15 segundos en Instagram, Facebook, TikTok y Pinterest, comentarios, mensajes, reseñas, ficha de Google, web y bot de IA. Scale cuesta 497 €/mes y amplía canales y SEO continuo. La inversión en anuncios no está incluida en ningún plan; si quieres valorarla, lo hablamos en la auditoría gratuita."
+      ],
+      [
         "¿Qué incluye Growth para centros de terapia ocupacional por 297 €/mes?",
         "Gestión de redes, atención de los canales del plan e informe mensual, con todo Starter incluido: página web con chat y modo automático de IA, kit QR de reseñas, una actualización web al mes, dominio .com y hosting."
       ]
     ],
     "name": "Centros de terapia ocupacional",
-    "h1": "Gestión de redes sociales para centros de terapia ocupacional",
+    "h1": "Marketing para terapeutas ocupacionales: redes sociales y web para tu centro",
     "hubGroup": "salud-cuidados",
     "layout": "terapia-ocupacional",
-    "contentModified": "2026-11-03",
+    "contentModified": "2026-11-15",
     "research": {
-      "date": "2026-11-02",
+      "date": "2026-11-15",
       "queries": [
-        "gestión de redes sociales para centros de terapia ocupacional",
+        "marketing para terapeutas ocupacionales",
+        "marketing terapia ocupacional",
+        "marketing para terapeutas",
+        "agencia de marketing para terapeutas",
         "redes sociales terapia ocupacional",
-        "community manager terapia ocupacional",
-        "marketing terapia ocupacional"
+        "como conseguir pacientes terapia ocupacional"
       ],
-      "intent": "Centro de terapia ocupacional que quiere hacer comprensible su trabajo para la persona interesada y quienes la acompañan.",
+      "intent": "Terapeuta ocupacional o centro de terapia ocupacional que busca marketing para que se entienda su trabajo y le pidan información, tanto la persona interesada como quienes la acompañan. La landing vende la gestión de Dania360 con publicaciones revisadas por el equipo, mensajes, reseñas, ficha de Google, web y bot de IA; no propone intervenciones ni promete resultados.",
       "distinctFrom": "Traducir persona, actividad y entorno a una explicación comprensible y una publicación completa, respetando la participación de la persona interesada.",
       "sources": [
         {
@@ -6243,7 +6485,7 @@
           ]
         }
       ],
-      "demand": "Contraste cualitativo de intención comercial y contexto del sector. Sin medición de volumen, dificultad, tendencia o posición en Google España.",
+      "demand": "Autocompletado de Google España consultado el 2026-11-15 (hl=es, gl=es) para las consultas indicadas y variantes cortas. Volumen de búsqueda y dificultad no verificados. marketing para terapeutas devuelve diez sugerencias (agencia, marketing digital, curso), casi todas de terapias holísticas; marketing para terapeutas ocupacionales, marketing terapia ocupacional y como conseguir pacientes terapia ocupacional no tienen sugerencias, y redes sociales terapia ocupacional solo sugiere el modelo teórico del mismo nombre. El title usa marketing para terapia ocupacional y el H1 marketing para terapeutas ocupacionales, que recoge la raíz con demanda. Con el title anterior la landing no salía en la primera página (2026-11-15).",
       "searchVolume": null,
       "googlePosition": null,
       "editorialRevision": "Revisado el ejemplo para explicar persona, actividad y entorno con lenguaje concreto y actividades cotidianas conceptuales. Añadida una conexión contextual al área de logopedia cuando el centro la ofrezca. No se propone una intervención ni se atribuyen servicios al lector."
@@ -6280,7 +6522,16 @@
       "",
       "Gracias por contactar. Podemos informarte sobre los servicios que ofrece el centro y cómo consultar con su equipo. Utiliza el canal indicado en el perfil y cuéntanos qué información necesitas sobre su funcionamiento, sin publicar documentación o detalles personales en los comentarios. El responsable te explicará cómo continuar.",
       ""
-    ]
+    ],
+    "heroPosts": [
+      "Qué es la terapia ocupacional, explicado con actividades cotidianas: vestirse, cocinar o escribir",
+      "Te presentamos al equipo de terapia ocupacional y los servicios que ofrece el centro",
+      "Cómo pedir información sobre el centro, como persona interesada o acompañando a alguien"
+    ],
+    "heroChat": {
+      "question": "Hola, nos han recomendado terapia ocupacional para mi padre. ¿Cómo funciona en vuestro centro y cómo empezamos?",
+      "answer": "Hola, gracias por escribir. Te pasamos con el equipo, que os explica los servicios y cómo es la primera valoración. Lo ideal es que tu padre participe también en esa conversación."
+    }
   },
   {
     "id": 71,
