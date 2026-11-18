@@ -42,6 +42,14 @@
     update();
   }
 
+  // Cabecera fija: al bajar se vuelve opaca y marca su borde, como en la portada.
+  const header = d.querySelector('.site-header');
+  if (header) {
+    const mark = () => header.classList.toggle('is-scrolled', scrollY > 8);
+    addEventListener('scroll', mark, {passive: true});
+    mark();
+  }
+
   // WhatsApp flotante: aparece al dejar atrás los botones del hero (en móvil el hero es muy alto)
   // y se aparta cuando ya hay una llamada final en pantalla.
   const float = d.querySelector('.wa-float');
