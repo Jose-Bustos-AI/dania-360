@@ -105,3 +105,11 @@
   white-space: normal;
   text-align: center;
 }
+/* Bloque final de enlaces: landings del sector y guías relacionadas. */
+.article-body .related-grid + h3 { margin-top: 34px; }
+.article-body .related-more { margin: 24px 0 0; }
+.resource-card h3 { margin-top: 28px; font: 700 27px/1.15 Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: -.03em; }
+.sector-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 30px 0 0; padding: 0; list-style: none; }
+.sector-links a { display: inline-block; padding: 10px 16px; border: 1px solid var(--line); border-radius: 999px; color: white; font-size: 14px; font-weight: 700; text-decoration: none; }
+.sector-links a:hover { border-color: rgba(255, 113, 57, .65); }
+@media (max-width: 680px) { .resource-card h3 { font-size: 24px; } }
