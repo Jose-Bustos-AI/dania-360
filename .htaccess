@@ -4,6 +4,14 @@ RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^www\.dania360\.com$ [NC]
 RewriteRule ^ https://dania360.com%{REQUEST_URI} [R=301,L]
 
+# URL duplicadas: /index.html y /carpeta/index.html van a la URL con barra final.
+RewriteCond %{THE_REQUEST} \s/+(?:[^?\s]*/)?index\.html[?\s] [NC]
+RewriteRule ^(.*/)?index\.html$ https://dania360.com/$1 [R=301,L,NC]
+
+# Archivos de trabajo del repositorio: no se publican.
+RewriteRule ^(?:landing-src|sector-pages-src|restaurantes-src|docs)(?:/|$) - [F,L,NC]
+RewriteRule (?:^|/)README\.md$ - [F,L,NC]
+
 # Short affiliate link: preserve the complete, fixed Dania referral destination.
 RewriteRule ^ver/?$ https://go.dania.ai/es/?via=jose-antonio-bustos-garcia-dania [R=302,L,NE]
 
