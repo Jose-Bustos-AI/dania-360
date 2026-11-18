@@ -36,8 +36,13 @@ const homeH1 = homepage.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1]
   .replace(/<[^>]+>/g, '')
   .replace(/\s+/g, ' ')
   .trim();
-if (homeH1 !== 'Gestión de redes sociales.') {
-  errors.push('/: el H1 debe decir «Gestión de redes sociales» de forma legible');
+// Desde el rediseño de noviembre de 2026 la portada compite por "agencia de marketing con IA" para pymes;
+// "gestión de redes sociales para empresas" queda para /gestion-redes-sociales/ y no se repite aquí.
+if (!/^Agencia de marketing con IA\b/.test(homeH1 ?? '') || !/redes sociales/i.test(homeH1) || !/pymes/i.test(homeH1)) {
+  errors.push('/: el H1 debe presentar la "agencia de marketing con IA" y redes sociales para pymes de forma legible');
+}
+if (/Gestión de redes sociales para empresas/i.test(homeH1 ?? '')) {
+  errors.push('/: el H1 no debe repetir el de /gestion-redes-sociales/');
 }
 if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(servicePage)) {
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
