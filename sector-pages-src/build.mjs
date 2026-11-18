@@ -142,6 +142,11 @@ const guides = [
   ['/recursos/calendario-redes-sociales-clinicas-veterinarias/','Calendario de redes sociales para clínicas veterinarias','Ideas, guion de Reel y mensajes de tutores'],
   ['/recursos/captar-propietarios-inmobiliaria-redes-sociales/','Cómo captar propietarios para una inmobiliaria','Contenido, valoración y seguimiento'],
   ['/recursos/atraer-clientes-tienda-redes-sociales/','Cómo atraer clientes a una tienda con redes sociales','Producto, stock y medición hasta la venta'],
+  ['/recursos/redes-sociales-para-hoteles/','Redes sociales para hoteles','Ideas por temporada, mensajes y reseñas'],
+  ['/recursos/redes-sociales-para-agencias-de-viajes/','Redes sociales para agencias de viajes','Ideas, campañas por meses y ofertas'],
+  ['/recursos/redes-sociales-para-nutricionistas/','Redes sociales para nutricionistas','Ideas de contenido y límites de la publicidad sanitaria'],
+  ['/recursos/mejores-redes-sociales-para-fotografos/','Mejores redes sociales para fotógrafos','Qué red usar según tu especialidad'],
+  ['/recursos/redes-sociales-para-arquitectos/','Redes sociales para arquitectos','Proyecto, obra y permisos antes de publicar'],
 ];
 for (const url of Object.keys(hubPlacement)) if (!existing.some(([u]) => u === url)) throw new Error(`índice: ${url} no figura entre las landings hechas a mano`);
 if (existing.some(([url]) => !hubPlacement[url])) throw new Error('índice: asigna un área a cada landing hecha a mano');
