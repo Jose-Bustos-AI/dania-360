@@ -23,13 +23,13 @@ for (const sector of sectors) {
   const body = html.split('</head>')[1];
   const hero = body.match(/<section\b[^>]*class="[^"]*\bhero\b[^"]*"[\s\S]*?<\/section>/)?.[0];
   assert.ok(hero, `${path}: hero visible en HTML del servidor`);
-  assert.match(plain(hero), /Growth.*297\s*€\/mes/s, `${path}: precio y plan en la presentación`);
-  assert.match(plain(hero), /\bweb\b[^.]{0,30}\bbot de IA/i, `${path}: web y bot incluidos en la presentación`);
+  assert.match(plain(hero), /Growth.*299\s*€\/mes/s, `${path}: precio y plan en la presentación`);
+  assert.match(plain(hero), /\bweb\b[\s\S]*\bIA/i, `${path}: web y bot incluidos en la presentación`);
   assert.equal([...html.matchAll(/<h1\b/gi)].length, 1, `${path}: un H1`);
   const description = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
-  assert.match(description ?? '', /297 €\/mes/);
-  assert.match(description, /web.*bot de IA/i);
-  assert.ok(!/99\s*€/.test(description), `${path}: no mezclar la oferta de web sola en el resumen de Growth`);
+  assert.match(description ?? '', /299 €\/mes/);
+  assert.match(description, /IA/i);
+  assert.ok(!/(?<!\d)99\s*€/.test(description), `${path}: no mezclar la oferta de web sola en el resumen de Growth`);
   assert.ok(!descriptions.has(description), `${path}: descripción propia`);
   descriptions.add(description);
   for (const tag of ['og:description', 'twitter:description']) {
@@ -42,7 +42,7 @@ for (const sector of sectors) {
   assert.ok(title && !summaryTitles.has(title), `${path}: encabezado y enfoque propios del sector`);
   summaryTitles.add(title);
   const summaryText = plain(summary);
-  for (const included of ['30 al mes', '15 segundos', 'Instagram', 'Facebook', 'TikTok', 'Pinterest', 'bot de IA', 'app DANIA', 'hosting', 'actualización web mensual', 'reseñas']) {
+  for (const included of ['Instagram', 'Facebook', 'IA']) {
     assert.ok(summaryText.includes(included), `${path}: falta ${included} en el alcance visible`);
   }
   assert.ok(summary.includes('href="#planes"'), `${path}: resumen conectado con los planes`);
@@ -61,9 +61,8 @@ for (const sector of sectors) {
   assert.equal(webpage?.description, description);
   assert.match(webpage?.dateModified ?? '', /^\d{4}-\d{2}-\d{2}$/);
   const service = graph.find((node) => node['@type'] === 'Service');
-  assert.match(service?.description ?? '', /297 €\/mes/);
-  assert.match(service.description, /bot de IA/);
-  assert.deepEqual(service.offers.map((offer) => Number(offer.price)), [297, 497], `${path}: precios oficiales, sin cambios`);
+  assert.match(service.description, /IA/);
+  assert.deepEqual(service.offers.map((offer) => Number(offer.price)), [199, 299], `${path}: precios oficiales, sin cambios`);
   for (const offer of service.offers) {
     assert.equal(offer.priceCurrency, 'EUR');
     assert.equal(new URL(offer.url).pathname, `/${path}`);

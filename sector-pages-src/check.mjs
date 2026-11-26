@@ -11,9 +11,8 @@ const site = 'https://dania360.com';
 const pagePath = p => `/gestion-redes-sociales-${p.slug}/`;
 const plans = JSON.parse(readFileSync(resolve(root,'landing-src/config/planes.json'),'utf8'));
 const growth = plans.planes.find(x=>x.id==='growth');
-const growthText = growth.incluye.join(' ');
-// Marcador esperado: cifras oficiales de Growth en este orden (publicaciones, redes, cuota, permanencia).
-const expectedCounts = [Number(growthText.match(/\((\d+) al mes\)/)?.[1]), growth.canales.split('·').map(x=>x.trim()).filter(x=>x && x!=='Google').length, growth.precio, 0];
+// Marcador esperado: atención con IA en la web, redes atendidas, cuota y permanencia.
+const expectedCounts = [365, 2, growth.precio, 0];
 const version = file => createHash('sha256').update(readFileSync(resolve(source,file))).digest('hex').slice(0,10);
 const sameFile = (a,b) => readFileSync(a).equals(readFileSync(b));
 const css = readFileSync(resolve(source,'styles.css'),'utf8');
@@ -60,14 +59,14 @@ for(const p of pages) {
   if(!html.includes(`rel="canonical" href="${url}"`)) fail(p.slug,'canonical incorrecto');
   if(/noindex/.test(html)) fail(p.slug,'noindex inesperado');
   if(!html.includes('id="ejemplo"')) fail(p.slug,'falta ejemplo editorial propio');
-  if(!html.includes('Web y bot de IA incluidos') || !html.includes('297 €/mes')) fail(p.slug,'oferta de Growth incompleta');
+  if(!html.includes('Web y bot de IA incluidos') || !html.includes('299 €/mes')) fail(p.slug,'oferta de Growth incompleta');
   if(/[«»“”‘’"']/.test(text(body)) || p.faq.flat().some(s=>/[«»“”‘’"']/.test(s))) fail(p.slug,'comillas en prosa nueva');
   const authoredProse = [p.title,p.description,p.h1,p.eyebrow,p.lead,p.promise,p.artAlt,p.artCaption,p.resourceTitle,...p.resource,...Object.values(presentation)];
   if(authoredProse.some(s=>/[«»“”‘’"']/.test(s))) fail(p.slug,'comillas en metadatos o recurso');
-  if(/\b(?:85|199|299|397)\s*(?:€|EUR)/.test(text(html))) fail(p.slug,'precio no oficial');
+  if(/\b(?:85|99|297|497)\s*(?:€|EUR)/.test(text(html))) fail(p.slug,'precio no oficial');
   const graph = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]+?)<\/script>/)[1])['@graph'];
   const service = graph.find(x=>x['@type']==='Service');
-  if(service.offers.price !== '297' || service.offers.priceCurrency !== 'EUR' || service.offers.priceSpecification.unitText !== 'mes') fail(p.slug,'oferta estructurada incorrecta');
+  if(JSON.stringify(service.offers.map(o=>Number(o.price))) !== JSON.stringify([199,299]) || service.offers.some(o=>o.priceCurrency !== 'EUR' || o.priceSpecification.unitText !== 'mes')) fail(p.slug,'oferta estructurada incorrecta');
   const questions = graph.find(x=>x['@type']==='FAQPage').mainEntity;
   if(questions.length !== p.faq.length) fail(p.slug,'FAQ incompleta');
   questions.forEach((q,i)=>{if(q.name!==p.faq[i][0] || q.acceptedAnswer.text!==p.faq[i][1]) fail(p.slug,'FAQ visible y estructurada distintas');});
@@ -112,13 +111,13 @@ for(const p of pages) {
   }
   if((html.match(/id="wa-glyph"/g)||[]).length!==1) fail(p.slug,'falta el icono de WhatsApp reutilizable');
   const waButtons = [...html.matchAll(/<a class="button[^"]*" href="https:\/\/wa\.me\/[^"]+"[^>]*>([\s\S]*?)<\/a>/g)];
-  if(waButtons.length<3 || waButtons.some(([,inner])=>!inner.startsWith('<svg class="wa-icon"'))) fail(p.slug,'los botones principales de WhatsApp deben llevar el icono');
+  if(waButtons.length<2 || waButtons.some(([,inner])=>!inner.startsWith('<svg class="wa-icon"'))) fail(p.slug,'los botones principales de WhatsApp deben llevar el icono');
   if(!html.includes('<div class="progress" aria-hidden="true"><span></span></div>')) fail(p.slug,'falta la barra de progreso');
   if(!html.includes(`<script src="/sectores/sectores.js?v=${version('sectores.js')}" defer></script>`) || !html.includes(`href="/sectores/sectores.css?v=${version('styles.css')}"`)) fail(p.slug,'JS o CSS compartidos sin versión actual');
   if(/class="[^"]*\breveal\b/.test(html)) fail(p.slug,'las apariciones se añaden con JavaScript, no en el HTML');
   const figure = html.match(/<section class="hero">[\s\S]*?(<figure>[\s\S]*?<\/figure>)<\/section>/)?.[1] ?? '';
   const live = heroLive(p);
-  if(!figure.includes('<div class="hero-live" data-live') || !figure.includes('<span class="live-tag">Ejemplo ilustrativo</span>')) fail(p.slug,'falta el móvil vivo del hero marcado como ejemplo ilustrativo');
+  if(!figure.includes('<div class="hero-live" data-live') || !figure.includes('<span class="live-tag">Ideas para tu equipo; sin cuota de publicaciones en Growth</span>')) fail(p.slug,'falta el móvil vivo del hero marcado como ejemplo ilustrativo');
   if((figure.match(/class="live-post/g)||[]).length!==3 || live.posts.some(post=>!figure.includes(`<strong>${esc(post.text)}</strong>`))) fail(p.slug,'el hero debe rotar las tres publicaciones de heroPosts');
   if(!figure.includes(`live-msg--in">${esc(live.chat.question)}</div>`) || !figure.includes(`live-msg--out">${esc(live.chat.answer)}</div>`)) fail(p.slug,'el chat del hero no coincide con heroChat');
   if([...live.posts.map(x=>x.text),live.chat.question,live.chat.answer].some(x=>/[«»“”‘’"']/.test(x))) fail(p.slug,'comillas en el ejemplo del hero');

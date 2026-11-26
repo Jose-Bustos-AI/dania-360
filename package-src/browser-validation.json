@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-26",
+  "browser": "Codex integrado",
+  "mobile": {
+    "pages": 104,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cardOverflow": 0,
+    "missingCards": 0,
+    "scaleWithCTA": 0
+  },
+  "desktop": {
+    "pages": 104,
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "columns": 3,
+    "cardOverflow": 0,
+    "missingCards": 0
+  },
+  "visualSamples": [
+    "/precios-gestion-redes-sociales/",
+    "/salones-estetica/",
+    "/gestion-redes-sociales-restaurantes/",
+    "/gestion-redes-sociales-fontaneros/"
+  ],
+  "tabsClosed": true,
+  "factPanels": {
+    "pages": 8,
+    "mobileWidth": 390,
+    "desktopWidth": 1280,
+    "issues": 0
+  }
+}

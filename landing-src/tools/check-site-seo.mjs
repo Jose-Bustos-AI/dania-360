@@ -48,14 +48,12 @@ if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(service
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
 }
 for (const [page, html] of [['/', homepage], ['/precios-gestion-redes-sociales/', pricingPage]]) {
-  if (/\b(?:Starter|Scale)\b/.test(html)) {
-    errors.push(`${page}: la oferta comercial debe centrarse únicamente en Growth`);
-  }
+  if (!html.includes('data-packages-version="2026-11-26"') || !html.includes('Próximamente')) errors.push(`${page}: catálogo de planes incompleto`);
   const data = [...html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
     .flatMap(([,json]) => { const value = JSON.parse(json); return value['@graph'] ?? [value]; });
   const offers = data.filter(node => node['@type'] === 'Service').flatMap(node => [node.offers].flat());
-  if (offers.length !== 1 || !/Growth/.test(offers[0].name) || offers[0].price !== '297' || offers[0].priceCurrency !== 'EUR') {
-    errors.push(`${page}: debe existir una única oferta de servicio Growth por 297 EUR`);
+  if (JSON.stringify(offers.map(o=>o.price)) !== JSON.stringify(['199','299']) || offers.some(o=>o.priceCurrency !== 'EUR')) {
+    errors.push(`${page}: debe ofrecer Starter 199 EUR y Growth 299 EUR, sin Scale disponible`);
   }
 }
 const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
@@ -63,8 +61,8 @@ const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]
   .replace(/&nbsp;/g, ' ')
   .replace(/\s+/g, ' ')
   .trim() ?? '';
-if (!/Growth.*297\s*€\/mes/i.test(heroLead) || !/web profesional con bot de IA/i.test(heroLead)) {
-  errors.push('/: la presentación debe explicar Growth (redes y web con bot de IA, 297 €/mes)');
+if (!/Growth.*299\s*€\/mes/i.test(heroLead) || !/atención con IA/i.test(heroLead)) {
+  errors.push('/: la presentación debe explicar Growth (atención con IA, 299 €/mes)');
 }
 if (homepage.includes('<b>+200</b><span>especialistas')) {
   errors.push('/: no mostrar un número de especialistas sin verificación');

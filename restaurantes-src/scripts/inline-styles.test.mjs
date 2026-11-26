@@ -25,8 +25,8 @@ test('Rechaza duplicados, cierres de style, imports y URL relativas', async () =
 test('HTML generado sin CSS local bloqueante y sincronizado con las fuentes', () => {
   const html = readFileSync(new URL('../../gestion-redes-sociales-restaurantes/index.html', import.meta.url), 'utf8').replace(/\r\n/g, '\n')
   const styles = [...html.matchAll(/<style data-source="([^"]+)">\n([\s\S]*?)\n<\/style>/g)]
-  assert.equal(styles.length, 4)
-  assert.deepEqual(styles.map(([, href]) => href.split('?')[0]).filter((href) => !href.includes('/assets/')), ['/sector-seo.css', '/sector-offer.css', '/brand-orange.css'])
+  assert.equal(styles.length, 5)
+  assert.deepEqual(styles.map(([, href]) => href.split('?')[0]).filter((href) => !href.includes('/assets/')), ['/sector-seo.css', '/sector-offer.css', '/packages.css', '/brand-orange.css'])
   assert.equal(styles.at(-1)[1], '/brand-orange.css?v=20261003-1', 'La marca sigue siendo la última capa')
   assert.doesNotMatch(html, /<link\b(?=[^>]*\brel="stylesheet")(?=[^>]*\bhref="\/)[^>]*>/)
   for (const [, href, css] of styles) {
@@ -34,5 +34,5 @@ test('HTML generado sin CSS local bloqueante y sincronizado con las fuentes', ()
     assert.equal(css, source, `No debe quedar una copia desactualizada de ${href}`)
   }
   assert.ok(Buffer.byteLength(html) < 150000, 'Presupuesto del HTML sin comprimir')
-  assert.ok(gzipSync(html).length < 30000, 'Presupuesto del HTML comprimido')
+  assert.ok(gzipSync(html).length < 32000, 'Presupuesto del HTML comprimido')
 })

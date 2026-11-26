@@ -1,3 +1,5 @@
+import {copyFile as copyPackageStyles} from 'node:fs/promises';
+import {renderPackages, packageOffers} from '../../package-src/render.mjs';
 /**
  * Generador de la landing de salones y centros de estética.
  *
@@ -86,53 +88,6 @@ const waGeneral = enlaceWhatsapp(contacto.mensajeGeneral);
 
 /* ------------------------------------------------------------------ planes */
 
-/**
- * Cada plan lleva su propio mensaje de WhatsApp con nombre y precio, de modo
- * que quien recibe la conversación sabe desde la primera línea de qué se
- * habla. El botón nunca compra: abre el chat.
- */
-function mensajePlan(plan) {
-  return (
-    'Hola, tengo un salón o centro de estética. He visto la landing de ' +
-    `Dania360 y quiero información sobre el plan ${plan.nombre} de ` +
-    `${plan.precio} ${planes.moneda}/mes. Me gustaría agendar una llamada.`
-  );
-}
-
-const iconoCheck = '<svg aria-hidden="true" focusable="false"><use href="#i-check" /></svg>';
-
-/*
- * Orden de lectura: el plan destacado (Growth, el que incluye la gestión de
- * redes con web y bot de IA) va primero; el resto conserva el orden de
- * config/planes.json. El Service del JSON-LD sigue sin publicar Starter.
- */
-const planesEnPagina = [...planes.planes].sort((a, b) => Number(b.destacado) - Number(a.destacado));
-
-function renderPlan(plan) {
-  const clases = plan.destacado ? 'sl-plan sl-plan--destacado' : 'sl-plan';
-  const claseBoton = plan.destacado ? 'sl-btn sl-btn--accion sl-btn--ancho' : 'sl-btn sl-btn--linea sl-btn--ancho';
-  const cinta = plan.etiqueta
-    ? `\n              <p class="sl-plan__cinta">${esc(plan.etiqueta)}</p>`
-    : '';
-  const incluye = plan.incluye
-    .map((linea) => `                <li>${iconoCheck}${esc(linea)}</li>`)
-    .join('\n');
-
-  return `            <article class="${clases}" aria-labelledby="plan-${plan.id}">${cinta}
-              <h3 class="sl-plan__nombre" id="plan-${plan.id}">${esc(plan.nombre)}</h3>
-              <p class="sl-plan__descripcion">${esc(plan.descripcion)}</p>
-              <p class="sl-plan__precio"><span class="sl-plan__importe">${plan.precio}</span><span class="sl-plan__periodo">${esc(planes.moneda)} / ${esc(planes.periodo)}</span></p>
-              <p class="sl-plan__canales">${esc(plan.canales)}</p>
-              <ul class="sl-plan__incluye">
-${incluye}
-              </ul>
-              <a class="${claseBoton}" href="${esc(enlaceWhatsapp(mensajePlan(plan)))}" target="_blank" rel="noopener noreferrer" data-cta-location="plan" data-plan="${esc(plan.id)}" aria-label="Escribir por WhatsApp a Dania360 para pedir información del plan ${esc(plan.nombre)} de ${plan.precio} ${esc(planes.moneda)} al mes">
-                <svg class="icono-wa" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
-                ${esc(plan.boton)}
-              </a>
-            </article>`;
-}
-
 /* -------------------------------------------------------------------- faq */
 
 /**
@@ -154,26 +109,9 @@ function renderFaq() {
 /*
  * Un único bloque JSON-LD con @graph: Organization, WebSite, imagen principal,
  * WebPage (con la misma description que la meta), migas con el pilar
- * /gestion-redes-sociales/, Service con Growth y Scale, y FAQPage.
+ * /gestion-redes-sociales/, Service con los planes disponibles Starter y Growth, y FAQPage.
  */
 const base = sitio.landing.canonical;
-const ofertaPlan = (plan) => ({
-  '@type': 'Offer',
-  name: plan.nombre,
-  description: plan.descripcion,
-  price: String(plan.precio),
-  priceCurrency: planes.moneda,
-  availability: 'https://schema.org/InStock',
-  url: `${base}#planes`,
-  priceSpecification: {
-    '@type': 'UnitPriceSpecification',
-    price: String(plan.precio),
-    priceCurrency: planes.moneda,
-    billingIncrement: 1,
-    unitCode: 'MON',
-  },
-});
-
 const schemaGrafo = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -255,7 +193,7 @@ const schemaGrafo = {
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'Planes de gestión de presencia digital',
-        itemListElement: planes.planes.filter((plan) => plan.id !== 'starter').map(ofertaPlan),
+        itemListElement: packageOffers(base),
       },
     },
     {
@@ -345,7 +283,7 @@ const landing = versionarAssets(aplicarFotos(rellenar(leerTexto('src/templates/s
     : '<div class="hero__foto-pendiente" role="img" aria-label="Espacio visual de la landing de peluquerías"></div>',
   JSONLD: jsonLd(schemaGrafo),
   WA_GENERAL: esc(waGeneral),
-  PLANES: planesEnPagina.map(renderPlan).join('\n\n'),
+  PLANES: renderPackages({context:'mi salón o centro de estética'}),
   PLANES_MICROCOPY: esc(planes.microcopy),
   FAQ: renderFaq(),
   TELEFONO: esc(contacto.telefono),
@@ -717,6 +655,7 @@ Sitemap: ${sitio.origen}/sitemap-salones-estetica.xml
 
 const ctas = (landing.match(/data-cta-location="/g) || []).length;
 
+if (!modoIntegrado) await copyPackageStyles(new URL('../../packages.css', import.meta.url), join(salida, 'packages.css'));
 console.log(`Landing generada en ${rutaLanding}`);
 console.log(`  modo            ${modoIntegrado ? 'integrado (solo la landing)' : 'autónomo (landing + legales + sitemap)'}`);
 console.log(`  ruta            ${sitio.landing.ruta}`);

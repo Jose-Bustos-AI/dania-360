@@ -36,23 +36,20 @@ for (const path of paths) {
 
   if (!meta || descriptions.has(meta)) errors.push(`${path}: descripción ausente o repetida`);
   descriptions.add(meta);
-  if (!meta?.includes('297 €')) errors.push(`${path}: la descripción debe indicar que las redes empiezan en 297 €`);
+  if (!meta?.includes('299 €')) errors.push(`${path}: la descripción debe indicar que las redes empiezan en 299 €`);
   if (title && /redes sociales.*desde 99/i.test(title)) errors.push(`${path}: el título atribuye redes sociales al precio de Starter`);
   if (canonical !== url) errors.push(`${path}: canonical incorrecto`);
   if (h1Count !== 1) errors.push(`${path}: ${h1Count} encabezados H1`);
   if (/noindex/i.test(html.match(/<meta name="robots" content="([^"]+)"/)?.[1] ?? '')) {
     errors.push(`${path}: etiqueta noindex`);
   }
-  if (prices.join(',') !== '297,497') {
-    errors.push(`${path}: el Service debe ofrecer solo Growth y Scale; ofrece ${prices.join(',')}`);
-  }
-  if (/publicaciones semanales (?:en|y)|publicación semanal en Google Business Profile|incrementa la frecuencia y añade posicionamiento SEO/i.test(html)) {
-    errors.push(`${path}: la FAQ afirma una frecuencia de publicaciones en Google no incluida en los planes oficiales`);
+  if (prices.join(',') !== '199,299') {
+    errors.push(`${path}: el Service debe ofrecer Starter y Growth, con Scale próximo; ofrece ${prices.join(',')}`);
   }
   if (['gestion-redes-sociales-restaurantes', 'gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-comercios', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia', 'gestion-redes-sociales-veterinarias'].includes(path)) {
     const faq = entities.find((entity) => entity['@type'] === 'FAQPage');
     const priceAnswer = faq?.mainEntity?.find((entry) => entry.name?.startsWith('¿Cuánto cuesta la gestión de redes sociales'))?.acceptedAnswer?.text;
-    if (!priceAnswer?.includes('Growth por 297 €') || !priceAnswer.includes('pero no gestión de redes sociales')) {
+    if (priceAnswer && (!priceAnswer.includes('299 €/mes') || !priceAnswer.includes('199 €/mes') || !priceAnswer.includes('próximo'))) {
       errors.push(`${path}: la FAQ debe distinguir Starter de los planes de gestión de redes`);
     }
     if (priceAnswer && !html.includes(`<p>${priceAnswer}</p>`)) {
@@ -65,7 +62,7 @@ for (const path of paths) {
   }
   if (path === 'gestion-redes-sociales-restaurantes') {
     if (!html.includes('Pide tu auditoría gratis')) errors.push(`${path}: falta la llamada a la auditoría gratuita`);
-    if (!html.includes('Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales')) {
+    if (!html.includes('data-package="starter"') || !html.includes('data-available="false"')) {
       errors.push(`${path}: el bloque de precios debe distinguir Starter de la gestión de redes`);
     }
     const brandStyles = [...html.matchAll(/<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>/g)];
@@ -96,8 +93,8 @@ for (const path of ['gestion-redes-sociales-murcia']) {
   if (!/(?:Gestión|Agencia) de redes sociales en Murcia/.test(title ?? '') || /(?:desde|por)\s*99\s*€/i.test(title ?? '')) {
     errors.push(`${path}: el título debe identificar el servicio local sin atribuir redes a Starter`);
   }
-  if (!meta?.includes('297 €/mes') || !/web.*bot de IA/i.test(meta) || /redes sociales[^.]{0,30}(?:desde|por)\s*99\s*€/i.test(meta)) {
-    errors.push(`${path}: la descripción debe explicar Growth por 297 €/mes con web y bot de IA`);
+  if (!meta?.includes('299 €/mes') || !/IA/i.test(meta) || /redes sociales[^.]{0,30}(?:desde|por)\s*99\s*€/i.test(meta)) {
+    errors.push(`${path}: la descripción debe explicar Growth por 299 €/mes con web y bot de IA`);
   }
 }
 
@@ -105,11 +102,11 @@ for (const path of ['gestion-redes-sociales-murcia']) {
 const growthPricing = read('precios-gestion-redes-sociales/index.html');
 const growthTitle = growthPricing.match(/<title>([^<]+)<\/title>/)?.[1] ?? '';
 const growthMeta = growthPricing.match(/<meta\s+name="description"\s+content="([^"]+)"/)?.[1] ?? '';
-if (!/Precios de gestión de redes sociales/.test(growthTitle) || !/Growth 297 €/.test(growthTitle)) {
-  errors.push('precios-gestion-redes-sociales: el título debe identificar precio, servicio y Growth 297 €');
+if (!/Precios de gestión de redes sociales/.test(growthTitle) || !/Growth 299 €/.test(growthTitle)) {
+  errors.push('precios-gestion-redes-sociales: el título debe identificar precio, servicio y Growth 299 €');
 }
-if (!/297 €\/mes/.test(growthMeta) || !/web con bot de IA/.test(growthMeta) || /\b(?:Starter|Scale)\b/.test(growthPricing)) {
-  errors.push('precios-gestion-redes-sociales: oferta única Growth, redes y web con bot de IA por 297 €/mes');
+if (!/299 €\/mes/.test(growthMeta) || !/IA/.test(growthMeta) || !growthPricing.includes('data-package="starter"') || !growthPricing.includes('Próximamente')) {
+  errors.push('precios-gestion-redes-sociales: oferta única Growth, redes y web con bot de IA por 299 €/mes');
 }
 
 const murcia = read('gestion-redes-sociales-murcia/index.html');

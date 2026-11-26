@@ -7,7 +7,7 @@ Fuentes y generación de las landings de ampliación. Generar archivos no implic
 - `art/` contiene ilustraciones SVG originales: esquemas conceptuales, nunca fotografías de obras o resultados de clientes.
 - `groups.json` define las áreas del catálogo. Solo aparecen los grupos con páginas existentes; un grupo vacío no crea tarjetas ni enlaces. Las páginas 11 a 20 conservan el grupo de oficios por defecto. Las siguientes deben declarar `hubGroup` con un identificador de ese archivo.
 - `catalog.mjs` comprueba identificadores, rutas, grupos, fechas y presentación del recurso antes de generar los archivos. Una configuración incorrecta debe fallar antes de escribir salidas.
-- `build.mjs` comparte únicamente navegación, identidad, precio y alcance oficial de Growth, FAQ y pie. Lee los planes de `landing-src/config/planes.json`.
+- `build.mjs` comparte únicamente navegación, identidad, catálogo y alcance oficial de los paquetes, FAQ y pie. Lee los planes de `landing-src/config/planes.json`.
 - `contentModified` indica la fecha real del contenido de cada página. Se revisa al hacer un cambio sustantivo; regenerar no debe cambiarla por la fecha del día. El índice usa la fecha más reciente de las páginas que reúne.
 - `styles.css` define componentes editoriales que cada cuerpo combina según su contenido.
 - `sectores.js` es el JavaScript compartido de las landings (sin librerías). Se copia a `/sectores/sectores.js` y, como el CSS, se enlaza con `?v=` y un hash de su contenido.
@@ -20,13 +20,13 @@ Fuentes y generación de las landings de ampliación. Generar archivos no implic
 - `WebPage.dateModified` igual a `contentModified`.
 - Botón flotante `.wa-float` con mensaje propio del sector (`p.name`), que aparece al dejar atrás los botones del hero y se aparta en la llamada final y el pie. Los botones principales de WhatsApp llevan el icono.
 - Barra de progreso de lectura.
-- Un móvil vivo en el hero, marcado como "Ejemplo ilustrativo": tres publicaciones que se turnan y un chat de WhatsApp que se escribe solo.
-- Marcador con las cifras oficiales de Growth leídas de `landing-src/config/planes.json` (publicaciones al mes, redes, cuota y permanencia). No son resultados.
+- Un móvil vivo en el hero, marcado como ideas para tu equipo: tres ideas de contenido para tu equipo que se turnan y un ejemplo de chat en la web que se escribe solo.
+- Marcador con las cifras oficiales de Growth leídas de `landing-src/config/planes.json` (días de atención con IA en la web, redes atendidas, cuota y permanencia). No son resultados.
 - Sectores relacionados: hasta seis páginas siguientes del mismo grupo, en orden circular, sin incluirse a sí misma. Los grupos con menos de cinco páginas se completan hasta cuatro con `relatedFallback` de `catalog.mjs`. Debajo, enlaces al pilar, a precios y a `/sectores/`.
 
 ### Campos opcionales del hero en `pages.json`
 
-- `heroPosts`: tres textos cortos (máximo 110 caracteres) para las publicaciones del móvil. Se muestran como Instagram, Facebook y TikTok.
+- `heroPosts`: tres textos cortos (máximo 110 caracteres) para las publicaciones del móvil. Se muestran como ideas para Instagram, Facebook y la web.
 - `heroChat`: objeto con `question` (mensaje del cliente) y `answer` (respuesta del negocio), máximo 200 caracteres cada uno.
 
 Si faltan, se usan `promise`, `resourceTitle` y una publicación genérica, y un chat genérico. Son ejemplos: nunca nombres de clientes, mensajes reales, testimonios ni resultados. Comillas normales, nunca angulares.

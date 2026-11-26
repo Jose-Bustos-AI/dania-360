@@ -1,0 +1,631 @@
+{
+  "commercialPages": 104,
+  "sectorPages": 100,
+  "checks": [
+    {
+      "page": "index.html",
+      "packages": 3,
+      "metaDescriptionLength": 156,
+      "faq": 8
+    },
+    {
+      "page": "salones-estetica/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 136,
+      "faq": 14
+    },
+    {
+      "page": "gestion-redes-sociales-gimnasios/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 123,
+      "faq": 11
+    },
+    {
+      "page": "gestion-redes-sociales-restaurantes/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 146,
+      "faq": 15
+    },
+    {
+      "page": "gestion-redes-sociales-clinicas-dentales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 131,
+      "faq": 12
+    },
+    {
+      "page": "gestion-redes-sociales-inmobiliarias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 127,
+      "faq": 12
+    },
+    {
+      "page": "gestion-redes-sociales-academias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 123,
+      "faq": 13
+    },
+    {
+      "page": "gestion-redes-sociales-comercios/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 123,
+      "faq": 12
+    },
+    {
+      "page": "gestion-redes-sociales-abogados/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 122,
+      "faq": 11
+    },
+    {
+      "page": "gestion-redes-sociales-fisioterapia/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 126,
+      "faq": 12
+    },
+    {
+      "page": "gestion-redes-sociales-veterinarias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 135,
+      "faq": 14
+    },
+    {
+      "page": "gestion-redes-sociales-fontaneros/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 109,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-construccion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 123,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-reformas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-electricistas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 112,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-climatizacion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 124,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-placas-solares/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 129,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-carpinterias-madera/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 121,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-carpinterias-metalicas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 135,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-cerrajeros/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 109,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-pintores/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 129,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-arquitectos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 137,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-interioristas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 147,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-jardineria/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 134,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-piscinas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-empresas-limpieza/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-control-plagas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 128,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-mudanzas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-trasteros-guardamuebles/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 124,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-administradores-fincas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 124,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-seguridad-alarmas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 130,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-talleres-mecanicos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 117,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-concesionarios/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 126,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-compraventa-coches/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 132,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-alquiler-vehiculos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 132,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-talleres-tiendas-motos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 126,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-centros-neumaticos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-chapa-pintura/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 126,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-detailing/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 143,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-autocaravanas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 144,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-autoescuelas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 111,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-hoteles/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 106,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-casas-rurales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 112,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-campings/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 107,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-gestion-alojamientos-turisticos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 145,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-agencias-viajes/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 117,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-guias-turisticos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 145,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-turismo-activo/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 136,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-parques-ocio/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 128,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-escuelas-buceo/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 116,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-alquiler-barcos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 159,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-cafeterias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 109,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-panaderias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 109,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-pastelerias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 122,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-heladerias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 109,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-catering/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-salones-bodas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 131,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-bodegas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 128,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-cerveceras-artesanales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 121,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-almazaras/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 136,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-food-trucks/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 110,
+      "faq": 6
+    },
+    {
+      "page": "gestion-redes-sociales-psicologos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 8
+    },
+    {
+      "page": "gestion-redes-sociales-nutricionistas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 136,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-opticas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 106,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-centros-auditivos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 116,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-podologia/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-medicina-estetica/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 128,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-residencias-mayores/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 121,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-ayuda-domicilio/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 128,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-logopedia/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-terapia-ocupacional/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 129,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-asesorias-gestorias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-corredurias-seguros/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 121,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-consultorias-empresariales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 125,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-seleccion-personal/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 132,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-traduccion-interpretacion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 138,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-ingenierias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 110,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-prevencion-riesgos-laborales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 143,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-transporte-logistica/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 133,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-informatica-soporte-tecnico/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 140,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-imprentas-rotulacion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 133,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-floristerias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 111,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-joyerias-relojerias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-tiendas-muebles/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 117,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-decoracion-iluminacion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 134,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-librerias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 108,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-jugueterias/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 110,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-ropa-complementos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 129,
+      "faq": 8
+    },
+    {
+      "page": "gestion-redes-sociales-tiendas-deporte/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 117,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-tiendas-mascotas/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 118,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-tiendas-online/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 148,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-organizadores-bodas-eventos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 131,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-fotografos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 134,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-productoras-audiovisuales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 124,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-alquiler-material-eventos/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 157,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-sonido-iluminacion/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 131,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-escuelas-danza/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 116,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-artes-marciales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 126,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-clubes-padel/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 114,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-estudios-tatuajes/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 119,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-coworking/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 120,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 154,
+      "faq": 8
+    },
+    {
+      "page": "precios-gestion-redes-sociales/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 158,
+      "faq": 7
+    },
+    {
+      "page": "gestion-redes-sociales-murcia/index.html",
+      "packages": 3,
+      "metaDescriptionLength": 140,
+      "faq": 9
+    }
+  ],
+  "errors": []
+}

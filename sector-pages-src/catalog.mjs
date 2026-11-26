@@ -68,7 +68,7 @@ export const relatedFallback = {
   'escuelas-clubes': ['/gestion-redes-sociales-gimnasios/', '/gestion-redes-sociales-academias/'],
 };
 
-const heroPostFormats = ['Instagram · Vídeo de 15 s', 'Facebook · Publicación', 'TikTok · Vídeo de 15 s'];
+const heroPostFormats = ['Idea para Instagram', 'Idea para Facebook', 'Idea para tu web'];
 const noAngleQuotes = (slug, value) => {
   if (/[«»]/.test(value)) throw new Error(`${slug}: usa comillas normales en el ejemplo del hero`);
   return value.trim();
