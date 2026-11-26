@@ -43,13 +43,13 @@ for (const path of paths) {
   if (/noindex/i.test(html.match(/<meta name="robots" content="([^"]+)"/)?.[1] ?? '')) {
     errors.push(`${path}: etiqueta noindex`);
   }
-  if (prices.join(',') !== '199,299') {
-    errors.push(`${path}: el Service debe ofrecer Starter y Growth, con Scale próximo; ofrece ${prices.join(',')}`);
+  if (prices.join(',') !== '199,299,499') {
+    errors.push(`${path}: el Service debe ofrecer Starter y Growth, y Scale; ofrece ${prices.join(',')}`);
   }
   if (['gestion-redes-sociales-restaurantes', 'gestion-redes-sociales-clinicas-dentales', 'gestion-redes-sociales-inmobiliarias', 'gestion-redes-sociales-academias', 'gestion-redes-sociales-comercios', 'gestion-redes-sociales-abogados', 'gestion-redes-sociales-fisioterapia', 'gestion-redes-sociales-veterinarias'].includes(path)) {
     const faq = entities.find((entity) => entity['@type'] === 'FAQPage');
     const priceAnswer = faq?.mainEntity?.find((entry) => entry.name?.startsWith('¿Cuánto cuesta la gestión de redes sociales'))?.acceptedAnswer?.text;
-    if (priceAnswer && (!priceAnswer.includes('299 €/mes') || !priceAnswer.includes('199 €/mes') || !priceAnswer.includes('próximo'))) {
+    if (priceAnswer && (!priceAnswer.includes('299 €/mes') || !priceAnswer.includes('199 €/mes'))) {
       errors.push(`${path}: la FAQ debe distinguir Starter de los planes de gestión de redes`);
     }
     if (priceAnswer && !html.includes(`<p>${priceAnswer}</p>`)) {
@@ -62,7 +62,7 @@ for (const path of paths) {
   }
   if (path === 'gestion-redes-sociales-restaurantes') {
     if (!html.includes('Pide tu auditoría gratis')) errors.push(`${path}: falta la llamada a la auditoría gratuita`);
-    if (!html.includes('data-package="starter"') || !html.includes('data-available="false"')) {
+    if (!html.includes('data-package="starter"') || !html.includes('data-package="scale" data-available="true"')) {
       errors.push(`${path}: el bloque de precios debe distinguir Starter de la gestión de redes`);
     }
     const brandStyles = [...html.matchAll(/<link rel="stylesheet" href="\/brand-orange\.css\?v=[^"]+" \/>/g)];
@@ -105,7 +105,7 @@ const growthMeta = growthPricing.match(/<meta\s+name="description"\s+content="([
 if (!/Precios de gestión de redes sociales/.test(growthTitle) || !/Growth 299 €/.test(growthTitle)) {
   errors.push('precios-gestion-redes-sociales: el título debe identificar precio, servicio y Growth 299 €');
 }
-if (!/299 €\/mes/.test(growthMeta) || !/IA/.test(growthMeta) || !growthPricing.includes('data-package="starter"') || !growthPricing.includes('Próximamente')) {
+if (!/299 €\/mes/.test(growthMeta) || !/IA/.test(growthMeta) || !growthPricing.includes('data-package="starter"') || !growthPricing.includes('data-package="scale"')) {
   errors.push('precios-gestion-redes-sociales: oferta única Growth, redes y web con bot de IA por 299 €/mes');
 }
 

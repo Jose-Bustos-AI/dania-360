@@ -66,7 +66,7 @@ for(const p of pages) {
   if(/\b(?:85|99|297|497)\s*(?:€|EUR)/.test(text(html))) fail(p.slug,'precio no oficial');
   const graph = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]+?)<\/script>/)[1])['@graph'];
   const service = graph.find(x=>x['@type']==='Service');
-  if(JSON.stringify(service.offers.map(o=>Number(o.price))) !== JSON.stringify([199,299]) || service.offers.some(o=>o.priceCurrency !== 'EUR' || o.priceSpecification.unitText !== 'mes')) fail(p.slug,'oferta estructurada incorrecta');
+  if(JSON.stringify(service.offers.map(o=>Number(o.price))) !== JSON.stringify([199,299,499]) || service.offers.some(o=>o.priceCurrency !== 'EUR' || o.priceSpecification.unitText !== 'mes')) fail(p.slug,'oferta estructurada incorrecta');
   const questions = graph.find(x=>x['@type']==='FAQPage').mainEntity;
   if(questions.length !== p.faq.length) fail(p.slug,'FAQ incompleta');
   questions.forEach((q,i)=>{if(q.name!==p.faq[i][0] || q.acceptedAnswer.text!==p.faq[i][1]) fail(p.slug,'FAQ visible y estructurada distintas');});

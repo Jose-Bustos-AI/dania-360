@@ -75,7 +75,7 @@ const services = [
  {icon:MapPin,title:'Google y Maps desde Starter',text:'Ficha analizada y gestionada, con una publicación semanal al conectarla y cinco fichas QR para pedir reseñas.'},
  {icon:MessageCircle,title:'Atención con IA con Growth',text:'Chat web, mensajes y comentarios de Instagram y Facebook. Tú también puedes contestar desde la app.'},
  {icon:Star,title:'Reseñas con reglas claras',text:'Growth contesta las de 4 y 5 estrellas automáticamente. Las de 1 a 3 requieren tu visto bueno previo.'},
- {icon:Sparkles,title:'Scale, próximamente',text:'Anuncios en Instagram y Facebook con 100 USD de inversión mensual y ocho piezas: cuatro vídeos de 30 segundos y cuatro imágenes. Todavía no disponible.'},
+ {icon:Sparkles,title:'Scale',text:'Anuncios en Instagram y Facebook con 100 USD de inversión mensual y ocho piezas: cuatro vídeos de 30 segundos y cuatro imágenes.'},
 ]
 
 // Iconos de WhatsApp y de confirmación como máscaras CSS: el dibujo se define una
@@ -187,7 +187,7 @@ function Board() {
 }
 
 function Networks() {
-  return <section className="section networks-section" id="redes" aria-labelledby="networks-title"><div className="section-heading"><span>Mejores redes sociales para restaurantes</span><h2 id="networks-title">Redes sociales para restaurantes: cómo atender cada consulta.</h2><p>Growth responde a consultas en web, Instagram y Facebook. La ficha de Google se trabaja desde Starter. La producción de contenido se incorporará con Scale, todavía no disponible.</p></div>
+  return <section className="section networks-section" id="redes" aria-labelledby="networks-title"><div className="section-heading"><span>Mejores redes sociales para restaurantes</span><h2 id="networks-title">Redes sociales para restaurantes: cómo atender cada consulta.</h2><p>Growth responde a consultas en web, Instagram y Facebook. La ficha de Google se trabaja desde Starter. Scale incluye ocho piezas de contenido al mes.</p></div>
     <ul className="network-grid">{networks.map(([Icon, name, text], index) => <li className="tilt reveal" style={{ '--i': index }} key={name}><Icon aria-hidden="true" /><h3>{name}</h3><p>{text}</p></li>)}</ul>
   </section>
 }
@@ -196,7 +196,7 @@ function GrowthSummary() {
   return <section className="sector-offer" id="resumen-growth" aria-labelledby="growth-title"><div className="sector-offer__inner">
     <div><p className="sector-offer__label">Growth · Sin permanencia</p><h2 id="growth-title">Carta en la web y atención con IA para tu restaurante</h2><p>El servicio parte de lo que sirves de verdad: carta vigente, horarios, ambiente y forma de reservar. Las consultas llegan al canal que ya utilizas, sin cambiar la operativa de sala.</p><p className="sector-offer__price"><strong>299 €</strong><span>/mes</span></p></div>
     <div><dl>
-      <div><dt>Atención de mensajes con IA</dt><dd>Atención con IA en el chat web, mensajes y comentarios de Instagram y Facebook, incluido Messenger. Puedes contestar desde la app DANIA.</dd></div>
+      <div><dt>Atención de mensajes con IA</dt><dd>Atención con IA en el chat web, mensajes y comentarios de Instagram y Facebook, incluido Messenger. WhatsApp con IA está en preparación. Puedes contestar desde la app DANIA.</dd></div>
       <div><dt>Web profesional con bot de IA incluido</dt><dd>Chat automático cuando no estás disponible y respuesta desde el móvil con la app DANIA. Dominio propio, alojamiento, cambios solicitados a DANIA y cinco fichas QR para reseñas.</dd></div>
       <div><dt>Perfil de Empresa en Google y reseñas</dt><dd>Ficha gestionada desde Starter, con una publicación semanal al conectarla. Growth contesta reseñas de 4 y 5 estrellas automáticamente; las de 1 a 3 requieren tu aprobación.</dd></div>
     </dl><p className="sector-offer__scope">No incluye inversión en anuncios, una sesión de fotografía presencial ni un motor de reservas a medida. El restaurante confirma reservas, disponibilidad y alérgenos; el chat no sustituye esa confirmación.</p><a href="#planes">Ver los planes y el alcance completo</a></div>
@@ -209,7 +209,7 @@ function HowItWorks() {
 }
 
 function Services() {
-  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Marketing digital para restaurantes: web, redes sociales y Google conectados.</h2><p>Starter cubre web, SEO y Google. Growth añade atención con IA. Scale incorporará anuncios y ocho piezas al mes cuando esté disponible.</p></div><div className="service-grid">{services.map((service, index) => {
+  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Marketing digital para restaurantes: web, redes sociales y Google conectados.</h2><p>Starter cubre web, SEO y Google. Growth añade atención con IA. Scale incluye anuncios y ocho piezas al mes.</p></div><div className="service-grid">{services.map((service, index) => {
     const ServiceIcon = service.icon
     return <article className="reveal" style={{ '--i': index % 3 }} key={service.title}><ServiceIcon /><h3>{service.title}</h3><p>{service.text}</p></article>
   })}</div></section>

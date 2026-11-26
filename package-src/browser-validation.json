@@ -33,5 +33,13 @@
     "mobileWidth": 390,
     "desktopWidth": 1280,
     "issues": 0
+  },
+  "followUp": {
+    "scaleAvailable": true,
+    "whatsappAI": "en preparación",
+    "mobileWidth": 390,
+    "sample": "gimnasios",
+    "buttons": 3,
+    "overflow": false
   }
 }

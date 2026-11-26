@@ -43,7 +43,7 @@ test('título, descripción y H1 orientados a marketing inmobiliario; canonical 
   assert.equal([...landing.matchAll(/<h1\b/gi)].length, 1);
   assert.match(landing, /<link rel="canonical" href="https:\/\/dania360.com\/gestion-redes-sociales-inmobiliarias\/">/);
   const graph = JSON.parse(landing.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
-  assert.deepEqual(graph.find(node => node['@type'] === 'Service').offers.map(offer => Number(offer.price)), [199, 299]);
+  assert.deepEqual(graph.find(node => node['@type'] === 'Service').offers.map(offer => Number(offer.price)), [199, 299, 499]);
   const sitemap = readFileSync(new URL('sitemap.xml', root), 'utf8');
   const landingLastmod = sitemap.match(/<loc>https:\/\/dania360\.com\/gestion-redes-sociales-inmobiliarias\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)[1];
   assert.equal(graph.find(node => node['@type'] === 'WebPage').dateModified, landingLastmod);

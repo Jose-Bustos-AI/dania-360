@@ -62,7 +62,7 @@ for (const sector of sectors) {
   assert.match(webpage?.dateModified ?? '', /^\d{4}-\d{2}-\d{2}$/);
   const service = graph.find((node) => node['@type'] === 'Service');
   assert.match(service.description, /IA/);
-  assert.deepEqual(service.offers.map((offer) => Number(offer.price)), [199, 299], `${path}: precios oficiales, sin cambios`);
+  assert.deepEqual(service.offers.map((offer) => Number(offer.price)), [199, 299, 499], `${path}: precios oficiales, sin cambios`);
   for (const offer of service.offers) {
     assert.equal(offer.priceCurrency, 'EUR');
     assert.equal(new URL(offer.url).pathname, `/${path}`);

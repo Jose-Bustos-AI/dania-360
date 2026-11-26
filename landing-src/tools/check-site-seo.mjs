@@ -48,12 +48,12 @@ if (!/<h1>Gestión de redes sociales <em>para empresas<\/em><\/h1>/.test(service
   errors.push('/gestion-redes-sociales/: falta el H1 propio de gestión de redes sociales');
 }
 for (const [page, html] of [['/', homepage], ['/precios-gestion-redes-sociales/', pricingPage]]) {
-  if (!html.includes('data-packages-version="2026-11-26"') || !html.includes('Próximamente')) errors.push(`${page}: catálogo de planes incompleto`);
+  if (!html.includes('data-packages-version="2026-11-26"') || !html.includes('data-package="scale"')) errors.push(`${page}: catálogo de planes incompleto`);
   const data = [...html.matchAll(/<script\s+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
     .flatMap(([,json]) => { const value = JSON.parse(json); return value['@graph'] ?? [value]; });
   const offers = data.filter(node => node['@type'] === 'Service').flatMap(node => [node.offers].flat());
-  if (JSON.stringify(offers.map(o=>o.price)) !== JSON.stringify(['199','299']) || offers.some(o=>o.priceCurrency !== 'EUR')) {
-    errors.push(`${page}: debe ofrecer Starter 199 EUR y Growth 299 EUR, sin Scale disponible`);
+  if (JSON.stringify(offers.map(o=>o.price)) !== JSON.stringify(['199','299','499']) || offers.some(o=>o.priceCurrency !== 'EUR')) {
+    errors.push(`${page}: debe ofrecer Starter 199 EUR y Growth 299 EUR, con Scale disponible`);
   }
 }
 const heroLead = homepage.match(/<p class="hero-lead">([\s\S]*?)<\/p>/i)?.[1]

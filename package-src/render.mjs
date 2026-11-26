@@ -10,7 +10,7 @@ export function packageOffers(url) {
 }
 export function renderPackages({id='planes', context='mi negocio'} = {}) {
   return `<section class="d360-packages" id="${esc(id)}" aria-labelledby="packages-title" data-packages-version="${packages.version}">
-    <header class="d360-packages__intro"><p>Planes para tu negocio</p><h2 id="packages-title">Que te encuentren, que les contesten y que lleguen más</h2><p>Starter cuida tu presencia en buscadores. Growth añade atención con IA. Scale incorporará publicidad y contenido para tus redes.</p></header>
+    <header class="d360-packages__intro"><p>Planes para tu negocio</p><h2 id="packages-title">Que te encuentren, que les contesten y que lleguen más</h2><p>Starter cuida tu presencia en buscadores. Growth añade atención con IA. Scale añade publicidad y contenido para tus redes.</p></header>
     <div class="d360-packages__grid">${packages.planes.map(p => `<article class="d360-package${p.destacado?' d360-package--featured':''}" id="${p.id}" data-package="${p.id}" data-available="${p.disponible}">
       <div class="d360-package__heading"><h3>${p.nombre}</h3><span class="d360-package__badge">${esc(p.etiqueta)}</span></div>
       <p class="d360-package__price"><strong>${p.precio} €</strong><span>al mes</span></p>

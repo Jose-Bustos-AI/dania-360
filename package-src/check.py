@@ -24,6 +24,7 @@ for page in COMMERCIAL:
     soup=BeautifulSoup((ROOT/page).read_text(encoding='utf8'),'html.parser')
     section=soup.select('[data-packages-version]')
     check(len(section)==1,page,'one server-rendered package section')
+    check(not re.search(r'Scale.{0,80}(?:próximamente|todavía no disponible|no está disponible|próximo lanzamiento)',norm(soup.get_text(' ',strip=True)),re.I),page,'outdated Scale status')
     check(len(soup.select('h1'))==1,page,'one H1')
     ids=[n['id'] for n in soup.select('[id]')]
     check(len(ids)==len(set(ids)),page,'duplicate IDs')
@@ -38,6 +39,10 @@ for page in COMMERCIAL:
         check(card.select_one('.d360-package__price strong').text==str(plan['precio'])+' €',page,plan['id']+' price')
         check([n.text for n in card.select('.d360-package__features li')]==plan['incluye'],page,plan['id']+' scope differs from source')
         check([n.text for n in card.select('.d360-package__pending li')]==plan['pendiente'],page,plan['id']+' pending features differ')
+        if plan['id']=='growth':
+            check('WhatsApp (en preparación)' in card.get_text(' ',strip=True),page,'WhatsApp must be identified as pending')
+        if plan['id']=='scale':
+            check(all(word in card.get_text(' ',strip=True).lower() for word in ['web','dominio','alojamiento','seo','google','whatsapp']),page,'Scale inherited scope')
         if plan['disponible']:
             check(len(card.select('a[data-plan]'))==1,page,plan['id']+' CTA')
             message=unquote(card.select_one('a[data-plan]')['href'])
@@ -51,7 +56,7 @@ for page in COMMERCIAL:
         except Exception as e:errors.append(f'{page}: invalid JSON-LD {e}')
     for entity in graph:
         if entity.get('@type')=='Offer':
-            check(str(entity.get('price')) in ['199','299'],page,'unavailable or obsolete structured offer')
+            check(str(entity.get('price')) in ['199','299','499'],page,'obsolete structured offer')
         if entity.get('@type')=='Question':
             answer=entity.get('acceptedAnswer',{}).get('text','')
             check(norm(answer) in norm(soup.get_text(' ',strip=True)),page,'FAQ mismatch: '+entity.get('name',''))
@@ -88,4 +93,4 @@ output={'commercialPages':len(COMMERCIAL),'sectorPages':100,'checks':report,'err
 (ROOT/'package-src/validation.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 if errors:
     print('\n'.join(errors));raise SystemExit(1)
-print(f'OK: {len(COMMERCIAL)} commercial pages, three packages per page, current prices, pending features, Scale unavailable, coherent FAQ and local links.')
+print(f'OK: {len(COMMERCIAL)} commercial pages, three packages per page, current prices, pending features, Scale available, coherent FAQ and local links.')

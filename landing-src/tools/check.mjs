@@ -166,12 +166,12 @@ comprobar(
   service?.provider?.name === 'Dania360',
 );
 comprobar(
-  'Service ofrece los planes disponibles, sin Scale',
+  'Service ofrece los tres planes disponibles',
   planes.planes.filter((plan) => plan.disponible).every((plan) =>
     service?.hasOfferCatalog?.itemListElement?.some(
       (oferta) => oferta.name === plan.nombre && oferta.price === String(plan.precio),
     ),
-  ) && service?.hasOfferCatalog?.itemListElement?.length === 2,
+  ) && service?.hasOfferCatalog?.itemListElement?.length === 3,
 );
 comprobar(
   'FAQPage tiene tantas preguntas como el acordeón',
