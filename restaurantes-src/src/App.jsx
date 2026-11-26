@@ -1,3 +1,5 @@
+import {renderPackages} from '../../package-src/render.mjs'
+import faqs from './faq.json'
 import { useEffect } from 'react'
 import { ArrowRight, BedDouble, Bike, Bookmark, CakeSlice, CalendarDays, Camera, ChefHat, ChevronDown, Coffee, Croissant, Globe2, Heart, MapPin, Menu, MessageCircle, Search, Send, Soup, Sparkles, Star, Truck, Utensils, Video, Wine, X } from 'lucide-react'
 
@@ -22,19 +24,19 @@ const chat = [
   ['out', 'Anotado. El restaurante te confirma mesa y opciones sin gluten por WhatsApp.'],
 ]
 
-const stats = [['30', 'publicaciones al mes'], ['4', 'redes sociales en Growth'], ['15', 'segundos por vídeo'], ['7', 'días a la semana'], ['297', '€/mes, sin permanencia']]
+const stats = [['365', 'días de atención con IA'], ['2', 'redes: Instagram y Facebook'], ['5', 'fichas QR para reseñas'], ['199', '€/mes Starter'], ['299', '€/mes Growth']]
 
 const strategies = [
-  ['Carta y horarios iguales en todas partes', 'Si Instagram dice una cosa, Google otra y la web una tercera, el cliente duda. Mantenemos carta, horarios y forma de reservar coherentes en redes, ficha de Google y web.'],
-  ['Un plato real cada día', '30 publicaciones al mes con vídeos de 15 segundos: platos, menú, equipo y sala. Con el material que nos envías y piezas creadas con IA que revisamos antes de publicar.'],
-  ['Reseñas respondidas con tu tono', 'Las reseñas forman parte de la decisión. Respondemos en Google con la información y el tono que nos facilitas, y el kit QR ayuda a pedir valoraciones en sala.'],
-  ['Mensajes que acaban en reserva', 'Atendemos comentarios y mensajes privados y los derivamos a tu teléfono o WhatsApp. Tu equipo confirma mesa, grupos y condiciones.'],
-  ['Temporada y fechas clave', 'Menú de verano, terraza, Navidad, San Valentín, partidos o jornadas gastronómicas: el calendario anticipa cada fecha para publicarla a tiempo.'],
-  ['Revisar qué genera consultas', 'El informe mensual revisa actividad y visibilidad local. Lo contrastamos con las reservas que registra tu equipo para ajustar el mes siguiente.'],
+ ['Carta y horarios coherentes', 'Tu web y tu ficha de Google presentan la misma carta, ubicación, horarios y canal de reservas. Starter incluye el mantenimiento de esa presencia.'],
+ ['Preguntas antes de reservar', 'Con Growth, la IA orienta sobre la información configurada del restaurante en web, Instagram y Facebook. Las mesas disponibles y los alérgenos los confirma tu equipo.'],
+ ['Reseñas con aprobación cuando importa', 'Growth contesta las reseñas de 4 y 5 estrellas automáticamente. Las de 1 a 3 se responden solo con tu visto bueno previo.'],
+ ['Una conversación que puedes continuar', 'En la app DANIA ves los mensajes y puedes contestar cuando quieras. Tu equipo conserva la confirmación de grupos, turnos y condiciones.'],
+ ['Tu ficha de Google al día', 'Starter analiza y gestiona tu ficha de Google Business y Maps, con una publicación semanal en cuanto la conectas.'],
+ ['Visitas y consultas por separado', 'La app muestra analíticas y visitas. Tu equipo registra qué consultas terminaron en reserva para contrastarlas con esos datos.'],
 ]
 
 const kinds = [
-  { id: 'menu', Icon: Soup, name: 'Restaurante de menú', title: 'Restaurante de menú del día', intro: 'El cliente decide a media mañana. El menú tiene que estar publicado antes de que salga a comer y con la información que necesita.', ideas: ['El menú de hoy con primeros, segundos, postre y precio que confirma cocina.', 'Stories del pase a mediodía y aviso de raciones limitadas cuando tú lo indicas.', 'Menús de grupo y de empresa visibles en la ficha de Google y en la web.'], dest: 'Llamada o WhatsApp para reservar mesa al mediodía.', cta: 'Consultar para mi restaurante de menú', msg: 'Hola, tengo un restaurante de menú del día en [ciudad] y quiero que publiquéis el menú cada día. ¿Cómo lo hacéis?' },
+  { id: 'menu', Icon: Soup, name: 'Restaurante de menú', title: 'Restaurante de menú del día', intro: 'El cliente decide a media mañana. El menú tiene que estar publicado antes de que salga a comer y con la información que necesita.', ideas: ['El menú de hoy con primeros, segundos, postre y precio que confirma cocina.', 'Stories del pase a mediodía y aviso de raciones limitadas cuando tú lo indicas.', 'Menús de grupo y de empresa visibles en la ficha de Google y en la web.'], dest: 'Llamada o WhatsApp para reservar mesa al mediodía.', cta: 'Consultar para mi restaurante de menú', msg: 'Hola, tengo un restaurante de menú del día en [ciudad] y quiero mantener la carta al día y atender las consultas de mis clientes. ¿Cómo lo hacéis?' },
   { id: 'tapas', Icon: Wine, name: 'Tapas y bar', title: 'Bar de tapas, taberna o cervecería', intro: 'Aquí se decide en el momento: qué hay hoy en la barra, si hay terraza y hasta qué hora sirve cocina.', ideas: ['La tapa o el pincho de la semana en un vídeo de 15 segundos.', 'Terraza, partido o evento del fin de semana, con el horario de cocina.', 'Respuestas rápidas a qué hay hoy y a reservas de grupo.'], dest: 'Mensaje o llamada para grupos, celebraciones y terraza.', cta: 'Hablar de mi bar de tapas', msg: 'Hola, tengo un bar de tapas en [ciudad] y quiero dar más vida a nuestras redes sociales. ¿Qué nos proponéis?' },
   { id: 'autor', Icon: ChefHat, name: 'Cocina de autor', title: 'Cocina de autor y menú degustación', intro: 'La reserva se hace con antelación y se compara mucho. Se publica la propuesta, el producto y las personas que hay detrás.', ideas: ['El menú degustación explicado pase a pase, con temporada y producto.', 'Cocina y sala presentadas con material autorizado del equipo.', 'Reseñas de Google respondidas con cuidado y con el tono de la casa.'], dest: 'El sistema de reservas que ya utiliza el restaurante.', cta: 'Hablar de mi cocina de autor', msg: 'Hola, tengo un restaurante de cocina de autor en [ciudad] y quiero cuidar nuestra imagen en redes sociales y Google. ¿Hablamos?' },
   { id: 'delivery', Icon: Bike, name: 'Delivery', title: 'Delivery y comida para llevar', intro: 'El pedido se decide en un minuto. Horario, zona y forma de pedir tienen que estar claros en cada publicación.', ideas: ['Combos y novedades con enlace al canal de pedidos que ya utilizas.', 'Horario de pedidos y zona de reparto actualizados en Google y en la web.', 'Vídeos cortos del producto recién hecho y bien empaquetado.'], dest: 'Tu teléfono, WhatsApp o la plataforma de pedidos que uses. No gestionamos el reparto.', cta: 'Hablar de mi delivery', msg: 'Hola, tengo un restaurante con delivery y comida para llevar en [ciudad] y quiero que las redes sociales nos traigan más pedidos. ¿Cómo trabajáis?' },
@@ -52,11 +54,10 @@ const week = [
 const dishes = ['Arroz meloso de temporada', 'Croquetas caseras', 'Menú del día con postre', 'Tarta de queso al horno']
 
 const networks = [
-  [Camera, 'Instagram', 'La carta visual: publicaciones y stories con platos, menú del día y ambiente. El perfil enlaza a reservar.'],
-  [Video, 'TikTok', 'Vídeos de 15 segundos de cocina, sala y producto para que te descubran en tu zona.'],
-  [Heart, 'Facebook', 'Público local, eventos y menús de grupo. También atendemos sus comentarios y mensajes.'],
-  [Bookmark, 'Pinterest', 'Ideas de celebraciones, brunch o postres que llevan a tu web y a tu carta.'],
-  [MapPin, 'Perfil de Empresa en Google', 'Horarios, carta, fotos y reseñas: donde se compara antes de ir. Incluido desde Growth.'],
+ [Globe2, 'Chat de tu web', 'La recepcionista con IA de Growth responde con la información configurada; sala confirma la reserva.'],
+ [Camera, 'Instagram', 'Growth atiende mensajes y comentarios. Puedes continuar la conversación desde la app DANIA.'],
+ [Heart, 'Facebook y Messenger', 'Growth contesta comentarios de Facebook y mensajes de Messenger a cualquier hora.'],
+ [MapPin, 'Google y Maps', 'Starter incluye ficha gestionada y una publicación semanal al conectarla. Growth añade respuesta a reseñas con las aprobaciones indicadas.'],
 ]
 
 const related = [
@@ -68,115 +69,13 @@ const related = [
   [BedDouble, 'Hoteles', '/gestion-redes-sociales-hoteles/', 'Estancias, restaurante y eventos.'],
 ]
 
-const plans = [
-  {
-    name: 'Starter',
-    price: '99',
-    tagline: 'Tu página web profesional con chat inteligente, kit QR de reseñas para Google Maps, dominio y hosting incluidos.',
-    networks: 'Web · Chat inteligente · Kit QR de reseñas',
-    content: [
-      [
-        'Web',
-        'profesional'
-      ],
-      [
-        'Chat',
-        'inteligente'
-      ]
-    ],
-    features: [
-      'Página web profesional: nueva, inspirada en una referencia que elijas o migrada desde tu web actual.',
-      'Mantenimiento y optimización para buscadores de tu página web.',
-      'Chat en tu página web: responde a tus clientes desde tu móvil con la app DANIA.',
-      'Modo automático: la Inteligencia Artificial responde por ti cuando no estás disponible.',
-      'Kit QR de reseñas para Google Maps: consigue más valoraciones de tus clientes.',
-      '1 actualización mensual de tu página web.',
-      'Dominio .com incluido.',
-      'Hosting incluido, sin gastos ocultos.'
-    ]
-  },
-  {
-    name: 'Growth',
-    price: '297',
-    tagline: 'Todo lo del Starter más tus redes sociales activas cada día con vídeos de 15 segundos y comentarios, mensajes y reseñas gestionados.',
-    networks: 'Instagram · Facebook · TikTok · Pinterest · Google',
-    content: [
-      [
-        '30',
-        'publicaciones al mes'
-      ],
-      [
-        '15 s',
-        'por vídeo'
-      ]
-    ],
-    popular: true,
-    features: [
-      '1 publicación al día en Instagram, Facebook, TikTok y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 15 segundos.',
-      'Google Business Profile gestionado por nuestro equipo.',
-      'Respondemos los comentarios de las plataformas incluidas en tu plan.',
-      'Gestionamos los mensajes privados para ayudarte a generar más reservas y oportunidades.',
-      'Gestión y respuesta de reseñas en Google.',
-      'Derivación de clientes potenciales a tu teléfono, WhatsApp o canal de contacto preferido.',
-      'Informe mensual de actividad y visibilidad local.',
-      'Todo lo incluido en Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.'
-    ]
-  },
-  {
-    name: 'Scale',
-    price: '497',
-    tagline: 'Todo lo del Growth más LinkedIn, X y YouTube con vídeos de 30 segundos, optimización para ChatGPT y buscadores y SEO continuo.',
-    networks: 'Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google',
-    content: [
-      [
-        '30',
-        'publicaciones al mes'
-      ],
-      [
-        '30 s',
-        'por vídeo'
-      ]
-    ],
-    features: [
-      '1 publicación al día en Instagram, Facebook, TikTok, LinkedIn, X, YouTube y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 30 segundos.',
-      'Optimización para buscadores con Inteligencia Artificial, como ChatGPT.',
-      'Posicionamiento SEO continuo de tu página web.',
-      'Adaptación del contenido para LinkedIn, X y YouTube.',
-      'Google Business Profile gestionado por nuestro equipo.',
-      'Gestión y respuesta de reseñas en Google.',
-      'Gestión prioritaria de comentarios y mensajes privados.',
-      'Datos estructurados para facilitar la comprensión de tu negocio por parte de buscadores.',
-      'Informe mensual de posicionamiento y visibilidad.',
-      'Todo lo incluido en Growth y Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting.'
-    ]
-  }
-]
-
 const services = [
-  { icon: Globe2, title: 'Web con carta y bot de IA incluida en Growth', text: 'Web profesional con carta, horarios y contacto. El bot responde información general cuando no estás disponible; también puedes contestar desde el móvil con la app DANIA.' },
-  { icon: Sparkles, title: 'Publicaciones sobre carta, equipo y ambiente', text: 'Desde Growth creamos, revisamos y publicamos contenido sobre platos, menús, equipo, eventos y novedades del restaurante.' },
-  { icon: MapPin, title: 'Ficha de Google y reseñas desde Growth', text: 'Gestionamos tu perfil de empresa y respondemos reseñas para mantener información útil y actualizada.' },
-  { icon: MessageCircle, title: 'Comentarios, mensajes y consultas', text: 'Gestionamos la conversación y derivamos las consultas a tu teléfono, WhatsApp o canal de contacto preferido.' },
-  { icon: Star, title: 'Respuestas a reseñas con tu tono', text: 'Respondemos reseñas y comentarios de acuerdo con la información y el tono que nos facilites.' },
-  { icon: Search, title: 'SEO continuo con Scale', text: 'Con Scale trabajamos la web y sus datos estructurados para facilitar su comprensión por buscadores.' },
-]
-
-const faqs = [
-  ['¿Cómo puede Dania360 ayudar a mi restaurante?', 'Hacemos que tu restaurante tenga una presencia profesional y constante en la web, las redes sociales y Google. Así aumentan las posibilidades de que más personas te encuentren, confíen y contacten o reserven.'],
-  ['¿Qué hace una agencia de marketing para restaurantes?', 'Planifica y publica el contenido del restaurante, atiende comentarios y mensajes, cuida la ficha de Google y las reseñas y mantiene la carta, los horarios y la forma de reservar iguales en todos los canales. En Dania360, Growth incluye además la web con bot de IA. Tu equipo confirma platos, precios, alérgenos y reservas.'],
-  ['¿Qué redes sociales debe usar un restaurante?', 'Instagram suele ser la base para platos, ambiente y stories del día; TikTok sirve para vídeos cortos de cocina y sala; Facebook ayuda con el público local y los eventos, y Pinterest con ideas de celebraciones y postres. Además, la ficha de Google es donde muchos clientes comparan horarios, carta y reseñas. Growth incluye las cuatro redes y la ficha de Google.'],
-  ['¿Qué estrategias de marketing funcionan mejor en un restaurante?', 'Las que dan información fiable y constante: carta y horarios actualizados en web, Google y redes, un contenido al día con platos y equipo reales, reseñas respondidas, mensajes que llegan al canal de reservas y un calendario con temporada y eventos. No prometemos una cifra de reservas: revisamos cada mes qué contenido genera consultas.'],
-  ['¿Cuánto cuesta una agencia de marketing para restaurantes?', 'Depende de lo que incluya cada propuesta. En Dania360, Growth cuesta 297 € al mes con 30 publicaciones, mensajes, reseñas, ficha de Google, web y bot de IA, y Scale cuesta 497 € al mes, sin permanencia. La inversión en anuncios no está incluida en ningún plan, así que conviene comparar propuestas con el mismo alcance.'],
-  ['¿Gestionáis publicidad pagada?', 'No. En este momento nuestros planes se centran en presencia orgánica, contenido, web, Google Business Profile, reputación y posicionamiento. El presupuesto de tu plan no se destina a anuncios.'],
-  ['¿Necesito tener ya una página web?', 'No. Growth, por 297 €/mes, incluye una web profesional con bot de IA, dominio .com, hosting y una actualización mensual. Si ya tienes una web compatible, revisamos cómo gestionarla. El bot atiende información general y tú puedes contestar desde la app DANIA; no confirma reservas ni disponibilidad de mesas sin el sistema o la validación del restaurante.'],
-  ['¿Ayudáis a aparecer en Google y Google Maps?', 'Sí. Desde Growth trabajamos Google Business Profile, publicaciones y reseñas. Scale añade posicionamiento SEO continuo y optimización para buscadores con IA como ChatGPT.'],
-  ['¿Garantizáis un número concreto de reservas?', 'No sería serio prometer una cifra exacta. Nuestro trabajo es aumentar tu visibilidad, mejorar tu imagen y crear más oportunidades de contacto. Los resultados dependen de la zona, la propuesta, la competencia y el tiempo de trabajo.'],
-  ['¿Tengo que crear yo las fotos, vídeos y textos?', 'Necesitaremos la información y el material real que quieras compartir. También creamos imágenes y contenido con IA, y nuestro equipo revisa y adapta cada pieza antes de publicarla.'],
-  ['¿Hay permanencia?', 'No. El servicio es mensual y puedes cancelar cuando quieras. No hay contratos largos ni gastos ocultos.'],
-  ['¿Cómo empezamos?', 'Nos escribes por WhatsApp, conocemos tu restaurante y te recomendamos el plan que tenga sentido. Después conectamos tus canales y preparamos el calendario de trabajo.'],
-  ['¿Cuánto cuesta la gestión de redes sociales para un restaurante?', 'La gestión de redes sociales empieza en Growth por 297 € al mes; Scale cuesta 497 € al mes. Starter cuesta 99 € al mes e incluye web, chat y kit QR de reseñas, pero no gestión de redes sociales.'],
-  ['¿Cómo medís si la estrategia genera oportunidades de reserva?', 'Seguimos llamadas, conversaciones por WhatsApp, clics para reservar, solicitudes de indicaciones y consultas desde Google. También analizamos qué contenidos impulsan visitas a la carta, guardados, compartidos y contactos con intención real.'],
-  ['¿Podéis promocionar la carta, menús, eventos y pedidos online?', 'Sí. El calendario puede incluir platos, menús de temporada, eventos, novedades y llamadas a reservar o pedir. Enlazamos los canales de reserva o pedido que ya utilice el restaurante, pero no gestionamos la operativa interna de cocina, sala o reparto.'],
+ {icon:Globe2,title:'Web con carta desde Starter',text:'Página nueva o migrada, con dominio propio, alojamiento y mantenimiento. Pides los cambios a DANIA.'},
+ {icon:Search,title:'SEO profesional desde Starter',text:'Una página por servicio, alta en buscadores y mejoras mensuales para trabajar la visibilidad del restaurante.'},
+ {icon:MapPin,title:'Google y Maps desde Starter',text:'Ficha analizada y gestionada, con una publicación semanal al conectarla y cinco fichas QR para pedir reseñas.'},
+ {icon:MessageCircle,title:'Atención con IA con Growth',text:'Chat web, mensajes y comentarios de Instagram y Facebook. Tú también puedes contestar desde la app.'},
+ {icon:Star,title:'Reseñas con reglas claras',text:'Growth contesta las de 4 y 5 estrellas automáticamente. Las de 1 a 3 requieren tu visto bueno previo.'},
+ {icon:Sparkles,title:'Scale',text:'Anuncios en Instagram y Facebook con 100 USD de inversión mensual y ocho piezas: cuatro vídeos de 30 segundos y cuatro imágenes.'},
 ]
 
 // Iconos de WhatsApp y de confirmación como máscaras CSS: el dibujo se define una
@@ -217,9 +116,9 @@ function Hero() {
       <nav className="seo-breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">›</span><a href="/gestion-redes-sociales/">Gestión de redes sociales</a><span aria-hidden="true">›</span><span aria-current="page">Restaurantes</span></nav>
       <span className="eyebrow"><i /> Especialistas en restaurantes</span>
       <h1>Marketing para restaurantes{' '}<em>en redes sociales</em></h1>
-      <p>Somos la agencia de marketing para restaurantes que publica tu carta cada día en Instagram, Facebook, TikTok y Pinterest, atiende los mensajes y envía las peticiones de reserva al canal que confirma tu equipo.</p>
-      <div className="hero-offer"><span>Growth</span><strong>297 <small>€/mes</small></strong><p>Redes, web con carta y bot de IA incluidos.</p></div>
-      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer" data-cta="restaurant-hero"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#growth">Qué incluye Growth por 297 €/mes</a></div>
+      <p>Presentamos tu restaurante en una web y en Google desde Starter. Con Growth, la IA atiende consultas en web, Instagram y Facebook; tu equipo confirma mesas, disponibilidad y alérgenos.</p>
+      <div className="hero-offer"><span>Growth</span><strong>299 <small>€/mes</small></strong><p>Web con carta, SEO y atención con IA.</p></div>
+      <div className="hero-actions"><a className="button button-primary" href={waLink()} target="_blank" rel="noreferrer" data-cta="restaurant-hero"><WhatsAppIcon /> Pide tu auditoría gratis <ArrowRight size={18} /></a><a className="button button-ghost" href="#growth">Qué incluye Growth por 299 €/mes</a></div>
       <small className="cta-note">Revisamos tu presencia actual · Sin compromiso</small>
       <div className="trust-row"><span><Check /> Sin permanencia</span><span><Check /> Todo gestionado</span><span><Check /> Contenido revisado</span></div>
     </div><PhoneDemo /></div>
@@ -237,7 +136,7 @@ function PhoneDemo() {
       <p className="chat__head"><MessageCircle aria-hidden="true" /> Mensajes · Reservas</p>
       <ol className="chat__list" data-cycle="stack" data-ms="1700">{chat.map(([who, text], index) => who === 'typing' ? <li className="chat__typing" data-typing="" key={index} aria-hidden="true"><i /><i /><i /></li> : <li className={`chat__msg chat__msg--${who}`} key={index}>{text}</li>)}</ol>
     </div>
-    <figcaption>Propuesta visual de Dania360. No corresponde a un restaurante real.</figcaption>
+    <figcaption>Ideas ilustrativas para tu equipo. Growth atiende consultas con IA; no incluye una cuota de publicaciones. No corresponde a un restaurante real.</figcaption>
   </figure>
 }
 
@@ -280,7 +179,7 @@ function Board() {
           <div><dt>Qué servimos</dt><dd>Ingredientes y descripción que confirma cocina.</dd></div>
           <div><dt>Cuándo se ofrece</dt><dd>Días, turnos y condiciones vigentes.</dd></div>
           <div><dt>Cómo consultar</dt><dd>El canal que atiende el restaurante para preguntas y reservas.</dd></div>
-        </dl><a href="/recursos/que-publicar-redes-sociales-restaurante/#cambios-carta">Ver cómo corregimos un menú publicado</a><p className="plate-preview__note">Propuesta visual de Dania360. No corresponde a un restaurante real.</p></div>
+        </dl><a href="/recursos/que-publicar-redes-sociales-restaurante/#cambios-carta">Ver cómo corregimos un menú publicado</a><p className="plate-preview__note">Ideas ilustrativas para tu equipo. Growth atiende consultas con IA; no incluye una cuota de publicaciones. No corresponde a un restaurante real.</p></div>
         <a className="wa-link" href={waLink('Hola, quiero que preparéis el calendario de publicaciones de mi restaurante. Mi ciudad y el enlace a mi carta son:')} target="_blank" rel="noreferrer" data-cta="restaurant-board">Quiero mi calendario de publicaciones</a>
       </aside>
     </div>
@@ -288,29 +187,29 @@ function Board() {
 }
 
 function Networks() {
-  return <section className="section networks-section" id="redes" aria-labelledby="networks-title"><div className="section-heading"><span>Mejores redes sociales para restaurantes</span><h2 id="networks-title">Redes sociales para restaurantes: qué publicar en cada una.</h2><p>Growth publica a diario en Instagram, Facebook, TikTok y Pinterest y gestiona tu Perfil de Empresa en Google. Scale añade LinkedIn, X y YouTube, con vídeos de 30 segundos.</p></div>
+  return <section className="section networks-section" id="redes" aria-labelledby="networks-title"><div className="section-heading"><span>Mejores redes sociales para restaurantes</span><h2 id="networks-title">Redes sociales para restaurantes: cómo atender cada consulta.</h2><p>Growth responde a consultas en web, Instagram y Facebook. La ficha de Google se trabaja desde Starter. Scale incluye ocho piezas de contenido al mes.</p></div>
     <ul className="network-grid">{networks.map(([Icon, name, text], index) => <li className="tilt reveal" style={{ '--i': index }} key={name}><Icon aria-hidden="true" /><h3>{name}</h3><p>{text}</p></li>)}</ul>
   </section>
 }
 
 function GrowthSummary() {
-  return <section className="sector-offer" id="growth" aria-labelledby="growth-title"><div className="sector-offer__inner">
-    <div><p className="sector-offer__label">Growth · Sin permanencia</p><h2 id="growth-title">Redes, carta en la web y bot de IA para tu restaurante</h2><p>El servicio parte de lo que sirves de verdad: carta vigente, horarios, ambiente y forma de reservar. Las consultas llegan al canal que ya utilizas, sin cambiar la operativa de sala.</p><p className="sector-offer__price"><strong>297 €</strong><span>/mes</span></p></div>
+  return <section className="sector-offer" id="resumen-growth" aria-labelledby="growth-title"><div className="sector-offer__inner">
+    <div><p className="sector-offer__label">Growth · Sin permanencia</p><h2 id="growth-title">Carta en la web y atención con IA para tu restaurante</h2><p>El servicio parte de lo que sirves de verdad: carta vigente, horarios, ambiente y forma de reservar. Las consultas llegan al canal que ya utilizas, sin cambiar la operativa de sala.</p><p className="sector-offer__price"><strong>299 €</strong><span>/mes</span></p></div>
     <div><dl>
-      <div><dt>Publicaciones y atención de mensajes</dt><dd>1 publicación al día (30 al mes) en Instagram, Facebook, TikTok y Pinterest, con vídeos de 15 segundos. Comentarios y mensajes de los canales incluidos, derivados a tu contacto.</dd></div>
-      <div><dt>Web profesional con bot de IA incluido</dt><dd>Chat automático cuando no estás disponible y respuesta desde el móvil con la app DANIA. Dominio .com, hosting, una actualización web mensual y kit QR de reseñas.</dd></div>
-      <div><dt>Perfil de Empresa en Google y reseñas</dt><dd>Gestión de la ficha y respuesta a reseñas, con informe mensual de actividad y visibilidad local.</dd></div>
+      <div><dt>Atención de mensajes con IA</dt><dd>Atención con IA en el chat web, mensajes y comentarios de Instagram y Facebook, incluido Messenger. WhatsApp con IA está en preparación. Puedes contestar desde la app DANIA.</dd></div>
+      <div><dt>Web profesional con bot de IA incluido</dt><dd>Chat automático cuando no estás disponible y respuesta desde el móvil con la app DANIA. Dominio propio, alojamiento, cambios solicitados a DANIA y cinco fichas QR para reseñas.</dd></div>
+      <div><dt>Perfil de Empresa en Google y reseñas</dt><dd>Ficha gestionada desde Starter, con una publicación semanal al conectarla. Growth contesta reseñas de 4 y 5 estrellas automáticamente; las de 1 a 3 requieren tu aprobación.</dd></div>
     </dl><p className="sector-offer__scope">No incluye inversión en anuncios, una sesión de fotografía presencial ni un motor de reservas a medida. El restaurante confirma reservas, disponibilidad y alérgenos; el chat no sustituye esa confirmación.</p><a href="#planes">Ver los planes y el alcance completo</a></div>
   </div></section>
 }
 
 function HowItWorks() {
-  const steps = [['01', 'Revisamos carta y canales actuales', 'Analizamos tu propuesta, zona, horarios, canales y forma de recibir reservas o pedidos.'], ['02', 'Preparamos web y calendario de contenidos', 'Organizamos la información de la web y, desde Growth, el calendario y la ficha de Google según el plan elegido.'], ['03', 'Publicamos y revisamos las consultas', 'Publicamos contenido aprobado, atendemos comentarios y mensajes y revisamos las consultas para ajustar el trabajo siguiente.']]
+  const steps = [['01', 'Revisamos carta y canales actuales', 'Analizamos tu propuesta, zona, horarios, canales y forma de recibir reservas o pedidos.'], ['02', 'Preparamos web y atención con IA', 'Organizamos la web y la ficha de Google con Starter. Con Growth configuramos las respuestas con información confirmada del restaurante.'], ['03', 'Atendemos y revisamos las consultas', 'Atendemos comentarios y mensajes con Growth. Tu equipo confirma las reservas y puede continuar las conversaciones desde la app.']]
   return <section className="section how" id="como-funciona"><div className="section-heading"><span>Cómo funciona</span><h2>Cómo organizamos el contenido y la presencia digital de tu restaurante.</h2><p>Partimos de tu carta, tus horarios y el material autorizado para publicar información útil y facilitar la consulta o reserva.</p></div><div className="steps">{steps.map(([num, title, text], index) => <article className="reveal" style={{ '--i': index }} key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
 }
 
 function Services() {
-  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Marketing digital para restaurantes: web, redes sociales y Google conectados.</h2><p>Growth y Scale incluyen publicaciones, mensajes y ficha de Google. Scale añade SEO continuo. La web con chat y el kit QR están incluidos desde Starter, sin gestión de redes.</p></div><div className="service-grid">{services.map((service, index) => {
+  return <section className="section services" id="servicios"><div className="section-heading"><span>Todo conectado</span><h2>Marketing digital para restaurantes: web, redes sociales y Google conectados.</h2><p>Starter cubre web, SEO y Google. Growth añade atención con IA. Scale incluye anuncios y ocho piezas al mes.</p></div><div className="service-grid">{services.map((service, index) => {
     const ServiceIcon = service.icon
     return <article className="reveal" style={{ '--i': index % 3 }} key={service.title}><ServiceIcon /><h3>{service.title}</h3><p>{service.text}</p></article>
   })}</div></section>
@@ -322,17 +221,12 @@ function RestaurantContentExample() {
     ['02', 'Experiencia real', 'Un vídeo breve muestra el ambiente, el equipo o el servicio con material autorizado. La publicación indica dónde está el local y cuándo abre.'],
     ['03', 'Reserva sin fricción', 'Cada contenido dirige a la vía de reserva o pedido que ya utilice el restaurante. Revisamos clics, consultas y horarios para mejorar el calendario siguiente.'],
   ]
-  return <section className="section how" aria-labelledby="restaurant-example-title"><div className="section-heading"><span>Ejemplo de calendario gastronómico</span><h2 id="restaurant-example-title">Qué publicar en las redes sociales de un restaurante para que te elijan.</h2><p>Los temas se ajustan a la carta, los horarios y el material real de cada local. Antes de publicar, el restaurante confirma platos, precios, disponibilidad y condiciones.</p></div><div className="steps">{examples.map(([num, title, text], index) => <article className="reveal" style={{ '--i': index }} key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p>{num === '01' && <p><a className="step-guide" href="/recursos/que-publicar-redes-sociales-restaurante/#cambios-carta">Cómo corregir un menú ya publicado</a></p>}</article>)}</div></section>
-}
-
-function PlanCard({ plan }) {
-  const message = `Hola, tengo un restaurante en [ciudad] y quiero solicitar la auditoría gratuita. Me interesa el plan ${plan.name} de Dania360. ¿Podéis revisar mi situación y orientarme?`
-  return <article className={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>{plan.popular && <span className="popular-label">Redes, web y bot de IA</span>}<div className="plan-head"><span>Plan</span><h3>{plan.name}</h3><p>{plan.tagline}</p></div><div className="price"><small>€</small>{plan.price}<span>/mes</span></div><div className="content-stats">{plan.content.map(([value, label]) => <div key={label}><b>{value}</b><span>{label}</span></div>)}</div><p className="networks">{plan.networks}</p><ul>{plan.features.map(feature => <li key={feature}><Check /> <span>{feature}</span></li>)}</ul><a className={`button ${plan.popular ? 'button-primary' : 'button-outline'}`} href={waLink(message)} target="_blank" rel="noreferrer"><WhatsAppIcon /> Consultar este plan</a></article>
+  return <section className="section how" aria-labelledby="restaurant-example-title"><div className="section-heading"><span>Ideas de contenido para tu equipo</span><h2 id="restaurant-example-title">Qué publicar en las redes sociales de un restaurante para que te elijan.</h2><p>Estas ideas no son una cuota de publicaciones de Growth. Los temas se ajustan a la carta, los horarios y el material real de cada local. Antes de publicar, el restaurante confirma platos, precios, disponibilidad y condiciones.</p></div><div className="steps">{examples.map(([num, title, text], index) => <article className="reveal" style={{ '--i': index }} key={num}><b>{num}</b><Utensils /><h3>{title}</h3><p>{text}</p>{num === '01' && <p><a className="step-guide" href="/recursos/que-publicar-redes-sociales-restaurante/#cambios-carta">Cómo corregir un menú ya publicado</a></p>}</article>)}</div></section>
 }
 
 function RestaurantContract() {
   return <section className="section services" id="contratar-marketing-restaurante" aria-labelledby="restaurant-contract-title">
-    <div className="section-heading"><span>Marketing para restaurantes</span><h2 id="restaurant-contract-title">Agencia de marketing para restaurantes: qué delegas y qué confirma tu equipo.</h2><p>Al comparar una agencia de marketing para restaurantes, pide que la propuesta distinga contenido, atención de mensajes y publicidad. Por 297 €/mes, Growth reúne la gestión orgánica de redes sociales y del perfil de Google con una web y un bot de IA.</p></div>
+    <div className="section-heading"><span>Marketing para restaurantes</span><h2 id="restaurant-contract-title">Agencia de marketing para restaurantes: qué delegas y qué confirma tu equipo.</h2><p>Al comparar una agencia de marketing para restaurantes, pide que la propuesta distinga contenido, atención de mensajes y publicidad. Por 299 €/mes, Growth reúne todo Starter con atención con IA en web, Instagram y Facebook.</p></div>
     <div className="service-grid">
       <article><CalendarDays /><h3>Carta, horarios y novedades</h3><p>Tu equipo confirma platos disponibles, precios, turnos y cambios de carta. Con esa información preparamos el contenido y revisamos dónde debe actualizarse. Las imágenes deben corresponder al material autorizado del negocio.</p></article>
       <article><MessageCircle /><h3>Consultas y solicitudes de reserva</h3><p>Atendemos mensajes de los canales incluidos y derivamos la solicitud al contacto del restaurante. Sala confirma mesas, grupos, disponibilidad y condiciones. Una conversación o un clic todavía no es una reserva.</p></article>
@@ -344,7 +238,7 @@ function RestaurantContract() {
 }
 
 function Pricing() {
-  return <section className="section pricing" id="planes"><div className="section-heading"><span>Planes mensuales</span><h2>Precio del marketing para restaurantes: gestión de redes desde 297 €/mes.</h2><p>Growth (297 €) y Scale (497 €) gestionan tus redes. Starter (99 €) ofrece web, chat y kit QR de reseñas, pero no gestión de redes sociales. Sin permanencia.</p></div><div className="plans">{plans.map(plan => <PlanCard plan={plan} key={plan.name} />)}</div><p className="currency-note">Precios mensuales expresados en euros (EUR).</p></section>
+ return <div dangerouslySetInnerHTML={{__html:renderPackages({context:'mi restaurante'})}} />
 }
 
 function Resources() {

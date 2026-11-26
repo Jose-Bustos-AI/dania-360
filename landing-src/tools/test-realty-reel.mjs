@@ -7,7 +7,7 @@ const landing = readFileSync(new URL('gestion-redes-sociales-inmobiliarias/index
 const reel = landing.match(/<aside class="reel-outline"[\s\S]*?<\/aside>/)?.[0];
 const textFile = readFileSync(new URL('gestion-redes-sociales-inmobiliarias/guion-reel-inmobiliario-15-segundos.txt', root), 'utf8');
 
-test('tres escenas contiguas suman exactamente los 15 segundos de Growth', () => {
+test('tres escenas contiguas suman exactamente los 15 segundos del ejemplo editorial', () => {
   assert.ok(reel);
   const scenes = [...reel.matchAll(/data-start="(\d+)" data-end="(\d+)"/g)].map(([, start, end]) => [Number(start), Number(end)]);
   assert.deepEqual(scenes, [[0, 5], [5, 10], [10, 15]]);
@@ -38,12 +38,12 @@ test('muestra y descarga están conectadas con el contenido y la guía', () => {
 });
 test('título, descripción y H1 orientados a marketing inmobiliario; canonical y precios conservados', () => {
   assert.match(landing, /<title>Marketing inmobiliario: redes sociales para inmobiliarias \| Dania360<\/title>/);
-  assert.match(landing, /<meta name="description" content="Marketing inmobiliario en redes sociales: inmuebles, propietarios y consultas, con web y bot de IA por 297 €\/mes\. Sin permanencia\. Auditoría gratis\.">/);
+  assert.match(landing, /<meta name="description" content="Marketing para inmobiliarias:[^"<>]*199 €\/mes[^"<>]*299 €\/mes[^"<>]*IA[^"<>]*">/);
   assert.match(landing.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/)[1].replace(/<[^>]+>/g, ''), /marketing (?:inmobiliario|para inmobiliarias)/i);
   assert.equal([...landing.matchAll(/<h1\b/gi)].length, 1);
   assert.match(landing, /<link rel="canonical" href="https:\/\/dania360.com\/gestion-redes-sociales-inmobiliarias\/">/);
   const graph = JSON.parse(landing.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
-  assert.deepEqual(graph.find(node => node['@type'] === 'Service').offers.map(offer => Number(offer.price)), [297, 497]);
+  assert.deepEqual(graph.find(node => node['@type'] === 'Service').offers.map(offer => Number(offer.price)), [199, 299, 499]);
   const sitemap = readFileSync(new URL('sitemap.xml', root), 'utf8');
   const landingLastmod = sitemap.match(/<loc>https:\/\/dania360\.com\/gestion-redes-sociales-inmobiliarias\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)[1];
   assert.equal(graph.find(node => node['@type'] === 'WebPage').dateModified, landingLastmod);

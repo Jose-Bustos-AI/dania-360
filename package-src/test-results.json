@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-26",
+  "checks": [
+    {
+      "check": "sector-build",
+      "exitCode": 0
+    },
+    {
+      "check": "sync",
+      "exitCode": 0
+    },
+    {
+      "check": "sectors",
+      "exitCode": 0
+    },
+    {
+      "check": "site-seo",
+      "exitCode": 0
+    },
+    {
+      "check": "original-sectors",
+      "exitCode": 0
+    },
+    {
+      "check": "five-offers",
+      "exitCode": 0
+    },
+    {
+      "check": "editorial-tools",
+      "exitCode": 0
+    },
+    {
+      "check": "restaurant",
+      "exitCode": 0
+    },
+    {
+      "check": "restaurant-lint",
+      "exitCode": 0
+    },
+    {
+      "check": "packages",
+      "exitCode": 0
+    }
+  ],
+  "followUp": "Scale disponible, detalle de prestaciones heredadas y WhatsApp con IA en preparación"
+}

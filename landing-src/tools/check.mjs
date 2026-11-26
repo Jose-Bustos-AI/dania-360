@@ -113,11 +113,8 @@ comprobar(
     sitio.landing.og.description === sitio.landing.description,
 );
 comprobar(
-  'La description tiene entre 140 y 160 caracteres e indica Growth por 297 €/mes, sin permanencia y auditoría gratis',
-  sitio.landing.description.length >= 140 && sitio.landing.description.length <= 160 &&
-    sitio.landing.description.includes('297 €/mes') &&
-    /sin permanencia/i.test(sitio.landing.description) && /auditoría gratis/i.test(sitio.landing.description) &&
-    !/99\s*€/.test(sitio.landing.description),
+  'La description identifica web desde Starter y atención con IA en Growth',
+  sitio.landing.description.length <= 170 && sitio.landing.description.includes('199 €/mes') && sitio.landing.description.includes('299 €/mes') && /IA/.test(sitio.landing.description),
 );
 comprobar('Twitter Card en formato summary_large_image', html.includes('name="twitter:card" content="summary_large_image"'));
 comprobar('Twitter Card declara imagen', html.includes('name="twitter:image"'));
@@ -169,12 +166,12 @@ comprobar(
   service?.provider?.name === 'Dania360',
 );
 comprobar(
-  'Service publica solo los planes que incluyen gestión de redes sociales',
-  planes.planes.filter((plan) => plan.id !== 'starter').every((plan) =>
+  'Service ofrece los tres planes disponibles',
+  planes.planes.filter((plan) => plan.disponible).every((plan) =>
     service?.hasOfferCatalog?.itemListElement?.some(
       (oferta) => oferta.name === plan.nombre && oferta.price === String(plan.precio),
     ),
-  ) && service?.hasOfferCatalog?.itemListElement?.length === 2,
+  ) && service?.hasOfferCatalog?.itemListElement?.length === 3,
 );
 comprobar(
   'FAQPage tiene tantas preguntas como el acordeón',
@@ -213,7 +210,7 @@ grupo('Planes');
 for (const plan of planes.planes) {
   comprobar(
     `El plan ${plan.nombre} aparece con su precio (${plan.precio} ${planes.moneda})`,
-    html.includes(`>${plan.nombre}</h3>`) && html.includes(`>${plan.precio}</span>`),
+    html.includes(`>${plan.nombre}</h3>`) && html.includes(`>${plan.precio} €</strong>`),
   );
   comprobar(
     `El plan ${plan.nombre} lista sus ${plan.incluye.length} características`,
@@ -223,18 +220,12 @@ for (const plan of planes.planes) {
   );
   comprobar(
     `El botón del plan ${plan.nombre} abre WhatsApp con su mensaje`,
-    html.includes(`data-plan="${plan.id}"`) &&
-      html.includes(encodeURIComponent(`plan ${plan.nombre} de ${plan.precio}`)),
+    plan.disponible ? (html.includes(`data-plan="${plan.id}"`) && html.includes(encodeURIComponent(`plan ${plan.nombre} de ${plan.precio}`))) : (!html.includes(`data-plan="${plan.id}"`) && html.includes('Este plan todavía no está disponible')),
   );
 }
 
-const ordenPlanes = [...html.matchAll(/<h3 class="sl-plan__nombre" id="plan-([a-z]+)">/g)].map((m) => m[1]);
-comprobar(
-  'El plan destacado (Growth) aparece el primero y una sola vez cada plan',
-  ordenPlanes[0] === planes.planes.find((p) => p.destacado)?.id &&
-    ordenPlanes.length === planes.planes.length && new Set(ordenPlanes).size === planes.planes.length,
-  ordenPlanes.join(', '),
-);
+const ordenPlanes = [...html.matchAll(/data-package="([a-z]+)"/g)].map(m=>m[1]);
+comprobar('Una tarjeta por plan, en el orden de la imagen aprobada', JSON.stringify(ordenPlanes) === JSON.stringify(planes.planes.map(p=>p.id)));
 comprobar('Se muestra el microcopy de condiciones', html.includes(planes.microcopy));
 
 /* ---------------------------------------------------------------- WhatsApp */

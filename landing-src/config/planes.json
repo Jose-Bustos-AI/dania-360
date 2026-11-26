@@ -1,69 +1,88 @@
 {
   "moneda": "EUR",
   "periodo": "mes",
-  "microcopy": "Precios en euros (EUR) · Servicio mensual · Sin permanencia. Las condiciones e impuestos aplicables se comunicarán antes de contratar.",
+  "version": "2026-11-26",
+  "microcopy": "Precios en euros (EUR). Servicio mensual, sin permanencia. Las condiciones e impuestos aplicables se comunicarán antes de contratar.",
   "planes": [
     {
       "id": "starter",
       "nombre": "Starter",
-      "precio": 99,
+      "precio": 199,
       "destacado": false,
-      "etiqueta": null,
-      "descripcion": "Tu página web profesional con chat inteligente, kit QR de reseñas para Google Maps, dominio y hosting incluidos.",
-      "canales": "Web · Chat inteligente · Kit QR de reseñas",
+      "etiqueta": "Que te encuentren",
+      "descripcion": "Tu web, y que te encuentren en Google, Maps y ChatGPT.",
+      "canales": "Tu web · Google · Google Maps · ChatGPT, Claude y Gemini",
       "incluye": [
-        "Página web profesional: nueva, inspirada en una referencia que elijas o migrada desde tu web actual.",
-        "Mantenimiento y optimización para buscadores de tu página web.",
-        "Chat en tu página web: responde a tus clientes desde tu móvil con la app DANIA.",
-        "Modo automático: la Inteligencia Artificial responde por ti cuando no estás disponible.",
-        "Kit QR de reseñas para Google Maps: consigue más valoraciones de tus clientes.",
-        "1 actualización mensual de tu página web.",
-        "Dominio .com incluido.",
-        "Hosting incluido, sin gastos ocultos."
+        "Tu página web hecha con IA: nueva o migrada desde la que ya tienes.",
+        "Tu dominio propio, alojamiento y mantenimiento incluidos.",
+        "Los cambios que necesites en tu web: se los pides a DANIA y los hace en minutos.",
+        "Web preparada para buscadores: una página por cada servicio y alta en los buscadores.",
+        "Trabajamos para que te recomienden ChatGPT, Claude, Gemini y otros asistentes con IA.",
+        "Posicionamiento SEO profesional: mejoras en tu web cada mes para aparecer en Google y otros buscadores.",
+        "Tu ficha de Google Business y Google Maps analizada y gestionada, con una publicación semanal en cuanto la conectas.",
+        "Tu web y tu ficha de Google conectadas, con los mismos servicios y datos.",
+        "Análisis de tu posicionamiento al empezar e informe cada mes de cómo avanzas.",
+        "Cinco fichas QR para conseguir reseñas.",
+        "La app DANIA: tus analíticas y tus visitas."
       ],
-      "boton": "Quiero información del Starter"
+      "pendiente": [
+        "Apple Maps: tu negocio también en los iPhone.",
+        "Correo con tu dominio: una cuenta."
+      ],
+      "boton": "Investigar mi negocio",
+      "disponible": true
     },
     {
       "id": "growth",
       "nombre": "Growth",
-      "precio": 297,
+      "precio": 299,
       "destacado": true,
-      "etiqueta": "Redes, web y bot de IA",
-      "descripcion": "Todo lo del Starter más tus redes sociales activas cada día con vídeos de 15 segundos y comentarios, mensajes y reseñas gestionados.",
-      "canales": "Instagram · Facebook · TikTok · Pinterest · Google",
+      "etiqueta": "La que recomendamos",
+      "descripcion": "DANIA atiende a tus clientes por tus canales, con IA.",
+      "canales": "Chat de tu web · Instagram · Facebook · Messenger · WhatsApp (en preparación)",
       "incluye": [
-        "1 publicación al día en Instagram, Facebook, TikTok y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 15 segundos.",
-        "Google Business Profile gestionado por nuestro equipo.",
-        "Respondemos los comentarios de las plataformas incluidas en tu plan.",
-        "Gestionamos los mensajes privados para ayudarte a generar más reservas y oportunidades.",
-        "Gestión y respuesta de reseñas en Google.",
-        "Derivación de clientes potenciales a tu teléfono, WhatsApp o canal de contacto preferido.",
-        "Informe mensual de actividad y visibilidad local.",
-        "Todo lo incluido en Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting."
+        "Todo lo incluido en Starter: web, dominio, alojamiento, mantenimiento, SEO y ficha de Google.",
+        "Vendedora y recepcionista con IA en tu web: atiende a tus clientes a cualquier hora, los 365 días. Tú puedes contestar desde la app cuando quieras.",
+        "Contesta tus mensajes de Instagram a cualquier hora.",
+        "Contesta los comentarios de tu Instagram.",
+        "Contesta tus mensajes de Facebook a través de Messenger.",
+        "Contesta los comentarios de tu Facebook.",
+        "Tú solo conectas tus cuentas: DANIA hace el resto.",
+        "Todas tus conversaciones en la app: las ves y contestas desde ahí cuando quieras.",
+        "Reseñas de Google atendidas por DANIA: las de 4 y 5 estrellas, solas; las de 1 a 3, solo con tu visto bueno previo."
       ],
-      "boton": "Quiero información del Growth"
+      "pendiente": [
+        "Atención de mensajes de WhatsApp con IA: en preparación.",
+        "Contesta tu correo: responde sola y lo puedes apagar.",
+        "Más cuentas de correo con tu dominio: de 2 a 5.",
+        "Contesta tus SMS.",
+        "Contesta las reseñas de 1 a 3 estrellas sin tu visto bueno, si lo eliges."
+      ],
+      "boton": "Investigar mi negocio",
+      "disponible": true
     },
     {
       "id": "scale",
       "nombre": "Scale",
-      "precio": 497,
+      "precio": 499,
       "destacado": false,
-      "etiqueta": null,
-      "descripcion": "Todo lo del Growth más LinkedIn, X y YouTube con vídeos de 30 segundos, optimización para ChatGPT y buscadores y SEO continuo.",
-      "canales": "Instagram · Facebook · TikTok · LinkedIn · X · YouTube · Pinterest · Google",
+      "etiqueta": "Anuncios y contenido",
+      "descripcion": "Anuncios que traen clientes, con tus redes al día.",
+      "canales": "Anuncios en Instagram y Facebook",
       "incluye": [
-        "1 publicación al día en Instagram, Facebook, TikTok, LinkedIn, X, YouTube y Pinterest, los 7 días de la semana (30 al mes), con vídeos de 30 segundos.",
-        "Optimización para buscadores con Inteligencia Artificial, como ChatGPT.",
-        "Posicionamiento SEO continuo de tu página web.",
-        "Adaptación del contenido para LinkedIn, X y YouTube.",
-        "Google Business Profile gestionado por nuestro equipo.",
-        "Gestión y respuesta de reseñas en Google.",
-        "Gestión prioritaria de comentarios y mensajes privados.",
-        "Datos estructurados para facilitar la comprensión de tu negocio por parte de buscadores.",
-        "Informe mensual de posicionamiento y visibilidad.",
-        "Todo lo incluido en Growth y Starter: página web con chat inteligente, kit QR de reseñas, 1 actualización web al mes, dominio .com y hosting."
+        "Todo lo incluido en Growth y Starter: web, dominio, alojamiento, mantenimiento, SEO, ficha de Google y vendedor con IA en el chat web, Instagram, Facebook y Messenger. La atención con IA en WhatsApp está en preparación.",
+        "Publicidad gestionada en Instagram y Facebook, con 100 USD de anuncios incluidos cada mes.",
+        "Ocho piezas al mes: cuatro vídeos de 30 segundos y cuatro imágenes, publicadas en tus redes y usadas en tus anuncios.",
+        "Una campaña para tu negocio, en tu zona, para que te escriban por WhatsApp o te llamen.",
+        "Recargas de anuncios cuando quieras.",
+        "Puedes seguir publicando lo que quieras o pedírselo a DANIA.",
+        "Informe de contactos en la app: llamadas, WhatsApp y chat."
       ],
-      "boton": "Quiero información del Scale"
+      "pendiente": [
+        "Anuncios en TikTok: más adelante."
+      ],
+      "boton": "Investigar mi negocio",
+      "disponible": true
     }
   ]
 }
